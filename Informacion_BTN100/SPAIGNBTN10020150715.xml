@@ -1,0 +1,1130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<gmd:MD_Metadata xmlns:gco="http://www.isotc211.org/2005/gco"
+    xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:gml="http://www.opengis.net/gml"
+    xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <gmd:fileIdentifier>
+        <gco:CharacterString>SPAIGNBTN10020150715</gco:CharacterString>
+    </gmd:fileIdentifier>
+    <gmd:language>
+        <gmd:LanguageCode
+            codeList="./resources/codeList.xml#LanguageCode" codeListValue="spa">spa</gmd:LanguageCode>
+    </gmd:language>
+    <gmd:characterSet>
+        <gmd:MD_CharacterSetCode
+            codeList="./resources/codeList.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+    </gmd:characterSet>
+    <gmd:parentIdentifier gco:nilReason="inapplicable"/>
+    <gmd:hierarchyLevel>
+        <gmd:MD_ScopeCode
+            codeList="./resources/codeList.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+    </gmd:hierarchyLevel>
+    <gmd:hierarchyLevelName gco:nilReason="inapplicable"/>
+    <gmd:contact>
+        <gmd:CI_ResponsibleParty>
+            <gmd:individualName gco:nilReason="inapplicable"/>
+            <gmd:organisationName>
+                <gco:CharacterString>Instituto Geográfico Nacional</gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:positionName gco:nilReason="inapplicable"/>
+            <gmd:contactInfo>
+                <gmd:CI_Contact>
+                    <gmd:address>
+                        <gmd:CI_Address>
+                            <gmd:electronicMailAddress>
+                                <gco:CharacterString>ign@fomento.es</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                    </gmd:address>
+                    <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                            <gmd:linkage>
+                                <gmd:URL>http://www.ign.es</gmd:URL>
+                            </gmd:linkage>
+                        </gmd:CI_OnlineResource>
+                    </gmd:onlineResource>
+                </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+                <gmd:CI_RoleCode
+                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+            </gmd:role>
+        </gmd:CI_ResponsibleParty>
+    </gmd:contact>
+    <gmd:dateStamp>
+        <gco:Date>2015-07-15</gco:Date>
+    </gmd:dateStamp>
+    <gmd:metadataStandardName>
+        <gco:CharacterString>NEM:ISO 19115:2003 + Reglamento (CE) Nº 1205/2008 de Inspire</gco:CharacterString>
+    </gmd:metadataStandardName>
+    <gmd:metadataStandardVersion>
+        <gco:CharacterString>1.2</gco:CharacterString>
+    </gmd:metadataStandardVersion>
+    <gmd:referenceSystemInfo>
+        <gmd:MD_ReferenceSystem>
+            <gmd:referenceSystemIdentifier>
+                <gmd:RS_Identifier>						
+                    <gmd:code>
+                        <gco:CharacterString>http://www.opengis.net/def/crs/EPSG/0/4258</gco:CharacterString>
+                    </gmd:code>
+                </gmd:RS_Identifier>
+            </gmd:referenceSystemIdentifier>
+        </gmd:MD_ReferenceSystem>
+    </gmd:referenceSystemInfo>
+    <gmd:identificationInfo>
+        <gmd:MD_DataIdentification>
+            <gmd:citation>
+                <gmd:CI_Citation>
+                    <gmd:title>
+                        <gco:CharacterString>Base Topográfica Nacional 1:100.000</gco:CharacterString>
+                    </gmd:title>
+                    <gmd:alternateTitle>
+                        <gco:CharacterString>BTN100</gco:CharacterString>
+                    </gmd:alternateTitle>
+                    <gmd:date>
+                        <gmd:CI_Date>
+                            <gmd:date>
+                                <gco:Date>2015-07-15</gco:Date>
+                            </gmd:date>
+                            <gmd:dateType>
+                                <gmd:CI_DateTypeCode
+                                    codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                            </gmd:dateType>
+                        </gmd:CI_Date>
+                    </gmd:date>
+                    <gmd:identifier>
+                        <gmd:RS_Identifier>
+                            <gmd:code>
+                                <gco:CharacterString>BTN100</gco:CharacterString>
+                            </gmd:code>
+                            <gmd:codeSpace>
+                                <gco:CharacterString>http://www.ign.es</gco:CharacterString>
+                            </gmd:codeSpace>
+                        </gmd:RS_Identifier>
+                    </gmd:identifier>
+                    <gmd:presentationForm>
+                        <gmd:CI_PresentationFormCode
+                            codeList="./resources/codeList.xml#CI_PresentationFormCode" codeListValue="mapDigital">mapDigital</gmd:CI_PresentationFormCode>
+                    </gmd:presentationForm>
+                </gmd:CI_Citation>
+            </gmd:citation>
+            <gmd:abstract>
+                <gco:CharacterString>La Base Topográfica Nacional 1:100.000 (BTN100) es la primera base topográfica producida de forma colaborativa entre las dos entidades de referencia a nivel nacional en materia de producción cartográfica, el IGN y el CEGET. La BTN100 es un conjunto de datos geográficos multipropósito que tiene como principal finalidad la producción cartográfica derivada de forma automatizada y la explotación en Sistemas de Información Geográfica (SIG) mediante consultas y análisis. Integra información geográfica de diversas fuentes oficiales. Presenta una estructura de clases de objeto geográfico basadas en los fenómenos representables a la mencionada escala, con geometrías simples (punto, línea y área) y relacionados topológicamente. Los datos abarcan 7 unidades temáticas, las cuales están formadas por varios tipos de objeto geográfico que se almacenan en clases separadas, con sus atributos propios y su geometría. Los datos están actualizados a fecha de Julio de 2015.</gco:CharacterString>
+            </gmd:abstract>
+            <gmd:purpose>
+                <gco:CharacterString>La BTN100 constituye el origen de productos de cartografía digital e impresa relacionados con el Plan Cartográfico Nacional. Es el caso de la Serie C del Centro Geográfico del Ejército (CEGET), y de otras bases de datos de escalas menores del Instituto Geográfico Nacional (IGN) como la Base Cartográfica Nacional 1:200.000 (BCN200) y, a través de ésta, la serie del Mapa Provincial a escala 1:200.000 (MP200) y Mapa Autonómico a escalas entre 1:300.000 y 1:400.000 también del IGN.
+                                                                                                    Asimismo permite proporcionar servicios de análisis del territorio a través del Sistema de Información Geográfica Nacional (SIGNA) y constituye información de base de la Infraestructura de Datos Espaciales de España (IDEE). Del mismo modo satisface los requerimientos para constituir el soporte de planes de infraestructuras y para facilitar la información geográfica que sobre España se requiere en diversos proyectos y organismos europeos como EuroRegionalMap (ERM) y EuroGlobalMap (EGM).
+                                                                                                    A partir de la BTN100, mediante tareas de generalización, simbolización y de detección y resolución de conflictos cartográficos se obtiene la Base Cartográfica Nacional a escala 1:200.000 (BCN200) de utilidad esencialmente cartográfica, que permite obtener productos cartográficos derivados de forma semiautomática.
+                                                                                                    </gco:CharacterString>
+            </gmd:purpose>
+            <gmd:pointOfContact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:individualName gco:nilReason="inapplicable"/>
+                    <gmd:organisationName>
+                        <gco:CharacterString>Instituto Geográfico Nacional (IGN)</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName gco:nilReason="inapplicable"/>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:address>
+                                <gmd:CI_Address>
+                                    <gmd:electronicMailAddress>
+                                    <gco:CharacterString>ign@fomento.es</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                </gmd:CI_Address>
+                            </gmd:address>
+                            <gmd:onlineResource>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                    <gmd:URL>ign@fomento.es</gmd:URL>
+                                    </gmd:linkage>
+                                </gmd:CI_OnlineResource>
+                            </gmd:onlineResource>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                        <gmd:CI_RoleCode
+                            codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:pointOfContact>
+            <gmd:resourceMaintenance>
+                <gmd:MD_MaintenanceInformation>
+                    <gmd:maintenanceAndUpdateFrequency>
+                        <gmd:MD_MaintenanceFrequencyCode
+                            codeList="./resources/codeList.xml#MD_MaintenanceFrequencyCode" codeListValue="notPlanned">notPlanned</gmd:MD_MaintenanceFrequencyCode>
+                    </gmd:maintenanceAndUpdateFrequency>
+                </gmd:MD_MaintenanceInformation>
+            </gmd:resourceMaintenance>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>Hidrografía</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode
+                            codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>GEMET – INSPIRE themes</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                    <gco:Date>2013-12-31</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                    <gmd:CI_DateTypeCode
+                                    codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                            <gmd:identifier gco:nilReason="inapplicable"/>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>Redes de transporte</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode
+                            codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>GEMET – INSPIRE themes</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                    <gco:Date>2013-12-31</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                    <gmd:CI_DateTypeCode
+                                    codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                            <gmd:identifier gco:nilReason="inapplicable"/>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>Nombres Geográficos</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode
+                            codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>GEMET – INSPIRE themes</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                    <gco:Date>2013-12-31</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                    <gmd:CI_DateTypeCode
+                                    codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                            <gmd:identifier gco:nilReason="inapplicable"/>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>ESPAÑA</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode
+                            codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="place">place</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>EuropeanTerritorialUnits</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                    <gco:Date>2013-12-31</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                    <gmd:CI_DateTypeCode
+                                    codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                            <gmd:identifier gco:nilReason="inapplicable"/>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>IGN</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title gco:nilReason="missing"/>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                    <gco:Date>2013-12-31</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType gco:nilReason="missing"/>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                            <gmd:identifier gco:nilReason="inapplicable"/>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>Lugares protegidos</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode
+                            codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>GEMET - INSPIRE themes, version 1.0</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                    <gco:Date>2013-12-31</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                    <gmd:CI_DateTypeCode
+                                    codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                            <gmd:identifier gco:nilReason="inapplicable"/>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>Unidades administrativas</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode
+                            codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>GEMET - INSPIRE themes, version 1.0</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                    <gco:Date>2013-12-31</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                    <gmd:CI_DateTypeCode
+                                    codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                            <gmd:identifier gco:nilReason="inapplicable"/>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>Elevaciones</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode
+                            codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>GEMET - INSPIRE themes, version 1.0</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                    <gco:Date>2013-12-31</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                    <gmd:CI_DateTypeCode
+                                    codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                            <gmd:identifier gco:nilReason="inapplicable"/>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:resourceConstraints>
+                <gmd:MD_Constraints>
+                    <gmd:useLimitation>
+                        <gco:CharacterString>Condiciones al descargar el producto en el Centro de Descargas: http://centrodedescargas.cnig.es/CentroDescargas/cambiarMenu.do?destino=presentación</gco:CharacterString>
+                    </gmd:useLimitation>
+                </gmd:MD_Constraints>
+            </gmd:resourceConstraints>
+            <gmd:resourceConstraints>
+                <gmd:MD_LegalConstraints>
+                    <gmd:useLimitation>
+                        <gco:CharacterString>Descarga gratuita u obtención de información geográfica digital para uso no comercial, con aceptación de licencia de uso: 
+                                                                                                                
+                                                                                                                Licencia para uso no comercial del producto descargado: http://centrodedescargas.cnig.es/CentroDescargas/cambiarMenu.do?destino=infoUsoNoComercial
+                                                                                                                    
+                                                                                                                Licencia para uso comercial del producto descargado: http://centrodedescargas.cnig.es/CentroDescargas/cambiarMenu.do?destino=infoTipoComercial</gco:CharacterString>
+                    </gmd:useLimitation>
+                    <gmd:accessConstraints>
+                        <gmd:MD_RestrictionCode
+                            codeList="./resources/codeList.xml#MD_RestrictionCode" codeListValue="license">license</gmd:MD_RestrictionCode>
+                    </gmd:accessConstraints>
+                    <gmd:otherConstraints gco:nilReason="inapplicable"/>
+                </gmd:MD_LegalConstraints>
+            </gmd:resourceConstraints>
+            <gmd:spatialRepresentationType>
+                <gmd:MD_SpatialRepresentationTypeCode
+                    codeList="./resources/codeList.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector">vector</gmd:MD_SpatialRepresentationTypeCode>
+            </gmd:spatialRepresentationType>
+            <gmd:spatialResolution>
+                <gmd:MD_Resolution>
+                    <gmd:equivalentScale>
+                        <gmd:MD_RepresentativeFraction>
+                            <gmd:denominator>
+                                <gco:Integer>100000</gco:Integer>
+                            </gmd:denominator>
+                        </gmd:MD_RepresentativeFraction>
+                    </gmd:equivalentScale>
+                </gmd:MD_Resolution>
+            </gmd:spatialResolution>
+            <gmd:language>
+                <gmd:LanguageCode
+                    codeList="./resources/codeList.xml#LanguageCode" codeListValue="spa">spa</gmd:LanguageCode>
+            </gmd:language>
+            <gmd:characterSet>
+                <gmd:MD_CharacterSetCode
+                    codeList="./resources/codeList.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+            </gmd:characterSet>
+            <gmd:topicCategory>
+                <gmd:MD_TopicCategoryCode>imageryBaseMapsEarthCover</gmd:MD_TopicCategoryCode>
+            </gmd:topicCategory>
+            <gmd:extent>
+                <gmd:EX_Extent>
+                    <gmd:description gco:nilReason="inapplicable"/>
+                    <gmd:geographicElement>
+                        <gmd:EX_GeographicBoundingBox>
+                            <gmd:westBoundLongitude>
+                                <gco:Decimal>-19.00</gco:Decimal>
+                            </gmd:westBoundLongitude>
+                            <gmd:eastBoundLongitude>
+                                <gco:Decimal>4.30</gco:Decimal>
+                            </gmd:eastBoundLongitude>
+                            <gmd:southBoundLatitude>
+                                <gco:Decimal>27.60</gco:Decimal>
+                            </gmd:southBoundLatitude>
+                            <gmd:northBoundLatitude>
+                                <gco:Decimal>44.60</gco:Decimal>
+                            </gmd:northBoundLatitude>
+                        </gmd:EX_GeographicBoundingBox>
+                    </gmd:geographicElement>
+                    <gmd:temporalElement gco:nilReason="inapplicable"/>
+                    <gmd:verticalElement gco:nilReason="inapplicable"/>
+                </gmd:EX_Extent>
+            </gmd:extent>
+        </gmd:MD_DataIdentification>
+    </gmd:identificationInfo>
+    <gmd:distributionInfo>
+        <gmd:MD_Distribution>
+            <gmd:distributionFormat>
+                <gmd:MD_Format>
+                    <gmd:name>
+                        <gco:CharacterString>SHP</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:version>
+                        <gco:CharacterString>9.3</gco:CharacterString>
+                    </gmd:version>
+                </gmd:MD_Format>
+            </gmd:distributionFormat>
+            <gmd:transferOptions>
+                <gmd:MD_DigitalTransferOptions>
+                    <gmd:onLine>
+                        <gmd:CI_OnlineResource>
+                            <gmd:linkage>
+                                <gmd:URL>http://centrodedescargas.cnig.es/CentroDescargas/buscadorCatalogo.do?codFamilia=BT100</gmd:URL>
+                            </gmd:linkage>
+                        </gmd:CI_OnlineResource>
+                    </gmd:onLine>
+                </gmd:MD_DigitalTransferOptions>
+            </gmd:transferOptions>
+        </gmd:MD_Distribution>
+    </gmd:distributionInfo>
+    <gmd:dataQualityInfo>
+        <gmd:DQ_DataQuality>
+            <gmd:scope>
+                <gmd:DQ_Scope>
+                    <gmd:level>
+                        <gmd:MD_ScopeCode
+                            codeList="./resources/codeList.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+                    </gmd:level>
+                    <gmd:extent>
+                        <gmd:EX_Extent>
+                            <gmd:description gco:nilReason="inapplicable"/>
+                            <gmd:geographicElement>
+                                <gmd:EX_GeographicBoundingBox>
+                                    <gmd:extentTypeCode>
+                                    <gco:Boolean>true</gco:Boolean>
+                                    </gmd:extentTypeCode>
+                                    <gmd:westBoundLongitude>
+                                    <gco:Decimal>-19.00</gco:Decimal>
+                                    </gmd:westBoundLongitude>
+                                    <gmd:eastBoundLongitude>
+                                    <gco:Decimal>4.30</gco:Decimal>
+                                    </gmd:eastBoundLongitude>
+                                    <gmd:southBoundLatitude>
+                                    <gco:Decimal>27.60</gco:Decimal>
+                                    </gmd:southBoundLatitude>
+                                    <gmd:northBoundLatitude>
+                                    <gco:Decimal>44.60</gco:Decimal>
+                                    </gmd:northBoundLatitude>
+                                </gmd:EX_GeographicBoundingBox>
+                            </gmd:geographicElement>
+                            <gmd:temporalElement gco:nilReason="inapplicable"/>
+                            <gmd:verticalElement gco:nilReason="inapplicable"/>
+                        </gmd:EX_Extent>
+                    </gmd:extent>
+                    <gmd:levelDescription gco:nilReason="inapplicable"/>
+                </gmd:DQ_Scope>
+            </gmd:scope>
+            <gmd:report>
+                <gmd:DQ_CompletenessOmission>
+                    <gmd:nameOfMeasure>
+                        <gco:CharacterString>Compleción por omisión</gco:CharacterString>
+                    </gmd:nameOfMeasure>
+                    <gmd:measureDescription>
+                        <gco:CharacterString>La falta (omisión) de información respecto a la información que debería estar presente conforme a las normas de captura debe ser inferior al 5%. </gco:CharacterString>
+                    </gmd:measureDescription>
+                    <gmd:evaluationMethodDescription>
+                        <gco:CharacterString>Mediante comparación automática con las fuentes de datos de referencia (Para aquellos tipos de objeto de los que exista ,según las Normas de Captura, una fuente de comparación vectorial)
+                                                                                                                                                Mediante comparación directa sobre ortofoto PNOA en una zona por provincia (para aquellos tipos de objeto de los que no se disponga una fuente de información vectorial que asegure la compleción)  
+                                                                                                                                                </gco:CharacterString>
+                    </gmd:evaluationMethodDescription>
+                    <gmd:result>
+                        <gmd:DQ_QuantitativeResult>
+                            <gmd:valueUnit>
+                                <gml:UnitDefinition gml:id="emc96">
+                                    <gml:identifier codeSpace="">Porcentaje</gml:identifier>
+                                </gml:UnitDefinition>
+                            </gmd:valueUnit>
+                            <gmd:value>
+                                <gco:Record>95</gco:Record>
+                            </gmd:value>
+                        </gmd:DQ_QuantitativeResult>
+                    </gmd:result>
+                </gmd:DQ_CompletenessOmission>
+            </gmd:report>
+            <gmd:report>
+                <gmd:DQ_CompletenessCommission>
+                    <gmd:nameOfMeasure>
+                        <gco:CharacterString>Compleción por Comisión</gco:CharacterString>
+                    </gmd:nameOfMeasure>
+                    <gmd:measureDescription>
+                        <gco:CharacterString>El exceso (comisión) de información respecto a la información que debería estar presente conforme a las normas de captura debe ser inferior al 5%. </gco:CharacterString>
+                    </gmd:measureDescription>
+                    <gmd:evaluationMethodDescription>
+                        <gco:CharacterString>Mediante comparación automática con las fuentes de datos de referencia (Para aquellos tipos de objeto de los que exista ,según las Normas de Captura, una fuente de comparación vectorial)
+                                                                                                                                                Mediante comparación directa sobre ortofoto PNOA en una zona por provincia (para aquellos tipos de objeto de los que no se disponga una fuente de información vectorial que asegure la compleción)  </gco:CharacterString>
+                    </gmd:evaluationMethodDescription>
+                    <gmd:result>
+                        <gmd:DQ_QuantitativeResult>
+                            <gmd:valueUnit>
+                                <gml:UnitDefinition gml:id="emc97">
+                                    <gml:identifier codeSpace="">Porcentaje</gml:identifier>
+                                </gml:UnitDefinition>
+                            </gmd:valueUnit>
+                            <gmd:value>
+                                <gco:Record>95</gco:Record>
+                            </gmd:value>
+                        </gmd:DQ_QuantitativeResult>
+                    </gmd:result>
+                </gmd:DQ_CompletenessCommission>
+            </gmd:report>
+            <gmd:report>
+                <gmd:DQ_ConceptualConsistency>
+                    <gmd:nameOfMeasure>
+                        <gco:CharacterString>Consistencia conceptual</gco:CharacterString>
+                    </gmd:nameOfMeasure>
+                    <gmd:measureDescription>
+                        <gco:CharacterString>El cumplimiento de las reglas de lógica interna relevantes para BTN100 acorde a las normas de captura se debe asegurar en un 99% de los casos.
+                                                                                                                                                Adherencia a las reglas del modelo conceptual. Este tipo de error no debe existir.</gco:CharacterString>
+                    </gmd:measureDescription>
+                    <gmd:evaluationMethodDescription>
+                        <gco:CharacterString>Para comprobar la consistencia conceptual se efectúa un muestreo en 20 zonas diferentes. </gco:CharacterString>
+                    </gmd:evaluationMethodDescription>
+                    <gmd:result>
+                        <gmd:DQ_QuantitativeResult>
+                            <gmd:valueUnit>
+                                <gml:UnitDefinition gml:id="emc91">
+                                    <gml:identifier codeSpace="">Porcentaje</gml:identifier>
+                                </gml:UnitDefinition>
+                            </gmd:valueUnit>
+                            <gmd:value>
+                                <gco:Record>100</gco:Record>
+                            </gmd:value>
+                        </gmd:DQ_QuantitativeResult>
+                    </gmd:result>
+                </gmd:DQ_ConceptualConsistency>
+            </gmd:report>
+            <gmd:report>
+                <gmd:DQ_FormatConsistency>
+                    <gmd:nameOfMeasure>
+                        <gco:CharacterString>Consistencia de dominio</gco:CharacterString>
+                    </gmd:nameOfMeasure>
+                    <gmd:measureDescription>
+                        <gco:CharacterString>El cumplimiento de las reglas de lógica interna relevantes para BTN100 acorde a las normas de captura se debe asegurar en un 99% de los casos.
+                                                                                                                                                Adherencia de los valores de un determinado atributo a su dominio. Este tipo de error no debe existir.
+                                                                                                                                                </gco:CharacterString>
+                    </gmd:measureDescription>
+                    <gmd:evaluationMethodDescription>
+                        <gco:CharacterString>El propio modelo impide la existencia de errores por definición y restricciones internas en la base de datos.</gco:CharacterString>
+                    </gmd:evaluationMethodDescription>
+                    <gmd:result>
+                        <gmd:DQ_QuantitativeResult>
+                            <gmd:valueUnit>
+                                <gml:UnitDefinition gml:id="emc92">
+                                    <gml:identifier codeSpace="">Porcentaje</gml:identifier>
+                                </gml:UnitDefinition>
+                            </gmd:valueUnit>
+                            <gmd:value>
+                                <gco:Record>100</gco:Record>
+                            </gmd:value>
+                        </gmd:DQ_QuantitativeResult>
+                    </gmd:result>
+                </gmd:DQ_FormatConsistency>
+            </gmd:report>
+            <gmd:report>
+                <gmd:DQ_FormatConsistency>
+                    <gmd:nameOfMeasure>
+                        <gco:CharacterString>Consistencia de formato</gco:CharacterString>
+                    </gmd:nameOfMeasure>
+                    <gmd:measureDescription>
+                        <gco:CharacterString>El cumplimiento de las reglas de lógica interna relevantes para BTN100 acorde a las normas de captura se debe asegurar en un 99% de los casos.
+                                                                                                                                                Grado de acuerdo entre los datos almacenados y la estructura física del conjunto de datos. Este tipo de error no debe existir.</gco:CharacterString>
+                    </gmd:measureDescription>
+                    <gmd:evaluationMethodDescription>
+                        <gco:CharacterString>El propio modelo impide la existencia de errores por definición y restricciones internas en la base de datos.</gco:CharacterString>
+                    </gmd:evaluationMethodDescription>
+                    <gmd:result>
+                        <gmd:DQ_QuantitativeResult>
+                            <gmd:valueUnit>
+                                <gml:UnitDefinition gml:id="emc93">
+                                    <gml:identifier codeSpace="">Porcentaje</gml:identifier>
+                                </gml:UnitDefinition>
+                            </gmd:valueUnit>
+                            <gmd:value>
+                                <gco:Record>100</gco:Record>
+                            </gmd:value>
+                        </gmd:DQ_QuantitativeResult>
+                    </gmd:result>
+                </gmd:DQ_FormatConsistency>
+            </gmd:report>
+            <gmd:report>
+                <gmd:DQ_TopologicalConsistency>
+                    <gmd:nameOfMeasure>
+                        <gco:CharacterString>Consistencia geométrica</gco:CharacterString>
+                    </gmd:nameOfMeasure>
+                    <gmd:measureDescription>
+                        <gco:CharacterString>El cumplimiento de las reglas de lógica interna relevantes para BTN100 acorde a las normas de captura se debe asegurar en un 99% de los casos.
+                                                                                                                                                Grado de corrección de las características geométricas  de los elementos. Este tipo de error debe ser inferior al 5%. Como excepción se permiten errores de este tipo en los objetos del tipo Unidades Administrativas ya que al provenir directamente de SIGLIM no se puede asegurar en el producto BTN100 su consistencia topológica.
+                                                                                                                                                Los tipos de error aplicados a áreas (A) líneas (L) y puntos (P) son los siguientes:
+                                                                                                                                                
+                                                                                                                                                	Geometrías vacías: Objetos que tienen geometría nula o componentes de geometría vacía (A,L,P)
+                                                                                                                                                	Geometría desconocida: Objetos cuyo tipo de geometría no es reconocido por GeoMedia.  Los tipos válidos son punto, orientado a punto, línea, polilínea, compuesta de la polilínea, polígono, rectángulo, polígono compuesto, límite, colección, texto.	(A,L,P)
+                                                                                                                                                	Geometría no válida: Objetos cuyo tipo de geometría no coincide con la delimitación de la geometría. (A,L,P)
+                                                                                                                                                	Escasez de vértices: Objetos cuya geometría tiene muy pocos vértices para su tipo de geometría.  Un área con sólo dos puntos y una línea con sólo un punto, son ejemplos de este tipo de anomalía.(A,L)
+                                                                                                                                                	Agujeros incontenidos: Objetos de la zona con límites interiores (agujeros) que no están contenidas (total o parcialmente) en el límite exterior (A)
+                                                                                                                                                	Áreas sin cerrar: Objetos superficiales cuyo límite no está cerrado; es decir, el primer y el último punto del límite no tienen los mismos valores de coordenadas. (A)
+                                                                                                                                                	Agujeros superpuestos: Objetos de área cuyos límites interiores (agujeros) se superponen  uno con el otro. (A)
+                                                                                                                                                	Líneas de longitud nula: Objetos lineales cuyas coordenadas ocupan todas la misma posición de XY. (L)
+                                                                                                                                                	Áreas de superficie nula: Objetos superficiales que no tienen ningún área (es decir, los vértices son todos colineales). (A)
+                                                                                                                                                	Coordenadas inválidas: Objetos con un valor de la coordenada (X, Y o Z) cuyo valor absoluto es mayor que Ginfinity (1, 0E + 30). (A,L,P)
+                                                                                                                                                	Vuelta en área: Objetos de área que contienen un loop en el contorno interno o externo. No se necesitan medidas porque cualquier loop es considerado anomalía. (A)
+                                                                                                                                                	Idas/Vueltas-KickBacks: Objetos de línea o área en los que la geometría realiza dobles caminos sobre sí misma.  (A,L)
+                                                                                                                                                	Componente de geometría inválido: Objetos cuya geometría es sintácticamente incorrecta. Los que pasaron el filtro de geometría inválida pero todavía tienen componente inválidos.(Arcos inválidos, contornos inválidos y Objetos compuestas discontinuas) (A,L,P)
+                                                                                                                                                	Superficies inferiores a la tolerancia: Objetos de área que por su superficie no deberían existir como superficies a esa escala.(A) tolerancia 400 m2
+                                                                                                                                                	Líneas de longitud inferior a la tolerancia: Objetos de línea cuya longitud es inferior a la tolerancia dada por la escala. (L) Tolerancia 20m
+                                                                                                                                                	Picos-Kink : picos detectados a lo largo de una línea. El parámetro que se utiliza para la detección es un ratio entre la altura y el ancho entre vértices (tres vértices seguidos, los dos extremos forman el ancho y la altura es la distancia media de cada uno de los extremos al vértice del medio) (A,L) Tolerancia 5m
+                                                                                                                                                	Vueltas en líneas: líneas que contienen un "loop" sobre sí mismas que forman un determinado área menor de una tolerancia. (A,L) Tolerancia 10m2	
+                                                                                                                                                	Vector corto:	 mínima distancia que nos podemos encontrar entre dos vértices	(A,L). Tolerancia 1m	
+                                                                                                                                                	Geometría nula: objetos sin geometría (A,L,P)		
+                                                                                                                                                	Geometría superflua: Instancias donde la geometría contiene un componente que no es necesario para la definición del fenómeno	
+                                                                                                                                                	Geometría fragmentada: Colecciones  (MultiPoint, MultiPolygon,MultiLine) Sólo se permiten colecciones de geometrías en el tipo de objeto Unidad Administrativa.	
+                                                                                                                                                	Objetos duplicados: Objetos idénticos en atributos y próximos en geometrías (tolerancia). (P,L,A). Duplicado exacto y objetos que tienen atributos iguales a una distancia de 100m (a excepción de gasolineras, aeródromos y puentes) 
+                                                                                                                                                </gco:CharacterString>
+                    </gmd:measureDescription>
+                    <gmd:evaluationMethodDescription>
+                        <gco:CharacterString>Se aplica una comprobación automática de todos los objetos que verifica que se cumplen los parámetros de tolerancias definidos para BTN100.</gco:CharacterString>
+                    </gmd:evaluationMethodDescription>
+                    <gmd:result>
+                        <gmd:DQ_QuantitativeResult>
+                            <gmd:valueUnit>
+                                <gml:UnitDefinition gml:id="emc94">
+                                    <gml:identifier codeSpace="">Porcentaje</gml:identifier>
+                                </gml:UnitDefinition>
+                            </gmd:valueUnit>
+                            <gmd:value>
+                                <gco:Record>100</gco:Record>
+                            </gmd:value>
+                        </gmd:DQ_QuantitativeResult>
+                    </gmd:result>
+                </gmd:DQ_TopologicalConsistency>
+            </gmd:report>
+            <gmd:report>
+                <gmd:DQ_TopologicalConsistency>
+                    <gmd:nameOfMeasure>
+                        <gco:CharacterString>Consistencia topológica</gco:CharacterString>
+                    </gmd:nameOfMeasure>
+                    <gmd:measureDescription>
+                        <gco:CharacterString>El cumplimiento de las reglas de lógica interna relevantes para BTN100 acorde a las normas de captura se debe asegurar en un 99% de los casos.
+                                                                                                                                                grado de corrección de las relaciones topológicas entre objetos. Este tipo de error debe ser inferior al 5%. Como excepción se permiten errores de este tipo en los objetos del tipo Unidades Administrativas ya que al provenir directamente de SIGLIM no se puede asegurar en el producto BTN100 su consistencia topológica.
+                                                                                                                                                Los tipos de error aplicados a áreas (A) líneas (L) y puntos (P) son los siguientes:
+                                                                                                                                                
+                                                                                                                                                	Undershoot: una línea no se extiende completamente dentro de una tolerancia hasta su límite real. (L,A) Tolerancia 1m. Detección a 20m.	
+                                                                                                                                                	Overshoot: una línea se extiende más allá de una tolerancia respecto de su límite real. (L,A) Tolerancia 1m. Detección a 20m. Como excepción se permiten overshoot de 20m para aquellos elementos lineales que se tocan con diseminados, lugares de interés o explotaciones mineras.
+                                                                                                                                                	Error de coincidencia en vértices [Node Mismatch] (P,L).
+                                                                                                                                                	Slivers: solapes muy estrechos entre objetos.
+                                                                                                                                                	Gaps o huecos.
+                                                                                                                                                	Extremos libres: Solo son error los que no se tocan ni con diseminados, ni lugares de interés ni explotaciones mineras(consulta espacial adicional).
+                                                                                                                                                </gco:CharacterString>
+                    </gmd:measureDescription>
+                    <gmd:evaluationMethodDescription>
+                        <gco:CharacterString>Se aplica una comprobación automática de todos los objetos que verifica que se cumplen los parámetros de tolerancias definidos para BTN100.</gco:CharacterString>
+                    </gmd:evaluationMethodDescription>
+                    <gmd:result>
+                        <gmd:DQ_QuantitativeResult>
+                            <gmd:valueUnit>
+                                <gml:UnitDefinition gml:id="emc95">
+                                    <gml:identifier codeSpace="">Porcentaje</gml:identifier>
+                                </gml:UnitDefinition>
+                            </gmd:valueUnit>
+                            <gmd:value>
+                                <gco:Record>100</gco:Record>
+                            </gmd:value>
+                        </gmd:DQ_QuantitativeResult>
+                    </gmd:result>
+                </gmd:DQ_TopologicalConsistency>
+            </gmd:report>
+            <gmd:report>
+                <gmd:DQ_AbsoluteExternalPositionalAccuracy>
+                    <gmd:nameOfMeasure>
+                        <gco:CharacterString>Exactitud posicional absoluta</gco:CharacterString>
+                    </gmd:nameOfMeasure>
+                    <gmd:measureDescription>
+                        <gco:CharacterString>El valor de discrepancia posicional se obtiene por la medida de la diferencia entre la posición de un punto claramente identificado en la base de datos geográfica y dicho punto sobre un dato patrón que tenga una exactitud posicional mayor de 20m. En las coordenadas (x, y) se debe tener una precisión mejor de 10 m de error medio cuadrático sobre una muestra de puntos de chequeo y un error máximo menor o igual a 20 m en los citados puntos.</gco:CharacterString>
+                    </gmd:measureDescription>
+                    <gmd:evaluationMethodDescription>
+                        <gco:CharacterString>Mediante comparación directa sobre ortofoto PNOA se comprueba el  error medio cuadrático para la exactitud posicional absoluta de al menos 40 puntos distanciados más de 2000m en 20 zonas diferentes.</gco:CharacterString>
+                    </gmd:evaluationMethodDescription>
+                    <gmd:result gco:nilReason="inapplicable"/>
+                </gmd:DQ_AbsoluteExternalPositionalAccuracy>
+            </gmd:report>
+            <gmd:report>
+                <gmd:DQ_RelativeInternalPositionalAccuracy>
+                    <gmd:nameOfMeasure>
+                        <gco:CharacterString>Exactitud posicional relativa</gco:CharacterString>
+                    </gmd:nameOfMeasure>
+                    <gmd:measureDescription>
+                        <gco:CharacterString>El valor de discrepancia posicional relativa se obtiene por la medida de la adecuación de las geometrías a la escala de representación. Este tipo de error debe ser inferior al 10%.</gco:CharacterString>
+                    </gmd:measureDescription>
+                    <gmd:evaluationMethodDescription>
+                        <gco:CharacterString>Mediante comparación directa sobre ortofoto PNOA se comprueba por selección de una muestra de al menos el 4% del total de elementos en el área de cada provincia, que la densidad de puntos es adecuada a la escala y que el trazado de elementos lineales y superficiales es adecuado a la escala. </gco:CharacterString>
+                    </gmd:evaluationMethodDescription>
+                    <gmd:result gco:nilReason="inapplicable"/>
+                </gmd:DQ_RelativeInternalPositionalAccuracy>
+            </gmd:report>
+            <gmd:report>
+                <gmd:DQ_DomainConsistency>
+                    <gmd:result>
+                        <gmd:DQ_ConformanceResult>
+                            <gmd:specification>
+                                <gmd:CI_Citation>
+                                    <gmd:title>
+                                    <gco:CharacterString>REGLAMENTO (CE) No 1205/2008 DE LA COMISIÓN de 3 de diciembre de 2008 por el que se ejecuta la Directiva 2007/2/CE del Parlamento Europeo y del Consejo en lo que se refiere a los metadatos</gco:CharacterString>
+                                    </gmd:title>
+                                    <gmd:date>
+                                    <gmd:CI_Date>
+                                    <gmd:date>
+                                    <gco:Date>2013-12-31</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                    <gmd:CI_DateTypeCode
+                                    codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                    </gmd:CI_Date>
+                                    </gmd:date>
+                                    <gmd:identifier gco:nilReason="inapplicable"/>
+                                </gmd:CI_Citation>
+                            </gmd:specification>
+                            <gmd:explanation>
+                                <gco:CharacterString>Consultar el reglamento mencionado</gco:CharacterString>
+                            </gmd:explanation>
+                            <gmd:pass>
+                                <gco:Boolean>true</gco:Boolean>
+                            </gmd:pass>
+                        </gmd:DQ_ConformanceResult>
+                    </gmd:result>
+                </gmd:DQ_DomainConsistency>
+            </gmd:report>
+            <gmd:report>
+                <gmd:DQ_DomainConsistency>
+                    <gmd:result>
+                        <gmd:DQ_ConformanceResult>
+                            <gmd:specification>
+                                <gmd:CI_Citation>
+                                    <gmd:title>
+                                    <gco:CharacterString>REGLAMENTO (UE) N o 1089/2010 DE LA COMISIÓN de 23 de noviembre de 2010 por el que se aplica la Directiva 2007/2/CE del Parlamento Europeo y del Consejo en lo que se refiere a la interoperabilidad de los conjuntos y los servicios de datos espaciales</gco:CharacterString>
+                                    </gmd:title>
+                                    <gmd:date>
+                                    <gmd:CI_Date>
+                                    <gmd:date>
+                                    <gco:Date>2013-12-31</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                    <gmd:CI_DateTypeCode
+                                    codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                    </gmd:CI_Date>
+                                    </gmd:date>
+                                    <gmd:identifier gco:nilReason="inapplicable"/>
+                                </gmd:CI_Citation>
+                            </gmd:specification>
+                            <gmd:explanation>
+                                <gco:CharacterString>Consultar el reglamento mencionado</gco:CharacterString>
+                            </gmd:explanation>
+                            <gmd:pass>
+                                <gco:Boolean>false</gco:Boolean>
+                            </gmd:pass>
+                        </gmd:DQ_ConformanceResult>
+                    </gmd:result>
+                </gmd:DQ_DomainConsistency>
+            </gmd:report>
+			            <gmd:report>
+                <gmd:DQ_DomainConsistency>
+                    <gmd:result>
+                        <gmd:DQ_ConformanceResult>
+                            <gmd:specification>
+                                <gmd:CI_Citation>
+                                    <gmd:title>
+                                    <gco:CharacterString>Reglamento (UE) n o 1089/2010 de la Comisión de 23 de noviembre de 2010 por el que se aplica la Directiva 2007/2/CE del Parlamento Europeo y del Consejo en lo que se refiere a la interoperabilidad de los conjuntos y los servicios de datos espaciales</gco:CharacterString>
+                                    </gmd:title>
+                                    <gmd:date>
+                                    <gmd:CI_Date>
+                                    <gmd:date>
+                                    <gco:Date>2010-12-08</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                    <gmd:CI_DateTypeCode
+                                    codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                    </gmd:CI_Date>
+                                    </gmd:date>
+                                </gmd:CI_Citation>
+                            </gmd:specification>
+                            <gmd:explanation>
+                                <gco:CharacterString>Consultar el reglamento mencionado</gco:CharacterString>
+                            </gmd:explanation>
+                            <gmd:pass>
+                                <gco:Boolean>false</gco:Boolean>
+                            </gmd:pass>
+                        </gmd:DQ_ConformanceResult>
+                    </gmd:result>
+                </gmd:DQ_DomainConsistency>
+            </gmd:report>
+            <gmd:lineage>
+                <gmd:LI_Lineage>
+                    <gmd:statement>
+                        <gco:CharacterString>La Serie Cartográfica BTN100 se generó inicialmente a partir de diversas fuentes oficiales y de la incorporación de cartografia del Centro Geográfico del Ejército. El objetivo de esta serie es disponer de una base cartográfica numérica 1:100.000 con suficiente calidad geométrica para su integración directa sobre cualquier plataforma SIG, navegadores, etc. y para ello el Instituto Geográfico Nacional ha establecido un Plan de producción y conservación que facilite a la sociedad espanola la información geográfica espacial y temática de todo el territorio nacional con garantía de calidad, homogeneidad y conservación.
+                                                                                                                                                              Actualmente, se está procediendo a su actualización como sistema de información geográfica mediante procesos informatizados a partir de imagenes de satélite y otra información auxiliar. Las fases que incluyen este proceso de actualización son:
+                                                                                                                                                              	i) Incorporación de información cartográfica proveniente del Centro Geografico del Ejército.
+                                                                                                                                                              	ii) Actualización 2D de ficheros a partir de imagenes satelite.
+                                                                                                                                                              	iii) Generación de topología y actualización de atributos de BTN100.
+                                                                                                                                                              	iiii) Edición semántica de BTN100
+                                                                                                                                                                                                                                                                                                                                                                                      						</gco:CharacterString>
+                    </gmd:statement>
+                    <gmd:processStep gco:nilReason="inapplicable"/>
+                    <gmd:source>
+                        <gmd:LI_Source>
+                            <gmd:description>
+                                <gco:CharacterString>ADMINISTRADOR DE INFRAESTRUCTURAS FERROVIARIAS (ADIF):
+                                                                                                                                            	Ferrocarriles pertenecientes a ADIF
+                                                                                                                                            	Otras líneas de ferrocarril de ADIF
+                                                                                                                                            	Estaciones de Ferrocarril de ADIF</gco:CharacterString>
+                            </gmd:description>
+                            <gmd:sourceExtent gco:nilReason="inapplicable"/>
+                        </gmd:LI_Source>
+                    </gmd:source>
+                    <gmd:source>
+                        <gmd:LI_Source>
+                            <gmd:description>
+                                <gco:CharacterString>AEROPUERTOS ESPAÑOLES Y NAVEGACIÓN AÉREA (AENA):
+                                                                                                                                            	Listado de Aeropuertos</gco:CharacterString>
+                            </gmd:description>
+                            <gmd:sourceExtent gco:nilReason="inapplicable"/>
+                        </gmd:LI_Source>
+                    </gmd:source>
+                    <gmd:source>
+                        <gmd:LI_Source>
+                            <gmd:description>
+                                <gco:CharacterString>AMIGOS DEL CAMINO DE SANTIAGO:
+                                                                                                                                            	Camino de Santiago</gco:CharacterString>
+                            </gmd:description>
+                            <gmd:sourceExtent gco:nilReason="inapplicable"/>
+                        </gmd:LI_Source>
+                    </gmd:source>
+                    <gmd:source>
+                        <gmd:LI_Source>
+                            <gmd:description>
+                                <gco:CharacterString>ASOCIACIÓN NACIONAL DE BALNEARIOS:
+                                                                                                                                            	Listado de Balnearios</gco:CharacterString>
+                            </gmd:description>
+                            <gmd:sourceExtent gco:nilReason="inapplicable"/>
+                        </gmd:LI_Source>
+                    </gmd:source>
+                    <gmd:source>
+                        <gmd:LI_Source>
+                            <gmd:description>
+                                <gco:CharacterString>ASOCIACIÓN TURÍSTICA DE ESTACIONES DE ESQUÍ Y MONTAÑA (ATUDEM):
+                                                                                                                                            	Estación Invernal</gco:CharacterString>
+                            </gmd:description>
+                            <gmd:sourceExtent gco:nilReason="inapplicable"/>
+                        </gmd:LI_Source>
+                    </gmd:source>
+                    <gmd:source>
+                        <gmd:LI_Source>
+                            <gmd:description>
+                                <gco:CharacterString>CENTRO GEOGRÁFICO DEL EJÉRCITO (CEGET):
+                                                                                                                                            	Serie C
+                                                                                                                                            	Serie L</gco:CharacterString>
+                            </gmd:description>
+                            <gmd:sourceExtent gco:nilReason="inapplicable"/>
+                        </gmd:LI_Source>
+                    </gmd:source>
+                    <gmd:source>
+                        <gmd:LI_Source>
+                            <gmd:description>
+                                <gco:CharacterString>COMUNIDADES AUTÓNOMAS (CCAA):
+                                                                                                                                            	Red de Carreteras de cada Comunidad Autónoma</gco:CharacterString>
+                            </gmd:description>
+                            <gmd:sourceExtent gco:nilReason="inapplicable"/>
+                        </gmd:LI_Source>
+                    </gmd:source>
+                    <gmd:source>
+                        <gmd:LI_Source>
+                            <gmd:description>
+                                <gco:CharacterString>FEDERACIÓN ESPAÑOLA DE CAMPINGS:
+                                                                                                                                            	Listado de Campings</gco:CharacterString>
+                            </gmd:description>
+                            <gmd:sourceExtent gco:nilReason="inapplicable"/>
+                        </gmd:LI_Source>
+                    </gmd:source>
+                    <gmd:source>
+                        <gmd:LI_Source>
+                            <gmd:description>
+                                <gco:CharacterString>FEDERACIÓN ESPAÑOLA DE DEPORTES DE MONTAÑA (FEDME):
+                                                                                                                                            	Refugios de Montaña</gco:CharacterString>
+                            </gmd:description>
+                            <gmd:sourceExtent gco:nilReason="inapplicable"/>
+                        </gmd:LI_Source>
+                    </gmd:source>
+                    <gmd:source>
+                        <gmd:LI_Source>
+                            <gmd:description>
+                                <gco:CharacterString>FERROCARRILES DE VIA ESTRECHA (FEVE):
+                                                                                                                                            	Ferrocarriles pertenecientes a FEVE
+                                                                                                                                            	Estaciones de Ferrocarril de FEVE</gco:CharacterString>
+                            </gmd:description>
+                            <gmd:sourceExtent gco:nilReason="inapplicable"/>
+                        </gmd:LI_Source>
+                    </gmd:source>
+                    <gmd:source>
+                        <gmd:LI_Source>
+                            <gmd:description>
+                                <gco:CharacterString>INSTITUTO GEOGRÁFICO NACIONAL (IGN):
+                                                                                                                                            	Imágenes SPOT
+                                                                                                                                            	Base Cartográfica Nacional 1:200000 (BCN200)
+                                                                                                                                            	Mapa Provincial 1:200000 (MP200)
+                                                                                                                                            	Mapa Topográfico Nacional 1:25000 (MTN25)
+                                                                                                                                            	Fundación de los Ferrocarriles Españoles (FFE)
+                                                                                                                                            	EuroRegionalMap (ERM)
+                                                                                                                                            	Base de datos de Entidades de Población (BDEP)
+                                                                                                                                            	Nomenclátor Geográfico de Municipios y Entidades de Población (NGMEP)
+                                                                                                                                            	Sistema de Información sobre Ocupación del Suelo en España (SIOSE)
+                                                                                                                                            	SIG de Líneas Límite (SIGLIM)
+                                                                                                                                            	Servidor de Datos Geodésicos (SERDAG)
+                                                                                                                                            	Base de datos de faros</gco:CharacterString>
+                            </gmd:description>
+                            <gmd:sourceExtent gco:nilReason="inapplicable"/>
+                        </gmd:LI_Source>
+                    </gmd:source>
+                    <gmd:source>
+                        <gmd:LI_Source>
+                            <gmd:description>
+                                <gco:CharacterString>INSITUTO NACIONAL DE ESTADÍSTICA (INE):
+                                                                                                                                            	Nomenclátor básico del INE</gco:CharacterString>
+                            </gmd:description>
+                            <gmd:sourceExtent gco:nilReason="inapplicable"/>
+                        </gmd:LI_Source>
+                    </gmd:source>
+                    <gmd:source>
+                        <gmd:LI_Source>
+                            <gmd:description>
+                                <gco:CharacterString>MINISTERIO DE AGRICULTURA, ALIMENTACIÓN Y MEDIO AMBIENTE (MARM):
+                                                                                                                                            	Inventario de Presas y Embalses
+                                                                                                                                            	Sistema de Información del Agua (SIA)
+                                                                                                                                            	Espacios Naturales Protegidos (ENP)</gco:CharacterString>
+                            </gmd:description>
+                            <gmd:sourceExtent gco:nilReason="inapplicable"/>
+                        </gmd:LI_Source>
+                    </gmd:source>
+                    <gmd:source>
+                        <gmd:LI_Source>
+                            <gmd:description>
+                                <gco:CharacterString>MINISTERIO DE CULTURA (MCU):
+                                                                                                                                            	Listado de Bienes de Interés Cultural (BIC)
+                                                                                                                                            	Portal Geocultura
+                                                                                                                                            	Plan de Catedrales
+                                                                                                                                            	Patrimonio Mundial</gco:CharacterString>
+                            </gmd:description>
+                            <gmd:sourceExtent gco:nilReason="inapplicable"/>
+                        </gmd:LI_Source>
+                    </gmd:source>
+                    <gmd:source>
+                        <gmd:LI_Source>
+                            <gmd:description>
+                                <gco:CharacterString>MINISTERIO DE FOMENTO (MFOM):
+                                                                                                                                            	Mapa Oficial de Carreteras (MOCI)
+                                                                                                                                            	Red Transeuropea de Transporte (TEN-T)
+                                                                                                                                                                           </gco:CharacterString>
+                            </gmd:description>
+                            <gmd:sourceExtent gco:nilReason="inapplicable"/>
+                        </gmd:LI_Source>
+                    </gmd:source>
+                    <gmd:source>
+                        <gmd:LI_Source>
+                            <gmd:description>
+                                <gco:CharacterString>MINISTERIO DE INDUSTRIA, ENERGÍA Y TURISMO (MITC):
+                                                                                                                                            	Estaciones de Servicio
+                                                                                                                                            	Catastro Minero</gco:CharacterString>
+                            </gmd:description>
+                            <gmd:sourceExtent gco:nilReason="inapplicable"/>
+                        </gmd:LI_Source>
+                    </gmd:source>
+                    <gmd:source>
+                        <gmd:LI_Source>
+                            <gmd:description>
+                                <gco:CharacterString>ORGANIZACIÓN DE LAS NACIONES UNIDAS (ONU):
+                                                                                                                                            	Tabla de códigos UN/LOCODE</gco:CharacterString>
+                            </gmd:description>
+                            <gmd:sourceExtent gco:nilReason="inapplicable"/>
+                        </gmd:LI_Source>
+                    </gmd:source>
+                    <gmd:source>
+                        <gmd:LI_Source>
+                            <gmd:description>
+                                <gco:CharacterString>PUERTOS DEL ESTADO (PEST):
+                                                                                                                                            	Tabla de Puertos del Estado
+                                                                                                                                                          </gco:CharacterString>
+                            </gmd:description>
+                            <gmd:sourceExtent gco:nilReason="inapplicable"/>
+                        </gmd:LI_Source>
+                    </gmd:source>
+                    <gmd:source>
+                        <gmd:LI_Source>
+                            <gmd:description>
+                                <gco:CharacterString>RED ELÉCTRICA DE ESPAÑA (REE):
+                                                                                                                                            	Cartografía de la Red Eléctrica Española</gco:CharacterString>
+                            </gmd:description>
+                            <gmd:sourceExtent gco:nilReason="inapplicable"/>
+                        </gmd:LI_Source>
+                    </gmd:source>
+                    <gmd:source>
+                        <gmd:LI_Source>
+                            <gmd:description>
+                                <gco:CharacterString>RED ESPAÑOLA DE ALBERGUES JUVENILES (REAJ):
+                                                                                                                                            	Listado de albergues</gco:CharacterString>
+                            </gmd:description>
+                            <gmd:sourceExtent gco:nilReason="inapplicable"/>
+                        </gmd:LI_Source>
+                    </gmd:source>
+                    <gmd:source>
+                        <gmd:LI_Source>
+                            <gmd:description>
+                                <gco:CharacterString>RED NATURA 2000:
+                                                                                                                                            	Lugares de Importancia Comunitaria (LICs)
+                                                                                                                                            	Zona de Especial Protección para las Aves (ZEPAs)</gco:CharacterString>
+                            </gmd:description>
+                            <gmd:sourceExtent gco:nilReason="inapplicable"/>
+                        </gmd:LI_Source>
+                    </gmd:source>
+                    <gmd:source>
+                        <gmd:LI_Source>
+                            <gmd:description>
+                                <gco:CharacterString>XUNTA DE GALICIA (XdG):
+                                                                                                                                            	Sistema de Información Territorial de Galicia (SITGA)
+                                                                                                                                            	Nomenclátor Gallego</gco:CharacterString>
+                            </gmd:description>
+                            <gmd:sourceExtent gco:nilReason="inapplicable"/>
+                        </gmd:LI_Source>
+                    </gmd:source>
+                    <gmd:source>
+                        <gmd:LI_Source>
+                            <gmd:description>
+                                <gco:CharacterString>WIKIPEDIA:
+                                                                                                                                            	Coordenadas y altitud de los Aeropuertos de España
+                                                                                                                                            	Coordenadas de los Bienes de Interés Cultural de España (BIC)</gco:CharacterString>
+                            </gmd:description>
+                            <gmd:sourceExtent gco:nilReason="inapplicable"/>
+                        </gmd:LI_Source>
+                    </gmd:source>
+                    <gmd:source>
+                        <gmd:LI_Source>
+                            <gmd:description>
+                                <gco:CharacterString>PARADORES NACIONALES: 
+                                                                                                                                            	Listado de Paradores Nacionales</gco:CharacterString>
+                            </gmd:description>
+                            <gmd:sourceExtent gco:nilReason="inapplicable"/>
+                        </gmd:LI_Source>
+                    </gmd:source>
+                </gmd:LI_Lineage>
+            </gmd:lineage>
+        </gmd:DQ_DataQuality>
+    </gmd:dataQualityInfo>
+</gmd:MD_Metadata>

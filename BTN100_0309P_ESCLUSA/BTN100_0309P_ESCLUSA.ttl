@@ -1,0 +1,23 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix esadm: <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#> .
+@prefix georesource: <http://geo.linkeddata.es/resource/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+georesource:  a                 esadm:Barrio ;
+        rdfs:label              "" ;
+        georesource:fecha_alta  "20130703000000" ;
+        georesource:id          "18" , "16" , "13" , "7" , "5" , "10" , "8" , "17" , "14" , "11" , "12" , "9" , "6" , "15" ;
+        georesource:id_codigo   "0309S" ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/resource//geometry> .
+
+<http://geo.linkeddata.es/resource//geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.416141809999397 42.251019969811466)"^^geosparql:wktLiteral , "POINT (-4.3140182099498325 42.61999943116043)"^^geosparql:wktLiteral , "POINT (-4.2725847899997245 42.5113319499153)"^^geosparql:wktLiteral , "POINT (-4.283788215220157 42.528993238110345)"^^geosparql:wktLiteral , "POINT (-4.311861269999714 42.58635649994336)"^^geosparql:wktLiteral , "POINT (-4.531292677319535 42.16548032461359)"^^geosparql:wktLiteral , "POINT (-4.313826132337598 42.59406603106374)"^^geosparql:wktLiteral , "POINT (-4.3067075899982825 42.638832089962506)"^^geosparql:wktLiteral , "POINT (-4.297873147884434 42.54277908219773)"^^geosparql:wktLiteral , "POINT (-4.3126878699985625 42.62646578995799)"^^geosparql:wktLiteral , "POINT (-4.313894516777171 42.56414429719706)"^^geosparql:wktLiteral , "POINT (-4.358161873677239 42.26970556726545)"^^geosparql:wktLiteral , "POINT (-4.524692009999684 41.92159742966586)"^^geosparql:wktLiteral , "POINT (-4.3147191999991374 42.60520839995027)"^^geosparql:wktLiteral .
+

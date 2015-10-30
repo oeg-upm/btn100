@@ -1,0 +1,912 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix esadm: <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#> .
+@prefix georesource: <http://geo.linkeddata.es/resource/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+<http://geo.linkeddata.es/resource/estacion-permanente-de-mota-del-cuervo/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.8700078859999922 39.50320895512668)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/estacion-permanente-de-huelva/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.920299206000594 37.19997877694602)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/estacion-permanente-de-sonseca/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.9639695499999865 39.67535109626273)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/estacion-permanente-de-craj-mrajada/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-16.596963999999222 28.264722023010105)"^^geosparql:wktLiteral .
+
+georesource:estacion-permanente-de-mota-del-cuervo
+        a                       esadm:Barrio ;
+        rdfs:label              "Estación Permanente de Mota del Cuervo"@es ;
+        georesource:alt_elips   "779.787" ;
+        georesource:alt_ortom   "0.0" ;
+        georesource:cod_1002    "MOTA"@es ;
+        georesource:fecha_alta  "20140617000000" ;
+        georesource:huso        "30" ;
+        georesource:id          "175" ;
+        georesource:id_codigo   "1002P" ;
+        georesource:latitud     "39.503208917" ;
+        georesource:longitud    "-2.870007886" ;
+        georesource:x_etrs89    "511176.082" ;
+        georesource:y_etrs89    "4372628.7" ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/estacion-permanente-de-mota-del-cuervo/geometry> .
+
+<http://geo.linkeddata.es/resource/estacion-permanente-de-peniscola/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.3589229440000118 40.39567267478894)"^^geosparql:wktLiteral .
+
+georesource:estacion-permanente-de-melilla
+        a                       esadm:Barrio ;
+        rdfs:label              "Estación Permanente de Melilla"@es ;
+        georesource:alt_elips   "88.851" ;
+        georesource:alt_ortom   "0.0" ;
+        georesource:cod_1002    "MELI"@es ;
+        georesource:fecha_alta  "20140617000000" ;
+        georesource:huso        "30" ;
+        georesource:id          "156" ;
+        georesource:id_codigo   "1002P" ;
+        georesource:latitud     "35.281185401" ;
+        georesource:longitud    "-2.951655783" ;
+        georesource:x_etrs89    "504396.346" ;
+        georesource:y_etrs89    "3904227.252" ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/estacion-permanente-de-melilla/geometry> .
+
+<http://geo.linkeddata.es/resource/estacion-permanente-de-tarifa/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.602620431000881 36.00850804057589)"^^geosparql:wktLiteral .
+
+georesource:estacion-permanente-de-cordoba
+        a                       esadm:Barrio ;
+        rdfs:label              "Estación Permanente de Córdoba"@es ;
+        georesource:alt_elips   "202.082" ;
+        georesource:alt_ortom   "0.0" ;
+        georesource:cod_1002    "COBA"@es ;
+        georesource:fecha_alta  "20140617000000" ;
+        georesource:huso        "30" ;
+        georesource:id          "163" ;
+        georesource:id_codigo   "1002P" ;
+        georesource:latitud     "37.915604497" ;
+        georesource:longitud    "-4.721111094" ;
+        georesource:x_etrs89    "348712.409" ;
+        georesource:y_etrs89    "4197847.778" ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/estacion-permanente-de-cordoba/geometry> .
+
+georesource:estacion-permanente-de-valencia
+        a                       esadm:Barrio ;
+        rdfs:label              "Estación Permanente de Valencia"@es ;
+        georesource:alt_elips   "77.592" ;
+        georesource:alt_ortom   "0.0" ;
+        georesource:cod_1002    "VALE"@es ;
+        georesource:fecha_alta  "20140617000000" ;
+        georesource:huso        "30" ;
+        georesource:id          "180" ;
+        georesource:id_codigo   "1002P" ;
+        georesource:latitud     "39.480825125" ;
+        georesource:longitud    "-0.337650944" ;
+        georesource:x_etrs89    "728984.982" ;
+        georesource:y_etrs89    "4373520.439" ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/estacion-permanente-de-valencia/geometry> .
+
+georesource:estacion-permanente-de-zafra
+        a                       esadm:Barrio ;
+        rdfs:label              "Estación Permanente de Zafra"@es ;
+        georesource:alt_elips   "587.445" ;
+        georesource:alt_ortom   "0.0" ;
+        georesource:cod_1002    "ZFRA"@es ;
+        georesource:fecha_alta  "20140617000000" ;
+        georesource:huso        "29" ;
+        georesource:id          "158" ;
+        georesource:id_codigo   "1002P" ;
+        georesource:latitud     "38.426011092" ;
+        georesource:longitud    "-6.410042347" ;
+        georesource:x_etrs89    "726087.325" ;
+        georesource:y_etrs89    "4256260.618" ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/estacion-permanente-de-zafra/geometry> .
+
+georesource:estacion-permanente-de-a-coruna
+        a                       esadm:Barrio ;
+        rdfs:label              "Estación Permanente de A Coruña"@es ;
+        georesource:alt_elips   "66.918" ;
+        georesource:alt_ortom   "0.0" ;
+        georesource:cod_1002    "ACOR"@es ;
+        georesource:fecha_alta  "20140617000000" ;
+        georesource:huso        "29" ;
+        georesource:id          "155" ;
+        georesource:id_codigo   "1002P" ;
+        georesource:latitud     "43.36438078" ;
+        georesource:longitud    "-8.398935414" ;
+        georesource:x_etrs89    "548701.341" ;
+        georesource:y_etrs89    "4801455.361" ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/estacion-permanente-de-a-coruna/geometry> .
+
+georesource:estacion-permanente-de-peniscola
+        a                       esadm:Barrio ;
+        rdfs:label              "Estación Permanente de Peñíscola"@es ;
+        georesource:alt_elips   "108.591" ;
+        georesource:alt_ortom   "0.0" ;
+        georesource:cod_1002    "PENI"@es ;
+        georesource:fecha_alta  "20140617000000" ;
+        georesource:huso        "31" ;
+        georesource:id          "184" ;
+        georesource:id_codigo   "1002P" ;
+        georesource:latitud     "40.395672636" ;
+        georesource:longitud    "0.358922944" ;
+        georesource:x_etrs89    "275852.193" ;
+        georesource:y_etrs89    "4475023.763" ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/estacion-permanente-de-peniscola/geometry> .
+
+georesource:estacion-permanente-de-salamanca
+        a                       esadm:Barrio ;
+        rdfs:label              "Estación Permanente de Salamanca"@es ;
+        georesource:alt_elips   "854.969" ;
+        georesource:alt_ortom   "0.0" ;
+        georesource:cod_1002    "SALA"@es ;
+        georesource:fecha_alta  "20140617000000" ;
+        georesource:huso        "30" ;
+        georesource:id          "167" ;
+        georesource:id_codigo   "1002P" ;
+        georesource:latitud     "40.945081175" ;
+        georesource:longitud    "-5.495863564" ;
+        georesource:x_etrs89    "289910.418" ;
+        georesource:y_etrs89    "4535660.326" ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/estacion-permanente-de-salamanca/geometry> .
+
+georesource:estacion-permanente-de-ceuta
+        a                       esadm:Barrio ;
+        rdfs:label              "Estación Permanente de Ceuta"@es ;
+        georesource:alt_elips   "52.475" ;
+        georesource:alt_ortom   "0.0" ;
+        georesource:cod_1002    "CEU1" ;
+        georesource:fecha_alta  "20140617000000" ;
+        georesource:huso        "30" ;
+        georesource:id          "161" ;
+        georesource:id_codigo   "1002P" ;
+        georesource:latitud     "35.891969511" ;
+        georesource:longitud    "-5.30639355" ;
+        georesource:x_etrs89    "291829.369" ;
+        georesource:y_etrs89    "3974423.522" ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/estacion-permanente-de-ceuta/geometry> .
+
+georesource:estacion-permanente-de-los-cristianos
+        a                       esadm:Barrio ;
+        rdfs:label              "Estación Permanente de Los Cristianos"@es ;
+        georesource:alt_elips   "58.543" ;
+        georesource:alt_ortom   "0.0" ;
+        georesource:cod_1002    "TN03" ;
+        georesource:fecha_alta  "20140617000000" ;
+        georesource:huso        "28" ;
+        georesource:id          "145" ;
+        georesource:id_codigo   "1002P" ;
+        georesource:latitud     "28.047162308" ;
+        georesource:longitud    "-16.718524669" ;
+        georesource:x_etrs89    "331089.712" ;
+        georesource:y_etrs89    "3103618.108" ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/estacion-permanente-de-los-cristianos/geometry> .
+
+georesource:estacion-permanente-de-igne
+        a                       esadm:Barrio ;
+        rdfs:label              "Estación Permanente de IGNE"@es ;
+        georesource:alt_elips   "766.92" ;
+        georesource:alt_ortom   "0.0" ;
+        georesource:cod_1002    "IGNE"@es ;
+        georesource:fecha_alta  "20140617000000" ;
+        georesource:huso        "30" ;
+        georesource:id          "169" ;
+        georesource:id_codigo   "1002P" ;
+        georesource:latitud     "40.445835837" ;
+        georesource:longitud    "-3.70952312" ;
+        georesource:x_etrs89    "439830.797" ;
+        georesource:y_etrs89    "4477484.256" ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/estacion-permanente-de-igne/geometry> .
+
+georesource:estacion-permanente-de-ibiza
+        a                       esadm:Barrio ;
+        rdfs:label              "Estación Permanente de Ibiza"@es ;
+        georesource:alt_elips   "59.885" ;
+        georesource:alt_ortom   "0.0" ;
+        georesource:cod_1002    "IBIZ"@es ;
+        georesource:fecha_alta  "20140617000000" ;
+        georesource:huso        "31" ;
+        georesource:id          "178" ;
+        georesource:id_codigo   "1002P" ;
+        georesource:latitud     "38.911245308" ;
+        georesource:longitud    "1.448962219" ;
+        georesource:x_etrs89    "365521.785" ;
+        georesource:y_etrs89    "4308070.913" ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/estacion-permanente-de-ibiza/geometry> .
+
+georesource:estacion-permanente-de-cantabria
+        a                       esadm:Barrio ;
+        rdfs:label              "Estación Permanente de Cantabria"@es ;
+        georesource:alt_elips   "99.287" ;
+        georesource:alt_ortom   "0.0" ;
+        georesource:cod_1002    "CANT"@es ;
+        georesource:fecha_alta  "20140617000000" ;
+        georesource:huso        "30" ;
+        georesource:id          "173" ;
+        georesource:id_codigo   "1002P" ;
+        georesource:latitud     "43.471977219" ;
+        georesource:longitud    "-3.798066264" ;
+        georesource:x_etrs89    "435450.923" ;
+        georesource:y_etrs89    "4813538.533" ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/estacion-permanente-de-cantabria/geometry> .
+
+<http://geo.linkeddata.es/resource/estacion-permanente-de-aranda-de-duero/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.7425995469999886 41.66581455054196)"^^geosparql:wktLiteral .
+
+georesource:estacion-permanente-de-la-palma
+        a                       esadm:Barrio ;
+        rdfs:label              "Estación Permanente de La Palma"@es ;
+        georesource:alt_elips   "2199.221" ;
+        georesource:alt_ortom   "0.0" ;
+        georesource:cod_1002    "LPAL"@es ;
+        georesource:fecha_alta  "20140617000000" ;
+        georesource:huso        "28" ;
+        georesource:id          "144" ;
+        georesource:id_codigo   "1002P" ;
+        georesource:latitud     "28.763870122" ;
+        georesource:longitud    "-17.893829844" ;
+        georesource:x_etrs89    "217438.016" ;
+        georesource:y_etrs89    "3185260.468" ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/estacion-permanente-de-la-palma/geometry> .
+
+<http://geo.linkeddata.es/resource/estacion-permanente-de-a-coruna/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.398935414000276 43.36438082018541)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/estacion-permanente-de-palma-de-mallorca/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.6245508720000146 39.5526237191661)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/estacion-permanente-de-malaga/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.393532847001268 36.726112187419425)"^^geosparql:wktLiteral .
+
+georesource:estacion-permanente-de-caceres
+        a                       esadm:Barrio ;
+        rdfs:label              "Estación Permanente de Cáceres"@es ;
+        georesource:alt_elips   "436.527" ;
+        georesource:alt_ortom   "0.0" ;
+        georesource:cod_1002    "CACE"@es ;
+        georesource:fecha_alta  "20140617000000" ;
+        georesource:huso        "29" ;
+        georesource:id          "159" ;
+        georesource:id_codigo   "1002P" ;
+        georesource:latitud     "39.478860678" ;
+        georesource:longitud    "-6.341785017" ;
+        georesource:x_etrs89    "728635.804" ;
+        georesource:y_etrs89    "4373291.872" ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/estacion-permanente-de-caceres/geometry> .
+
+georesource:estacion-permanente-de-zaragoza
+        a                       esadm:Barrio ;
+        rdfs:label              "Estación Permanente de Zaragoza"@es ;
+        georesource:alt_elips   "296.112" ;
+        georesource:alt_ortom   "0.0" ;
+        georesource:cod_1002    "ZARA"@es ;
+        georesource:fecha_alta  "20140617000000" ;
+        georesource:huso        "30" ;
+        georesource:id          "182" ;
+        georesource:id_codigo   "1002P" ;
+        georesource:latitud     "41.633394997" ;
+        georesource:longitud    "-0.882164603" ;
+        georesource:x_etrs89    "676401.994" ;
+        georesource:y_etrs89    "4611240.268" ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/estacion-permanente-de-zaragoza/geometry> .
+
+georesource:estacion-permanente-de-sonseca
+        a                       esadm:Barrio ;
+        rdfs:label              "Estación Permanente de Sonseca"@es ;
+        georesource:alt_elips   "808.967" ;
+        georesource:alt_ortom   "0.0" ;
+        georesource:cod_1002    "SONS"@es ;
+        georesource:fecha_alta  "20140617000000" ;
+        georesource:huso        "30" ;
+        georesource:id          "168" ;
+        georesource:id_codigo   "1002P" ;
+        georesource:latitud     "39.675351058" ;
+        georesource:longitud    "-3.96396955" ;
+        georesource:x_etrs89    "417326.769" ;
+        georesource:y_etrs89    "4392169.407" ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/estacion-permanente-de-sonseca/geometry> .
+
+<http://geo.linkeddata.es/resource/estacion-permanente-de-la-palma/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-17.893829843999004 28.763870145834098)"^^geosparql:wktLiteral .
+
+georesource:estacion-permanente-de-vigo
+        a                       esadm:Barrio ;
+        rdfs:label              "Estación Permanente de Vigo"@es ;
+        georesource:alt_elips   "87.79" ;
+        georesource:alt_ortom   "0.0" ;
+        georesource:cod_1002    "VIGO"@es ;
+        georesource:fecha_alta  "20140617000000" ;
+        georesource:huso        "29" ;
+        georesource:id          "154" ;
+        georesource:id_codigo   "1002P" ;
+        georesource:latitud     "42.183977331" ;
+        georesource:longitud    "-8.813071536" ;
+        georesource:x_etrs89    "515436.301" ;
+        georesource:y_etrs89    "4670220.255" ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/estacion-permanente-de-vigo/geometry> .
+
+georesource:estacion-permanente-de-tarifa
+        a                       esadm:Barrio ;
+        rdfs:label              "Estación Permanente de Tarifa"@es ;
+        georesource:alt_elips   "49.938" ;
+        georesource:alt_ortom   "0.0" ;
+        georesource:cod_1002    "TARI"@es ;
+        georesource:fecha_alta  "20140617000000" ;
+        georesource:huso        "30" ;
+        georesource:id          "160" ;
+        georesource:id_codigo   "1002P" ;
+        georesource:latitud     "36.008508006" ;
+        georesource:longitud    "-5.602620431" ;
+        georesource:x_etrs89    "265432.088" ;
+        georesource:y_etrs89    "3988025.461" ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/estacion-permanente-de-tarifa/geometry> .
+
+<http://geo.linkeddata.es/resource/estacion-permanente-de-valencia/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.3376509439999913 39.48082516310869)"^^geosparql:wktLiteral .
+
+georesource:estacion-permanente-de-erjos
+        a                       esadm:Barrio ;
+        rdfs:label              "Estación Permanente de Erjos"@es ;
+        georesource:alt_elips   "1053.553" ;
+        georesource:alt_ortom   "0.0" ;
+        georesource:cod_1002    "TN06" ;
+        georesource:fecha_alta  "20140617000000" ;
+        georesource:huso        "28" ;
+        georesource:id          "148" ;
+        georesource:id_codigo   "1002P" ;
+        georesource:latitud     "28.3277777" ;
+        georesource:longitud    "-16.8041666" ;
+        georesource:x_etrs89    "323133.262" ;
+        georesource:y_etrs89    "3134834.501" ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/estacion-permanente-de-erjos/geometry> .
+
+georesource:estacion-permanente-de-malaga
+        a                       esadm:Barrio ;
+        rdfs:label              "Estación Permanente de Málaga"@es ;
+        georesource:alt_elips   "119.848" ;
+        georesource:alt_ortom   "0.0" ;
+        georesource:cod_1002    "MALA"@es ;
+        georesource:fecha_alta  "20140617000000" ;
+        georesource:huso        "30" ;
+        georesource:id          "162" ;
+        georesource:id_codigo   "1002P" ;
+        georesource:latitud     "36.726112152" ;
+        georesource:longitud    "-4.393532847" ;
+        georesource:x_etrs89    "375562.097" ;
+        georesource:y_etrs89    "4065394.829" ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/estacion-permanente-de-malaga/geometry> .
+
+georesource:estacion-permanente-de-palma-de-mallorca
+        a                       esadm:Barrio ;
+        rdfs:label              "Estación Permanente de Palma de Mallorca"@es ;
+        georesource:alt_elips   "62.063" ;
+        georesource:alt_ortom   "0.0" ;
+        georesource:cod_1002    "MALL"@es ;
+        georesource:fecha_alta  "20140617000000" ;
+        georesource:huso        "31" ;
+        georesource:id          "153" ;
+        georesource:id_codigo   "1002P" ;
+        georesource:latitud     "39.552623681" ;
+        georesource:longitud    "2.624550872" ;
+        georesource:x_etrs89    "467743.566" ;
+        georesource:y_etrs89    "4378172.043" ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/estacion-permanente-de-palma-de-mallorca/geometry> .
+
+<http://geo.linkeddata.es/resource/estacion-permanente-de-los-cristianos/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-16.718524668999247 28.04716233065017)"^^geosparql:wktLiteral .
+
+georesource:estacion-permanente-de-el-puerto
+        a                       esadm:Barrio ;
+        rdfs:label              "Estación Permanente de El Puerto"@es ;
+        georesource:alt_elips   "54.475" ;
+        georesource:alt_ortom   "0.0" ;
+        georesource:cod_1002    "TN02" ;
+        georesource:fecha_alta  "20140617000000" ;
+        georesource:huso        "28" ;
+        georesource:id          "151" ;
+        georesource:id_codigo   "1002P" ;
+        georesource:latitud     "28.418253075" ;
+        georesource:longitud    "-16.550789264" ;
+        georesource:x_etrs89    "348105.058" ;
+        georesource:y_etrs89    "3144514.255" ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/estacion-permanente-de-el-puerto/geometry> .
+
+<http://geo.linkeddata.es/resource/estacion-permanente-de-izana/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-16.499681966999226 28.30806502908176)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/estacion-permanente-de-salamanca/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.495863564001345 40.94508121414253)"^^geosparql:wktLiteral .
+
+georesource:estacion-permanente-de-almodovar-campo
+        a                       esadm:Barrio ;
+        rdfs:label              "Estación Permanente de Almodóvar Campo"@es ;
+        georesource:alt_elips   "743.384" ;
+        georesource:alt_ortom   "0.0" ;
+        georesource:cod_1002    "ALMO"@es ;
+        georesource:fecha_alta  "20140617000000" ;
+        georesource:huso        "30" ;
+        georesource:id          "164" ;
+        georesource:id_codigo   "1002P" ;
+        georesource:latitud     "38.705509883" ;
+        georesource:longitud    "-4.180254367" ;
+        georesource:x_etrs89    "397375.814" ;
+        georesource:y_etrs89    "4284758.534" ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/estacion-permanente-de-almodovar-campo/geometry> .
+
+<http://geo.linkeddata.es/resource/estacion-permanente-de-vilaflor/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-16.636929723256188 28.158893031756193)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/estacion-permanente-de-ccan-las-canadas/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-16.60685960999923 28.223447612941857)"^^geosparql:wktLiteral .
+
+georesource:estacion-permanente-de-teruel
+        a                       esadm:Barrio ;
+        rdfs:label              "Estación Permanente de Teruel"@es ;
+        georesource:alt_elips   "956.187" ;
+        georesource:alt_ortom   "0.0" ;
+        georesource:cod_1002    "TERU"@es ;
+        georesource:fecha_alta  "20140617000000" ;
+        georesource:huso        "30" ;
+        georesource:id          "179" ;
+        georesource:id_codigo   "1002P" ;
+        georesource:latitud     "40.350497264" ;
+        georesource:longitud    "-1.124301033" ;
+        georesource:x_etrs89    "659292.144" ;
+        georesource:y_etrs89    "4468348.677" ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/estacion-permanente-de-teruel/geometry> .
+
+<http://geo.linkeddata.es/resource/estacion-permanente-de-yebes/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.088629160999992 40.52489772787589)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/estacion-permanente-de-cantabria/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.798066263999992 43.47197725921182)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/estacion-permanente-de-lugo/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.544685519000654 42.99307958408111)"^^geosparql:wktLiteral .
+
+georesource:estacion-permanente-de-huelva
+        a                       esadm:Barrio ;
+        rdfs:label              "Estación Permanente de Huelva"@es ;
+        georesource:alt_elips   "81.86" ;
+        georesource:alt_ortom   "0.0" ;
+        georesource:cod_1002    "HUEL"@es ;
+        georesource:fecha_alta  "20140617000000" ;
+        georesource:huso        "29" ;
+        georesource:id          "157" ;
+        georesource:id_codigo   "1002P" ;
+        georesource:latitud     "37.199978741" ;
+        georesource:longitud    "-6.920299206" ;
+        georesource:x_etrs89    "684568.867" ;
+        georesource:y_etrs89    "4119082.774" ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/estacion-permanente-de-huelva/geometry> .
+
+georesource:estacion-permanente-de-santa-cruz
+        a                       esadm:Barrio ;
+        rdfs:label              "Estación Permanente de Santa Cruz"@es ;
+        georesource:alt_elips   "51.787" ;
+        georesource:alt_ortom   "0.0" ;
+        georesource:cod_1002    "TN01" ;
+        georesource:fecha_alta  "20140617000000" ;
+        georesource:huso        "28" ;
+        georesource:id          "152" ;
+        georesource:id_codigo   "1002P" ;
+        georesource:latitud     "28.477182619" ;
+        georesource:longitud    "-16.241156747" ;
+        georesource:x_etrs89    "378502.916" ;
+        georesource:y_etrs89    "3150691.696" ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/estacion-permanente-de-santa-cruz/geometry> .
+
+georesource:estacion-permanente-de-fraga
+        a                       esadm:Barrio ;
+        rdfs:label              "Estación Permanente de Fraga"@es ;
+        georesource:alt_elips   "181.803" ;
+        georesource:alt_ortom   "0.0" ;
+        georesource:cod_1002    "FRAG"@es ;
+        georesource:fecha_alta  "20140617000000" ;
+        georesource:huso        "31" ;
+        georesource:id          "185" ;
+        georesource:id_codigo   "1002P" ;
+        georesource:latitud     "41.509458528" ;
+        georesource:longitud    "0.324157672" ;
+        georesource:x_etrs89    "276689.271" ;
+        georesource:y_etrs89    "4598771.559" ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/estacion-permanente-de-fraga/geometry> .
+
+georesource:estacion-permanente-de-yebes-1
+        a                       esadm:Barrio ;
+        rdfs:label              "Estación Permanente de YEBES 1" ;
+        georesource:alt_elips   "975.367" ;
+        georesource:alt_ortom   "0.0" ;
+        georesource:cod_1002    "YEB1" ;
+        georesource:fecha_alta  "20140617000000" ;
+        georesource:huso        "30" ;
+        georesource:id          "170" ;
+        georesource:id_codigo   "1002P" ;
+        georesource:latitud     "40.523777975" ;
+        georesource:longitud    "-3.090197464" ;
+        georesource:x_etrs89    "4485897.996" ;
+        georesource:y_etrs89    "492359.92" ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/estacion-permanente-de-yebes-1/geometry> .
+
+georesource:estacion-permanente-de-barcelona
+        a                       esadm:Barrio ;
+        rdfs:label              "Estación Permanente de Barcelona"@es ;
+        georesource:alt_elips   "84.825" ;
+        georesource:alt_ortom   "0.0" ;
+        georesource:cod_1002    "BCLN"@es ;
+        georesource:fecha_alta  "20140617000000" ;
+        georesource:huso        "31" ;
+        georesource:id          "186" ;
+        georesource:id_codigo   "1002P" ;
+        georesource:latitud     "41.405415917" ;
+        georesource:longitud    "2.004162411" ;
+        georesource:x_etrs89    "416763.283" ;
+        georesource:y_etrs89    "4584242.103" ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/estacion-permanente-de-barcelona/geometry> .
+
+georesource:estacion-permanente-de-rioja-1
+        a                       esadm:Barrio ;
+        rdfs:label              "Estación Permanente de Rioja 1" ;
+        georesource:alt_elips   "450.391" ;
+        georesource:alt_ortom   "0.0" ;
+        georesource:cod_1002    "RIO1" ;
+        georesource:fecha_alta  "20140617000000" ;
+        georesource:huso        "30" ;
+        georesource:id          "181" ;
+        georesource:id_codigo   "1002P" ;
+        georesource:latitud     "42.464240911" ;
+        georesource:longitud    "-2.426097019" ;
+        georesource:x_etrs89    "547182.32" ;
+        georesource:y_etrs89    "4701481.991" ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/estacion-permanente-de-rioja-1/geometry> .
+
+<http://geo.linkeddata.es/resource/estacion-permanente-de-teruel/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.1243010329999867 40.350497302757994)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/estacion-permanente-de-almodovar-campo/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.180254366999991 38.705509920445834)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/estacion-permanente-de-ceuta/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.30639355000095 35.89196954543389)"^^geosparql:wktLiteral .
+
+georesource:estacion-permanente-de-aranda-de-duero
+        a                       esadm:Barrio ;
+        rdfs:label              "Estación Permanente de Aranda de Duero"@es ;
+        georesource:alt_elips   "844.477" ;
+        georesource:alt_ortom   "0.0" ;
+        georesource:cod_1002    "ARDU"@es ;
+        georesource:fecha_alta  "20140617000000" ;
+        georesource:huso        "30" ;
+        georesource:id          "172" ;
+        georesource:id_codigo   "1002P" ;
+        georesource:latitud     "41.665814511" ;
+        georesource:longitud    "-3.742599547" ;
+        georesource:x_etrs89    "438178.735" ;
+        georesource:y_etrs89    "4612939.415" ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/estacion-permanente-de-aranda-de-duero/geometry> .
+
+<http://geo.linkeddata.es/resource/estacion-permanente-de-almeria/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.4594496669999875 36.85253132456234)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/estacion-permanente-de-yebes-1/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.0901974639999916 40.52377801387512)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/estacion-permanente-de-fraga/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.3241576720000126 41.509458567461614)"^^geosparql:wktLiteral .
+
+georesource:estacion-permanente-de-albacete
+        a                       esadm:Barrio ;
+        rdfs:label              "Estación Permanente de Albacete"@es ;
+        georesource:alt_elips   "751.736" ;
+        georesource:alt_ortom   "0.0" ;
+        georesource:cod_1002    "ALBA"@es ;
+        georesource:fecha_alta  "20140617000000" ;
+        georesource:huso        "30" ;
+        georesource:id          "176" ;
+        georesource:id_codigo   "1002P" ;
+        georesource:latitud     "38.977915125" ;
+        georesource:longitud    "-1.85640394" ;
+        georesource:x_etrs89    "599058.153" ;
+        georesource:y_etrs89    "4314947.687" ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/estacion-permanente-de-albacete/geometry> .
+
+<http://geo.linkeddata.es/resource/estacion-permanente-de-girona/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.855129108000023 42.04158561772075)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/estacion-permanente-de-albacete/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.8564039399999976 38.97791516268752)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/estacion-permanente-de-zaragoza/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.882164602999986 41.63339503652561)"^^geosparql:wktLiteral .
+
+georesource:estacion-permanente-de-craj-mrajada
+        a                       esadm:Barrio ;
+        rdfs:label              "Estación Permanente de CRAJ MRajada"@es ;
+        georesource:alt_elips   "2509.824" ;
+        georesource:alt_ortom   "0.0" ;
+        georesource:cod_1002    "TN05" ;
+        georesource:fecha_alta  "20140617000000" ;
+        georesource:huso        "28" ;
+        georesource:id          "149" ;
+        georesource:id_codigo   "1002P" ;
+        georesource:latitud     "28.264722" ;
+        georesource:longitud    "-16.596964" ;
+        georesource:x_etrs89    "343358.514" ;
+        georesource:y_etrs89    "3127561.474" ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/estacion-permanente-de-craj-mrajada/geometry> .
+
+<http://geo.linkeddata.es/resource/estacion-permanente-de-erjos/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-16.804166599999196 28.32777772311434)"^^geosparql:wktLiteral .
+
+georesource:estacion-permanente-de-yebes
+        a                       esadm:Barrio ;
+        rdfs:label              "Estación Permanente de Yebes"@es ;
+        georesource:alt_elips   "972.778" ;
+        georesource:alt_ortom   "0.0" ;
+        georesource:cod_1002    "YEBE"@es ;
+        georesource:fecha_alta  "20140617000000" ;
+        georesource:huso        "30" ;
+        georesource:id          "171" ;
+        georesource:id_codigo   "1002P" ;
+        georesource:latitud     "40.524897689" ;
+        georesource:longitud    "-3.088629161" ;
+        georesource:x_etrs89    "492492.886" ;
+        georesource:y_etrs89    "4486022.15" ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/estacion-permanente-de-yebes/geometry> .
+
+<http://geo.linkeddata.es/resource/estacion-permanente-de-melilla/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.951655782999996 35.28118543466755)"^^geosparql:wktLiteral .
+
+georesource:estacion-permanente-de-girona
+        a                       esadm:Barrio ;
+        rdfs:label              "Estación Permanente de Girona"@es ;
+        georesource:alt_elips   "112.718" ;
+        georesource:alt_ortom   "0.0" ;
+        georesource:cod_1002    "GIRO"@es ;
+        georesource:fecha_alta  "20140617000000" ;
+        georesource:huso        "31" ;
+        georesource:id          "187" ;
+        georesource:id_codigo   "1002P" ;
+        georesource:latitud     "42.041585578" ;
+        georesource:longitud    "2.855129108" ;
+        georesource:x_etrs89    "488009.951" ;
+        georesource:y_etrs89    "4654403.592" ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/estacion-permanente-de-girona/geometry> .
+
+<http://geo.linkeddata.es/resource/estacion-permanente-de-alicante/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.4812325109999909 38.338917694105845)"^^geosparql:wktLiteral .
+
+georesource:estacion-permanente-de-almeria
+        a                       esadm:Barrio ;
+        rdfs:label              "Estación Permanente de Almería"@es ;
+        georesource:alt_elips   "127.517" ;
+        georesource:alt_ortom   "0.0" ;
+        georesource:cod_1002    "ALME"@es ;
+        georesource:fecha_alta  "20140617000000" ;
+        georesource:huso        "30" ;
+        georesource:id          "174" ;
+        georesource:id_codigo   "1002P" ;
+        georesource:latitud     "36.852531289" ;
+        georesource:longitud    "-2.459449667" ;
+        georesource:x_etrs89    "548188.969" ;
+        georesource:y_etrs89    "4078649.728" ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/estacion-permanente-de-almeria/geometry> .
+
+georesource:estacion-permanente-de-lugo
+        a                       esadm:Barrio ;
+        rdfs:label              "Estación Permanente de Lugo"@es ;
+        georesource:alt_elips   "476.611" ;
+        georesource:alt_ortom   "0.0" ;
+        georesource:cod_1002    "LUGO"@es ;
+        georesource:fecha_alta  "20140617000000" ;
+        georesource:huso        "29" ;
+        georesource:id          "165" ;
+        georesource:id_codigo   "1002P" ;
+        georesource:latitud     "42.993079544" ;
+        georesource:longitud    "-7.544685519" ;
+        georesource:x_etrs89    "4761073.813" ;
+        georesource:y_etrs89    "618634.512" ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/estacion-permanente-de-lugo/geometry> .
+
+georesource:estacion-permanente-de-izana
+        a                       esadm:Barrio ;
+        rdfs:label              "Estación Permanente de Izaña"@es ;
+        georesource:alt_elips   "2417.483" ;
+        georesource:alt_ortom   "0.0" ;
+        georesource:cod_1002    "IZAN"@es ;
+        georesource:fecha_alta  "20140617000000" ;
+        georesource:huso        "28" ;
+        georesource:id          "150" ;
+        georesource:id_codigo   "1002P" ;
+        georesource:latitud     "28.308065006" ;
+        georesource:longitud    "-16.499681967" ;
+        georesource:x_etrs89    "352959.651" ;
+        georesource:y_etrs89    "3132241.759" ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/estacion-permanente-de-izana/geometry> .
+
+<http://geo.linkeddata.es/resource/estacion-permanente-de-el-pinar/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-17.97887439099917 27.709415243090824)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/estacion-permanente-de-zafra/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.410042347000818 38.42601112918812)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/estacion-permanente-de-el-puerto/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-16.550789263999206 28.41825309826386)"^^geosparql:wktLiteral .
+
+georesource:estacion-permanente-de-ccan-las-canadas
+        a                       esadm:Barrio ;
+        rdfs:label              "Estación Permanente de CCAN Las Cañadas"@es ;
+        georesource:alt_elips   "2291.137" ;
+        georesource:alt_ortom   "0.0" ;
+        georesource:cod_1002    "TN07" ;
+        georesource:fecha_alta  "20140617000000" ;
+        georesource:huso        "28" ;
+        georesource:id          "147" ;
+        georesource:id_codigo   "1002P" ;
+        georesource:latitud     "28.22344759" ;
+        georesource:longitud    "-16.60685961" ;
+        georesource:x_etrs89    "342325.099" ;
+        georesource:y_etrs89    "3123000.99" ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/estacion-permanente-de-ccan-las-canadas/geometry> .
+
+<http://geo.linkeddata.es/resource/estacion-permanente-de-leon/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.650975505001455 42.58840542094411)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/estacion-permanente-de-santa-cruz/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-16.241156746999234 28.4771826423612)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/estacion-permanente-de-rioja-1/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.426097018999991 42.464240950897256)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/estacion-permanente-de-igne/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.709523119999992 40.44583587582293)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/estacion-permanente-de-ibiza/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.4489622190000138 38.91124534562925)"^^geosparql:wktLiteral .
+
+georesource:estacion-permanente-de-leon
+        a                       esadm:Barrio ;
+        rdfs:label              "Estación Permanente de León"@es ;
+        georesource:alt_elips   "970.254" ;
+        georesource:alt_ortom   "0.0" ;
+        georesource:cod_1002    "LEON"@es ;
+        georesource:fecha_alta  "20140617000000" ;
+        georesource:huso        "30" ;
+        georesource:id          "166" ;
+        georesource:id_codigo   "1002P" ;
+        georesource:latitud     "42.588405381" ;
+        georesource:longitud    "-5.650975505" ;
+        georesource:x_etrs89    "282480.046" ;
+        georesource:y_etrs89    "4718516.219" ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/estacion-permanente-de-leon/geometry> .
+
+<http://geo.linkeddata.es/resource/estacion-permanente-de-barcelona/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.0041624110000105 41.40541595640619)"^^geosparql:wktLiteral .
+
+georesource:estacion-permanente-de-alicante
+        a                       esadm:Barrio ;
+        rdfs:label              "Estación Permanente de Alicante"@es ;
+        georesource:alt_elips   "60.356" ;
+        georesource:alt_ortom   "0.0" ;
+        georesource:cod_1002    "ALAC"@es ;
+        georesource:fecha_alta  "20140617000000" ;
+        georesource:huso        "30" ;
+        georesource:id          "177" ;
+        georesource:id_codigo   "1002P" ;
+        georesource:latitud     "38.338917657" ;
+        georesource:longitud    "-0.481232511" ;
+        georesource:x_etrs89    "720135.941" ;
+        georesource:y_etrs89    "4246422.301" ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/estacion-permanente-de-alicante/geometry> .
+
+<http://geo.linkeddata.es/resource/estacion-permanente-de-cordoba/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.721111094001301 37.915604533692736)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/estacion-permanente-de-vigo/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.813071536000079 42.183977370783126)"^^geosparql:wktLiteral .
+
+georesource:estacion-permanente-de-vilaflor
+        a                       esadm:Barrio ;
+        rdfs:label              "Estación Permanente de Vilaflor"@es ;
+        georesource:alt_elips   "1468.143" ;
+        georesource:alt_ortom   "0.0" ;
+        georesource:cod_1002    "TN04" ;
+        georesource:fecha_alta  "20140617000000" ;
+        georesource:huso        "28" ;
+        georesource:id          "146" ;
+        georesource:id_codigo   "1002P" ;
+        georesource:latitud     "28.158893009" ;
+        georesource:longitud    "-16.63692972" ;
+        georesource:x_etrs89    "339277.426" ;
+        georesource:y_etrs89    "3115887.638" ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/estacion-permanente-de-vilaflor/geometry> .
+
+georesource:estacion-permanente-de-jaca
+        a                       esadm:Barrio ;
+        rdfs:label              "Estación Permanente de JACA"@es ;
+        georesource:alt_elips   "738.94" ;
+        georesource:alt_ortom   "0.0" ;
+        georesource:cod_1002    "JACA"@es ;
+        georesource:fecha_alta  "20140617000000" ;
+        georesource:huso        "30" ;
+        georesource:id          "183" ;
+        georesource:id_codigo   "1002P" ;
+        georesource:latitud     "42.567337636" ;
+        georesource:longitud    "-0.726527783" ;
+        georesource:x_etrs89    "686606.089" ;
+        georesource:y_etrs89    "4715275.282" ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/estacion-permanente-de-jaca/geometry> .
+
+<http://geo.linkeddata.es/resource/estacion-permanente-de-caceres/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.341785017000912 39.47886071610711)"^^geosparql:wktLiteral .
+
+georesource:estacion-permanente-de-el-pinar
+        a                       esadm:Barrio ;
+        rdfs:label              "Estación Permanente de El Pinar"@es ;
+        georesource:alt_elips   "897.412" ;
+        georesource:alt_ortom   "0.0" ;
+        georesource:cod_1002    "HI08" ;
+        georesource:fecha_alta  "20140617000000" ;
+        georesource:huso        "28" ;
+        georesource:id          "143" ;
+        georesource:id_codigo   "1002P" ;
+        georesource:latitud     "27.709415221" ;
+        georesource:longitud    "-17.978874391" ;
+        georesource:x_etrs89    "206251.982" ;
+        georesource:y_etrs89    "3068566.288" ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/estacion-permanente-de-el-pinar/geometry> .
+
+<http://geo.linkeddata.es/resource/estacion-permanente-de-jaca/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.7265277829999852 42.567337675936336)"^^geosparql:wktLiteral .
+
