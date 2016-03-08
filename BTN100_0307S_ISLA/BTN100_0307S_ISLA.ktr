@@ -191,16 +191,16 @@
 
 
 
-aux = FECHA_ALTA.match(&#47;^(\d{4})(\d{2})(\d{2})(\d{2})(\d{2})(\d{2})&#47;);
+var aux = FECHA_ALTA.match(&#47;^(\d{4})(\d{2})(\d{2})(\d{2})(\d{2})(\d{2})&#47;);
 
-year_aux = aux[1];
-month_aux = aux[2]-1;
-day_aux = aux[3];
-hours_aux = aux[4];
-minutes_aux = aux[5];
-seconds_aux = aux[6];
+var year_aux = aux[1];
+var month_aux = aux[2]-1;
+var day_aux = aux[3];
+var hours_aux = aux[4];
+var minutes_aux = aux[5];
+var seconds_aux = aux[6];
 
-FECHA = new Date(year_aux, month_aux, day_aux, hours_aux, minutes_aux, seconds_aux);
+var FECHA = new Date(year_aux, month_aux, day_aux, hours_aux, minutes_aux, seconds_aux);
 </jsScript_script>
       </jsScript>    </jsScripts>    <fields>      <field>        <name>FECHA</name>
         <rename>FECHA</rename>
