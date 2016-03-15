@@ -53,175 +53,7 @@
   <notepads>
   </notepads>
   <order>
-  <hop> <from>SRS Transformation</from><to>Filtrar filas</to><enabled>Y</enabled> </hop>  <hop> <from>SRS Transformation</from><to>Filtrar filas 2</to><enabled>Y</enabled> </hop>  <hop> <from>Filtrar filas 2</from><to>tripleGEO 2</to><enabled>Y</enabled> </hop>  <hop> <from>tripleGEO 2</from><to>Salida Fichero de Texto</to><enabled>Y</enabled> </hop>  <hop> <from>SRS Transformation</from><to>Filtrar filas 3</to><enabled>Y</enabled> </hop>  <hop> <from>Filtrar filas 3</from><to>tripleGEO 3</to><enabled>Y</enabled> </hop>  <hop> <from>SRS Transformation</from><to>Filtrar filas 4</to><enabled>Y</enabled> </hop>  <hop> <from>SRS Transformation</from><to>Filtrar filas 5</to><enabled>Y</enabled> </hop>  <hop> <from>SRS Transformation</from><to>Filtrar filas 6</to><enabled>Y</enabled> </hop>  <hop> <from>Filtrar filas 4</from><to>tripleGEO 4</to><enabled>Y</enabled> </hop>  <hop> <from>Filtrar filas 5</from><to>tripleGEO 5</to><enabled>Y</enabled> </hop>  <hop> <from>Filtrar filas 6</from><to>tripleGEO 6</to><enabled>Y</enabled> </hop>  <hop> <from>tripleGEO 3</from><to>Salida Fichero de Texto</to><enabled>Y</enabled> </hop>  <hop> <from>tripleGEO 4</from><to>Salida Fichero de Texto</to><enabled>Y</enabled> </hop>  <hop> <from>tripleGEO 5</from><to>Salida Fichero de Texto</to><enabled>Y</enabled> </hop>  <hop> <from>tripleGEO 6</from><to>Salida Fichero de Texto</to><enabled>Y</enabled> </hop>  <hop> <from>Shapefile File Input</from><to>Valor Java Script Modificado</to><enabled>Y</enabled> </hop>  <hop> <from>Valor Java Script Modificado</from><to>SRS Transformation</to><enabled>Y</enabled> </hop>  <hop> <from>Filtrar filas</from><to>tripleGEO</to><enabled>Y</enabled> </hop>  <hop> <from>tripleGEO</from><to>Salida Fichero de Texto</to><enabled>Y</enabled> </hop>  </order>
-  <step>
-    <name>Filtrar filas</name>
-    <type>FilterRows</type>
-    <description/>
-    <distribute>Y</distribute>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-<send_true_to/>
-<send_false_to/>
-    <compare>
-<condition>
- <negated>N</negated>
- <leftvalue>TIPO_0505</leftvalue>
- <function>=</function>
- <rightvalue/>
- <value><name>constant</name><type>String</type><text>01</text><length>-1</length><precision>-1</precision><isnull>N</isnull><mask/></value> </condition>
-    </compare>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>453</xloc>
-      <yloc>88</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Filtrar filas 2</name>
-    <type>FilterRows</type>
-    <description/>
-    <distribute>Y</distribute>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-<send_true_to/>
-<send_false_to/>
-    <compare>
-<condition>
- <negated>N</negated>
- <leftvalue>TIPO_0505</leftvalue>
- <function>=</function>
- <rightvalue/>
- <value><name>constant</name><type>String</type><text>02</text><length>-1</length><precision>-1</precision><isnull>N</isnull><mask>#</mask></value> </condition>
-    </compare>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>462</xloc>
-      <yloc>196</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Filtrar filas 3</name>
-    <type>FilterRows</type>
-    <description/>
-    <distribute>Y</distribute>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-<send_true_to/>
-<send_false_to/>
-    <compare>
-<condition>
- <negated>N</negated>
- <leftvalue>TIPO_0505</leftvalue>
- <function>=</function>
- <rightvalue/>
- <value><name>constant</name><type>String</type><text>03</text><length>-1</length><precision>-1</precision><isnull>N</isnull><mask/></value> </condition>
-    </compare>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>474</xloc>
-      <yloc>303</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Filtrar filas 4</name>
-    <type>FilterRows</type>
-    <description/>
-    <distribute>Y</distribute>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-<send_true_to/>
-<send_false_to/>
-    <compare>
-<condition>
- <negated>N</negated>
- <leftvalue>TIPO_0505</leftvalue>
- <function>=</function>
- <rightvalue/>
- <value><name>constant</name><type>String</type><text>04</text><length>-1</length><precision>-1</precision><isnull>N</isnull><mask/></value> </condition>
-    </compare>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>458</xloc>
-      <yloc>397</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Filtrar filas 5</name>
-    <type>FilterRows</type>
-    <description/>
-    <distribute>Y</distribute>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-<send_true_to/>
-<send_false_to/>
-    <compare>
-<condition>
- <negated>N</negated>
- <leftvalue>TIPO_0505</leftvalue>
- <function>=</function>
- <rightvalue/>
- <value><name>constant</name><type>String</type><text>05</text><length>-1</length><precision>-1</precision><isnull>N</isnull><mask/></value> </condition>
-    </compare>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>475</xloc>
-      <yloc>484</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Filtrar filas 6</name>
-    <type>FilterRows</type>
-    <description/>
-    <distribute>Y</distribute>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-<send_true_to/>
-<send_false_to/>
-    <compare>
-<condition>
- <negated>N</negated>
- <leftvalue>TIPO_0505</leftvalue>
- <function>=</function>
- <rightvalue/>
- <value><name>constant</name><type>String</type><text>06</text><length>-1</length><precision>-1</precision><isnull>N</isnull><mask/></value> </condition>
-    </compare>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>478</xloc>
-      <yloc>579</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
+  <hop> <from>Shapefile File Input</from><to>Valor Java Script Modificado</to><enabled>Y</enabled> </hop>  <hop> <from>SRS Transformation</from><to>Switch &#47; Case</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>target01</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>target02</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>target03</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>target04</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>target05</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>target06</to><enabled>Y</enabled> </hop>  <hop> <from>target01</from><to>Salida Fichero de Texto</to><enabled>Y</enabled> </hop>  <hop> <from>target02</from><to>Salida Fichero de Texto</to><enabled>Y</enabled> </hop>  <hop> <from>target03</from><to>Salida Fichero de Texto</to><enabled>Y</enabled> </hop>  <hop> <from>target04</from><to>Salida Fichero de Texto</to><enabled>Y</enabled> </hop>  <hop> <from>target05</from><to>Salida Fichero de Texto</to><enabled>Y</enabled> </hop>  <hop> <from>target06</from><to>Salida Fichero de Texto</to><enabled>Y</enabled> </hop>  <hop> <from>Valor Java Script Modificado</from><to>SRS Transformation</to><enabled>Y</enabled> </hop>  </order>
   <step>
     <name>SRS Transformation</name>
     <type>SRSTransformation</type>
@@ -237,8 +69,8 @@
 <target_gui_status>1</target_gui_status>
     <source_srs>
 <authority>EPSG</authority>
-<srid>23030</srid>
-<description>ED50 &#47; UTM zone 30N</description>
+<srid>4258</srid>
+<description>ETRS89</description>
 <is_custom>N</is_custom>
     </source_srs>
     <target_srs>
@@ -249,8 +81,8 @@
     </target_srs>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>139</xloc>
-      <yloc>394</yloc>
+      <xloc>237</xloc>
+      <yloc>197</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -309,8 +141,8 @@
     </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>1003</xloc>
-      <yloc>610</yloc>
+      <xloc>946</xloc>
+      <yloc>354</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -331,13 +163,50 @@
     <limit>0</limit>
     <add_rownr>N</add_rownr>
     <field_rownr/>
-    <gis_file_charset>UTF-8</gis_file_charset>
+    <gis_file_charset>ISO-8859-1</gis_file_charset>
     <passing_through_fields>N</passing_through_fields>
     <accept_stepname/>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>138</xloc>
-      <yloc>35</yloc>
+      <xloc>89</xloc>
+      <yloc>46</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Switch &#47; Case</name>
+    <type>SwitchCase</type>
+    <description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+<fieldname>TIPO_0505</fieldname>
+<use_contains>N</use_contains>
+<case_value_type>String</case_value_type>
+<case_value_format/>
+<case_value_decimal/>
+<case_value_group/>
+<default_target_step>target01</default_target_step>
+<cases><case><value>01</value>
+<target_step>target01</target_step>
+</case><case><value>02</value>
+<target_step>target02</target_step>
+</case><case><value>03</value>
+<target_step>target03</target_step>
+</case><case><value>04</value>
+<target_step>target04</target_step>
+</case><case><value>05</value>
+<target_step>target05</target_step>
+</case><case><value>06</value>
+<target_step>target06</target_step>
+</case></cases>     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>407</xloc>
+      <yloc>204</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -346,7 +215,7 @@
     <name>Valor Java Script Modificado</name>
     <type>ScriptValueMod</type>
     <description/>
-    <distribute>Y</distribute>
+    <distribute>N</distribute>
     <copies>1</copies>
          <partitioning>
            <method>none</method>
@@ -356,9 +225,6 @@
     <jsScripts>      <jsScript>        <jsScript_type>0</jsScript_type>
         <jsScript_name>Script 1</jsScript_name>
         <jsScript_script>
-
-
-
 var aux = FECHA_ALTA.match(&#47;^(\d{4})(\d{2})(\d{2})(\d{2})(\d{2})(\d{2})&#47;);
 
 var year_aux = aux[1];
@@ -369,10 +235,10 @@ var minutes_aux = aux[5];
 var seconds_aux = aux[6];
 
 var created = new Date(year_aux, month_aux, day_aux, hours_aux, minutes_aux, seconds_aux);
+
 created = date2str(created, &quot;yyyy-MM-dd&quot;);
 
-
-</jsScript_script>
+created = created + &apos;&apos;</jsScript_script>
       </jsScript>    </jsScripts>    <fields>      <field>        <name>created</name>
         <rename>created</rename>
         <type>String</type>
@@ -381,26 +247,26 @@ created = date2str(created, &quot;yyyy-MM-dd&quot;);
         <replace>N</replace>
       </field>    </fields>     <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>64</xloc>
-      <yloc>199</yloc>
+      <xloc>85</xloc>
+      <yloc>192</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
 
   <step>
-    <name>tripleGEO</name>
+    <name>target01</name>
     <type>tripleGEO</type>
     <description/>
-    <distribute>Y</distribute>
+    <distribute>N</distribute>
     <copies>1</copies>
          <partitioning>
            <method>none</method>
            <schema_name/>
            </partitioning>
 		<attributename>ETIQUETA</attributename>
-		<feature>Hostel</feature>
-		<ontologyns>http://www.disit.org/km4city/schema#</ontologyns>
-		<ontologynsprefix>km4city</ontologynsprefix>
+		<feature>ALBERGUE</feature>
+		<ontologyns>http://geo.linkeddata.es/def/feature#</ontologyns>
+		<ontologynsprefix>geodef</ontologynsprefix>
 		<resourcens>http://geo.linkeddata.es/resource/</resourcens>
 		<resourcensprefix>georesource</resourcensprefix>
 		<language>es</language>
@@ -434,13 +300,13 @@ created = date2str(created, &quot;yyyy-MM-dd&quot;);
 		<column>ID_CODIGO</column>
 		<prefix/>
 		<uri/>
-		<show>YES</show>
+		<show>NO</show>
 		<column_shp>ID_CODIGO</column_shp>
 		</columns>
 		<columns>
-		<column>ID_MOD</column>
-		<prefix/>
-		<uri/>
+		<column>replaces</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
 		<show>YES</show>
 		<column_shp>ID_MOD</column_shp>
 		</columns>
@@ -455,7 +321,7 @@ created = date2str(created, &quot;yyyy-MM-dd&quot;);
 		<column>type</column>
 		<prefix>dc</prefix>
 		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
-		<show>YES</show>
+		<show>NO</show>
 		<column_shp>TIPO_0505</column_shp>
 		</columns>
 		<columns>
@@ -475,14 +341,14 @@ created = date2str(created, &quot;yyyy-MM-dd&quot;);
 		</columns>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>670</xloc>
-      <yloc>73</yloc>
+      <xloc>649</xloc>
+      <yloc>70</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
 
   <step>
-    <name>tripleGEO 2</name>
+    <name>target02</name>
     <type>tripleGEO</type>
     <description/>
     <distribute>N</distribute>
@@ -492,9 +358,9 @@ created = date2str(created, &quot;yyyy-MM-dd&quot;);
            <schema_name/>
            </partitioning>
 		<attributename>ETIQUETA</attributename>
-		<feature>Beach_resort</feature>
-		<ontologyns>http://www.disit.org/km4city/schema#</ontologyns>
-		<ontologynsprefix>km4city</ontologynsprefix>
+		<feature>Balneario</feature>
+		<ontologyns>http://geo.linkeddata.es/def/feature#</ontologyns>
+		<ontologynsprefix>geodef</ontologynsprefix>
 		<resourcens>http://geo.linkeddata.es/resource/</resourcens>
 		<resourcensprefix>georesource</resourcensprefix>
 		<language>es</language>
@@ -528,13 +394,13 @@ created = date2str(created, &quot;yyyy-MM-dd&quot;);
 		<column>ID_CODIGO</column>
 		<prefix/>
 		<uri/>
-		<show>YES</show>
+		<show>NO</show>
 		<column_shp>ID_CODIGO</column_shp>
 		</columns>
 		<columns>
-		<column>ID_MOD</column>
-		<prefix/>
-		<uri/>
+		<column>replaces</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
 		<show>YES</show>
 		<column_shp>ID_MOD</column_shp>
 		</columns>
@@ -549,7 +415,7 @@ created = date2str(created, &quot;yyyy-MM-dd&quot;);
 		<column>type</column>
 		<prefix>dc</prefix>
 		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
-		<show>YES</show>
+		<show>NO</show>
 		<column_shp>TIPO_0505</column_shp>
 		</columns>
 		<columns>
@@ -576,7 +442,7 @@ created = date2str(created, &quot;yyyy-MM-dd&quot;);
     </step>
 
   <step>
-    <name>tripleGEO 3</name>
+    <name>target03</name>
     <type>tripleGEO</type>
     <description/>
     <distribute>N</distribute>
@@ -587,8 +453,8 @@ created = date2str(created, &quot;yyyy-MM-dd&quot;);
            </partitioning>
 		<attributename>ETIQUETA</attributename>
 		<feature>Camping</feature>
-		<ontologyns> http://www.disit.org/km4city/schema#</ontologyns>
-		<ontologynsprefix>km4city</ontologynsprefix>
+		<ontologyns>http://geo.linkeddata.es/def/feature#</ontologyns>
+		<ontologynsprefix>geodef</ontologynsprefix>
 		<resourcens>http://geo.linkeddata.es/resource/</resourcens>
 		<resourcensprefix>georesource</resourcensprefix>
 		<language>es</language>
@@ -622,13 +488,13 @@ created = date2str(created, &quot;yyyy-MM-dd&quot;);
 		<column>ID_CODIGO</column>
 		<prefix/>
 		<uri/>
-		<show>YES</show>
+		<show>NO</show>
 		<column_shp>ID_CODIGO</column_shp>
 		</columns>
 		<columns>
-		<column>ID_MOD</column>
-		<prefix/>
-		<uri/>
+		<column>replaces</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
 		<show>YES</show>
 		<column_shp>ID_MOD</column_shp>
 		</columns>
@@ -643,7 +509,7 @@ created = date2str(created, &quot;yyyy-MM-dd&quot;);
 		<column>type</column>
 		<prefix>dc</prefix>
 		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
-		<show>YES</show>
+		<show>NO</show>
 		<column_shp>TIPO_0505</column_shp>
 		</columns>
 		<columns>
@@ -663,14 +529,14 @@ created = date2str(created, &quot;yyyy-MM-dd&quot;);
 		</columns>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>647</xloc>
-      <yloc>292</yloc>
+      <xloc>648</xloc>
+      <yloc>293</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
 
   <step>
-    <name>tripleGEO 4</name>
+    <name>target04</name>
     <type>tripleGEO</type>
     <description/>
     <distribute>N</distribute>
@@ -680,9 +546,9 @@ created = date2str(created, &quot;yyyy-MM-dd&quot;);
            <schema_name/>
            </partitioning>
 		<attributename>ETIQUETA</attributename>
-		<feature>Parador</feature>
-		<ontologyns>http://phenomenontology.linkeddata.es/ontology/</ontologyns>
-		<ontologynsprefix>phenomenontology</ontologynsprefix>
+		<feature>Parador Nacional</feature>
+		<ontologyns>http://geo.linkeddata.es/def/feature#</ontologyns>
+		<ontologynsprefix>geodef</ontologynsprefix>
 		<resourcens>http://geo.linkeddata.es/resource/</resourcens>
 		<resourcensprefix>georesource</resourcensprefix>
 		<language>es</language>
@@ -716,13 +582,13 @@ created = date2str(created, &quot;yyyy-MM-dd&quot;);
 		<column>ID_CODIGO</column>
 		<prefix/>
 		<uri/>
-		<show>YES</show>
+		<show>NO</show>
 		<column_shp>ID_CODIGO</column_shp>
 		</columns>
 		<columns>
-		<column>ID_MOD</column>
-		<prefix/>
-		<uri/>
+		<column>replaces</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
 		<show>YES</show>
 		<column_shp>ID_MOD</column_shp>
 		</columns>
@@ -734,10 +600,10 @@ created = date2str(created, &quot;yyyy-MM-dd&quot;);
 		<column_shp>FECHA_ALTA</column_shp>
 		</columns>
 		<columns>
-		<column>type</column>
+		<column>TIPO_0505</column>
 		<prefix>dc</prefix>
 		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
-		<show>YES</show>
+		<show>NO</show>
 		<column_shp>TIPO_0505</column_shp>
 		</columns>
 		<columns>
@@ -757,14 +623,14 @@ created = date2str(created, &quot;yyyy-MM-dd&quot;);
 		</columns>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>647</xloc>
+      <xloc>646</xloc>
       <yloc>380</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
 
   <step>
-    <name>tripleGEO 5</name>
+    <name>target05</name>
     <type>tripleGEO</type>
     <description/>
     <distribute>N</distribute>
@@ -774,103 +640,9 @@ created = date2str(created, &quot;yyyy-MM-dd&quot;);
            <schema_name/>
            </partitioning>
 		<attributename>ETIQUETA</attributename>
-		<feature>Skiing_facility</feature>
-		<ontologyns>http://www.disit.org/km4city/schema#</ontologyns>
-		<ontologynsprefix>km4city</ontologynsprefix>
-		<resourcens>http://geo.linkeddata.es/resource/</resourcens>
-		<resourcensprefix>georesource</resourcensprefix>
-		<language>es</language>
-		<pathcsv>null</pathcsv>
-		<uuidsactive>false</uuidsactive>
-		<fields>
-		</fields>
-		<columns>
-		<columns>
-		<column>the_geom</column>
-		<prefix>n&#47;a</prefix>
-		<uri/>
-		<show>YES</show>
-		<column_shp>the_geom</column_shp>
-		</columns>
-		<columns>
-		<column>ID</column>
-		<prefix/>
-		<uri/>
-		<show>YES</show>
-		<column_shp>ID</column_shp>
-		</columns>
-		<columns>
-		<column>ID_BD</column>
-		<prefix/>
-		<uri/>
-		<show>YES</show>
-		<column_shp>ID_BD</column_shp>
-		</columns>
-		<columns>
-		<column>ID_CODIGO</column>
-		<prefix/>
-		<uri/>
-		<show>YES</show>
-		<column_shp>ID_CODIGO</column_shp>
-		</columns>
-		<columns>
-		<column>ID_MOD</column>
-		<prefix/>
-		<uri/>
-		<show>YES</show>
-		<column_shp>ID_MOD</column_shp>
-		</columns>
-		<columns>
-		<column>FECHA_ALTA</column>
-		<prefix/>
-		<uri/>
-		<show>NO</show>
-		<column_shp>FECHA_ALTA</column_shp>
-		</columns>
-		<columns>
-		<column>type</column>
-		<prefix>dc</prefix>
-		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
-		<show>YES</show>
-		<column_shp>TIPO_0505</column_shp>
-		</columns>
-		<columns>
-		<column>ETIQUETA</column>
-		<prefix/>
-		<uri/>
-		<show>YES</show>
-		<column_shp>ETIQUETA</column_shp>
-		</columns>
-		<columns>
-		<column>created</column>
-		<prefix>dc</prefix>
-		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
-		<show>YES</show>
-		<column_shp>created</column_shp>
-		</columns>
-		</columns>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>637</xloc>
-      <yloc>488</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>tripleGEO 6</name>
-    <type>tripleGEO</type>
-    <description/>
-    <distribute>N</distribute>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-		<attributename>ETIQUETA</attributename>
-		<feature>Sports_clubs</feature>
-		<ontologyns>http://www.disit.org/km4city/schema#</ontologyns>
-		<ontologynsprefix>km4city</ontologynsprefix>
+		<feature>Estación Invernal</feature>
+		<ontologyns>http://geo.linkeddata.es/def/feature#</ontologyns>
+		<ontologynsprefix>geodef</ontologynsprefix>
 		<resourcens>http://geo.linkeddata.es/resource/</resourcens>
 		<resourcensprefix>georesource</resourcensprefix>
 		<language>es</language>
@@ -904,13 +676,13 @@ created = date2str(created, &quot;yyyy-MM-dd&quot;);
 		<column>ID_CODIGO</column>
 		<prefix/>
 		<uri/>
-		<show>YES</show>
+		<show>NO</show>
 		<column_shp>ID_CODIGO</column_shp>
 		</columns>
 		<columns>
-		<column>ID_MOD</column>
-		<prefix/>
-		<uri/>
+		<column>replaces</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
 		<show>YES</show>
 		<column_shp>ID_MOD</column_shp>
 		</columns>
@@ -925,7 +697,7 @@ created = date2str(created, &quot;yyyy-MM-dd&quot;);
 		<column>type</column>
 		<prefix>dc</prefix>
 		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
-		<show>YES</show>
+		<show>NO</show>
 		<column_shp>TIPO_0505</column_shp>
 		</columns>
 		<columns>
@@ -945,8 +717,102 @@ created = date2str(created, &quot;yyyy-MM-dd&quot;);
 		</columns>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>641</xloc>
-      <yloc>605</yloc>
+      <xloc>644</xloc>
+      <yloc>454</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>target06</name>
+    <type>tripleGEO</type>
+    <description/>
+    <distribute>N</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+		<attributename>ETIQUETA</attributename>
+		<feature>Instalación Deportiva</feature>
+		<ontologyns>http://geo.linkeddata.es/def/feature#</ontologyns>
+		<ontologynsprefix>geodef</ontologynsprefix>
+		<resourcens>http://geo.linkeddata.es/resource/</resourcens>
+		<resourcensprefix>georesource</resourcensprefix>
+		<language>es</language>
+		<pathcsv>null</pathcsv>
+		<uuidsactive>false</uuidsactive>
+		<fields>
+		</fields>
+		<columns>
+		<columns>
+		<column>the_geom</column>
+		<prefix>n&#47;a</prefix>
+		<uri/>
+		<show>YES</show>
+		<column_shp>the_geom</column_shp>
+		</columns>
+		<columns>
+		<column>identifier</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>ID</column_shp>
+		</columns>
+		<columns>
+		<column>ID_BD</column>
+		<prefix/>
+		<uri/>
+		<show>YES</show>
+		<column_shp>ID_BD</column_shp>
+		</columns>
+		<columns>
+		<column>ID_CODIGO</column>
+		<prefix/>
+		<uri/>
+		<show>NO</show>
+		<column_shp>ID_CODIGO</column_shp>
+		</columns>
+		<columns>
+		<column>replaces</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>ID_MOD</column_shp>
+		</columns>
+		<columns>
+		<column>FECHA_ALTA</column>
+		<prefix/>
+		<uri/>
+		<show>NO</show>
+		<column_shp>FECHA_ALTA</column_shp>
+		</columns>
+		<columns>
+		<column>type</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>NO</show>
+		<column_shp>TIPO_0505</column_shp>
+		</columns>
+		<columns>
+		<column>ETIQUETA</column>
+		<prefix/>
+		<uri/>
+		<show>YES</show>
+		<column_shp>ETIQUETA</column_shp>
+		</columns>
+		<columns>
+		<column>created</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>created</column_shp>
+		</columns>
+		</columns>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>643</xloc>
+      <yloc>534</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
