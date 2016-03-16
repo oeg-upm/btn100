@@ -53,7 +53,571 @@
   <notepads>
   </notepads>
   <order>
-  <hop> <from>SRS Transformation</from><to>tripleGEO</to><enabled>Y</enabled> </hop>  <hop> <from>Shapefile File Input</from><to>SRS Transformation</to><enabled>Y</enabled> </hop>  <hop> <from>tripleGEO</from><to>Text file output</to><enabled>Y</enabled> </hop>  </order>
+  <hop> <from>SRS Transformation</from><to>Switch &#47; Case</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>00 Genérico</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>01 COTA MUNICIPAL</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>02 PICO</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>03 CERRO</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>04 COLLADO</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>05 PUERTO DE MONTAÑA</to><enabled>Y</enabled> </hop>  <hop> <from>00 Genérico</from><to>Salida Fichero de Texto</to><enabled>Y</enabled> </hop>  <hop> <from>01 COTA MUNICIPAL</from><to>Salida Fichero de Texto</to><enabled>Y</enabled> </hop>  <hop> <from>02 PICO</from><to>Salida Fichero de Texto</to><enabled>Y</enabled> </hop>  <hop> <from>03 CERRO</from><to>Salida Fichero de Texto</to><enabled>Y</enabled> </hop>  <hop> <from>04 COLLADO</from><to>Salida Fichero de Texto</to><enabled>Y</enabled> </hop>  <hop> <from>05 PUERTO DE MONTAÑA</from><to>Salida Fichero de Texto</to><enabled>Y</enabled> </hop>  <hop> <from>Shapefile File Input</from><to>Valor Java Script Modificado</to><enabled>Y</enabled> </hop>  <hop> <from>Valor Java Script Modificado</from><to>SRS Transformation</to><enabled>Y</enabled> </hop>  </order>
+  <step>
+    <name>00 Genérico</name>
+    <type>tripleGEO</type>
+    <description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+		<attributename>ID</attributename>
+		<feature>PuntoAcotadoGenerico</feature>
+		<ontologyns>http://geo.linkeddata.es/def/feature#</ontologyns>
+		<ontologynsprefix>geodef</ontologynsprefix>
+		<resourcens>http://geo.linkeddata.es/resource/</resourcens>
+		<resourcensprefix>georesource</resourcensprefix>
+		<language>es</language>
+		<pathcsv>null</pathcsv>
+		<uuidsactive>false</uuidsactive>
+		<fields>
+		</fields>
+		<columns>
+		<columns>
+		<column>the_geom</column>
+		<prefix>n&#47;a</prefix>
+		<uri/>
+		<show>YES</show>
+		<column_shp>the_geom</column_shp>
+		</columns>
+		<columns>
+		<column>identifier</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>ID</column_shp>
+		</columns>
+		<columns>
+		<column>ID_BD</column>
+		<prefix/>
+		<uri/>
+		<show>NO</show>
+		<column_shp>ID_BD</column_shp>
+		</columns>
+		<columns>
+		<column>ID_CODIGO</column>
+		<prefix/>
+		<uri/>
+		<show>NO</show>
+		<column_shp>ID_CODIGO</column_shp>
+		</columns>
+		<columns>
+		<column>replaces</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>ID_MOD</column_shp>
+		</columns>
+		<columns>
+		<column>created</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>FECHA_ALTA</column_shp>
+		</columns>
+		<columns>
+		<column>TIPO_0201</column>
+		<prefix/>
+		<uri/>
+		<show>NO</show>
+		<column_shp>TIPO_0201</column_shp>
+		</columns>
+		<columns>
+		<column>cota</column>
+		<prefix>geodef</prefix>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;feature#</uri>
+		<show>YES</show>
+		<column_shp>COTA</column_shp>
+		</columns>
+		<columns>
+		<column>title</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>ETIQUETA</column_shp>
+		</columns>
+		</columns>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>615</xloc>
+      <yloc>63</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>01 COTA MUNICIPAL</name>
+    <type>tripleGEO</type>
+    <description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+		<attributename>ID</attributename>
+		<feature>CotaMunicipal</feature>
+		<ontologyns>http://geo.linkeddata.es/def/feature#</ontologyns>
+		<ontologynsprefix>geodef</ontologynsprefix>
+		<resourcens>http://geo.linkeddata.es/resource/</resourcens>
+		<resourcensprefix>georesource</resourcensprefix>
+		<language>es</language>
+		<pathcsv>null</pathcsv>
+		<uuidsactive>false</uuidsactive>
+		<fields>
+		</fields>
+		<columns>
+		<columns>
+		<column>the_geom</column>
+		<prefix>n&#47;a</prefix>
+		<uri/>
+		<show>YES</show>
+		<column_shp>the_geom</column_shp>
+		</columns>
+		<columns>
+		<column>identifier</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>ID</column_shp>
+		</columns>
+		<columns>
+		<column>ID_BD</column>
+		<prefix/>
+		<uri/>
+		<show>NO</show>
+		<column_shp>ID_BD</column_shp>
+		</columns>
+		<columns>
+		<column>ID_CODIGO</column>
+		<prefix/>
+		<uri/>
+		<show>NO</show>
+		<column_shp>ID_CODIGO</column_shp>
+		</columns>
+		<columns>
+		<column>replaces</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>ID_MOD</column_shp>
+		</columns>
+		<columns>
+		<column>created</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>FECHA_ALTA</column_shp>
+		</columns>
+		<columns>
+		<column>TIPO_0201</column>
+		<prefix/>
+		<uri/>
+		<show>NO</show>
+		<column_shp>TIPO_0201</column_shp>
+		</columns>
+		<columns>
+		<column>cota</column>
+		<prefix>geodef</prefix>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;feature#</uri>
+		<show>YES</show>
+		<column_shp>COTA</column_shp>
+		</columns>
+		<columns>
+		<column>title</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>ETIQUETA</column_shp>
+		</columns>
+		</columns>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>618</xloc>
+      <yloc>144</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>02 PICO</name>
+    <type>tripleGEO</type>
+    <description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+		<attributename>ID</attributename>
+		<feature>Pico</feature>
+		<ontologyns>http://geo.linkeddata.es/def/feature#</ontologyns>
+		<ontologynsprefix>geodef</ontologynsprefix>
+		<resourcens>http://geo.linkeddata.es/resource/</resourcens>
+		<resourcensprefix>georesource</resourcensprefix>
+		<language>es</language>
+		<pathcsv>null</pathcsv>
+		<uuidsactive>false</uuidsactive>
+		<fields>
+		</fields>
+		<columns>
+		<columns>
+		<column>the_geom</column>
+		<prefix>n&#47;a</prefix>
+		<uri/>
+		<show>YES</show>
+		<column_shp>the_geom</column_shp>
+		</columns>
+		<columns>
+		<column>identifier</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>ID</column_shp>
+		</columns>
+		<columns>
+		<column>ID_BD</column>
+		<prefix/>
+		<uri/>
+		<show>NO</show>
+		<column_shp>ID_BD</column_shp>
+		</columns>
+		<columns>
+		<column>ID_CODIGO</column>
+		<prefix/>
+		<uri/>
+		<show>NO</show>
+		<column_shp>ID_CODIGO</column_shp>
+		</columns>
+		<columns>
+		<column>replaces</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>ID_MOD</column_shp>
+		</columns>
+		<columns>
+		<column>created</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>FECHA_ALTA</column_shp>
+		</columns>
+		<columns>
+		<column>TIPO_0201</column>
+		<prefix/>
+		<uri/>
+		<show>NO</show>
+		<column_shp>TIPO_0201</column_shp>
+		</columns>
+		<columns>
+		<column>cota</column>
+		<prefix>geodef</prefix>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;feature#</uri>
+		<show>YES</show>
+		<column_shp>COTA</column_shp>
+		</columns>
+		<columns>
+		<column>title</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>ETIQUETA</column_shp>
+		</columns>
+		</columns>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>621</xloc>
+      <yloc>219</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>03 CERRO</name>
+    <type>tripleGEO</type>
+    <description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+		<attributename>ID</attributename>
+		<feature>Cerro</feature>
+		<ontologyns>http://geo.linkeddata.es/def/feature#</ontologyns>
+		<ontologynsprefix>geodef</ontologynsprefix>
+		<resourcens>http://geo.linkeddata.es/resource/</resourcens>
+		<resourcensprefix>georesource</resourcensprefix>
+		<language>es</language>
+		<pathcsv>null</pathcsv>
+		<uuidsactive>false</uuidsactive>
+		<fields>
+		</fields>
+		<columns>
+		<columns>
+		<column>the_geom</column>
+		<prefix>n&#47;a</prefix>
+		<uri/>
+		<show>YES</show>
+		<column_shp>the_geom</column_shp>
+		</columns>
+		<columns>
+		<column>identifier</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>ID</column_shp>
+		</columns>
+		<columns>
+		<column>ID_BD</column>
+		<prefix/>
+		<uri/>
+		<show>NO</show>
+		<column_shp>ID_BD</column_shp>
+		</columns>
+		<columns>
+		<column>ID_CODIGO</column>
+		<prefix/>
+		<uri/>
+		<show>NO</show>
+		<column_shp>ID_CODIGO</column_shp>
+		</columns>
+		<columns>
+		<column>replaces</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>ID_MOD</column_shp>
+		</columns>
+		<columns>
+		<column>created</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>FECHA_ALTA</column_shp>
+		</columns>
+		<columns>
+		<column>TIPO_0201</column>
+		<prefix/>
+		<uri/>
+		<show>NO</show>
+		<column_shp>TIPO_0201</column_shp>
+		</columns>
+		<columns>
+		<column>cota</column>
+		<prefix>geodef</prefix>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;feature#</uri>
+		<show>YES</show>
+		<column_shp>COTA</column_shp>
+		</columns>
+		<columns>
+		<column>title</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>ETIQUETA</column_shp>
+		</columns>
+		</columns>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>630</xloc>
+      <yloc>309</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>04 COLLADO</name>
+    <type>tripleGEO</type>
+    <description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+		<attributename>ID</attributename>
+		<feature>Collado</feature>
+		<ontologyns>http://geo.linkeddata.es/def/feature#</ontologyns>
+		<ontologynsprefix>geodef</ontologynsprefix>
+		<resourcens>http://geo.linkeddata.es/resource/</resourcens>
+		<resourcensprefix>georesource</resourcensprefix>
+		<language>es</language>
+		<pathcsv>null</pathcsv>
+		<uuidsactive>false</uuidsactive>
+		<fields>
+		</fields>
+		<columns>
+		<columns>
+		<column>the_geom</column>
+		<prefix>n&#47;a</prefix>
+		<uri/>
+		<show>YES</show>
+		<column_shp>the_geom</column_shp>
+		</columns>
+		<columns>
+		<column>identifier</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>ID</column_shp>
+		</columns>
+		<columns>
+		<column>ID_BD</column>
+		<prefix/>
+		<uri/>
+		<show>NO</show>
+		<column_shp>ID_BD</column_shp>
+		</columns>
+		<columns>
+		<column>ID_CODIGO</column>
+		<prefix/>
+		<uri/>
+		<show>NO</show>
+		<column_shp>ID_CODIGO</column_shp>
+		</columns>
+		<columns>
+		<column>replaces</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>ID_MOD</column_shp>
+		</columns>
+		<columns>
+		<column>created</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>FECHA_ALTA</column_shp>
+		</columns>
+		<columns>
+		<column>TIPO_0201</column>
+		<prefix/>
+		<uri/>
+		<show>NO</show>
+		<column_shp>TIPO_0201</column_shp>
+		</columns>
+		<columns>
+		<column>cota</column>
+		<prefix>geodef</prefix>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;feature#</uri>
+		<show>YES</show>
+		<column_shp>COTA</column_shp>
+		</columns>
+		<columns>
+		<column>title</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>ETIQUETA</column_shp>
+		</columns>
+		</columns>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>632</xloc>
+      <yloc>392</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>05 PUERTO DE MONTAÑA</name>
+    <type>tripleGEO</type>
+    <description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+		<attributename>ID</attributename>
+		<feature>PuertoDeMontaña</feature>
+		<ontologyns>http://geo.linkeddata.es/def/feature#</ontologyns>
+		<ontologynsprefix>geodef</ontologynsprefix>
+		<resourcens>http://geo.linkeddata.es/resource/</resourcens>
+		<resourcensprefix>georesource</resourcensprefix>
+		<language>es</language>
+		<pathcsv>null</pathcsv>
+		<uuidsactive>false</uuidsactive>
+		<fields>
+		</fields>
+		<columns>
+		<columns>
+		<column>the_geom</column>
+		<prefix>n&#47;a</prefix>
+		<uri/>
+		<show>YES</show>
+		<column_shp>the_geom</column_shp>
+		</columns>
+		<columns>
+		<column>identifier</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>ID</column_shp>
+		</columns>
+		<columns>
+		<column>ID_BD</column>
+		<prefix/>
+		<uri/>
+		<show>NO</show>
+		<column_shp>ID_BD</column_shp>
+		</columns>
+		<columns>
+		<column>ID_CODIGO</column>
+		<prefix/>
+		<uri/>
+		<show>NO</show>
+		<column_shp>ID_CODIGO</column_shp>
+		</columns>
+		<columns>
+		<column>replaces</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>ID_MOD</column_shp>
+		</columns>
+		<columns>
+		<column>created</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>FECHA_ALTA</column_shp>
+		</columns>
+		<columns>
+		<column>TIPO_0201</column>
+		<prefix/>
+		<uri/>
+		<show>NO</show>
+		<column_shp>TIPO_0201</column_shp>
+		</columns>
+		<columns>
+		<column>cota</column>
+		<prefix>geodef</prefix>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;feature#</uri>
+		<show>YES</show>
+		<column_shp>COTA</column_shp>
+		</columns>
+		<columns>
+		<column>title</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>ETIQUETA</column_shp>
+		</columns>
+		</columns>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>637</xloc>
+      <yloc>479</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
   <step>
     <name>SRS Transformation</name>
     <type>SRSTransformation</type>
@@ -81,41 +645,14 @@
     </target_srs>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>283</xloc>
-      <yloc>261</yloc>
+      <xloc>178</xloc>
+      <yloc>267</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
 
   <step>
-    <name>Shapefile File Input</name>
-    <type>GISFileInput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <filename>&#47;home&#47;rvgarcia&#47;Desktop&#47;btn100&#47;BTN100_0201P_PUN_ACO&#47;BTN100_0201P_PUN_ACO.shp</filename>
-    <isfilenameinfield>N</isfilenameinfield>
-    <filenamefield/>
-    <limit>0</limit>
-    <add_rownr>N</add_rownr>
-    <field_rownr/>
-    <gis_file_charset>ISO-8859-1</gis_file_charset>
-    <passing_through_fields>N</passing_through_fields>
-    <accept_stepname/>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>164</xloc>
-      <yloc>262</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Text file output</name>
+    <name>Salida Fichero de Texto</name>
     <type>TextFileOutput</type>
     <description/>
     <distribute>Y</distribute>
@@ -136,7 +673,7 @@
     <fileNameInField>N</fileNameInField>
     <fileNameField/>
     <file>
-      <name>&#47;home&#47;rvgarcia&#47;Desktop&#47;btn100&#47;BTN100_0201P_PUN_ACO&#47;BTN100_0201P_PUN_ACO</name>
+      <name>&#47;home&#47;lissete&#47;TFM&#47;btn100&#47;BTN100_0201P_PUN_ACO&#47;BTN100_0201P_PUN_ACO</name>
       <is_command>N</is_command>
       <do_not_open_new_file_init>N</do_not_open_new_file_init>
       <extention>ttl</extention>
@@ -168,15 +705,15 @@
     </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>479</xloc>
-      <yloc>260</yloc>
+      <xloc>1079</xloc>
+      <yloc>237</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
 
   <step>
-    <name>tripleGEO</name>
-    <type>tripleGEO</type>
+    <name>Shapefile File Input</name>
+    <type>GISFileInput</type>
     <description/>
     <distribute>Y</distribute>
     <copies>1</copies>
@@ -184,76 +721,99 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-		<attributename>ETIQUETA</attributename>
-		<feature>Barrio</feature>
-		<ontologyns>http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#</ontologyns>
-		<ontologynsprefix>esadm</ontologynsprefix>
-		<resourcens>http://geo.linkeddata.es/resource/</resourcens>
-		<resourcensprefix>georesource</resourcensprefix>
-		<language>es</language>
-		<uuidsactive>false</uuidsactive>
-		<fields>
-		</fields>
-		<columns>
-		<columns>
-		<column>the_geom</column>
-		<prefix>n&#47;a</prefix>
-		<uri/>
-		<show>YES</show>
-		</columns>
-		<columns>
-		<column>ID</column>
-		<prefix/>
-		<uri/>
-		<show>YES</show>
-		</columns>
-		<columns>
-		<column>ID_BD</column>
-		<prefix/>
-		<uri/>
-		<show>YES</show>
-		</columns>
-		<columns>
-		<column>ID_CODIGO</column>
-		<prefix/>
-		<uri/>
-		<show>YES</show>
-		</columns>
-		<columns>
-		<column>ID_MOD</column>
-		<prefix/>
-		<uri/>
-		<show>YES</show>
-		</columns>
-		<columns>
-		<column>FECHA_ALTA</column>
-		<prefix/>
-		<uri/>
-		<show>YES</show>
-		</columns>
-		<columns>
-		<column>TIPO_0201</column>
-		<prefix/>
-		<uri/>
-		<show>YES</show>
-		</columns>
-		<columns>
-		<column>COTA</column>
-		<prefix/>
-		<uri/>
-		<show>YES</show>
-		</columns>
-		<columns>
-		<column>ETIQUETA</column>
-		<prefix/>
-		<uri/>
-		<show>YES</show>
-		</columns>
-		</columns>
+    <filename>&#47;home&#47;lissete&#47;TFM&#47;btn100&#47;BTN100_0201P_PUN_ACO&#47;BTN100_0201P_PUN_ACO.shp</filename>
+    <isfilenameinfield>N</isfilenameinfield>
+    <filenamefield/>
+    <limit>0</limit>
+    <add_rownr>N</add_rownr>
+    <field_rownr/>
+    <gis_file_charset>ISO-8859-1</gis_file_charset>
+    <passing_through_fields>N</passing_through_fields>
+    <accept_stepname/>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>386</xloc>
-      <yloc>261</yloc>
+      <xloc>177</xloc>
+      <yloc>31</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Switch &#47; Case</name>
+    <type>SwitchCase</type>
+    <description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+<fieldname>TIPO_0201</fieldname>
+<use_contains>N</use_contains>
+<case_value_type>String</case_value_type>
+<case_value_format/>
+<case_value_decimal/>
+<case_value_group/>
+<default_target_step/>
+<cases><case><value>00</value>
+<target_step>00 Genérico</target_step>
+</case><case><value>01</value>
+<target_step>01 COTA MUNICIPAL</target_step>
+</case><case><value>02</value>
+<target_step>02 PICO</target_step>
+</case><case><value>03</value>
+<target_step>03 CERRO</target_step>
+</case><case><value>04</value>
+<target_step>04 COLLADO</target_step>
+</case><case><value>05</value>
+<target_step>05 PUERTO DE MONTAÑA</target_step>
+</case></cases>     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>363</xloc>
+      <yloc>263</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Valor Java Script Modificado</name>
+    <type>ScriptValueMod</type>
+    <description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <compatible>N</compatible>
+    <jsScripts>      <jsScript>        <jsScript_type>0</jsScript_type>
+        <jsScript_name>Script 1</jsScript_name>
+        <jsScript_script>&#47;&#47;Script here
+
+
+var aux = FECHA_ALTA.match(&#47;^(\d{4})(\d{2})(\d{2})(\d{2})(\d{2})(\d{2})&#47;);
+
+var year_aux = aux[1];
+var month_aux = aux[2]-1;
+var day_aux = aux[3];
+var hours_aux = aux[4];
+var minutes_aux = aux[5];
+var seconds_aux = aux[6];
+
+var FECHA_ALTA = new Date(year_aux, month_aux, day_aux, hours_aux, minutes_aux, seconds_aux);
+
+FECHA_ALTA = date2str(FECHA_ALTA, &quot;yyyy-MM-dd&quot;);
+</jsScript_script>
+      </jsScript>    </jsScripts>    <fields>      <field>        <name>FECHA_ALTA</name>
+        <rename>FECHA_ALTA</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>Y</replace>
+      </field>    </fields>     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>175</xloc>
+      <yloc>124</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
