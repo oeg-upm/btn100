@@ -55,153 +55,6 @@
   <order>
   <hop> <from>Shapefile File Input</from><to>Valor Java Script Modificado</to><enabled>Y</enabled> </hop>  <hop> <from>Valor Java Script Modificado</from><to>SRS Transformation</to><enabled>Y</enabled> </hop>  <hop> <from>SRS Transformation</from><to>Switch &#47; Case</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>01. CANAL MAYOR</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>02. CANAL MENOR</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>03. CANAL TRASVASE</to><enabled>Y</enabled> </hop>  <hop> <from>01. CANAL MAYOR</from><to>Salida Fichero de Texto</to><enabled>Y</enabled> </hop>  <hop> <from>02. CANAL MENOR</from><to>Salida Fichero de Texto</to><enabled>Y</enabled> </hop>  <hop> <from>03. CANAL TRASVASE</from><to>Salida Fichero de Texto</to><enabled>Y</enabled> </hop>  </order>
   <step>
-    <name>SRS Transformation</name>
-    <type>SRSTransformation</type>
-    <description/>
-    <distribute>Y</distribute>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-<field_name>the_geom</field_name>
-<source_gui_status>1</source_gui_status>
-<target_gui_status>1</target_gui_status>
-    <source_srs>
-<authority>EPSG</authority>
-<srid>4258</srid>
-<description>ETRS89</description>
-<is_custom>N</is_custom>
-    </source_srs>
-    <target_srs>
-<authority>EPSG</authority>
-<srid>4326</srid>
-<description>WGS 84</description>
-<is_custom>N</is_custom>
-    </target_srs>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>218</xloc>
-      <yloc>294</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Shapefile File Input</name>
-    <type>GISFileInput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <filename>&#47;home&#47;lissete&#47;TFM&#47;btn100&#47;BTN100_0302L_CAU_ART&#47;BTN100_0302L_CAU_ART.shp</filename>
-    <isfilenameinfield>N</isfilenameinfield>
-    <filenamefield/>
-    <limit>0</limit>
-    <add_rownr>N</add_rownr>
-    <field_rownr/>
-    <gis_file_charset>ISO-8859-1</gis_file_charset>
-    <passing_through_fields>N</passing_through_fields>
-    <accept_stepname/>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>223</xloc>
-      <yloc>69</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Valor Java Script Modificado</name>
-    <type>ScriptValueMod</type>
-    <description/>
-    <distribute>Y</distribute>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <compatible>N</compatible>
-    <jsScripts>      <jsScript>        <jsScript_type>0</jsScript_type>
-        <jsScript_name>Script 1</jsScript_name>
-        <jsScript_script>&#47;&#47;Script here
-
-
-
-var aux = FECHA_ALTA.match(&#47;^(\d{4})(\d{2})(\d{2})&#47;);
-
-if(!aux || aux.length &lt; 4){
-	FECHA_ALTA = &quot;&quot;;
-}
-else{
-    FECHA_ALTA = new Date(aux[1], aux[2]-1, aux[3]);
-    FECHA_ALTA = date2str(FECHA_ALTA, &quot;yyyy-MM-dd&quot;);
-}
-
-if (SITUACION == &quot;01&quot;){
-    SITUACION = &quot;Superficial&quot;
-}
-else if (SITUACION == &quot;02&quot;){
-	SITUACION = &quot;Subterránea&quot;
-}
-else{
-    SITUACION = &quot;Elevada&quot;
-}</jsScript_script>
-      </jsScript>    </jsScripts>    <fields>      <field>        <name>FECHA_ALTA</name>
-        <rename>FECHA_ALTA</rename>
-        <type>String</type>
-        <length>-1</length>
-        <precision>-1</precision>
-        <replace>Y</replace>
-      </field>      <field>        <name>SITUACION</name>
-        <rename>SITUACION</rename>
-        <type>String</type>
-        <length>-1</length>
-        <precision>-1</precision>
-        <replace>Y</replace>
-      </field>    </fields>     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>221</xloc>
-      <yloc>180</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Switch &#47; Case</name>
-    <type>SwitchCase</type>
-    <description/>
-    <distribute>Y</distribute>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-<fieldname>TIPO_0302</fieldname>
-<use_contains>N</use_contains>
-<case_value_type>String</case_value_type>
-<case_value_format/>
-<case_value_decimal/>
-<case_value_group/>
-<default_target_step>03. CANAL TRASVASE</default_target_step>
-<cases><case><value>01</value>
-<target_step>01. CANAL MAYOR</target_step>
-</case><case><value>02</value>
-<target_step>02. CANAL MENOR</target_step>
-</case><case><value>03</value>
-<target_step>03. CANAL TRASVASE</target_step>
-</case></cases>     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>405</xloc>
-      <yloc>291</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
     <name>01. CANAL MAYOR</name>
     <type>tripleGEO</type>
     <description/>
@@ -212,7 +65,7 @@ else{
            <schema_name/>
            </partitioning>
 		<attributename>ID</attributename>
-		<feature>CanalMayor</feature>
+		<feature>CauceCanalMayor</feature>
 		<ontologyns>http://geo.linkeddata.es/def/feature#</ontologyns>
 		<ontologynsprefix>geodef</ontologynsprefix>
 		<resourcens>http://geo.linkeddata.es/resource/</resourcens>
@@ -306,7 +159,7 @@ else{
            <schema_name/>
            </partitioning>
 		<attributename>ID</attributename>
-		<feature>CanalMenor</feature>
+		<feature>CauceCanalMenor</feature>
 		<ontologyns>http://geo.linkeddata.es/def/feature#</ontologyns>
 		<ontologynsprefix>geodef</ontologynsprefix>
 		<resourcens>http://geo.linkeddata.es/resource/</resourcens>
@@ -400,7 +253,7 @@ else{
            <schema_name/>
            </partitioning>
 		<attributename>ID</attributename>
-		<feature>CanalTrasvase</feature>
+		<feature>CauceCanalTrasvase</feature>
 		<ontologyns>http://geo.linkeddata.es/def/feature#</ontologyns>
 		<ontologynsprefix>geodef</ontologynsprefix>
 		<resourcens>http://geo.linkeddata.es/resource/</resourcens>
@@ -484,6 +337,39 @@ else{
     </step>
 
   <step>
+    <name>SRS Transformation</name>
+    <type>SRSTransformation</type>
+    <description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+<field_name>the_geom</field_name>
+<source_gui_status>1</source_gui_status>
+<target_gui_status>1</target_gui_status>
+    <source_srs>
+<authority>EPSG</authority>
+<srid>4258</srid>
+<description>ETRS89</description>
+<is_custom>N</is_custom>
+    </source_srs>
+    <target_srs>
+<authority>EPSG</authority>
+<srid>4326</srid>
+<description>WGS 84</description>
+<is_custom>N</is_custom>
+    </target_srs>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>218</xloc>
+      <yloc>294</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
     <name>Salida Fichero de Texto</name>
     <type>TextFileOutput</type>
     <description/>
@@ -539,6 +425,123 @@ else{
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
       <xloc>829</xloc>
       <yloc>284</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Shapefile File Input</name>
+    <type>GISFileInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <filename>&#47;home&#47;lissete&#47;TFM&#47;btn100&#47;BTN100_0302L_CAU_ART&#47;BTN100_0302L_CAU_ART.shp</filename>
+    <isfilenameinfield>N</isfilenameinfield>
+    <filenamefield/>
+    <limit>0</limit>
+    <add_rownr>N</add_rownr>
+    <field_rownr/>
+    <gis_file_charset>ISO-8859-1</gis_file_charset>
+    <passing_through_fields>N</passing_through_fields>
+    <accept_stepname/>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>223</xloc>
+      <yloc>69</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Switch &#47; Case</name>
+    <type>SwitchCase</type>
+    <description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+<fieldname>TIPO_0302</fieldname>
+<use_contains>N</use_contains>
+<case_value_type>String</case_value_type>
+<case_value_format/>
+<case_value_decimal/>
+<case_value_group/>
+<default_target_step>03. CANAL TRASVASE</default_target_step>
+<cases><case><value>01</value>
+<target_step>01. CANAL MAYOR</target_step>
+</case><case><value>02</value>
+<target_step>02. CANAL MENOR</target_step>
+</case><case><value>03</value>
+<target_step>03. CANAL TRASVASE</target_step>
+</case></cases>     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>405</xloc>
+      <yloc>291</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Valor Java Script Modificado</name>
+    <type>ScriptValueMod</type>
+    <description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <compatible>N</compatible>
+    <jsScripts>      <jsScript>        <jsScript_type>0</jsScript_type>
+        <jsScript_name>Script 1</jsScript_name>
+        <jsScript_script>&#47;&#47;Script here
+
+
+
+var aux = FECHA_ALTA.match(&#47;^(\d{4})(\d{2})(\d{2})&#47;);
+
+if(!aux || aux.length &lt; 4){
+	FECHA_ALTA = new Date();
+}
+else{
+    FECHA_ALTA = new Date(aux[1], aux[2]-1, aux[3]);
+    &#47;&#47;FECHA_ALTA = date2str(FECHA_ALTA, &quot;yyyy-MM-dd&quot;);
+}
+
+if (SITUACION == &quot;01&quot;){
+    SITUACION = &quot;en superficie&quot;
+}
+else if (SITUACION == &quot;02&quot;){
+	SITUACION = &quot;subterráneo&quot;
+}
+else if (SITUACION == &quot;03&quot;){
+    SITUACION = &quot;elevado&quot;
+}
+else{
+	SITUACION = &quot;sin clasificar&quot;
+}</jsScript_script>
+      </jsScript>    </jsScripts>    <fields>      <field>        <name>FECHA_ALTA</name>
+        <rename>FECHA_ALTA</rename>
+        <type>Date</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>Y</replace>
+      </field>      <field>        <name>SITUACION</name>
+        <rename>SITUACION</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>Y</replace>
+      </field>    </fields>     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>221</xloc>
+      <yloc>180</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
