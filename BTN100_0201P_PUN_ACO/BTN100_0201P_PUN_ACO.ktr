@@ -65,7 +65,7 @@
            <schema_name/>
            </partitioning>
 		<attributename>ID</attributename>
-		<feature>PuntoAcotadoGenerico</feature>
+		<feature>PuntoAcotado</feature>
 		<ontologyns>http://geo.linkeddata.es/def/feature#</ontologyns>
 		<ontologynsprefix>geodef</ontologynsprefix>
 		<resourcens>http://geo.linkeddata.es/resource/</resourcens>
@@ -754,7 +754,7 @@
 <case_value_format/>
 <case_value_decimal/>
 <case_value_group/>
-<default_target_step/>
+<default_target_step>00 Genérico</default_target_step>
 <cases><case><value>00</value>
 <target_step>00 Genérico</target_step>
 </case><case><value>01</value>
@@ -793,20 +793,16 @@
 
 var aux = FECHA_ALTA.match(&#47;^(\d{4})(\d{2})(\d{2})(\d{2})(\d{2})(\d{2})&#47;);
 
-var year_aux = aux[1];
-var month_aux = aux[2]-1;
-var day_aux = aux[3];
-var hours_aux = aux[4];
-var minutes_aux = aux[5];
-var seconds_aux = aux[6];
-
-var FECHA_ALTA = new Date(year_aux, month_aux, day_aux, hours_aux, minutes_aux, seconds_aux);
-
-FECHA_ALTA = date2str(FECHA_ALTA, &quot;yyyy-MM-dd&quot;);
-</jsScript_script>
+if(!aux || aux.length &lt; 4){
+	FECHA_ALTA = new Date();
+}
+else{
+    FECHA_ALTA = new Date(aux[1], aux[2]-1, aux[3]);
+    &#47;&#47;FECHA_ALTA = date2str(FECHA_ALTA, &quot;yyyy-MM-dd&quot;);
+}</jsScript_script>
       </jsScript>    </jsScripts>    <fields>      <field>        <name>FECHA_ALTA</name>
         <rename>FECHA_ALTA</rename>
-        <type>String</type>
+        <type>Date</type>
         <length>-1</length>
         <precision>-1</precision>
         <replace>Y</replace>
