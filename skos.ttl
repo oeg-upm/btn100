@@ -1,0 +1,67 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix geodef: <http://geo.linkeddata.es/def/feature#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georesource: <http://geo.linkeddata.es/resource/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix ex: <http://www.products.com/>.
+
+
+<http://geo.linkeddata.es/kos/btn100> rdf:type skos:ConceptScheme ; 
+	skos:hasTopConcept <http://geo.linkeddata.es/kos/btn100/general> .
+
+<http://geo.linkeddata.es/kos/btn100/general> a skos:Concept;
+ skos:prefLabel "General";
+ skos:notation "00";
+ skos:inScheme <http://geo.linkeddata.es/kos/btn100>.
+
+<http://geo.linkeddata.es/kos/btn100/general> skos:topConceptOf <http://geo.linkeddata.es/kos/btn100> .
+
+<http://geo.linkeddata.es/kos/btn100/unidadesAdministrativasYZonasProtegidas> a skos:Concept;
+ skos:prefLabel "Unidades Administrativas y Zonas Protegidas";
+ skos:notation "01";
+ skos:inScheme <http://geo.linkeddata.es/kos/btn100>.
+
+<http://geo.linkeddata.es/kos/btn100/relieve> a skos:Concept;
+ skos:prefLabel "Relive";
+ skos:notation "02";
+ skos:inScheme <http://geo.linkeddata.es/kos/btn100>.
+
+
+<http://geo.linkeddata.es/kos/btn100/hidrografia> a skos:Concept;
+ skos:prefLabel "Hidrografía";
+ skos:notation "03";
+ skos:inScheme <http://geo.linkeddata.es/kos/btn100>.
+
+<http://geo.linkeddata.es/kos/btn100/PoblacionesYConstrucciones> a skos:Concept;
+ skos:prefLabel "Poblaciones y construcciones";
+ skos:notation "05";
+ skos:inScheme <http://geo.linkeddata.es/kos/btn100>.
+
+<http://geo.linkeddata.es/kos/btn100/transporte> a skos:Concept;
+ skos:prefLabel "Transporte";
+ skos:notation "06";
+ skos:inScheme <http://geo.linkeddata.es/kos/btn100>.
+
+<http://geo.linkeddata.es/kos/btn100/conduccionesYEneria> a skos:Concept;
+ skos:prefLabel "Conducciones y energía";
+ skos:notation "07";
+ skos:inScheme <http://geo.linkeddata.es/kos/btn100>.
+
+<http://geo.linkeddata.es/kos/btn100/puntosDeControl> a skos:Concept;
+ skos:prefLabel "Puntos de Control";
+ skos:notation "10";
+ skos:inScheme <http://geo.linkeddata.es/kos/btn100>.
+
+<http://geo.linkeddata.es/kos/btn100> a skos:ConceptScheme;
+  skos:prefLabel "Grupos temáticos de BTN100";
+  rdfs:comment "Tesauro SKOS creado a partir de la documentación de la Base Topográfica Nacional a escala 1:100.000 del Instituto Geográfico Nacional";
+  rdfs:seeAlso "Catálogo de Objetos Geográficos BTN100".
+
+
