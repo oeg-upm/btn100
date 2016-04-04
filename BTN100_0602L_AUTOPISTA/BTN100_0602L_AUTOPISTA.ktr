@@ -53,7 +53,7 @@
   <notepads>
   </notepads>
   <order>
-  <hop> <from>SRS Transformation</from><to>tripleGEO</to><enabled>Y</enabled> </hop>  <hop> <from>Shapefile File Input</from><to>SRS Transformation</to><enabled>Y</enabled> </hop>  <hop> <from>tripleGEO</from><to>Text file output</to><enabled>Y</enabled> </hop>  </order>
+  <hop> <from>Valor Java Script Modificado</from><to>Selecciona&#47;Renombra valores</to><enabled>Y</enabled> </hop>  <hop> <from>Shapefile File Input</from><to>Valor Java Script Modificado</to><enabled>Y</enabled> </hop>  <hop> <from>Selecciona&#47;Renombra valores</from><to>SRS Transformation</to><enabled>Y</enabled> </hop>  <hop> <from>SRS Transformation</from><to>Autopista</to><enabled>Y</enabled> </hop>  <hop> <from>Autopista</from><to>Text file output</to><enabled>Y</enabled> </hop>  </order>
   <step>
     <name>SRS Transformation</name>
     <type>SRSTransformation</type>
@@ -81,8 +81,8 @@
     </target_srs>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>286</xloc>
-      <yloc>293</yloc>
+      <xloc>361</xloc>
+      <yloc>286</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -97,7 +97,7 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <filename>&#47;home&#47;rvgarcia&#47;Desktop&#47;btn100&#47;BTN100_0602L_AUTOPISTA&#47;BTN100_0602L_AUTOPISTA.shp</filename>
+    <filename>&#47;home&#47;lissete&#47;TFM&#47;btn100&#47;BTN100_0602L_AUTOPISTA&#47;BTN100_0602L_AUTOPISTA.shp</filename>
     <isfilenameinfield>N</isfilenameinfield>
     <filenamefield/>
     <limit>0</limit>
@@ -108,8 +108,8 @@
     <accept_stepname/>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>166</xloc>
-      <yloc>294</yloc>
+      <xloc>169</xloc>
+      <yloc>65</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -136,7 +136,7 @@
     <fileNameInField>N</fileNameInField>
     <fileNameField/>
     <file>
-      <name>&#47;home&#47;rvgarcia&#47;Desktop&#47;btn100&#47;BTN100_0602L_AUTOPISTA&#47;BTN100_0602L_AUTOPISTA</name>
+      <name>&#47;home&#47;lissete&#47;TFM&#47;btn100&#47;BTN100_0602L_AUTOPISTA&#47;BTN100_0602L_AUTOPISTA</name>
       <is_command>N</is_command>
       <do_not_open_new_file_init>N</do_not_open_new_file_init>
       <extention>ttl</extention>
@@ -168,14 +168,213 @@
     </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>479</xloc>
-      <yloc>295</yloc>
+      <xloc>708</xloc>
+      <yloc>286</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
 
   <step>
-    <name>tripleGEO</name>
+    <name>Selecciona&#47;Renombra valores</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <fields>        <select_unspecified>N</select_unspecified>
+      <meta>        <name>FECHA_ALTA</name>
+        <rename>FECHA_ALTA</rename>
+        <type>Date</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask>yyyy-MM-dd</conversion_mask>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>    </fields>     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>170</xloc>
+      <yloc>286</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Valor Java Script Modificado</name>
+    <type>ScriptValueMod</type>
+    <description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <compatible>N</compatible>
+    <jsScripts>      <jsScript>        <jsScript_type>0</jsScript_type>
+        <jsScript_name>Script 1</jsScript_name>
+        <jsScript_script>
+
+var aux = FECHA_ALTA.match(&#47;^(\d{4})(\d{2})(\d{2})&#47;);
+
+if(!aux || aux.length &lt; 4){
+	FECHA_ALTA = new Date();
+}
+else{
+    FECHA_ALTA = new Date(aux[1], aux[2]-1, aux[3]);
+    &#47;&#47;FECHA_ALTA = date2str(FECHA_ALTA, &quot;yyyy-MM-dd&quot;);
+}
+
+&#47;&#47;ACCESO
+if(ACCESO == &quot;01&quot;){
+	ACCESO = &quot;libre&quot;
+}
+else{
+	ACCESO = &quot;de peaje&quot;
+}
+
+&#47;&#47;CALZADA
+if(CALZADA == &quot;01&quot;){
+	CALZADA = &quot;convencional&quot;;
+}
+else if(CALZADA == &quot;02&quot;){
+	CALZADA = &quot;doble&quot;;
+}
+else{
+	CALZADA = &quot;sentido único&quot;;
+}
+
+&#47;&#47;COMPE
+if(COMPE == &quot;01&quot;){
+	COMPE = &quot;estatal&quot;;
+}
+else if(COMPE == &quot;02&quot;){
+	COMPE = &quot;autonómica&quot;;
+}
+else if(COMPE == &quot;03&quot;){
+	COMPE = &quot;provincial&quot;;
+}
+else{
+	COMPE = &quot;municipal&quot;;
+}
+
+&#47;&#47;ESTADO
+if(ESTADO == &quot;01&quot;){
+	ESTADO = &quot;en uso&quot;;
+}
+else if(ESTADO == &quot;02&quot;){
+	ESTADO = &quot;en construcción&quot;;
+}
+else{
+	ESTADO = &quot;abandonado&quot;;
+}
+
+&#47;&#47; INTERNA
+
+if(INTERNA == &quot;01&quot;){
+	INTERNA = &quot;no interna&quot;;
+}
+else {
+	INTERNA = &quot;interna&quot;;
+}
+
+&#47;&#47;ITINERARIO EUROPEO
+if(ITIN_EUR == &quot;01&quot;){
+	ITIN_EUR = &quot;itinerario no europeo&quot;;
+}
+else{
+	ITIN_EUR = &quot;itinerario europeo&quot;;
+}
+
+&#47;&#47;SITUACION
+if(SITUACION == &quot;01&quot;){
+	SITUACION = &quot;en superficie&quot;;
+}
+else if(SITUACION == &quot;02&quot;){
+	SITUACION = &quot;subterráneo&quot;;
+}
+else if (SITUACION == &quot;03&quot;){
+	SITUACION = &quot;elevado&quot;;
+}
+else {
+	SITUACION = &quot;sin clasificar&quot;;
+}
+
+&#47;&#47;RUTA TEN-T
+if(TEN_T == &quot;01&quot;){
+	TEN_T  = &quot;no pertenece a ruta TEN-T&quot;;
+}
+else{
+	TEN_T  = &quot;ruta TEN-T&quot;;
+}
+</jsScript_script>
+      </jsScript>    </jsScripts>    <fields>      <field>        <name>FECHA_ALTA</name>
+        <rename>FECHA_ALTA</rename>
+        <type>Date</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>Y</replace>
+      </field>      <field>        <name>CALZADA</name>
+        <rename>CALZADA</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>Y</replace>
+      </field>      <field>        <name>COMPE</name>
+        <rename>COMPE</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>Y</replace>
+      </field>      <field>        <name>ESTADO</name>
+        <rename>ESTADO</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>Y</replace>
+      </field>      <field>        <name>INTERNA</name>
+        <rename>INTERNA</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>Y</replace>
+      </field>      <field>        <name>ITIN_EUR</name>
+        <rename>ITIN_EUR</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>Y</replace>
+      </field>      <field>        <name>SITUACION</name>
+        <rename>SITUACION</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>Y</replace>
+      </field>      <field>        <name>TEN_T</name>
+        <rename>TEN_T</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>Y</replace>
+      </field>      <field>        <name>ACCESO</name>
+        <rename>ACCESO</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>Y</replace>
+      </field>    </fields>     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>170</xloc>
+      <yloc>176</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Autopista</name>
     <type>tripleGEO</type>
     <description/>
     <distribute>Y</distribute>
@@ -184,13 +383,14 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-		<attributename>ETIQUETA</attributename>
-		<feature>Barrio</feature>
-		<ontologyns>http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#</ontologyns>
-		<ontologynsprefix>esadm</ontologynsprefix>
+		<attributename>ID</attributename>
+		<feature>Autopista</feature>
+		<ontologyns>http://geo.linkeddata.es/ontology/</ontologyns>
+		<ontologynsprefix>geoes</ontologynsprefix>
 		<resourcens>http://geo.linkeddata.es/resource/</resourcens>
 		<resourcensprefix>georesource</resourcensprefix>
 		<language>es</language>
+		<pathcsv>null</pathcsv>
 		<uuidsactive>false</uuidsactive>
 		<fields>
 		</fields>
@@ -200,96 +400,111 @@
 		<prefix>n&#47;a</prefix>
 		<uri/>
 		<show>YES</show>
+		<column_shp>the_geom</column_shp>
 		</columns>
 		<columns>
-		<column>ID</column>
-		<prefix/>
-		<uri/>
+		<column>identifier</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
 		<show>YES</show>
+		<column_shp>ID</column_shp>
 		</columns>
 		<columns>
 		<column>ID_BD</column>
 		<prefix/>
 		<uri/>
-		<show>YES</show>
+		<show>NO</show>
+		<column_shp>ID_BD</column_shp>
 		</columns>
 		<columns>
 		<column>ID_CODIGO</column>
 		<prefix/>
 		<uri/>
-		<show>YES</show>
+		<show>NO</show>
+		<column_shp>ID_CODIGO</column_shp>
 		</columns>
 		<columns>
-		<column>ID_MOD</column>
-		<prefix/>
-		<uri/>
+		<column>replaces</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
 		<show>YES</show>
+		<column_shp>ID_MOD</column_shp>
 		</columns>
 		<columns>
-		<column>FECHA_ALTA</column>
-		<prefix/>
-		<uri/>
+		<column>created</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
 		<show>YES</show>
+		<column_shp>FECHA_ALTA</column_shp>
 		</columns>
 		<columns>
-		<column>ACCESO</column>
-		<prefix/>
-		<uri/>
+		<column>acceso</column>
+		<prefix>geodef</prefix>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;feature#</uri>
 		<show>YES</show>
+		<column_shp>ACCESO</column_shp>
 		</columns>
 		<columns>
-		<column>CALZADA</column>
-		<prefix/>
-		<uri/>
+		<column>tipoDeCalzada</column>
+		<prefix>geodef</prefix>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;feature#</uri>
 		<show>YES</show>
+		<column_shp>CALZADA</column_shp>
 		</columns>
 		<columns>
-		<column>COMPE</column>
-		<prefix/>
-		<uri/>
+		<column>competencia</column>
+		<prefix>geodef</prefix>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;feature#</uri>
 		<show>YES</show>
+		<column_shp>COMPE</column_shp>
 		</columns>
 		<columns>
-		<column>ESTADO</column>
-		<prefix/>
-		<uri/>
+		<column>estado</column>
+		<prefix>geodef</prefix>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;feature#</uri>
 		<show>YES</show>
+		<column_shp>ESTADO</column_shp>
 		</columns>
 		<columns>
-		<column>INTERNA</column>
-		<prefix/>
-		<uri/>
+		<column>tipoDeTramo</column>
+		<prefix>geodef</prefix>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;feature#</uri>
 		<show>YES</show>
+		<column_shp>INTERNA</column_shp>
 		</columns>
 		<columns>
-		<column>ITIN_EUR</column>
-		<prefix/>
-		<uri/>
+		<column>itinerarioEuropeo</column>
+		<prefix>geodef</prefix>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;feature#</uri>
 		<show>YES</show>
+		<column_shp>ITIN_EUR</column_shp>
 		</columns>
 		<columns>
-		<column>SITUACION</column>
-		<prefix/>
-		<uri/>
+		<column>situacion</column>
+		<prefix>geoes</prefix>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology&#47;</uri>
 		<show>YES</show>
+		<column_shp>SITUACION</column_shp>
 		</columns>
 		<columns>
-		<column>TEN_T</column>
-		<prefix/>
-		<uri/>
+		<column>rutaTEN-T</column>
+		<prefix>geodef</prefix>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;feature#</uri>
 		<show>YES</show>
+		<column_shp>TEN_T</column_shp>
 		</columns>
 		<columns>
-		<column>ETIQUETA</column>
-		<prefix/>
-		<uri/>
+		<column>title</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
 		<show>YES</show>
+		<column_shp>ETIQUETA</column_shp>
 		</columns>
 		</columns>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>388</xloc>
-      <yloc>293</yloc>
+      <xloc>496</xloc>
+      <yloc>286</yloc>
       <draw>Y</draw>
       </GUI>
     </step>

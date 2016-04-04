@@ -1,859 +1,729 @@
 @prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix geodef: <http://geo.linkeddata.es/def/feature#> .
 @prefix sf:    <http://www.opengis.net/ont/sf#> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl:   <http://www.w3.org/2002/07/owl#> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
-@prefix esadm: <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#> .
 @prefix georesource: <http://geo.linkeddata.es/resource/> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
 @prefix dc:    <http://purl.org/dc/terms/> .
 
-georesource:64  a               esadm:Barrio ;
-        rdfs:label              "64" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/64/geometry> .
-
-georesource:43  a               esadm:Barrio ;
-        rdfs:label              "43" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/43/geometry> .
-
-<http://geo.linkeddata.es/resource/59/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (0.5437788700000001 42.566317899935946, 0.5402719399999999 42.56333560993484)"^^geosparql:wktLiteral .
-
-georesource:22  a               esadm:Barrio ;
-        rdfs:label              "22" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/22/geometry> .
-
-<http://geo.linkeddata.es/resource/60/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (0.5437788700000001 42.566317899935946, 0.55259236 42.5615924399342, 0.5677572200000001 42.56185970993429)"^^geosparql:wktLiteral .
-
-georesource:6  a                esadm:Barrio ;
-        rdfs:label              "6" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/6/geometry> .
-
-<http://geo.linkeddata.es/resource/31/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.5155716299999998 42.80463724002034, -0.5103680299999999 42.805840120020754)"^^geosparql:wktLiteral .
-
-georesource:72  a               esadm:Barrio ;
-        rdfs:label              "72" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "03" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/72/geometry> .
-
-georesource:51  a               esadm:Barrio ;
-        rdfs:label              "51" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/51/geometry> .
-
-georesource:30  a               esadm:Barrio ;
-        rdfs:label              "30" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/30/geometry> .
-
-<http://geo.linkeddata.es/resource/55/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.5040928600000001 42.80975256002207, -0.4913184 42.81455995002368)"^^geosparql:wktLiteral .
-
-<http://geo.linkeddata.es/resource/26/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.2775099600000001 42.711589079988386, -0.2759747100000001 42.70315921998543)"^^geosparql:wktLiteral .
-
-<http://geo.linkeddata.es/resource/79/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-5.385881360000001 43.04271064009625, -5.397382750000001 43.04174470009596)"^^geosparql:wktLiteral .
-
-georesource:59  a               esadm:Barrio ;
-        rdfs:label              "59" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/59/geometry> .
-
-georesource:38  a               esadm:Barrio ;
-        rdfs:label              "38" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/38/geometry> .
-
-<http://geo.linkeddata.es/resource/51/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.49708414 42.80200737001946, -0.49523547 42.79842394001823)"^^geosparql:wktLiteral .
-
-georesource:17  a               esadm:Barrio ;
-        rdfs:label              "17" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/17/geometry> .
-
-<http://geo.linkeddata.es/resource/22/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.2642991299999999 42.69045514998096, -0.2635766500000001 42.69585740998287)"^^geosparql:wktLiteral .
-
-<http://geo.linkeddata.es/resource/75/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.4915378 42.807600060021336, -0.4834324600000001 42.803263050019886)"^^geosparql:wktLiteral .
-
-<http://geo.linkeddata.es/resource/8/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-4.375415940000001 43.03625824009429, -4.395037959999999 43.03914288009518)"^^geosparql:wktLiteral .
-
-georesource:67  a               esadm:Barrio ;
-        rdfs:label              "67" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/67/geometry> .
-
-georesource:46  a               esadm:Barrio ;
-        rdfs:label              "46" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/46/geometry> .
-
-<http://geo.linkeddata.es/resource/46/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.4101757999999999 42.75705345000417, -0.3948412600000001 42.762941700006195)"^^geosparql:wktLiteral .
-
-georesource:25  a               esadm:Barrio ;
-        rdfs:label              "25" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/25/geometry> .
-
-<http://geo.linkeddata.es/resource/17/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.2745580599999999 42.702902099985344, -0.27720874 42.711549999988385)"^^geosparql:wktLiteral .
-
-georesource:9  a                esadm:Barrio ;
-        rdfs:label              "9" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/9/geometry> .
-
-<http://geo.linkeddata.es/resource/71/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.4152719599999998 42.79783893001804, -0.43746572 42.7941635900168)"^^geosparql:wktLiteral .
-
-georesource:75  a               esadm:Barrio ;
-        rdfs:label              "75" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "03" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/75/geometry> .
-
-<http://geo.linkeddata.es/resource/4/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (0.5443934199999998 42.56578912993575, 0.54249471 42.55553721993194)"^^geosparql:wktLiteral .
-
-georesource:54  a               esadm:Barrio ;
-        rdfs:label              "54" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/54/geometry> .
-
-<http://geo.linkeddata.es/resource/42/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-3.9753264200000005 40.788470109046, -3.97341927 40.79636956905095)"^^geosparql:wktLiteral .
-
-georesource:33  a               esadm:Barrio ;
-        rdfs:label              "33" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/33/geometry> .
-
-georesource:12  a               esadm:Barrio ;
-        rdfs:label              "12" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/12/geometry> .
-
-<http://geo.linkeddata.es/resource/13/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.5346895 42.77635388001076, -0.53082935 42.786483680014214)"^^geosparql:wktLiteral .
-
-<http://geo.linkeddata.es/resource/66/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.4229335300000001 42.78573782001397, -0.4153832400000001 42.79679367001769)"^^geosparql:wktLiteral .
-
-<http://geo.linkeddata.es/resource/74/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.27238805 42.699454829984134, -0.2730773499999999 42.70093012998466, -0.27315592 42.70136376998478, -0.27229297 42.702232929985115)"^^geosparql:wktLiteral .
-
-<http://geo.linkeddata.es/resource/37/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (0.55312855 42.554905799931696, 0.5681476400000001 42.559249169933324)"^^geosparql:wktLiteral .
-
-georesource:62  a               esadm:Barrio ;
-        rdfs:label              "62" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/62/geometry> .
-
-georesource:41  a               esadm:Barrio ;
-        rdfs:label              "41" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/41/geometry> .
-
-georesource:20  a               esadm:Barrio ;
-        rdfs:label              "20" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/20/geometry> .
-
-georesource:4  a                esadm:Barrio ;
-        rdfs:label              "4" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/4/geometry> .
-
-<http://geo.linkeddata.es/resource/62/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.5563181999999998 42.77160202000915, -0.5422661200000001 42.770279050008696)"^^geosparql:wktLiteral .
-
-<http://geo.linkeddata.es/resource/69/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.5460363800000001 42.76848613000808, -0.54284973 42.770138270008644)"^^geosparql:wktLiteral .
-
-<http://geo.linkeddata.es/resource/70/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-6.411935780000001 42.99250327008093, -6.41220332 42.992118200080824, -6.414998139999999 42.988095370079584)"^^geosparql:wktLiteral .
-
-georesource:70  a               esadm:Barrio ;
-        rdfs:label              "70" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/70/geometry> .
-
-<http://geo.linkeddata.es/resource/33/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.2753557500000001 42.70226184998512, -0.2632329700000001 42.6959603599829)"^^geosparql:wktLiteral .
-
-georesource:49  a               esadm:Barrio ;
-        rdfs:label              "49" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/49/geometry> .
-
-georesource:28  a               esadm:Barrio ;
-        rdfs:label              "28" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/28/geometry> .
-
-<http://geo.linkeddata.es/resource/57/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-3.3985694999999994 37.09316419582951, -3.3877958000000006 37.07194643580621)"^^geosparql:wktLiteral .
-
-<http://geo.linkeddata.es/resource/65/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.5305270700000001 42.78637756001417, -0.5343752400000003 42.77569508001054)"^^geosparql:wktLiteral .
-
-<http://geo.linkeddata.es/resource/28/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.5564517899999999 42.77114494000899, -0.5462268099999998 42.76893312000822, -0.54347011 42.77023676000868)"^^geosparql:wktLiteral .
-
-georesource:78  a               esadm:Barrio ;
-        rdfs:label              "78" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "03" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/78/geometry> .
-
-georesource:57  a               esadm:Barrio ;
-        rdfs:label              "57" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/57/geometry> .
-
-georesource:36  a               esadm:Barrio ;
-        rdfs:label              "36" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/36/geometry> .
-
-georesource:15  a               esadm:Barrio ;
-        rdfs:label              "15" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/15/geometry> .
-
-<http://geo.linkeddata.es/resource/61/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-3.9749391699999994 40.80381743905562, -3.97085703 40.80422748905588, -3.9723493199999997 40.79592692905068)"^^geosparql:wktLiteral .
-
-<http://geo.linkeddata.es/resource/24/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.2721521700000001 42.69365909998209, -0.26377614 42.696049639982924)"^^geosparql:wktLiteral .
-
-georesource:65  a               esadm:Barrio ;
-        rdfs:label              "65" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/65/geometry> .
-
-<http://geo.linkeddata.es/resource/32/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-3.96312848 40.799074169052666, -3.970582730000001 40.802760969054965)"^^geosparql:wktLiteral .
-
-georesource:44  a               esadm:Barrio ;
-        rdfs:label              "44" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/44/geometry> .
-
-georesource:23  a               esadm:Barrio ;
-        rdfs:label              "23" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/23/geometry> .
-
-georesource:7  a                esadm:Barrio ;
-        rdfs:label              "7" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/7/geometry> .
-
-<http://geo.linkeddata.es/resource/56/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.50408287 42.8093048300219, -0.50470646 42.80166777001934, -0.5048743 42.79388677001669)"^^geosparql:wktLiteral .
-
-<http://geo.linkeddata.es/resource/19/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (0.5419608899999999 42.56697643993619, 0.54131374 42.5729138799384, 0.5407896100000004 42.58674439994352, 0.5448439000000003 42.574042149938805, 0.5437788700000001 42.566317899935946)"^^geosparql:wktLiteral .
-
-<http://geo.linkeddata.es/resource/20/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.5447003199999999 42.782130230012704, -0.5446429 42.777078900011006, -0.54464074 42.77688838001094, -0.5452942800000001 42.77286319000957)"^^geosparql:wktLiteral .
-
-<http://geo.linkeddata.es/resource/27/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.5397653000000001 42.78571680001396, -0.5436325099999999 42.783492710013185)"^^geosparql:wktLiteral .
-
-georesource:73  a               esadm:Barrio ;
-        rdfs:label              "73" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "03" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/73/geometry> .
-
-georesource:52  a               esadm:Barrio ;
-        rdfs:label              "52" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/52/geometry> .
-
-georesource:31  a               esadm:Barrio ;
-        rdfs:label              "31" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/31/geometry> .
-
-georesource:10  a               esadm:Barrio ;
-        rdfs:label              "10" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/10/geometry> .
-
-<http://geo.linkeddata.es/resource/52/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (0.5703626999999999 42.559223039933315, 0.5897028100000001 42.55007093992991)"^^geosparql:wktLiteral .
-
-<http://geo.linkeddata.es/resource/15/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.5092393700000001 42.80845188002162, -0.5059380799999998 42.80232721001954)"^^geosparql:wktLiteral .
-
-<http://geo.linkeddata.es/resource/23/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-4.373880549999999 43.037745260094766, -4.390245550000001 43.041390660095864, -4.40088118 43.0421821200961)"^^geosparql:wktLiteral .
-
-georesource:60  a               esadm:Barrio ;
-        rdfs:label              "60" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/60/geometry> .
-
-<http://geo.linkeddata.es/resource/76/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-6.415680930000001 42.98743512007937, -6.420620069999999 42.987439790079385)"^^geosparql:wktLiteral .
-
-georesource:39  a               esadm:Barrio ;
-        rdfs:label              "39" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/39/geometry> .
-
-georesource:18  a               esadm:Barrio ;
-        rdfs:label              "18" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/18/geometry> .
-
-<http://geo.linkeddata.es/resource/9/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.5387678799999999 42.78567378001394, -0.5385920600000002 42.78353489001321)"^^geosparql:wktLiteral .
-
-<http://geo.linkeddata.es/resource/47/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-3.3930190400000004 37.05883354579179, -3.368489770000001 37.05490818578746)"^^geosparql:wktLiteral .
-
-georesource:2  a                esadm:Barrio ;
-        rdfs:label              "2" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "01" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/2/geometry> .
-
-<http://geo.linkeddata.es/resource/18/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.54470293 42.783738810013276, -0.54320115 42.78239304001282, -0.54175277 42.781095040012374)"^^geosparql:wktLiteral .
-
-georesource:68  a               esadm:Barrio ;
-        rdfs:label              "68" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/68/geometry> .
-
-georesource:47  a               esadm:Barrio ;
-        rdfs:label              "47" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/47/geometry> .
-
-<http://geo.linkeddata.es/resource/72/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-5.397839230000001 43.041976950096036, -5.409921789999999 43.04443482009677)"^^geosparql:wktLiteral .
-
-georesource:26  a               esadm:Barrio ;
-        rdfs:label              "26" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/26/geometry> .
-
-<http://geo.linkeddata.es/resource/5/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.5054255399999998 42.80944812002196, -0.50501425 42.80230018001956, -0.5047964900000003 42.798487800018286)"^^geosparql:wktLiteral .
-
-<http://geo.linkeddata.es/resource/43/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-4.4023810999999995 43.037929410094804, -4.391476320000001 43.04045799009557)"^^geosparql:wktLiteral .
-
-<http://geo.linkeddata.es/resource/14/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.53382836 42.78646985001421, -0.53502864 42.77638626001079)"^^geosparql:wktLiteral .
-
-georesource:76  a               esadm:Barrio ;
-        rdfs:label              "76" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "03" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/76/geometry> .
-
-<http://geo.linkeddata.es/resource/67/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.3726086800000001 42.77483798001024, -0.3764084 42.77608070001066, -0.3827393000000002 42.764902490006854, -0.38412112 42.762462050006015)"^^geosparql:wktLiteral .
-
-georesource:55  a               esadm:Barrio ;
-        rdfs:label              "55" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/55/geometry> .
-
-georesource:13  a               esadm:Barrio ;
-        rdfs:label              "13" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/13/geometry> .
-
-<http://geo.linkeddata.es/resource/38/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-3.971987959999998 40.7906841990474, -3.97290827 40.797405899051604)"^^geosparql:wktLiteral .
-
-<http://geo.linkeddata.es/resource/10/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.3936856200000001 42.75210827000248, -0.39192179 42.7542806500032, -0.3865480600000001 42.75763494000436, -0.3858827 42.75815708000455, -0.3852173300000002 42.758679210004715, -0.3826696700000001 42.76111800000556)"^^geosparql:wktLiteral .
-
-<http://geo.linkeddata.es/resource/63/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.38610296 42.761507490005684, -0.3919610900000001 42.76313686000626)"^^geosparql:wktLiteral .
-
-georesource:63  a               esadm:Barrio ;
-        rdfs:label              "63" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/63/geometry> .
-
-georesource:42  a               esadm:Barrio ;
-        rdfs:label              "42" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/42/geometry> .
-
-georesource:21  a               esadm:Barrio ;
-        rdfs:label              "21" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/21/geometry> .
-
-georesource:5  a                esadm:Barrio ;
-        rdfs:label              "5" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/5/geometry> .
-
-<http://geo.linkeddata.es/resource/58/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.5036578099999999 42.80177135001937, -0.4989121600000001 42.8018448800194)"^^geosparql:wktLiteral .
-
-georesource:71  a               esadm:Barrio ;
-        rdfs:label              "71" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/71/geometry> .
-
-georesource:50  a               esadm:Barrio ;
-        rdfs:label              "50" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/50/geometry> .
-
-<http://geo.linkeddata.es/resource/29/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.4221987799999999 42.78551171001386, -0.4106687900000001 42.78138912001246)"^^geosparql:wktLiteral .
-
-georesource:29  a               esadm:Barrio ;
-        rdfs:label              "29" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/29/geometry> .
-
-<http://geo.linkeddata.es/resource/30/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.5337814999999999 42.775496540010465, -0.54272075 42.77047620000876, -0.54481902 42.772378010009405)"^^geosparql:wktLiteral .
-
-<http://geo.linkeddata.es/resource/54/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-6.413049589999999 42.993785870081325, -6.413408270000001 42.993599120081285, -6.41800671 42.99120473008053)"^^geosparql:wktLiteral .
-
-georesource:79  a               esadm:Barrio ;
-        rdfs:label              "79" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "03" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/79/geometry> .
-
-georesource:58  a               esadm:Barrio ;
-        rdfs:label              "58" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/58/geometry> .
-
-georesource:37  a               esadm:Barrio ;
-        rdfs:label              "37" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/37/geometry> .
-
-<http://geo.linkeddata.es/resource/25/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.5302224 42.786270600014134, -0.5304338700000001 42.78394433001335)"^^geosparql:wktLiteral .
-
-georesource:16  a               esadm:Barrio ;
-        rdfs:label              "16" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/16/geometry> .
-
-<http://geo.linkeddata.es/resource/78/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-5.385881360000001 43.04271064009625, -5.39915482 43.04068846009564)"^^geosparql:wktLiteral .
-
-<http://geo.linkeddata.es/resource/49/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-3.3857731900000005 37.06724235580102, -3.36902854 37.05693210578969)"^^geosparql:wktLiteral .
-
-<http://geo.linkeddata.es/resource/50/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-4.394054410000001 43.032872710093294, -4.389496789999999 43.03675468009445)"^^geosparql:wktLiteral .
-
-georesource:66  a               esadm:Barrio ;
-        rdfs:label              "66" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/66/geometry> .
-
-georesource:45  a               esadm:Barrio ;
-        rdfs:label              "45" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/45/geometry> .
-
-georesource:24  a               esadm:Barrio ;
-        rdfs:label              "24" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/24/geometry> .
-
-<http://geo.linkeddata.es/resource/21/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.5449267999999999 42.782617680012905, -0.54320115 42.78239304001282)"^^geosparql:wktLiteral .
-
-georesource:8  a                esadm:Barrio ;
-        rdfs:label              "8" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/8/geometry> .
-
-<http://geo.linkeddata.es/resource/7/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-3.3892312399999995 37.07674662581148, -3.3735923500000005 37.064690465798215)"^^geosparql:wktLiteral .
-
-<http://geo.linkeddata.es/resource/45/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.5029799699999999 42.80238924001957, -0.49976338 42.80801310002147)"^^geosparql:wktLiteral .
-
-georesource:74  a               esadm:Barrio ;
-        rdfs:label              "74" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "03" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/74/geometry> .
-
-<http://geo.linkeddata.es/resource/53/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.4983912499999999 42.80788503002141, -0.49392935 42.80240512001959, -0.48984648 42.79911569001848)"^^geosparql:wktLiteral .
-
-georesource:53  a               esadm:Barrio ;
-        rdfs:label              "53" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/53/geometry> .
-
-<http://geo.linkeddata.es/resource/16/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-3.9781356000000003 40.797513269051684, -3.9732802799999996 40.80077373905372)"^^geosparql:wktLiteral .
-
-georesource:32  a               esadm:Barrio ;
-        rdfs:label              "32" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/32/geometry> .
-
-georesource:11  a               esadm:Barrio ;
-        rdfs:label              "11" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/11/geometry> .
-
-<http://geo.linkeddata.es/resource/77/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-5.385881360000001 43.04271064009625, -5.396968650000001 43.036554310094395)"^^geosparql:wktLiteral .
-
-<http://geo.linkeddata.es/resource/3/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-3.4058452900000002 37.08328588581867, -3.3934737799999994 37.067217055801)"^^geosparql:wktLiteral .
-
-<http://geo.linkeddata.es/resource/41/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-3.3869106800000006 37.07129621580549, -3.3731131000000008 37.0628548057962)"^^geosparql:wktLiteral .
-
-<http://geo.linkeddata.es/resource/48/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (0.5350077599999999 42.558589959933094, 0.54131374 42.5729138799384)"^^geosparql:wktLiteral .
-
-georesource:61  a               esadm:Barrio ;
-        rdfs:label              "61" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/61/geometry> .
-
-georesource:40  a               esadm:Barrio ;
-        rdfs:label              "40" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/40/geometry> .
-
-<http://geo.linkeddata.es/resource/12/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.5361789 42.78602097001404, -0.5359598600000002 42.784129560013405)"^^geosparql:wktLiteral .
-
-georesource:19  a               esadm:Barrio ;
-        rdfs:label              "19" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/19/geometry> .
-
-<http://geo.linkeddata.es/resource/73/geometry>
+georesource:_72  a             geodef:telesqui ;
+        rdfs:label             "72" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_72/geometry> .
+
+georesource:_77  a             geodef:telesqui ;
+        rdfs:label             "77" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_77/geometry> .
+
+<http://geo.linkeddata.es/resource/_73/geometry>
         a                sf:LineString ;
         geosparql:asWKT  "LINESTRING (-5.3833912 43.03678621009447, -5.3963253799999995 43.033942350093604)"^^geosparql:wktLiteral .
 
-georesource:3  a                esadm:Barrio ;
-        rdfs:label              "3" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/3/geometry> .
+georesource:_75  a             geodef:telesqui ;
+        rdfs:label             "75" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_75/geometry> .
 
-<http://geo.linkeddata.es/resource/36/geometry>
+<http://geo.linkeddata.es/resource/_72/geometry>
         a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.4972911999999999 42.8045426100203, -0.4950212999999998 42.79985440001872, -0.49497537 42.79975952001869, -0.4940932199999998 42.79862669001832)"^^geosparql:wktLiteral .
+        geosparql:asWKT  "LINESTRING (-5.397839230000001 43.041976950096036, -5.409921789999999 43.04443482009677)"^^geosparql:wktLiteral .
 
-<http://geo.linkeddata.es/resource/6/geometry>
+<http://geo.linkeddata.es/resource/_77/geometry>
         a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.53768826 42.78599756001403, -0.5372768299999998 42.78376536001329)"^^geosparql:wktLiteral .
+        geosparql:asWKT  "LINESTRING (-5.385881360000001 43.04271064009625, -5.396968650000001 43.036554310094395)"^^geosparql:wktLiteral .
 
-<http://geo.linkeddata.es/resource/44/geometry>
+<http://geo.linkeddata.es/resource/_76/geometry>
         a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-4.397360870000002 43.03563089009412, -4.39058657 43.038488800094974, -4.39024029 43.038649390095024)"^^geosparql:wktLiteral .
+        geosparql:asWKT  "LINESTRING (-6.415680930000001 42.98743512007937, -6.420620069999999 42.987439790079385)"^^geosparql:wktLiteral .
 
-georesource:69  a               esadm:Barrio ;
-        rdfs:label              "69" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/69/geometry> .
+georesource:_73  a             geodef:telesqui ;
+        rdfs:label             "73" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_73/geometry> .
 
-georesource:48  a               esadm:Barrio ;
-        rdfs:label              "48" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/48/geometry> .
+georesource:_78  a             geodef:telesqui ;
+        rdfs:label             "78" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_78/geometry> .
 
-georesource:27  a               esadm:Barrio ;
-        rdfs:label              "27" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/27/geometry> .
-
-<http://geo.linkeddata.es/resource/68/geometry>
+<http://geo.linkeddata.es/resource/_75/geometry>
         a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.3716436699999999 42.77474784001021, -0.3708552500000001 42.768306210008014)"^^geosparql:wktLiteral .
+        geosparql:asWKT  "LINESTRING (-0.4915378 42.807600060021336, -0.4834324600000001 42.803263050019886)"^^geosparql:wktLiteral .
 
-<http://geo.linkeddata.es/resource/39/geometry>
+georesource:_76  a             geodef:telesqui ;
+        rdfs:label             "76" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_76/geometry> .
+
+<http://geo.linkeddata.es/resource/_74/geometry>
         a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-3.9630166499999997 40.7913362390478, -3.9717101500000007 40.797656329051776)"^^geosparql:wktLiteral .
+        geosparql:asWKT  "LINESTRING (-0.27238805 42.699454829984134, -0.2730773499999999 42.70093012998466, -0.27315592 42.70136376998478, -0.27229297 42.702232929985115)"^^geosparql:wktLiteral .
 
-<http://geo.linkeddata.es/resource/2/geometry>
+<http://geo.linkeddata.es/resource/_79/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.385881360000001 43.04271064009625, -5.397382750000001 43.04174470009596)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/_78/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.385881360000001 43.04271064009625, -5.39915482 43.04068846009564)"^^geosparql:wktLiteral .
+
+georesource:_74  a             geodef:telesqui ;
+        rdfs:label             "74" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_74/geometry> .
+
+georesource:_79  a             geodef:telesqui ;
+        rdfs:label             "79" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_79/geometry> .
+
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix geodef: <http://geo.linkeddata.es/def/feature#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georesource: <http://geo.linkeddata.es/resource/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+georesource:_2  a              geodef:teleferico ;
+        rdfs:label             "2" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_2/geometry> .
+
+<http://geo.linkeddata.es/resource/_2/geometry>
         a                sf:LineString ;
         geosparql:asWKT  "LINESTRING (-3.398893999999999 37.09281016582911, -3.3889693700000008 37.071518635805745)"^^geosparql:wktLiteral .
 
-<http://geo.linkeddata.es/resource/40/geometry>
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix geodef: <http://geo.linkeddata.es/def/feature#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georesource: <http://geo.linkeddata.es/resource/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+georesource:_8  a              geodef:telesilla ;
+        rdfs:label             "8" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_8/geometry> .
+
+georesource:_19  a             geodef:telesilla ;
+        rdfs:label             "19" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_19/geometry> .
+
+<http://geo.linkeddata.es/resource/_29/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.4221987799999999 42.78551171001386, -0.4106687900000001 42.78138912001246)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/_53/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.4983912499999999 42.80788503002141, -0.49392935 42.80240512001959, -0.48984648 42.79911569001848)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/_50/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-4.394054410000001 43.032872710093294, -4.389496789999999 43.03675468009445)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/_26/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.2775099600000001 42.711589079988386, -0.2759747100000001 42.70315921998543)"^^geosparql:wktLiteral .
+
+georesource:_41  a             geodef:telesilla ;
+        rdfs:label             "41" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_41/geometry> .
+
+<http://geo.linkeddata.es/resource/_23/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-4.373880549999999 43.037745260094766, -4.390245550000001 43.041390660095864, -4.40088118 43.0421821200961)"^^geosparql:wktLiteral .
+
+georesource:_13  a             geodef:telesilla ;
+        rdfs:label             "13" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_13/geometry> .
+
+georesource:_54  a             geodef:telesilla ;
+        rdfs:label             "54" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_54/geometry> .
+
+georesource:_26  a             geodef:telesilla ;
+        rdfs:label             "26" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_26/geometry> .
+
+georesource:_67  a             geodef:telesilla ;
+        rdfs:label             "67" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_67/geometry> .
+
+georesource:_39  a             geodef:telesilla ;
+        rdfs:label             "39" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_39/geometry> .
+
+<http://geo.linkeddata.es/resource/_49/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.3857731900000005 37.06724235580102, -3.36902854 37.05693210578969)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/_46/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.4101757999999999 42.75705345000417, -0.3948412600000001 42.762941700006195)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/_43/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-4.4023810999999995 43.037929410094804, -4.391476320000001 43.04045799009557)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/_15/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.5092393700000001 42.80845188002162, -0.5059380799999998 42.80232721001954)"^^geosparql:wktLiteral .
+
+georesource:_20  a             geodef:telesilla ;
+        rdfs:label             "20" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_20/geometry> .
+
+<http://geo.linkeddata.es/resource/_40/geometry>
         a                sf:LineString ;
         geosparql:asWKT  "LINESTRING (-4.386454420000001 43.02957637009229, -4.380162129999999 43.03365031009353)"^^geosparql:wktLiteral .
 
-georesource:77  a               esadm:Barrio ;
-        rdfs:label              "77" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "03" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/77/geometry> .
+<http://geo.linkeddata.es/resource/_12/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.5361789 42.78602097001404, -0.5359598600000002 42.784129560013405)"^^geosparql:wktLiteral .
 
-georesource:56  a               esadm:Barrio ;
-        rdfs:label              "56" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/56/geometry> .
+georesource:_61  a             geodef:telesilla ;
+        rdfs:label             "61" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_61/geometry> .
 
-georesource:35  a               esadm:Barrio ;
-        rdfs:label              "35" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/35/geometry> .
+georesource:_33  a             geodef:telesilla ;
+        rdfs:label             "33" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_33/geometry> .
 
-<http://geo.linkeddata.es/resource/11/geometry>
+<http://geo.linkeddata.es/resource/_8/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-4.375415940000001 43.03625824009429, -4.395037959999999 43.03914288009518)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/_5/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.5054255399999998 42.80944812002196, -0.50501425 42.80230018001956, -0.5047964900000003 42.798487800018286)"^^geosparql:wktLiteral .
+
+georesource:_46  a             geodef:telesilla ;
+        rdfs:label             "46" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_46/geometry> .
+
+georesource:_7  a              geodef:telesilla ;
+        rdfs:label             "7" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_7/geometry> .
+
+georesource:_18  a             geodef:telesilla ;
+        rdfs:label             "18" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_18/geometry> .
+
+<http://geo.linkeddata.es/resource/_69/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.5460363800000001 42.76848613000808, -0.54284973 42.770138270008644)"^^geosparql:wktLiteral .
+
+georesource:_59  a             geodef:telesilla ;
+        rdfs:label             "59" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_59/geometry> .
+
+<http://geo.linkeddata.es/resource/_66/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.4229335300000001 42.78573782001397, -0.4153832400000001 42.79679367001769)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/_39/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.9630166499999997 40.7913362390478, -3.9717101500000007 40.797656329051776)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/_63/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.38610296 42.761507490005684, -0.3919610900000001 42.76313686000626)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/_60/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (0.5437788700000001 42.566317899935946, 0.55259236 42.5615924399342, 0.5677572200000001 42.56185970993429)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/_32/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.96312848 40.799074169052666, -3.970582730000001 40.802760969054965)"^^geosparql:wktLiteral .
+
+georesource:_40  a             geodef:telesilla ;
+        rdfs:label             "40" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_40/geometry> .
+
+georesource:_12  a             geodef:telesilla ;
+        rdfs:label             "12" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_12/geometry> .
+
+georesource:_53  a             geodef:telesilla ;
+        rdfs:label             "53" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_53/geometry> .
+
+georesource:_25  a             geodef:telesilla ;
+        rdfs:label             "25" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_25/geometry> .
+
+georesource:_66  a             geodef:telesilla ;
+        rdfs:label             "66" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_66/geometry> .
+
+georesource:_38  a             geodef:telesilla ;
+        rdfs:label             "38" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_38/geometry> .
+
+<http://geo.linkeddata.es/resource/_59/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (0.5437788700000001 42.566317899935946, 0.5402719399999999 42.56333560993484)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/_56/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.50408287 42.8093048300219, -0.50470646 42.80166777001934, -0.5048743 42.79388677001669)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/_28/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.5564517899999999 42.77114494000899, -0.5462268099999998 42.76893312000822, -0.54347011 42.77023676000868)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/_25/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.5302224 42.786270600014134, -0.5304338700000001 42.78394433001335)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/_22/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.2642991299999999 42.69045514998096, -0.2635766500000001 42.69585740998287)"^^geosparql:wktLiteral .
+
+georesource:_60  a             geodef:telesilla ;
+        rdfs:label             "60" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_60/geometry> .
+
+georesource:_32  a             geodef:telesilla ;
+        rdfs:label             "32" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_32/geometry> .
+
+georesource:_45  a             geodef:telesilla ;
+        rdfs:label             "45" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_45/geometry> .
+
+georesource:_6  a              geodef:telesilla ;
+        rdfs:label             "6" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_6/geometry> .
+
+georesource:_17  a             geodef:telesilla ;
+        rdfs:label             "17" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_17/geometry> .
+
+georesource:_58  a             geodef:telesilla ;
+        rdfs:label             "58" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_58/geometry> .
+
+<http://geo.linkeddata.es/resource/_45/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.5029799699999999 42.80238924001957, -0.49976338 42.80801310002147)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/_70/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-6.411935780000001 42.99250327008093, -6.41220332 42.992118200080824, -6.414998139999999 42.988095370079584)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/_18/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.54470293 42.783738810013276, -0.54320115 42.78239304001282, -0.54175277 42.781095040012374)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/_42/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.9753264200000005 40.788470109046, -3.97341927 40.79636956905095)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/_11/geometry>
         a                sf:LineString ;
         geosparql:asWKT  "LINESTRING (-0.41473447 42.79664597001763, -0.4150237499999999 42.79241152001621)"^^geosparql:wktLiteral .
 
-georesource:14  a               esadm:Barrio ;
-        rdfs:label              "14" ;
-        georesource:fecha_alta  "20130701000000" ;
-        georesource:id_codigo   "0612L" ;
-        georesource:tipo_0612   "02" ;
-        geosparql:hasGeometry   <http://geo.linkeddata.es/resource/14/geometry> .
+<http://geo.linkeddata.es/resource/_7/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.3892312399999995 37.07674662581148, -3.3735923500000005 37.064690465798215)"^^geosparql:wktLiteral .
 
-<http://geo.linkeddata.es/resource/64/geometry>
+georesource:_11  a             geodef:telesilla ;
+        rdfs:label             "11" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_11/geometry> .
+
+<http://geo.linkeddata.es/resource/_4/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (0.5443934199999998 42.56578912993575, 0.54249471 42.55553721993194)"^^geosparql:wktLiteral .
+
+georesource:_52  a             geodef:telesilla ;
+        rdfs:label             "52" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_52/geometry> .
+
+georesource:_24  a             geodef:telesilla ;
+        rdfs:label             "24" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_24/geometry> .
+
+georesource:_65  a             geodef:telesilla ;
+        rdfs:label             "65" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_65/geometry> .
+
+georesource:_37  a             geodef:telesilla ;
+        rdfs:label             "37" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_37/geometry> .
+
+<http://geo.linkeddata.es/resource/_38/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.971987959999998 40.7906841990474, -3.97290827 40.797405899051604)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/_62/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.5563181999999998 42.77160202000915, -0.5422661200000001 42.770279050008696)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/_35/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.3887864400000001 42.7528031800027, -0.3771171499999999 42.763671270006434)"^^geosparql:wktLiteral .
+
+georesource:_31  a             geodef:telesilla ;
+        rdfs:label             "31" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_31/geometry> .
+
+<http://geo.linkeddata.es/resource/_58/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.5036578099999999 42.80177135001937, -0.4989121600000001 42.8018448800194)"^^geosparql:wktLiteral .
+
+georesource:_44  a             geodef:telesilla ;
+        rdfs:label             "44" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_44/geometry> .
+
+georesource:_5  a              geodef:telesilla ;
+        rdfs:label             "5" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_5/geometry> .
+
+georesource:_16  a             geodef:telesilla ;
+        rdfs:label             "16" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_16/geometry> .
+
+georesource:_57  a             geodef:telesilla ;
+        rdfs:label             "57" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_57/geometry> .
+
+<http://geo.linkeddata.es/resource/_55/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.5040928600000001 42.80975256002207, -0.4913184 42.81455995002368)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/_52/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (0.5703626999999999 42.559223039933315, 0.5897028100000001 42.55007093992991)"^^geosparql:wktLiteral .
+
+georesource:_29  a             geodef:telesilla ;
+        rdfs:label             "29" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_29/geometry> .
+
+<http://geo.linkeddata.es/resource/_24/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.2721521700000001 42.69365909998209, -0.26377614 42.696049639982924)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/_21/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.5449267999999999 42.782617680012905, -0.54320115 42.78239304001282)"^^geosparql:wktLiteral .
+
+georesource:_10  a             geodef:telesilla ;
+        rdfs:label             "10" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_10/geometry> .
+
+georesource:_51  a             geodef:telesilla ;
+        rdfs:label             "51" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_51/geometry> .
+
+georesource:_23  a             geodef:telesilla ;
+        rdfs:label             "23" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_23/geometry> .
+
+georesource:_64  a             geodef:telesilla ;
+        rdfs:label             "64" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_64/geometry> .
+
+<http://geo.linkeddata.es/resource/_48/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (0.5350077599999999 42.558589959933094, 0.54131374 42.5729138799384)"^^geosparql:wktLiteral .
+
+georesource:_36  a             geodef:telesilla ;
+        rdfs:label             "36" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_36/geometry> .
+
+<http://geo.linkeddata.es/resource/_17/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.2745580599999999 42.702902099985344, -0.27720874 42.711549999988385)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/_41/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.3869106800000006 37.07129621580549, -3.3731131000000008 37.0628548057962)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/_14/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.53382836 42.78646985001421, -0.53502864 42.77638626001079)"^^geosparql:wktLiteral .
+
+georesource:_49  a             geodef:telesilla ;
+        rdfs:label             "49" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_49/geometry> .
+
+<http://geo.linkeddata.es/resource/_6/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.53768826 42.78599756001403, -0.5372768299999998 42.78376536001329)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/_3/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.4058452900000002 37.08328588581867, -3.3934737799999994 37.067217055801)"^^geosparql:wktLiteral .
+
+georesource:_30  a             geodef:telesilla ;
+        rdfs:label             "30" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_30/geometry> .
+
+georesource:_71  a             geodef:telesilla ;
+        rdfs:label             "71" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_71/geometry> .
+
+<http://geo.linkeddata.es/resource/_68/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.3716436699999999 42.77474784001021, -0.3708552500000001 42.768306210008014)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/_65/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.5305270700000001 42.78637756001417, -0.5343752400000003 42.77569508001054)"^^geosparql:wktLiteral .
+
+georesource:_43  a             geodef:telesilla ;
+        rdfs:label             "43" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_43/geometry> .
+
+<http://geo.linkeddata.es/resource/_37/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (0.55312855 42.554905799931696, 0.5681476400000001 42.559249169933324)"^^geosparql:wktLiteral .
+
+georesource:_4  a              geodef:telesilla ;
+        rdfs:label             "4" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_4/geometry> .
+
+georesource:_15  a             geodef:telesilla ;
+        rdfs:label             "15" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_15/geometry> .
+
+georesource:_56  a             geodef:telesilla ;
+        rdfs:label             "56" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_56/geometry> .
+
+<http://geo.linkeddata.es/resource/_31/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.5155716299999998 42.80463724002034, -0.5103680299999999 42.805840120020754)"^^geosparql:wktLiteral .
+
+georesource:_28  a             geodef:telesilla ;
+        rdfs:label             "28" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_28/geometry> .
+
+georesource:_69  a             geodef:telesilla ;
+        rdfs:label             "69" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_69/geometry> .
+
+georesource:_50  a             geodef:telesilla ;
+        rdfs:label             "50" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_50/geometry> .
+
+<http://geo.linkeddata.es/resource/_57/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.3985694999999994 37.09316419582951, -3.3877958000000006 37.07194643580621)"^^geosparql:wktLiteral .
+
+georesource:_22  a             geodef:telesilla ;
+        rdfs:label             "22" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_22/geometry> .
+
+georesource:_63  a             geodef:telesilla ;
+        rdfs:label             "63" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_63/geometry> .
+
+<http://geo.linkeddata.es/resource/_54/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-6.413049589999999 42.993785870081325, -6.413408270000001 42.993599120081285, -6.41800671 42.99120473008053)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/_51/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.49708414 42.80200737001946, -0.49523547 42.79842394001823)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/_27/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.5397653000000001 42.78571680001396, -0.5436325099999999 42.783492710013185)"^^geosparql:wktLiteral .
+
+georesource:_35  a             geodef:telesilla ;
+        rdfs:label             "35" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_35/geometry> .
+
+<http://geo.linkeddata.es/resource/_20/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.5447003199999999 42.782130230012704, -0.5446429 42.777078900011006, -0.54464074 42.77688838001094, -0.5452942800000001 42.77286319000957)"^^geosparql:wktLiteral .
+
+georesource:_48  a             geodef:telesilla ;
+        rdfs:label             "48" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_48/geometry> .
+
+georesource:_9  a              geodef:telesilla ;
+        rdfs:label             "9" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_9/geometry> .
+
+<http://geo.linkeddata.es/resource/_71/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.4152719599999998 42.79783893001804, -0.43746572 42.7941635900168)"^^geosparql:wktLiteral .
+
+georesource:_70  a             geodef:telesilla ;
+        rdfs:label             "70" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_70/geometry> .
+
+<http://geo.linkeddata.es/resource/_47/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.3930190400000004 37.05883354579179, -3.368489770000001 37.05490818578746)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/_44/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-4.397360870000002 43.03563089009412, -4.39058657 43.038488800094974, -4.39024029 43.038649390095024)"^^geosparql:wktLiteral .
+
+georesource:_42  a             geodef:telesilla ;
+        rdfs:label             "42" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_42/geometry> .
+
+<http://geo.linkeddata.es/resource/_19/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (0.5419608899999999 42.56697643993619, 0.54131374 42.5729138799384, 0.5407896100000004 42.58674439994352, 0.5448439000000003 42.574042149938805, 0.5437788700000001 42.566317899935946)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/_16/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.9781356000000003 40.797513269051684, -3.9732802799999996 40.80077373905372)"^^geosparql:wktLiteral .
+
+georesource:_3  a              geodef:telesilla ;
+        rdfs:label             "3" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_3/geometry> .
+
+georesource:_14  a             geodef:telesilla ;
+        rdfs:label             "14" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_14/geometry> .
+
+georesource:_55  a             geodef:telesilla ;
+        rdfs:label             "55" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_55/geometry> .
+
+<http://geo.linkeddata.es/resource/_13/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.5346895 42.77635388001076, -0.53082935 42.786483680014214)"^^geosparql:wktLiteral .
+
+georesource:_27  a             geodef:telesilla ;
+        rdfs:label             "27" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_27/geometry> .
+
+<http://geo.linkeddata.es/resource/_10/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.3936856200000001 42.75210827000248, -0.39192179 42.7542806500032, -0.3865480600000001 42.75763494000436, -0.3858827 42.75815708000455, -0.3852173300000002 42.758679210004715, -0.3826696700000001 42.76111800000556)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/_9/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.5387678799999999 42.78567378001394, -0.5385920600000002 42.78353489001321)"^^geosparql:wktLiteral .
+
+georesource:_68  a             geodef:telesilla ;
+        rdfs:label             "68" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_68/geometry> .
+
+<http://geo.linkeddata.es/resource/_67/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.3726086800000001 42.77483798001024, -0.3764084 42.77608070001066, -0.3827393000000002 42.764902490006854, -0.38412112 42.762462050006015)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/_64/geometry>
         a                sf:LineString ;
         geosparql:asWKT  "LINESTRING (-0.27765682 42.71273399998879, -0.2801581 42.72115281999173)"^^geosparql:wktLiteral .
 
-<http://geo.linkeddata.es/resource/35/geometry>
+<http://geo.linkeddata.es/resource/_36/geometry>
         a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.3887864400000001 42.7528031800027, -0.3771171499999999 42.763671270006434)"^^geosparql:wktLiteral .
+        geosparql:asWKT  "LINESTRING (-0.4972911999999999 42.8045426100203, -0.4950212999999998 42.79985440001872, -0.49497537 42.79975952001869, -0.4940932199999998 42.79862669001832)"^^geosparql:wktLiteral .
+
+georesource:_21  a             geodef:telesilla ;
+        rdfs:label             "21" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_21/geometry> .
+
+<http://geo.linkeddata.es/resource/_61/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.9749391699999994 40.80381743905562, -3.97085703 40.80422748905588, -3.9723493199999997 40.79592692905068)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/resource/_33/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.2753557500000001 42.70226184998512, -0.2632329700000001 42.6959603599829)"^^geosparql:wktLiteral .
+
+georesource:_62  a             geodef:telesilla ;
+        rdfs:label             "62" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_62/geometry> .
+
+<http://geo.linkeddata.es/resource/_30/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.5337814999999999 42.775496540010465, -0.54272075 42.77047620000876, -0.54481902 42.772378010009405)"^^geosparql:wktLiteral .
+
+georesource:_47  a             geodef:telesilla ;
+        rdfs:label             "47" ;
+        dc:created             "Mon Jul 01 00:00:00 CEST 2013"^^xsd:date ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/resource/_47/geometry> .
 
