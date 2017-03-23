@@ -1,0 +1,97 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix geoes: <http://geo.linkeddata.es/ontology/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georesource: <http://geo.linkeddata.es/recurso/CentralCicloCombinado/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+georesource:562  a            geoes:CentralElectrica , geoes:CentralCicloCombinado ;
+        rdfs:label             "562" ;
+        dc:created             "2013-04-07"^^xsd:date ;
+        dc:identifier          "562"^^xsd:int ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralCicloCombinado/562/geometry> .
+
+<http://geo.linkeddata.es/recurso/CentralCicloCombinado/781/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((0.23217102 42.153284189769906, 0.23265438 42.15370041977012, 0.23332905 42.15364662977007, 0.23382856 42.15327273976991, 0.23398958 42.15270244976968, 0.2342044400000001 42.15217441976944, 0.23399912 42.151898289769335, 0.23317949 42.152086539769414, 0.23244364 42.15213923976943, 0.23217873 42.15215821976944, 0.23217102 42.153284189769906))"^^geosparql:wktLiteral .
+
+georesource:1673  a           geoes:CentralElectrica , geoes:CentralCicloCombinado ;
+        rdfs:label             "1673" ;
+        dc:created             "2013-01-18"^^xsd:date ;
+        dc:identifier          "1673"^^xsd:int ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralCicloCombinado/1673/geometry> .
+
+<http://geo.linkeddata.es/recurso/CentralCicloCombinado/780/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((0.23902692 42.09055520974251, 0.2388164899999999 42.09042069974246, 0.23852696 42.0904876197425, 0.238411 42.0905144197425, 0.2382767 42.090906189742675, 0.23825301 42.090975299742716, 0.23834093 42.09105698974275, 0.23842692 42.091136889742785, 0.2385198 42.091204819742806, 0.2385339799999999 42.09127685974285, 0.23858083 42.0914477097429, 0.2388410300000001 42.091557749742954, 0.2393090400000001 42.091463259742916, 0.23942902 42.091218289742805, 0.2392521999999999 42.090926739742685, 0.2391174 42.09070433974259, 0.2390538 42.09059953974255, 0.23902692 42.09055520974251))"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/CentralCicloCombinado/1674/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-5.88076484 41.46993260944075, -5.880980200000001 41.47006593944081, -5.881071489999998 41.470349309440955, -5.88103874 41.47074495944118, -5.881204230000001 41.47108919944136, -5.880987470000001 41.47128295944145, -5.880721090000001 41.47127555944145, -5.88057812 41.47108606944135, -5.880360529999999 41.47069603944114, -5.880417649999998 41.47001495944078, -5.880575220000001 41.46989028944074, -5.88076484 41.46993260944075))"^^geosparql:wktLiteral .
+
+georesource:782  a            geoes:CentralElectrica , geoes:CentralCicloCombinado ;
+        rdfs:label             "782" ;
+        dc:created             "2012-05-17"^^xsd:date ;
+        dc:identifier          "782"^^xsd:int ;
+        dc:title               "Central Eléctrica El Grado II"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralCicloCombinado/782/geometry> .
+
+<http://geo.linkeddata.es/recurso/CentralCicloCombinado/562/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-4.7640861 36.908363845624905, -4.763942289999999 36.90837586562492, -4.762760499999998 36.90857262562514, -4.76264896 36.908219985624754, -4.76395558 36.908025425624515, -4.764105440000001 36.90809718562462, -4.7640861 36.908363845624905))"^^geosparql:wktLiteral .
+
+georesource:776  a            geoes:CentralElectrica , geoes:CentralCicloCombinado ;
+        rdfs:label             "776" ;
+        dc:created             "2012-04-12"^^xsd:date ;
+        dc:identifier          "776"^^xsd:int ;
+        dc:title               "Central Eléctrica de Seira"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralCicloCombinado/776/geometry> .
+
+georesource:780  a            geoes:CentralElectrica , geoes:CentralCicloCombinado ;
+        rdfs:label             "780" ;
+        dc:created             "2012-04-30"^^xsd:date ;
+        dc:identifier          "780"^^xsd:int ;
+        dc:title               "Central Eléctrica El Ciego"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralCicloCombinado/780/geometry> .
+
+georesource:1674  a           geoes:CentralElectrica , geoes:CentralCicloCombinado ;
+        rdfs:label             "1674" ;
+        dc:created             "2013-01-18"^^xsd:date ;
+        dc:identifier          "1674"^^xsd:int ;
+        dc:title               "Central Hidroeléctrica de San Román"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralCicloCombinado/1674/geometry> .
+
+georesource:779  a            geoes:CentralElectrica , geoes:CentralCicloCombinado ;
+        rdfs:label             "779" ;
+        dc:created             "2012-04-26"^^xsd:date ;
+        dc:identifier          "779"^^xsd:int ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralCicloCombinado/779/geometry> .
+
+<http://geo.linkeddata.es/recurso/CentralCicloCombinado/1673/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-6.45821508 42.01912312971063, -6.458648479999998 42.01931437971072, -6.458439350000001 42.019740219710904, -6.458286339999999 42.01981638971095, -6.458078989999999 42.019804719710926, -6.457476969999998 42.01951818971081, -6.457036829999998 42.0192912897107, -6.45699406 42.01903448971057, -6.457040649999999 42.018918379710534, -6.4571981900000015 42.01880966971048, -6.457545209999999 42.01880943971049, -6.457597800000002 42.018998359710594, -6.4576733399999995 42.019150219710625, -6.4580608999999995 42.01938502971074, -6.45821508 42.01912312971063))"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/CentralCicloCombinado/776/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((0.4352659500000001 42.477813449902484, 0.43535575 42.47846030990272, 0.4359565200000001 42.47868325990283, 0.43666517 42.47867659990282, 0.43728247 42.478594779902785, 0.4376858900000001 42.4781166699026, 0.43803051 42.477856769902495, 0.43845186 42.47740941990233, 0.4387600999999999 42.47727940990227, 0.43859841 42.477107159902225, 0.4381173000000001 42.47726163990228, 0.4373378 42.47759583990239, 0.4367857 42.477736739902454, 0.4359717999999999 42.47777781990244, 0.4352659500000001 42.477813449902484))"^^geosparql:wktLiteral .
+
+georesource:781  a            geoes:CentralElectrica , geoes:CentralCicloCombinado ;
+        rdfs:label             "781" ;
+        dc:created             "2012-05-01"^^xsd:date ;
+        dc:identifier          "781"^^xsd:int ;
+        dc:title               "Central Eléctrica El Grado I"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralCicloCombinado/781/geometry> .
+
+<http://geo.linkeddata.es/recurso/CentralCicloCombinado/782/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((0.2326957400000001 42.10283339974793, 0.23512264 42.102818159747905, 0.23503695 42.10149495974734, 0.23492567 42.097515969745594, 0.23491086 42.09698624974534, 0.23428091 42.09700401974535, 0.2329591700000001 42.09704130974538, 0.2328559 42.09832417974595, 0.23247016 42.10001655974667, 0.2325378500000001 42.10142879974732, 0.2326245099999999 42.102199729747646, 0.2326957400000001 42.10283339974793))"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/CentralCicloCombinado/779/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-0.5571701600000001 42.559581699933446, -0.55714256 42.55984552993355, -0.5569908100000001 42.560060119933624, -0.5566437299999999 42.560058509933626, -0.55652811 42.56029778993372, -0.55642466 42.56043457993377, -0.55564352 42.56043037993376, -0.5554288200000002 42.560395199933744, -0.55520726 42.5599976299336, -0.5551013999999997 42.559777799933514, -0.55526061 42.55967845993348, -0.5554615700000001 42.5594631399334, -0.5556673100000001 42.55931242993334, -0.5558706600000003 42.559129419933285, -0.5562053299999999 42.55914260993327, -0.5563474 42.55927254993332, -0.5568964900000002 42.55944744993341, -0.5571701600000001 42.559581699933446))"^^geosparql:wktLiteral .
+

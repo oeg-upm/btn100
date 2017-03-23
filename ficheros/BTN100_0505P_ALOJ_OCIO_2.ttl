@@ -1,0 +1,461 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix geoes: <http://geo.linkeddata.es/ontology/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georesource: <http://geo.linkeddata.es/recurso/EstacionInvernal/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+<http://geo.linkeddata.es/recurso/EstacionInvernal/3629/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.5308460000000002 42.78840094001485)"^^geosparql:wktLiteral .
+
+georesource:2014  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:EstacionInvernal ;
+        rdfs:label             "2014" ;
+        dc:created             "2010-10-30"^^xsd:date ;
+        dc:identifier          "2014"^^xsd:int ;
+        dc:replaces            "23979"^^xsd:int ;
+        dc:title               "Estació d'esquí de Vaquèira-Beret"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/EstacionInvernal/2014/geometry> .
+
+georesource:4159  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:EstacionInvernal ;
+        rdfs:label             "4159" ;
+        dc:created             "2012-04-02"^^xsd:date ;
+        dc:identifier          "4159"^^xsd:int ;
+        dc:replaces            "30109"^^xsd:int ;
+        dc:title               "Estación de Esquí Javalambre"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/EstacionInvernal/4159/geometry> .
+
+<http://geo.linkeddata.es/recurso/EstacionInvernal/4549/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.4737009799999994 41.191966439287654)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/EstacionInvernal/5953/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.357310810000001 43.0342786300937)"^^geosparql:wktLiteral .
+
+georesource:3632  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:EstacionInvernal ;
+        rdfs:label             "3632" ;
+        dc:created             "2012-05-17"^^xsd:date ;
+        dc:identifier          "3632"^^xsd:int ;
+        dc:replaces            "23363"^^xsd:int ;
+        dc:title               "Estación de esquí de Panticosa"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/EstacionInvernal/3632/geometry> .
+
+<http://geo.linkeddata.es/recurso/EstacionInvernal/2017/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.56198056 42.17280991977833)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/EstacionInvernal/2014/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.9343395300000003 42.699309249984076)"^^geosparql:wktLiteral .
+
+georesource:2320  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:EstacionInvernal ;
+        rdfs:label             "2320" ;
+        dc:created             "2006-07-14"^^xsd:date ;
+        dc:identifier          "2320"^^xsd:int ;
+        dc:replaces            "20916"^^xsd:int ;
+        dc:title               "Estació d´esquí Vall de Núria"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/EstacionInvernal/2320/geometry> .
+
+<http://geo.linkeddata.es/recurso/EstacionInvernal/2011/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2118584399999999 42.42833090988328)"^^geosparql:wktLiteral .
+
+georesource:9754  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:EstacionInvernal ;
+        rdfs:label             "9754" ;
+        dc:created             "2006-07-27"^^xsd:date ;
+        dc:identifier          "9754"^^xsd:int ;
+        dc:replaces            "53320"^^xsd:int ;
+        dc:title               "Estación invernal de Valgrande"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/EstacionInvernal/9754/geometry> .
+
+<http://geo.linkeddata.es/recurso/EstacionInvernal/648/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.007418900000002 40.78777563904558)"^^geosparql:wktLiteral .
+
+georesource:2305  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:EstacionInvernal ;
+        rdfs:label             "2305" ;
+        dc:created             "2012-02-24"^^xsd:date ;
+        dc:identifier          "2305"^^xsd:int ;
+        dc:replaces            "20895"^^xsd:int ;
+        dc:title               "Estació d´esquí de la Molina"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/EstacionInvernal/2305/geometry> .
+
+georesource:5777  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:EstacionInvernal ;
+        rdfs:label             "5777" ;
+        dc:created             "2006-07-27"^^xsd:date ;
+        dc:identifier          "5777"^^xsd:int ;
+        dc:replaces            "60927"^^xsd:int ;
+        dc:title               "Estación Invernal del Morredero"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/EstacionInvernal/5777/geometry> .
+
+georesource:2013  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:EstacionInvernal ;
+        rdfs:label             "2013" ;
+        dc:created             "2012-04-26"^^xsd:date ;
+        dc:identifier          "2013"^^xsd:int ;
+        dc:replaces            "23923"^^xsd:int ;
+        dc:title               "Estació d'esquí dera Tuca"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/EstacionInvernal/2013/geometry> .
+
+<http://geo.linkeddata.es/recurso/EstacionInvernal/3630/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.50651312 42.8101910200222)"^^geosparql:wktLiteral .
+
+georesource:4851  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:EstacionInvernal ;
+        rdfs:label             "4851" ;
+        dc:created             "2006-07-26"^^xsd:date ;
+        dc:identifier          "4851"^^xsd:int ;
+        dc:replaces            "48263"^^xsd:int ;
+        dc:title               "Estación de Esquí La Covatilla"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/EstacionInvernal/4851/geometry> .
+
+<http://geo.linkeddata.es/recurso/EstacionInvernal/4159/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.0178941200000002 40.115305938592456)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/EstacionInvernal/7926/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.29811304 42.25922719981489)"^^geosparql:wktLiteral .
+
+georesource:649  a            geoes:LugarDeOcio , geoes:Alojamiento , geoes:EstacionInvernal ;
+        rdfs:label             "649" ;
+        dc:created             "2012-09-19"^^xsd:date ;
+        dc:identifier          "649"^^xsd:int ;
+        dc:replaces            "45216"^^xsd:int ;
+        dc:title               "Estación de Invierno de Valdesquí"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/EstacionInvernal/649/geometry> .
+
+<http://geo.linkeddata.es/recurso/EstacionInvernal/2320/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.1538582999999996 42.397496889871114)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/EstacionInvernal/1715/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.30444088 42.19534800978796)"^^geosparql:wktLiteral .
+
+georesource:2018  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:EstacionInvernal ;
+        rdfs:label             "2018" ;
+        dc:created             "2012-04-26"^^xsd:date ;
+        dc:identifier          "2018"^^xsd:int ;
+        dc:replaces            "24148"^^xsd:int ;
+        dc:title               "Estació d'esquí nòrdic de Lles"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/EstacionInvernal/2018/geometry> .
+
+<http://geo.linkeddata.es/recurso/EstacionInvernal/4176/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.6334389000000001 40.379880838778156)"^^geosparql:wktLiteral .
+
+georesource:7926  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:EstacionInvernal ;
+        rdfs:label             "7926" ;
+        dc:created             "2006-08-10"^^xsd:date ;
+        dc:identifier          "7926"^^xsd:int ;
+        dc:replaces            "55208"^^xsd:int ;
+        dc:title               "Estación de Invierno de Cabeza de Manzaneda"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/EstacionInvernal/7926/geometry> .
+
+<http://geo.linkeddata.es/recurso/EstacionInvernal/5952/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.41195903 42.99286074008105)"^^geosparql:wktLiteral .
+
+georesource:3629  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:EstacionInvernal ;
+        rdfs:label             "3629" ;
+        dc:created             "2012-05-17"^^xsd:date ;
+        dc:identifier          "3629"^^xsd:int ;
+        dc:replaces            "23364"^^xsd:int ;
+        dc:title               "Estación de esquí de Candanchú"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/EstacionInvernal/3629/geometry> .
+
+georesource:2304  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:EstacionInvernal ;
+        rdfs:label             "2304" ;
+        dc:created             "2012-02-24"^^xsd:date ;
+        dc:identifier          "2304"^^xsd:int ;
+        dc:replaces            "20892"^^xsd:int ;
+        dc:title               "Estació d´esquí de Masella"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/EstacionInvernal/2304/geometry> .
+
+georesource:2012  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:EstacionInvernal ;
+        rdfs:label             "2012" ;
+        dc:created             "2012-04-26"^^xsd:date ;
+        dc:identifier          "2012"^^xsd:int ;
+        dc:replaces            "24081"^^xsd:int ;
+        dc:title               "Estació d'esquí nòrdic de Sant Joan de l'Erm"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/EstacionInvernal/2012/geometry> .
+
+georesource:650  a            geoes:LugarDeOcio , geoes:Alojamiento , geoes:EstacionInvernal ;
+        rdfs:label             "650" ;
+        dc:created             "2006-07-26"^^xsd:date ;
+        dc:identifier          "650"^^xsd:int ;
+        dc:replaces            "45218"^^xsd:int ;
+        dc:title               "Estación Invernal Valcotos"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/EstacionInvernal/650/geometry> .
+
+<http://geo.linkeddata.es/recurso/EstacionInvernal/6667/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.40023892 37.09493893583145)"^^geosparql:wktLiteral .
+
+georesource:4549  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:EstacionInvernal ;
+        rdfs:label             "4549" ;
+        dc:created             "2010-07-04"^^xsd:date ;
+        dc:identifier          "4549"^^xsd:int ;
+        dc:replaces            "48323"^^xsd:int ;
+        dc:title               "Estación Invernal de la Pinilla"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/EstacionInvernal/4549/geometry> .
+
+<http://geo.linkeddata.es/recurso/EstacionInvernal/2013/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.8006233200000002 42.68532018997915)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/EstacionInvernal/2010/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.0807882900000003 42.550406659930026)"^^geosparql:wktLiteral .
+
+georesource:648  a            geoes:LugarDeOcio , geoes:Alojamiento , geoes:EstacionInvernal ;
+        rdfs:label             "648" ;
+        dc:created             "2008-03-19"^^xsd:date ;
+        dc:identifier          "648"^^xsd:int ;
+        dc:title               "Estación Invernal de Navacerrada"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/EstacionInvernal/648/geometry> .
+
+georesource:3843  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:EstacionInvernal ;
+        rdfs:label             "3843" ;
+        dc:created             "2012-05-17"^^xsd:date ;
+        dc:identifier          "3843"^^xsd:int ;
+        dc:replaces            "23360"^^xsd:int ;
+        dc:title               "Estación de esquí de Cerler"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/EstacionInvernal/3843/geometry> .
+
+<http://geo.linkeddata.es/recurso/EstacionInvernal/2305/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.9370849800000005 42.33697514984684)"^^geosparql:wktLiteral .
+
+georesource:2311  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:EstacionInvernal ;
+        rdfs:label             "2311" ;
+        dc:created             "2012-02-24"^^xsd:date ;
+        dc:identifier          "2311"^^xsd:int ;
+        dc:replaces            "21782"^^xsd:int ;
+        dc:title               "Estació d´esquí Nórdic de Guils"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/EstacionInvernal/2311/geometry> .
+
+<http://geo.linkeddata.es/recurso/EstacionInvernal/3632/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.2766812599999999 42.712267559988625)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/EstacionInvernal/2009/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.04427964 42.44289062988896)"^^geosparql:wktLiteral .
+
+georesource:5947  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:EstacionInvernal ;
+        rdfs:label             "5947" ;
+        dc:created             "2012-09-29"^^xsd:date ;
+        dc:identifier          "5947"^^xsd:int ;
+        dc:title               "Estación invernal de San Isidro"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/EstacionInvernal/5947/geometry> .
+
+<http://geo.linkeddata.es/recurso/EstacionInvernal/4851/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.690025079999998 40.354175188760536)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/EstacionInvernal/3847/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.38412112 42.762462050006015)"^^geosparql:wktLiteral .
+
+georesource:3630  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:EstacionInvernal ;
+        rdfs:label             "3630" ;
+        dc:created             "2012-05-17"^^xsd:date ;
+        dc:identifier          "3630"^^xsd:int ;
+        dc:replaces            "23362"^^xsd:int ;
+        dc:title               "Estación de esquí de Astún"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/EstacionInvernal/3630/geometry> .
+
+georesource:2017  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:EstacionInvernal ;
+        rdfs:label             "2017" ;
+        dc:created             "2012-04-26"^^xsd:date ;
+        dc:identifier          "2017"^^xsd:int ;
+        dc:replaces            "24127"^^xsd:int ;
+        dc:title               "Estació d'esquí del Port del Comte"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/EstacionInvernal/2017/geometry> .
+
+<http://geo.linkeddata.es/recurso/EstacionInvernal/5777/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.5186082999999995 42.40832177987539)"^^geosparql:wktLiteral .
+
+georesource:6475  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:EstacionInvernal ;
+        rdfs:label             "6475" ;
+        dc:created             "2012-12-28"^^xsd:date ;
+        dc:identifier          "6475"^^xsd:int ;
+        dc:replaces            "36426"^^xsd:int ;
+        dc:title               "Estación Invernal Pradollano"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/EstacionInvernal/6475/geometry> .
+
+georesource:2011  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:EstacionInvernal ;
+        rdfs:label             "2011" ;
+        dc:created             "2010-10-27"^^xsd:date ;
+        dc:identifier          "2011"^^xsd:int ;
+        dc:replaces            "24056"^^xsd:int ;
+        dc:title               "Estació d'esquí de Portainé"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/EstacionInvernal/2011/geometry> .
+
+georesource:6667  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:EstacionInvernal ;
+        rdfs:label             "6667" ;
+        dc:created             "2012-12-05"^^xsd:date ;
+        dc:identifier          "6667"^^xsd:int ;
+        dc:title               "Estación Invernal de Sierra Nevada"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/EstacionInvernal/6667/geometry> .
+
+georesource:2009  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:EstacionInvernal ;
+        rdfs:label             "2009" ;
+        dc:created             "2012-04-26"^^xsd:date ;
+        dc:identifier          "2009"^^xsd:int ;
+        dc:replaces            "24011"^^xsd:int ;
+        dc:title               "Estació d'esquí de Llessui"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/EstacionInvernal/2009/geometry> .
+
+<http://geo.linkeddata.es/recurso/EstacionInvernal/650/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.96118772 40.82491542906878)"^^geosparql:wktLiteral .
+
+georesource:1209  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:EstacionInvernal ;
+        rdfs:label             "1209" ;
+        dc:created             "2012-05-09"^^xsd:date ;
+        dc:identifier          "1209"^^xsd:int ;
+        dc:replaces            "46186"^^xsd:int ;
+        dc:title               "Estación de esquí de Valdezcaray"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/EstacionInvernal/1209/geometry> .
+
+<http://geo.linkeddata.es/recurso/EstacionInvernal/6475/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.3883937000000017 37.07255522580689)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/EstacionInvernal/649/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.97085703 40.80422748905588)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/EstacionInvernal/5947/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.388526540000001 43.03526838009401)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/EstacionInvernal/2304/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.9160871700000002 42.34602945985053)"^^geosparql:wktLiteral .
+
+georesource:4176  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:EstacionInvernal ;
+        rdfs:label             "4176" ;
+        dc:created             "2012-04-02"^^xsd:date ;
+        dc:identifier          "4176"^^xsd:int ;
+        dc:title               "Estación Invernal de Valdelinares"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/EstacionInvernal/4176/geometry> .
+
+georesource:1715  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:EstacionInvernal ;
+        rdfs:label             "1715" ;
+        dc:created             "2012-05-14"^^xsd:date ;
+        dc:identifier          "1715"^^xsd:int ;
+        dc:replaces            "55146"^^xsd:int ;
+        dc:title               "Estación Invernal Valle del Sol"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/EstacionInvernal/1715/geometry> .
+
+georesource:2010  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:EstacionInvernal ;
+        rdfs:label             "2010" ;
+        dc:created             "2012-04-26"^^xsd:date ;
+        dc:identifier          "2010"^^xsd:int ;
+        dc:replaces            "24004"^^xsd:int ;
+        dc:title               "Estació d'esquí de Superespot"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/EstacionInvernal/2010/geometry> .
+
+<http://geo.linkeddata.es/recurso/EstacionInvernal/2008/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.8706497300000002 42.478127509902606)"^^geosparql:wktLiteral .
+
+georesource:5953  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:EstacionInvernal ;
+        rdfs:label             "5953" ;
+        dc:created             "2006-07-27"^^xsd:date ;
+        dc:identifier          "5953"^^xsd:int ;
+        dc:replaces            "57252"^^xsd:int ;
+        dc:title               "Estación Invernal Alto Campoo"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/EstacionInvernal/5953/geometry> .
+
+georesource:3847  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:EstacionInvernal ;
+        rdfs:label             "3847" ;
+        dc:created             "2012-05-17"^^xsd:date ;
+        dc:identifier          "3847"^^xsd:int ;
+        dc:replaces            "23361"^^xsd:int ;
+        dc:title               "Estación de esquí del Formigal"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/EstacionInvernal/3847/geometry> .
+
+<http://geo.linkeddata.es/recurso/EstacionInvernal/9754/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.775762329999999 42.97778823007636)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/EstacionInvernal/3843/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.5411879 42.587971989943966)"^^geosparql:wktLiteral .
+
+georesource:2008  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:EstacionInvernal ;
+        rdfs:label             "2008" ;
+        dc:created             "2012-04-26"^^xsd:date ;
+        dc:identifier          "2008"^^xsd:int ;
+        dc:replaces            "23947"^^xsd:int ;
+        dc:title               "Estació d'esquí de Boí-Taüll"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/EstacionInvernal/2008/geometry> .
+
+<http://geo.linkeddata.es/recurso/EstacionInvernal/5779/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.40508666 43.006040590085114)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/EstacionInvernal/1209/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.9687945600000005 42.25473063981302)"^^geosparql:wktLiteral .
+
+georesource:1942  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:EstacionInvernal ;
+        rdfs:label             "1942" ;
+        dc:created             "2012-05-31"^^xsd:date ;
+        dc:identifier          "1942"^^xsd:int ;
+        dc:title               "Estación de esquí de Lunada"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/EstacionInvernal/1942/geometry> .
+
+georesource:5779  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:EstacionInvernal ;
+        rdfs:label             "5779" ;
+        dc:created             "2010-07-24"^^xsd:date ;
+        dc:identifier          "5779"^^xsd:int ;
+        dc:title               "Estación Invernal de Leitariegos"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/EstacionInvernal/5779/geometry> .
+
+georesource:3641  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:EstacionInvernal ;
+        rdfs:label             "3641" ;
+        dc:created             "2012-05-17"^^xsd:date ;
+        dc:identifier          "3641"^^xsd:int ;
+        dc:replaces            "23360"^^xsd:int ;
+        dc:title               "Estación de esquí de Cerler"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/EstacionInvernal/3641/geometry> .
+
+<http://geo.linkeddata.es/recurso/EstacionInvernal/2311/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.84477249 42.45846446989501)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/EstacionInvernal/3641/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.5698290599999999 42.55937439993335)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/EstacionInvernal/2018/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.6685272800000002 42.43123405988441)"^^geosparql:wktLiteral .
+
+georesource:5952  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:EstacionInvernal ;
+        rdfs:label             "5952" ;
+        dc:created             "2013-05-12"^^xsd:date ;
+        dc:identifier          "5952"^^xsd:int ;
+        dc:title               "Estación Invernal de Leitariegos"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/EstacionInvernal/5952/geometry> .
+
+<http://geo.linkeddata.es/recurso/EstacionInvernal/2012/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.28704963 42.41762848987906)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/EstacionInvernal/1942/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.655149810000001 43.16521960013202)"^^geosparql:wktLiteral .
+

@@ -88,6 +88,35 @@
     </step>
 
   <step>
+    <name>Selecciona&#47;Renombra valores</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <fields>        <select_unspecified>N</select_unspecified>
+      <meta>        <name>FECHA_ALTA</name>
+        <rename>FECHA_ALTA</rename>
+        <type>Date</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask>yyyy-MM-dd</conversion_mask>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>    </fields>     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>157</xloc>
+      <yloc>323</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
     <name>Shapefile File Input</name>
     <type>GISFileInput</type>
     <description/>
@@ -97,7 +126,7 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <filename>&#47;home&#47;lissete&#47;TFM&#47;btn100&#47;BTN100_0610L_FFCC_CONV&#47;BTN100_0610L_FFCC_CONV.shp</filename>
+    <filename>&#47;home&#47;liss&#47;TFM&#47;btn100&#47;BTN100_0610L_FFCC_CONV&#47;BTN100_0610L_FFCC_CONV.shp</filename>
     <isfilenameinfield>N</isfilenameinfield>
     <filenamefield/>
     <limit>0</limit>
@@ -109,7 +138,7 @@
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
       <xloc>158</xloc>
-      <yloc>90</yloc>
+      <yloc>91</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -136,7 +165,7 @@
     <fileNameInField>N</fileNameInField>
     <fileNameField/>
     <file>
-      <name>&#47;home&#47;lissete&#47;TFM&#47;btn100&#47;BTN100_0610L_FFCC_CONV&#47;BTN100_0610L_FFCC_CONV</name>
+      <name>&#47;home&#47;liss&#47;TFM&#47;btn100&#47;ficheros&#47;BTN100_0610L_FFCC_CONV</name>
       <is_command>N</is_command>
       <do_not_open_new_file_init>N</do_not_open_new_file_init>
       <extention>ttl</extention>
@@ -175,35 +204,6 @@
     </step>
 
   <step>
-    <name>Selecciona&#47;Renombra valores</name>
-    <type>SelectValues</type>
-    <description/>
-    <distribute>Y</distribute>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <fields>        <select_unspecified>N</select_unspecified>
-      <meta>        <name>FECHA_ALTA</name>
-        <rename>FECHA_ALTA</rename>
-        <type>Date</type>
-        <length>-2</length>
-        <precision>-2</precision>
-        <conversion_mask>yyyy-MM-dd</conversion_mask>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>    </fields>     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>157</xloc>
-      <yloc>323</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
     <name>Valor Java Script Modificado</name>
     <type>ScriptValueMod</type>
     <description/>
@@ -221,105 +221,109 @@
 var aux = FECHA_ALTA.match(&#47;^(\d{4})(\d{2})(\d{2})&#47;);
 
 if(!aux || aux.length &lt; 4){
-	FECHA_ALTA = new Date();
+	FECHA_ALTA = &quot;&quot;;
 }
 else{
     FECHA_ALTA = new Date(aux[1], aux[2]-1, aux[3]);
-    &#47;&#47;FECHA_ALTA = date2str(FECHA_ALTA, &quot;yyyy-MM-dd&quot;);
-}
-
-&#47;&#47;ANCHO DE VIA
-if(ANCHO_VIA == &quot;01&quot;){
-	ANCHO_VIA = &quot;ibérico&quot;
-}
-else if(ANCHO_VIA == &quot;02&quot;){
-	ANCHO_VIA = &quot;internacional&quot;
-}	
-else if(ANCHO_VIA == &quot;03&quot;){
-	ANCHO_VIA = &quot;mixto&quot;
-}
-else if(ANCHO_VIA == &quot;04&quot;){
-	ANCHO_VIA = &quot;métrico&quot;
-}
-else{
-	ANCHO_VIA = &quot;desconocido&quot;
-}
-
-&#47;&#47;ELECTRIFIC
-if(ELECTRIFIC == &quot;01&quot;){
-	ELECTRIFIC = &quot;electrificada&quot;
-}
-else if(ELECTRIFIC == &quot;02&quot;){
-	ELECTRIFIC = &quot;no electrificada&quot;
-}
-else{
-	ELECTRIFIC = &quot;desconocido&quot;
-}
-
-
-&#47;&#47;ESTADO
-if(ESTADO == &quot;01&quot;){
-	ESTADO = &quot;en uso&quot;;
-}
-else if(ESTADO == &quot;02&quot;){
-	ESTADO = &quot;en construcción&quot;;
-}
-else{
-	ESTADO = &quot;abandonado&quot;;
-}
-
-&#47;&#47;NUM_VIAS
-if(NUM_VIAS == &quot;01&quot;){
-	NUM_VIAS = &quot;única (via de doble sentido)&quot;
-}
-else if(NUM_VIAS == &quot;02&quot;){
-	NUM_VIAS = &quot;doble (una via para cada sentido)&quot;
-}
-else{
-	NUM_VIAS = &quot;desconocido&quot;
+    FECHA_ALTA = date2str(FECHA_ALTA, &quot;yyyy-MM-dd&quot;);
 }
 
 
 &#47;&#47;SITUACION
 if(SITUACION == &quot;01&quot;){
-	SITUACION = &quot;en superficie&quot;;
+	SITUACION = &quot;&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;transportes&#47;situacion-de-via&#47;superficial&gt;&quot;;
 }
 else if(SITUACION == &quot;02&quot;){
-	SITUACION = &quot;subterráneo&quot;;
+	SITUACION = &quot;&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;transportes&#47;situacion-de-via&#47;subterraneo&gt;&quot;;
 }
 else if (SITUACION == &quot;03&quot;){
-	SITUACION = &quot;elevado&quot;;
+	SITUACION = &quot;&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;transportes&#47;situacion-de-via&#47;elevado&gt;&quot;;
 }
 else {
-	SITUACION = &quot;sin clasificar&quot;;
+	SITUACION = &quot;&quot;;
 }
 
 &#47;&#47;RUTA TEN-T
 if(TEN_T == &quot;01&quot;){
-	TEN_T  = &quot;no pertenece a ruta TEN-T&quot;;
+	TEN_T  = &quot;&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;transportes&#47;ruta-ten-t&#47;ruta-no-transeuropea&gt;&quot;;
 }
 else{
-	TEN_T  = &quot;ruta TEN-T&quot;;
+	TEN_T  = &quot;&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;transportes&#47;ruta-ten-t&#47;ruta-transeuropea&gt;&quot;;
 }
 
+
+
+&#47;&#47;ANCHO DE VIA
+if(ANCHO_VIA == &quot;01&quot;){
+	ANCHO_VIA = &quot;&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;transportes&#47;ancho-de-via&#47;iberico&gt;&quot;
+}
+else if(ANCHO_VIA == &quot;02&quot;){
+	ANCHO_VIA = &quot;&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;transportes&#47;ancho-de-via&#47;internacional&gt;&quot;
+}	
+else if(ANCHO_VIA == &quot;03&quot;){
+	ANCHO_VIA = &quot;&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;transportes&#47;ancho-de-via&#47;mixto&gt;&quot;
+}
+else if(ANCHO_VIA == &quot;04&quot;){
+	ANCHO_VIA = &quot;&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;transportes&#47;ancho-de-via&#47;métrico&gt;&quot;
+}
+else{
+	ANCHO_VIA = &quot;&quot;
+}
+
+&#47;&#47;ELECTRIFIC
+if(ELECTRIFIC == &quot;01&quot;){
+	ELECTRIFIC = &quot;&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;transportes&#47;electrificacion&#47;electrificado&gt;&quot;
+}
+else if(ELECTRIFIC == &quot;02&quot;){
+	ELECTRIFIC = &quot;&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;transportes&#47;electrificacion&#47;no-electrificado&gt;&quot;
+}
+else{
+	ELECTRIFIC = &quot;&quot;
+}
+
+
+&#47;&#47;ESTADO
+if(ESTADO == &quot;01&quot;){
+	ESTADO = &apos;&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;transportes&#47;estado-de-uso&#47;en-uso&gt;&apos;;
+}
+else if(ESTADO == &quot;02&quot;){
+	ESTADO = &apos;&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;transportes&#47;estado-de-uso&#47;en-construccion&gt;&apos;;
+}
+else{
+	ESTADO = &apos;&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;transportes&#47;estado-de-uso&#47;abandonado&gt;&apos;;
+}
+
+
+
+&#47;&#47;NUM_VIAS
+if(NUM_VIAS == &quot;01&quot;){
+	NUM_VIAS = &quot;&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;transportes&#47;numero-de-vias&#47;unica&gt;&quot;
+}
+else if(NUM_VIAS == &quot;02&quot;){
+	NUM_VIAS = &quot;&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;transportes&#47;numero-de-vias&#47;doble&gt;&quot;
+}
+else{
+	NUM_VIAS = &quot;&quot;
+}
 
 
 if(TRAFICO == &quot;01&quot;){
-	TRAFICO = &quot;viajeros y mercancías&quot;
+	TRAFICO = &quot;&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;transportes&#47;tipo-de-trafico&#47;mixto&gt;&quot;
 }
 else if(TRAFICO == &quot;02&quot;){
-	TRAFICO = &quot;viajeros&quot;
+	TRAFICO = &quot;&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;transportes&#47;tipo-de-trafico&#47;viajeros&gt;&quot;
 }
 else if(TRAFICO == &quot;03&quot;){
-	TRAFICO = &quot;mercancías&quot;
+	TRAFICO = &quot;&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;transportes&#47;tipo-de-trafico&#47;mercancías&gt;&quot;
 }
 else{
-	TRAFICO = &quot;desconocido&quot;
+	TRAFICO = &quot;&quot;
 }
-</jsScript_script>
+
+var type = &quot;&lt;http:&#47;&#47;geo.linkeddata.es&#47;ontology&#47;Ferrocarril&gt;&quot;</jsScript_script>
       </jsScript>    </jsScripts>    <fields>      <field>        <name>FECHA_ALTA</name>
         <rename>FECHA_ALTA</rename>
-        <type>Date</type>
+        <type>String</type>
         <length>-1</length>
         <precision>-1</precision>
         <replace>Y</replace>
@@ -365,10 +369,16 @@ else{
         <length>-1</length>
         <precision>-1</precision>
         <replace>Y</replace>
+      </field>      <field>        <name>type</name>
+        <rename>type</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
       </field>    </fields>     <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
       <xloc>158</xloc>
-      <yloc>215</yloc>
+      <yloc>216</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -385,9 +395,9 @@ else{
            </partitioning>
 		<attributename>ID</attributename>
 		<feature>ViaDeFerrocarrilConvencional</feature>
-		<ontologyns>http://geo.linkeddata.es/def/feature#</ontologyns>
-		<ontologynsprefix>geodef</ontologynsprefix>
-		<resourcens>http://geo.linkeddata.es/resource/</resourcens>
+		<ontologyns>http://geo.linkeddata.es/ontology/</ontologyns>
+		<ontologynsprefix>geoes</ontologynsprefix>
+		<resourcens>http://geo.linkeddata.es/recurso/ViaDeFerrocarrilConvencional/</resourcens>
 		<resourcensprefix>georesource</resourcensprefix>
 		<language>es</language>
 		<pathcsv>null</pathcsv>
@@ -439,66 +449,73 @@ else{
 		</columns>
 		<columns>
 		<column>anchoDeVia</column>
-		<prefix>geodef</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;feature#</uri>
+		<prefix>geoes</prefix>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology&#47;</uri>
 		<show>YES</show>
 		<column_shp>ANCHO_VIA</column_shp>
 		</columns>
 		<columns>
 		<column>codigoDeVia</column>
-		<prefix>geodef</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;feature#</uri>
+		<prefix>geoes</prefix>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology&#47;</uri>
 		<show>YES</show>
 		<column_shp>COD_VIA</column_shp>
 		</columns>
 		<columns>
-		<column>electricacion</column>
-		<prefix>geodef</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;feature#</uri>
+		<column>electrificacion</column>
+		<prefix>geoes</prefix>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology&#47;</uri>
 		<show>YES</show>
 		<column_shp>ELECTRIFIC</column_shp>
 		</columns>
 		<columns>
-		<column>estado</column>
-		<prefix>geodef</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;feature#</uri>
+		<column>estadoDeUso</column>
+		<prefix>geoes</prefix>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology&#47;</uri>
 		<show>YES</show>
 		<column_shp>ESTADO</column_shp>
 		</columns>
 		<columns>
 		<column>numeroDeVias</column>
-		<prefix>geodef</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;feature#</uri>
+		<prefix>geoes</prefix>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology&#47;</uri>
 		<show>YES</show>
 		<column_shp>NUM_VIAS</column_shp>
 		</columns>
 		<columns>
-		<column>situacion</column>
+		<column>situacionDevia</column>
 		<prefix>geoes</prefix>
 		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology&#47;</uri>
 		<show>YES</show>
 		<column_shp>SITUACION</column_shp>
 		</columns>
 		<columns>
-		<column>rutaTEN-T</column>
-		<prefix>geodef</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;feature#</uri>
+		<column>rutaTent</column>
+		<prefix>geoes</prefix>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology&#47;</uri>
 		<show>YES</show>
 		<column_shp>TEN_T</column_shp>
 		</columns>
 		<columns>
-		<column>TRAFICO</column>
-		<prefix/>
-		<uri/>
+		<column>tipoDeTrafico</column>
+		<prefix>geoes</prefix>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology&#47;</uri>
 		<show>YES</show>
 		<column_shp>TRAFICO</column_shp>
 		</columns>
 		<columns>
-		<column>ETIQUETA</column>
-		<prefix/>
-		<uri/>
+		<column>title</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
 		<show>YES</show>
 		<column_shp>ETIQUETA</column_shp>
+		</columns>
+		<columns>
+		<column>type</column>
+		<prefix>rdf</prefix>
+		<uri>http:&#47;&#47;www.w3.org&#47;1999&#47;02&#47;22-rdf-syntax-ns#</uri>
+		<show>YES</show>
+		<column_shp>type</column_shp>
 		</columns>
 		</columns>
      <cluster_schema/>

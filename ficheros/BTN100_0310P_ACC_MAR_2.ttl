@@ -1,0 +1,3012 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix geoes: <http://geo.linkeddata.es/ontology/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georesource: <http://geo.linkeddata.es/recurso/Cala/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+georesource:1235  a           geoes:Cala ;
+        rdfs:label             "1235" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1235"^^xsd:int ;
+        dc:title               "Cala Antena"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1235/geometry> .
+
+georesource:158  a            geoes:Cala ;
+        rdfs:label             "158" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-05-16"^^xsd:date ;
+        dc:identifier          "158"^^xsd:int ;
+        dc:title               "Cala Pinos"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/158/geometry> .
+
+georesource:424  a            geoes:Cala ;
+        rdfs:label             "424" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2012-03-27"^^xsd:date ;
+        dc:identifier          "424"^^xsd:int ;
+        dc:title               "Cala de l'Àguila"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/424/geometry> .
+
+georesource:1024  a           geoes:Cala ;
+        rdfs:label             "1024" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1024"^^xsd:int ;
+        dc:title               "Cala de Bou"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1024/geometry> .
+
+georesource:42  a             geoes:Cala ;
+        rdfs:label             "42" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2012-01-14"^^xsd:date ;
+        dc:identifier          "42"^^xsd:int ;
+        dc:title               "Cala Mundina"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/42/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/621/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.9466711399999999 36.9321963956515)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/777/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.4484714 36.060003634638235)"^^geosparql:wktLiteral .
+
+georesource:1205  a           geoes:Cala ;
+        rdfs:label             "1205" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1205"^^xsd:int ;
+        dc:title               "Sa Cala de sa Font"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1205/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1156/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.189085499999999 39.941816438465544)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/357/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2892384999999997 42.30679583983456)"^^geosparql:wktLiteral .
+
+georesource:1181  a           geoes:Cala ;
+        rdfs:label             "1181" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1181"^^xsd:int ;
+        dc:title               "Cala Serralot"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1181/geometry> .
+
+georesource:888  a            geoes:Cala ;
+        rdfs:label             "888" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "888"^^xsd:int ;
+        dc:title               "Cala Macarella"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/888/geometry> .
+
+georesource:943  a            geoes:Cala ;
+        rdfs:label             "943" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "943"^^xsd:int ;
+        dc:title               "Cala Pregonda"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/943/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/913/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.8192060999999993 40.0400377385379)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1097/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.6296179 39.75665923832564)"^^geosparql:wktLiteral .
+
+georesource:1247  a           geoes:Cala ;
+        rdfs:label             "1247" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1247"^^xsd:int ;
+        dc:title               "Cala Llonga"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1247/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/859/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.2948930999999995 39.82730233837953)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1238/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2744615 39.43004873806766)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/298/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1820628000000006 42.10498793974889)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1028/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2986640000000003 39.01028533771563)"^^geosparql:wktLiteral .
+
+georesource:913  a            geoes:Cala ;
+        rdfs:label             "913" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "913"^^xsd:int ;
+        dc:title               "Cal Be"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/913/geometry> .
+
+georesource:617  a            geoes:Cala ;
+        rdfs:label             "617" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-06-13"^^xsd:date ;
+        dc:identifier          "617"^^xsd:int ;
+        dc:title               "Cala del Cuervo"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/617/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/885/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.971654799999999 39.934015638459734)"^^geosparql:wktLiteral .
+
+georesource:1193  a           geoes:Cala ;
+        rdfs:label             "1193" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1193"^^xsd:int ;
+        dc:title               "Cala Mesquida"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1193/geometry> .
+
+georesource:297  a            geoes:Cala ;
+        rdfs:label             "297" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "297"^^xsd:int ;
+        dc:title               "Cala de Baix de Cols"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/297/geometry> .
+
+georesource:1289  a           geoes:Cala ;
+        rdfs:label             "1289" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1289"^^xsd:int ;
+        dc:title               "Cala Santa María"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1289/geometry> .
+
+georesource:955  a            geoes:Cala ;
+        rdfs:label             "955" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "955"^^xsd:int ;
+        dc:title               "Cala Canutells"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/955/geometry> .
+
+georesource:1259  a           geoes:Cala ;
+        rdfs:label             "1259" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1259"^^xsd:int ;
+        dc:title               "Cala de sa Comuna"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1259/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1346/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.697036800000001 39.54728633816187)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/757/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.023219799999998 36.186133234789715)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1136/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.0319749000000003 39.930659538457235)"^^geosparql:wktLiteral .
+
+georesource:322  a            geoes:Cala ;
+        rdfs:label             "322" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "322"^^xsd:int ;
+        dc:title               "Cala Culip"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/322/geometry> .
+
+georesource:629  a            geoes:Cala ;
+        rdfs:label             "629" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-06-13"^^xsd:date ;
+        dc:identifier          "629"^^xsd:int ;
+        dc:title               "Cala de Cabezo Negro"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/629/geometry> .
+
+georesource:1229  a           geoes:Cala ;
+        rdfs:label             "1229" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1229"^^xsd:int ;
+        dc:title               "Cala Falcó"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1229/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1193/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.4333659000000005 39.74480633831649)"^^geosparql:wktLiteral .
+
+georesource:418  a            geoes:Cala ;
+        rdfs:label             "418" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2012-03-27"^^xsd:date ;
+        dc:identifier          "418"^^xsd:int ;
+        dc:title               "Cala Mosques"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/418/geometry> .
+
+georesource:997  a            geoes:Cala ;
+        rdfs:label             "997" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "997"^^xsd:int ;
+        dc:title               "Cala de Bocs Gros"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/997/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1303/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.919156300000001 39.15499063783955)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/153/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.09684975 38.670784337414354)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1249/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2300109499999996 39.35989185801041)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/629/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.7031720499999998 37.31410730606907)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1008/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2229696000000003 38.8907341376112)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/419/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.8192827000000001 40.89607153911268)"^^geosparql:wktLiteral .
+
+georesource:630  a            geoes:Cala ;
+        rdfs:label             "630" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-06-13"^^xsd:date ;
+        dc:identifier          "630"^^xsd:int ;
+        dc:title               "Cala Panizo"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/630/geometry> .
+
+georesource:1230  a           geoes:Cala ;
+        rdfs:label             "1230" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1230"^^xsd:int ;
+        dc:title               "Cala Barques"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1230/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/320/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.3046507 42.31139193983642)"^^geosparql:wktLiteral .
+
+georesource:153  a            geoes:Cala ;
+        rdfs:label             "153" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2012-01-23"^^xsd:date ;
+        dc:identifier          "153"^^xsd:int ;
+        dc:title               "Cala de Cabo Blanco"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/153/geometry> .
+
+georesource:1145  a           geoes:Cala ;
+        rdfs:label             "1145" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1145"^^xsd:int ;
+        dc:title               "Cala Bóquer"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1145/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1034/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.3363432000000002 39.0538524377532)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/235/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.9484138000000002 43.33203064017715)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1232/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2905854 39.48512733811216)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1022/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2339145000000002 38.96920963767996)"^^geosparql:wktLiteral .
+
+georesource:48  a             geoes:Cala ;
+        rdfs:label             "48" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2012-01-18"^^xsd:date ;
+        dc:identifier          "48"^^xsd:int ;
+        dc:title               "Cala Bernat"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/48/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/822/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.104820300000001 40.044125738540885)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/612/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.0633840300000004 36.78187755548273)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/978/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.6170853000000003 39.02798263773092)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1357/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.5216416 39.462844638094204)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/768/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.734475099999999 36.067167134646866)"^^geosparql:wktLiteral .
+
+georesource:1187  a           geoes:Cala ;
+        rdfs:label             "1187" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1187"^^xsd:int ;
+        dc:title               "Cala Fosca"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1187/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/947/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.291005949999999 39.91109790844265)"^^geosparql:wktLiteral .
+
+georesource:979  a            geoes:Cala ;
+        rdfs:label             "979" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "979"^^xsd:int ;
+        dc:title               "Cala Boix"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/979/geometry> .
+
+georesource:376  a            geoes:Cala ;
+        rdfs:label             "376" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2012-03-26"^^xsd:date ;
+        dc:identifier          "376"^^xsd:int ;
+        dc:title               "Cala de Vallcarca"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/376/geometry> .
+
+georesource:768  a            geoes:Cala ;
+        rdfs:label             "768" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-05-27"^^xsd:date ;
+        dc:identifier          "768"^^xsd:int ;
+        dc:title               "Cala del Picacho"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/768/geometry> .
+
+georesource:1242  a           geoes:Cala ;
+        rdfs:label             "1242" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1242"^^xsd:int ;
+        dc:title               "Cala Marçal"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1242/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1173/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1859003 39.87231973841355)"^^geosparql:wktLiteral .
+
+georesource:1157  a           geoes:Cala ;
+        rdfs:label             "1157" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1157"^^xsd:int ;
+        dc:title               "Cala Murta"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1157/geometry> .
+
+georesource:346  a            geoes:Cala ;
+        rdfs:label             "346" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2012-03-20"^^xsd:date ;
+        dc:identifier          "346"^^xsd:int ;
+        dc:title               "Cala Margarita"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/346/geometry> .
+
+georesource:612  a            geoes:Cala ;
+        rdfs:label             "612" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-06-13"^^xsd:date ;
+        dc:identifier          "612"^^xsd:int ;
+        dc:title               "Cala Grande"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/612/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1088/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.5174457 39.69299703827644)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/133/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.3158822 38.47495883723397)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1229/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.300759 39.50380703812714)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/961/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.986943199999999 40.053910838548006)"^^geosparql:wktLiteral .
+
+georesource:980  a            geoes:Cala ;
+        rdfs:label             "980" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "980"^^xsd:int ;
+        dc:title               "Cala Llenya"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/980/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1130/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.9526246000000005 39.91756333844746)"^^geosparql:wktLiteral .
+
+georesource:684  a            geoes:Cala ;
+        rdfs:label             "684" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-05-07"^^xsd:date ;
+        dc:identifier          "684"^^xsd:int ;
+        dc:title               "Cala de Cambriles"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/684/geometry> .
+
+georesource:1284  a           geoes:Cala ;
+        rdfs:label             "1284" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1284"^^xsd:int ;
+        dc:title               "Escala"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1284/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1255/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1728020999999997 39.32942393798533)"^^geosparql:wktLiteral .
+
+georesource:1254  a           geoes:Cala ;
+        rdfs:label             "1254" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1254"^^xsd:int ;
+        dc:title               "Caló de ses Faves"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1254/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/623/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.7611777200000003 37.258184426008945)"^^geosparql:wktLiteral .
+
+georesource:624  a            geoes:Cala ;
+        rdfs:label             "624" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-06-13"^^xsd:date ;
+        dc:identifier          "624"^^xsd:int ;
+        dc:title               "Cala de la Invencible"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/624/geometry> .
+
+georesource:1224  a           geoes:Cala ;
+        rdfs:label             "1224" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1224"^^xsd:int ;
+        dc:title               "Cala Manacor"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1224/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1158/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1644290000000006 39.929744938456565)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/958/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.8266146000000005 39.995360738505155)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1337/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.7353411 39.45786993809016)"^^geosparql:wktLiteral .
+
+georesource:413  a            geoes:Cala ;
+        rdfs:label             "413" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2012-03-27"^^xsd:date ;
+        dc:identifier          "413"^^xsd:int ;
+        dc:title               "Cala Ronyosa"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/413/geometry> .
+
+georesource:328  a            geoes:Cala ;
+        rdfs:label             "328" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "328"^^xsd:int ;
+        dc:title               "Cala Cativa"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/328/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/328/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2095722000000007 42.343820739849605)"^^geosparql:wktLiteral .
+
+georesource:1109  a           geoes:Cala ;
+        rdfs:label             "1109" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1109"^^xsd:int ;
+        dc:title               "Cala Roja"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1109/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/984/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.5206353000000001 38.952092737665026)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/354/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.227698199999999 42.250911639811406)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1099/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.6378923000000003 39.76375813833104)"^^geosparql:wktLiteral .
+
+georesource:1140  a           geoes:Cala ;
+        rdfs:label             "1140" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1140"^^xsd:int ;
+        dc:title               "Cala Barques"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1140/geometry> .
+
+georesource:847  a            geoes:Cala ;
+        rdfs:label             "847" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "847"^^xsd:int ;
+        dc:title               "Cala Rambles"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/847/geometry> .
+
+georesource:1236  a           geoes:Cala ;
+        rdfs:label             "1236" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1236"^^xsd:int ;
+        dc:title               "Cala Domingos"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1236/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/887/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.954258700000001 39.93703413846198)"^^geosparql:wktLiteral .
+
+georesource:902  a            geoes:Cala ;
+        rdfs:label             "902" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "902"^^xsd:int ;
+        dc:title               "Cala Aixada"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/902/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1235/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2829415 39.4668369380974)"^^geosparql:wktLiteral .
+
+georesource:1097  a           geoes:Cala ;
+        rdfs:label             "1097" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1097"^^xsd:int ;
+        dc:title               "Cala de sa Costa Brava"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1097/geometry> .
+
+georesource:974  a            geoes:Cala ;
+        rdfs:label             "974" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "974"^^xsd:int ;
+        dc:title               "Cala de Sant Vicent"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/974/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/882/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.003805500000001 39.92531783845326)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1223/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.3568393 39.54829473816269)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1402/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.3164396000000003 39.51957853813978)"^^geosparql:wktLiteral .
+
+georesource:1278  a           geoes:Cala ;
+        rdfs:label             "1278" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1278"^^xsd:int ;
+        dc:title               "Cala Galiota"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1278/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1348/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.6038022 39.5509714381648)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1138/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.0399090999999996 39.92976503845658)"^^geosparql:wktLiteral .
+
+georesource:859  a            geoes:Cala ;
+        rdfs:label             "859" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "859"^^xsd:int ;
+        dc:title               "Caló Roig"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/859/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/377/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.8700379000000007 41.24280483931647)"^^geosparql:wktLiteral .
+
+georesource:256  a            geoes:Cala ;
+        rdfs:label             "256" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "256"^^xsd:int ;
+        dc:title               "Cala Llorell"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/256/geometry> .
+
+georesource:130  a            geoes:Cala ;
+        rdfs:label             "130" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2012-01-23"^^xsd:date ;
+        dc:identifier          "130"^^xsd:int ;
+        dc:title               "Cala Ahumada"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/130/geometry> .
+
+georesource:829  a            geoes:Cala ;
+        rdfs:label             "829" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "829"^^xsd:int ;
+        dc:title               "Cala Morts"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/829/geometry> .
+
+georesource:890  a            geoes:Cala ;
+        rdfs:label             "890" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "890"^^xsd:int ;
+        dc:title               "Cala en Truqueta"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/890/geometry> .
+
+georesource:1303  a           geoes:Cala ;
+        rdfs:label             "1303" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1303"^^xsd:int ;
+        dc:title               "Cala Galiota"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1303/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/754/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.049122399999999 36.19931783480546)"^^geosparql:wktLiteral .
+
+georesource:618  a            geoes:Cala ;
+        rdfs:label             "618" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2010-12-22"^^xsd:date ;
+        dc:identifier          "618"^^xsd:int ;
+        dc:title               "Cala Hernández"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/618/geometry> .
+
+georesource:1218  a           geoes:Cala ;
+        rdfs:label             "1218" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1218"^^xsd:int ;
+        dc:title               "Cala Morlanda"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1218/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1289/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.9368398000000004 39.15613703784053)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1079/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.453392 39.089035037783404)"^^geosparql:wktLiteral .
+
+georesource:986  a            geoes:Cala ;
+        rdfs:label             "986" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "986"^^xsd:int ;
+        dc:title               "Cala Espart"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/986/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1190/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.4049327000000003 39.76245153833006)"^^geosparql:wktLiteral .
+
+georesource:1375  a           geoes:Cala ;
+        rdfs:label             "1375" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1375"^^xsd:int ;
+        dc:title               "Cala Llamp"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1375/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/360/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1590313999999995 42.38427343986585)"^^geosparql:wktLiteral .
+
+georesource:298  a            geoes:Cala ;
+        rdfs:label             "298" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "298"^^xsd:int ;
+        dc:title               "Punta del Milà"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/298/geometry> .
+
+georesource:172  a            geoes:Cala ;
+        rdfs:label             "172" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-05-16"^^xsd:date ;
+        dc:identifier          "172"^^xsd:int ;
+        dc:title               "Cala Sardinera"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/172/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/150/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.0776779 38.65153423739684)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1246/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2476682 39.38743453803296)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/867/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.1312295 39.868537338410704)"^^geosparql:wktLiteral .
+
+georesource:1079  a           geoes:Cala ;
+        rdfs:label             "1079" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1079"^^xsd:int ;
+        dc:title               "Cala Benirras"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1079/geometry> .
+
+georesource:830  a            geoes:Cala ;
+        rdfs:label             "830" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "830"^^xsd:int ;
+        dc:title               "Cala Molins"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/830/geometry> .
+
+georesource:1345  a           geoes:Cala ;
+        rdfs:label             "1345" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1345"^^xsd:int ;
+        dc:title               "Cala Estancia"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1345/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/836/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.2101983999999995 40.002783538510606)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/626/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.7302492400000002 37.2848910360377)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/416/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.8338252 40.911933839122376)"^^geosparql:wktLiteral .
+
+georesource:1049  a           geoes:Cala ;
+        rdfs:label             "1049" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1049"^^xsd:int ;
+        dc:title               "Sa Cala"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1049/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1203/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.4547357000000005 39.689781838273966)"^^geosparql:wktLiteral .
+
+georesource:1315  a           geoes:Cala ;
+        rdfs:label             "1315" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1315"^^xsd:int ;
+        dc:title               "Cala Pi"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1315/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/824/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.093029800000001 40.07432853856286)"^^geosparql:wktLiteral .
+
+georesource:238  a            geoes:Cala ;
+        rdfs:label             "238" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2012-04-23"^^xsd:date ;
+        dc:identifier          "238"^^xsd:int ;
+        dc:title               "Cala Azabaratza"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/238/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1149/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1814914999999986 39.95161323847282)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1187/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.3570140000000004 39.78145793834461)"^^geosparql:wktLiteral .
+
+georesource:419  a            geoes:Cala ;
+        rdfs:label             "419" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2012-03-27"^^xsd:date ;
+        dc:identifier          "419"^^xsd:int ;
+        dc:title               "Cala Nova"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/419/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/739/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.30590206 36.53006949519442)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/906/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.8337285999999997 39.980236638494006)"^^geosparql:wktLiteral .
+
+georesource:757  a            geoes:Cala ;
+        rdfs:label             "757" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-05-27"^^xsd:date ;
+        dc:identifier          "757"^^xsd:int ;
+        dc:title               "Cala del Varadero"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/757/geometry> .
+
+georesource:1357  a           geoes:Cala ;
+        rdfs:label             "1357" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1357"^^xsd:int ;
+        dc:title               "Cala Figuera"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1357/geometry> .
+
+georesource:154  a            geoes:Cala ;
+        rdfs:label             "154" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2012-01-23"^^xsd:date ;
+        dc:identifier          "154"^^xsd:int ;
+        dc:title               "Cala del Baladrar"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/154/geometry> .
+
+georesource:1146  a           geoes:Cala ;
+        rdfs:label             "1146" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1146"^^xsd:int ;
+        dc:title               "Cala Nao"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1146/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1380/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.3554662 39.562725638174136)"^^geosparql:wktLiteral .
+
+georesource:79  a             geoes:Cala ;
+        rdfs:label             "79" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2011-12-30"^^xsd:date ;
+        dc:identifier          "79"^^xsd:int ;
+        dc:title               "Cala Capitán"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/79/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/130/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.3640526500000001 38.44609098720698)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/161/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.1669768 38.71005233744994)"^^geosparql:wktLiteral .
+
+georesource:908  a            geoes:Cala ;
+        rdfs:label             "908" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "908"^^xsd:int ;
+        dc:title               "Cala en Brut"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/908/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1257/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.137646 39.3170091379751)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/86/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.6566723000000001 37.98491403676187)"^^geosparql:wktLiteral .
+
+georesource:1092  a           geoes:Cala ;
+        rdfs:label             "1092" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1092"^^xsd:int ;
+        dc:title               "Cala de Valdemossa"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1092/geometry> .
+
+georesource:884  a            geoes:Cala ;
+        rdfs:label             "884" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "884"^^xsd:int ;
+        dc:title               "Cala Trebalúger"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/884/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/847/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.255019199999999 39.963656838481754)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1226/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.3235436499999995 39.52368574814305)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1016/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2308198999999997 38.945132137658945)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/427/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.7208654999999999 40.81469433906239)"^^geosparql:wktLiteral .
+
+georesource:1273  a           geoes:Cala ;
+        rdfs:label             "1273" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1273"^^xsd:int ;
+        dc:title               "Cala en Tugores"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1273/geometry> .
+
+georesource:1188  a           geoes:Cala ;
+        rdfs:label             "1188" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1188"^^xsd:int ;
+        dc:title               "Cala Peña Rotja"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1188/geometry> .
+
+georesource:854  a            geoes:Cala ;
+        rdfs:label             "854" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "854"^^xsd:int ;
+        dc:title               "Cala des Murtar"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/854/geometry> .
+
+georesource:80  a             geoes:Cala ;
+        rdfs:label             "80" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2011-12-30"^^xsd:date ;
+        dc:identifier          "80"^^xsd:int ;
+        dc:title               "La Caleta"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/80/geometry> .
+
+georesource:377  a            geoes:Cala ;
+        rdfs:label             "377" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2012-03-26"^^xsd:date ;
+        dc:identifier          "377"^^xsd:int ;
+        dc:title               "Cala Morisca"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/377/geometry> .
+
+georesource:1369  a           geoes:Cala ;
+        rdfs:label             "1369" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1369"^^xsd:int ;
+        dc:title               "Cala de Santa Ponça"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1369/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1198/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.4531952 39.72163803829863)"^^geosparql:wktLiteral .
+
+georesource:1158  a           geoes:Cala ;
+        rdfs:label             "1158" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1158"^^xsd:int ;
+        dc:title               "Cala en Feliu"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1158/geometry> .
+
+georesource:824  a            geoes:Cala ;
+        rdfs:label             "824" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "824"^^xsd:int ;
+        dc:title               "Cala Viola de Llevant"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/824/geometry> .
+
+georesource:739  a            geoes:Cala ;
+        rdfs:label             "739" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-05-27"^^xsd:date ;
+        dc:identifier          "739"^^xsd:int ;
+        dc:title               "La Caleta"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/739/geometry> .
+
+georesource:613  a            geoes:Cala ;
+        rdfs:label             "613" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-06-13"^^xsd:date ;
+        dc:identifier          "613"^^xsd:int ;
+        dc:title               "Cala Cortada"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/613/geometry> .
+
+georesource:1213  a           geoes:Cala ;
+        rdfs:label             "1213" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1213"^^xsd:int ;
+        dc:title               "Cala Bona"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1213/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/158/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.1559499 38.69228363743387)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/830/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.2009145000000006 40.01383553851873)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/620/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.9584140400000007 36.91500185563232)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/986/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.492669 38.92895623764479)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1365/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.4767551000000005 39.49292673811841)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/410/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.8800306999999999 40.958782539150796)"^^geosparql:wktLiteral .
+
+georesource:1309  a           geoes:Cala ;
+        rdfs:label             "1309" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1309"^^xsd:int ;
+        dc:title               "Cala Entimo"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1309/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/955/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.1685974 39.84920183839613)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/325/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2610885000000005 42.33769573984711)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/115/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.5199233 38.297474737066366)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1391/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.4213555 39.62991973822719)"^^geosparql:wktLiteral .
+
+georesource:1074  a           geoes:Cala ;
+        rdfs:label             "1074" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1074"^^xsd:int ;
+        dc:title               "Cala Nova"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1074/geometry> .
+
+georesource:866  a            geoes:Cala ;
+        rdfs:label             "866" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "866"^^xsd:int ;
+        dc:title               "Cales Coves"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/866/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1181/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2022096999999996 39.748197738319114)"^^geosparql:wktLiteral .
+
+georesource:1255  a           geoes:Cala ;
+        rdfs:label             "1255" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1255"^^xsd:int ;
+        dc:title               "Cala Figuera"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1255/geometry> .
+
+georesource:359  a            geoes:Cala ;
+        rdfs:label             "359" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2012-03-20"^^xsd:date ;
+        dc:identifier          "359"^^xsd:int ;
+        dc:title               "Cala Tavallera"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/359/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/297/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.188157399999999 42.09560313974475)"^^geosparql:wktLiteral .
+
+georesource:836  a            geoes:Cala ;
+        rdfs:label             "836" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "836"^^xsd:int ;
+        dc:title               "Cala en Brut"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/836/geometry> .
+
+georesource:710  a            geoes:Cala ;
+        rdfs:label             "710" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-02-03"^^xsd:date ;
+        dc:identifier          "710"^^xsd:int ;
+        dc:title               "Cala de la Sardina"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/710/geometry> .
+
+georesource:1310  a           geoes:Cala ;
+        rdfs:label             "1310" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1310"^^xsd:int ;
+        dc:title               "Cala en Paiàs"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1310/geometry> .
+
+georesource:625  a            geoes:Cala ;
+        rdfs:label             "625" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-06-13"^^xsd:date ;
+        dc:identifier          "625"^^xsd:int ;
+        dc:title               "Cala Concha"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/625/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/617/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.00346575 36.873372965585745)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/884/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.9894240999999995 39.9310183384575)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1263/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.0921827999999993 39.28889553795184)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1053/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.5755617000000002 38.658071437402775)"^^geosparql:wktLiteral .
+
+georesource:360  a            geoes:Cala ;
+        rdfs:label             "360" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2012-03-20"^^xsd:date ;
+        dc:identifier          "360"^^xsd:int ;
+        dc:title               "Cala Cañelas"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/360/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1109/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.7440179000000007 39.83285053838375)"^^geosparql:wktLiteral .
+
+georesource:1141  a           geoes:Cala ;
+        rdfs:label             "1141" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1141"^^xsd:int ;
+        dc:title               "Cala Molins"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1141/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/966/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.5385744000000003 39.108380237799935)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1345/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.7124980999999995 39.53475573815188)"^^geosparql:wktLiteral .
+
+georesource:1111  a           geoes:Cala ;
+        rdfs:label             "1111" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1111"^^xsd:int ;
+        dc:title               "Cala Tuent"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1111/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1161/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.110039 39.91137543844284)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/362/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1622451 42.42961193988376)"^^geosparql:wktLiteral .
+
+georesource:1183  a           geoes:Cala ;
+        rdfs:label             "1183" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1183"^^xsd:int ;
+        dc:title               "Caló des Corb Marí"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1183/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/152/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.0881226 38.664664037408784)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1038/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.3684758000000001 39.0631269377612)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/628/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.70630229 37.30858936606316)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/121/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.4261269 38.354176337120336)"^^geosparql:wktLiteral .
+
+georesource:287  a            geoes:Cala ;
+        rdfs:label             "287" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "287"^^xsd:int ;
+        dc:title               "Cala d'Aiguafreda"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/287/geometry> .
+
+georesource:161  a            geoes:Cala ;
+        rdfs:label             "161" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-05-16"^^xsd:date ;
+        dc:identifier          "161"^^xsd:int ;
+        dc:title               "Cala dels Testos"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/161/geometry> .
+
+georesource:679  a            geoes:Cala ;
+        rdfs:label             "679" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-05-07"^^xsd:date ;
+        dc:identifier          "679"^^xsd:int ;
+        dc:title               "Cala Chílchez"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/679/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/418/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.8282522 40.9085529391203)"^^geosparql:wktLiteral .
+
+georesource:86  a             geoes:Cala ;
+        rdfs:label             "86" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2012-01-03"^^xsd:date ;
+        dc:identifier          "86"^^xsd:int ;
+        dc:title               "Cala Cornuda"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/86/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/864/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.199529899999999 39.83262403838357)"^^geosparql:wktLiteral .
+
+georesource:1249  a           geoes:Cala ;
+        rdfs:label             "1249" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1249"^^xsd:int ;
+        dc:title               "Cala d'Egos"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1249/geometry> .
+
+georesource:131  a            geoes:Cala ;
+        rdfs:label             "131" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2012-01-23"^^xsd:date ;
+        dc:identifier          "131"^^xsd:int ;
+        dc:title               "Cala Baeza"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/131/geometry> .
+
+georesource:1038  a           geoes:Cala ;
+        rdfs:label             "1038" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1038"^^xsd:int ;
+        dc:title               "Cala d'Albarca"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1038/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/413/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.8612363 40.94594203914305)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/359/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2486405000000005 42.33134733984455)"^^geosparql:wktLiteral .
+
+georesource:619  a            geoes:Cala ;
+        rdfs:label             "619" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-06-13"^^xsd:date ;
+        dc:identifier          "619"^^xsd:int ;
+        dc:title               "Cala de San Pedro"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/619/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/890/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.9143872000000006 39.932048738458285)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1410/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.4585675999999994 39.74170013831411)"^^geosparql:wktLiteral .
+
+georesource:1008  a           geoes:Cala ;
+        rdfs:label             "1008" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1008"^^xsd:int ;
+        dc:title               "Cala d'Hort"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1008/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1146/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1194454000000005 39.931349938457764)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/946/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.263665700000001 39.959517738478674)"^^geosparql:wktLiteral .
+
+georesource:299  a            geoes:Cala ;
+        rdfs:label             "299" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "299"^^xsd:int ;
+        dc:title               "Cala Montgó"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/299/geometry> .
+
+georesource:354  a            geoes:Cala ;
+        rdfs:label             "354" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2012-03-20"^^xsd:date ;
+        dc:identifier          "354"^^xsd:int ;
+        dc:title               "Cala Montjoy"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/354/geometry> .
+
+georesource:1346  a           geoes:Cala ;
+        rdfs:label             "1346" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1346"^^xsd:int ;
+        dc:title               "Cala Gamba"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1346/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1172/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1883232 39.881704038420594)"^^geosparql:wktLiteral .
+
+georesource:620  a            geoes:Cala ;
+        rdfs:label             "620" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-06-13"^^xsd:date ;
+        dc:identifier          "620"^^xsd:int ;
+        dc:title               "Cala Chumba"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/620/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1141/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.0583803000000005 39.9205491384497)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1254/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1782571999999996 39.330190637985986)"^^geosparql:wktLiteral .
+
+georesource:1262  a           geoes:Cala ;
+        rdfs:label             "1262" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1262"^^xsd:int ;
+        dc:title               "Cala Figuereta"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1262/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/424/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.7507996999999998 40.84438753908087)"^^geosparql:wktLiteral .
+
+georesource:1232  a           geoes:Cala ;
+        rdfs:label             "1232" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1232"^^xsd:int ;
+        dc:title               "Cala Pilota"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1232/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1070/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.4987585000000005 39.100062337792814)"^^geosparql:wktLiteral .
+
+georesource:421  a            geoes:Cala ;
+        rdfs:label             "421" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-05-13"^^xsd:date ;
+        dc:identifier          "421"^^xsd:int ;
+        dc:title               "Punta de l'Estany Podrit"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/421/geometry> .
+
+georesource:1117  a           geoes:Cala ;
+        rdfs:label             "1117" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1117"^^xsd:int ;
+        dc:title               "Cala Teix"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1117/geometry> .
+
+georesource:885  a            geoes:Cala ;
+        rdfs:label             "885" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "885"^^xsd:int ;
+        dc:title               "Cala Mitjana"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/885/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/983/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.5284765 38.95905793767109)"^^geosparql:wktLiteral .
+
+georesource:282  a            geoes:Cala ;
+        rdfs:label             "282" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "282"^^xsd:int ;
+        dc:title               "Cala Marquesa"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/282/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/952/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.2415209 39.81591123837088)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/322/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.3112062 42.32028323984006)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/829/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.1939924999999985 40.02543003852722)"^^geosparql:wktLiteral .
+
+georesource:1244  a           geoes:Cala ;
+        rdfs:label             "1244" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1244"^^xsd:int ;
+        dc:title               "Cala sa Nau"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1244/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1208/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.4415700999999994 39.656973238248376)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/619/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.9796662200000001 36.90308021561901)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/409/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.9374358999999997 41.002139639176825)"^^geosparql:wktLiteral .
+
+georesource:137  a            geoes:Cala ;
+        rdfs:label             "137" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-05-16"^^xsd:date ;
+        dc:identifier          "137"^^xsd:int ;
+        dc:title               "Cala de Finisterrat o Morales"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/137/geometry> .
+
+georesource:614  a            geoes:Cala ;
+        rdfs:label             "614" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2010-12-22"^^xsd:date ;
+        dc:identifier          "614"^^xsd:int ;
+        dc:title               "Cala del Carnaje"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/614/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/294/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.204202099999999 42.073067939734784)"^^geosparql:wktLiteral .
+
+georesource:1190  a           geoes:Cala ;
+        rdfs:label             "1190" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1190"^^xsd:int ;
+        dc:title               "Cala Matzoc"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1190/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1234/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2872281999999986 39.47462053810369)"^^geosparql:wktLiteral .
+
+georesource:1003  a           geoes:Cala ;
+        rdfs:label             "1003" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1003"^^xsd:int ;
+        dc:title               "Cala des Cubells"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1003/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1024/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2877652999999996 38.971327637681796)"^^geosparql:wktLiteral .
+
+georesource:2191  a           geoes:Cala ;
+        rdfs:label             "2191" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-06-17"^^xsd:date ;
+        dc:identifier          "2191"^^xsd:int ;
+        dc:title               "Cala del Sarchal"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/2191/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/614/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.023939969999999 36.83235860553966)"^^geosparql:wktLiteral .
+
+georesource:897  a            geoes:Cala ;
+        rdfs:label             "897" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "897"^^xsd:int ;
+        dc:title               "Cala en Bosc"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/897/geometry> .
+
+georesource:294  a            geoes:Cala ;
+        rdfs:label             "294" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "294"^^xsd:int ;
+        dc:title               "Cala Ferriol"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/294/geometry> .
+
+georesource:1160  a           geoes:Cala ;
+        rdfs:label             "1160" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1160"^^xsd:int ;
+        dc:title               "Cala Pi de la Posada"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1160/geometry> .
+
+georesource:952  a            geoes:Cala ;
+        rdfs:label             "952" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "952"^^xsd:int ;
+        dc:title               "Cala Binibeca"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/952/geometry> .
+
+georesource:867  a            geoes:Cala ;
+        rdfs:label             "867" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "867"^^xsd:int ;
+        dc:title               "Cala en Porter"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/867/geometry> .
+
+georesource:1256  a           geoes:Cala ;
+        rdfs:label             "1256" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1256"^^xsd:int ;
+        dc:title               "Cala Santanyí"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1256/geometry> .
+
+georesource:1130  a           geoes:Cala ;
+        rdfs:label             "1130" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1130"^^xsd:int ;
+        dc:title               "Cala de Xaloc"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1130/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/376/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.8613212 41.23834823931397)"^^geosparql:wktLiteral .
+
+georesource:837  a            geoes:Cala ;
+        rdfs:label             "837" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "837"^^xsd:int ;
+        dc:title               "Cala Caldès"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/837/geometry> .
+
+georesource:626  a            geoes:Cala ;
+        rdfs:label             "626" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2010-12-22"^^xsd:date ;
+        dc:identifier          "626"^^xsd:int ;
+        dc:title               "Cala del Embarcadero Viejo"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/626/geometry> .
+
+georesource:1226  a           geoes:Cala ;
+        rdfs:label             "1226" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1226"^^xsd:int ;
+        dc:title               "Cala Magrana"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1226/geometry> .
+
+georesource:1100  a           geoes:Cala ;
+        rdfs:label             "1100" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1100"^^xsd:int ;
+        dc:title               "Caleta de son Beltran"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1100/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1342/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.7361795 39.48826403811467)"^^geosparql:wktLiteral .
+
+georesource:415  a            geoes:Cala ;
+        rdfs:label             "415" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2012-03-27"^^xsd:date ;
+        dc:identifier          "415"^^xsd:int ;
+        dc:title               "Cala Llobeta"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/415/geometry> .
+
+georesource:1015  a           geoes:Cala ;
+        rdfs:label             "1015" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1015"^^xsd:int ;
+        dc:title               "Cala Tarida"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1015/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1132/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.97053707 39.90920093844124)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1288/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.9451082 39.15015783783548)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/48/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.2438821 39.63010543822734)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1009/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2177639999999998 38.89419583761425)"^^geosparql:wktLiteral .
+
+georesource:1172  a           geoes:Cala ;
+        rdfs:label             "1172" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1172"^^xsd:int ;
+        dc:title               "La Solana"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1172/geometry> .
+
+georesource:1353  a           geoes:Cala ;
+        rdfs:label             "1353" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1353"^^xsd:int ;
+        dc:title               "Cala Vinyes o de Salamó"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1353/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/710/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.2425282 36.32127003495021)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/866/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.144826600000001 39.86354783840697)"^^geosparql:wktLiteral .
+
+georesource:150  a            geoes:Cala ;
+        rdfs:label             "150" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2012-01-23"^^xsd:date ;
+        dc:identifier          "150"^^xsd:int ;
+        dc:title               "La Caleta"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/150/geometry> .
+
+georesource:934  a            geoes:Cala ;
+        rdfs:label             "934" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "934"^^xsd:int ;
+        dc:title               "Cala Calderer"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/934/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/625/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.7379867800000002 37.28030504603277)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1004/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2534124000000002 38.8627654375865)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/415/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.8535960000000001 40.9328336391351)"^^geosparql:wktLiteral .
+
+georesource:1238  a           geoes:Cala ;
+        rdfs:label             "1238" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1238"^^xsd:int ;
+        dc:title               "S'Algar"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1238/geometry> .
+
+georesource:427  a            geoes:Cala ;
+        rdfs:label             "427" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2012-03-27"^^xsd:date ;
+        dc:identifier          "427"^^xsd:int ;
+        dc:title               "Cala María"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/427/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1396/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.4719072 39.658578438249634)"^^geosparql:wktLiteral .
+
+georesource:1395  a           geoes:Cala ;
+        rdfs:label             "1395" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1395"^^xsd:int ;
+        dc:title               "Cala Cas Xeremier"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1395/geometry> .
+
+georesource:1208  a           geoes:Cala ;
+        rdfs:label             "1208" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1208"^^xsd:int ;
+        dc:title               "Cala Cayamel"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1208/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1117/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.8229077000000005 39.85835193840304)"^^geosparql:wktLiteral .
+
+georesource:1099  a           geoes:Cala ;
+        rdfs:label             "1099" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1099"^^xsd:int ;
+        dc:title               "Cala de Deyá"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1099/geometry> .
+
+georesource:1365  a           geoes:Cala ;
+        rdfs:label             "1365" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1365"^^xsd:int ;
+        dc:title               "Cala de ses Penyes Rotges"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1365/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/974/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.5920060599999997 39.07534637777167)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1353/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.53613341 39.49496282812005)"^^geosparql:wktLiteral .
+
+georesource:946  a            geoes:Cala ;
+        rdfs:label             "946" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "946"^^xsd:int ;
+        dc:title               "Cala de Sa Torreta"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/946/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/943/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.040622600000001 40.05903593855174)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1089/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.5444290000000005 39.69906153828116)"^^geosparql:wktLiteral .
+
+georesource:87  a             geoes:Cala ;
+        rdfs:label             "87" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2012-01-03"^^xsd:date ;
+        dc:identifier          "87"^^xsd:int ;
+        dc:title               "Cala del Mojón"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/87/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/172/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.21738365 38.76092058749575)"^^geosparql:wktLiteral .
+
+georesource:258  a            geoes:Cala ;
+        rdfs:label             "258" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "258"^^xsd:int ;
+        dc:title               "Cala Bona"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/258/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/679/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.2013398 36.750507935447146)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1310/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.8958548 39.361467338011714)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1100/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.6478005000000007 39.764482338331625)"^^geosparql:wktLiteral .
+
+georesource:1009  a           geoes:Cala ;
+        rdfs:label             "1009" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1009"^^xsd:int ;
+        dc:title               "Cala Carbó"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1009/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/846/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.260009599999998 39.97783743849223)"^^geosparql:wktLiteral .
+
+georesource:988  a            geoes:Cala ;
+        rdfs:label             "988" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "988"^^xsd:int ;
+        dc:title               "Cala Talamanca"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/988/geometry> .
+
+georesource:409  a            geoes:Cala ;
+        rdfs:label             "409" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2012-03-27"^^xsd:date ;
+        dc:identifier          "409"^^xsd:int ;
+        dc:title               "Cala Bot"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/409/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1015/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2338649 38.940988437655314)"^^geosparql:wktLiteral .
+
+georesource:1070  a           geoes:Cala ;
+        rdfs:label             "1070" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1070"^^xsd:int ;
+        dc:title               "Cala Xarraca"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1070/geometry> .
+
+georesource:777  a            geoes:Cala ;
+        rdfs:label             "777" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-05-27"^^xsd:date ;
+        dc:identifier          "777"^^xsd:int ;
+        dc:title               "Cala Arenas"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/777/geometry> .
+
+georesource:1251  a           geoes:Cala ;
+        rdfs:label             "1251" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1251"^^xsd:int ;
+        dc:title               "Cala Mondragó"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1251/geometry> .
+
+georesource:958  a            geoes:Cala ;
+        rdfs:label             "958" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "958"^^xsd:int ;
+        dc:title               "Cala d'es Frares"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/958/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1251/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1885863999999993 39.34850233800105)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/80/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.7360204000000001 37.909548836686675)"^^geosparql:wktLiteral .
+
+georesource:355  a            geoes:Cala ;
+        rdfs:label             "355" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2012-03-20"^^xsd:date ;
+        dc:identifier          "355"^^xsd:int ;
+        dc:title               "Cala Joncols"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/355/geometry> .
+
+georesource:621  a            geoes:Cala ;
+        rdfs:label             "621" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-06-13"^^xsd:date ;
+        dc:identifier          "621"^^xsd:int ;
+        dc:title               "Cala de Enmedio"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/621/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/997/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.4252755000000001 38.79271573752425)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/421/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.768015 40.855190739087554)"^^geosparql:wktLiteral .
+
+georesource:1136  a           geoes:Cala ;
+        rdfs:label             "1136" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1136"^^xsd:int ;
+        dc:title               "Cala Castell"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1136/geometry> .
+
+georesource:410  a            geoes:Cala ;
+        rdfs:label             "410" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-05-13"^^xsd:date ;
+        dc:identifier          "410"^^xsd:int ;
+        dc:title               "Cala de Gestell"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/410/geometry> .
+
+georesource:1402  a           geoes:Cala ;
+        rdfs:label             "1402" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1402"^^xsd:int ;
+        dc:title               "Cala Mendia"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1402/geometry> .
+
+georesource:325  a            geoes:Cala ;
+        rdfs:label             "325" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "325"^^xsd:int ;
+        dc:title               "Cala Prona"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/325/geometry> .
+
+georesource:1317  a           geoes:Cala ;
+        rdfs:label             "1317" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1317"^^xsd:int ;
+        dc:title               "Es Carril"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1317/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/954/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.227538900000001 39.82197923837551)"^^geosparql:wktLiteral .
+
+georesource:1263  a           geoes:Cala ;
+        rdfs:label             "1263" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1263"^^xsd:int ;
+        dc:title               "Caló des Màrmols"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1263/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/980/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.5844928999999994 39.01486863771959)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1236/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2782414 39.45719803808962)"^^geosparql:wktLiteral .
+
+georesource:1022  a           geoes:Cala ;
+        rdfs:label             "1022" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1022"^^xsd:int ;
+        dc:title               "Cala Roja"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1022/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1205/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.4544262999999997 39.68349413826904)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/616/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.999671779999999 36.85282461556268)"^^geosparql:wktLiteral .
+
+georesource:1203  a           geoes:Cala ;
+        rdfs:label             "1203" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1203"^^xsd:int ;
+        dc:title               "Cala d'es Carregador"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1203/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1262/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.096026100000001 39.292686037954994)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/908/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.8080338000000005 39.999167638507934)"^^geosparql:wktLiteral .
+
+georesource:82  a             geoes:Cala ;
+        rdfs:label             "82" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2011-12-30"^^xsd:date ;
+        dc:identifier          "82"^^xsd:int ;
+        dc:title               "Cala Ferris"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/82/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/137/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.16741595 38.52414328727973)"^^geosparql:wktLiteral .
+
+georesource:1034  a           geoes:Cala ;
+        rdfs:label             "1034" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1034"^^xsd:int ;
+        dc:title               "Cala d'en Sardina"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1034/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/755/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.039592099999998 36.190945134795456)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/934/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.0143344 40.05656623854994)"^^geosparql:wktLiteral .
+
+georesource:615  a            geoes:Cala ;
+        rdfs:label             "615" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-06-13"^^xsd:date ;
+        dc:identifier          "615"^^xsd:int ;
+        dc:title               "Cala de la Polacra"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/615/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/88/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.6552815000000001 37.99104983676794)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1259/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.124500400000001 39.31559133797394)"^^geosparql:wktLiteral .
+
+georesource:1004  a           geoes:Cala ;
+        rdfs:label             "1004" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1004"^^xsd:int ;
+        dc:title               "Cala Llentrisca"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1004/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1049/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.5518277999999999 38.68498483742723)"^^geosparql:wktLiteral .
+
+georesource:1191  a           geoes:Cala ;
+        rdfs:label             "1191" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1191"^^xsd:int ;
+        dc:title               "Cala Torta"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1191/geometry> .
+
+georesource:983  a            geoes:Cala ;
+        rdfs:label             "983" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "983"^^xsd:int ;
+        dc:title               "Cala Blanca"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/983/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1160/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1327912 39.927407038454824)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/960/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.8829538999999995 40.05314663854745)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1301/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.9229697 39.139178537826155)"^^geosparql:wktLiteral .
+
+georesource:1161  a           geoes:Cala ;
+        rdfs:label             "1161" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1161"^^xsd:int ;
+        dc:title               "Platja Caló"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1161/geometry> .
+
+georesource:953  a            geoes:Cala ;
+        rdfs:label             "953" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "953"^^xsd:int ;
+        dc:title               "Cala de Binacolla"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/953/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/837/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.2261923999999995 39.99770523850687)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/627/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.71660555 37.29857957605241)"^^geosparql:wktLiteral .
+
+georesource:1342  a           geoes:Cala ;
+        rdfs:label             "1342" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1342"^^xsd:int ;
+        dc:title               "Cala Mosques"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1342/geometry> .
+
+georesource:1257  a           geoes:Cala ;
+        rdfs:label             "1257" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1257"^^xsd:int ;
+        dc:title               "Caló d'en Ferrà"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1257/geometry> .
+
+georesource:320  a            geoes:Cala ;
+        rdfs:label             "320" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "320"^^xsd:int ;
+        dc:title               "Cala Bona"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/320/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1242/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2614323999999995 39.41029133805161)"^^geosparql:wktLiteral .
+
+georesource:627  a            geoes:Cala ;
+        rdfs:label             "627" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2010-12-22"^^xsd:date ;
+        dc:identifier          "627"^^xsd:int ;
+        dc:title               "Cala Mal Paso"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/627/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1188/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.37349541 39.769014098335084)"^^geosparql:wktLiteral .
+
+georesource:235  a            geoes:Cala ;
+        rdfs:label             "235" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-06-03"^^xsd:date ;
+        dc:identifier          "235"^^xsd:int ;
+        dc:title               "Cala Illurgita"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/235/geometry> .
+
+georesource:1227  a           geoes:Cala ;
+        rdfs:label             "1227" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1227"^^xsd:int ;
+        dc:title               "Cala Anguila"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1227/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/622/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.76528088 37.252885586003245)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/988/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.4539453000000002 38.916114337633516)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1157/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1815330999999993 39.940828438464806)"^^geosparql:wktLiteral .
+
+georesource:416  a            geoes:Cala ;
+        rdfs:label             "416" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2012-03-27"^^xsd:date ;
+        dc:identifier          "416"^^xsd:int ;
+        dc:title               "Cala de Sant Jordi"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/416/geometry> .
+
+georesource:1016  a           geoes:Cala ;
+        rdfs:label             "1016" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1016"^^xsd:int ;
+        dc:title               "Cala Corral"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1016/geometry> .
+
+georesource:1384  a           geoes:Cala ;
+        rdfs:label             "1384" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1384"^^xsd:int ;
+        dc:title               "Cala en Basset"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1384/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1355/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.5210405299999996 39.47422249810338)"^^geosparql:wktLiteral .
+
+georesource:1173  a           geoes:Cala ;
+        rdfs:label             "1173" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1173"^^xsd:int ;
+        dc:title               "Cala d'es Clot"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1173/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1183/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2944995 39.7478194383188)"^^geosparql:wktLiteral .
+
+georesource:1088  a           geoes:Cala ;
+        rdfs:label             "1088" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1088"^^xsd:int ;
+        dc:title               "Cala de Bañarbufar"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1088/geometry> .
+
+georesource:362  a            geoes:Cala ;
+        rdfs:label             "362" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2012-03-20"^^xsd:date ;
+        dc:identifier          "362"^^xsd:int ;
+        dc:title               "Cala de las Ratas"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/362/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1114/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.799212499999999 39.853502138399364)"^^geosparql:wktLiteral .
+
+georesource:754  a            geoes:Cala ;
+        rdfs:label             "754" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-05-27"^^xsd:date ;
+        dc:identifier          "754"^^xsd:int ;
+        dc:title               "Caletón de Zahora o Cala Meléndez"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/754/geometry> .
+
+georesource:151  a            geoes:Cala ;
+        rdfs:label             "151" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2012-01-23"^^xsd:date ;
+        dc:identifier          "151"^^xsd:int ;
+        dc:title               "Cala de les Bassetes"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/151/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/299/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.169347000000001 42.10760113975003)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1140/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.0553858 39.92196513845076)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/902/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.8266189999999987 39.94715903846951)"^^geosparql:wktLiteral .
+
+georesource:121  a            geoes:Cala ;
+        rdfs:label             "121" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2012-01-23"^^xsd:date ;
+        dc:identifier          "121"^^xsd:int ;
+        dc:title               "Cala Judíos"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/121/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/131/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.3186894 38.4722045172314)"^^geosparql:wktLiteral .
+
+georesource:905  a            geoes:Cala ;
+        rdfs:label             "905" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "905"^^xsd:int ;
+        dc:title               "Cala Blanca"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/905/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1227/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.3174373 39.52152213814133)"^^geosparql:wktLiteral .
+
+georesource:1028  a           geoes:Cala ;
+        rdfs:label             "1028" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1028"^^xsd:int ;
+        dc:title               "Cala Salada"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1028/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1017/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2275181000000002 38.94983953766306)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/2191/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.298660560000001 35.8884819544296)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/256/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.9022347 41.70985723956399)"^^geosparql:wktLiteral .
+
+georesource:1396  a           geoes:Cala ;
+        rdfs:label             "1396" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1396"^^xsd:int ;
+        dc:title               "Cala d'Estellencs"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1396/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/82/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.7041276000000002 37.9519862367291)"^^geosparql:wktLiteral .
+
+georesource:851  a            geoes:Cala ;
+        rdfs:label             "851" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "851"^^xsd:int ;
+        dc:title               "Caleta de Binillautí"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/851/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/282/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2177865999999997 41.92792263966882)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1012/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2202035 38.91563283763309)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1378/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.3674329000000007 39.55378993816704)"^^geosparql:wktLiteral .
+
+georesource:947  a            geoes:Cala ;
+        rdfs:label             "947" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "947"^^xsd:int ;
+        dc:title               "Cala Mesquida"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/947/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1309/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.9063777999999996 39.35654743800767)"^^geosparql:wktLiteral .
+
+georesource:88  a             geoes:Cala ;
+        rdfs:label             "88" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2012-01-03"^^xsd:date ;
+        dc:identifier          "88"^^xsd:int ;
+        dc:title               "Cala de la Higuera"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/88/geometry> .
+
+georesource:133  a            geoes:Cala ;
+        rdfs:label             "133" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-05-16"^^xsd:date ;
+        dc:identifier          "133"^^xsd:int ;
+        dc:title               "Cala Lanussa"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/133/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/154/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.111148 38.67494503741813)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/79/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.7221841000000002 37.92079803669793)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1361/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.491818600000001 39.47169263810133)"^^geosparql:wktLiteral .
+
+georesource:1378  a           geoes:Cala ;
+        rdfs:label             "1378" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1378"^^xsd:int ;
+        dc:title               "Cala d'Egos"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1378/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/897/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.8375461 39.926484438454125)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/321/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.317437500000001 42.31675223983863)"^^geosparql:wktLiteral .
+
+georesource:1348  a           geoes:Cala ;
+        rdfs:label             "1348" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1348"^^xsd:int ;
+        dc:title               "Cala Mayor"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1348/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/618/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.99166114 36.891907275606506)"^^geosparql:wktLiteral .
+
+georesource:622  a            geoes:Cala ;
+        rdfs:label             "622" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-06-13"^^xsd:date ;
+        dc:identifier          "622"^^xsd:int ;
+        dc:title               "Cala de la Esperanza"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/622/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1092/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.589448 39.7194028382969)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/854/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.293458299999999 39.90339463843687)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1023/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2438355000000003 38.96662023767769)"^^geosparql:wktLiteral .
+
+georesource:115  a            geoes:Cala ;
+        rdfs:label             "115" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2012-01-23"^^xsd:date ;
+        dc:identifier          "115"^^xsd:int ;
+        dc:title               "Cala de Calabarda"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/115/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/613/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.0626331200000005 36.79109339549312)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/979/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.6073138999999999 39.02966843773237)"^^geosparql:wktLiteral .
+
+georesource:960  a            geoes:Cala ;
+        rdfs:label             "960" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "960"^^xsd:int ;
+        dc:title               "Cala Morell"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/960/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1384/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.351751100000001 39.59666503820101)"^^geosparql:wktLiteral .
+
+georesource:1053  a           geoes:Cala ;
+        rdfs:label             "1053" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1053"^^xsd:int ;
+        dc:title               "Cala Codolar"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1053/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1315/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.833789900000001 39.36098103801131)"^^geosparql:wktLiteral .
+
+georesource:1234  a           geoes:Cala ;
+        rdfs:label             "1234" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1234"^^xsd:int ;
+        dc:title               "Cala Botà"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1234/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/905/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.835425300000001 39.967619938484674)"^^geosparql:wktLiteral .
+
+georesource:1149  a           geoes:Cala ;
+        rdfs:label             "1149" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1149"^^xsd:int ;
+        dc:title               "Cala Figuera"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1149/geometry> .
+
+georesource:1023  a           geoes:Cala ;
+        rdfs:label             "1023" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1023"^^xsd:int ;
+        dc:title               "Cala Bassa"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1023/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/134/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.2814556999999999 38.48979613724781)"^^geosparql:wktLiteral .
+
+georesource:1391  a           geoes:Cala ;
+        rdfs:label             "1391" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1391"^^xsd:int ;
+        dc:title               "Cala de ses Ortigues"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1391/geometry> .
+
+georesource:1119  a           geoes:Cala ;
+        rdfs:label             "1119" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1119"^^xsd:int ;
+        dc:title               "Cala es Codolar"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1119/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/122/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.4137093000000002 38.35264133711889)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1256/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.146240099999999 39.327388037983674)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1218/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.3687765999999995 39.5563758381691)"^^geosparql:wktLiteral .
+
+georesource:887  a            geoes:Cala ;
+        rdfs:label             "887" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "887"^^xsd:int ;
+        dc:title               "Cala Galdana"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/887/geometry> .
+
+georesource:1361  a           geoes:Cala ;
+        rdfs:label             "1361" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1361"^^xsd:int ;
+        dc:title               "Cala Rafeubetx"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1361/geometry> .
+
+georesource:857  a            geoes:Cala ;
+        rdfs:label             "857" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "857"^^xsd:int ;
+        dc:title               "Cala Rafalet"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/857/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1244/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2524871 39.39387573803822)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/42/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.3039894000000001 40.260397538695486)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1213/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.3930965799999995 39.61494038821542)"^^geosparql:wktLiteral .
+
+georesource:1246  a           geoes:Cala ;
+        rdfs:label             "1246" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1246"^^xsd:int ;
+        dc:title               "Cala Mitjana"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1246/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1003/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2699182000000002 38.87835613760029)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/624/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.7593760799999998 37.26227897601338)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1369/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.4793856999999995 39.51601443813693)"^^geosparql:wktLiteral .
+
+georesource:1301  a           geoes:Cala ;
+        rdfs:label             "1301" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1301"^^xsd:int ;
+        dc:title               "Cala Col Roig"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1301/geometry> .
+
+georesource:616  a            geoes:Cala ;
+        rdfs:label             "616" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-06-13"^^xsd:date ;
+        dc:identifier          "616"^^xsd:int ;
+        dc:title               "Cala del Bergantín"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/616/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1395/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.4615493000000006 39.651872438244396)"^^geosparql:wktLiteral .
+
+georesource:984  a            geoes:Cala ;
+        rdfs:label             "984" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "984"^^xsd:int ;
+        dc:title               "Cala Llonga"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/984/geometry> .
+
+georesource:1288  a           geoes:Cala ;
+        rdfs:label             "1288" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1288"^^xsd:int ;
+        dc:title               "Cala Ganduf"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1288/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/355/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2539021000000012 42.25272083981217)"^^geosparql:wktLiteral .
+
+georesource:954  a            geoes:Cala ;
+        rdfs:label             "954" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "954"^^xsd:int ;
+        dc:title               "Cala d'en Fust"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/954/geometry> .
+
+georesource:1132  a           geoes:Cala ;
+        rdfs:label             "1132" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1132"^^xsd:int ;
+        dc:title               "Cala Solleric"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1132/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1111/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.7757009 39.839926038389095)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/888/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.93638391 39.938085738462775)"^^geosparql:wktLiteral .
+
+georesource:321  a            geoes:Cala ;
+        rdfs:label             "321" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "321"^^xsd:int ;
+        dc:title               "Cala Fredosa"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/321/geometry> .
+
+georesource:628  a            geoes:Cala ;
+        rdfs:label             "628" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2010-12-22"^^xsd:date ;
+        dc:identifier          "628"^^xsd:int ;
+        dc:title               "Cala El Calón"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/628/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/857/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.2994650000000005 39.84048633838953)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/258/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.9511668999999996 41.73297893957544)"^^geosparql:wktLiteral .
+
+georesource:1017  a           geoes:Cala ;
+        rdfs:label             "1017" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1017"^^xsd:int ;
+        dc:title               "Cala Codolar"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1017/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1224/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.336391999999999 39.54138163815717)"^^geosparql:wktLiteral .
+
+georesource:966  a            geoes:Cala ;
+        rdfs:label             "966" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "966"^^xsd:int ;
+        dc:title               "Cala d'en Serra"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/966/geometry> .
+
+georesource:1089  a           geoes:Cala ;
+        rdfs:label             "1089" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1089"^^xsd:int ;
+        dc:title               "Cala de Son Buñola"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1089/geometry> .
+
+georesource:840  a            geoes:Cala ;
+        rdfs:label             "840" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "840"^^xsd:int ;
+        dc:title               "Cala Presili"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/840/geometry> .
+
+georesource:755  a            geoes:Cala ;
+        rdfs:label             "755" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-05-27"^^xsd:date ;
+        dc:identifier          "755"^^xsd:int ;
+        dc:title               "Cala Isabel"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/755/geometry> .
+
+georesource:1355  a           geoes:Cala ;
+        rdfs:label             "1355" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1355"^^xsd:int ;
+        dc:title               "Cala Portals Vells"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1355/geometry> .
+
+georesource:152  a            geoes:Cala ;
+        rdfs:label             "152" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2012-01-23"^^xsd:date ;
+        dc:identifier          "152"^^xsd:int ;
+        dc:title               "Cala de la Fustera"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/152/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/840/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.2557745 39.99342433850373)"^^geosparql:wktLiteral .
+
+georesource:1410  a           geoes:Cala ;
+        rdfs:label             "1410" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1410"^^xsd:int ;
+        dc:title               "Cala Fumada"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1410/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/630/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.6998986999999999 37.31938924607473)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1375/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.388632399999999 39.533458638150854)"^^geosparql:wktLiteral .
+
+georesource:122  a            geoes:Cala ;
+        rdfs:label             "122" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2012-01-23"^^xsd:date ;
+        dc:identifier          "122"^^xsd:int ;
+        dc:title               "Cala Palmera"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/122/geometry> .
+
+georesource:1114  a           geoes:Cala ;
+        rdfs:label             "1114" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1114"^^xsd:int ;
+        dc:title               "Cala de sa Calobra"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1114/geometry> .
+
+georesource:906  a            geoes:Cala ;
+        rdfs:label             "906" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "906"^^xsd:int ;
+        dc:title               "Cala Santandria"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/906/geometry> .
+
+georesource:882  a            geoes:Cala ;
+        rdfs:label             "882" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "882"^^xsd:int ;
+        dc:title               "Cala Escorxada"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/882/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1191/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.419248600000001 39.751435538321594)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/953/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.260932799999999 39.811773938367736)"^^geosparql:wktLiteral .
+
+georesource:978  a            geoes:Cala ;
+        rdfs:label             "978" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "978"^^xsd:int ;
+        dc:title               "Cala Negra"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/978/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1278/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.9917504400000006 39.314982067973446)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/151/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.0864808 38.66122093740564)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1247/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2273523999999996 39.367463538016615)"^^geosparql:wktLiteral .
+
+georesource:1156  a           geoes:Cala ;
+        rdfs:label             "1156" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1156"^^xsd:int ;
+        dc:title               "Cala en Gossalba"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1156/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/238/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.8838815999999996 43.349363440181605)"^^geosparql:wktLiteral .
+
+georesource:822  a            geoes:Cala ;
+        rdfs:label             "822" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "822"^^xsd:int ;
+        dc:title               "Cala Tirant"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/822/geometry> .
+
+georesource:1337  a           geoes:Cala ;
+        rdfs:label             "1337" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1337"^^xsd:int ;
+        dc:title               "Cala Vella"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1337/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1273/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.0284186999999996 39.28891063795183)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/684/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.3450055 36.7346792354292)"^^geosparql:wktLiteral .
+
+georesource:134  a            geoes:Cala ;
+        rdfs:label             "134" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-05-16"^^xsd:date ;
+        dc:identifier          "134"^^xsd:int ;
+        dc:title               "Cala del Xarco"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/134/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/615/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.0010895400000006 36.84558002555453)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1119/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.8429974999999996 39.86138103840533)"^^geosparql:wktLiteral .
+
+georesource:1198  a           geoes:Cala ;
+        rdfs:label             "1198" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1198"^^xsd:int ;
+        dc:title               "Cala de s'Àguila"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1198/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/851/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.2749428 39.93254663845865)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1230/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.296075900000001 39.499322838123554)"^^geosparql:wktLiteral .
+
+georesource:864  a            geoes:Cala ;
+        rdfs:label             "864" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "864"^^xsd:int ;
+        dc:title               "Cala de Binidalí"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/864/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1317/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.807716 39.366428438015774)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1145/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.0967368000000004 39.92830783845549)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/346/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1451759999999997 41.85082513963255)"^^geosparql:wktLiteral .
+
+georesource:357  a            geoes:Cala ;
+        rdfs:label             "357" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2012-03-20"^^xsd:date ;
+        dc:identifier          "357"^^xsd:int ;
+        dc:title               "Calla Guillota"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/357/geometry> .
+
+georesource:623  a            geoes:Cala ;
+        rdfs:label             "623" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2010-12-22"^^xsd:date ;
+        dc:identifier          "623"^^xsd:int ;
+        dc:title               "Cala de la Cueva"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/623/geometry> .
+
+georesource:1223  a           geoes:Cala ;
+        rdfs:label             "1223" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1223"^^xsd:int ;
+        dc:title               "Cala Petita"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1223/geometry> .
+
+georesource:1138  a           geoes:Cala ;
+        rdfs:label             "1138" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1138"^^xsd:int ;
+        dc:title               "Cala Estremer"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1138/geometry> .
+
+georesource:1012  a           geoes:Cala ;
+        rdfs:label             "1012" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1012"^^xsd:int ;
+        dc:title               "Cala Vedella"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1012/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/87/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.6525351000000001 37.997906536774764)"^^geosparql:wktLiteral .
+
+georesource:1380  a           geoes:Cala ;
+        rdfs:label             "1380" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1380"^^xsd:int ;
+        dc:title               "Cala d'en Tió"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/1380/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/287/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2270237999999987 41.96437073968568)"^^geosparql:wktLiteral .
+
+georesource:961  a            geoes:Cala ;
+        rdfs:label             "961" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "961"^^xsd:int ;
+        dc:title               "Cala del Pilar"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/961/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cala/1284/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.9597043 39.185839137865635)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cala/1074/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.5817823 39.0083211377139)"^^geosparql:wktLiteral .
+
+georesource:846  a            geoes:Cala ;
+        rdfs:label             "846" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "846"^^xsd:int ;
+        dc:title               "Cala en Cavaller"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cala/846/geometry> .
+
