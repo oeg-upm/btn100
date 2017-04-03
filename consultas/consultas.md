@@ -1,7 +1,8 @@
 # CONSULTAS
 
 ### Obtener los albergues 1km a la redonda de los itinerarios
-
+    prefix geoes: <http://geo.linkeddata.es>
+    prefix geosparql: <http://www.opengis.net/ont/geosparql#>
     SELECT DISTINCT ?pname ?aname
     WHERE {
       ?albergue rdf:type geoes:Albergue.
@@ -12,7 +13,7 @@
       ?s dc:title ?pname.
       ?s geosparql:hasGeometry ?pgeo .
       ?pgeo geosparql:asWKT ?w .
-      FILTER (bif:st intersects (?apos, ?w, 1))
+      FILTER (bif:st_intersects (?apos, ?w, 1))
     }
     ORDER BY ASC(?pname)
 ### Obtener las comunidades autónomas donde están situados los aeropuertos
@@ -26,20 +27,20 @@
         ?a dc:title ?aeropuerto.
         ?a geosparql:hasGeometry ?ageo.
         ?ageo geosparql:asWKT ?apos.
-        FILTER (bif:st within(?cpos,?apos)).
+        FILTER (bif:st_within(?cpos,?apos)).
       }
-      ORDER BY DESC(?cname)
+      ORDER BY DESC(?comunidad)
 
 ### Obtener los puntos de interés que estén a 5km a la redonda de sol
 
-      SELECT DISTINCT (bif:st distance(bif:st point(-3.7035, 40.4169), ?ca pos)) as ?distance
+      SELECT DISTINCT (bif:st_distance(bif:st point(-3.7035, 40.4169), ?ca_pos)) as ?distance
       ?title
       WHERE {
         ?ca rdf:type geoes:LugarDeInteres.
         ?ca dc:title ?title .
-        ?ca geosparql:hasGeometry ?ca geo .
-        ?ca geo geosparql:asWKT ?ca pos .
-        FILTER (bif:st intersects (bif:st point(-3.7035, 40.4169), ?ca pos, 5)) .
+        ?ca geosparql:hasGeometry ?ca_geo .
+        ?ca geo geosparql:asWKT ?ca_pos .
+        FILTER (bif:st_intersects (bif:st_point(-3.7035, 40.4169), ?ca_pos, 5)) .
       }
       ORDER BY ASC(?distance)
 
@@ -56,7 +57,7 @@
         ?playa dc:title ?plname .
         ?playa geosparql:hasGeometry ?plgeo .
         ?plgeo geosparql:asWKT ?plpos .
-        FILTER (bif:st within(?ppos, ?plpos)) .
+        FILTER (bif:st_within(?ppos, ?plpos)) .
       }
       GROUP BY ?pname
       ORDER BY DESC(?count)
@@ -78,7 +79,7 @@
             ?playa dc:title ?plname .
             ?playa geosparql:hasGeometry ?plgeo .
             ?plgeo geosparql:asWKT ?plpos .
-            FILTER (bif:st within(?ppos, ?plpos)) .
+            FILTER (bif:st_within(?ppos, ?plpos)) .
           }
         }
       }
@@ -90,11 +91,11 @@
       SELECT *
       WHERE {
         ?myairport rdf:type geoes:Aeropuerto.
-        ?myairport owl:sameAs ?dbpedia airport.
-        filter (regex(str(?dbpedia airport), “ˆ(http://dbpedia.org/resource/)([a-z]| |-)+$”, “i”)).
+        ?myairport owl:sameAs ?dbpedia_airport.
+        filter (regex(str(?dbpedia_airport), "ˆ(http://dbpedia.org/resource/)([a-z]| |-)+$", "i")).
         SERVICE <http://dbpedia.org/sparql> {
-          ?dbpedia airport rdfs:comment ?comment.
-          FILTER langMatches(lang(?comment), “es”).
+          ?dbpedia_airport rdfs:comment ?comment.
+          FILTER langMatches(lang(?comment), "es").
         }
       }
 
