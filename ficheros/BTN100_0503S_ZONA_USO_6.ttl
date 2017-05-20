@@ -1,0 +1,387 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix geoes: <http://geo.linkeddata.es/ontology/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georesource: <http://geo.linkeddata.es/recurso/ZonaFerroviaria/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+<http://geo.linkeddata.es/recurso/ZonaFerroviaria/2896/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.6824818800000005 40.35156023875874, -3.680258180000001 40.35102089875837, -3.6786756799999987 40.34893935875695, -3.678662209999999 40.34759531875601, -3.6785591900000023 40.347136528755684, -3.678253599999999 40.345775698754764, -3.677853809999999 40.34485016875411, -3.6774942900000016 40.34401786875354, -3.6767326400000013 40.34202108875216, -3.6755839799999985 40.340355128751, -3.677066019999999 40.34022697875094, -3.678061800000001 40.340872538751384, -3.6793057999999985 40.34164903875191, -3.6801589000000012 40.34218453875228, -3.6814977999999985 40.34302353875288, -3.681877599999999 40.343327638753074, -3.6821033000000005 40.343524538753215, -3.6822705 40.343757738753354, -3.682403000000001 40.34405433875358, -3.6824901 40.34451323875389, -3.682491890000001 40.34469152875403, -3.682502999999999 40.34580153875476, -3.6825012299999997 40.346715338755416, -3.6824972999999988 40.3487385387568, -3.6825949000000002 40.349080338757034, -3.683481899999999 40.35063363875812, -3.6836503000000005 40.35098403875834, -3.6837606000000003 40.35141583875863, -3.6837805 40.352217538759206, -3.6824818800000005 40.35156023875874))"^^geosparql:wktLiteral .
+
+georesource:4688  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaFerroviaria ;
+        rdfs:label             "4688" ;
+        dc:created             "2012-04-17"^^xsd:date ;
+        dc:identifier          "4688"^^xsd:int ;
+        dc:title               "Estació de ferrocarril"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaFerroviaria/4688/geometry> .
+
+georesource:19693  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaFerroviaria ;
+        rdfs:label             "19693" ;
+        dc:created             "2012-04-03"^^xsd:date ;
+        dc:identifier          "19693"^^xsd:int ;
+        dc:replaces            "49722"^^xsd:int ;
+        dc:title               "Estación de Villaseca Y Mocejon"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaFerroviaria/19693/geometry> .
+
+georesource:2896  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaFerroviaria ;
+        rdfs:label             "2896" ;
+        dc:created             "2012-09-19"^^xsd:date ;
+        dc:identifier          "2896"^^xsd:int ;
+        dc:title               "Estación de Clasificación"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaFerroviaria/2896/geometry> .
+
+<http://geo.linkeddata.es/recurso/ZonaFerroviaria/4688/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((0.63046884 41.62260547952013, 0.6307660099999999 41.622859739520266, 0.6310403500000001 41.623064639520344, 0.6329519900000002 41.621664919519645, 0.6341189600000001 41.620658899519135, 0.6362949200000001 41.61884710951822, 0.6360796600000002 41.61862135951811, 0.6355762699999998 41.61800799951777, 0.63460973 41.618731399518154, 0.6323949399999998 41.62027481951894, 0.6324041499999998 41.62102510951932, 0.63046884 41.62260547952013))"^^geosparql:wktLiteral .
+
+georesource:7417  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaFerroviaria ;
+        rdfs:label             "7417" ;
+        dc:created             "2012-02-16"^^xsd:date ;
+        dc:identifier          "7417"^^xsd:int ;
+        dc:title               "Almacén ferroviario"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaFerroviaria/7417/geometry> .
+
+georesource:15682  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaFerroviaria ;
+        rdfs:label             "15682" ;
+        dc:created             "2012-12-08"^^xsd:date ;
+        dc:identifier          "15682"^^xsd:int ;
+        dc:title               "Estación antigua de Tharsis"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaFerroviaria/15682/geometry> .
+
+<http://geo.linkeddata.es/recurso/ZonaFerroviaria/7759/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.01134745 40.006248098513154, -3.0119725399999995 40.00685759851361, -3.0122012299999996 40.007033408513735, -3.0124653299999995 40.00732369851395, -3.012368979999999 40.00742022851401, -3.0116830099999996 40.00742615851402, -3.01098176 40.00721522851386, -3.01056253 40.00705114851374, -3.0102423900000015 40.006857758513604, -3.0102417500000005 40.006425028513284, -3.0107650299999995 40.00662817851343, -3.01134745 40.006248098513154))"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ZonaFerroviaria/10005/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-1.85403842 39.00375998770997, -1.8539421399999998 39.00534647771134, -1.8538404500000003 39.00550877771149, -1.8534063499999993 39.00578510771172, -1.8508403900000001 39.003357927709615, -1.8490928999999998 39.00181765770827, -1.8486953600000002 39.00142859770795, -1.8472573600000004 39.000152017706824, -1.8462950300000005 38.99907652770592, -1.8460504200000003 38.99880314770566, -1.8450356999999997 38.99762359770464, -1.8456567700000002 38.997538607704584, -1.8461112499999992 38.99787599770488, -1.846926940000001 38.9975752077046, -1.84949099 39.00011924770681, -1.85016562 38.99974808770649, -1.8511157300000005 39.000876097707454, -1.85403842 39.00375998770997))"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ZonaFerroviaria/9041/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-4.701341230000001 41.289158939342435, -4.696942459999999 41.28544442934039, -4.697601400000001 41.28527747934029, -4.69895008 41.285400519340335, -4.702182700000001 41.28728247934139, -4.706195990000002 41.29002471934293, -4.70256178 41.28961850934269, -4.701341230000001 41.289158939342435))"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ZonaFerroviaria/3886/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-1.8072554999999995 43.335134040177955, -1.8075848 43.335457550178035, -1.80752588 43.335536650178064, -1.80741441 43.33569729017812, -1.8073135299999996 43.33586162017812, -1.8069824900000004 43.33639918017828, -1.80655016 43.336994190178444, -1.8061807600000002 43.33744362017856, -1.80576758 43.33808268017873, -1.8038440599999999 43.339343160179034, -1.8019453300000001 43.340435330179325, -1.8011639099999994 43.34004984017923, -1.8005134300000003 43.33992387017918, -1.7996903500000003 43.34027268017929, -1.7985085599999997 43.340875860179445, -1.7981108600000004 43.34064842017939, -1.7978426300000008 43.34015398017925, -1.7985402799999999 43.339267710179044, -1.7991267600000005 43.33849941017884, -1.8017117199999995 43.337096760178454, -1.8033791 43.336697200178364, -1.8044449599999997 43.3364501901783, -1.8051559199999996 43.3361172701782, -1.8067009900000002 43.335163140177954, -1.8072554999999995 43.335134040177955))"^^geosparql:wktLiteral .
+
+georesource:11819  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaFerroviaria ;
+        rdfs:label             "11819" ;
+        dc:created             "2012-11-23"^^xsd:date ;
+        dc:identifier          "11819"^^xsd:int ;
+        dc:title               "Estación de ferrocarril de Santander"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaFerroviaria/11819/geometry> .
+
+<http://geo.linkeddata.es/recurso/ZonaFerroviaria/9225/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-4.721894090000001 41.6434379695307, -4.720850609999999 41.64180894952987, -4.72010888 41.64068116952929, -4.722326759999999 41.63994573952894, -4.7262598 41.63859558952824, -4.727368619999999 41.640240059529084, -4.7270135699999996 41.64071599952932, -4.726853769999999 41.64183237952989, -4.724773210000001 41.64258852953028, -4.7244281500000005 41.64192322952993, -4.723263420000001 41.6428656895304, -4.721894090000001 41.6434379695307))"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ZonaFerroviaria/7503/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.128662330000001 40.58447572891518, -3.1291798500000003 40.58503015891554, -3.1267470600000005 40.587112708916905, -3.12481622 40.58856869891785, -3.12413487 40.58801049891749, -3.1234025600000006 40.587432918917095, -3.124690569999999 40.58640492891642, -3.1251499200000006 40.58533714891574, -3.12592252 40.58527606891571, -3.12681127 40.585931808916136, -3.128662330000001 40.58447572891518))"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ZonaFerroviaria/11039/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-1.1957062999999999 37.96970324674673, -1.19100161 37.97030600674734, -1.18894736 37.97030506674734, -1.1884796600000003 37.97008225674712, -1.1881691699999999 37.969684366746726, -1.18835835 37.96903797674609, -1.19054509 37.968138896745195, -1.1914515299999997 37.96776619674482, -1.1959653399999999 37.96703775674408, -1.1995305300000003 37.96838826674545, -1.1957062999999999 37.96970324674673))"^^geosparql:wktLiteral .
+
+georesource:16361  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaFerroviaria ;
+        rdfs:label             "16361" ;
+        dc:created             "2013-03-07"^^xsd:date ;
+        dc:identifier          "16361"^^xsd:int ;
+        dc:title               "Estació de Soller"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaFerroviaria/16361/geometry> .
+
+<http://geo.linkeddata.es/recurso/ZonaFerroviaria/19118/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-8.547591840000004 42.86992228004199, -8.547130370000001 42.87009788004205, -8.5466241 42.87032053004212, -8.546108850000001 42.87057963004222, -8.54592274 42.87068770004225, -8.545766629999997 42.87085733004229, -8.545517870000001 42.87108547004237, -8.545122759999998 42.871455750042486, -8.544817999999998 42.87160559004252, -8.544438509999999 42.87174107004258, -8.544020039999998 42.87185142004263, -8.54336349 42.87203634004268, -8.542730500000001 42.87221113004275, -8.54215523 42.87234709004279, -8.54097292 42.87267457004288, -8.53916576 42.873131380043034, -8.538546199999997 42.87331575004308, -8.53838442 42.87320825004307, -8.54141511 42.87111006004238, -8.546642119999998 42.868912880041655, -8.54695923 42.86895305004167, -8.547274469999998 42.86940983004182, -8.547591840000004 42.86992228004199))"^^geosparql:wktLiteral .
+
+georesource:4075  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaFerroviaria ;
+        rdfs:label             "4075" ;
+        dc:created             "2012-05-30"^^xsd:date ;
+        dc:identifier          "4075"^^xsd:int ;
+        dc:title               "Estación de Ferrocarril de Altsasu"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaFerroviaria/4075/geometry> .
+
+georesource:13781  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaFerroviaria ;
+        rdfs:label             "13781" ;
+        dc:created             "2013-05-16"^^xsd:date ;
+        dc:identifier          "13781"^^xsd:int ;
+        dc:title               "Estación de FF.CC de Almería"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaFerroviaria/13781/geometry> .
+
+georesource:7503  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaFerroviaria ;
+        rdfs:label             "7503" ;
+        dc:created             "2012-06-20"^^xsd:date ;
+        dc:identifier          "7503"^^xsd:int ;
+        dc:title               "Estación AVE"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaFerroviaria/7503/geometry> .
+
+<http://geo.linkeddata.es/recurso/ZonaFerroviaria/3630/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-2.931773469999999 43.25711147015742, -2.9320056600000015 43.25727770015746, -2.9312511299999997 43.258322000157726, -2.93065433 43.25927401015799, -2.9276288400000006 43.26103503015845, -2.9273834200000013 43.2611778701585, -2.9266124100000006 43.26049335015833, -2.9269192799999995 43.260292290158255, -2.926392779999999 43.25987034015814, -2.9278486100000003 43.258662470157816, -2.92808154 43.25846922015777, -2.9288784199999993 43.2578402501576, -2.9297068099999994 43.25740337015749, -2.9300864100000004 43.25734976015746, -2.9301894600000007 43.25764368015753, -2.9307110999999995 43.257573400157526, -2.9313683099999994 43.257178490157415, -2.931773469999999 43.25711147015742))"^^geosparql:wktLiteral .
+
+georesource:20092  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaFerroviaria ;
+        rdfs:label             "20092" ;
+        dc:created             "2012-03-15"^^xsd:date ;
+        dc:identifier          "20092"^^xsd:int ;
+        dc:title               "Instalaciones del AVE Madrid-Valencia"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaFerroviaria/20092/geometry> .
+
+georesource:564  a            geoes:ZonaDeUsoCaracteristico , geoes:ZonaFerroviaria ;
+        rdfs:label             "564" ;
+        dc:created             "2012-05-12"^^xsd:date ;
+        dc:identifier          "564"^^xsd:int ;
+        dc:title               "Instalaciones del F.C.AV.Madrid-Valencia"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaFerroviaria/564/geometry> .
+
+<http://geo.linkeddata.es/recurso/ZonaFerroviaria/7030/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-1.0641009599999998 41.64833478953316, -1.0636147200000001 41.648923759533474, -1.0618052999999998 41.648803269533396, -1.0521163200000005 41.64608800953206, -1.04506013 41.64368818953084, -1.0390499700000002 41.64141435952966, -1.03441118 41.63927225952859, -1.03123389 41.63786072952788, -1.0295286499999996 41.63682721952734, -1.0287380400000001 41.63665079952725, -1.0278692000000005 41.63695153952742, -1.02597018 41.6345536695262, -1.0340931 41.63615443952703, -1.0384686299999997 41.637487549527684, -1.0479327000000003 41.64037023952916, -1.0482496000000001 41.64046683952919, -1.060807 41.64651573953226, -1.0641009599999998 41.64833478953316))"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ZonaFerroviaria/2907/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.6832388000000016 40.4677444388377, -3.6836805999999997 40.470597738839615, -3.6836496000000003 40.47103033883992, -3.683361399999999 40.47169863884036, -3.682912100000001 40.47275533884108, -3.6817483 40.47550093884292, -3.681529 40.475979738843236, -3.6809812500000016 40.47578290884312, -3.6803544599999993 40.475557678842954, -3.679904050000001 40.47539582884284, -3.6811498999999994 40.47231533884078, -3.6815766999999995 40.471357838840134, -3.682045120000002 40.470339538839454, -3.6832388000000016 40.4677444388377))"^^geosparql:wktLiteral .
+
+georesource:6792  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaFerroviaria ;
+        rdfs:label             "6792" ;
+        dc:created             "2012-10-15"^^xsd:date ;
+        dc:identifier          "6792"^^xsd:int ;
+        dc:title               "Cargadero de Sariñena"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaFerroviaria/6792/geometry> .
+
+<http://geo.linkeddata.es/recurso/ZonaFerroviaria/13727/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-5.94922116 37.36574880612426, -5.947483339999999 37.36621438612476, -5.946378569999999 37.366510356125076, -5.9450799199999995 37.367087426125686, -5.94525229 37.36661726612519, -5.946045149999999 37.365268706123764, -5.948629089999999 37.363663866122046, -5.94884962 37.36396772612236, -5.949462310000003 37.36481191612327, -5.949825369999999 37.36531213612379, -5.949934789999999 37.36579600612432, -5.94922116 37.36574880612426))"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ZonaFerroviaria/11872/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.84989728 43.4307501902019, -3.8480746900000016 43.42944707020159, -3.84627246 43.426482360200865, -3.84597919 43.42505862020052, -3.84655437 43.42477334020046, -3.8482158800000006 43.42688981020097, -3.84989728 43.4307501902019))"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ZonaFerroviaria/20092/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.355632840000001 39.958226858477715, -3.350653320000001 39.959316178478524, -3.3490835700000003 39.95965952847878, -3.3445695100000004 39.960638608479506, -3.34400361 39.95975714847886, -3.34416728 39.958894778478204, -3.34709513 39.9583096784778, -3.3542368400000004 39.95688211847672, -3.355632840000001 39.958226858477715))"^^geosparql:wktLiteral .
+
+georesource:3886  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaFerroviaria ;
+        rdfs:label             "3886" ;
+        dc:created             "2012-04-19"^^xsd:date ;
+        dc:identifier          "3886"^^xsd:int ;
+        dc:title               "Estación Irún-Colón/Irungo Tren Geltokia"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaFerroviaria/3886/geometry> .
+
+georesource:2894  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaFerroviaria ;
+        rdfs:label             "2894" ;
+        dc:created             "2012-09-19"^^xsd:date ;
+        dc:identifier          "2894"^^xsd:int ;
+        dc:title               "Estación de El Salobral"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaFerroviaria/2894/geometry> .
+
+<http://geo.linkeddata.es/recurso/ZonaFerroviaria/3885/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-1.793008 43.34451155018036, -1.7934759800000002 43.34479733018045, -1.7941112999999997 43.34514492018054, -1.7937024500000003 43.34588902018072, -1.7930089799999998 43.34655687018089, -1.7896112000000002 43.349122340181545, -1.78845121 43.349983800181754, -1.78739847 43.350366100181866, -1.7872294500000003 43.35034640018185, -1.78663414 43.35010187018178, -1.78602739 43.34969712018169, -1.7859798400000004 43.34966249018167, -1.7859370200000004 43.34963133018167, -1.78587317 43.34958482018167, -1.7872693899999996 43.3485920601814, -1.7877194599999997 43.34822131018131, -1.7887341799999998 43.3473854201811, -1.79069624 43.3458672001807, -1.7922533300000003 43.34487090018046, -1.793008 43.34451155018036))"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ZonaFerroviaria/15682/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-7.102120500000002 37.596947456367594, -7.101656429999999 37.59755752636824, -7.09989269 37.59777492636846, -7.09898015 37.59755382636823, -7.09844416 37.59748237636815, -7.098332169999997 37.59743576636811, -7.098429960000001 37.59679872636746, -7.098702630000001 37.596327316366946, -7.1015077400000015 37.59636167636699, -7.102120500000002 37.596947456367594))"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ZonaFerroviaria/6792/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-0.17044744 41.81764706961667, -0.17038429 41.81683069961628, -0.17204622 41.815411519615594, -0.1729414 41.81516810961547, -0.17708203 41.81420803961502, -0.17725401 41.81486700961531, -0.17754465 41.8158359896158, -0.17615949 41.816194259615976, -0.1713305800000001 41.81741011961656, -0.1707202 41.81757388961664, -0.17044744 41.81764706961667))"^^geosparql:wktLiteral .
+
+georesource:6229  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaFerroviaria ;
+        rdfs:label             "6229" ;
+        dc:created             "2012-03-15"^^xsd:date ;
+        dc:identifier          "6229"^^xsd:int ;
+        dc:title               "Estació De Camp De Tarragona"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaFerroviaria/6229/geometry> .
+
+georesource:4951  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaFerroviaria ;
+        rdfs:label             "4951" ;
+        dc:created             "2012-03-29"^^xsd:date ;
+        dc:identifier          "4951"^^xsd:int ;
+        dc:title               "Cambiador Portbou"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaFerroviaria/4951/geometry> .
+
+<http://geo.linkeddata.es/recurso/ZonaFerroviaria/4075/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-2.1824530900000005 42.898106270051166, -2.1819790599999997 42.898021000051116, -2.18082569 42.897668530051014, -2.1789967800000003 42.89584966005042, -2.1795738200000008 42.89527400005024, -2.180179900000001 42.893577070049695, -2.1805654800000003 42.892716310049416, -2.1808707500000004 42.892660340049396, -2.1812923899999994 42.893275090049606, -2.181972280000001 42.894990380050125, -2.182546859999999 42.89758884005097, -2.1824530900000005 42.898106270051166))"^^geosparql:wktLiteral .
+
+georesource:11039  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaFerroviaria ;
+        rdfs:label             "11039" ;
+        dc:created             "2012-06-04"^^xsd:date ;
+        dc:identifier          "11039"^^xsd:int ;
+        dc:title               "Estación de Murcia Cargas"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaFerroviaria/11039/geometry> .
+
+georesource:7030  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaFerroviaria ;
+        rdfs:label             "7030" ;
+        dc:created             "2012-03-29"^^xsd:date ;
+        dc:identifier          "7030"^^xsd:int ;
+        dc:title               "Estación de Zaragoza Plaza"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaFerroviaria/7030/geometry> .
+
+georesource:2909  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaFerroviaria ;
+        rdfs:label             "2909" ;
+        dc:created             "2012-10-14"^^xsd:date ;
+        dc:identifier          "2909"^^xsd:int ;
+        dc:title               "Estación de Madrid-Puerta de Atocha"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaFerroviaria/2909/geometry> .
+
+georesource:3885  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaFerroviaria ;
+        rdfs:label             "3885" ;
+        dc:created             "2012-04-19"^^xsd:date ;
+        dc:identifier          "3885"^^xsd:int ;
+        dc:title               "Estación de Santiagoko Zubia/Santiagoko Zubia Tren Geltokia"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaFerroviaria/3885/geometry> .
+
+<http://geo.linkeddata.es/recurso/ZonaFerroviaria/19693/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.8392870999999986 39.97796253849232, -3.8412907499999998 39.97024233848662, -3.8413111999999985 39.970163538486545, -3.8434592 39.96294913848123, -3.8450765200000006 39.95922605847845, -3.8451671000000007 39.95901753847831, -3.845956660000002 39.95754194847722, -3.8472384999999996 39.955146238475436, -3.8472566999999995 39.95515433847543, -3.84746015 39.95524535847551, -3.8479465000000013 39.955462938475684, -3.8484274999999992 39.95567813847584, -3.8475656000000007 39.95793683847751, -3.8475756000000016 39.958070828477624, -3.847672579999999 39.95937077847856, -3.8478041000000003 39.961133538479885, -3.8456563 39.96926693848588, -3.8449510800000004 39.971583878487614, -3.8444020000000014 39.97297003848864, -3.8429762999999992 39.9741607384895, -3.8416175 39.975089538490195, -3.8400025 39.9780474384924, -3.8397156000000012 39.97801333849236, -3.8392870999999986 39.97796253849232))"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ZonaFerroviaria/4548/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-2.4782173200000006 41.75538585958644, -2.47749894 41.75494128958624, -2.4753810899999995 41.75601739958675, -2.47361218 41.75632515958691, -2.4731399 41.7560964395868, -2.47360247 41.75577824958665, -2.474788410000001 41.75529196958641, -2.4774801000000015 41.75401337958577, -2.47789315 41.75426560958589, -2.4793487799999996 41.75370487958562, -2.479751080000001 41.75354989958555, -2.4804593200000005 41.75334850958544, -2.48160205 41.75302354958529, -2.48170441 41.75324286958541, -2.4815101100000008 41.7534453095855, -2.4808929300000004 41.75402535958578, -2.48089438 41.75432793958592, -2.4782173200000006 41.75538585958644))"^^geosparql:wktLiteral .
+
+georesource:6601  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaFerroviaria ;
+        rdfs:label             "6601" ;
+        dc:created             "2012-03-31"^^xsd:date ;
+        dc:identifier          "6601"^^xsd:int ;
+        dc:title               "Estación de Canfranc"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaFerroviaria/6601/geometry> .
+
+georesource:11872  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaFerroviaria ;
+        rdfs:label             "11872" ;
+        dc:created             "2013-01-22"^^xsd:date ;
+        dc:identifier          "11872"^^xsd:int ;
+        dc:title               "Estación de ferrocarril de Muriedas"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaFerroviaria/11872/geometry> .
+
+<http://geo.linkeddata.es/recurso/ZonaFerroviaria/5576/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((1.7892745699999997 41.41785546941291, 1.7887195800000002 41.41820013941308, 1.78865898 41.41854613941327, 1.7886827400000005 41.41945376941377, 1.78890822 41.41971102941392, 1.7922541599999997 41.421004579414586, 1.7940589000000002 41.421702229414976, 1.7944937599999993 41.42162522941493, 1.7948409899999997 41.42115988941468, 1.7948427999999998 41.42033123941422, 1.7921823 41.419451939413754, 1.7907674899999997 41.41878242941338, 1.7892745699999997 41.41785546941291))"^^geosparql:wktLiteral .
+
+georesource:7007  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaFerroviaria ;
+        rdfs:label             "7007" ;
+        dc:created             "2012-03-19"^^xsd:date ;
+        dc:identifier          "7007"^^xsd:int ;
+        dc:title               "Estación de Zaragoza Delicias"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaFerroviaria/7007/geometry> .
+
+georesource:9041  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaFerroviaria ;
+        rdfs:label             "9041" ;
+        dc:created             "2012-07-26"^^xsd:date ;
+        dc:identifier          "9041"^^xsd:int ;
+        dc:title               "Estación de Olmedo - A.V."@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaFerroviaria/9041/geometry> .
+
+georesource:10005  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaFerroviaria ;
+        rdfs:label             "10005" ;
+        dc:created             "2012-05-08"^^xsd:date ;
+        dc:identifier          "10005"^^xsd:int ;
+        dc:title               "Estación de Albacete"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaFerroviaria/10005/geometry> .
+
+<http://geo.linkeddata.es/recurso/ZonaFerroviaria/6229/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((1.2710110100000003 41.19315422928833, 1.27556612 41.1924064392879, 1.2754254799999998 41.1913331892873, 1.27262393 41.19187875928761, 1.2698278699999999 41.19235435928789, 1.270183 41.19297176928825, 1.2710110100000003 41.19315422928833))"^^geosparql:wktLiteral .
+
+georesource:5576  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaFerroviaria ;
+        rdfs:label             "5576" ;
+        dc:created             "2012-03-29"^^xsd:date ;
+        dc:identifier          "5576"^^xsd:int ;
+        dc:title               "Estació de Sant Sadurni d'Anoia"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaFerroviaria/5576/geometry> .
+
+<http://geo.linkeddata.es/recurso/ZonaFerroviaria/2894/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.6892403400000005 40.33335892874621, -3.6888186000000003 40.33348453874629, -3.687601999999999 40.33424853874683, -3.6864454999999996 40.33513833874742, -3.685908899999999 40.33562803874777, -3.6851757000000016 40.33646123874832, -3.6845842000000006 40.33734763874896, -3.6841587000000002 40.33835013874963, -3.683922000000001 40.33939653875036, -3.6838841999999987 40.340315738750995, -3.6834872000000005 40.340642438751225, -3.6832244 40.34026553875098, -3.6822391 40.33946053875041, -3.681095899999999 40.33817893874953, -3.6799449 40.3372758387489, -3.6796124999999993 40.33700743874872, -3.679421899999999 40.33678333874855, -3.6793264000000003 40.336648838748474, -3.6792424 40.336496138748366, -3.6790981 40.33619063874816, -3.6790601 40.33592063874797, -3.6790678000000003 40.3355151387477, -3.6791353 40.335199438747466, -3.67921378 40.33467430874712, -3.6801605700000004 40.334258218746825, -3.68174072 40.333782418746495, -3.6855031000000014 40.333363408746216, -3.685832790000001 40.33336301874621, -3.6892403400000005 40.33335892874621))"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ZonaFerroviaria/7417/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-2.9202902 40.80379512905563, -2.9302299 40.795044939050136, -2.93104866 40.795615369050495, -2.9211895800000014 40.80402376905577, -2.9202902 40.80379512905563))"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ZonaFerroviaria/564/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-0.7964687600000001 39.45063801808434, -0.7934194100000002 39.450141078083924, -0.7927539399999999 39.45003262808385, -0.7926175099999999 39.449331748083274, -0.7926214900000004 39.44908613808307, -0.79328732 39.44904413808306, -0.7953054800000001 39.44891681808293, -0.79676216 39.44969960808357, -0.7966590499999999 39.45002938808384, -0.7964687600000001 39.45063801808434))"^^geosparql:wktLiteral .
+
+georesource:3630  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaFerroviaria ;
+        rdfs:label             "3630" ;
+        dc:created             "2012-06-05"^^xsd:date ;
+        dc:identifier          "3630"^^xsd:int ;
+        dc:title               "Abando Indalecio Prieto Intermodala"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaFerroviaria/3630/geometry> .
+
+<http://geo.linkeddata.es/recurso/ZonaFerroviaria/4951/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((3.1581070699999994 42.429844329883856, 3.15812381 42.42918303988361, 3.1579190699999993 42.42826979988323, 3.1578608799999994 42.42708367988277, 3.1578399499999996 42.42607474988239, 3.15813207 42.425147189882004, 3.1586626800000004 42.42391934988155, 3.1589006800000003 42.42342817988135, 3.1591921399999987 42.42224837988088, 3.1586310999999996 42.422119639880826, 3.1582861200000005 42.422687689881045, 3.1573169199999995 42.42298723988117, 3.1568777700000004 42.42399679988158, 3.15651025 42.42421544988165, 3.15577541 42.424734569881856, 3.15323178 42.42310184988122, 3.152568879999999 42.42293911988116, 3.1516678900000006 42.423839699881505, 3.15360453 42.425166719882014, 3.15409601 42.42550009988216, 3.1547968899999996 42.426042119882375, 3.1552195700000003 42.426499149882545, 3.1562528700000008 42.427403099882916, 3.156919630000001 42.42814685988322, 3.1572037 42.429232019883614, 3.15725166 42.430009129883935, 3.1579223299999994 42.42987991988388, 3.1581070699999994 42.429844329883856))"^^geosparql:wktLiteral .
+
+georesource:7759  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaFerroviaria ;
+        rdfs:label             "7759" ;
+        dc:created             "2012-02-08"^^xsd:date ;
+        dc:identifier          "7759"^^xsd:int ;
+        dc:title               "Estación de Tarancón"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaFerroviaria/7759/geometry> .
+
+<http://geo.linkeddata.es/recurso/ZonaFerroviaria/7007/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-0.9153128 41.657629739537875, -0.91590837 41.65827537953818, -0.9156668799999998 41.65888549953849, -0.91530223 41.65980675953897, -0.9152096799999999 41.660072219539096, -0.9148465299999999 41.660828009539486, -0.91434556 41.660987129539535, -0.9120071299999998 41.66041533953927, -0.9100169699999999 41.65990621953902, -0.9090769399999998 41.65962889953887, -0.9081172700000004 41.65904479953859, -0.90745813 41.65861700953835, -0.9074728600000002 41.65788661953801, -0.9076623199999999 41.65753108953782, -0.90807823 41.65683658953748, -0.9088227000000002 41.65555733953681, -0.9097638000000001 41.65579063953695, -0.9111445000000002 41.65617593953712, -0.9142851099999996 41.6572713295377, -0.9153128 41.657629739537875))"^^geosparql:wktLiteral .
+
+georesource:9225  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaFerroviaria ;
+        rdfs:label             "9225" ;
+        dc:created             "2012-12-26"^^xsd:date ;
+        dc:identifier          "9225"^^xsd:int ;
+        dc:title               "Estación de Valladolid-Campo Grande"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaFerroviaria/9225/geometry> .
+
+<http://geo.linkeddata.es/recurso/ZonaFerroviaria/2909/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.6930971999999986 40.40768543879712, -3.6927705700000004 40.40799986879733, -3.6920236000000006 40.40871893879784, -3.690698299999999 40.40820433879747, -3.6899152999999996 40.40769543879713, -3.6889662 40.40707953879671, -3.6863540700000006 40.404624348795046, -3.68692497 40.40421062879475, -3.6850401799999997 40.4023736287935, -3.686062599999999 40.401988538793255, -3.68675679 40.40158532879295, -3.6879942100000003 40.40271298879376, -3.692820300000001 40.407110538796736, -3.6930122499999993 40.40740950879693, -3.6930971999999986 40.40768543879712))"^^geosparql:wktLiteral .
+
+georesource:4548  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaFerroviaria ;
+        rdfs:label             "4548" ;
+        dc:created             "2012-08-07"^^xsd:date ;
+        dc:identifier          "4548"^^xsd:int ;
+        dc:title               "Estación de ferrocarril del Cañuelo"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaFerroviaria/4548/geometry> .
+
+<http://geo.linkeddata.es/recurso/ZonaFerroviaria/13781/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-2.4533332799999994 36.836672865544514, -2.4514801099999994 36.83607198554384, -2.4512025400000006 36.8357616355435, -2.4511547999999994 36.83546294554316, -2.4547654500000005 36.83427094554183, -2.4557236999999996 36.83406851554161, -2.45619398 36.83535969554304, -2.4538241700000003 36.836508555544334, -2.4533332799999994 36.836672865544514))"^^geosparql:wktLiteral .
+
+georesource:13727  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaFerroviaria ;
+        rdfs:label             "13727" ;
+        dc:created             "2013-04-25"^^xsd:date ;
+        dc:identifier          "13727"^^xsd:int ;
+        dc:title               "Cocheras del Metro de Sevilla"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaFerroviaria/13727/geometry> .
+
+<http://geo.linkeddata.es/recurso/ZonaFerroviaria/11819/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.8280710000000013 43.452979380207275, -3.828295400000001 43.45358163020742, -3.8288157999999997 43.45394734020752, -3.82776026 43.4543430902076, -3.8270424500000013 43.45461220020768, -3.8210155400000017 43.45620568020806, -3.8183060700000007 43.45739198020834, -3.8166701600000006 43.45841382020859, -3.8157427400000006 43.45878618020866, -3.812409129999999 43.45980263020891, -3.8114062100000003 43.45989684020893, -3.81097356 43.45972574020889, -3.81021339 43.45830301020855, -3.81030575 43.45805852020848, -3.8155709700000005 43.45668004020816, -3.81631101 43.456461010208116, -3.8178968200000014 43.45540947020786, -3.818562159999999 43.45510863020778, -3.821538480000001 43.454216470207584, -3.82194604 43.454300630207605, -3.822116670000001 43.454543230207655, -3.82263603 43.45476405020771, -3.82382973 43.45439690020763, -3.8280710000000013 43.452979380207275))"^^geosparql:wktLiteral .
+
+georesource:2907  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaFerroviaria ;
+        rdfs:label             "2907" ;
+        dc:created             "2012-10-13"^^xsd:date ;
+        dc:identifier          "2907"^^xsd:int ;
+        dc:title               "Estación de Madrid-Chamartín"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaFerroviaria/2907/geometry> .
+
+<http://geo.linkeddata.es/recurso/ZonaFerroviaria/6601/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-0.5135587799999999 42.75454847000329, -0.5137543900000001 42.75494782000343, -0.5139400799999999 42.75521864000354, -0.51386615 42.75523451000353, -0.5133279800000001 42.75535003000358, -0.5131149200000001 42.75505640000348, -0.5129758399999998 42.75490563000343, -0.51228906 42.75532641000356, -0.5120519000000001 42.75517829000351, -0.5120186800000002 42.75488385000343, -0.5121982499999997 42.75364237000299, -0.51272792 42.750493500001916, -0.5128209499999999 42.749614370001616, -0.5129331900000001 42.74921887000146, -0.5138710899999999 42.749223530001466, -0.5140751799999999 42.748430980001196, -0.51424887 42.74761467000093, -0.51464401 42.74753085000087, -0.5150068500000002 42.74864757000127, -0.51474741 42.750824980002015, -0.514618 42.751427570002214, -0.5142659499999999 42.753066860002775, -0.5140972100000001 42.753738730003036, -0.51353563 42.75435625000323, -0.5135587799999999 42.75454847000329))"^^geosparql:wktLiteral .
+
+georesource:19118  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaFerroviaria ;
+        rdfs:label             "19118" ;
+        dc:created             "2013-03-13"^^xsd:date ;
+        dc:identifier          "19118"^^xsd:int ;
+        dc:title               "Estación de Santiago de Compostela"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaFerroviaria/19118/geometry> .
+
+<http://geo.linkeddata.es/recurso/ZonaFerroviaria/16361/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((2.654697950000001 39.57559936818436, 2.6537361599999993 39.57630513818491, 2.65404236 39.57682515818533, 2.6543262 39.57694823818541, 2.655751489999999 39.577868448186145, 2.657809 39.579232778187254, 2.6583811 39.57894483818702, 2.6588254499999997 39.57853669818668, 2.65860359 39.578181738186395, 2.656789540000001 39.57698234818545, 2.654697950000001 39.57559936818436))"^^geosparql:wktLiteral .
+

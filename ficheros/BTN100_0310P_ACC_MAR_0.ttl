@@ -1,0 +1,168 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix geoes: <http://geo.linkeddata.es/ontology/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georesource: <http://geo.linkeddata.es/recurso/Pennon/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+<http://geo.linkeddata.es/recurso/Pennon/385/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.6397482000000005 41.604799439511055)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Pennon/148/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.083969 38.63108003737816)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Pennon/2075/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.103863200000001 43.475570740212646)"^^geosparql:wktLiteral .
+
+georesource:10  a             geoes:Pennon ;
+        rdfs:label             "10" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2012-01-13"^^xsd:date ;
+        dc:identifier          "10"^^xsd:int ;
+        dc:title               "La Peñiscoleta"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Pennon/10/geometry> .
+
+<http://geo.linkeddata.es/recurso/Pennon/1764/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.73681194 42.37647277986274)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Pennon/10/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.5003005 40.498983738858605)"^^geosparql:wktLiteral .
+
+georesource:385  a            geoes:Pennon ;
+        rdfs:label             "385" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2012-03-27"^^xsd:date ;
+        dc:identifier          "385"^^xsd:int ;
+        dc:title               "Roca Grossa"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Pennon/385/geometry> .
+
+georesource:682  a            geoes:Pennon ;
+        rdfs:label             "682" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-05-07"^^xsd:date ;
+        dc:identifier          "682"^^xsd:int ;
+        dc:title               "Peñón de San Patricio"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Pennon/682/geometry> .
+
+georesource:691  a            geoes:Pennon ;
+        rdfs:label             "691" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-05-07"^^xsd:date ;
+        dc:identifier          "691"^^xsd:int ;
+        dc:title               "Peñón de Salobreña"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Pennon/691/geometry> .
+
+<http://geo.linkeddata.es/recurso/Pennon/23/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.1063038 40.05671133855006)"^^geosparql:wktLiteral .
+
+georesource:24  a             geoes:Pennon ;
+        rdfs:label             "24" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2012-01-14"^^xsd:date ;
+        dc:identifier          "24"^^xsd:int ;
+        dc:title               "Roca de los Cañones"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Pennon/24/geometry> .
+
+georesource:148  a            geoes:Pennon ;
+        rdfs:label             "148" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2012-01-23"^^xsd:date ;
+        dc:identifier          "148"^^xsd:int ;
+        dc:title               "Penyal d'Ifac"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Pennon/148/geometry> .
+
+georesource:1764  a           geoes:Pennon ;
+        rdfs:label             "1764" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-02-14"^^xsd:date ;
+        dc:identifier          "1764"^^xsd:int ;
+        dc:title               "Peñón del Chirteu"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Pennon/1764/geometry> .
+
+georesource:14  a             geoes:Pennon ;
+        rdfs:label             "14" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2012-01-13"^^xsd:date ;
+        dc:identifier          "14"^^xsd:int ;
+        dc:title               "La Roca Plana"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Pennon/14/geometry> .
+
+<http://geo.linkeddata.es/recurso/Pennon/693/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.6945186000000008 36.727720235421266)"^^geosparql:wktLiteral .
+
+georesource:23  a             geoes:Pennon ;
+        rdfs:label             "23" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2012-01-14"^^xsd:date ;
+        dc:identifier          "23"^^xsd:int ;
+        dc:title               "Roca del Chivero"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Pennon/23/geometry> .
+
+<http://geo.linkeddata.es/recurso/Pennon/691/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.5936183000000006 36.73543503543005)"^^geosparql:wktLiteral .
+
+georesource:379  a            geoes:Pennon ;
+        rdfs:label             "379" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2012-03-26"^^xsd:date ;
+        dc:identifier          "379"^^xsd:int ;
+        dc:title               "Les Penyes Roges"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Pennon/379/geometry> .
+
+<http://geo.linkeddata.es/recurso/Pennon/24/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.0904996 40.055621638549276)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Pennon/379/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.8961169 41.24970883932036)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Pennon/14/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.4529480999999999 40.44183193882025)"^^geosparql:wktLiteral .
+
+georesource:2075  a           geoes:Pennon ;
+        rdfs:label             "2075" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-02-06"^^xsd:date ;
+        dc:identifier          "2075"^^xsd:int ;
+        dc:title               "Peñón del Forno"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Pennon/2075/geometry> .
+
+<http://geo.linkeddata.es/recurso/Pennon/17/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.4073057999999999 40.356454338762106)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Pennon/682/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.2338573 36.749591335446134)"^^geosparql:wktLiteral .
+
+georesource:17  a             geoes:Pennon ;
+        rdfs:label             "17" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2012-01-13"^^xsd:date ;
+        dc:identifier          "17"^^xsd:int ;
+        dc:title               "El Bufador"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Pennon/17/geometry> .
+
+georesource:693  a            geoes:Pennon ;
+        rdfs:label             "693" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-05-07"^^xsd:date ;
+        dc:identifier          "693"^^xsd:int ;
+        dc:title               "Peñón del Santo"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Pennon/693/geometry> .
+

@@ -1,0 +1,152 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix geoes: <http://geo.linkeddata.es/ontology/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georesource: <http://geo.linkeddata.es/recurso/Esclusa/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+<http://geo.linkeddata.es/recurso/Esclusa/18/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.3067075899982825 42.638832089962506)"^^geosparql:wktLiteral .
+
+georesource:6  a              geoes:Esclusa ;
+        rdfs:label             "6" ;
+        dc:created             "2013-07-03"^^xsd:date ;
+        dc:identifier          "6"^^xsd:int ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Esclusa/6/geometry> .
+
+georesource:14  a             geoes:Esclusa ;
+        rdfs:label             "14" ;
+        dc:created             "2013-07-03"^^xsd:date ;
+        dc:identifier          "14"^^xsd:int ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Esclusa/14/geometry> .
+
+<http://geo.linkeddata.es/recurso/Esclusa/8/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.358161873677239 42.26970556726545)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Esclusa/13/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.311861269999714 42.58635649994336)"^^geosparql:wktLiteral .
+
+georesource:5  a              geoes:Esclusa ;
+        rdfs:label             "5" ;
+        dc:created             "2013-07-03"^^xsd:date ;
+        dc:identifier          "5"^^xsd:int ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Esclusa/5/geometry> .
+
+<http://geo.linkeddata.es/recurso/Esclusa/11/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.297873147884434 42.54277908219773)"^^geosparql:wktLiteral .
+
+georesource:13  a             geoes:Esclusa ;
+        rdfs:label             "13" ;
+        dc:created             "2013-07-03"^^xsd:date ;
+        dc:identifier          "13"^^xsd:int ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Esclusa/13/geometry> .
+
+<http://geo.linkeddata.es/recurso/Esclusa/16/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.3140182099498325 42.61999943116043)"^^geosparql:wktLiteral .
+
+georesource:12  a             geoes:Esclusa ;
+        rdfs:label             "12" ;
+        dc:created             "2013-07-03"^^xsd:date ;
+        dc:identifier          "12"^^xsd:int ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Esclusa/12/geometry> .
+
+georesource:18  a             geoes:Esclusa ;
+        rdfs:label             "18" ;
+        dc:created             "2013-07-03"^^xsd:date ;
+        dc:identifier          "18"^^xsd:int ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Esclusa/18/geometry> .
+
+<http://geo.linkeddata.es/recurso/Esclusa/9/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.2725847899997245 42.5113319499153)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Esclusa/14/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.313826132337598 42.59406603106374)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Esclusa/6/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.531292677319535 42.16548032461359)"^^geosparql:wktLiteral .
+
+georesource:17  a             geoes:Esclusa ;
+        rdfs:label             "17" ;
+        dc:created             "2013-07-03"^^xsd:date ;
+        dc:identifier          "17"^^xsd:int ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Esclusa/17/geometry> .
+
+georesource:11  a             geoes:Esclusa ;
+        rdfs:label             "11" ;
+        dc:created             "2013-07-03"^^xsd:date ;
+        dc:identifier          "11"^^xsd:int ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Esclusa/11/geometry> .
+
+georesource:9  a              geoes:Esclusa ;
+        rdfs:label             "9" ;
+        dc:created             "2013-07-03"^^xsd:date ;
+        dc:identifier          "9"^^xsd:int ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Esclusa/9/geometry> .
+
+<http://geo.linkeddata.es/recurso/Esclusa/17/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.3126878699985625 42.62646578995799)"^^geosparql:wktLiteral .
+
+georesource:8  a              geoes:Esclusa ;
+        rdfs:label             "8" ;
+        dc:created             "2013-07-03"^^xsd:date ;
+        dc:identifier          "8"^^xsd:int ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Esclusa/8/geometry> .
+
+georesource:10  a             geoes:Esclusa ;
+        rdfs:label             "10" ;
+        dc:created             "2013-07-03"^^xsd:date ;
+        dc:identifier          "10"^^xsd:int ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Esclusa/10/geometry> .
+
+georesource:16  a             geoes:Esclusa ;
+        rdfs:label             "16" ;
+        dc:created             "2013-07-03"^^xsd:date ;
+        dc:identifier          "16"^^xsd:int ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Esclusa/16/geometry> .
+
+<http://geo.linkeddata.es/recurso/Esclusa/15/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.3147191999991374 42.60520839995027)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Esclusa/7/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.416141809999397 42.251019969811466)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Esclusa/12/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.313894516777171 42.56414429719706)"^^geosparql:wktLiteral .
+
+georesource:15  a             geoes:Esclusa ;
+        rdfs:label             "15" ;
+        dc:created             "2013-07-03"^^xsd:date ;
+        dc:identifier          "15"^^xsd:int ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Esclusa/15/geometry> .
+
+georesource:7  a              geoes:Esclusa ;
+        rdfs:label             "7" ;
+        dc:created             "2013-07-03"^^xsd:date ;
+        dc:identifier          "7"^^xsd:int ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Esclusa/7/geometry> .
+
+<http://geo.linkeddata.es/recurso/Esclusa/5/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.524692009999684 41.92159742966586)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Esclusa/10/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.283788215220157 42.528993238110345)"^^geosparql:wktLiteral .
+

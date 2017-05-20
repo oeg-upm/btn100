@@ -1,0 +1,1692 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix geoes: <http://geo.linkeddata.es/ontology/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georesource: <http://geo.linkeddata.es/recurso/Universidad/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+<http://geo.linkeddata.es/recurso/Universidad/30063/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.453515780000002 36.136316674730075)"^^geosparql:wktLiteral .
+
+georesource:24417  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "24417" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "24417"^^xsd:int ;
+        dc:title               "Campus Muralla del Mar"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/24417/geometry> .
+
+georesource:27446  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "27446" ;
+        geoes:bicCode          "RI-51-0005057-00000"@es ;
+        dc:created             "2012-09-07"^^xsd:date ;
+        dc:identifier          "27446"^^xsd:int ;
+        dc:title               "Universidad Pontificia de Comillas"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/27446/geometry> .
+
+georesource:7054  a           geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "7054" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "7054"^^xsd:int ;
+        dc:title               "Universidad Pública de Burgos"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/7054/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/25550/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.5581369 42.612629189953)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/12024/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.12354384 41.40565993940632)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/29622/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.461420469999999 36.71109408540236)"^^geosparql:wktLiteral .
+
+georesource:27567  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "27567" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2013-01-22"^^xsd:date ;
+        dc:identifier          "27567"^^xsd:int ;
+        dc:title               "Facultad de Medicina"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/27567/geometry> .
+
+georesource:3011  a           geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "3011" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "3011"^^xsd:int ;
+        dc:title               "Universidad Rey Juan Carlos Campus Fuenlabrada"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/3011/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/35364/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.734609859999999 42.227258579801486)"^^geosparql:wktLiteral .
+
+georesource:28852  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "28852" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "28852"^^xsd:int ;
+        dc:title               "Campus Centro"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/28852/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/41840/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.025655999999999 39.85939003840381)"^^geosparql:wktLiteral .
+
+georesource:12029  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "12029" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "12029"^^xsd:int ;
+        dc:title               "Campus Politècnic San Cugat del Vallés"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/12029/geometry> .
+
+georesource:31544  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "31544" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "31544"^^xsd:int ;
+        dc:title               "Universidad de Córdoba Campus Rabanales"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/31544/geometry> .
+
+georesource:17094  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "17094" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "17094"^^xsd:int ;
+        dc:title               "Universidad Castilla La Mancha"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/17094/geometry> .
+
+georesource:27817  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "27817" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "27817"^^xsd:int ;
+        dc:title               "Universidad de Jaén Campus de Linares"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/27817/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/12019/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.9766240400000001 41.280058569337356)"^^geosparql:wktLiteral .
+
+georesource:38402  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "38402" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "38402"^^xsd:int ;
+        dc:title               "Universidad Pública Campus Lugo"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/38402/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/22357/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.704999739999998 40.66705883896882)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/32500/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.975988900000002 37.37868236613803)"^^geosparql:wktLiteral .
+
+georesource:33388  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "33388" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "33388"^^xsd:int ;
+        dc:title               "Universidad de Vigo Campus Ourense"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/33388/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/12020/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.19194958 41.38185882939342)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/39663/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.555962230000001 43.00562769008497)"^^geosparql:wktLiteral .
+
+georesource:36629  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "36629" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "36629"^^xsd:int ;
+        dc:title               "Universidad Santiago de Compostela"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/36629/geometry> .
+
+georesource:31068  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "31068" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "31068"^^xsd:int ;
+        dc:title               "Universidad Nacional de Educación a Distancia"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/31068/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/39874/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.850369499999999 43.3567720401835)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/24417/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.9796394300000001 37.599692916370444)"^^geosparql:wktLiteral .
+
+georesource:32503  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "32503" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2013-04-23"^^xsd:date ;
+        dc:identifier          "32503"^^xsd:int ;
+        dc:title               "Campus Universitario Macarena"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/32503/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/27816/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.468020809999999 37.99193731676883)"^^geosparql:wktLiteral .
+
+georesource:10385  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "10385" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "10385"^^xsd:int ;
+        dc:title               "Universitat de Girona"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/10385/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/10385/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.827760090000001 41.98539535969531)"^^geosparql:wktLiteral .
+
+georesource:3006  a           geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "3006" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "3006"^^xsd:int ;
+        dc:title               "Universidad Internacional Menendez Pelayo"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/3006/geometry> .
+
+georesource:12024  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "12024" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "12024"^^xsd:int ;
+        dc:title               "Universitat Internacional de Catalunya"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/12024/geometry> .
+
+georesource:30062  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "30062" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "30062"^^xsd:int ;
+        dc:title               "Universidad de Cádiz Campus Jerez de la Frontera"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/30062/geometry> .
+
+georesource:24420  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "24420" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "24420"^^xsd:int ;
+        dc:title               "Universidad de Murcia Campus La Merced"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/24420/geometry> .
+
+georesource:30546  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "30546" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "30546"^^xsd:int ;
+        dc:title               "Universidad de Huelva Campus El Carmen"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/30546/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/21586/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.667074370000002 40.962569889153094)"^^geosparql:wktLiteral .
+
+georesource:3014  a           geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "3014" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "3014"^^xsd:int ;
+        dc:title               "Universidad Pontifícia de Comillas"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/3014/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/19579/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.113951219999999 40.94295691914124)"^^geosparql:wktLiteral .
+
+georesource:18858  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "18858" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "18858"^^xsd:int ;
+        dc:title               "Campus Ciudad de Plasencia"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/18858/geometry> .
+
+georesource:22071  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "22071" ;
+        geoes:bicCode          "RI-51-0000841-00000"@es ;
+        dc:created             "2012-05-03"^^xsd:date ;
+        dc:identifier          "22071"^^xsd:int ;
+        dc:title               "Instituto (Las Escuelas Menores)"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/22071/geometry> .
+
+georesource:12032  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "12032" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "12032"^^xsd:int ;
+        dc:title               "Campus Politècnic Vilanova i La Geltrú"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/12032/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/36632/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.222931510000002 43.48281195021437)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/24416/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.18475939 37.99103212676793)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/32134/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.000636150000002 37.411404336172794)"^^geosparql:wktLiteral .
+
+georesource:36148  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "36148" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "36148"^^xsd:int ;
+        dc:title               "Universidad Santiago de Compostela"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/36148/geometry> .
+
+georesource:39874  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "39874" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "39874"^^xsd:int ;
+        dc:title               "Universidad para Mayores Oviedo"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/39874/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/3013/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.84470032 40.34858829875669)"^^geosparql:wktLiteral .
+
+georesource:36632  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "36632" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "36632"^^xsd:int ;
+        dc:title               "Universidad UNED de Ferrol"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/36632/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/17592/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.1732866299999998 40.62999781894487)"^^geosparql:wktLiteral .
+
+georesource:29622  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "29622" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "29622"^^xsd:int ;
+        dc:title               "Universidad Nacional de Educación a Distancia"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/29622/geometry> .
+
+georesource:31071  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "31071" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "31071"^^xsd:int ;
+        dc:title               "Universidad Nacional de Educación a Distancia"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/31071/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/12031/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.13295455 41.41480452941126)"^^geosparql:wktLiteral .
+
+georesource:26927  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "26927" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "26927"^^xsd:int ;
+        dc:title               "UNED Santander"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/26927/geometry> .
+
+georesource:12019  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "12019" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "12019"^^xsd:int ;
+        dc:title               "Campus Baix Llobregat"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/12019/geometry> .
+
+georesource:30420  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "30420" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "30420"^^xsd:int ;
+        dc:title               "Universidad Internacional Campus La Rábida"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/30420/geometry> .
+
+georesource:25550  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "25550" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "25550"^^xsd:int ;
+        dc:title               "Universidad de León"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/25550/geometry> .
+
+georesource:24415  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "24415" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "24415"^^xsd:int ;
+        dc:title               "Campus Paseo Alfonso XIII"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/24415/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/3008/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.71907402 40.45332264882799)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/17932/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.1438275500000006 40.07809097856559)"^^geosparql:wktLiteral .
+
+georesource:17931  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "17931" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "17931"^^xsd:int ;
+        dc:title               "UNED Centro Asociado Cuenca"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/17931/geometry> .
+
+georesource:10388  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "10388" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "10388"^^xsd:int ;
+        dc:title               "Campus Girona Centre"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/10388/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/21585/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.7607764999999995 40.38489748878159)"^^geosparql:wktLiteral .
+
+georesource:3009  a           geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "3009" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "3009"^^xsd:int ;
+        dc:title               "Universidad para Mayores 25 años"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/3009/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/12468/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.0710572800000007 41.4698579894407)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/12026/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.1120610000000006 41.38887753939724)"^^geosparql:wktLiteral .
+
+georesource:357  a            geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "357" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "357"^^xsd:int ;
+        dc:title               "Universitat Nacional a Distància"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/357/geometry> .
+
+georesource:12027  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "12027" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "12027"^^xsd:int ;
+        dc:title               "Universitat Ramón Llull"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/12027/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/32133/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.992631839999999 37.392618746152856)"^^geosparql:wktLiteral .
+
+georesource:5166  a           geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "5166" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2012-04-20"^^xsd:date ;
+        dc:identifier          "5166"^^xsd:int ;
+        dc:title               "Mondragon Unibertsitatea / Universidad de Mondragón"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/5166/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/3004/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.8361188 40.3994356287915)"^^geosparql:wktLiteral .
+
+georesource:35363  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "35363" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "35363"^^xsd:int ;
+        dc:title               "Universidad de Vigo Campus Pontevedra"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/35363/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/31071/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.289912 39.88267503842133)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/30061/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.303163219999999 36.5344689351995)"^^geosparql:wktLiteral .
+
+georesource:13220  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "13220" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "13220"^^xsd:int ;
+        dc:title               "Universitat Rovira i Virgili"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/13220/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/357/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.10410942 39.934867738460376)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/18856/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.610429530000001 39.98371809849658)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/12022/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.1862410800000003 41.39141624939862)"^^geosparql:wktLiteral .
+
+georesource:3522  a           geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "3522" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "3522"^^xsd:int ;
+        dc:title               "Universidad Politécnica de Madrid"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/3522/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/12030/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.4545634999999995 41.55217253948392)"^^geosparql:wktLiteral .
+
+georesource:9087  a           geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "9087" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "9087"^^xsd:int ;
+        dc:title               "Universitat de Lleida"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/9087/geometry> .
+
+georesource:32501  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "32501" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2013-04-23"^^xsd:date ;
+        dc:identifier          "32501"^^xsd:int ;
+        dc:title               "Campus Pirotecnia"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/32501/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/35362/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.625289060000002 42.44254599988882)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/23341/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.735024280000002 41.51232349946313)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/41508/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.0413598 39.86415960840742)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/8718/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.4640718600000002 41.76224282958981)"^^geosparql:wktLiteral .
+
+georesource:21586  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "21586" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "21586"^^xsd:int ;
+        dc:title               "Universidad Pontifícia"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/21586/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/36148/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.55796344 42.876078010044)"^^geosparql:wktLiteral .
+
+georesource:32998  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "32998" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "32998"^^xsd:int ;
+        dc:title               "Universidad Ciudad de Mérida"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/32998/geometry> .
+
+georesource:39877  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "39877" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "39877"^^xsd:int ;
+        dc:title               "Universidad de Oviedo"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/39877/geometry> .
+
+georesource:12469  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "12469" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2012-04-13"^^xsd:date ;
+        dc:identifier          "12469"^^xsd:int ;
+        dc:title               "Universitat de Vic"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/12469/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/17931/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.1465569799999997 40.07745350856513)"^^geosparql:wktLiteral .
+
+georesource:3004  a           geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "3004" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "3004"^^xsd:int ;
+        dc:title               "Universidad CEU San Pablo Campus Monteprincipe"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/3004/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/12025/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.1616595000000003 41.40397903940542)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/29623/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.451613300000002 36.71004104540115)"^^geosparql:wktLiteral .
+
+georesource:19578  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "19578" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "19578"^^xsd:int ;
+        dc:title               "Campus Universitario Santa Cruz la Real"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/19578/geometry> .
+
+georesource:12022  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "12022" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "12022"^^xsd:int ;
+        dc:title               "Campus Autónoma de la Ciutadella"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/12022/geometry> .
+
+georesource:30060  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "30060" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "30060"^^xsd:int ;
+        dc:title               "Universidad de Cádiz Campus Puerto Real"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/30060/geometry> .
+
+georesource:24418  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "24418" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "24418"^^xsd:int ;
+        dc:title               "Universidad Nacional de Educación a Distancia"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/24418/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/30546/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.92332188 37.27115911602293)"^^geosparql:wktLiteral .
+
+georesource:17592  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "17592" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2012-06-20"^^xsd:date ;
+        dc:identifier          "17592"^^xsd:int ;
+        dc:title               "Universidad"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/17592/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/30060/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.211819939999999 36.52998054519431)"^^geosparql:wktLiteral .
+
+georesource:3012  a           geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "3012" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "3012"^^xsd:int ;
+        dc:title               "Universidad Carlos III Campus Colmenarejo"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/3012/geometry> .
+
+georesource:18856  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "18856" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "18856"^^xsd:int ;
+        dc:title               "Universidad Popular"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/18856/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/32501/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.97796861 37.377360366136635)"^^geosparql:wktLiteral .
+
+georesource:28853  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "28853" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "28853"^^xsd:int ;
+        dc:title               "Universidad de Granada"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/28853/geometry> .
+
+georesource:1281  a           geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "1281" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "1281"^^xsd:int ;
+        dc:title               "Universitat Católica San Vicente Mártir"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/1281/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/12021/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.1766061300000006 41.378146979391424)"^^geosparql:wktLiteral .
+
+georesource:12030  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "12030" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "12030"^^xsd:int ;
+        dc:title               "Campus Politècnic Mataró"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/12030/geometry> .
+
+georesource:32133  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "32133" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "32133"^^xsd:int ;
+        dc:title               "Facultad de Bellas Artes"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/32133/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/35361/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.678725500000002 42.16985303977705)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/39875/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.85616803 43.35827672018388)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/24418/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.9772464600000002 37.61052154638169)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/27817/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.6280000700000015 38.09291296686842)"^^geosparql:wktLiteral .
+
+georesource:39872  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "39872" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "39872"^^xsd:int ;
+        dc:title               "Universidad de Oviedo Campus de Gijón"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/39872/geometry> .
+
+georesource:36630  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "36630" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "36630"^^xsd:int ;
+        dc:title               "UNED La Coruña"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/36630/geometry> .
+
+georesource:29620  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "29620" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "29620"^^xsd:int ;
+        dc:title               "Universidad Internacional Campus Campanillas"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/29620/geometry> .
+
+georesource:31069  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "31069" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "31069"^^xsd:int ;
+        dc:title               "Universidad Nacional de Educación a Distancia"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/31069/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/3015/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.3598714400000005 40.49800960885795)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/38402/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.552802500000001 42.99370454008131)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/10386/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.8617757 42.03601757971822)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/28852/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.5959869399999995 37.19152797593683)"^^geosparql:wktLiteral .
+
+georesource:23341  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "23341" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "23341"^^xsd:int ;
+        dc:title               "Campus Universitario Zamora"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/23341/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/3563/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.9489661899999997 40.60082326892588)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/36629/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.544443530000002 42.889600880048405)"^^geosparql:wktLiteral .
+
+georesource:40962  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "40962" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2013-04-26"^^xsd:date ;
+        dc:identifier          "40962"^^xsd:int ;
+        dc:title               "Universidad de Oviedo Campus de los Catalanaes"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/40962/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/36630/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.42299789 43.37257887018749)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/24414/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.69603764 37.678488156451934)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/5165/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.415235000000001 43.03398804009361)"^^geosparql:wktLiteral .
+
+georesource:41508  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "41508" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "41508"^^xsd:int ;
+        dc:title               "Universidad de Castilla La Mancha"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/41508/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/9087/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.61929799 41.61497016951625)"^^geosparql:wktLiteral .
+
+georesource:10386  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "10386" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "10386"^^xsd:int ;
+        dc:title               "Campus Barri Vell"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/10386/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/12904/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.127513089999999 41.40955348940843)"^^geosparql:wktLiteral .
+
+georesource:3007  a           geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "3007" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "3007"^^xsd:int ;
+        dc:title               "Universidad Privada Esic"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/3007/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/3011/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.8197460700000003 40.28297036871126)"^^geosparql:wktLiteral .
+
+georesource:12025  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "12025" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "12025"^^xsd:int ;
+        dc:title               "Campus Autónoma de la Diagonal"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/12025/geometry> .
+
+georesource:30063  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "30063" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "30063"^^xsd:int ;
+        dc:title               "Universidad de Cádiz Campus de Algeciras"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/30063/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/31543/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.207764270000001 38.267314887037514)"^^geosparql:wktLiteral .
+
+georesource:22356  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "22356" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "22356"^^xsd:int ;
+        dc:title               "Universidad Salamanca Campus Ávila"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/22356/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/9869/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2740000000000005 41.67065003954442)"^^geosparql:wktLiteral .
+
+georesource:5164  a           geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "5164" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2012-04-20"^^xsd:date ;
+        dc:identifier          "5164"^^xsd:int ;
+        dc:title               "Euskal Herriko Unibertsitatea / Universidad del País Vasco"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/5164/geometry> .
+
+georesource:35361  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "35361" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "35361"^^xsd:int ;
+        dc:title               "Universidad de Vigo Campus Lagoas-Marcosende"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/35361/geometry> .
+
+georesource:3015  a           geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "3015" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "3015"^^xsd:int ;
+        dc:title               "Universidad Cardenal Cisneros"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/3015/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/3006/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.7201545099999977 40.44350848882138)"^^geosparql:wktLiteral .
+
+georesource:18859  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "18859" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "18859"^^xsd:int ;
+        dc:title               "Universidad de Extremadura"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/18859/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/31073/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.144992499999998 39.93626403846141)"^^geosparql:wktLiteral .
+
+georesource:8718  a           geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "8718" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2012-08-07"^^xsd:date ;
+        dc:identifier          "8718"^^xsd:int ;
+        dc:title               "Universidad Nacional de Educación a Distancia"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/8718/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/3014/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.7113062400000008 40.42967402881205)"^^geosparql:wktLiteral .
+
+georesource:12033  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "12033" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "12033"^^xsd:int ;
+        dc:title               "Campus Politècnic Igualada"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/12033/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/2004/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.4350217000000001 38.38894278715324)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/18858/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.083783660000002 40.035512648534606)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/12032/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.7244499999999996 41.21674453930174)"^^geosparql:wktLiteral .
+
+georesource:39875  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "39875" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "39875"^^xsd:int ;
+        dc:title               "Universidad de Oviedo Campus de Llamaquique"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/39875/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/33388/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.851373959999999 42.3440098498497)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/5164/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.0100008499999995 43.30790343017086)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/3009/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.7189065 40.422173538806966)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/31068/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.4393315000000002 38.92259253763919)"^^geosparql:wktLiteral .
+
+georesource:39662  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "39662" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2013-05-15"^^xsd:date ;
+        dc:identifier          "39662"^^xsd:int ;
+        dc:title               "Universidad"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/39662/geometry> .
+
+georesource:21137  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "21137" ;
+        geoes:bicCode          "RI-51-0009172-00000"@es ;
+        dc:created             "2012-06-14"^^xsd:date ;
+        dc:identifier          "21137"^^xsd:int ;
+        dc:title               "Universidad de Valladolid"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/21137/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/20163/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.51676797 41.98629171969571)"^^geosparql:wktLiteral .
+
+georesource:29623  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "29623" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "29623"^^xsd:int ;
+        dc:title               "Universidad de Málaga"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/29623/geometry> .
+
+georesource:31072  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "31072" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "31072"^^xsd:int ;
+        dc:title               "Universidad Internacional Uimir"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/31072/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/3010/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.7203253699999985 40.44519280882252)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/12469/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.24735717 41.93371203967152)"^^geosparql:wktLiteral .
+
+georesource:12020  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "12020" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "12020"^^xsd:int ;
+        dc:title               "Campus del Mar Pompeu Fabra"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/12020/geometry> .
+
+georesource:30421  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "30421" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "30421"^^xsd:int ;
+        dc:title               "I.C.E Universidad Sevilla-Huelva"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/30421/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/17094/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.1708178199999986 40.62921165894434)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/12027/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.13043839 41.41166002940955)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/3468/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.3629999999999995 40.48285003884784)"^^geosparql:wktLiteral .
+
+georesource:25551  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "25551" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "25551"^^xsd:int ;
+        dc:title               "Universidad de León Campus Ponferrada"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/25551/geometry> .
+
+georesource:24416  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "24416" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "24416"^^xsd:int ;
+        dc:title               "Universidad Católica San Antonio"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/24416/geometry> .
+
+georesource:7053  a           geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "7053" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "7053"^^xsd:int ;
+        dc:title               "Escuela Politécnica Superior de Burgos - Campus Rio Vena"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/7053/geometry> .
+
+georesource:17932  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "17932" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "17932"^^xsd:int ;
+        dc:title               "Universidad Castilla La Mancha"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/17932/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/13219/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.52145236 40.81884507906501)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/7054/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.726737180000001 42.33920682984775)"^^geosparql:wktLiteral .
+
+georesource:3010  a           geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "3010" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "3010"^^xsd:int ;
+        dc:title               "Universidad Pontificia de Salamanca, (Campus de Madrid)"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/3010/geometry> .
+
+georesource:9869  a           geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "9869" ;
+        geoes:bicCode          "RI-51-0001209-00000"@es ;
+        dc:created             "2012-03-20"^^xsd:date ;
+        dc:identifier          "9869"^^xsd:int ;
+        dc:title               "Universitat de Cervera"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/9869/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/3005/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.71686643 40.44301068882104)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/13220/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2603766899999995 41.11975874924611)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/31072/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.26641901 39.88885588842598)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/30062/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.1392240000000005 36.70264503539272)"^^geosparql:wktLiteral .
+
+georesource:12028  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "12028" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "12028"^^xsd:int ;
+        dc:title               "Universitat Oberta Campus Sant Cugat"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/12028/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/12023/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.179722349999999 41.37901343939187)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/32503/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.99283657 37.40544253616646)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/18857/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.088224779999999 40.03173307853182)"^^geosparql:wktLiteral .
+
+georesource:31543  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "31543" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "31543"^^xsd:int ;
+        dc:title               "Universidad de Córdoba Campus Belmez"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/31543/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/29621/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.473816499999999 36.717589535409765)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/32998/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.33864839 38.90680834762535)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/26927/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.82038119 43.45806921020851)"^^geosparql:wktLiteral .
+
+georesource:27816  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "27816" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "27816"^^xsd:int ;
+        dc:title               "Universidad Internacional de Andalucía"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/27816/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/35363/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.63712455 42.44069110988811)"^^geosparql:wktLiteral .
+
+georesource:35364  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "35364" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "35364"^^xsd:int ;
+        dc:title               "Universidad de Vigo"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/35364/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/39877/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.870971840000002 43.35563631018319)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/31067/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.4294575000000003 38.91677403763408)"^^geosparql:wktLiteral .
+
+georesource:31067  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "31067" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "31067"^^xsd:int ;
+        dc:title               "Universidad Les IIIes Balears"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/31067/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/12018/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.05878503 41.556912349486375)"^^geosparql:wktLiteral .
+
+georesource:9088  a           geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "9088" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "9088"^^xsd:int ;
+        dc:title               "Campus de Rectorat"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/9088/geometry> .
+
+georesource:2004  a           geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "2004" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "2004"^^xsd:int ;
+        dc:title               "Universitat Miguel Hernandez"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/2004/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/22356/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.6845533 40.65246772895942)"^^geosparql:wktLiteral .
+
+georesource:12904  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "12904" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2012-09-20"^^xsd:date ;
+        dc:identifier          "12904"^^xsd:int ;
+        dc:title               "Universitat Abat Oliba"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/12904/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/27446/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.2989 43.38633104019096)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/39662/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.54548636 42.99902985008294)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/10388/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.8266309799999996 41.985031749695146)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/20831/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.715886989999999 41.62600797952186)"^^geosparql:wktLiteral .
+
+georesource:41840  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "41840" ;
+        geoes:bicCode          "RI-51-0009533-00000"@es ;
+        dc:created             "2011-11-03"^^xsd:date ;
+        dc:identifier          "41840"^^xsd:int ;
+        dc:title               "Universidad del Cardenal Lorenzana"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/41840/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/39873/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.840418999999999 43.3556420401832)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/7053/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.688525709999999 42.35185390985285)"^^geosparql:wktLiteral .
+
+georesource:3005  a           geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "3005" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "3005"^^xsd:int ;
+        dc:title               "Universidad CEU San Pablo Campus Argüelles"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/3005/geometry> .
+
+georesource:19579  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "19579" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "19579"^^xsd:int ;
+        dc:title               "Universidad Privada Segovia"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/19579/geometry> .
+
+georesource:12023  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "12023" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "12023"^^xsd:int ;
+        dc:title               "Universitat Pompeu Fabra"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/12023/geometry> .
+
+georesource:30061  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "30061" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "30061"^^xsd:int ;
+        dc:title               "Universidad de Cádiz"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/30061/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/29620/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.55418846 36.735347685429936)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/26926/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.050316259999999 43.33712924017848)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/32997/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.998719499999999 38.885637537606705)"^^geosparql:wktLiteral .
+
+georesource:24419  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "24419" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "24419"^^xsd:int ;
+        dc:title               "Universidad Politécnica de Cartagena"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/24419/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/40962/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.851431000000002 43.35434856018288)"^^geosparql:wktLiteral .
+
+georesource:8232  a           geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "8232" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "8232"^^xsd:int ;
+        dc:title               "Universidad Santa Catalina"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/8232/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/39876/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.868053489999999 43.354415200182906)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/24419/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.9794427300000002 37.60406709637499)"^^geosparql:wktLiteral .
+
+georesource:3013  a           geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "3013" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "3013"^^xsd:int ;
+        dc:title               "Universidad Rey Juan Carlos Campus Alcorcón"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/3013/geometry> .
+
+georesource:18857  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "18857" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "18857"^^xsd:int ;
+        dc:title               "Universidad a Distancia para Mayores"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/18857/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/24420/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.1260403900000002 37.988034406764974)"^^geosparql:wktLiteral .
+
+georesource:12031  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "12031" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "12031"^^xsd:int ;
+        dc:title               "Universitat Oberta de Catalunya"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/12031/geometry> .
+
+georesource:32134  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "32134" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "32134"^^xsd:int ;
+        dc:title               "Universidad Campus Isla de la Cartuja"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/32134/geometry> .
+
+georesource:20831  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "20831" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "20831"^^xsd:int ;
+        dc:title               "Universidad Europea Miguel de Cervantes"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/20831/geometry> .
+
+georesource:3468  a           geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "3468" ;
+        geoes:bicCode          "RI-51-0000132-00000"@es ;
+        dc:created             "2012-07-17"^^xsd:date ;
+        dc:identifier          "3468"^^xsd:int ;
+        dc:title               "Fachada y primera crujía de la universidad"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/3468/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/19578/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.1187971700000015 40.9526527091471)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/28853/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.6094445100000003 37.18019695592454)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/10387/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.82059711 41.95940596968339)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/1281/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.4072321500000001 39.51692130813766)"^^geosparql:wktLiteral .
+
+georesource:39873  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "39873" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "39873"^^xsd:int ;
+        dc:title               "Universidad de Oviedo Campus de Humanidades"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/39873/geometry> .
+
+georesource:3397  a           geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "3397" ;
+        geoes:bicCode          "RI-51-0004437-00000"@es ;
+        dc:created             "2012-07-17"^^xsd:date ;
+        dc:identifier          "3397"^^xsd:int ;
+        dc:title               "Paraninfo de la Universidad Complutense"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/3397/geometry> .
+
+georesource:36631  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "36631" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "36631"^^xsd:int ;
+        dc:title               "Universidad de La Coruña"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/36631/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/36631/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.419842759999998 43.37092740018709)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/39872/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.6441145 43.53398154022623)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/24415/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.9759405 37.59958053637034)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/5166/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.4965945399999994 43.061827980101995)"^^geosparql:wktLiteral .
+
+georesource:29621  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "29621" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "29621"^^xsd:int ;
+        dc:title               "Universidad de Málaga Campus Teatinos"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/29621/geometry> .
+
+georesource:31070  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "31070" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "31070"^^xsd:int ;
+        dc:title               "Universidad de Les IIIes Balears"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/31070/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/9088/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.5969153799999999 41.62819983952297)"^^geosparql:wktLiteral .
+
+georesource:20163  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "20163" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "20163"^^xsd:int ;
+        dc:title               "Universidad de Valladolid Campus de Palencia"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/20163/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/27567/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.8343886300000003 43.46047375020908)"^^geosparql:wktLiteral .
+
+georesource:26926  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "26926" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "26926"^^xsd:int ;
+        dc:title               "Universidad de Cantabria Campus Torrelavega"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/26926/geometry> .
+
+georesource:12018  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "12018" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "12018"^^xsd:int ;
+        dc:title               "Campus Politècnic Terrasa"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/12018/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/3012/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.013699050000001 40.54432227888874)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/30421/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.94303681 37.259008386009846)"^^geosparql:wktLiteral .
+
+georesource:24414  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "24414" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "24414"^^xsd:int ;
+        dc:title               "Universidad Popular"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/24414/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/12029/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.0820054999999997 41.4740050394429)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/31544/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.7884153099999995 37.86812702664505)"^^geosparql:wktLiteral .
+
+georesource:10387  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "10387" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "10387"^^xsd:int ;
+        dc:title               "Campus Montilivi"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/10387/geometry> .
+
+georesource:3008  a           geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "3008" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "3008"^^xsd:int ;
+        dc:title               "Universidad Nebrija"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/3008/geometry> .
+
+georesource:12026  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "12026" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "12026"^^xsd:int ;
+        dc:title               "Universitat Pol. Catalunya Campus Nord"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/12026/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/3007/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.8012228599999998 40.43679477881686)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/3397/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.707499999999999 40.42501003880887)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/8232/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.0652804699999994 41.587928959502385)"^^geosparql:wktLiteral .
+
+georesource:22357  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "22357" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "22357"^^xsd:int ;
+        dc:title               "Universidad Católica Ávila"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/22357/geometry> .
+
+georesource:5165  a           geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "5165" ;
+        geoes:bicCode          "RI-51-0000617-00000"@es ;
+        dc:created             "2012-03-30"^^xsd:date ;
+        dc:identifier          "5165"^^xsd:int ;
+        dc:title               "Sancti Spiritus Unibertsitatea (Gaur egun Institutua)"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/5165/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/25551/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.581460410000001 42.55180966993054)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/18859/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.377715529999998 39.47224454810177)"^^geosparql:wktLiteral .
+
+georesource:35362  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "35362" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "35362"^^xsd:int ;
+        dc:title               "Universidad Nacional de Educación a Distancia"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/35362/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/12033/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.6099840000000003 41.58544553950111)"^^geosparql:wktLiteral .
+
+georesource:13219  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "13219" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "13219"^^xsd:int ;
+        dc:title               "Universitat de L'Ebre Uni. Rovira i Virgili"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/13219/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/22071/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.668100000000001 40.96146003915243)"^^geosparql:wktLiteral .
+
+georesource:3563  a           geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "3563" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2012-12-12"^^xsd:date ;
+        dc:identifier          "3563"^^xsd:int ;
+        dc:title               "Universidad Antonio de Nebrija (Campus de la Berzosa)"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/3563/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/31069/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.6561399999999997 39.59454153819933)"^^geosparql:wktLiteral .
+
+georesource:32500  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "32500" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2013-04-23"^^xsd:date ;
+        dc:identifier          "32500"^^xsd:int ;
+        dc:title               "Campus Ramón y Cajal"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/32500/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/3003/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.73390907 40.43594213881628)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/31070/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.6463795 39.638671538234064)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/21137/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.721667000000001 41.652000039535025)"^^geosparql:wktLiteral .
+
+georesource:21585  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "21585" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "21585"^^xsd:int ;
+        dc:title               "Campus Universitario Bejar"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/21585/geometry> .
+
+georesource:32997  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "32997" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "32997"^^xsd:int ;
+        dc:title               "Universidad Ciudad de Badajoz"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/32997/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/30420/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.922063590000001 37.20246325594869)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Universidad/12028/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.0762215 41.47609203944401)"^^geosparql:wktLiteral .
+
+georesource:39876  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "39876" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "39876"^^xsd:int ;
+        dc:title               "Universidad Campus del Cristo"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/39876/geometry> .
+
+georesource:12468  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "12468" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2012-04-13"^^xsd:date ;
+        dc:identifier          "12468"^^xsd:int ;
+        dc:title               "Universitat Politècnica de Catalunya"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/12468/geometry> .
+
+georesource:39663  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "39663" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2013-05-15"^^xsd:date ;
+        dc:identifier          "39663"^^xsd:int ;
+        dc:title               "Universidad de Magisterio"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/39663/geometry> .
+
+<http://geo.linkeddata.es/recurso/Universidad/3522/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.718291660000002 40.44867635882488)"^^geosparql:wktLiteral .
+
+georesource:3003  a           geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "3003" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "3003"^^xsd:int ;
+        dc:title               "Universidad Nacional de Educación a Distancia"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/3003/geometry> .
+
+georesource:31073  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "31073" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "31073"^^xsd:int ;
+        dc:title               "Universidad IIIes Balears"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/31073/geometry> .
+
+georesource:12021  a          geoes:LugarDeInteres , geoes:Universidad ;
+        rdfs:label             "12021" ;
+        geoes:bicCode          "NO PROCEDE"@es ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "12021"^^xsd:int ;
+        dc:title               "Campus Comunicación Poblenou Pompeu Fabra"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Universidad/12021/geometry> .
+

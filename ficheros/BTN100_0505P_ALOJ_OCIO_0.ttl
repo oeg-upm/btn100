@@ -1,0 +1,1091 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix geoes: <http://geo.linkeddata.es/ontology/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georesource: <http://geo.linkeddata.es/recurso/ParadorNacional/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/4184/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.13254329 41.04843782920433)"^^geosparql:wktLiteral .
+
+georesource:5710  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "5710" ;
+        dc:created             "2011-03-01"^^xsd:date ;
+        dc:identifier          "5710"^^xsd:int ;
+        dc:replaces            "43334"^^xsd:int ;
+        dc:title               "Parador Nacional de Manzanares"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/5710/geometry> .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/1948/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.4578914500000004 41.76274244959006)"^^geosparql:wktLiteral .
+
+georesource:4546  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "4546" ;
+        dc:created             "2008-01-22"^^xsd:date ;
+        dc:identifier          "4546"^^xsd:int ;
+        dc:title               "Parador Nacional de Segovia"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/4546/geometry> .
+
+georesource:5297  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "5297" ;
+        dc:created             "2010-07-26"^^xsd:date ;
+        dc:identifier          "5297"^^xsd:int ;
+        dc:replaces            "51042"^^xsd:int ;
+        dc:title               "Parador Nacional Rey Fernando II de León"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/5297/geometry> .
+
+georesource:4859  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "4859" ;
+        dc:created             "2012-06-14"^^xsd:date ;
+        dc:identifier          "4859"^^xsd:int ;
+        dc:title               "Parador Nacional de Salamanca"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/4859/geometry> .
+
+georesource:7040  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "7040" ;
+        dc:created             "2008-05-13"^^xsd:date ;
+        dc:identifier          "7040"^^xsd:int ;
+        dc:replaces            "34394"^^xsd:int ;
+        dc:title               "Parador Nacional Hotel Atlántico"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/7040/geometry> .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/3903/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.21504426 42.49937247991074)"^^geosparql:wktLiteral .
+
+georesource:6682  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "6682" ;
+        dc:created             "2008-01-21"^^xsd:date ;
+        dc:identifier          "6682"^^xsd:int ;
+        dc:title               "Parador Nacional de Antequera"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/6682/geometry> .
+
+georesource:5000  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "5000" ;
+        dc:created             "2008-02-26"^^xsd:date ;
+        dc:identifier          "5000"^^xsd:int ;
+        dc:replaces            "40568"^^xsd:int ;
+        dc:title               "Parador Nacional de Gredos"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/5000/geometry> .
+
+georesource:6469  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "6469" ;
+        dc:created             "2007-09-11"^^xsd:date ;
+        dc:identifier          "6469"^^xsd:int ;
+        dc:title               "Parador Nacional de los Reyes Católicos"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/6469/geometry> .
+
+georesource:8062  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "8062" ;
+        dc:created             "2008-08-18"^^xsd:date ;
+        dc:identifier          "8062"^^xsd:int ;
+        dc:title               "Parador Nacional Cruz de Tejeda"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/8062/geometry> .
+
+georesource:3903  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "3903" ;
+        dc:created             "2012-03-14"^^xsd:date ;
+        dc:identifier          "3903"^^xsd:int ;
+        dc:replaces            "1570"^^xsd:int ;
+        dc:title               "Parador Nacional Fernando de Aragón"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/3903/geometry> .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/6682/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.564055740000001 37.025270665754775)"^^geosparql:wktLiteral .
+
+georesource:5960  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "5960" ;
+        dc:created             "2012-12-04"^^xsd:date ;
+        dc:identifier          "5960"^^xsd:int ;
+        dc:replaces            "57489"^^xsd:int ;
+        dc:title               "Parador Nacional de Santillana del Mar"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/5960/geometry> .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/8831/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.545956459999998 42.88104908004562)"^^geosparql:wktLiteral .
+
+georesource:647  a            geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "647" ;
+        dc:created             "2006-07-26"^^xsd:date ;
+        dc:identifier          "647"^^xsd:int ;
+        dc:replaces            "45269"^^xsd:int ;
+        dc:title               "Parador Nacional Hostería del Estudiante"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/647/geometry> .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/4288/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.08321273 39.546607268161324)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/10306/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.174856 39.919485088448916)"^^geosparql:wktLiteral .
+
+georesource:5968  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "5968" ;
+        dc:created             "2012-12-04"^^xsd:date ;
+        dc:identifier          "5968"^^xsd:int ;
+        dc:replaces            "57551"^^xsd:int ;
+        dc:title               "Parador Nacional de Limpias"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/5968/geometry> .
+
+georesource:8270  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "8270" ;
+        dc:created             "2008-09-23"^^xsd:date ;
+        dc:identifier          "8270"^^xsd:int ;
+        dc:title               "Parador Nacional de Turismo de La Gomera"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/8270/geometry> .
+
+georesource:4741  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "4741" ;
+        dc:created             "2012-08-22"^^xsd:date ;
+        dc:identifier          "4741"^^xsd:int ;
+        dc:replaces            "66953"^^xsd:int ;
+        dc:title               "Parador Nacional de Tordesillas"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/4741/geometry> .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/646/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.4230821199999997 40.13938057860976)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/4166/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.1260230499999997 40.35148666875868)"^^geosparql:wktLiteral .
+
+georesource:5955  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "5955" ;
+        dc:created             "2012-12-04"^^xsd:date ;
+        dc:identifier          "5955"^^xsd:int ;
+        dc:replaces            "57484"^^xsd:int ;
+        dc:title               "Parador Nacional de Fuente Dé"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/5955/geometry> .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/4361/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.676216569999999 40.184592878642015)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/9601/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.039760150000003 43.53322586022607)"^^geosparql:wktLiteral .
+
+georesource:6685  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "6685" ;
+        dc:created             "2008-02-04"^^xsd:date ;
+        dc:identifier          "6685"^^xsd:int ;
+        dc:title               "Parador de Ronda"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/6685/geometry> .
+
+georesource:9755  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "9755" ;
+        dc:created             "2006-07-27"^^xsd:date ;
+        dc:identifier          "9755"^^xsd:int ;
+        dc:replaces            "53778"^^xsd:int ;
+        dc:title               "Parador Nacional de Gijón"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/9755/geometry> .
+
+georesource:8428  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "8428" ;
+        dc:created             "2010-03-28"^^xsd:date ;
+        dc:identifier          "8428"^^xsd:int ;
+        dc:title               "Parador Nacional de Tui (San Telmo)"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/8428/geometry> .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/4385/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.662321839999998 40.12913882860241)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/1444/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.7909846299999996 43.363712560185256)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/4243/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.6412411199999997 41.06427880921368)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/2717/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.6855384200000003 41.91435739966249)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/4356/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.326027340000001 39.452338968085705)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/10298/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.937514260000001 35.296309583686956)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/8428/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.646096339999996 42.04095405972046)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/8271/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-16.626582350000007 28.224672012943877)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/1221/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.9611716500000003 42.3059516098342)"^^geosparql:wktLiteral .
+
+georesource:9600  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "9600" ;
+        dc:created             "2006-08-10"^^xsd:date ;
+        dc:identifier          "9600"^^xsd:int ;
+        dc:replaces            "29293"^^xsd:int ;
+        dc:title               "Parador Nacional Condes de Vilalba"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/9600/geometry> .
+
+georesource:3643  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "3643" ;
+        dc:created             "2012-05-17"^^xsd:date ;
+        dc:identifier          "3643"^^xsd:int ;
+        dc:replaces            "23346"^^xsd:int ;
+        dc:title               "Parador Nacional de Monte Perdido"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/3643/geometry> .
+
+georesource:437  a            geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "437" ;
+        dc:created             "2012-06-06"^^xsd:date ;
+        dc:identifier          "437"^^xsd:int ;
+        dc:title               "Parador de El Saler"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/437/geometry> .
+
+georesource:5708  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "5708" ;
+        dc:created             "2012-02-03"^^xsd:date ;
+        dc:identifier          "5708"^^xsd:int ;
+        dc:replaces            "43186"^^xsd:int ;
+        dc:title               "Parador Nacional de Almagro"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/5708/geometry> .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/7179/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.406467830000001 37.22623321597445)"^^geosparql:wktLiteral .
+
+georesource:1536  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "1536" ;
+        dc:created             "2010-09-06"^^xsd:date ;
+        dc:identifier          "1536"^^xsd:int ;
+        dc:title               "Parador Nacional de Olite"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/1536/geometry> .
+
+georesource:4352  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "4352" ;
+        dc:created             "2007-04-12"^^xsd:date ;
+        dc:identifier          "4352"^^xsd:int ;
+        dc:replaces            "59556"^^xsd:int ;
+        dc:title               "Parador Nacional de Cáceres"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/4352/geometry> .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/4546/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.10990115 40.96062512915192)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/4352/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.37167351 39.472448158101955)"^^geosparql:wktLiteral .
+
+georesource:1444  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "1444" ;
+        dc:created             "2012-04-27"^^xsd:date ;
+        dc:identifier          "1444"^^xsd:int ;
+        dc:replaces            "22572"^^xsd:int ;
+        dc:title               "Hondarribiko Paradorea"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/1444/geometry> .
+
+georesource:7927  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "7927" ;
+        dc:created             "2013-02-13"^^xsd:date ;
+        dc:identifier          "7927"^^xsd:int ;
+        dc:replaces            "60167"^^xsd:int ;
+        dc:title               "Parador de Verín"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/7927/geometry> .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/8432/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.813785720000002 42.51637946991722)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/9600/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.682466679999998 43.29819126016834)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/1277/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.5412784199999994 42.867656900041254)"^^geosparql:wktLiteral .
+
+georesource:2324  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "2324" ;
+        dc:created             "2012-02-24"^^xsd:date ;
+        dc:identifier          "2324"^^xsd:int ;
+        dc:replaces            "21815"^^xsd:int ;
+        dc:title               "Parador Nacional Costa Brava"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/2324/geometry> .
+
+georesource:8273  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "8273" ;
+        dc:created             "2008-02-04"^^xsd:date ;
+        dc:identifier          "8273"^^xsd:int ;
+        dc:title               "Parador de La Palma"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/8273/geometry> .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/7183/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.770165119999998 37.11282562585104)"^^geosparql:wktLiteral .
+
+georesource:7430  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "7430" ;
+        dc:created             "2006-07-24"^^xsd:date ;
+        dc:identifier          "7430"^^xsd:int ;
+        dc:title               "Parador Nacional de la Arruzafa"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/7430/geometry> .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/5710/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.38175293 38.986249517694766)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/10297/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.31768601 35.88865166442983)"^^geosparql:wktLiteral .
+
+georesource:2019  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "2019" ;
+        dc:created             "2012-04-26"^^xsd:date ;
+        dc:identifier          "2019"^^xsd:int ;
+        dc:title               "Parador de Vielha / Parador de Vielha Valle de Arán"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/2019/geometry> .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/6684/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.473641980000001 36.65139465533417)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/8270/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-17.10769278 28.091021022722753)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/4866/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.536134410000001 40.596358298922965)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/6115/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.962538379999999 37.90316932668027)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/3475/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.5247351 40.81540382906286)"^^geosparql:wktLiteral .
+
+georesource:10306  a          geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "10306" ;
+        dc:created             "2012-04-03"^^xsd:date ;
+        dc:identifier          "10306"^^xsd:int ;
+        dc:title               "Parador Nacional Virrey de Toledo"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/10306/geometry> .
+
+georesource:10298  a          geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "10298" ;
+        dc:created             "2013-06-17"^^xsd:date ;
+        dc:identifier          "10298"^^xsd:int ;
+        dc:title               "Parador de Melilla"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/10298/geometry> .
+
+georesource:5774  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "5774" ;
+        dc:created             "2012-09-26"^^xsd:date ;
+        dc:identifier          "5774"^^xsd:int ;
+        dc:replaces            "60168"^^xsd:int ;
+        dc:title               "Parador Nacional de Villafranca de Bierzo"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/5774/geometry> .
+
+georesource:3475  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "3475" ;
+        dc:created             "2012-08-21"^^xsd:date ;
+        dc:identifier          "3475"^^xsd:int ;
+        dc:replaces            "28448"^^xsd:int ;
+        dc:title               "Parador Nacional Castell de la Zuda"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/3475/geometry> .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/4367/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.094392590000003 40.02953504853023)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/7818/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.345718250000002 38.918755077635836)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/6111/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.800447950000001 37.767797786543426)"^^geosparql:wktLiteral .
+
+georesource:4184  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "4184" ;
+        dc:created             "2012-04-02"^^xsd:date ;
+        dc:identifier          "4184"^^xsd:int ;
+        dc:replaces            "30110"^^xsd:int ;
+        dc:title               "Parador Nacional de Alcañiz - La Concordia"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/4184/geometry> .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/437/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.30189159 39.32085720797829)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/9757/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.15111809 43.36647509018596)"^^geosparql:wktLiteral .
+
+georesource:4355  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "4355" ;
+        dc:created             "2007-04-12"^^xsd:date ;
+        dc:identifier          "4355"^^xsd:int ;
+        dc:replaces            "59554"^^xsd:int ;
+        dc:title               "Parador Nacional de Trujillo"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/4355/geometry> .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/5296/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.630246280000001 42.055573219727)"^^geosparql:wktLiteral .
+
+georesource:5298  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "5298" ;
+        dc:created             "2012-08-19"^^xsd:date ;
+        dc:identifier          "5298"^^xsd:int ;
+        dc:title               "Parador de Zamora / Parador de los Condes de Alba y Aliste"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/5298/geometry> .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/1211/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.9536557300000004 42.44060117988806)"^^geosparql:wktLiteral .
+
+georesource:4626  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "4626" ;
+        dc:created             "2006-07-27"^^xsd:date ;
+        dc:identifier          "4626"^^xsd:int ;
+        dc:replaces            "65143"^^xsd:int ;
+        dc:title               "Parador de Cervera de Pisuerga"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/4626/geometry> .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/6683/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.87067685 36.74992201544651)"^^geosparql:wktLiteral .
+
+georesource:7183  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "7183" ;
+        dc:created             "2013-01-04"^^xsd:date ;
+        dc:identifier          "7183"^^xsd:int ;
+        dc:replaces            "39374"^^xsd:int ;
+        dc:title               "Parador Nacional de Turismo Cristóbal Colón"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/7183/geometry> .
+
+georesource:6683  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "6683" ;
+        dc:created             "2013-01-17"^^xsd:date ;
+        dc:identifier          "6683"^^xsd:int ;
+        dc:replaces            "37834"^^xsd:int ;
+        dc:title               "Parador Nacional de Nerja"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/6683/geometry> .
+
+georesource:8831  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "8831" ;
+        dc:created             "2013-04-24"^^xsd:date ;
+        dc:identifier          "8831"^^xsd:int ;
+        dc:replaces            "73360"^^xsd:int ;
+        dc:title               "Parador Nacional de Santiago de Compostela"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/8831/geometry> .
+
+georesource:6115  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "6115" ;
+        dc:created             "2012-10-30"^^xsd:date ;
+        dc:identifier          "6115"^^xsd:int ;
+        dc:replaces            "37321"^^xsd:int ;
+        dc:title               "Parador Nacional El Adelantado"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/6115/geometry> .
+
+georesource:8063  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "8063" ;
+        dc:created             "2012-12-27"^^xsd:date ;
+        dc:identifier          "8063"^^xsd:int ;
+        dc:title               "Parador Nacional de Fuenteventura"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/8063/geometry> .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/7927/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.44697607 41.94408764967632)"^^geosparql:wktLiteral .
+
+georesource:7817  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "7817" ;
+        dc:created             "2007-04-12"^^xsd:date ;
+        dc:identifier          "7817"^^xsd:int ;
+        dc:replaces            "57760"^^xsd:int ;
+        dc:title               "Parador de Turismo de Herrera del Duque"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/7817/geometry> .
+
+georesource:4292  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "4292" ;
+        dc:created             "2010-08-06"^^xsd:date ;
+        dc:identifier          "4292"^^xsd:int ;
+        dc:title               "Parador Nacional de Cuenca"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/4292/geometry> .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/8062/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-15.599678479999996 28.006443182582764)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/7704/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.632547829999999 37.47215845623704)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/10307/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.023016770000001 39.848739188395776)"^^geosparql:wktLiteral .
+
+georesource:1221  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "1221" ;
+        dc:created             "2012-05-09"^^xsd:date ;
+        dc:identifier          "1221"^^xsd:int ;
+        dc:replaces            "46312"^^xsd:int ;
+        dc:title               "Parador Nacional Marco F. Quintiliano"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/1221/geometry> .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/5968/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.42352339 43.357332000183646)"^^geosparql:wktLiteral .
+
+georesource:7704  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "7704" ;
+        dc:created             "2013-02-15"^^xsd:date ;
+        dc:identifier          "7704"^^xsd:int ;
+        dc:replaces            "38582"^^xsd:int ;
+        dc:title               "Parador Nacional Alcázar del Rey Don Pedro"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/7704/geometry> .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/5774/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.813399730000001 42.60369513994974)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/7817/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.055086459999999 39.173513587855226)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/647/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.34776725 40.48450311884895)"^^geosparql:wktLiteral .
+
+georesource:8271  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "8271" ;
+        dc:created             "2008-02-04"^^xsd:date ;
+        dc:identifier          "8271"^^xsd:int ;
+        dc:title               "Parador de Las Cañadas del Teide"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/8271/geometry> .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/7813/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.417233830000001 38.424148397186386)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/3352/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.36224508 41.980309399692985)"^^geosparql:wktLiteral .
+
+georesource:4550  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "4550" ;
+        dc:created             "2012-08-14"^^xsd:date ;
+        dc:identifier          "4550"^^xsd:int ;
+        dc:title               "Parador de La Granja"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/4550/geometry> .
+
+georesource:4166  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "4166" ;
+        dc:created             "2010-09-18"^^xsd:date ;
+        dc:identifier          "4166"^^xsd:int ;
+        dc:replaces            "30111"^^xsd:int ;
+        dc:title               "Parador Nacional de Teruel"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/4166/geometry> .
+
+georesource:7044  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "7044" ;
+        dc:created             "2006-07-24"^^xsd:date ;
+        dc:identifier          "7044"^^xsd:int ;
+        dc:replaces            "34395"^^xsd:int ;
+        dc:title               "Parador Nacional Casa del Corregidor"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/7044/geometry> .
+
+georesource:8834  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "8834" ;
+        dc:created             "2013-04-24"^^xsd:date ;
+        dc:identifier          "8834"^^xsd:int ;
+        dc:replaces            "73816"^^xsd:int ;
+        dc:title               "Parador Nacional de Ferrol"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/8834/geometry> .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/5960/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.10764535 43.39050233019199)"^^geosparql:wktLiteral .
+
+georesource:5004  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "5004" ;
+        dc:created             "2006-07-26"^^xsd:date ;
+        dc:identifier          "5004"^^xsd:int ;
+        dc:replaces            "40573"^^xsd:int ;
+        dc:title               "Parador Nacional Raimundo de Borgoña"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/5004/geometry> .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/8429/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.849858160000002 42.125794809757984)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/8272/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-17.958327319999995 27.717232702103757)"^^geosparql:wktLiteral .
+
+georesource:8429  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "8429" ;
+        dc:created             "2006-08-10"^^xsd:date ;
+        dc:identifier          "8429"^^xsd:int ;
+        dc:replaces            "56159"^^xsd:int ;
+        dc:title               "Parador Nacional de Baiona Conde de Gondomar"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/8429/geometry> .
+
+georesource:3352  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "3352" ;
+        dc:created             "2012-03-23"^^xsd:date ;
+        dc:identifier          "3352"^^xsd:int ;
+        dc:title               "Parador de Vic-Sau"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/3352/geometry> .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/6471/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.5876324799999986 37.17576128591972)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/5955/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.81423629 43.14456954012616)"^^geosparql:wktLiteral .
+
+georesource:9601  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "9601" ;
+        dc:created             "2006-08-10"^^xsd:date ;
+        dc:identifier          "9601"^^xsd:int ;
+        dc:replaces            "30222"^^xsd:int ;
+        dc:title               "Parador Nacional de Ribadeo"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/9601/geometry> .
+
+georesource:9593  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "9593" ;
+        dc:created             "2007-07-04"^^xsd:date ;
+        dc:identifier          "9593"^^xsd:int ;
+        dc:title               "Parador Nacional Monforte de Lemos"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/9593/geometry> .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/3643/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.08461699 42.67951907997708)"^^geosparql:wktLiteral .
+
+georesource:5296  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "5296" ;
+        dc:created             "2010-07-26"^^xsd:date ;
+        dc:identifier          "5296"^^xsd:int ;
+        dc:replaces            "51044"^^xsd:int ;
+        dc:title               "Parador Nacional Puebla de Sanabria"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/5296/geometry> .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/6113/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.36728335 38.00808848678485)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/5298/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.747910369999998 41.50231375945788)"^^geosparql:wktLiteral .
+
+georesource:5780  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "5780" ;
+        dc:created             "2012-09-26"^^xsd:date ;
+        dc:identifier          "5780"^^xsd:int ;
+        dc:replaces            "60167"^^xsd:int ;
+        dc:title               "Parador Nacional de San Marcos de León"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/5780/geometry> .
+
+georesource:7928  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "7928" ;
+        dc:created             "2013-02-13"^^xsd:date ;
+        dc:identifier          "7928"^^xsd:int ;
+        dc:replaces            "60167"^^xsd:int ;
+        dc:title               "Parador de Santo Estevo"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/7928/geometry> .
+
+georesource:1211  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "1211" ;
+        dc:created             "2012-05-09"^^xsd:date ;
+        dc:identifier          "1211"^^xsd:int ;
+        dc:replaces            "46313"^^xsd:int ;
+        dc:title               "Parador Nacional Santo Domingo de la Calzada"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/1211/geometry> .
+
+georesource:6681  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "6681" ;
+        dc:created             "2008-01-22"^^xsd:date ;
+        dc:identifier          "6681"^^xsd:int ;
+        dc:title               "Parador Nacional de Málaga Gibralfaro"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/6681/geometry> .
+
+georesource:6113  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "6113" ;
+        dc:created             "2012-10-30"^^xsd:date ;
+        dc:identifier          "6113"^^xsd:int ;
+        dc:replaces            "37222"^^xsd:int ;
+        dc:title               "Parador Nacional del Condestable Dávalos"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/6113/geometry> .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/6685/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.166484499999999 36.74113754543653)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/4859/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.67222059 40.95315814914741)"^^geosparql:wktLiteral .
+
+georesource:4361  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "4361" ;
+        dc:created             "2007-04-12"^^xsd:date ;
+        dc:identifier          "4361"^^xsd:int ;
+        dc:replaces            "59015"^^xsd:int ;
+        dc:title               "Parador Nacional de la Fatela"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/4361/geometry> .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/8834/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.240392129999998 43.48056951021383)"^^geosparql:wktLiteral .
+
+georesource:4866  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "4866" ;
+        dc:created             "2012-06-14"^^xsd:date ;
+        dc:identifier          "4866"^^xsd:int ;
+        dc:title               "Parador Nacional de Ciudad Rodrigo"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/4866/geometry> .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/9755/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.639892810000001 43.53603053022669)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/6469/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.8314820200000006 37.13176986587177)"^^geosparql:wktLiteral .
+
+georesource:2020  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "2020" ;
+        dc:created             "2012-04-26"^^xsd:date ;
+        dc:identifier          "2020"^^xsd:int ;
+        dc:title               "Parador de Artiés / Parador de Artíes Don Gaspar de Portolà"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/2020/geometry> .
+
+georesource:2717  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "2717" ;
+        dc:created             "2012-04-18"^^xsd:date ;
+        dc:identifier          "2717"^^xsd:int ;
+        dc:replaces            "19039"^^xsd:int ;
+        dc:title               "Parador Nacional Castell del Duc de Cardona"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/2717/geometry> .
+
+georesource:646  a            geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "646" ;
+        dc:created             "2006-07-26"^^xsd:date ;
+        dc:identifier          "646"^^xsd:int ;
+        dc:replaces            "45266"^^xsd:int ;
+        dc:title               "Parador Nacional de Chinchón"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/646/geometry> .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/4292/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.1266843900000003 40.07928790856646)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/2324/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.21790027 41.93362117967146)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/6681/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.410292750000001 36.72266171541552)"^^geosparql:wktLiteral .
+
+georesource:8432  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "8432" ;
+        dc:created             "2006-08-10"^^xsd:date ;
+        dc:identifier          "8432"^^xsd:int ;
+        dc:replaces            "56231"^^xsd:int ;
+        dc:title               "Parador Nacional de Cambados O Albariño"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/8432/geometry> .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/9593/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.51057292 42.52389563992007)"^^geosparql:wktLiteral .
+
+georesource:10307  a          geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "10307" ;
+        dc:created             "2010-07-20"^^xsd:date ;
+        dc:identifier          "10307"^^xsd:int ;
+        dc:title               "Parador Nacional de Turismo Conde de Orgaz"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/10307/geometry> .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/5297/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.68134439 41.99854715970129)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/2019/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.7898836600000002 42.69913339998403)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/2020/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.8721008 42.70068571998455)"^^geosparql:wktLiteral .
+
+georesource:4356  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "4356" ;
+        dc:created             "2010-02-12"^^xsd:date ;
+        dc:identifier          "4356"^^xsd:int ;
+        dc:title               "Parador Nacional de Zurbarán"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/4356/geometry> .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/5780/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.58216801 42.60192140994909)"^^geosparql:wktLiteral .
+
+georesource:1277  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "1277" ;
+        dc:created             "2012-06-01"^^xsd:date ;
+        dc:identifier          "1277"^^xsd:int ;
+        dc:title               "Parador de Argómaniz -Argomanizko Ostatu"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/1277/geometry> .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/7928/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.685975780000001 42.41711000987886)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/1536/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.6502833099999998 42.48216422990415)"^^geosparql:wktLiteral .
+
+georesource:2015  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "2015" ;
+        dc:created             "2006-12-18"^^xsd:date ;
+        dc:identifier          "2015"^^xsd:int ;
+        dc:replaces            "24118"^^xsd:int ;
+        dc:title               "Parador Nacional de La Seu de Urgell"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/2015/geometry> .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/2015/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.4620299299999993 42.358548979855556)"^^geosparql:wktLiteral .
+
+georesource:4243  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "4243" ;
+        dc:created             "2010-08-25"^^xsd:date ;
+        dc:identifier          "4243"^^xsd:int ;
+        dc:title               "Parador Nacional de Sigüenza"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/4243/geometry> .
+
+georesource:6684  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "6684" ;
+        dc:created             "2008-02-04"^^xsd:date ;
+        dc:identifier          "6684"^^xsd:int ;
+        dc:title               "Parador Málaga Golf"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/6684/geometry> .
+
+georesource:449  a            geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "449" ;
+        dc:created             "2012-02-16"^^xsd:date ;
+        dc:identifier          "449"^^xsd:int ;
+        dc:replaces            "60167"^^xsd:int ;
+        dc:title               "Parador de Jávea / Parador Costa Blanca"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/449/geometry> .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/4741/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.010962320000001 41.492563729452726)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/8063/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-13.866129429999999 28.473729903355494)"^^geosparql:wktLiteral .
+
+georesource:6471  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "6471" ;
+        dc:created             "2012-12-28"^^xsd:date ;
+        dc:identifier          "6471"^^xsd:int ;
+        dc:replaces            "36606"^^xsd:int ;
+        dc:title               "Parador Nacional San Francisco"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/6471/geometry> .
+
+georesource:4385  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "4385" ;
+        dc:created             "2007-04-12"^^xsd:date ;
+        dc:identifier          "4385"^^xsd:int ;
+        dc:replaces            "59115"^^xsd:int ;
+        dc:title               "Parador Nacional de Jarandilla de la Vera"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/4385/geometry> .
+
+georesource:7818  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "7818" ;
+        dc:created             "2008-02-04"^^xsd:date ;
+        dc:identifier          "7818"^^xsd:int ;
+        dc:title               "Parador de Mérida / Parador Vía de la Plata"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/7818/geometry> .
+
+georesource:5094  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "5094" ;
+        dc:created             "2012-01-26"^^xsd:date ;
+        dc:identifier          "5094"^^xsd:int ;
+        dc:replaces            "40182"^^xsd:int ;
+        dc:title               "Parador Nacional de La Mancha"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/5094/geometry> .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/5004/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.70156186 40.65801760896299)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/5094/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.8225044500000003 38.96314120767467)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/7430/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.800310349999999 37.9061882866833)"^^geosparql:wktLiteral .
+
+georesource:8435  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "8435" ;
+        dc:created             "2008-03-08"^^xsd:date ;
+        dc:identifier          "8435"^^xsd:int ;
+        dc:title               "Parador de Pontevedra/ Parador Casa del Barón"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/8435/geometry> .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/4550/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.00787843 40.901167089115795)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/4355/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.87836189 39.46130242809295)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/5523/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.8001691499999994 37.57087112634046)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/1714/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.756206829999998 42.02600521971372)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/8435/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.645814310000002 42.43441462988564)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/4626/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.52140267 42.8717864000426)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/5000/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.1136149 40.35491725876104)"^^geosparql:wktLiteral .
+
+georesource:1948  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "1948" ;
+        dc:created             "2012-08-08"^^xsd:date ;
+        dc:identifier          "1948"^^xsd:int ;
+        dc:replaces            "48877"^^xsd:int ;
+        dc:title               "Parador Nacional Antonio Machado"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/1948/geometry> .
+
+georesource:7179  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "7179" ;
+        dc:created             "2013-01-04"^^xsd:date ;
+        dc:identifier          "7179"^^xsd:int ;
+        dc:title               "Parador Nacional de Turismo de Ayamonte"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/7179/geometry> .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/7044/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.807142760000001 36.74796386544428)"^^geosparql:wktLiteral .
+
+georesource:5523  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "5523" ;
+        dc:created             "2006-07-14"^^xsd:date ;
+        dc:identifier          "5523"^^xsd:int ;
+        dc:replaces            "25736"^^xsd:int ;
+        dc:title               "Parador Nacional de Puerto Lumbreras"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/5523/geometry> .
+
+georesource:8272  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "8272" ;
+        dc:created             "2006-08-10"^^xsd:date ;
+        dc:identifier          "8272"^^xsd:int ;
+        dc:title               "Parador de El Hierro"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/8272/geometry> .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/449/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.18997152 38.775715227509025)"^^geosparql:wktLiteral .
+
+georesource:6111  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "6111" ;
+        dc:created             "2012-10-30"^^xsd:date ;
+        dc:identifier          "6111"^^xsd:int ;
+        dc:replaces            "37345"^^xsd:int ;
+        dc:title               "Parador Nacional Castillo de Santa Catalina"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/6111/geometry> .
+
+georesource:1714  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "1714" ;
+        dc:created             "2012-05-14"^^xsd:date ;
+        dc:identifier          "1714"^^xsd:int ;
+        dc:title               "Parador Nacional de Lerma"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/1714/geometry> .
+
+georesource:7813  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "7813" ;
+        dc:created             "2007-04-12"^^xsd:date ;
+        dc:identifier          "7813"^^xsd:int ;
+        dc:replaces            "58251"^^xsd:int ;
+        dc:title               "Parador de Turismo de Zafra"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/7813/geometry> .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/8273/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-17.774846000000004 28.651178693648337)"^^geosparql:wktLiteral .
+
+georesource:4288  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "4288" ;
+        dc:created             "2010-08-31"^^xsd:date ;
+        dc:identifier          "4288"^^xsd:int ;
+        dc:replaces            "44229"^^xsd:int ;
+        dc:title               "Parador Nacional del Marqués de Villena"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/4288/geometry> .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/5708/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.7135571500000006 38.88625219760725)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/ParadorNacional/7040/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.306013199999999 36.53439948519942)"^^geosparql:wktLiteral .
+
+georesource:9757  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "9757" ;
+        dc:created             "2006-07-27"^^xsd:date ;
+        dc:identifier          "9757"^^xsd:int ;
+        dc:replaces            "53778"^^xsd:int ;
+        dc:title               "Parador de Cangas de Onís"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/9757/geometry> .
+
+georesource:4367  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "4367" ;
+        dc:created             "2010-01-15"^^xsd:date ;
+        dc:identifier          "4367"^^xsd:int ;
+        dc:title               "Parador Nacional de Plasencia"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/4367/geometry> .
+
+georesource:10297  a          geoes:LugarDeOcio , geoes:Alojamiento , geoes:ParadorNacional ;
+        rdfs:label             "10297" ;
+        dc:created             "2013-06-13"^^xsd:date ;
+        dc:identifier          "10297"^^xsd:int ;
+        dc:title               "Parador Nacional La Muralla"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ParadorNacional/10297/geometry> .
+

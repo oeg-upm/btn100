@@ -1,0 +1,2040 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix geoes: <http://geo.linkeddata.es/ontology/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georesource: <http://geo.linkeddata.es/recurso/Cabo/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+<http://geo.linkeddata.es/recurso/Cabo/1933/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-9.2930294 43.059227140101186)"^^geosparql:wktLiteral .
+
+georesource:339  a            geoes:Cabo ;
+        rdfs:label             "339" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "339"^^xsd:int ;
+        dc:title               "Cap Marcer"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/339/geometry> .
+
+georesource:1942  a           geoes:Cabo ;
+        rdfs:label             "1942" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-04-24"^^xsd:date ;
+        dc:identifier          "1942"^^xsd:int ;
+        dc:title               "Cabo de Laxe"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1942/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/1039/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.3972329000000006 39.08047343777607)"^^geosparql:wktLiteral .
+
+georesource:496  a            geoes:Cabo ;
+        rdfs:label             "496" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2012-12-04"^^xsd:date ;
+        dc:identifier          "496"^^xsd:int ;
+        dc:title               "Cabo de Oyambre"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/496/geometry> .
+
+georesource:1169  a           geoes:Cabo ;
+        rdfs:label             "1169" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1169"^^xsd:int ;
+        dc:title               "Cap Gros"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1169/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/291/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2123125000000003 42.05397723972629)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/432/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.8762260700000003 40.720831639003265)"^^geosparql:wktLiteral .
+
+georesource:285  a            geoes:Cabo ;
+        rdfs:label             "285" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "285"^^xsd:int ;
+        dc:title               "Cap de Begur"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/285/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/2059/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.838900399999999 43.446347140205674)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/1206/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.4552314999999996 39.65515443824696)"^^geosparql:wktLiteral .
+
+georesource:521  a            geoes:Cabo ;
+        rdfs:label             "521" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2012-12-04"^^xsd:date ;
+        dc:identifier          "521"^^xsd:int ;
+        dc:title               "Cabo de Quejo"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/521/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/583/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.1932122600000006 36.721070045413725)"^^geosparql:wktLiteral .
+
+georesource:310  a            geoes:Cabo ;
+        rdfs:label             "310" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "310"^^xsd:int ;
+        dc:title               "Cap Trencat"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/310/geometry> .
+
+georesource:2056  a           geoes:Cabo ;
+        rdfs:label             "2056" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-02-06"^^xsd:date ;
+        dc:identifier          "2056"^^xsd:int ;
+        dc:title               "Cabo Vidio"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/2056/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/2042/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.733382800000002 43.56442054023309)"^^geosparql:wktLiteral .
+
+georesource:89  a             geoes:Cabo ;
+        rdfs:label             "89" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2012-01-03"^^xsd:date ;
+        dc:identifier          "89"^^xsd:int ;
+        dc:title               "Cabo Cervera"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/89/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/1383/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.3035529 39.57260793818199)"^^geosparql:wktLiteral .
+
+georesource:171  a            geoes:Cabo ;
+        rdfs:label             "171" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-05-16"^^xsd:date ;
+        dc:identifier          "171"^^xsd:int ;
+        dc:title               "Cap de Sant Martí"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/171/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/276/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1816954 41.876140139644534)"^^geosparql:wktLiteral .
+
+georesource:1025  a           geoes:Cabo ;
+        rdfs:label             "1025" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1025"^^xsd:int ;
+        dc:title               "Cap Blanc"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1025/geometry> .
+
+georesource:1206  a           geoes:Cabo ;
+        rdfs:label             "1206" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1206"^^xsd:int ;
+        dc:title               "Cap Vermell"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1206/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/863/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.207103300000001 39.82532873837804)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/1019/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2140779000000002 38.9759268376858)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/1901/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-9.091003300000002 42.5780464399403)"^^geosparql:wktLiteral .
+
+georesource:1152  a           geoes:Cabo ;
+        rdfs:label             "1152" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1152"^^xsd:int ;
+        dc:title               "Cap de Formentor"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1152/geometry> .
+
+georesource:1936  a           geoes:Cabo ;
+        rdfs:label             "1936" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-04-24"^^xsd:date ;
+        dc:identifier          "1936"^^xsd:int ;
+        dc:title               "Cabo Vilán"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1936/geometry> .
+
+georesource:364  a            geoes:Cabo ;
+        rdfs:label             "364" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2012-03-26"^^xsd:date ;
+        dc:identifier          "364"^^xsd:int ;
+        dc:title               "Cap de Sant Pere"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/364/geometry> .
+
+georesource:1037  a           geoes:Cabo ;
+        rdfs:label             "1037" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1037"^^xsd:int ;
+        dc:title               "Cap des Mossons"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1037/geometry> .
+
+georesource:1906  a           geoes:Cabo ;
+        rdfs:label             "1906" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-04-24"^^xsd:date ;
+        dc:identifier          "1906"^^xsd:int ;
+        dc:title               "Cabo de Cruz"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1906/geometry> .
+
+georesource:756  a            geoes:Cabo ;
+        rdfs:label             "756" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-05-27"^^xsd:date ;
+        dc:identifier          "756"^^xsd:int ;
+        dc:title               "Cabo Trafalgar"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/756/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/1929/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-9.1831186 42.916095140056925)"^^geosparql:wktLiteral .
+
+georesource:1007  a           geoes:Cabo ;
+        rdfs:label             "1007" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1007"^^xsd:int ;
+        dc:title               "Cap Blanc"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1007/geometry> .
+
+georesource:334  a            geoes:Cabo ;
+        rdfs:label             "334" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-05-22"^^xsd:date ;
+        dc:identifier          "334"^^xsd:int ;
+        dc:title               "Cap de Ras"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/334/geometry> .
+
+georesource:123  a            geoes:Cabo ;
+        rdfs:label             "123" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2012-01-23"^^xsd:date ;
+        dc:identifier          "123"^^xsd:int ;
+        dc:title               "Cap de l'Horta"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/123/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/310/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2253526999999993 42.237465639805784)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/1209/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.43664228 39.63520536823134)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/1320/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.7875395 39.36293323801292)"^^geosparql:wktLiteral .
+
+georesource:1707  a           geoes:Cabo ;
+        rdfs:label             "1707" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-02-14"^^xsd:date ;
+        dc:identifier          "1707"^^xsd:int ;
+        dc:title               "Cabo dos Bicos"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1707/geometry> .
+
+georesource:823  a            geoes:Cabo ;
+        rdfs:label             "823" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "823"^^xsd:int ;
+        dc:title               "Cap Fornells"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/823/geometry> .
+
+georesource:1019  a           geoes:Cabo ;
+        rdfs:label             "1019" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1019"^^xsd:int ;
+        dc:title               "Cap des Blancar"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1019/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/1025/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2866159 38.99028653769827)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/1292/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.9765837000000013 39.15807133784217)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/994/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.3692980000000001 38.835957837562745)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/364/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.67925256 41.1994192892919)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/1374/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.386927700000001 39.52088003814081)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/1904/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-9.0611694 42.617693039954865)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/293/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2122778000000003 42.06830883973265)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/1930/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-9.2986137 42.9222773400589)"^^geosparql:wktLiteral .
+
+georesource:1062  a           geoes:Cabo ;
+        rdfs:label             "1062" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1062"^^xsd:int ;
+        dc:title               "Cap de Barbaria"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1062/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/823/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.1299333 40.063560038555046)"^^geosparql:wktLiteral .
+
+georesource:509  a            geoes:Cabo ;
+        rdfs:label             "509" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-06-06"^^xsd:date ;
+        dc:identifier          "509"^^xsd:int ;
+        dc:title               "Cabo de Lata"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/509/geometry> .
+
+georesource:1901  a           geoes:Cabo ;
+        rdfs:label             "1901" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-04-24"^^xsd:date ;
+        dc:identifier          "1901"^^xsd:int ;
+        dc:title               "Cabo Corrubedo"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1901/geometry> .
+
+georesource:1339  a           geoes:Cabo ;
+        rdfs:label             "1339" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1339"^^xsd:int ;
+        dc:title               "Es Cap Enderrocat"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1339/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/108/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.5099178000000001 38.20220823697482)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/1062/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.3907589000000002 38.64085053738707)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/76/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.7198246 37.9113806366885)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/516/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.6431553000000014 43.49895004021816)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/1958/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.3410931 43.458366840208555)"^^geosparql:wktLiteral .
+
+georesource:510  a            geoes:Cabo ;
+        rdfs:label             "510" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2012-12-04"^^xsd:date ;
+        dc:identifier          "510"^^xsd:int ;
+        dc:title               "Cabo Mayor"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/510/geometry> .
+
+georesource:425  a            geoes:Cabo ;
+        rdfs:label             "425" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2012-03-27"^^xsd:date ;
+        dc:identifier          "425"^^xsd:int ;
+        dc:title               "Cap Roig"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/425/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/1328/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.739524199999999 39.41131303805242)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/1354/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.535769799999999 39.48668073811338)"^^geosparql:wktLiteral .
+
+georesource:78  a             geoes:Cabo ;
+        rdfs:label             "78" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2011-12-30"^^xsd:date ;
+        dc:identifier          "78"^^xsd:int ;
+        dc:title               "Cabo Peñas"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/78/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/273/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.093225 41.832561539623825)"^^geosparql:wktLiteral .
+
+georesource:1382  a           geoes:Cabo ;
+        rdfs:label             "1382" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1382"^^xsd:int ;
+        dc:title               "Cap de Tramuntana"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1382/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/959/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.7946413999999984 39.999990038508535)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/204/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.752160799999999 43.45695524020823)"^^geosparql:wktLiteral .
+
+georesource:1171  a           geoes:Cabo ;
+        rdfs:label             "1171" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1171"^^xsd:int ;
+        dc:title               "Cap des Pinar"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1171/geometry> .
+
+georesource:311  a            geoes:Cabo ;
+        rdfs:label             "311" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "311"^^xsd:int ;
+        dc:title               "Cap Blanc"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/311/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/749/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.14007455 36.29505956491923)"^^geosparql:wktLiteral .
+
+georesource:1267  a           geoes:Cabo ;
+        rdfs:label             "1267" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1267"^^xsd:int ;
+        dc:title               "Cap de ses Salines"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1267/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/1672/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.839162300000002 42.33912463984772)"^^geosparql:wktLiteral .
+
+georesource:1925  a           geoes:Cabo ;
+        rdfs:label             "1925" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-04-24"^^xsd:date ;
+        dc:identifier          "1925"^^xsd:int ;
+        dc:title               "Cabo Fisterra"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1925/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/1759/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.6849585 42.407474839875064)"^^geosparql:wktLiteral .
+
+georesource:1322  a           geoes:Cabo ;
+        rdfs:label             "1322" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1322"^^xsd:int ;
+        dc:title               "Es Cap Roig"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1322/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/1042/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.4750284999999999 39.10549373779745)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/1339/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.7220058999999996 39.476130038104884)"^^geosparql:wktLiteral .
+
+georesource:1026  a           geoes:Cabo ;
+        rdfs:label             "1026" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1026"^^xsd:int ;
+        dc:title               "Cap Negret"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1026/geometry> .
+
+georesource:1997  a           geoes:Cabo ;
+        rdfs:label             "1997" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-05-08"^^xsd:date ;
+        dc:identifier          "1997"^^xsd:int ;
+        dc:title               "Cabo Ortabade"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1997/geometry> .
+
+georesource:1786  a           geoes:Cabo ;
+        rdfs:label             "1786" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-02-14"^^xsd:date ;
+        dc:identifier          "1786"^^xsd:int ;
+        dc:title               "Cabo Pequeño"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1786/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/1926/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-9.2091497 42.91640004005703)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/171/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.22479655 38.76418883749869)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/468/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.1068111999999999 37.53549593630351)"^^geosparql:wktLiteral .
+
+georesource:480  a            geoes:Cabo ;
+        rdfs:label             "480" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2012-08-06"^^xsd:date ;
+        dc:identifier          "480"^^xsd:int ;
+        dc:title               "Cabo Cope"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/480/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/1322/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.773178599999999 39.377936038025204)"^^geosparql:wktLiteral .
+
+georesource:842  a            geoes:Cabo ;
+        rdfs:label             "842" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "842"^^xsd:int ;
+        dc:title               "Cap de Monsenyor Vives"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/842/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/199/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.9469089999999993 43.43602654020319)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/519/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.5802981999999997 43.512403340221276)"^^geosparql:wktLiteral .
+
+georesource:938  a            geoes:Cabo ;
+        rdfs:label             "938" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "938"^^xsd:int ;
+        dc:title               "Cap des Nord"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/938/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/996/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.4316231000000006 38.781537137514235)"^^geosparql:wktLiteral .
+
+georesource:1672  a           geoes:Cabo ;
+        rdfs:label             "1672" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-02-14"^^xsd:date ;
+        dc:identifier          "1672"^^xsd:int ;
+        dc:title               "Cabo Udra"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1672/geometry> .
+
+georesource:1195  a           geoes:Cabo ;
+        rdfs:label             "1195" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1195"^^xsd:int ;
+        dc:title               "Cap des Freu"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1195/geometry> .
+
+georesource:2009  a           geoes:Cabo ;
+        rdfs:label             "2009" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-01-02"^^xsd:date ;
+        dc:identifier          "2009"^^xsd:int ;
+        dc:title               "Cabo de San Cibrao"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/2009/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/927/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.9339450999999994 40.062918338554574)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/2009/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.4364259000000015 43.70110434026222)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/507/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.8427074000000006 43.48399184021466)"^^geosparql:wktLiteral .
+
+georesource:516  a            geoes:Cabo ;
+        rdfs:label             "516" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2012-12-04"^^xsd:date ;
+        dc:identifier          "516"^^xsd:int ;
+        dc:title               "Cabo Quintrés"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/516/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/1949/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.532637120000002 43.34880669018146)"^^geosparql:wktLiteral .
+
+georesource:1949  a           geoes:Cabo ;
+        rdfs:label             "1949" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-04-24"^^xsd:date ;
+        dc:identifier          "1949"^^xsd:int ;
+        dc:title               "Cabo Cociñadoiro"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1949/geometry> .
+
+georesource:462  a            geoes:Cabo ;
+        rdfs:label             "462" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2012-08-06"^^xsd:date ;
+        dc:identifier          "462"^^xsd:int ;
+        dc:title               "Cabo de Agua"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/462/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/1906/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.8869445 42.61049953995224)"^^geosparql:wktLiteral .
+
+georesource:1401  a           geoes:Cabo ;
+        rdfs:label             "1401" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1401"^^xsd:int ;
+        dc:title               "Cap de Xaloc"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1401/geometry> .
+
+georesource:1980  a           geoes:Cabo ;
+        rdfs:label             "1980" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-04-24"^^xsd:date ;
+        dc:identifier          "1980"^^xsd:int ;
+        dc:title               "Cabo Prior"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1980/geometry> .
+
+georesource:1292  a           geoes:Cabo ;
+        rdfs:label             "1292" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1292"^^xsd:int ;
+        dc:title               "Es Cap Ventós"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1292/geometry> .
+
+georesource:432  a            geoes:Cabo ;
+        rdfs:label             "432" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2012-03-27"^^xsd:date ;
+        dc:identifier          "432"^^xsd:int ;
+        dc:title               "Cap de Tortosa"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/432/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/1371/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.41944 39.52289403814243)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/1286/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.9171462000000004 39.16167553784522)"^^geosparql:wktLiteral .
+
+georesource:293  a            geoes:Cabo ;
+        rdfs:label             "293" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "293"^^xsd:int ;
+        dc:title               "Cap d'Ultrera"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/293/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/1007/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2220038999999998 38.878600337600496)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/1694/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.778292100000002 42.21764873979745)"^^geosparql:wktLiteral .
+
+georesource:1992  a           geoes:Cabo ;
+        rdfs:label             "1992" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-05-08"^^xsd:date ;
+        dc:identifier          "1992"^^xsd:int ;
+        dc:title               "Cabo de Bares"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1992/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/78/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.7181406000000005 37.93384013671099)"^^geosparql:wktLiteral .
+
+georesource:1328  a           geoes:Cabo ;
+        rdfs:label             "1328" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1328"^^xsd:int ;
+        dc:title               "Cap de Regana"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1328/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/1033/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.3110384000000002 39.04451473774517)"^^geosparql:wktLiteral .
+
+georesource:1696  a           geoes:Cabo ;
+        rdfs:label             "1696" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-06-14"^^xsd:date ;
+        dc:identifier          "1696"^^xsd:int ;
+        dc:title               "Cabo Balea"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1696/geometry> .
+
+georesource:1962  a           geoes:Cabo ;
+        rdfs:label             "1962" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-04-24"^^xsd:date ;
+        dc:identifier          "1962"^^xsd:int ;
+        dc:title               "Cabo Prioriño Grande"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1962/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/1986/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.8699528999999995 43.77401234027661)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/459/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.8219698 37.57482293634459)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/1707/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.8893249 42.19199843978654)"^^geosparql:wktLiteral .
+
+georesource:1063  a           geoes:Cabo ;
+        rdfs:label             "1063" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1063"^^xsd:int ;
+        dc:title               "Racó de sa Llenya"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1063/geometry> .
+
+georesource:2064  a           geoes:Cabo ;
+        rdfs:label             "2064" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-02-06"^^xsd:date ;
+        dc:identifier          "2064"^^xsd:int ;
+        dc:title               "Cabo de San Lorenzo"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/2064/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/848/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.278090899999998 39.96651313848385)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/218/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.7910624000000002 43.39590824019333)"^^geosparql:wktLiteral .
+
+georesource:1033  a           geoes:Cabo ;
+        rdfs:label             "1033" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1033"^^xsd:int ;
+        dc:title               "Cap Negret"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1033/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/1382/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.3378984000000003 39.59838903820238)"^^geosparql:wktLiteral .
+
+georesource:456  a            geoes:Cabo ;
+        rdfs:label             "456" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2012-08-06"^^xsd:date ;
+        dc:identifier          "456"^^xsd:int ;
+        dc:title               "Cabo de Palos"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/456/geometry> .
+
+georesource:848  a            geoes:Cabo ;
+        rdfs:label             "848" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "848"^^xsd:int ;
+        dc:title               "Cap des Mestral"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/848/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/1018/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2154246 38.9563049376687)"^^geosparql:wktLiteral .
+
+georesource:1371  a           geoes:Cabo ;
+        rdfs:label             "1371" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1371"^^xsd:int ;
+        dc:title               "Cap Andritxol"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1371/geometry> .
+
+georesource:903  a            geoes:Cabo ;
+        rdfs:label             "903" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "903"^^xsd:int ;
+        dc:title               "Cap Negre"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/903/geometry> .
+
+georesource:1286  a           geoes:Cabo ;
+        rdfs:label             "1286" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1286"^^xsd:int ;
+        dc:title               "Es Cap des Llebeig"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1286/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/480/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.4914802000000005 37.42152843618354)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/987/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.4768254000000003 38.913018137630814)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/411/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.1132171 41.07124273921775)"^^geosparql:wktLiteral .
+
+georesource:583  a            geoes:Cabo ;
+        rdfs:label             "583" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-06-13"^^xsd:date ;
+        dc:identifier          "583"^^xsd:int ;
+        dc:title               "Cabo de Gata"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/583/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/326/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.238222800000001 42.348983439851715)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/1379/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.3544656 39.55764723817012)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/1169/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1674384 39.877771938417645)"^^geosparql:wktLiteral .
+
+georesource:764  a            geoes:Cabo ;
+        rdfs:label             "764" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-05-27"^^xsd:date ;
+        dc:identifier          "764"^^xsd:int ;
+        dc:title               "Cabo de la Plata"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/764/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/1997/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.8592742 43.7635207402746)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/2064/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.617639100000001 43.55900524023188)"^^geosparql:wktLiteral .
+
+georesource:468  a            geoes:Cabo ;
+        rdfs:label             "468" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2012-08-06"^^xsd:date ;
+        dc:identifier          "468"^^xsd:int ;
+        dc:title               "Cabo Tiñoso"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/468/geometry> .
+
+georesource:342  a            geoes:Cabo ;
+        rdfs:label             "342" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "342"^^xsd:int ;
+        dc:title               "Cap de Creus"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/342/geometry> .
+
+georesource:1986  a           geoes:Cabo ;
+        rdfs:label             "1986" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-04-24"^^xsd:date ;
+        dc:identifier          "1986"^^xsd:int ;
+        dc:title               "Cabo Ortegal"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1986/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/1195/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.461341 39.74799613831895)"^^geosparql:wktLiteral .
+
+georesource:257  a            geoes:Cabo ;
+        rdfs:label             "257" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "257"^^xsd:int ;
+        dc:title               "Cap de Tossa"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/257/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/1336/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.7434953 39.44668813808114)"^^geosparql:wktLiteral .
+
+georesource:1383  a           geoes:Cabo ;
+        rdfs:label             "1383" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1383"^^xsd:int ;
+        dc:title               "Cap des Llegeig"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1383/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/1992/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.661789100000001 43.77737114027724)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/1152/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2135905 39.9625143384809)"^^geosparql:wktLiteral .
+
+georesource:987  a            geoes:Cabo ;
+        rdfs:label             "987" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "987"^^xsd:int ;
+        dc:title               "Cap Martinet"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/987/geometry> .
+
+georesource:861  a            geoes:Cabo ;
+        rdfs:label             "861" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "861"^^xsd:int ;
+        dc:title               "Cap de Llebeig"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/861/geometry> .
+
+georesource:1926  a           geoes:Cabo ;
+        rdfs:label             "1926" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-04-24"^^xsd:date ;
+        dc:identifier          "1926"^^xsd:int ;
+        dc:title               "Cabo da Nasa"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1926/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/842/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.266174400000001 39.98191453849523)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/2134/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.839989300000001 43.66062184025389)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/422/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.7818812000000002 40.86040973909078)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/2049/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.470226300000001 43.571156040234605)"^^geosparql:wktLiteral .
+
+georesource:927  a            geoes:Cabo ;
+        rdfs:label             "927" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "927"^^xsd:int ;
+        dc:title               "Cap Gros"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/927/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/1359/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.5217423999999995 39.45660073808916)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/1401/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.6486201999999999 39.03173133773415)"^^geosparql:wktLiteral .
+
+georesource:396  a            geoes:Cabo ;
+        rdfs:label             "396" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2012-03-27"^^xsd:date ;
+        dc:identifier          "396"^^xsd:int ;
+        dc:title               "Cap de Salou"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/396/geometry> .
+
+georesource:1938  a           geoes:Cabo ;
+        rdfs:label             "1938" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-04-24"^^xsd:date ;
+        dc:identifier          "1938"^^xsd:int ;
+        dc:title               "Cabo Tosto"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1938/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/1946/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.841132499999999 43.34527684018056)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/839/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.269853099999998 39.996541438506014)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/278/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.203013 41.891638339651855)"^^geosparql:wktLiteral .
+
+georesource:1039  a           geoes:Cabo ;
+        rdfs:label             "1039" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1039"^^xsd:int ;
+        dc:title               "Cap des Rubió"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1039/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/2032/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.9460843 43.57498204023545)"^^geosparql:wktLiteral .
+
+georesource:155  a            geoes:Cabo ;
+        rdfs:label             "155" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-05-16"^^xsd:date ;
+        dc:identifier          "155"^^xsd:int ;
+        dc:title               "Cap Blanc o Punta Estrella"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/155/geometry> .
+
+georesource:1673  a           geoes:Cabo ;
+        rdfs:label             "1673" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-06-14"^^xsd:date ;
+        dc:identifier          "1673"^^xsd:int ;
+        dc:title               "Cabo Estay"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1673/geometry> .
+
+georesource:1377  a           geoes:Cabo ;
+        rdfs:label             "1377" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1377"^^xsd:int ;
+        dc:title               "Cap de sa Mola"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1377/geometry> .
+
+georesource:909  a            geoes:Cabo ;
+        rdfs:label             "909" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "909"^^xsd:int ;
+        dc:title               "Cap Menorca o Bajolí"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/909/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/909/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.7909650999999984 40.016439738520624)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/1035/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.3440929999999998 39.06295483776105)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/176/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.1990426700000001 38.802103317532605)"^^geosparql:wktLiteral .
+
+georesource:855  a            geoes:Cabo ;
+        rdfs:label             "855" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "855"^^xsd:int ;
+        dc:title               "Cap Negre"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/855/geometry> .
+
+georesource:167  a            geoes:Cabo ;
+        rdfs:label             "167" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-05-16"^^xsd:date ;
+        dc:identifier          "167"^^xsd:int ;
+        dc:title               "Cap de la Nao"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/167/geometry> .
+
+georesource:1293  a           geoes:Cabo ;
+        rdfs:label             "1293" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1293"^^xsd:int ;
+        dc:title               "Es Cap de sa Carabassa"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1293/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/904/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.8324052999999982 39.96481263848259)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/1186/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.3482019 39.78932343835063)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/2012/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.3570971 43.67121194025608)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/510/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.7852036000000018 43.491766340216486)"^^geosparql:wktLiteral .
+
+georesource:1359  a           geoes:Cabo ;
+        rdfs:label             "1359" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1359"^^xsd:int ;
+        dc:title               "Cap de Cala Figuera"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1359/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/456/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.6885553999999999 37.636744136408865)"^^geosparql:wktLiteral .
+
+georesource:1148  a           geoes:Cabo ;
+        rdfs:label             "1148" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1148"^^xsd:int ;
+        dc:title               "Cap de Catalunya"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1148/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/425/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.7414109999999999 40.82339463906784)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/833/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.1656982000000005 40.05475513854865)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/272/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.0814560000000006 41.82401253961975)"^^geosparql:wktLiteral .
+
+georesource:994  a            geoes:Cabo ;
+        rdfs:label             "994" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "994"^^xsd:int ;
+        dc:title               "Cap des Falcó"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/994/geometry> .
+
+georesource:204  a            geoes:Cabo ;
+        rdfs:label             "204" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2012-06-05"^^xsd:date ;
+        dc:identifier          "204"^^xsd:int ;
+        dc:title               "Cabo Machichaco / Matxitxako Lurmuturra"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/204/geometry> .
+
+georesource:1933  a           geoes:Cabo ;
+        rdfs:label             "1933" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-04-24"^^xsd:date ;
+        dc:identifier          "1933"^^xsd:int ;
+        dc:title               "Cabo Touriñán"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1933/geometry> .
+
+georesource:391  a            geoes:Cabo ;
+        rdfs:label             "391" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2012-03-27"^^xsd:date ;
+        dc:identifier          "391"^^xsd:int ;
+        dc:title               "Cap Gros"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/391/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/899/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.824103300000001 39.92191373845071)"^^geosparql:wktLiteral .
+
+georesource:276  a            geoes:Cabo ;
+        rdfs:label             "276" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "276"^^xsd:int ;
+        dc:title               "Cap Roig"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/276/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/521/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.5463441 43.50770704022019)"^^geosparql:wktLiteral .
+
+georesource:512  a            geoes:Cabo ;
+        rdfs:label             "512" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2012-12-04"^^xsd:date ;
+        dc:identifier          "512"^^xsd:int ;
+        dc:title               "Cabo de Galizano"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/512/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/311/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2289537 42.24032073980698)"^^geosparql:wktLiteral .
+
+georesource:904  a            geoes:Cabo ;
+        rdfs:label             "904" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "904"^^xsd:int ;
+        dc:title               "Cap de sa Paret"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/904/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/295/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2023952999999996 42.0818969397387)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/462/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.9191792 37.55395683632283)"^^geosparql:wktLiteral .
+
+georesource:288  a            geoes:Cabo ;
+        rdfs:label             "288" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "288"^^xsd:int ;
+        dc:title               "Cap sa Sal"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/288/geometry> .
+
+georesource:469  a            geoes:Cabo ;
+        rdfs:label             "469" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2012-08-06"^^xsd:date ;
+        dc:identifier          "469"^^xsd:int ;
+        dc:title               "Cabo Falcón"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/469/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/339/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1709796000000003 42.416385139878585)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/938/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.074384 40.09376483857693)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/1026/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2836551000000003 38.998622637705516)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/167/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.23151195 38.731846737469596)"^^geosparql:wktLiteral .
+
+georesource:313  a            geoes:Cabo ;
+        rdfs:label             "313" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "313"^^xsd:int ;
+        dc:title               "Cap de Norfeu"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/313/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/334/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1669075000000007 42.38868233986762)"^^geosparql:wktLiteral .
+
+georesource:1354  a           geoes:Cabo ;
+        rdfs:label             "1354" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1354"^^xsd:int ;
+        dc:title               "Cap des Falcó"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1354/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/391/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.3900659999999998 41.131700839253035)"^^geosparql:wktLiteral .
+
+georesource:2059  a           geoes:Cabo ;
+        rdfs:label             "2059" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-02-06"^^xsd:date ;
+        dc:identifier          "2059"^^xsd:int ;
+        dc:title               "Cabo Prieto"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/2059/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/2072/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.300090300000001 43.535684240226615)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/1103/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.678932399999999 39.79828823835746)"^^geosparql:wktLiteral .
+
+georesource:1209  a           geoes:Cabo ;
+        rdfs:label             "1209" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1209"^^xsd:int ;
+        dc:title               "Cap des Pinar o des Raix"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1209/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/89/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.6473559000000001 38.00425493678104)"^^geosparql:wktLiteral .
+
+georesource:1939  a           geoes:Cabo ;
+        rdfs:label             "1939" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-04-24"^^xsd:date ;
+        dc:identifier          "1939"^^xsd:int ;
+        dc:title               "Cabo Veo"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1939/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/319/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2929984999999986 42.30062093983203)"^^geosparql:wktLiteral .
+
+georesource:1336  a           geoes:Cabo ;
+        rdfs:label             "1336" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1336"^^xsd:int ;
+        dc:title               "Cap de Paret des Puig de Ros"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1336/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/1398/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2063468 38.989080537697234)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/1367/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.4597072000000004 39.498822838123154)"^^geosparql:wktLiteral .
+
+georesource:422  a            geoes:Cabo ;
+        rdfs:label             "422" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-05-13"^^xsd:date ;
+        dc:identifier          "422"^^xsd:int ;
+        dc:title               "Cap de Santes Creus"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/422/geometry> .
+
+georesource:2072  a           geoes:Cabo ;
+        rdfs:label             "2072" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-06-11"^^xsd:date ;
+        dc:identifier          "2072"^^xsd:int ;
+        dc:title               "Cabo Lastres"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/2072/geometry> .
+
+georesource:126  a            geoes:Cabo ;
+        rdfs:label             "126" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2012-01-23"^^xsd:date ;
+        dc:identifier          "126"^^xsd:int ;
+        dc:title               "Cap Blau"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/126/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/512/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.6947185999999994 43.48007434021372)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/496/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.338518800000001 43.4054379401957)"^^geosparql:wktLiteral .
+
+georesource:2042  a           geoes:Cabo ;
+        rdfs:label             "2042" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-02-06"^^xsd:date ;
+        dc:identifier          "2042"^^xsd:int ;
+        dc:title               "Cabo San Agustín"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/2042/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/1980/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.316425040000002 43.56899456023412)"^^geosparql:wktLiteral .
+
+georesource:2012  a           geoes:Cabo ;
+        rdfs:label             "2012" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-01-02"^^xsd:date ;
+        dc:identifier          "2012"^^xsd:int ;
+        dc:title               "Cabo Burela"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/2012/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/1265/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.0717653 39.268383137934784)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/509/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.810684099999998 43.49465074021717)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/1673/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.816124400000001 42.18686093978435)"^^geosparql:wktLiteral .
+
+georesource:319  a            geoes:Cabo ;
+        rdfs:label             "319" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-05-22"^^xsd:date ;
+        dc:identifier          "319"^^xsd:int ;
+        dc:title               "Cap d'en Roig"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/319/geometry> .
+
+georesource:108  a            geoes:Cabo ;
+        rdfs:label             "108" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-05-16"^^xsd:date ;
+        dc:identifier          "108"^^xsd:int ;
+        dc:title               "Cap de Santa Pola"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/108/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/2037/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.8538731 43.57050804023445)"^^geosparql:wktLiteral .
+
+georesource:295  a            geoes:Cabo ;
+        rdfs:label             "295" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "295"^^xsd:int ;
+        dc:title               "Cap Castell"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/295/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/1939/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-9.150129200000002 43.19537154014051)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/827/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.1738777 40.033338538533)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/1696/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.787152899999999 42.24852753981042)"^^geosparql:wktLiteral .
+
+georesource:1904  a           geoes:Cabo ;
+        rdfs:label             "1904" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-04-24"^^xsd:date ;
+        dc:identifier          "1904"^^xsd:int ;
+        dc:title               "Cabo Teira"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1904/geometry> .
+
+georesource:1035  a           geoes:Cabo ;
+        rdfs:label             "1035" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1035"^^xsd:int ;
+        dc:title               "Cap d'en Mosson"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1035/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/169/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.2328724 38.74555623748197)"^^geosparql:wktLiteral .
+
+georesource:1005  a           geoes:Cabo ;
+        rdfs:label             "1005" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1005"^^xsd:int ;
+        dc:title               "Cap Llentrisca"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1005/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/756/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.034170100000001 36.18095343478353)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/126/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.3914548000000002 38.41532723717808)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/1148/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1776775999999995 39.96158393848021)"^^geosparql:wktLiteral .
+
+georesource:1946  a           geoes:Cabo ;
+        rdfs:label             "1946" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-04-24"^^xsd:date ;
+        dc:identifier          "1946"^^xsd:int ;
+        dc:title               "Cabo San Adrián"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1946/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/1174/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1970164999999997 39.862759838406355)"^^geosparql:wktLiteral .
+
+georesource:259  a            geoes:Cabo ;
+        rdfs:label             "259" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "259"^^xsd:int ;
+        dc:title               "Cap de Pola"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/259/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/989/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.4580239000000002 38.90406703762293)"^^geosparql:wktLiteral .
+
+georesource:1174  a           geoes:Cabo ;
+        rdfs:label             "1174" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1174"^^xsd:int ;
+        dc:title               "Cap de Menorca"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1174/geometry> .
+
+georesource:1958  a           geoes:Cabo ;
+        rdfs:label             "1958" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-04-24"^^xsd:date ;
+        dc:identifier          "1958"^^xsd:int ;
+        dc:title               "Cabo Prioriño Chico"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1958/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/260/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.9600352999999995 41.73737843957759)"^^geosparql:wktLiteral .
+
+georesource:989  a            geoes:Cabo ;
+        rdfs:label             "989" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "989"^^xsd:int ;
+        dc:title               "Cap de s'Illa"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/989/geometry> .
+
+georesource:863  a            geoes:Cabo ;
+        rdfs:label             "863" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "863"^^xsd:int ;
+        dc:title               "Cap d'en Font"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/863/geometry> .
+
+georesource:260  a            geoes:Cabo ;
+        rdfs:label             "260" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "260"^^xsd:int ;
+        dc:title               "Cap de Pola"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/260/geometry> .
+
+georesource:959  a            geoes:Cabo ;
+        rdfs:label             "959" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "959"^^xsd:int ;
+        dc:title               "Cabo de Banyos"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/959/geometry> .
+
+georesource:833  a            geoes:Cabo ;
+        rdfs:label             "833" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "833"^^xsd:int ;
+        dc:title               "Cap Negre"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/833/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/903/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.8258811 39.95393053847454)"^^geosparql:wktLiteral .
+
+georesource:411  a            geoes:Cabo ;
+        rdfs:label             "411" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-05-13"^^xsd:date ;
+        dc:identifier          "411"^^xsd:int ;
+        dc:title               "Cap de Sant Pere"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/411/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/342/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.3222739000000012 42.31950003983974)"^^geosparql:wktLiteral .
+
+georesource:1186  a           geoes:Cabo ;
+        rdfs:label             "1186" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1186"^^xsd:int ;
+        dc:title               "Cap Ferrutx"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1186/geometry> .
+
+georesource:326  a            geoes:Cabo ;
+        rdfs:label             "326" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "326"^^xsd:int ;
+        dc:title               "Cap Gros"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/326/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/1925/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-9.272975600000002 42.87990794004524)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/288/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2315933000000006 41.968793439687715)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/257/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.9243553999999996 41.71199133956506)"^^geosparql:wktLiteral .
+
+georesource:1367  a           geoes:Cabo ;
+        rdfs:label             "1367" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1367"^^xsd:int ;
+        dc:title               "Cap Negret"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1367/geometry> .
+
+georesource:507  a            geoes:Cabo ;
+        rdfs:label             "507" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2012-12-04"^^xsd:date ;
+        dc:identifier          "507"^^xsd:int ;
+        dc:title               "Cabo Cabezón de San Pedro"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/507/geometry> .
+
+georesource:1759  a           geoes:Cabo ;
+        rdfs:label             "1759" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-02-14"^^xsd:date ;
+        dc:identifier          "1759"^^xsd:int ;
+        dc:title               "Cabo o Placeres"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1759/geometry> .
+
+georesource:272  a            geoes:Cabo ;
+        rdfs:label             "272" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "272"^^xsd:int ;
+        dc:title               "Cap Roig"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/272/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/1267/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.0536671 39.26472543793174)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/1293/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.9696551999999996 39.147923037833564)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/396/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.1720504999999999 41.0551474392083)"^^geosparql:wktLiteral .
+
+georesource:1379  a           geoes:Cabo ;
+        rdfs:label             "1379" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1379"^^xsd:int ;
+        dc:title               "Es Cap des Falcons"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1379/geometry> .
+
+georesource:519  a            geoes:Cabo ;
+        rdfs:label             "519" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-06-06"^^xsd:date ;
+        dc:identifier          "519"^^xsd:int ;
+        dc:title               "Cabjo de Ajo"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/519/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/28/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.1475931 40.08299503856913)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/155/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.1152328 38.67373703741703)"^^geosparql:wktLiteral .
+
+georesource:1042  a           geoes:Cabo ;
+        rdfs:label             "1042" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1042"^^xsd:int ;
+        dc:title               "Cap Blanc"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1042/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/1670/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.8739541 42.25413713981275)"^^geosparql:wktLiteral .
+
+georesource:76  a             geoes:Cabo ;
+        rdfs:label             "76" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2011-12-30"^^xsd:date ;
+        dc:identifier          "76"^^xsd:int ;
+        dc:title               "Cabo Roig"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/76/geometry> .
+
+georesource:199  a            geoes:Cabo ;
+        rdfs:label             "199" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-06-04"^^xsd:date ;
+        dc:identifier          "199"^^xsd:int ;
+        dc:title               "Cabo de Billano / Bilano Lurmuturra"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/199/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/1936/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-9.214151100000002 43.16161734013103)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/688/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.4679900999999997 36.69353843538235)"^^geosparql:wktLiteral .
+
+georesource:169  a            geoes:Cabo ;
+        rdfs:label             "169" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2012-01-23"^^xsd:date ;
+        dc:identifier          "169"^^xsd:int ;
+        dc:title               "Cap Negre"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/169/geometry> .
+
+georesource:827  a            geoes:Cabo ;
+        rdfs:label             "827" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "827"^^xsd:int ;
+        dc:title               "Cap des Redoble"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/827/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/1962/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.3476776 43.46407174020994)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/855/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.3084275 39.89886633843349)"^^geosparql:wktLiteral .
+
+georesource:1265  a           geoes:Cabo ;
+        rdfs:label             "1265" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1265"^^xsd:int ;
+        dc:title               "Es Còdol Negre"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1265/geometry> .
+
+georesource:899  a            geoes:Cabo ;
+        rdfs:label             "899" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "899"^^xsd:int ;
+        dc:title               "Cap d'Artrutx"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/899/geometry> .
+
+georesource:688  a            geoes:Cabo ;
+        rdfs:label             "688" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-05-07"^^xsd:date ;
+        dc:identifier          "688"^^xsd:int ;
+        dc:title               "Cabo Sacratif"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/688/geometry> .
+
+georesource:1320  a           geoes:Cabo ;
+        rdfs:label             "1320" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1320"^^xsd:int ;
+        dc:title               "Cap Blanc"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1320/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/1037/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.358106 39.07372163777027)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/1063/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.3862873999999998 38.670642637414204)"^^geosparql:wktLiteral .
+
+georesource:839  a            geoes:Cabo ;
+        rdfs:label             "839" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "839"^^xsd:int ;
+        dc:title               "Cap de Favàritx"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/839/geometry> .
+
+georesource:28  a             geoes:Cabo ;
+        rdfs:label             "28" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2012-01-14"^^xsd:date ;
+        dc:identifier          "28"^^xsd:int ;
+        dc:title               "Cabo de Oropesa"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/28/geometry> .
+
+georesource:996  a            geoes:Cabo ;
+        rdfs:label             "996" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "996"^^xsd:int ;
+        dc:title               "Cap de ses Savines"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/996/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/123/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.4034722000000001 38.35285633711909)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/1706/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.900677399999998 42.11228663975208)"^^geosparql:wktLiteral .
+
+georesource:2037  a           geoes:Cabo ;
+        rdfs:label             "2037" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-02-06"^^xsd:date ;
+        dc:identifier          "2037"^^xsd:int ;
+        dc:title               "Cabo Blanco"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/2037/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/1942/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-9.013167000000001 43.23331284015095)"^^geosparql:wktLiteral .
+
+georesource:278  a            geoes:Cabo ;
+        rdfs:label             "278" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "278"^^xsd:int ;
+        dc:title               "Cap de Sant Sebastià"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/278/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/1171/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2042732 39.8890019384261)"^^geosparql:wktLiteral .
+
+georesource:459  a            geoes:Cabo ;
+        rdfs:label             "459" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2012-08-06"^^xsd:date ;
+        dc:identifier          "459"^^xsd:int ;
+        dc:title               "Cabo Negrete"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/459/geometry> .
+
+georesource:1670  a           geoes:Cabo ;
+        rdfs:label             "1670" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-02-14"^^xsd:date ;
+        dc:identifier          "1670"^^xsd:int ;
+        dc:title               "Cabo do Home"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1670/geometry> .
+
+georesource:1374  a           geoes:Cabo ;
+        rdfs:label             "1374" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1374"^^xsd:int ;
+        dc:title               "Cap des Llamp"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1374/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/861/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.282035499999999 39.80193863836025)"^^geosparql:wktLiteral .
+
+georesource:218  a            geoes:Cabo ;
+        rdfs:label             "218" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2012-04-27"^^xsd:date ;
+        dc:identifier          "218"^^xsd:int ;
+        dc:title               "Cabo Higer / Higer Lurmuturra"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/218/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/1005/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2479705000000003 38.855808737580354)"^^geosparql:wktLiteral .
+
+georesource:2134  a           geoes:Cabo ;
+        rdfs:label             "2134" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-01-31"^^xsd:date ;
+        dc:identifier          "2134"^^xsd:int ;
+        dc:title               "Cabo de Peñas"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/2134/geometry> .
+
+georesource:2049  a           geoes:Cabo ;
+        rdfs:label             "2049" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-06-11"^^xsd:date ;
+        dc:identifier          "2049"^^xsd:int ;
+        dc:title               "Cabo Busto"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/2049/geometry> .
+
+georesource:1706  a           geoes:Cabo ;
+        rdfs:label             "1706" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-02-14"^^xsd:date ;
+        dc:identifier          "1706"^^xsd:int ;
+        dc:title               "Cabo Silleiro"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1706/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/764/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.8257483 36.102288734689196)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/2056/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.243503099999999 43.595143140239884)"^^geosparql:wktLiteral .
+
+georesource:1103  a           geoes:Cabo ;
+        rdfs:label             "1103" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1103"^^xsd:int ;
+        dc:title               "Cap Gros"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1103/geometry> .
+
+georesource:1290  a           geoes:Cabo ;
+        rdfs:label             "1290" ;
+        geoes:producto         "SERIES C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1290"^^xsd:int ;
+        dc:title               "Cap d'es Moro Botí"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1290/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/1031/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2899513 39.028232637731136)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/1786/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.8641255 42.2465580398096)"^^geosparql:wktLiteral .
+
+georesource:1018  a           geoes:Cabo ;
+        rdfs:label             "1018" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1018"^^xsd:int ;
+        dc:title               "Cap des Bou"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1018/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/313/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2644076000000006 42.237977539805996)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/469/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.1188123 37.533957436301925)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/259/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.9538032000000003 41.73121253957457)"^^geosparql:wktLiteral .
+
+georesource:291  a            geoes:Cabo ;
+        rdfs:label             "291" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "291"^^xsd:int ;
+        dc:title               "Cap de la Barra"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/291/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/285/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2336001999999997 41.95060043967932)"^^geosparql:wktLiteral .
+
+georesource:1929  a           geoes:Cabo ;
+        rdfs:label             "1929" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-04-24"^^xsd:date ;
+        dc:identifier          "1929"^^xsd:int ;
+        dc:title               "Cabo de Cee"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1929/geometry> .
+
+georesource:176  a            geoes:Cabo ;
+        rdfs:label             "176" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-05-16"^^xsd:date ;
+        dc:identifier          "176"^^xsd:int ;
+        dc:title               "Cap de Sant Antoni"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/176/geometry> .
+
+georesource:1694  a           geoes:Cabo ;
+        rdfs:label             "1694" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-06-14"^^xsd:date ;
+        dc:identifier          "1694"^^xsd:int ;
+        dc:title               "Cabo do Mar"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1694/geometry> .
+
+georesource:749  a            geoes:Cabo ;
+        rdfs:label             "749" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-05-27"^^xsd:date ;
+        dc:identifier          "749"^^xsd:int ;
+        dc:title               "Cabo Roche"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/749/geometry> .
+
+georesource:1398  a           geoes:Cabo ;
+        rdfs:label             "1398" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1398"^^xsd:int ;
+        dc:title               "Cap de s'Àguila"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1398/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/508/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.778621500000001 43.485831840215084)"^^geosparql:wktLiteral .
+
+georesource:1930  a           geoes:Cabo ;
+        rdfs:label             "1930" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-04-24"^^xsd:date ;
+        dc:identifier          "1930"^^xsd:int ;
+        dc:title               "Cabo da Nave"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1930/geometry> .
+
+georesource:2062  a           geoes:Cabo ;
+        rdfs:label             "2062" ;
+        geoes:producto         "MP200"@es ;
+        dc:created             "2013-02-06"^^xsd:date ;
+        dc:identifier          "2062"^^xsd:int ;
+        dc:title               "Cabo Torres"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/2062/geometry> .
+
+georesource:508  a            geoes:Cabo ;
+        rdfs:label             "508" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2012-12-04"^^xsd:date ;
+        dc:identifier          "508"^^xsd:int ;
+        dc:title               "Cabo Menor"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/508/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/1290/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.9508027 39.165695737848615)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Cabo/1938/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-9.174489199999998 43.19159694013944)"^^geosparql:wktLiteral .
+
+georesource:2032  a           geoes:Cabo ;
+        rdfs:label             "2032" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-06-11"^^xsd:date ;
+        dc:identifier          "2032"^^xsd:int ;
+        dc:title               "Cabo Cebes"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/2032/geometry> .
+
+georesource:1031  a           geoes:Cabo ;
+        rdfs:label             "1031" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1031"^^xsd:int ;
+        dc:title               "Cap Nunó"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/1031/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/1377/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.3630435000000003 39.532276138149925)"^^geosparql:wktLiteral .
+
+georesource:273  a            geoes:Cabo ;
+        rdfs:label             "273" ;
+        geoes:producto         "MP200 y SERIE C"@es ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "273"^^xsd:int ;
+        dc:title               "Cap de Roques Planes"@es ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cabo/273/geometry> .
+
+<http://geo.linkeddata.es/recurso/Cabo/2062/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.6979755999999995 43.57557564023557)"^^geosparql:wktLiteral .
+

@@ -1,0 +1,92 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix geoes: <http://geo.linkeddata.es/ontology/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georesource: <http://geo.linkeddata.es/recurso/Telesqui/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+<http://geo.linkeddata.es/recurso/Telesqui/78/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.385881360000001 43.04271064009625, -5.39915482 43.04068846009564)"^^geosparql:wktLiteral .
+
+georesource:78  a             geoes:TransporteSuspendido , geoes:Telesqui ;
+        rdfs:label             "78" ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "78"^^xsd:int ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Telesqui/78/geometry> .
+
+georesource:73  a             geoes:TransporteSuspendido , geoes:Telesqui ;
+        rdfs:label             "73" ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "73"^^xsd:int ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Telesqui/73/geometry> .
+
+<http://geo.linkeddata.es/recurso/Telesqui/77/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.385881360000001 43.04271064009625, -5.396968650000001 43.036554310094395)"^^geosparql:wktLiteral .
+
+georesource:76  a             geoes:TransporteSuspendido , geoes:Telesqui ;
+        rdfs:label             "76" ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "76"^^xsd:int ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Telesqui/76/geometry> .
+
+<http://geo.linkeddata.es/recurso/Telesqui/73/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.3833912 43.03678621009447, -5.3963253799999995 43.033942350093604)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Telesqui/72/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.397839230000001 43.041976950096036, -5.409921789999999 43.04443482009677)"^^geosparql:wktLiteral .
+
+georesource:74  a             geoes:TransporteSuspendido , geoes:Telesqui ;
+        rdfs:label             "74" ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "74"^^xsd:int ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Telesqui/74/geometry> .
+
+georesource:79  a             geoes:TransporteSuspendido , geoes:Telesqui ;
+        rdfs:label             "79" ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "79"^^xsd:int ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Telesqui/79/geometry> .
+
+<http://geo.linkeddata.es/recurso/Telesqui/76/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-6.415680930000001 42.98743512007937, -6.420620069999999 42.987439790079385)"^^geosparql:wktLiteral .
+
+georesource:72  a             geoes:TransporteSuspendido , geoes:Telesqui ;
+        rdfs:label             "72" ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "72"^^xsd:int ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Telesqui/72/geometry> .
+
+georesource:77  a             geoes:TransporteSuspendido , geoes:Telesqui ;
+        rdfs:label             "77" ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "77"^^xsd:int ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Telesqui/77/geometry> .
+
+<http://geo.linkeddata.es/recurso/Telesqui/75/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.4915378 42.807600060021336, -0.4834324600000001 42.803263050019886)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Telesqui/74/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.27238805 42.699454829984134, -0.2730773499999999 42.70093012998466, -0.27315592 42.70136376998478, -0.27229297 42.702232929985115)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Telesqui/79/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.385881360000001 43.04271064009625, -5.397382750000001 43.04174470009596)"^^geosparql:wktLiteral .
+
+georesource:75  a             geoes:TransporteSuspendido , geoes:Telesqui ;
+        rdfs:label             "75" ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "75"^^xsd:int ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Telesqui/75/geometry> .
+

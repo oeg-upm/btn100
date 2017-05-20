@@ -1,0 +1,1040 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix geoes: <http://geo.linkeddata.es/ontology/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georesource: <http://geo.linkeddata.es/recurso/Aeropuerto/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+georesource:460  a                     geoes:Aeropuerto ;
+        rdfs:label                      "460" ;
+        geoes:altitud                   "84"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:iataCode                  "MAH"@es ;
+        geoes:icaoCode                  "LEMH"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-transeuropea> ;
+        dc:created                      "2014-08-20"^^xsd:date ;
+        dc:identifier                   "460"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeroport de Menorca"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/460/geometry> .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/115/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.47259876 41.820389709084296)"^^geosparql:wktLiteral .
+
+georesource:611  a                     geoes:Aeropuerto ;
+        rdfs:label                      "611" ;
+        geoes:altitud                   "50"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:iataCode                  "MLN"@es ;
+        geoes:icaoCode                  "GEML"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-transeuropea> ;
+        dc:created                      "2014-08-21"^^xsd:date ;
+        dc:identifier                   "611"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeropuerto de Melilla"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/611/geometry> .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/545/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-17.21209337 28.031807282178384)"^^geosparql:wktLiteral .
+
+georesource:181  a                     geoes:Aeropuerto ;
+        rdfs:label                      "181" ;
+        geoes:altitud                   "76"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:iataCode                  "REU"@es ;
+        geoes:icaoCode                  "LERS"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-transeuropea> ;
+        dc:created                      "2014-08-20"^^xsd:date ;
+        dc:identifier                   "181"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeroport de Reus"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/181/geometry> .
+
+georesource:458  a                     geoes:Aeropuerto ;
+        rdfs:label                      "458" ;
+        geoes:altitud                   "3"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:iataCode                  "PMI"@es ;
+        geoes:icaoCode                  "LEPA"@es ;
+        geoes:rutaTenT                  "3"^^xsd:int ;
+        dc:created                      "2014-08-21"^^xsd:date ;
+        dc:identifier                   "458"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeroport de Son San Joan"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/458/geometry> .
+
+georesource:194  a                     geoes:Aeropuerto ;
+        rdfs:label                      "194" ;
+        geoes:altitud                   "249"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:iataCode                  "ZAZ"@es ;
+        geoes:icaoCode                  "LEZG"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-transeuropea> ;
+        dc:created                      "2014-08-20"^^xsd:date ;
+        dc:identifier                   "194"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeropuerto de Zaragoza"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/194/geometry> .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/89/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.31732618 42.455928409359174)"^^geosparql:wktLiteral .
+
+georesource:304  a                     geoes:Aeropuerto ;
+        rdfs:label                      "304" ;
+        geoes:altitud                   "622"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
+        geoes:iataCode                  "CQM"@es ;
+        geoes:icaoCode                  "LERL"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        dc:created                      "2012-02-03"^^xsd:date ;
+        dc:identifier                   "304"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeropuerto Central de Ciudad Real"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/304/geometry> .
+
+georesource:511  a                     geoes:Aeropuerto ;
+        rdfs:label                      "511" ;
+        geoes:altitud                   "180"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:iataCode                  "BJZ"@es ;
+        geoes:icaoCode                  "LEBZ"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-transeuropea> ;
+        dc:created                      "2014-08-21"^^xsd:date ;
+        dc:identifier                   "511"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeropuerto de Badajoz"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/511/geometry> .
+
+georesource:637  a                     geoes:Aeropuerto ;
+        rdfs:label                      "637" ;
+        geoes:altitud                   "21"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:iataCode                  "LEI"@es ;
+        geoes:icaoCode                  "LEAM"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-transeuropea> ;
+        dc:created                      "2014-08-21"^^xsd:date ;
+        dc:identifier                   "637"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeropuerto de Almería-LEAM"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/637/geometry> .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/274/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.8559175799999992 38.95077518713861)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/596/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.031672790000003 43.562312249696404)"^^geosparql:wktLiteral .
+
+georesource:98  a                      geoes:Aeropuerto ;
+        rdfs:label                      "98" ;
+        geoes:altitud                   "3"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:iataCode                  "EAS"@es ;
+        geoes:icaoCode                  "LESO"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-transeuropea> ;
+        dc:created                      "2014-08-21"^^xsd:date ;
+        dc:identifier                   "98"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeropuerto de San Sebastián/Donostiako Aireportua"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/98/geometry> .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/108/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.613702009999999 42.36046314932162)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/132/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.4109116800000006 42.34137021931395)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/458/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.719340950000003 39.55301914763899)"^^geosparql:wktLiteral .
+
+georesource:132  a                     geoes:Aeropuerto ;
+        rdfs:label                      "132" ;
+        geoes:altitud                   "802"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:icaoCode                  "LESU"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        dc:created                      "2012-04-24"^^xsd:date ;
+        dc:identifier                   "132"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeroport de la Seu d'Urgell i Andorra"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/132/geometry> .
+
+georesource:10  a                      geoes:Aeropuerto ;
+        rdfs:label                      "10" ;
+        geoes:altitud                   "57"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:iataCode                  "VLC"@es ;
+        geoes:icaoCode                  "LEVC"@es ;
+        geoes:rutaTenT                  "3"^^xsd:int ;
+        dc:created                      "2014-08-21"^^xsd:date ;
+        dc:identifier                   "10"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeroport de Manises"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/10/geometry> .
+
+georesource:7  a                       geoes:Aeropuerto ;
+        rdfs:label                      "7" ;
+        geoes:altitud                   "115"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
+        geoes:icaoCode                  "LEVN"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        dc:created                      "2015-05-20"^^xsd:date ;
+        dc:identifier                   "7"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeroport de Vinaròs"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/7/geometry> .
+
+georesource:92  a                      geoes:Aeropuerto ;
+        rdfs:label                      "92" ;
+        geoes:altitud                   "506"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:iataCode                  "VIT"@es ;
+        geoes:icaoCode                  "LEVT"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-transeuropea> ;
+        dc:created                      "2014-08-21"^^xsd:date ;
+        dc:identifier                   "92"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeropuerto de Foronda/Forondako Aireportua"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/92/geometry> .
+
+georesource:186  a                     geoes:Aeropuerto ;
+        rdfs:label                      "186" ;
+        geoes:altitud                   "531"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:iataCode                  "HSK"@es ;
+        geoes:icaoCode                  "LEHC"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        dc:created                      "2012-05-17"^^xsd:date ;
+        dc:identifier                   "186"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeropuerto de Huesca-Pirineos"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/186/geometry> .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/291/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.2276612299999998 37.9553571262114)"^^geosparql:wktLiteral .
+
+georesource:158  a                     geoes:Aeropuerto ;
+        rdfs:label                      "158" ;
+        geoes:altitud                   "2"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:iataCode                  "BCN"@es ;
+        geoes:icaoCode                  "LEBL"@es ;
+        geoes:rutaTenT                  "3"^^xsd:int ;
+        dc:created                      "2014-08-21"^^xsd:date ;
+        dc:identifier                   "158"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeroport de Barcelona"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/158/geometry> .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/186/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.31811579 42.07651165920211)"^^geosparql:wktLiteral .
+
+georesource:572  a                     geoes:Aeropuerto ;
+        rdfs:label                      "572" ;
+        geoes:altitud                   "95"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:iataCode                  "LCG"@es ;
+        geoes:icaoCode                  "LECO"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-transeuropea> ;
+        dc:created                      "2014-08-21"^^xsd:date ;
+        dc:identifier                   "572"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeropuerto de A Coruña"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/572/geometry> .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/41/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.7785131100000027 40.36939576824091)"^^geosparql:wktLiteral .
+
+georesource:544  a                     geoes:Aeropuerto ;
+        rdfs:label                      "544" ;
+        geoes:altitud                   "29"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:iataCode                  "VDE"@es ;
+        geoes:icaoCode                  "GCHI"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        dc:created                      "2013-01-30"^^xsd:date ;
+        dc:identifier                   "544"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeropuerto de El Hierro"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/544/geometry> .
+
+georesource:265  a                     geoes:Aeropuerto ;
+        rdfs:label                      "265" ;
+        geoes:altitud                   "844"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:iataCode                  "VLL"@es ;
+        geoes:icaoCode                  "LEVD"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-transeuropea> ;
+        dc:created                      "2014-08-21"^^xsd:date ;
+        dc:identifier                   "265"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeropuerto de Valladolid"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/265/geometry> .
+
+georesource:529  a                     geoes:Aeropuerto ;
+        rdfs:label                      "529" ;
+        geoes:altitud                   "23"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:iataCode                  "FUE"@es ;
+        geoes:icaoCode                  "GCFV"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        dc:created                      "2012-12-27"^^xsd:date ;
+        dc:identifier                   "529"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeropuerto de Fuerteventura"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/529/geometry> .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/447/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.348740295866103 36.15100116111586)"^^geosparql:wktLiteral .
+
+georesource:457  a                     geoes:Aeropuerto ;
+        rdfs:label                      "457" ;
+        geoes:altitud                   "7"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:iataCode                  "IBZ"@es ;
+        geoes:icaoCode                  "LEIB"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-transeuropea> ;
+        dc:created                      "2014-08-21"^^xsd:date ;
+        dc:identifier                   "457"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeroport des Codolar"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/457/geometry> .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/92/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.7325300499999994 42.88234806951056)"^^geosparql:wktLiteral .
+
+georesource:43  a                      geoes:Aeropuerto ;
+        rdfs:label                      "43" ;
+        geoes:altitud                   "602"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:iataCode                  "TOJ"@es ;
+        geoes:icaoCode                  "LETO"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        dc:created                      "2012-09-19"^^xsd:date ;
+        dc:identifier                   "43"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeropuerto de Madrid-Torrejón"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/43/geometry> .
+
+georesource:564  a                     geoes:Aeropuerto ;
+        rdfs:label                      "564" ;
+        geoes:altitud                   "252"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:iataCode                  "VGO"@es ;
+        geoes:icaoCode                  "LEVX"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-transeuropea> ;
+        dc:created                      "2014-08-21"^^xsd:date ;
+        dc:identifier                   "564"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeropuerto de Vigo"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/564/geometry> .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/548/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-16.344766609714952 28.48820892581215)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/572/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.381809490000004 43.30249811963349)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/387/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.49318879 36.674576304845914)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/511/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.82133291 38.8931241870883)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/196/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.06813951 41.67756932901449)"^^geosparql:wktLiteral .
+
+georesource:530  a                     geoes:Aeropuerto ;
+        rdfs:label                      "530" ;
+        geoes:altitud                   "19"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:iataCode                  "ACE"@es ;
+        geoes:icaoCode                  "GCRR"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        dc:created                      "2012-12-27"^^xsd:date ;
+        dc:identifier                   "530"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeropuerto de Lanzarote"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/530/geometry> .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/270/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.50088253 40.940379918608)"^^geosparql:wktLiteral .
+
+georesource:571  a                     geoes:Aeropuerto ;
+        rdfs:label                      "571" ;
+        geoes:altitud                   "363"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:iataCode                  "SCQ"@es ;
+        geoes:icaoCode                  "LEST"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-transeuropea> ;
+        dc:created                      "2014-08-21"^^xsd:date ;
+        dc:identifier                   "571"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeropuerto de Santiago de Compostela"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/571/geometry> .
+
+georesource:198  a                     geoes:Aeropuerto ;
+        rdfs:label                      "198" ;
+        geoes:altitud                   "1019"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        dc:created                      "2012-03-05"^^xsd:date ;
+        dc:identifier                   "198"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeropuerto de Teruel - Caudé"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/198/geometry> .
+
+georesource:292  a                     geoes:Aeropuerto ;
+        rdfs:label                      "292" ;
+        geoes:altitud                   "4"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:iataCode                  "MJV"@es ;
+        geoes:icaoCode                  "LELC"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-transeuropea> ;
+        dc:created                      "2014-08-21"^^xsd:date ;
+        dc:identifier                   "292"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeropuerto de Murcia-San Javier"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/292/geometry> .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/488/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.903010979999998 37.420772025664164)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/611/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.95682004 35.28012706315941)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/457/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.3633371299992865 38.871064627068904)"^^geosparql:wktLiteral .
+
+georesource:89  a                      geoes:Aeropuerto ;
+        rdfs:label                      "89" ;
+        geoes:altitud                   "350"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:iataCode                  "RJL"@es ;
+        geoes:icaoCode                  "LERJ"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        dc:created                      "2012-05-09"^^xsd:date ;
+        dc:identifier                   "89"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeropuerto de Logroño-Agoncillo"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/89/geometry> .
+
+georesource:471  a                     geoes:Aeropuerto ;
+        rdfs:label                      "471" ;
+        geoes:altitud                   "91"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:iataCode                  "ODB"@es ;
+        geoes:icaoCode                  "LEBA"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        dc:created                      "2006-07-24"^^xsd:date ;
+        dc:identifier                   "471"^^xsd:int ;
+        dc:replaces                     "33193"^^xsd:int ;
+        dc:title                        "Aeropuerto de Córdoba"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/471/geometry> .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/296/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.13203072 37.804197966060066)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/420/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.06509943 36.74782042492895)"^^geosparql:wktLiteral .
+
+georesource:42  a                      geoes:Aeropuerto ;
+        rdfs:label                      "42" ;
+        geoes:altitud                   "595"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:iataCode                  "MAD"@es ;
+        geoes:icaoCode                  "LEMD"@es ;
+        geoes:rutaTenT                  "3"^^xsd:int ;
+        dc:created                      "2014-08-21"^^xsd:date ;
+        dc:identifier                   "42"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeropuerto de Adolfo Suárez Madrid-Barajas"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/42/geometry> .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/158/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.0822122700000003 41.295540418813445)"^^geosparql:wktLiteral .
+
+georesource:108  a                     geoes:Aeropuerto ;
+        rdfs:label                      "108" ;
+        geoes:altitud                   "898"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:iataCode                  "RGS"@es ;
+        geoes:icaoCode                  "LEBG"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-transeuropea> ;
+        dc:created                      "2014-08-21"^^xsd:date ;
+        dc:identifier                   "108"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeropuerto de Burgos"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/108/geometry> .
+
+georesource:149  a                     geoes:Aeropuerto ;
+        rdfs:label                      "149" ;
+        geoes:altitud                   "130"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:iataCode                  "GRO"@es ;
+        geoes:icaoCode                  "LEGE"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-transeuropea> ;
+        dc:created                      "2014-08-20"^^xsd:date ;
+        dc:identifier                   "149"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeropuerto de Girona-Costa Brava"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/149/geometry> .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/10/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.4760266100000001 39.48714541758655)"^^geosparql:wktLiteral .
+
+georesource:96  a                      geoes:Aeropuerto ;
+        rdfs:label                      "96" ;
+        geoes:altitud                   "44"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:iataCode                  "BIO"@es ;
+        geoes:icaoCode                  "LEBB"@es ;
+        geoes:rutaTenT                  "3"^^xsd:int ;
+        dc:created                      "2014-08-21"^^xsd:date ;
+        dc:identifier                   "96"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeropuerto de Bilbao/Bilbaoko Aireportua"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/96/geometry> .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/527/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-15.391823240000004 27.93625279202117)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/419/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.348925619999998 36.64025933480682)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/471/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.846463310000001 37.845465876101656)"^^geosparql:wktLiteral .
+
+georesource:548  a                     geoes:Aeropuerto ;
+        rdfs:label                      "548" ;
+        geoes:altitud                   "622"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:iataCode                  "TFN"@es ;
+        geoes:icaoCode                  "GCXO"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        dc:created                      "2013-01-30"^^xsd:date ;
+        dc:identifier                   "548"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeropuerto de Tenerife Norte"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/548/geometry> .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/98/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.7913315900000004 43.35625242964732)"^^geosparql:wktLiteral .
+
+georesource:102  a                     geoes:Aeropuerto ;
+        rdfs:label                      "102" ;
+        geoes:altitud                   "454"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:iataCode                  "PNA"@es ;
+        geoes:icaoCode                  "LEPP"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-transeuropea> ;
+        dc:created                      "2014-08-21"^^xsd:date ;
+        dc:identifier                   "102"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeropuerto de Noáin"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/102/geometry> .
+
+georesource:115  a                     geoes:Aeropuerto ;
+        rdfs:label                      "115" ;
+        geoes:altitud                   "1021"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
+        geoes:icaoCode                  "LEGY"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        dc:created                      "2012-08-08"^^xsd:date ;
+        dc:identifier                   "115"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeropuerto de Garray"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/115/geometry> .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/33/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.5573655599999999 38.28715834653399)"^^geosparql:wktLiteral .
+
+georesource:489  a                     geoes:Aeropuerto ;
+        rdfs:label                      "489" ;
+        geoes:altitud                   "85"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/militar> ;
+        geoes:iataCode                  "OZP"@es ;
+        geoes:icaoCode                  "LEMO"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        dc:created                      "2015-07-01"^^xsd:date ;
+        dc:identifier                   "489"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Base Aérea de Morón de la Frontera"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/489/geometry> .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/547/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-16.578576120000005 28.04778424220466)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/571/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.420047690000002 42.89937712951605)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/544/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-17.885233399999997 27.814077851820123)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/460/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.2245450799999995 39.86339501787835)"^^geosparql:wktLiteral .
+
+georesource:291  a                     geoes:Aeropuerto ;
+        rdfs:label                      "291" ;
+        geoes:altitud                   "68"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/militar> ;
+        geoes:icaoCode                  "LERI"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        dc:created                      "2012-07-18"^^xsd:date ;
+        dc:identifier                   "291"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Base Aérea de Alcantarilla"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/291/geometry> .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/7/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.3901127800000001 40.519726748341924)"^^geosparql:wktLiteral .
+
+georesource:527  a                     geoes:Aeropuerto ;
+        rdfs:label                      "527" ;
+        geoes:altitud                   "30"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:iataCode                  "LPA"@es ;
+        geoes:icaoCode                  "GCLP"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        dc:created                      "2012-12-27"^^xsd:date ;
+        dc:identifier                   "527"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeropuerto de Gran Canaria"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/527/geometry> .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/4/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.071647 40.21314938813265)"^^geosparql:wktLiteral .
+
+georesource:596  a                     geoes:Aeropuerto ;
+        rdfs:label                      "596" ;
+        geoes:altitud                   "126"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:iataCode                  "OVD"@es ;
+        geoes:icaoCode                  "LEAS"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-transeuropea> ;
+        dc:created                      "2014-08-21"^^xsd:date ;
+        dc:identifier                   "596"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeropuerto de Asturias"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/596/geometry> .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/198/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.2231941000000002 40.41389515827113)"^^geosparql:wktLiteral .
+
+georesource:41  a                      geoes:Aeropuerto ;
+        rdfs:label                      "41" ;
+        geoes:altitud                   "687"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:iataCode                  "MCV"@es ;
+        geoes:icaoCode                  "LECU"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        dc:created                      "2012-09-19"^^xsd:date ;
+        dc:identifier                   "41"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeropuerto de Madrid-Cuatro Vientos"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/41/geometry> .
+
+georesource:342  a                     geoes:Aeropuerto ;
+        rdfs:label                      "342" ;
+        geoes:altitud                   "570"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:iataCode                  "GRX"@es ;
+        geoes:icaoCode                  "LEGR"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-transeuropea> ;
+        dc:created                      "2014-08-21"^^xsd:date ;
+        dc:identifier                   "342"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeropuerto de Federico García Lorca"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/342/geometry> .
+
+georesource:314  a                     geoes:Aeropuerto ;
+        rdfs:label                      "314" ;
+        geoes:altitud                   "920"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:iataCode                  "LEN"@es ;
+        geoes:icaoCode                  "LELN"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-transeuropea> ;
+        dc:created                      "2014-08-21"^^xsd:date ;
+        dc:identifier                   "314"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeropuerto de León"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/314/geometry> .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/564/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.633284360000001 42.22481166926599)"^^geosparql:wktLiteral .
+
+georesource:270  a                     geoes:Aeropuerto ;
+        rdfs:label                      "270" ;
+        geoes:altitud                   "791"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:iataCode                  "SLM"@es ;
+        geoes:icaoCode                  "LESA"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-transeuropea> ;
+        dc:created                      "2014-08-21"^^xsd:date ;
+        dc:identifier                   "270"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeropuerto de Salamanca"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/270/geometry> .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/530/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-13.608439599999999 28.952019793688045)"^^geosparql:wktLiteral .
+
+georesource:547  a                     geoes:Aeropuerto ;
+        rdfs:label                      "547" ;
+        geoes:altitud                   "73"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:iataCode                  "TFS"@es ;
+        geoes:icaoCode                  "GCTS"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        dc:created                      "2013-01-30"^^xsd:date ;
+        dc:identifier                   "547"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeropuerto de Tenerife Sur"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/547/geometry> .
+
+georesource:296  a                     geoes:Aeropuerto ;
+        rdfs:label                      "296" ;
+        geoes:altitud                   "197"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
+        geoes:iataCode                  "RMU"@es ;
+        geoes:icaoCode                  "LEMI"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        dc:created                      "2012-03-07"^^xsd:date ;
+        dc:identifier                   "296"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeropuerto de Murcia"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/296/geometry> .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/342/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.7770882900000005 37.18483190541215)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/265/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.843968160000001 41.705676059028455)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/181/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.1530720800000003 41.14653556872942)"^^geosparql:wktLiteral .
+
+georesource:4  a                       geoes:Aeropuerto ;
+        rdfs:label                      "4" ;
+        geoes:altitud                   "345"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:iataCode                  "CDT"@es ;
+        geoes:icaoCode                  "LECS"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        dc:created                      "2012-02-15"^^xsd:date ;
+        dc:identifier                   "4"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeropuerto de Castellón"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/4/geometry> .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/43/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.4453072500000004 40.49115444832295)"^^geosparql:wktLiteral .
+
+georesource:321  a                     geoes:Aeropuerto ;
+        rdfs:label                      "321" ;
+        geoes:altitud                   "3"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:iataCode                  "SDR"@es ;
+        geoes:icaoCode                  "LEXJ"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-transeuropea> ;
+        dc:created                      "2014-08-21"^^xsd:date ;
+        dc:identifier                   "321"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeropuerto de Santander"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/321/geometry> .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/40/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.7235986900000024 40.29422147818923)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/637/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.3700969400000007 36.84393695464702)"^^geosparql:wktLiteral .
+
+georesource:447  a                     geoes:Aeropuerto ;
+        rdfs:label                      "447" ;
+        geoes:altitud                   "2"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
+        geoes:iataCode                  "GIB"@es ;
+        geoes:icaoCode                  "LXGB"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        dc:created                      "2014-12-04"^^xsd:date ;
+        dc:identifier                   "447"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeropuerto de Gibraltar"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/447/geometry> .
+
+georesource:33  a                      geoes:Aeropuerto ;
+        rdfs:label                      "33" ;
+        geoes:altitud                   "28"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:iataCode                  "ALC"@es ;
+        geoes:icaoCode                  "LEAL"@es ;
+        geoes:rutaTenT                  "3"^^xsd:int ;
+        dc:created                      "2014-08-21"^^xsd:date ;
+        dc:identifier                   "33"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeroport d'Alacant"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/33/geometry> .
+
+georesource:419  a                     geoes:Aeropuerto ;
+        rdfs:label                      "419" ;
+        geoes:altitud                   "28"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/militar> ;
+        geoes:icaoCode                  "LERT"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        dc:created                      "2012-11-14"^^xsd:date ;
+        dc:identifier                   "419"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeropuerto de la Base Naval de Rota"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/419/geometry> .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/529/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-13.86749057999941 28.448364292862934)"^^geosparql:wktLiteral .
+
+georesource:488  a                     geoes:Aeropuerto ;
+        rdfs:label                      "488" ;
+        geoes:altitud                   "24"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:iataCode                  "SVQ"@es ;
+        geoes:icaoCode                  "LEZL"@es ;
+        geoes:rutaTenT                  "3"^^xsd:int ;
+        dc:created                      "2014-08-21"^^xsd:date ;
+        dc:identifier                   "488"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeropuerto de Sevilla"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/488/geometry> .
+
+georesource:196  a                     geoes:Aeropuerto ;
+        rdfs:label                      "196" ;
+        geoes:altitud                   "252"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/militar> ;
+        geoes:iataCode                  "ZAZ"@es ;
+        geoes:icaoCode                  "LEZG"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        dc:created                      "2012-03-14"^^xsd:date ;
+        dc:identifier                   "196"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Base Aérea de Zaragoza"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/196/geometry> .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/304/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.9911031100000005 38.86761772706588)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/119/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.5362081700000001 41.73075437904082)"^^geosparql:wktLiteral .
+
+georesource:40  a                      geoes:Aeropuerto ;
+        rdfs:label                      "40" ;
+        geoes:altitud                   "616"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/militar> ;
+        geoes:icaoCode                  "LEGT"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        dc:created                      "2012-09-19"^^xsd:date ;
+        dc:identifier                   "40"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeropuerto de Base Aérea de Getafe"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/40/geometry> .
+
+georesource:341  a                     geoes:Aeropuerto ;
+        rdfs:label                      "341" ;
+        geoes:altitud                   "680"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/militar> ;
+        geoes:icaoCode                  "LEGA"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        dc:created                      "2012-12-28"^^xsd:date ;
+        dc:identifier                   "341"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeropuerto de Armilla"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/341/geometry> .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/546/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-17.752131770000002 28.62117564314644)"^^geosparql:wktLiteral .
+
+georesource:119  a                     geoes:Aeropuerto ;
+        rdfs:label                      "119" ;
+        geoes:altitud                   "353"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
+        geoes:iataCode                  "ILD"@es ;
+        geoes:icaoCode                  "LEDA"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        dc:created                      "2012-04-26"^^xsd:date ;
+        dc:identifier                   "119"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeroport de Lleida"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/119/geometry> .
+
+georesource:420  a                     geoes:Aeropuerto ;
+        rdfs:label                      "420" ;
+        geoes:altitud                   "26"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:iataCode                  "XRY"@es ;
+        geoes:icaoCode                  "LEJR"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-transeuropea> ;
+        dc:created                      "2014-08-21"^^xsd:date ;
+        dc:identifier                   "420"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeropuerto de Jerez"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/420/geometry> .
+
+georesource:546  a                     geoes:Aeropuerto ;
+        rdfs:label                      "546" ;
+        geoes:altitud                   "24"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:iataCode                  "SPC"@es ;
+        geoes:icaoCode                  "GCLA"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        dc:created                      "2013-01-30"^^xsd:date ;
+        dc:identifier                   "546"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeropuerto de La Palma"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/546/geometry> .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/194/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.02933666 41.66845822900992)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/321/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.82252366 43.42680776966483)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/489/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.6081151 37.17393645540036)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/102/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.6463081999999996 42.769813309473186)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/292/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.8109775000000001 37.77845321603401)"^^geosparql:wktLiteral .
+
+georesource:387  a                     geoes:Aeropuerto ;
+        rdfs:label                      "387" ;
+        geoes:altitud                   "12"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:iataCode                  "AGP"@es ;
+        geoes:icaoCode                  "LEMG"@es ;
+        geoes:rutaTenT                  "3"^^xsd:int ;
+        dc:created                      "2014-08-21"^^xsd:date ;
+        dc:identifier                   "387"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeropuerto de Málaga"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/387/geometry> .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/341/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.634167120000002 37.13701293536033)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/159/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.1041563500000007 41.51984681893401)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/314/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.657938040000003 42.59164883941027)"^^geosparql:wktLiteral .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/42/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.5634429200000013 40.49417094832496)"^^geosparql:wktLiteral .
+
+georesource:274  a                     geoes:Aeropuerto ;
+        rdfs:label                      "274" ;
+        geoes:altitud                   "700"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:iataCode                  "ABC"@es ;
+        geoes:icaoCode                  "LEAB"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        dc:created                      "2012-01-26"^^xsd:date ;
+        dc:identifier                   "274"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeropuerto de Albacete"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/274/geometry> .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/96/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.903596450000023 43.30086988963308)"^^geosparql:wktLiteral .
+
+georesource:159  a                     geoes:Aeropuerto ;
+        rdfs:label                      "159" ;
+        geoes:altitud                   "142"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:iataCode                  "QSA"@es ;
+        geoes:icaoCode                  "LELL"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        dc:created                      "2012-04-18"^^xsd:date ;
+        dc:identifier                   "159"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeroport de Sabadell"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/159/geometry> .
+
+georesource:545  a                     geoes:Aeropuerto ;
+        rdfs:label                      "545" ;
+        geoes:altitud                   "218"^^xsd:int ;
+        geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        geoes:iataCode                  "GMZ"@es ;
+        geoes:icaoCode                  "GCGM"@es ;
+        geoes:rutaTenT                  <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        dc:created                      "2013-01-30"^^xsd:date ;
+        dc:identifier                   "545"^^xsd:int ;
+        dc:replaces                     "0"^^xsd:int ;
+        dc:title                        "Aeropuerto de La Gomera"@es ;
+        geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aeropuerto/545/geometry> .
+
+<http://geo.linkeddata.es/recurso/Aeropuerto/149/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.76441553 41.90388823912374)"^^geosparql:wktLiteral .
+

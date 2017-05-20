@@ -1,0 +1,42 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix geoes: <http://geo.linkeddata.es/ontology/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georesource: <http://geo.linkeddata.es/recurso/EstacionDeSuministro/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+georesource:1295  a            geoes:InstalacionFerroviaria , geoes:EstacionDeSuministro ;
+        rdfs:label              "1295" ;
+        geoes:codigoDeEstacion  "60121"^^xsd:int ;
+        geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <http://geo.linkeddata.es/kos/transportes/tipo-de-trafico/viajeros> ;
+        dc:created              "2012-08-22"^^xsd:date ;
+        dc:identifier           "1295"^^xsd:int ;
+        dc:replaces             "5703"^^xsd:int ;
+        dc:title                "Estación de Campsa"@es ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/EstacionDeSuministro/1295/geometry> .
+
+<http://geo.linkeddata.es/recurso/EstacionDeSuministro/351/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.4908718888235617 40.427814092969186)"^^geosparql:wktLiteral .
+
+georesource:351  a             geoes:InstalacionFerroviaria , geoes:EstacionDeSuministro ;
+        rdfs:label              "351" ;
+        geoes:codigoDeEstacion  "70121"^^xsd:int ;
+        geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <http://geo.linkeddata.es/kos/transportes/tipo-de-trafico/viajeros> ;
+        dc:created              "2012-09-19"^^xsd:date ;
+        dc:identifier           "351"^^xsd:int ;
+        dc:replaces             "5703"^^xsd:int ;
+        dc:title                "Suministro de Butano Sa"@es ;
+        geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/EstacionDeSuministro/351/geometry> .
+
+<http://geo.linkeddata.es/recurso/EstacionDeSuministro/1295/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.678413769999999 41.69728931955774)"^^geosparql:wktLiteral .
+

@@ -1,0 +1,316 @@
+ @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+ @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+ @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+ @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+ @prefix map4rdf: <http://code.google.com/p/map4rdf/wiki/ontology#> .
+
+_:rdfHidrographyFacet 
+	a map4rdf:FacetGroup;
+	map4rdf:facetPredicate rdf:type;
+	rdfs:label "Hidrografía"@en;
+	rdfs:label "Hidrography"@es;
+        map4rdf:facet <http://geo.linkeddata.es/ontology/RioSuperficial>;
+	map4rdf:facet <http://geo.linkeddata.es/ontology/RioLineal>;
+	map4rdf:facet <http://geo.linkeddata.es/ontology/CauceArtificial>;
+	map4rdf:facet <http://geo.linkeddata.es/ontology/Laguna>;
+	map4rdf:facet <http://geo.linkeddata.es/ontology/Embalse>;
+	map4rdf:facet <http://geo.linkeddata.es/ontology/Rambla>;
+	map4rdf:facet <http://geo.linkeddata.es/ontology/Marisma>;
+	map4rdf:facet <http://geo.linkeddata.es/ontology/Salina>;
+	map4rdf:facet <http://geo.linkeddata.es/ontology/Albufera>;
+	map4rdf:facet <http://geo.linkeddata.es/ontology/Ria>;
+	map4rdf:facet <http://geo.linkeddata.es/ontology/IslaMaritima>;
+	map4rdf:facet <http://geo.linkeddata.es/ontology/IslaFluvial>;
+	map4rdf:facet <http://geo.linkeddata.es/ontology/Balsa>;
+	map4rdf:facet <http://geo.linkeddata.es/ontology/Estanque>;
+	map4rdf:facet <http://geo.linkeddata.es/ontology/Esclusa>;
+	map4rdf:facet <http://geo.linkeddata.es/ontology/AccidenteMaritimoPuntual>;
+.
+
+<http://geo.linkeddata.es/ontology/RioSuperficial>
+        rdfs:label "River"@es;
+        rdfs:label "Rio"@en;
+.
+
+
+<http://geo.linkeddata.es/ontology/RioLineal>
+        rdfs:label "River"@es;
+        rdfs:label "Rio"@en;
+.
+
+
+<http://geo.linkeddata.es/ontology/CauceArtificial>
+        rdfs:label "CauceArtificial"@es;
+        rdfs:label "CauceArtificial"@en;
+.
+
+
+<http://geo.linkeddata.es/ontology/Laguna>
+        rdfs:label "Laguna"@es;
+        rdfs:label "Laguna"@en;
+.
+
+
+<http://geo.linkeddata.es/ontology/Embalse>
+        rdfs:label "Embalse"@es;
+        rdfs:label "Embalse"@en;
+.
+
+<http://geo.linkeddata.es/ontology/Rambla>
+        rdfs:label "Rambla"@es;
+        rdfs:label "Rambla"@en;
+.
+<http://geo.linkeddata.es/ontology/Marisma>
+        rdfs:label "Marisma"@es;
+        rdfs:label "Marisma"@en;
+.
+<http://geo.linkeddata.es/ontology/Albufera>
+        rdfs:label "Albufera"@es;
+        rdfs:label "Albufera"@en;
+.
+<http://geo.linkeddata.es/ontology/Salina>
+        rdfs:label "Salinaa"@es;
+        rdfs:label "Salina"@en;
+.
+
+
+<http://geo.linkeddata.es/ontology/Ria>
+        rdfs:label "Ria"@es;
+        rdfs:label "Ria"@en;
+.
+
+
+<http://geo.linkeddata.es/ontology/IslaMaritima>
+        rdfs:label "Isla marítima"@es;
+        rdfs:label "Isla marítima"@en;
+.
+
+<http://geo.linkeddata.es/ontology/IslaFluvial>
+        rdfs:label "Isla fluvial"@es;
+        rdfs:label "Isla Fluvial"@en;
+.
+
+
+<http://geo.linkeddata.es/ontology/Balsa>
+        rdfs:label "Balsa"@es;
+        rdfs:label "Balsa"@en;
+.
+
+<http://geo.linkeddata.es/ontology/Estanque>
+        rdfs:label "Estanque"@es;
+        rdfs:label "Estanque"@en;
+.
+
+<http://geo.linkeddata.es/ontology/Esclusa>
+        rdfs:label "Esclusa"@es;
+        rdfs:label "Esclusa"@en;
+.
+
+
+<http://geo.linkeddata.es/ontology/AccidenteMaritimoPuntual>
+        rdfs:label "Accidente marítimo puntual"@es;
+        rdfs:label "Accidente marítimo puntual"@en;
+.
+
+_:rdTransportesFacet 
+	a map4rdf:FacetGroup;
+	map4rdf:facetPredicate rdf:type;
+	rdfs:label "Transports"@en;
+	rdfs:label "Transportes"@es;
+        map4rdf:facet <http://geo.linkeddata.es/ontology/Aeropuerto>;
+        map4rdf:facet <http://geo.linkeddata.es/ontology/Autovia>;
+        map4rdf:facet <http://geo.linkeddata.es/ontology/Autopista>;
+        map4rdf:facet <http://geo.linkeddata.es/ontology/CarreteraNacional>;
+        map4rdf:facet <http://geo.linkeddata.es/ontology/CarreteraAutonomica>;
+        map4rdf:facet <http://geo.linkeddata.es/ontology/Pista>;
+        map4rdf:facet <http://geo.linkeddata.es/ontology/Calle>;
+        map4rdf:facet <http://geo.linkeddata.es/ontology/Itinerario>;
+        map4rdf:facet <http://geo.linkeddata.es/ontology/ItinerarioDeViaVerde>;
+        map4rdf:facet <http://geo.linkeddata.es/ontology/ItinerarioDeCaminoDeSantiago>;
+        map4rdf:facet <http://geo.linkeddata.es/ontology/Enlace>;
+        map4rdf:facet <http://geo.linkeddata.es/ontology/Ferrocarril>;
+        map4rdf:facet <http://geo.linkeddata.es/ontology/FerrocarrilDeAltaVelocidad>;
+        map4rdf:facet <http://geo.linkeddata.es/ontology/FerrocarrilConvencional>;
+        map4rdf:facet <http://geo.linkeddata.es/ontology/EstacionDeFerrocarril>;
+        map4rdf:facet <http://geo.linkeddata.es/ontology/TransporteSuspendido>;
+        map4rdf:facet <http://geo.linkeddata.es/ontology/Puerto>;
+        map4rdf:facet <http://geo.linkeddata.es/ontology/Faro>;
+        map4rdf:facet <http://geo.linkeddata.es/ontology/PistaDeAterrizaje>;
+        map4rdf:facet <http://geo.linkeddata.es/ontology/PasoANivel>;
+.
+<http://geo.linkeddata.es/ontology/Aeropuerto>
+        rdfs:label "Aeropuerto"@es;
+        rdfs:label "Aeropuerto"@en;
+.
+
+<http://geo.linkeddata.es/ontology/Autovia>
+        rdfs:label "Autovía"@es;
+        rdfs:label "Autovía"@en;
+.
+<http://geo.linkeddata.es/ontology/Autopista>
+        rdfs:label "Autopista"@es;
+        rdfs:label "Autopista"@en;
+.
+<http://geo.linkeddata.es/ontology/CarreteraNacional>
+        rdfs:label "Carretera nacional"@es;
+        rdfs:label "Carretera nacional"@en;
+.
+
+<http://geo.linkeddata.es/ontology/CarreteraAutonomica>
+        rdfs:label "Carretera autonómica"@es;
+        rdfs:label "Carretera autonómica"@en;
+.
+
+<http://geo.linkeddata.es/ontology/Pista>
+        rdfs:label "Pista"@es;
+        rdfs:label "Pista"@en;
+.
+<http://geo.linkeddata.es/ontology/Calle>
+        rdfs:label "Calle"@es;
+        rdfs:label "Calle"@en;
+.
+<http://geo.linkeddata.es/ontology/Enlace>
+        rdfs:label "Enlace"@es;
+        rdfs:label "Enlace"@en;
+.
+_:rdfConduccionFacet 
+	a map4rdf:FacetGroup;
+	map4rdf:facetPredicate rdf:type;
+	rdfs:label "spply net"@en;
+	rdfs:label "Conduccion y energía"@es;
+        map4rdf:facet <http://geo.linkeddata.es/ontology/ConduccionDeCombustible>;
+        map4rdf:facet <http://geo.linkeddata.es/ontology/LineaElectrica>;
+        map4rdf:facet <http://geo.linkeddata.es/ontology/CentralElectrica>;
+        map4rdf:facet <http://geo.linkeddata.es/ontology/SubestacionElectrica>;
+        map4rdf:facet <http://geo.linkeddata.es/ontology/EstacionDeTelecomunicaciones>;
+        map4rdf:facet <http://geo.linkeddata.es/ontology/DepositoDeCombustible>;
+        map4rdf:facet <http://geo.linkeddata.es/ontology/Deposito>;
+        map4rdf:facet <http://geo.linkeddata.es/ontology/EstacionDepuradora>;
+.
+
+
+
+
+_:rdfPuntosDeControlFacet 
+	a map4rdf:FacetGroup;
+	map4rdf:facetPredicate rdf:type;
+	rdfs:label "Puntos de control"@en;
+	rdfs:label "Puntos de control"@es;
+        map4rdf:facet <http://geo.linkeddata.es/ontology/VerticeGeodesicoRegente>;
+        map4rdf:facet <http://geo.linkeddata.es/ontology/VerticeGeodesicoRegcan95>;
+        map4rdf:facet <http://geo.linkeddata.es/ontology/EstacionPermanenteGPS>;
+.
+
+
+<http://geo.linkeddata.es/ontology/EstacionPermanenteGPS>
+        rdfs:label "Estación gps"@es;
+        rdfs:label "Estación gps"@en;
+.
+
+<http://geo.linkeddata.es/ontology/VerticeGeodesicoRegente>
+        rdfs:label "Vertice Geodesico regente"@es;
+        rdfs:label "Vertice Geodesico regente"@en;
+.
+
+
+<http://geo.linkeddata.es/ontology/VerticeGeodesicoRegcan95>
+        rdfs:label "Vertice Geodesico regcan95"@es;
+        rdfs:label "Vertice Geodesico regcan95"@en;
+.
+
+
+
+_:rdfPoblacionesFacet 
+	a map4rdf:FacetGroup;
+	map4rdf:facetPredicate rdf:type;
+	rdfs:label "Poblaciones y construcciones"@en;
+	rdfs:label "Poblaciones y construcciones"@es;
+        map4rdf:facet <http://geo.linkeddata.es/ontology/NucleoPoblacionalSuperficial>;
+        map4rdf:facet <http://geo.linkeddata.es/ontology/NucleoPoblacionalPuntual>;
+.
+
+<http://geo.linkeddata.es/ontology/NucleoPoblacionalSuperficial>
+        rdfs:label "Nucleo Poblacional Superficial"@es;
+        rdfs:label "Nucleo Poblacional Superficial"@en;
+.
+
+<http://geo.linkeddata.es/ontology/NucleoPoblacionalPuntual>
+        rdfs:label "Nucleo Poblacional Puntual"@es;
+        rdfs:label "Nucleo Poblacional Puntual"@en;
+.
+
+
+_:rdfRelieveFacet 
+	a map4rdf:FacetGroup;
+	map4rdf:facetPredicate rdf:type;
+	rdfs:label "Relieve"@en;
+	rdfs:label "Relieve"@es;
+        map4rdf:facet <http://geo.linkeddata.es/ontology/PuntoAcotado>;
+        map4rdf:facet <http://geo.linkeddata.es/ontology/CurvaDeNivel>;
+.
+
+
+<http://geo.linkeddata.es/ontology/PuntoAcotado>
+        rdfs:label "Punto Acotado"@es;
+        rdfs:label "Punto Acotado"@en;
+.
+
+
+
+<http://geo.linkeddata.es/ontology/CurvaDeNivel>
+        rdfs:label "Curva De Nivel"@es;
+        rdfs:label "Curva De Nivel"@en;
+.
+
+
+
+
+
+_:rdfAdministracionFacet 
+	a map4rdf:FacetGroup;
+	map4rdf:facetPredicate rdf:type;
+	rdfs:label "Unidades administrativas"@en;
+	rdfs:label "Unidades administrativas"@es;
+        map4rdf:facet <http://geo.linkeddata.es/ontology/Nacion>;
+        map4rdf:facet <http://geo.linkeddata.es/ontology/ComunidadAutonoma>;
+        map4rdf:facet <http://geo.linkeddata.es/ontology/CiudadAutonoma>;
+        map4rdf:facet <http://geo.linkeddata.es/ontology/Provincia>;
+        map4rdf:facet <http://geo.linkeddata.es/ontology/Municipio>;
+        map4rdf:facet <http://geo.linkeddata.es/ontology/ComunidadJurisdiccional>;
+.
+
+
+<http://geo.linkeddata.es/ontology/Nacion>
+        rdfs:label "Nación"@es;
+        rdfs:label "Nación"@en;
+.
+
+
+<http://geo.linkeddata.es/ontology/ComunidadAutonoma>
+        rdfs:label "Comunidad autónoma"@es;
+        rdfs:label "Comunidad autónoma"@en;
+.
+
+
+<http://geo.linkeddata.es/ontology/CiudadAutonoma>
+        rdfs:label "Ciudad Autónoma"@es;
+        rdfs:label "Ciudad Autónoma"@en;
+.
+
+
+<http://geo.linkeddata.es/ontology/Provincia>
+        rdfs:label "Provincia"@es;
+        rdfs:label "Provincia"@en;
+.
+
+
+<http://geo.linkeddata.es/ontology/Municipio>
+        rdfs:label "Municipio"@es;
+        rdfs:label "Municipio"@en;
+.
+
+<http://geo.linkeddata.es/ontology/ComunidadJurisdiccional>
+        rdfs:label "Comunidad Jurisdiccional"@es;
+        rdfs:label "Comunidad Jurisdiccional"@en;
+.
+
