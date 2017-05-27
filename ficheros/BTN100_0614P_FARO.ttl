@@ -10,14 +10,14 @@
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
 @prefix dc:    <http://purl.org/dc/terms/> .
 
-georesource:216  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/216> a            geoes:Faro ;
         rdfs:label             "216" ;
         dc:created             "2013-04-24"^^xsd:date ;
         dc:identifier          "216"^^xsd:int ;
         dc:title               "Faro de Cée"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/216/geometry> .
 
-georesource:63  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/63> a             geoes:Faro ;
         rdfs:label             "63" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "63"^^xsd:int ;
@@ -33,7 +33,7 @@ georesource:63  a             geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.364091419999999 39.531794138149515)"^^geosparql:wktLiteral .
 
-georesource:192  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/192> a            geoes:Faro ;
         rdfs:label             "192" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "192"^^xsd:int ;
@@ -49,7 +49,7 @@ georesource:192  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-8.04703578 43.710861120264184)"^^geosparql:wktLiteral .
 
-georesource:33  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/33> a             geoes:Faro ;
         rdfs:label             "33" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "33"^^xsd:int ;
@@ -57,7 +57,7 @@ georesource:33  a             geoes:Faro ;
         dc:title               "Higuer Lurmuturreko Itsasargia"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/33/geometry> .
 
-georesource:162  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/162> a            geoes:Faro ;
         rdfs:label             "162" ;
         dc:created             "2012-12-27"^^xsd:date ;
         dc:identifier          "162"^^xsd:int ;
@@ -68,7 +68,7 @@ georesource:162  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.7609963099999995 43.594451080239736)"^^geosparql:wktLiteral .
 
-georesource:258  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/258> a            geoes:Faro ;
         rdfs:label             "258" ;
         dc:created             "2014-06-17"^^xsd:date ;
         dc:identifier          "258"^^xsd:int ;
@@ -79,7 +79,7 @@ georesource:258  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-17.778177989999996 28.8390028439578)"^^geosparql:wktLiteral .
 
-georesource:132  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/132> a            geoes:Faro ;
         rdfs:label             "132" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "132"^^xsd:int ;
@@ -99,21 +99,21 @@ georesource:132  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.034821459999999 36.18288285478584)"^^geosparql:wktLiteral .
 
-georesource:75  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/75> a             geoes:Faro ;
         rdfs:label             "75" ;
         dc:created             "2011-07-05"^^xsd:date ;
         dc:identifier          "75"^^xsd:int ;
         dc:title               "Faro de Cabo de Gata"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/75/geometry> .
 
-georesource:102  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/102> a            geoes:Faro ;
         rdfs:label             "102" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "102"^^xsd:int ;
         dc:title               "Faro del Cabo de Barbaria"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/102/geometry> .
 
-georesource:2  a              geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/2> a              geoes:Faro ;
         rdfs:label             "2" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "2"^^xsd:int ;
@@ -133,7 +133,7 @@ georesource:2  a              geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (1.21265857 38.99355503770113)"^^geosparql:wktLiteral .
 
-georesource:45  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/45> a             geoes:Faro ;
         rdfs:label             "45" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "45"^^xsd:int ;
@@ -141,7 +141,7 @@ georesource:45  a             geoes:Faro ;
         dc:title               "Far de Montjuich"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/45/geometry> .
 
-georesource:174  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/174> a            geoes:Faro ;
         rdfs:label             "174" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "174"^^xsd:int ;
@@ -152,7 +152,7 @@ georesource:174  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.6462823100000006 41.60806459951271)"^^geosparql:wktLiteral .
 
-georesource:15  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/15> a             geoes:Faro ;
         rdfs:label             "15" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "15"^^xsd:int ;
@@ -164,7 +164,7 @@ georesource:15  a             geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.2707732899999997 39.41402264805464)"^^geosparql:wktLiteral .
 
-georesource:144  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/144> a            geoes:Faro ;
         rdfs:label             "144" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "144"^^xsd:int ;
@@ -179,14 +179,14 @@ georesource:144  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.31142161 35.89604679443887)"^^geosparql:wktLiteral .
 
-georesource:114  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/114> a            geoes:Faro ;
         rdfs:label             "114" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "114"^^xsd:int ;
         dc:title               "Far de sa Punta Grossa"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/114/geometry> .
 
-georesource:87  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/87> a             geoes:Faro ;
         rdfs:label             "87" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "87"^^xsd:int ;
@@ -194,7 +194,7 @@ georesource:87  a             geoes:Faro ;
         dc:title               "Faro de Chipiona"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/87/geometry> .
 
-georesource:57  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/57> a             geoes:Faro ;
         rdfs:label             "57" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "57"^^xsd:int ;
@@ -205,7 +205,7 @@ georesource:57  a             geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-9.048176420000004 42.77032037000869)"^^geosparql:wktLiteral .
 
-georesource:186  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/186> a            geoes:Faro ;
         rdfs:label             "186" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "186"^^xsd:int ;
@@ -216,7 +216,7 @@ georesource:186  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-13.48863206 29.403221364883688)"^^geosparql:wktLiteral .
 
-georesource:241  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/241> a            geoes:Faro ;
         rdfs:label             "241" ;
         dc:created             "2013-02-06"^^xsd:date ;
         dc:identifier          "241"^^xsd:int ;
@@ -227,7 +227,7 @@ georesource:241  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.99348915 39.312378337971275)"^^geosparql:wktLiteral .
 
-georesource:27  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/27> a             geoes:Faro ;
         rdfs:label             "27" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "27"^^xsd:int ;
@@ -235,7 +235,7 @@ georesource:27  a             geoes:Faro ;
         dc:title               "Faro Machichaco/Matxitxako Lurmuturreko Itsasargia"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/27/geometry> .
 
-georesource:156  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/156> a            geoes:Faro ;
         rdfs:label             "156" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "156"^^xsd:int ;
@@ -246,7 +246,7 @@ georesource:156  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-8.86416235 42.247735099810086)"^^geosparql:wktLiteral .
 
-georesource:211  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/211> a            geoes:Faro ;
         rdfs:label             "211" ;
         dc:created             "2013-04-24"^^xsd:date ;
         dc:identifier          "211"^^xsd:int ;
@@ -261,7 +261,7 @@ georesource:211  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-14.507361370000002 28.06582408268106)"^^geosparql:wktLiteral .
 
-georesource:99  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/99> a             geoes:Faro ;
         rdfs:label             "99" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "99"^^xsd:int ;
@@ -269,7 +269,7 @@ georesource:99  a             geoes:Faro ;
         dc:title               "Faro Picacho"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/99/geometry> .
 
-georesource:126  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/126> a            geoes:Faro ;
         rdfs:label             "126" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "126"^^xsd:int ;
@@ -288,14 +288,14 @@ georesource:126  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (4.30695787 39.865192948408186)"^^geosparql:wktLiteral .
 
-georesource:69  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/69> a             geoes:Faro ;
         rdfs:label             "69" ;
         dc:created             "2010-08-10"^^xsd:date ;
         dc:identifier          "69"^^xsd:int ;
         dc:title               "Faro de Roquetas de Mar"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/69/geometry> .
 
-georesource:198  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/198> a            geoes:Faro ;
         rdfs:label             "198" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "198"^^xsd:int ;
@@ -319,14 +319,14 @@ georesource:198  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-1.57856769 37.4015969561624)"^^geosparql:wktLiteral .
 
-georesource:253  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/253> a            geoes:Faro ;
         rdfs:label             "253" ;
         dc:created             "2013-06-06"^^xsd:date ;
         dc:identifier          "253"^^xsd:int ;
         dc:title               "Faro de Melilla"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/253/geometry> .
 
-georesource:39  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/39> a             geoes:Faro ;
         rdfs:label             "39" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "39"^^xsd:int ;
@@ -334,7 +334,7 @@ georesource:39  a             geoes:Faro ;
         dc:title               "Far de Calanans"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/39/geometry> .
 
-georesource:168  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/168> a            geoes:Faro ;
         rdfs:label             "168" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "168"^^xsd:int ;
@@ -345,7 +345,7 @@ georesource:168  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.1869307500000015 42.35146041985271)"^^geosparql:wktLiteral .
 
-georesource:223  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/223> a            geoes:Faro ;
         rdfs:label             "223" ;
         dc:created             "2013-04-24"^^xsd:date ;
         dc:identifier          "223"^^xsd:int ;
@@ -356,14 +356,14 @@ georesource:223  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-7.436774260000002 43.70060413026212)"^^geosparql:wktLiteral .
 
-georesource:70  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/70> a             geoes:Faro ;
         rdfs:label             "70" ;
         dc:created             "2010-08-13"^^xsd:date ;
         dc:identifier          "70"^^xsd:int ;
         dc:title               "Faro de Almería"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/70/geometry> .
 
-georesource:138  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/138> a            geoes:Faro ;
         rdfs:label             "138" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "138"^^xsd:int ;
@@ -379,7 +379,7 @@ georesource:138  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.8889683400000004 35.213437183580325)"^^geosparql:wktLiteral .
 
-georesource:40  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/40> a             geoes:Faro ;
         rdfs:label             "40" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "40"^^xsd:int ;
@@ -387,7 +387,7 @@ georesource:40  a             geoes:Faro ;
         dc:title               "Faro de Punta S´Arenella"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/40/geometry> .
 
-georesource:108  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/108> a            geoes:Faro ;
         rdfs:label             "108" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "108"^^xsd:int ;
@@ -399,7 +399,7 @@ georesource:108  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.30238629 39.44911288808309)"^^geosparql:wktLiteral .
 
-georesource:8  a              geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/8> a              geoes:Faro ;
         rdfs:label             "8" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "8"^^xsd:int ;
@@ -411,7 +411,7 @@ georesource:8  a              geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-17.989816230000006 27.820676872275136)"^^geosparql:wktLiteral .
 
-georesource:10  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/10> a             geoes:Faro ;
         rdfs:label             "10" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "10"^^xsd:int ;
@@ -423,7 +423,7 @@ georesource:10  a             geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.1831408800000007 42.24592602980933)"^^geosparql:wktLiteral .
 
-georesource:235  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/235> a            geoes:Faro ;
         rdfs:label             "235" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "235"^^xsd:int ;
@@ -439,7 +439,7 @@ georesource:235  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-8.70771859 42.40798598987527)"^^geosparql:wktLiteral .
 
-georesource:82  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/82> a             geoes:Faro ;
         rdfs:label             "82" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "82"^^xsd:int ;
@@ -459,7 +459,7 @@ georesource:82  a             geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.315016710000001 35.89083586443248)"^^geosparql:wktLiteral .
 
-georesource:205  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/205> a            geoes:Faro ;
         rdfs:label             "205" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "205"^^xsd:int ;
@@ -467,7 +467,7 @@ georesource:205  a            geoes:Faro ;
         dc:title               "Faro Cabo Prior"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/205/geometry> .
 
-georesource:52  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/52> a             geoes:Faro ;
         rdfs:label             "52" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "52"^^xsd:int ;
@@ -475,14 +475,14 @@ georesource:52  a             geoes:Faro ;
         dc:title               "Faro de Aguilas"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/52/geometry> .
 
-georesource:181  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/181> a            geoes:Faro ;
         rdfs:label             "181" ;
         dc:created             "2013-01-30"^^xsd:date ;
         dc:identifier          "181"^^xsd:int ;
         dc:title               "Faro de Punta Anaga"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/181/geometry> .
 
-georesource:22  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/22> a             geoes:Faro ;
         rdfs:label             "22" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "22"^^xsd:int ;
@@ -494,7 +494,7 @@ georesource:22  a             geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (0.1972889 38.80312040753353)"^^geosparql:wktLiteral .
 
-georesource:151  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/151> a            geoes:Faro ;
         rdfs:label             "151" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "151"^^xsd:int ;
@@ -505,14 +505,14 @@ georesource:151  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-8.33981818 43.45903098020873)"^^geosparql:wktLiteral .
 
-georesource:247  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/247> a            geoes:Faro ;
         rdfs:label             "247" ;
         dc:created             "2013-06-06"^^xsd:date ;
         dc:identifier          "247"^^xsd:int ;
         dc:title               "Faro de Ceuta"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/247/geometry> .
 
-georesource:94  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/94> a             geoes:Faro ;
         rdfs:label             "94" ;
         dc:created             "2014-06-17"^^xsd:date ;
         dc:identifier          "94"^^xsd:int ;
@@ -523,7 +523,7 @@ georesource:94  a             geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.3043739700000003 39.57417978818323)"^^geosparql:wktLiteral .
 
-georesource:121  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/121> a            geoes:Faro ;
         rdfs:label             "121" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "121"^^xsd:int ;
@@ -538,14 +538,14 @@ georesource:121  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-16.92326663 28.34198853313784)"^^geosparql:wktLiteral .
 
-georesource:217  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/217> a            geoes:Faro ;
         rdfs:label             "217" ;
         dc:created             "2013-04-24"^^xsd:date ;
         dc:identifier          "217"^^xsd:int ;
         dc:title               "Faro de Carrumeiro Grande o Vello"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/217/geometry> .
 
-georesource:64  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/64> a             geoes:Faro ;
         rdfs:label             "64" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "64"^^xsd:int ;
@@ -557,7 +557,7 @@ georesource:64  a             geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (4.092169959999999 40.08894538857345)"^^geosparql:wktLiteral .
 
-georesource:193  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/193> a            geoes:Faro ;
         rdfs:label             "193" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "193"^^xsd:int ;
@@ -573,7 +573,7 @@ georesource:193  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.22018399 38.5055830072625)"^^geosparql:wktLiteral .
 
-georesource:34  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/34> a             geoes:Faro ;
         rdfs:label             "34" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "34"^^xsd:int ;
@@ -585,7 +585,7 @@ georesource:34  a             geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-16.54898271 28.02704621261687)"^^geosparql:wktLiteral .
 
-georesource:163  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/163> a            geoes:Faro ;
         rdfs:label             "163" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "163"^^xsd:int ;
@@ -608,14 +608,14 @@ georesource:163  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (1.7370854300000005 41.21691490930186)"^^geosparql:wktLiteral .
 
-georesource:133  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/133> a            geoes:Faro ;
         rdfs:label             "133" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "133"^^xsd:int ;
         dc:title               "Faro de sa Creu de Soller"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/133/geometry> .
 
-georesource:229  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/229> a            geoes:Faro ;
         rdfs:label             "229" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "229"^^xsd:int ;
@@ -623,7 +623,7 @@ georesource:229  a            geoes:Faro ;
         dc:title               "Faro de San Agustín"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/229/geometry> .
 
-georesource:103  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/103> a            geoes:Faro ;
         rdfs:label             "103" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "103"^^xsd:int ;
@@ -631,7 +631,7 @@ georesource:103  a            geoes:Faro ;
         dc:title               "Far de La Savina"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/103/geometry> .
 
-georesource:76  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/76> a             geoes:Faro ;
         rdfs:label             "76" ;
         dc:created             "2011-07-05"^^xsd:date ;
         dc:identifier          "76"^^xsd:int ;
@@ -646,14 +646,14 @@ georesource:76  a             geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-9.188902440000001 43.12484348012048)"^^geosparql:wktLiteral .
 
-georesource:3  a              geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/3> a              geoes:Faro ;
         rdfs:label             "3" ;
         dc:created             "2012-02-06"^^xsd:date ;
         dc:identifier          "3"^^xsd:int ;
         dc:title               "Faro de Peñíscola"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/3/geometry> .
 
-georesource:46  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/46> a             geoes:Faro ;
         rdfs:label             "46" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "46"^^xsd:int ;
@@ -665,7 +665,7 @@ georesource:46  a             geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.532334179999998 43.549790490229825)"^^geosparql:wktLiteral .
 
-georesource:175  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/175> a            geoes:Faro ;
         rdfs:label             "175" ;
         dc:created             "2013-01-30"^^xsd:date ;
         dc:identifier          "175"^^xsd:int ;
@@ -676,7 +676,7 @@ georesource:175  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-7.68428518 43.78603718027891)"^^geosparql:wktLiteral .
 
-georesource:230  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/230> a            geoes:Faro ;
         rdfs:label             "230" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "230"^^xsd:int ;
@@ -684,7 +684,7 @@ georesource:230  a            geoes:Faro ;
         dc:title               "Faro de Busto"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/230/geometry> .
 
-georesource:16  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/16> a             geoes:Faro ;
         rdfs:label             "16" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "16"^^xsd:int ;
@@ -696,7 +696,7 @@ georesource:16  a             geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-13.948991669999998 28.230165272952945)"^^geosparql:wktLiteral .
 
-georesource:145  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/145> a            geoes:Faro ;
         rdfs:label             "145" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "145"^^xsd:int ;
@@ -711,7 +711,7 @@ georesource:145  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.50999204 43.37716169018865)"^^geosparql:wktLiteral .
 
-georesource:200  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/200> a            geoes:Faro ;
         rdfs:label             "200" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "200"^^xsd:int ;
@@ -723,7 +723,7 @@ georesource:200  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-16.32879434 28.576428043525024)"^^geosparql:wktLiteral .
 
-georesource:88  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/88> a             geoes:Faro ;
         rdfs:label             "88" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "88"^^xsd:int ;
@@ -731,7 +731,7 @@ georesource:88  a             geoes:Faro ;
         dc:title               "Faro del Castillo de San Sebastián"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/88/geometry> .
 
-georesource:115  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/115> a            geoes:Faro ;
         rdfs:label             "115" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "115"^^xsd:int ;
@@ -750,7 +750,7 @@ georesource:115  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.747702259999998 43.42005149019931)"^^geosparql:wktLiteral .
 
-georesource:58  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/58> a             geoes:Faro ;
         rdfs:label             "58" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "58"^^xsd:int ;
@@ -758,14 +758,14 @@ georesource:58  a             geoes:Faro ;
         dc:title               "Faro El Estacio"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/58/geometry> .
 
-georesource:187  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/187> a            geoes:Faro ;
         rdfs:label             "187" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "187"^^xsd:int ;
         dc:title               "Faro de la Isla de Ons"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/187/geometry> .
 
-georesource:242  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/242> a            geoes:Faro ;
         rdfs:label             "242" ;
         dc:created             "2013-02-06"^^xsd:date ;
         dc:identifier          "242"^^xsd:int ;
@@ -776,7 +776,7 @@ georesource:242  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.4202611099999998 36.69492549538393)"^^geosparql:wktLiteral .
 
-georesource:28  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/28> a             geoes:Faro ;
         rdfs:label             "28" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "28"^^xsd:int ;
@@ -784,7 +784,7 @@ georesource:28  a             geoes:Faro ;
         dc:title               "Faro de Lekeitio/Lekeitioko Itsasargia"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/28/geometry> .
 
-georesource:157  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/157> a            geoes:Faro ;
         rdfs:label             "157" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "157"^^xsd:int ;
@@ -795,14 +795,14 @@ georesource:157  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.09172623 38.93336204764864)"^^geosparql:wktLiteral .
 
-georesource:212  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/212> a            geoes:Faro ;
         rdfs:label             "212" ;
         dc:created             "2013-04-24"^^xsd:date ;
         dc:identifier          "212"^^xsd:int ;
         dc:title               "Faro de Illa de Rúa"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/212/geometry> .
 
-georesource:127  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/127> a            geoes:Faro ;
         rdfs:label             "127" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "127"^^xsd:int ;
@@ -818,7 +818,7 @@ georesource:127  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-17.92576173 28.596588223558282)"^^geosparql:wktLiteral .
 
-georesource:199  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/199> a            geoes:Faro ;
         rdfs:label             "199" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "199"^^xsd:int ;
@@ -833,7 +833,7 @@ georesource:199  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.2869009999999994 42.27111753981984)"^^geosparql:wktLiteral .
 
-georesource:254  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/254> a            geoes:Faro ;
         rdfs:label             "254" ;
         dc:created             "2013-06-06"^^xsd:date ;
         dc:identifier          "254"^^xsd:int ;
@@ -848,7 +848,7 @@ georesource:254  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-9.08975056 42.576081109939565)"^^geosparql:wktLiteral .
 
-georesource:169  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/169> a            geoes:Faro ;
         rdfs:label             "169" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "169"^^xsd:int ;
@@ -867,7 +867,7 @@ georesource:169  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.314754469999999 35.89338375443561)"^^geosparql:wktLiteral .
 
-georesource:224  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/224> a            geoes:Faro ;
         rdfs:label             "224" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "224"^^xsd:int ;
@@ -879,14 +879,14 @@ georesource:224  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.9339618599999997 41.71563010956685)"^^geosparql:wktLiteral .
 
-georesource:71  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/71> a             geoes:Faro ;
         rdfs:label             "71" ;
         dc:created             "2010-08-10"^^xsd:date ;
         dc:identifier          "71"^^xsd:int ;
         dc:title               "Faro Sabinal"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/71/geometry> .
 
-georesource:139  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/139> a            geoes:Faro ;
         rdfs:label             "139" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "139"^^xsd:int ;
@@ -897,7 +897,7 @@ georesource:139  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.810448629999999 36.09019177467463)"^^geosparql:wktLiteral .
 
-georesource:41  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/41> a             geoes:Faro ;
         rdfs:label             "41" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "41"^^xsd:int ;
@@ -905,7 +905,7 @@ georesource:41  a             geoes:Faro ;
         dc:title               "Faro del Cabo de Creus"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/41/geometry> .
 
-georesource:109  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/109> a            geoes:Faro ;
         rdfs:label             "109" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "109"^^xsd:int ;
@@ -917,7 +917,7 @@ georesource:109  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.043316709999998 43.44206993020464)"^^geosparql:wktLiteral .
 
-georesource:170  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/170> a            geoes:Faro ;
         rdfs:label             "170" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "170"^^xsd:int ;
@@ -932,7 +932,7 @@ georesource:170  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.077419370000001 43.57018266023437)"^^geosparql:wktLiteral .
 
-georesource:9  a              geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/9> a              geoes:Faro ;
         rdfs:label             "9" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "9"^^xsd:int ;
@@ -940,14 +940,14 @@ georesource:9  a              geoes:Faro ;
         dc:title               "Far Cap-Blanc"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/9/geometry> .
 
-georesource:11  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/11> a             geoes:Faro ;
         rdfs:label             "11" ;
         dc:created             "2012-02-22"^^xsd:date ;
         dc:identifier          "11"^^xsd:int ;
         dc:title               "Faro de Oliva"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/11/geometry> .
 
-georesource:140  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/140> a            geoes:Faro ;
         rdfs:label             "140" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "140"^^xsd:int ;
@@ -962,7 +962,7 @@ georesource:140  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-8.84450231 43.35969134018424)"^^geosparql:wktLiteral .
 
-georesource:236  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/236> a            geoes:Faro ;
         rdfs:label             "236" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "236"^^xsd:int ;
@@ -970,7 +970,7 @@ georesource:236  a            geoes:Faro ;
         dc:title               "Faro de Tazones"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/236/geometry> .
 
-georesource:83  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/83> a             geoes:Faro ;
         rdfs:label             "83" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "83"^^xsd:int ;
@@ -978,7 +978,7 @@ georesource:83  a             geoes:Faro ;
         dc:title               "Faro de Calaburras"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/83/geometry> .
 
-georesource:110  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/110> a            geoes:Faro ;
         rdfs:label             "110" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "110"^^xsd:int ;
@@ -993,7 +993,7 @@ georesource:110  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.3160571999999995 36.52832759519239)"^^geosparql:wktLiteral .
 
-georesource:206  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/206> a            geoes:Faro ;
         rdfs:label             "206" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "206"^^xsd:int ;
@@ -1005,7 +1005,7 @@ georesource:206  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (0.2303005799999999 38.73285601747052)"^^geosparql:wktLiteral .
 
-georesource:53  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/53> a             geoes:Faro ;
         rdfs:label             "53" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "53"^^xsd:int ;
@@ -1013,7 +1013,7 @@ georesource:53  a             geoes:Faro ;
         dc:title               "Faro de Mazarrón"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/53/geometry> .
 
-georesource:182  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/182> a            geoes:Faro ;
         rdfs:label             "182" ;
         dc:created             "2014-06-17"^^xsd:date ;
         dc:identifier          "182"^^xsd:int ;
@@ -1028,7 +1028,7 @@ georesource:182  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (1.1883034500000003 38.86343225758709)"^^geosparql:wktLiteral .
 
-georesource:23  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/23> a             geoes:Faro ;
         rdfs:label             "23" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "23"^^xsd:int ;
@@ -1044,7 +1044,7 @@ georesource:23  a             geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.734325649999998 43.56351568023289)"^^geosparql:wktLiteral .
 
-georesource:152  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/152> a            geoes:Faro ;
         rdfs:label             "152" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "152"^^xsd:int ;
@@ -1055,14 +1055,14 @@ georesource:152  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.1762996600000006 39.329434427985376)"^^geosparql:wktLiteral .
 
-georesource:248  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/248> a            geoes:Faro ;
         rdfs:label             "248" ;
         dc:created             "2013-06-06"^^xsd:date ;
         dc:identifier          "248"^^xsd:int ;
         dc:title               "Faro de Ceuta/ Faro de Punta Almina"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/248/geometry> .
 
-georesource:122  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/122> a            geoes:Faro ;
         rdfs:label             "122" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "122"^^xsd:int ;
@@ -1073,7 +1073,7 @@ georesource:122  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.7011997900000004 36.68682329537467)"^^geosparql:wktLiteral .
 
-georesource:95  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/95> a             geoes:Faro ;
         rdfs:label             "95" ;
         dc:created             "2014-06-17"^^xsd:date ;
         dc:identifier          "95"^^xsd:int ;
@@ -1084,7 +1084,7 @@ georesource:95  a             geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.92340114 35.28889433367744)"^^geosparql:wktLiteral .
 
-georesource:65  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/65> a             geoes:Faro ;
         rdfs:label             "65" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "65"^^xsd:int ;
@@ -1092,7 +1092,7 @@ georesource:65  a             geoes:Faro ;
         dc:title               "Faro Punta del Pescador"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/65/geometry> .
 
-georesource:194  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/194> a            geoes:Faro ;
         rdfs:label             "194" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "194"^^xsd:int ;
@@ -1104,7 +1104,7 @@ georesource:194  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-8.939484030000001 42.54919563992954)"^^geosparql:wktLiteral .
 
-georesource:35  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/35> a             geoes:Faro ;
         rdfs:label             "35" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "35"^^xsd:int ;
@@ -1120,7 +1120,7 @@ georesource:35  a             geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-9.297684569999998 43.05339804009947)"^^geosparql:wktLiteral .
 
-georesource:164  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/164> a            geoes:Faro ;
         rdfs:label             "164" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "164"^^xsd:int ;
@@ -1143,7 +1143,7 @@ georesource:164  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-8.90315066 42.243208139808196)"^^geosparql:wktLiteral .
 
-georesource:134  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/134> a            geoes:Faro ;
         rdfs:label             "134" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "134"^^xsd:int ;
@@ -1162,7 +1162,7 @@ georesource:134  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.140022329999999 36.29551461491976)"^^geosparql:wktLiteral .
 
-georesource:104  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/104> a            geoes:Faro ;
         rdfs:label             "104" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "104"^^xsd:int ;
@@ -1170,7 +1170,7 @@ georesource:104  a            geoes:Faro ;
         dc:title               "Faro de Es Vedrà"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/104/geometry> .
 
-georesource:77  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/77> a             geoes:Faro ;
         rdfs:label             "77" ;
         dc:created             "2011-07-05"^^xsd:date ;
         dc:identifier          "77"^^xsd:int ;
@@ -1185,7 +1185,7 @@ georesource:77  a             geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-7.869663499999998 43.77098827027602)"^^geosparql:wktLiteral .
 
-georesource:4  a              geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/4> a              geoes:Faro ;
         rdfs:label             "4" ;
         dc:created             "2012-02-06"^^xsd:date ;
         dc:identifier          "4"^^xsd:int ;
@@ -1200,7 +1200,7 @@ georesource:4  a              geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (1.4539956999999997 38.90424803762309)"^^geosparql:wktLiteral .
 
-georesource:47  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/47> a             geoes:Faro ;
         rdfs:label             "47" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "47"^^xsd:int ;
@@ -1208,7 +1208,7 @@ georesource:47  a             geoes:Faro ;
         dc:title               "Faro de Sant Carles de La Rapita"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/47/geometry> .
 
-georesource:176  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/176> a            geoes:Faro ;
         rdfs:label             "176" ;
         dc:created             "2013-01-30"^^xsd:date ;
         dc:identifier          "176"^^xsd:int ;
@@ -1223,7 +1223,7 @@ georesource:176  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.30045017 43.53409997022625)"^^geosparql:wktLiteral .
 
-georesource:231  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/231> a            geoes:Faro ;
         rdfs:label             "231" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "231"^^xsd:int ;
@@ -1231,7 +1231,7 @@ georesource:231  a            geoes:Faro ;
         dc:title               "Faro de Cudillero"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/231/geometry> .
 
-georesource:17  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/17> a             geoes:Faro ;
         rdfs:label             "17" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "17"^^xsd:int ;
@@ -1239,14 +1239,14 @@ georesource:17  a             geoes:Faro ;
         dc:title               "Faro de Villajoyosa"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/17/geometry> .
 
-georesource:146  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/146> a            geoes:Faro ;
         rdfs:label             "146" ;
         dc:created             "2013-02-20"^^xsd:date ;
         dc:identifier          "146"^^xsd:int ;
         dc:title               "Far des Moll Nou"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/146/geometry> .
 
-georesource:201  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/201> a            geoes:Faro ;
         rdfs:label             "201" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "201"^^xsd:int ;
@@ -1254,14 +1254,14 @@ georesource:201  a            geoes:Faro ;
         dc:title               "Faro das Sisargas"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/201/geometry> .
 
-georesource:116  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/116> a            geoes:Faro ;
         rdfs:label             "116" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "116"^^xsd:int ;
         dc:title               "Faro des Cap des Llebeig"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/116/geometry> .
 
-georesource:89  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/89> a             geoes:Faro ;
         rdfs:label             "89" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "89"^^xsd:int ;
@@ -1280,7 +1280,7 @@ georesource:89  a             geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (1.4216397499999998 38.79901149752987)"^^geosparql:wktLiteral .
 
-georesource:59  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/59> a             geoes:Faro ;
         rdfs:label             "59" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "59"^^xsd:int ;
@@ -1288,7 +1288,7 @@ georesource:59  a             geoes:Faro ;
         dc:title               "Faro San Vicente de la Barquera"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/59/geometry> .
 
-georesource:188  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/188> a            geoes:Faro ;
         rdfs:label             "188" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "188"^^xsd:int ;
@@ -1300,7 +1300,7 @@ georesource:188  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-18.130103070000004 27.77021988219157)"^^geosparql:wktLiteral .
 
-georesource:243  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/243> a            geoes:Faro ;
         rdfs:label             "243" ;
         dc:created             "2013-02-06"^^xsd:date ;
         dc:identifier          "243"^^xsd:int ;
@@ -1311,7 +1311,7 @@ georesource:243  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.6815639499999993 39.797145148356606)"^^geosparql:wktLiteral .
 
-georesource:29  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/29> a             geoes:Faro ;
         rdfs:label             "29" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "29"^^xsd:int ;
@@ -1319,7 +1319,7 @@ georesource:29  a             geoes:Faro ;
         dc:title               "Zumaiako Itsasargia"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/29/geometry> .
 
-georesource:90  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/90> a             geoes:Faro ;
         rdfs:label             "90" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "90"^^xsd:int ;
@@ -1331,7 +1331,7 @@ georesource:90  a             geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.2217933299999992 42.0477607997235)"^^geosparql:wktLiteral .
 
-georesource:158  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/158> a            geoes:Faro ;
         rdfs:label             "158" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "158"^^xsd:int ;
@@ -1346,7 +1346,7 @@ georesource:158  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-8.89072583 42.19169560978642)"^^geosparql:wktLiteral .
 
-georesource:213  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/213> a            geoes:Faro ;
         rdfs:label             "213" ;
         dc:created             "2013-04-24"^^xsd:date ;
         dc:identifier          "213"^^xsd:int ;
@@ -1357,7 +1357,7 @@ georesource:213  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.31727655 39.58597630819257)"^^geosparql:wktLiteral .
 
-georesource:60  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/60> a             geoes:Faro ;
         rdfs:label             "60" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "60"^^xsd:int ;
@@ -1365,7 +1365,7 @@ georesource:60  a             geoes:Faro ;
         dc:title               "Faro de Suances"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/60/geometry> .
 
-georesource:128  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/128> a            geoes:Faro ;
         rdfs:label             "128" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "128"^^xsd:int ;
@@ -1384,7 +1384,7 @@ georesource:128  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.0103537799999995 43.322655820174724)"^^geosparql:wktLiteral .
 
-georesource:30  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/30> a             geoes:Faro ;
         rdfs:label             "30" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "30"^^xsd:int ;
@@ -1396,7 +1396,7 @@ georesource:30  a             geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-8.353747399999998 43.38330182019019)"^^geosparql:wktLiteral .
 
-georesource:255  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/255> a            geoes:Faro ;
         rdfs:label             "255" ;
         dc:created             "2013-06-06"^^xsd:date ;
         dc:identifier          "255"^^xsd:int ;
@@ -1411,7 +1411,7 @@ georesource:255  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.5223886399999995 39.45754941808993)"^^geosparql:wktLiteral .
 
-georesource:225  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/225> a            geoes:Faro ;
         rdfs:label             "225" ;
         dc:created             "2013-01-02"^^xsd:date ;
         dc:identifier          "225"^^xsd:int ;
@@ -1422,7 +1422,7 @@ georesource:225  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.391922230000001 43.39362895019276)"^^geosparql:wktLiteral .
 
-georesource:72  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/72> a             geoes:Faro ;
         rdfs:label             "72" ;
         dc:created             "2010-08-30"^^xsd:date ;
         dc:identifier          "72"^^xsd:int ;
@@ -1433,7 +1433,7 @@ georesource:72  a             geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (4.26668358 39.9971944285065)"^^geosparql:wktLiteral .
 
-georesource:42  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/42> a             geoes:Faro ;
         rdfs:label             "42" ;
         dc:created             "2012-02-24"^^xsd:date ;
         dc:identifier          "42"^^xsd:int ;
@@ -1444,7 +1444,7 @@ georesource:42  a             geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.096125989999999 36.73501519542957)"^^geosparql:wktLiteral .
 
-georesource:171  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/171> a            geoes:Faro ;
         rdfs:label             "171" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "171"^^xsd:int ;
@@ -1459,14 +1459,14 @@ georesource:171  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-16.69437135 28.001152722574)"^^geosparql:wktLiteral .
 
-georesource:12  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/12> a             geoes:Faro ;
         rdfs:label             "12" ;
         dc:created             "2012-02-22"^^xsd:date ;
         dc:identifier          "12"^^xsd:int ;
         dc:title               "Faro de Sagunto"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/12/geometry> .
 
-georesource:141  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/141> a            geoes:Faro ;
         rdfs:label             "141" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "141"^^xsd:int ;
@@ -1490,7 +1490,7 @@ georesource:141  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-7.525071129999998 43.735694970269144)"^^geosparql:wktLiteral .
 
-georesource:237  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/237> a            geoes:Faro ;
         rdfs:label             "237" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "237"^^xsd:int ;
@@ -1498,14 +1498,14 @@ georesource:237  a            geoes:Faro ;
         dc:title               "Faro de Ribadesella"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/237/geometry> .
 
-georesource:111  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/111> a            geoes:Faro ;
         rdfs:label             "111" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "111"^^xsd:int ;
         dc:title               "Faro de Formentera"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/111/geometry> .
 
-georesource:84  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/84> a             geoes:Faro ;
         rdfs:label             "84" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "84"^^xsd:int ;
@@ -1517,7 +1517,7 @@ georesource:84  a             geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.9331731799999985 35.286761133674716)"^^geosparql:wktLiteral .
 
-georesource:207  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/207> a            geoes:Faro ;
         rdfs:label             "207" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "207"^^xsd:int ;
@@ -1525,7 +1525,7 @@ georesource:207  a            geoes:Faro ;
         dc:title               "Faro Punta Candelaria"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/207/geometry> .
 
-georesource:54  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/54> a             geoes:Faro ;
         rdfs:label             "54" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "54"^^xsd:int ;
@@ -1537,7 +1537,7 @@ georesource:54  a             geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-9.210881350000001 43.15999296013055)"^^geosparql:wktLiteral .
 
-georesource:183  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/183> a            geoes:Faro ;
         rdfs:label             "183" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "183"^^xsd:int ;
@@ -1549,7 +1549,7 @@ georesource:183  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.053457589999999 39.265219897932155)"^^geosparql:wktLiteral .
 
-georesource:24  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/24> a             geoes:Faro ;
         rdfs:label             "24" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "24"^^xsd:int ;
@@ -1557,7 +1557,7 @@ georesource:24  a             geoes:Faro ;
         dc:title               "Faro de Villajoyosa"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/24/geometry> .
 
-georesource:153  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/153> a            geoes:Faro ;
         rdfs:label             "153" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "153"^^xsd:int ;
@@ -1568,7 +1568,7 @@ georesource:153  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-14.490882500000001 28.109695152753666)"^^geosparql:wktLiteral .
 
-georesource:249  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/249> a            geoes:Faro ;
         rdfs:label             "249" ;
         dc:created             "2013-06-06"^^xsd:date ;
         dc:identifier          "249"^^xsd:int ;
@@ -1579,7 +1579,7 @@ georesource:249  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.35720831 36.6158678752934)"^^geosparql:wktLiteral .
 
-georesource:96  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/96> a             geoes:Faro ;
         rdfs:label             "96" ;
         dc:created             "2014-06-17"^^xsd:date ;
         dc:identifier          "96"^^xsd:int ;
@@ -1590,7 +1590,7 @@ georesource:96  a             geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.78798988 39.363561628013436)"^^geosparql:wktLiteral .
 
-georesource:123  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/123> a            geoes:Faro ;
         rdfs:label             "123" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "123"^^xsd:int ;
@@ -1605,14 +1605,14 @@ georesource:123  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-16.140182069999998 28.581269573533007)"^^geosparql:wktLiteral .
 
-georesource:219  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/219> a            geoes:Faro ;
         rdfs:label             "219" ;
         dc:created             "2013-04-24"^^xsd:date ;
         dc:identifier          "219"^^xsd:int ;
         dc:title               "Faro do Lago"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/219/geometry> .
 
-georesource:66  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/66> a             geoes:Faro ;
         rdfs:label             "66" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "66"^^xsd:int ;
@@ -1624,7 +1624,7 @@ georesource:66  a             geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-15.598874439999996 27.735022162133244)"^^geosparql:wktLiteral .
 
-georesource:195  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/195> a            geoes:Faro ;
         rdfs:label             "195" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "195"^^xsd:int ;
@@ -1644,14 +1644,14 @@ georesource:195  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.0498029 38.563278437315894)"^^geosparql:wktLiteral .
 
-georesource:250  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/250> a            geoes:Faro ;
         rdfs:label             "250" ;
         dc:created             "2013-06-06"^^xsd:date ;
         dc:identifier          "250"^^xsd:int ;
         dc:title               "Tagzírt en Nekór"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/250/geometry> .
 
-georesource:36  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/36> a             geoes:Faro ;
         rdfs:label             "36" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "36"^^xsd:int ;
@@ -1659,21 +1659,21 @@ georesource:36  a             geoes:Faro ;
         dc:title               "Faro de las Illes Medes"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/36/geometry> .
 
-georesource:165  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/165> a            geoes:Faro ;
         rdfs:label             "165" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "165"^^xsd:int ;
         dc:title               "Faro de Roques y Punta de Salmor"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/165/geometry> .
 
-georesource:220  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/220> a            geoes:Faro ;
         rdfs:label             "220" ;
         dc:created             "2013-04-24"^^xsd:date ;
         dc:identifier          "220"^^xsd:int ;
         dc:title               "Faro de Laxo"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/220/geometry> .
 
-georesource:135  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/135> a            geoes:Faro ;
         rdfs:label             "135" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "135"^^xsd:int ;
@@ -1688,7 +1688,7 @@ georesource:135  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (1.47822697 38.80486194753507)"^^geosparql:wktLiteral .
 
-georesource:78  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/78> a             geoes:Faro ;
         rdfs:label             "78" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "78"^^xsd:int ;
@@ -1696,7 +1696,7 @@ georesource:78  a             geoes:Faro ;
         dc:title               "Faro de La Herradura"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/78/geometry> .
 
-georesource:105  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/105> a            geoes:Faro ;
         rdfs:label             "105" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "105"^^xsd:int ;
@@ -1708,7 +1708,7 @@ georesource:105  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-9.0111446 43.23190715015057)"^^geosparql:wktLiteral .
 
-georesource:5  a              geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/5> a              geoes:Faro ;
         rdfs:label             "5" ;
         dc:created             "2012-02-06"^^xsd:date ;
         dc:identifier          "5"^^xsd:int ;
@@ -1719,7 +1719,7 @@ georesource:5  a              geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.171212989999999 39.83543612838571)"^^geosparql:wktLiteral .
 
-georesource:48  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/48> a             geoes:Faro ;
         rdfs:label             "48" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "48"^^xsd:int ;
@@ -1727,7 +1727,7 @@ georesource:48  a             geoes:Faro ;
         dc:title               "Faro el Fangal"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/48/geometry> .
 
-georesource:177  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/177> a            geoes:Faro ;
         rdfs:label             "177" ;
         dc:created             "2013-01-30"^^xsd:date ;
         dc:identifier          "177"^^xsd:int ;
@@ -1738,7 +1738,7 @@ georesource:177  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.00313227 36.84073040554908)"^^geosparql:wktLiteral .
 
-georesource:232  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/232> a            geoes:Faro ;
         rdfs:label             "232" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "232"^^xsd:int ;
@@ -1746,7 +1746,7 @@ georesource:232  a            geoes:Faro ;
         dc:title               "Faro de Peñas"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/232/geometry> .
 
-georesource:18  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/18> a             geoes:Faro ;
         rdfs:label             "18" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "18"^^xsd:int ;
@@ -1758,7 +1758,7 @@ georesource:18  a             geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-14.332748829999998 28.046187282648543)"^^geosparql:wktLiteral .
 
-georesource:147  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/147> a            geoes:Faro ;
         rdfs:label             "147" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "147"^^xsd:int ;
@@ -1774,7 +1774,7 @@ georesource:147  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-1.79200026 43.391921410192346)"^^geosparql:wktLiteral .
 
-georesource:202  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/202> a            geoes:Faro ;
         rdfs:label             "202" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "202"^^xsd:int ;
@@ -1786,7 +1786,7 @@ georesource:202  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-9.161622650000004 42.893827980049764)"^^geosparql:wktLiteral .
 
-georesource:117  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/117> a            geoes:Faro ;
         rdfs:label             "117" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "117"^^xsd:int ;
@@ -1798,7 +1798,7 @@ georesource:117  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.945208990000001 43.59555941023997)"^^geosparql:wktLiteral .
 
-georesource:189  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/189> a            geoes:Faro ;
         rdfs:label             "189" ;
         dc:created             "2013-02-14"^^xsd:date ;
         dc:identifier          "189"^^xsd:int ;
@@ -1809,7 +1809,7 @@ georesource:189  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-8.912747849999997 42.21221923979512)"^^geosparql:wktLiteral .
 
-georesource:244  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/244> a            geoes:Faro ;
         rdfs:label             "244" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "244"^^xsd:int ;
@@ -1817,7 +1817,7 @@ georesource:244  a            geoes:Faro ;
         dc:title               "Faro de San Esteban de Pravia"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/244/geometry> .
 
-georesource:91  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/91> a             geoes:Faro ;
         rdfs:label             "91" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "91"^^xsd:int ;
@@ -1825,7 +1825,7 @@ georesource:91  a             geoes:Faro ;
         dc:title               "Faro de Camarinal (Torre de Cabo de Gracia o Vieja)"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/91/geometry> .
 
-georesource:159  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/159> a            geoes:Faro ;
         rdfs:label             "159" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "159"^^xsd:int ;
@@ -1840,7 +1840,7 @@ georesource:159  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.3789261700000006 39.54293959815842)"^^geosparql:wktLiteral .
 
-georesource:214  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/214> a            geoes:Faro ;
         rdfs:label             "214" ;
         dc:created             "2013-04-24"^^xsd:date ;
         dc:identifier          "214"^^xsd:int ;
@@ -1851,7 +1851,7 @@ georesource:214  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.442107819999999 36.73793442543287)"^^geosparql:wktLiteral .
 
-georesource:61  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/61> a             geoes:Faro ;
         rdfs:label             "61" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "61"^^xsd:int ;
@@ -1859,7 +1859,7 @@ georesource:61  a             geoes:Faro ;
         dc:title               "Faro de Cabo Mayor"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/61/geometry> .
 
-georesource:129  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/129> a            geoes:Faro ;
         rdfs:label             "129" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "129"^^xsd:int ;
@@ -1870,7 +1870,7 @@ georesource:129  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.9215842899999998 39.129227687817675)"^^geosparql:wktLiteral .
 
-georesource:190  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/190> a            geoes:Faro ;
         rdfs:label             "190" ;
         dc:created             "2013-02-14"^^xsd:date ;
         dc:identifier          "190"^^xsd:int ;
@@ -1885,7 +1885,7 @@ georesource:190  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-16.42717524 28.14799198281703)"^^geosparql:wktLiteral .
 
-georesource:31  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/31> a             geoes:Faro ;
         rdfs:label             "31" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "31"^^xsd:int ;
@@ -1893,7 +1893,7 @@ georesource:31  a             geoes:Faro ;
         dc:title               "Faro Igueldo/Igeldoko Itsasargia"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/31/geometry> .
 
-georesource:160  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/160> a            geoes:Faro ;
         rdfs:label             "160" ;
         dc:created             "2012-12-27"^^xsd:date ;
         dc:identifier          "160"^^xsd:int ;
@@ -1908,7 +1908,7 @@ georesource:160  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.15222549 41.32509821936236)"^^geosparql:wktLiteral .
 
-georesource:256  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/256> a            geoes:Faro ;
         rdfs:label             "256" ;
         dc:created             "2013-06-06"^^xsd:date ;
         dc:identifier          "256"^^xsd:int ;
@@ -1919,7 +1919,7 @@ georesource:256  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.5135997000000002 38.20945541698182)"^^geosparql:wktLiteral .
 
-georesource:130  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/130> a            geoes:Faro ;
         rdfs:label             "130" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "130"^^xsd:int ;
@@ -1934,21 +1934,21 @@ georesource:130  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.9319544 35.28904804367764)"^^geosparql:wktLiteral .
 
-georesource:226  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/226> a            geoes:Faro ;
         rdfs:label             "226" ;
         dc:created             "2013-01-02"^^xsd:date ;
         dc:identifier          "226"^^xsd:int ;
         dc:title               "Faro de Punta Roncadoira"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/226/geometry> .
 
-georesource:73  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/73> a             geoes:Faro ;
         rdfs:label             "73" ;
         dc:created             "2010-08-10"^^xsd:date ;
         dc:identifier          "73"^^xsd:int ;
         dc:title               "Faro de Adra"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/73/geometry> .
 
-georesource:100  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/100> a            geoes:Faro ;
         rdfs:label             "100" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "100"^^xsd:int ;
@@ -1964,7 +1964,7 @@ georesource:100  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-16.836444660000005 28.39102791321889)"^^geosparql:wktLiteral .
 
-georesource:43  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/43> a             geoes:Faro ;
         rdfs:label             "43" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "43"^^xsd:int ;
@@ -1972,7 +1972,7 @@ georesource:43  a             geoes:Faro ;
         dc:title               "Far de Villanueva y Geltru"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/43/geometry> .
 
-georesource:172  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/172> a            geoes:Faro ;
         rdfs:label             "172" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "172"^^xsd:int ;
@@ -1991,7 +1991,7 @@ georesource:172  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-9.01296465 42.46611512989798)"^^geosparql:wktLiteral .
 
-georesource:13  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/13> a             geoes:Faro ;
         rdfs:label             "13" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "13"^^xsd:int ;
@@ -2007,7 +2007,7 @@ georesource:13  a             geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.9315578 39.154899737839486)"^^geosparql:wktLiteral .
 
-georesource:142  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/142> a            geoes:Faro ;
         rdfs:label             "142" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "142"^^xsd:int ;
@@ -2018,7 +2018,7 @@ georesource:142  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.76402981 43.46677580021056)"^^geosparql:wktLiteral .
 
-georesource:238  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/238> a            geoes:Faro ;
         rdfs:label             "238" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "238"^^xsd:int ;
@@ -2026,14 +2026,14 @@ georesource:238  a            geoes:Faro ;
         dc:title               "Faro de Llanes"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/238/geometry> .
 
-georesource:112  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/112> a            geoes:Faro ;
         rdfs:label             "112" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "112"^^xsd:int ;
         dc:title               "Faro Moscarter"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/112/geometry> .
 
-georesource:85  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/85> a             geoes:Faro ;
         rdfs:label             "85" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "85"^^xsd:int ;
@@ -2049,7 +2049,7 @@ georesource:85  a             geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.426374269999999 36.077178914658944)"^^geosparql:wktLiteral .
 
-georesource:208  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/208> a            geoes:Faro ;
         rdfs:label             "208" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "208"^^xsd:int ;
@@ -2061,7 +2061,7 @@ georesource:208  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.22153284 38.50681179726364)"^^geosparql:wktLiteral .
 
-georesource:55  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/55> a             geoes:Faro ;
         rdfs:label             "55" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "55"^^xsd:int ;
@@ -2073,7 +2073,7 @@ georesource:55  a             geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-7.862372040000002 43.73427558026885)"^^geosparql:wktLiteral .
 
-georesource:184  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/184> a            geoes:Faro ;
         rdfs:label             "184" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "184"^^xsd:int ;
@@ -2081,7 +2081,7 @@ georesource:184  a            geoes:Faro ;
         dc:title               "Faro do Peito ou Monteagudo"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/184/geometry> .
 
-georesource:25  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/25> a             geoes:Faro ;
         rdfs:label             "25" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "25"^^xsd:int ;
@@ -2097,7 +2097,7 @@ georesource:25  a             geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.699258719999999 43.57150353023467)"^^geosparql:wktLiteral .
 
-georesource:154  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/154> a            geoes:Faro ;
         rdfs:label             "154" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "154"^^xsd:int ;
@@ -2108,14 +2108,14 @@ georesource:154  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-15.707891449999993 28.16469240284466)"^^geosparql:wktLiteral .
 
-georesource:124  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/124> a            geoes:Faro ;
         rdfs:label             "124" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "124"^^xsd:int ;
         dc:title               "Faro de Cabo Blanco"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/124/geometry> .
 
-georesource:97  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/97> a             geoes:Faro ;
         rdfs:label             "97" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "97"^^xsd:int ;
@@ -2131,14 +2131,14 @@ georesource:97  a             geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.2123141599999996 39.961352558480044)"^^geosparql:wktLiteral .
 
-georesource:67  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/67> a             geoes:Faro ;
         rdfs:label             "67" ;
         dc:created             "2012-12-04"^^xsd:date ;
         dc:identifier          "67"^^xsd:int ;
         dc:title               "Faro de La Cerda"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/67/geometry> .
 
-georesource:196  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/196> a            geoes:Faro ;
         rdfs:label             "196" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "196"^^xsd:int ;
@@ -2158,14 +2158,14 @@ georesource:196  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (0.58521407 40.60771460893039)"^^geosparql:wktLiteral .
 
-georesource:251  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/251> a            geoes:Faro ;
         rdfs:label             "251" ;
         dc:created             "2013-06-06"^^xsd:date ;
         dc:identifier          "251"^^xsd:int ;
         dc:title               "Faro del Morro"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/251/geometry> .
 
-georesource:37  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/37> a             geoes:Faro ;
         rdfs:label             "37" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "37"^^xsd:int ;
@@ -2177,7 +2177,7 @@ georesource:37  a             geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-13.84347006 28.505268743407573)"^^geosparql:wktLiteral .
 
-georesource:166  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/166> a            geoes:Faro ;
         rdfs:label             "166" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "166"^^xsd:int ;
@@ -2196,7 +2196,7 @@ georesource:166  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.03096347 36.747772525444056)"^^geosparql:wktLiteral .
 
-georesource:221  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/221> a            geoes:Faro ;
         rdfs:label             "221" ;
         dc:created             "2013-04-24"^^xsd:date ;
         dc:identifier          "221"^^xsd:int ;
@@ -2207,7 +2207,7 @@ georesource:221  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-9.164898050000001 43.11045439011632)"^^geosparql:wktLiteral .
 
-georesource:136  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/136> a            geoes:Faro ;
         rdfs:label             "136" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "136"^^xsd:int ;
@@ -2222,7 +2222,7 @@ georesource:136  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.644534749999999 43.565391000233305)"^^geosparql:wktLiteral .
 
-georesource:106  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/106> a            geoes:Faro ;
         rdfs:label             "106" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "106"^^xsd:int ;
@@ -2230,7 +2230,7 @@ georesource:106  a            geoes:Faro ;
         dc:title               "Far de Vermell"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/106/geometry> .
 
-georesource:79  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/79> a             geoes:Faro ;
         rdfs:label             "79" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "79"^^xsd:int ;
@@ -2245,14 +2245,14 @@ georesource:79  a             geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-8.990511669999998 42.7389327099979)"^^geosparql:wktLiteral .
 
-georesource:6  a              geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/6> a              geoes:Faro ;
         rdfs:label             "6" ;
         dc:created             "2012-02-06"^^xsd:date ;
         dc:identifier          "6"^^xsd:int ;
         dc:title               "Far de Benicarló"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/6/geometry> .
 
-georesource:49  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/49> a             geoes:Faro ;
         rdfs:label             "49" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "49"^^xsd:int ;
@@ -2260,7 +2260,7 @@ georesource:49  a             geoes:Faro ;
         dc:title               "Faro del Cabo de Salou"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/49/geometry> .
 
-georesource:178  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/178> a            geoes:Faro ;
         rdfs:label             "178" ;
         dc:created             "2013-01-30"^^xsd:date ;
         dc:identifier          "178"^^xsd:int ;
@@ -2271,7 +2271,7 @@ georesource:178  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.945914120000001 43.574310800235295)"^^geosparql:wktLiteral .
 
-georesource:233  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/233> a            geoes:Faro ;
         rdfs:label             "233" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "233"^^xsd:int ;
@@ -2283,7 +2283,7 @@ georesource:233  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-8.701902239999999 42.25557898981335)"^^geosparql:wktLiteral .
 
-georesource:19  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/19> a             geoes:Faro ;
         rdfs:label             "19" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "19"^^xsd:int ;
@@ -2291,7 +2291,7 @@ georesource:19  a             geoes:Faro ;
         dc:title               "Faro de Cabo de La Nao"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/19/geometry> .
 
-georesource:80  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/80> a             geoes:Faro ;
         rdfs:label             "80" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "80"^^xsd:int ;
@@ -2299,7 +2299,7 @@ georesource:80  a             geoes:Faro ;
         dc:title               "Faro de Castell de Ferro"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/80/geometry> .
 
-georesource:148  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/148> a            geoes:Faro ;
         rdfs:label             "148" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "148"^^xsd:int ;
@@ -2314,7 +2314,7 @@ georesource:148  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.72597968 37.74576529652094)"^^geosparql:wktLiteral .
 
-georesource:203  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/203> a            geoes:Faro ;
         rdfs:label             "203" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "203"^^xsd:int ;
@@ -2322,7 +2322,7 @@ georesource:203  a            geoes:Faro ;
         dc:title               "Faro de Mera"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/203/geometry> .
 
-georesource:50  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/50> a             geoes:Faro ;
         rdfs:label             "50" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "50"^^xsd:int ;
@@ -2330,7 +2330,7 @@ georesource:50  a             geoes:Faro ;
         dc:title               "Faro de Banya"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/50/geometry> .
 
-georesource:118  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/118> a            geoes:Faro ;
         rdfs:label             "118" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "118"^^xsd:int ;
@@ -2350,7 +2350,7 @@ georesource:118  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (1.5332046600000002 39.11764690780784)"^^geosparql:wktLiteral .
 
-georesource:20  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/20> a             geoes:Faro ;
         rdfs:label             "20" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "20"^^xsd:int ;
@@ -2366,14 +2366,14 @@ georesource:20  a             geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.56864616 37.00753838573517)"^^geosparql:wktLiteral .
 
-georesource:245  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/245> a            geoes:Faro ;
         rdfs:label             "245" ;
         dc:created             "2013-02-06"^^xsd:date ;
         dc:identifier          "245"^^xsd:int ;
         dc:title               "Faro de Puerto de Vega"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/245/geometry> .
 
-georesource:92  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/92> a             geoes:Faro ;
         rdfs:label             "92" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "92"^^xsd:int ;
@@ -2393,14 +2393,14 @@ georesource:92  a             geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.14445186 38.995177747702535)"^^geosparql:wktLiteral .
 
-georesource:215  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/215> a            geoes:Faro ;
         rdfs:label             "215" ;
         dc:created             "2013-04-24"^^xsd:date ;
         dc:identifier          "215"^^xsd:int ;
         dc:title               "Faro de Fisterra"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/215/geometry> .
 
-georesource:62  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/62> a             geoes:Faro ;
         rdfs:label             "62" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "62"^^xsd:int ;
@@ -2408,7 +2408,7 @@ georesource:62  a             geoes:Faro ;
         dc:title               "Faro de la Isla de Mouro"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/62/geometry> .
 
-georesource:191  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/191> a            geoes:Faro ;
         rdfs:label             "191" ;
         dc:created             "2013-02-14"^^xsd:date ;
         dc:identifier          "191"^^xsd:int ;
@@ -2427,7 +2427,7 @@ georesource:191  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-9.21927035 43.112481740116905)"^^geosparql:wktLiteral .
 
-georesource:32  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/32> a             geoes:Faro ;
         rdfs:label             "32" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "32"^^xsd:int ;
@@ -2439,7 +2439,7 @@ georesource:32  a             geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-17.9007278 27.782967922212674)"^^geosparql:wktLiteral .
 
-georesource:161  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/161> a            geoes:Faro ;
         rdfs:label             "161" ;
         dc:created             "2012-12-27"^^xsd:date ;
         dc:identifier          "161"^^xsd:int ;
@@ -2454,14 +2454,14 @@ georesource:161  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.1507896300000007 42.25737363981412)"^^geosparql:wktLiteral .
 
-georesource:257  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/257> a            geoes:Faro ;
         rdfs:label             "257" ;
         dc:created             "2013-06-06"^^xsd:date ;
         dc:identifier          "257"^^xsd:int ;
         dc:title               "Faro de Muelle de Levante"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/257/geometry> .
 
-georesource:131  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/131> a            geoes:Faro ;
         rdfs:label             "131" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "131"^^xsd:int ;
@@ -2485,14 +2485,14 @@ georesource:131  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.56369772 39.52831678814675)"^^geosparql:wktLiteral .
 
-georesource:227  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/227> a            geoes:Faro ;
         rdfs:label             "227" ;
         dc:created             "2013-01-02"^^xsd:date ;
         dc:identifier          "227"^^xsd:int ;
         dc:title               "Faro de Ribadeo"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/227/geometry> .
 
-georesource:101  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/101> a            geoes:Faro ;
         rdfs:label             "101" ;
         dc:created             "2013-01-04"^^xsd:date ;
         dc:identifier          "101"^^xsd:int ;
@@ -2503,7 +2503,7 @@ georesource:101  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.42555184 43.451429350206915)"^^geosparql:wktLiteral .
 
-georesource:74  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/74> a             geoes:Faro ;
         rdfs:label             "74" ;
         dc:created             "2010-08-13"^^xsd:date ;
         dc:identifier          "74"^^xsd:int ;
@@ -2514,7 +2514,7 @@ georesource:74  a             geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-16.14547865 28.523254103437253)"^^geosparql:wktLiteral .
 
-georesource:44  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/44> a             geoes:Faro ;
         rdfs:label             "44" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "44"^^xsd:int ;
@@ -2530,7 +2530,7 @@ georesource:44  a             geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.398716829999999 43.5479938302294)"^^geosparql:wktLiteral .
 
-georesource:173  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/173> a            geoes:Faro ;
         rdfs:label             "173" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "173"^^xsd:int ;
@@ -2545,7 +2545,7 @@ georesource:173  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-8.31440424 43.567655440233814)"^^geosparql:wktLiteral .
 
-georesource:14  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/14> a             geoes:Faro ;
         rdfs:label             "14" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "14"^^xsd:int ;
@@ -2553,7 +2553,7 @@ georesource:14  a             geoes:Faro ;
         dc:title               "Faro de la Isla de Tabarca"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/14/geometry> .
 
-georesource:143  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/143> a            geoes:Faro ;
         rdfs:label             "143" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "143"^^xsd:int ;
@@ -2564,7 +2564,7 @@ georesource:143  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.14479505 43.565532940233346)"^^geosparql:wktLiteral .
 
-georesource:239  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/239> a            geoes:Faro ;
         rdfs:label             "239" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "239"^^xsd:int ;
@@ -2576,7 +2576,7 @@ georesource:239  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-17.843029100000003 28.45525025332498)"^^geosparql:wktLiteral .
 
-georesource:86  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/86> a             geoes:Faro ;
         rdfs:label             "86" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "86"^^xsd:int ;
@@ -2584,7 +2584,7 @@ georesource:86  a             geoes:Faro ;
         dc:title               "Faro de Torrox"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/86/geometry> .
 
-georesource:113  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/113> a            geoes:Faro ;
         rdfs:label             "113" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "113"^^xsd:int ;
@@ -2600,7 +2600,7 @@ georesource:113  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (1.1714443400000003 41.05608721920886)"^^geosparql:wktLiteral .
 
-georesource:209  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/209> a            geoes:Faro ;
         rdfs:label             "209" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "209"^^xsd:int ;
@@ -2608,7 +2608,7 @@ georesource:209  a            geoes:Faro ;
         dc:title               "Faro Cabo Ortegal"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/209/geometry> .
 
-georesource:56  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/56> a             geoes:Faro ;
         rdfs:label             "56" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "56"^^xsd:int ;
@@ -2616,7 +2616,7 @@ georesource:56  a             geoes:Faro ;
         dc:title               "Faro de Galeras"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/56/geometry> .
 
-georesource:185  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/185> a            geoes:Faro ;
         rdfs:label             "185" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "185"^^xsd:int ;
@@ -2628,7 +2628,7 @@ georesource:185  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.6894302699999995 39.79690081835641)"^^geosparql:wktLiteral .
 
-georesource:240  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/240> a            geoes:Faro ;
         rdfs:label             "240" ;
         dc:created             "2013-02-06"^^xsd:date ;
         dc:identifier          "240"^^xsd:int ;
@@ -2643,7 +2643,7 @@ georesource:240  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (1.41567445 38.73445640747195)"^^geosparql:wktLiteral .
 
-georesource:26  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/26> a             geoes:Faro ;
         rdfs:label             "26" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "26"^^xsd:int ;
@@ -2651,7 +2651,7 @@ georesource:26  a             geoes:Faro ;
         dc:title               "Faro de Gorliz/Gorlizko Itsasargia"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/26/geometry> .
 
-georesource:155  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/155> a            geoes:Faro ;
         rdfs:label             "155" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "155"^^xsd:int ;
@@ -2662,7 +2662,7 @@ georesource:155  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-15.46376749 27.794705392232114)"^^geosparql:wktLiteral .
 
-georesource:210  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/210> a            geoes:Faro ;
         rdfs:label             "210" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "210"^^xsd:int ;
@@ -2670,14 +2670,14 @@ georesource:210  a            geoes:Faro ;
         dc:title               "Faro Cabo Estaca de Bares"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/210/geometry> .
 
-georesource:125  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/125> a            geoes:Faro ;
         rdfs:label             "125" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "125"^^xsd:int ;
         dc:title               "Faro de Porto Pi"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/125/geometry> .
 
-georesource:98  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/98> a             geoes:Faro ;
         rdfs:label             "98" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "98"^^xsd:int ;
@@ -2693,14 +2693,14 @@ georesource:98  a             geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-9.183776509999998 42.9166716400571)"^^geosparql:wktLiteral .
 
-georesource:68  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/68> a             geoes:Faro ;
         rdfs:label             "68" ;
         dc:created             "2010-08-10"^^xsd:date ;
         dc:identifier          "68"^^xsd:int ;
         dc:title               "Faro de Punta de Baños"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/68/geometry> .
 
-georesource:197  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/197> a            geoes:Faro ;
         rdfs:label             "197" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "197"^^xsd:int ;
@@ -2712,7 +2712,7 @@ georesource:197  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.242928679999999 43.59316162023945)"^^geosparql:wktLiteral .
 
-georesource:252  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/252> a            geoes:Faro ;
         rdfs:label             "252" ;
         dc:created             "2013-06-06"^^xsd:date ;
         dc:identifier          "252"^^xsd:int ;
@@ -2723,7 +2723,7 @@ georesource:252  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-8.88397288 42.57251922993825)"^^geosparql:wktLiteral .
 
-georesource:38  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/38> a             geoes:Faro ;
         rdfs:label             "38" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "38"^^xsd:int ;
@@ -2731,7 +2731,7 @@ georesource:38  a             geoes:Faro ;
         dc:title               "Far de Santa Margarida"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/38/geometry> .
 
-georesource:167  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/167> a            geoes:Faro ;
         rdfs:label             "167" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "167"^^xsd:int ;
@@ -2746,7 +2746,7 @@ georesource:167  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.2508334599999995 43.30208988016935)"^^geosparql:wktLiteral .
 
-georesource:137  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/137> a            geoes:Faro ;
         rdfs:label             "137" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "137"^^xsd:int ;
@@ -2765,7 +2765,7 @@ georesource:137  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (1.6093843999999997 39.07959119777531)"^^geosparql:wktLiteral .
 
-georesource:107  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/107> a            geoes:Faro ;
         rdfs:label             "107" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "107"^^xsd:int ;
@@ -2781,7 +2781,7 @@ georesource:107  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.534376519999999 43.3993672701942)"^^geosparql:wktLiteral .
 
-georesource:7  a              geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/7> a              geoes:Faro ;
         rdfs:label             "7" ;
         dc:created             "2012-02-06"^^xsd:date ;
         dc:identifier          "7"^^xsd:int ;
@@ -2792,7 +2792,7 @@ georesource:7  a              geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.8236736599999994 40.05020242854531)"^^geosparql:wktLiteral .
 
-georesource:179  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/179> a            geoes:Faro ;
         rdfs:label             "179" ;
         dc:created             "2013-01-30"^^xsd:date ;
         dc:identifier          "179"^^xsd:int ;
@@ -2811,7 +2811,7 @@ georesource:179  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.20097594 39.67232194826036)"^^geosparql:wktLiteral .
 
-georesource:234  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/234> a            geoes:Faro ;
         rdfs:label             "234" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "234"^^xsd:int ;
@@ -2819,7 +2819,7 @@ georesource:234  a            geoes:Faro ;
         dc:title               "Faro Cabo de Torres"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/234/geometry> .
 
-georesource:81  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/81> a             geoes:Faro ;
         rdfs:label             "81" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "81"^^xsd:int ;
@@ -2827,7 +2827,7 @@ georesource:81  a             geoes:Faro ;
         dc:title               "Faro de Punta de la Doncella"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/81/geometry> .
 
-georesource:149  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/149> a            geoes:Faro ;
         rdfs:label             "149" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "149"^^xsd:int ;
@@ -2838,7 +2838,7 @@ georesource:149  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.9328515300000007 35.28966560367842)"^^geosparql:wktLiteral .
 
-georesource:204  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/204> a            geoes:Faro ;
         rdfs:label             "204" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "204"^^xsd:int ;
@@ -2846,21 +2846,21 @@ georesource:204  a            geoes:Faro ;
         dc:title               "Faro Cabo Prioriño Chico"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/204/geometry> .
 
-georesource:51  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/51> a             geoes:Faro ;
         rdfs:label             "51" ;
         dc:created             "2012-08-21"^^xsd:date ;
         dc:identifier          "51"^^xsd:int ;
         dc:title               "Faro del Cabo Tortosa"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/51/geometry> .
 
-georesource:119  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/119> a            geoes:Faro ;
         rdfs:label             "119" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "119"^^xsd:int ;
         dc:title               "Faro LLebeig"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/119/geometry> .
 
-georesource:180  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/180> a            geoes:Faro ;
         rdfs:label             "180" ;
         dc:created             "2013-01-30"^^xsd:date ;
         dc:identifier          "180"^^xsd:int ;
@@ -2871,7 +2871,7 @@ georesource:180  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-17.242476289999995 28.02278803260982)"^^geosparql:wktLiteral .
 
-georesource:21  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/21> a             geoes:Faro ;
         rdfs:label             "21" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "21"^^xsd:int ;
@@ -2879,7 +2879,7 @@ georesource:21  a             geoes:Faro ;
         dc:title               "Far de Dénia"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/21/geometry> .
 
-georesource:150  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/150> a            geoes:Faro ;
         rdfs:label             "150" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "150"^^xsd:int ;
@@ -2898,14 +2898,14 @@ georesource:150  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.623596680000001 39.54856124816291)"^^geosparql:wktLiteral .
 
-georesource:246  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/246> a            geoes:Faro ;
         rdfs:label             "246" ;
         dc:created             "2013-06-06"^^xsd:date ;
         dc:identifier          "246"^^xsd:int ;
         dc:title               "Faro de Ceuta"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Faro/246/geometry> .
 
-georesource:120  a            geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/120> a            geoes:Faro ;
         rdfs:label             "120" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "120"^^xsd:int ;
@@ -2916,7 +2916,7 @@ georesource:120  a            geoes:Faro ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.209023649999999 43.38114794018967)"^^geosparql:wktLiteral .
 
-georesource:93  a             geoes:Faro ;
+<http://geo.linkeddata.es/recurso/Faro/93> a             geoes:Faro ;
         rdfs:label             "93" ;
         dc:created             "2011-07-11"^^xsd:date ;
         dc:identifier          "93"^^xsd:int ;
