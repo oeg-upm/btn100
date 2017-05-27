@@ -10,7 +10,7 @@
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
 @prefix dc:    <http://purl.org/dc/terms/> .
 
-georesource:302  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/302> a                     geoes:Aerodromo ;
         rdfs:label                      "302" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "816"^^xsd:int ;
@@ -34,7 +34,7 @@ georesource:302  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.023141080000002 40.39617695825912)"^^geosparql:wktLiteral .
 
-georesource:289  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/289> a                     geoes:Aerodromo ;
         rdfs:label                      "289" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "203"^^xsd:int ;
@@ -58,7 +58,7 @@ georesource:289  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.7263044499999993 37.10502075532548)"^^geosparql:wktLiteral .
 
-georesource:259  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/259> a                     geoes:Aerodromo ;
         rdfs:label                      "259" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "984"^^xsd:int ;
@@ -69,7 +69,7 @@ georesource:259  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de Prádanos de Ojeda"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/259/geometry> .
 
-georesource:133  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/133> a                     geoes:Aerodromo ;
         rdfs:label                      "133" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "673"^^xsd:int ;
@@ -80,7 +80,7 @@ georesource:133  a                     geoes:Aerodromo ;
         dc:title                        "Aeroport de Sort"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/133/geometry> .
 
-georesource:290  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/290> a                     geoes:Aerodromo ;
         rdfs:label                      "290" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "192"^^xsd:int ;
@@ -92,7 +92,7 @@ georesource:290  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de Los Martínez del Puerto"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/290/geometry> .
 
-georesource:103  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/103> a                     geoes:Aerodromo ;
         rdfs:label                      "103" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/militar> ;
         geoes:elevation                 "321"^^xsd:int ;
@@ -103,7 +103,7 @@ georesource:103  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo militar de Ablitas"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/103/geometry> .
 
-georesource:597  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/597> a                     geoes:Aerodromo ;
         rdfs:label                      "597" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "160"^^xsd:int ;
@@ -122,7 +122,7 @@ georesource:597  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.375476590000001 38.79164342699866)"^^geosparql:wktLiteral .
 
-georesource:386  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/386> a                     geoes:Aerodromo ;
         rdfs:label                      "386" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "616"^^xsd:int ;
@@ -133,7 +133,7 @@ georesource:386  a                     geoes:Aerodromo ;
         dc:title                        "Aerobase"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/386/geometry> .
 
-georesource:260  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/260> a                     geoes:Aerodromo ;
         rdfs:label                      "260" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "820"^^xsd:int ;
@@ -148,7 +148,7 @@ georesource:260  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.734120639999999 41.114418698710885)"^^geosparql:wktLiteral .
 
-georesource:38  a                      geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/38> a                      geoes:Aerodromo ;
         rdfs:label                      "38" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "587"^^xsd:int ;
@@ -163,7 +163,7 @@ georesource:38  a                      geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.378195 43.33412656964167)"^^geosparql:wktLiteral .
 
-georesource:326  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/326> a                     geoes:Aerodromo ;
         rdfs:label                      "326" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "545"^^xsd:int ;
@@ -174,7 +174,7 @@ georesource:326  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de Beas de Segura"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/326/geometry> .
 
-georesource:200  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/200> a                     geoes:Aerodromo ;
         rdfs:label                      "200" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "1126"^^xsd:int ;
@@ -185,7 +185,7 @@ georesource:200  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo Servicio Forestal"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/200/geometry> .
 
-georesource:507  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/507> a                     geoes:Aerodromo ;
         rdfs:label                      "507" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "47"^^xsd:int ;
@@ -196,7 +196,7 @@ georesource:507  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de Alcalá del Río"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/507/geometry> .
 
-georesource:483  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/483> a                     geoes:Aerodromo ;
         rdfs:label                      "483" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "531"^^xsd:int ;
@@ -207,7 +207,7 @@ georesource:483  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de Fuente Obejuna"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/483/geometry> .
 
-georesource:272  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/272> a                     geoes:Aerodromo ;
         rdfs:label                      "272" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "1081"^^xsd:int ;
@@ -218,7 +218,7 @@ georesource:272  a                     geoes:Aerodromo ;
         dc:title                        "Aeroclub Valle Amblés"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/272/geometry> .
 
-georesource:187  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/187> a                     geoes:Aerodromo ;
         rdfs:label                      "187" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "749"^^xsd:int ;
@@ -238,7 +238,7 @@ georesource:187  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.05334774 37.544468415793744)"^^geosparql:wktLiteral .
 
-georesource:242  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/242> a                     geoes:Aerodromo ;
         rdfs:label                      "242" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "306"^^xsd:int ;
@@ -249,7 +249,7 @@ georesource:242  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de Belvis de Monroy"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/242/geometry> .
 
-georesource:157  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/157> a                     geoes:Aerodromo ;
         rdfs:label                      "157" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "2"^^xsd:int ;
@@ -264,7 +264,7 @@ georesource:157  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.251672129999999 43.147939339591304)"^^geosparql:wktLiteral .
 
-georesource:338  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/338> a                     geoes:Aerodromo ;
         rdfs:label                      "338" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "314"^^xsd:int ;
@@ -279,7 +279,7 @@ georesource:338  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.799615429999999 37.15175720537635)"^^geosparql:wktLiteral .
 
-georesource:9  a                       geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/9> a                       geoes:Aerodromo ;
         rdfs:label                      "9" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "713"^^xsd:int ;
@@ -290,7 +290,7 @@ georesource:9  a                       geoes:Aerodromo ;
         dc:title                        "Aeródromo de Requena"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/9/geometry> .
 
-georesource:199  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/199> a                     geoes:Aerodromo ;
         rdfs:label                      "199" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "949"^^xsd:int ;
@@ -302,7 +302,7 @@ georesource:199  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de Robledillo de Mohernando"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/199/geometry> .
 
-georesource:465  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/465> a                     geoes:Aerodromo ;
         rdfs:label                      "465" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/militar> ;
         geoes:elevation                 "1"^^xsd:int ;
@@ -318,7 +318,7 @@ georesource:465  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.923058809999999 41.53100510893983)"^^geosparql:wktLiteral .
 
-georesource:254  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/254> a                     geoes:Aerodromo ;
         rdfs:label                      "254" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "1031"^^xsd:int ;
@@ -333,7 +333,7 @@ georesource:254  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.1372631 36.802177984990216)"^^geosparql:wktLiteral .
 
-georesource:616  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/616> a                     geoes:Aerodromo ;
         rdfs:label                      "616" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "421"^^xsd:int ;
@@ -344,7 +344,7 @@ georesource:616  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de El Tiétar"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/616/geometry> .
 
-georesource:224  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/224> a                     geoes:Aerodromo ;
         rdfs:label                      "224" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "784"^^xsd:int ;
@@ -367,7 +367,7 @@ georesource:224  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.1076400500000005 42.259551699280486)"^^geosparql:wktLiteral .
 
-georesource:381  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/381> a                     geoes:Aerodromo ;
         rdfs:label                      "381" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "1056"^^xsd:int ;
@@ -378,7 +378,7 @@ georesource:381  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de Infoca"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/381/geometry> .
 
-georesource:562  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/562> a                     geoes:Aerodromo ;
         rdfs:label                      "562" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "255"^^xsd:int ;
@@ -393,7 +393,7 @@ georesource:562  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.345452280000002 38.97861780716281)"^^geosparql:wktLiteral .
 
-georesource:266  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/266> a                     geoes:Aerodromo ;
         rdfs:label                      "266" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "851"^^xsd:int ;
@@ -412,7 +412,7 @@ georesource:266  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.241229559999999 40.88875601857666)"^^geosparql:wktLiteral .
 
-georesource:236  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/236> a                     geoes:Aerodromo ;
         rdfs:label                      "236" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "368"^^xsd:int ;
@@ -423,7 +423,7 @@ georesource:236  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de Lacopa"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/236/geometry> .
 
-georesource:502  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/502> a                     geoes:Aerodromo ;
         rdfs:label                      "502" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/militar> ;
         geoes:elevation                 "5"^^xsd:int ;
@@ -446,7 +446,7 @@ georesource:502  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.3015076500000001 40.332480598215625)"^^geosparql:wktLiteral .
 
-georesource:152  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/152> a                     geoes:Aerodromo ;
         rdfs:label                      "152" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "240"^^xsd:int ;
@@ -461,7 +461,7 @@ georesource:152  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.988018510000001 41.10626548870617)"^^geosparql:wktLiteral .
 
-georesource:459  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/459> a                     geoes:Aerodromo ;
         rdfs:label                      "459" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
         geoes:elevation                 "42"^^xsd:int ;
@@ -477,7 +477,7 @@ georesource:459  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.64033995 38.132600316385364)"^^geosparql:wktLiteral .
 
-georesource:248  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/248> a                     geoes:Aerodromo ;
         rdfs:label                      "248" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "1014"^^xsd:int ;
@@ -488,7 +488,7 @@ georesource:248  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de Fuentemilanos"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/248/geometry> .
 
-georesource:490  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/490> a                     geoes:Aerodromo ;
         rdfs:label                      "490" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "587"^^xsd:int ;
@@ -500,7 +500,7 @@ georesource:490  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de Altarejos-Guadalcana"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/490/geometry> .
 
-georesource:303  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/303> a                     geoes:Aerodromo ;
         rdfs:label                      "303" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "832"^^xsd:int ;
@@ -516,7 +516,7 @@ georesource:303  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.1008351999999997 41.58217777896623)"^^geosparql:wktLiteral .
 
-georesource:586  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/586> a                     geoes:Aerodromo ;
         rdfs:label                      "586" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "289"^^xsd:int ;
@@ -527,7 +527,7 @@ georesource:586  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de Fervenza"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/586/geometry> .
 
-georesource:87  a                      geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/87> a                      geoes:Aerodromo ;
         rdfs:label                      "87" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "672"^^xsd:int ;
@@ -542,7 +542,7 @@ georesource:87  a                      geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.5177505700000005 40.8951673985806)"^^geosparql:wktLiteral .
 
-georesource:134  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/134> a                     geoes:Aerodromo ;
         rdfs:label                      "134" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "1098"^^xsd:int ;
@@ -558,7 +558,7 @@ georesource:134  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-7.088155880000001 43.552577339694224)"^^geosparql:wktLiteral .
 
-georesource:526  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/526> a                     geoes:Aerodromo ;
         rdfs:label                      "526" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
         geoes:elevation                 "787"^^xsd:int ;
@@ -570,7 +570,7 @@ georesource:526  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de Beariz"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/526/geometry> .
 
-georesource:315  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/315> a                     geoes:Aerodromo ;
         rdfs:label                      "315" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "862"^^xsd:int ;
@@ -601,7 +601,7 @@ georesource:315  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.9844631099999996 39.79229706782464)"^^geosparql:wktLiteral .
 
-georesource:261  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/261> a                     geoes:Aerodromo ;
         rdfs:label                      "261" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "902"^^xsd:int ;
@@ -612,7 +612,7 @@ georesource:261  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo Herrera de Pisuerga"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/261/geometry> .
 
-georesource:176  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/176> a                     geoes:Aerodromo ;
         rdfs:label                      "176" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "718"^^xsd:int ;
@@ -632,7 +632,7 @@ georesource:176  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.6158825973939317 42.22515398000663)"^^geosparql:wktLiteral .
 
-georesource:39  a                      geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/39> a                      geoes:Aerodromo ;
         rdfs:label                      "39" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "3"^^xsd:int ;
@@ -651,7 +651,7 @@ georesource:39  a                      geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.562353450000001 37.099710465319696)"^^geosparql:wktLiteral .
 
-georesource:508  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/508> a                     geoes:Aerodromo ;
         rdfs:label                      "508" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "51"^^xsd:int ;
@@ -662,7 +662,7 @@ georesource:508  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de Mairena del Alcor"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/508/geometry> .
 
-georesource:484  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/484> a                     geoes:Aerodromo ;
         rdfs:label                      "484" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "153"^^xsd:int ;
@@ -673,7 +673,7 @@ georesource:484  a                     geoes:Aerodromo ;
         dc:title                        "Pista de Aeromodelismo"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/484/geometry> .
 
-georesource:273  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/273> a                     geoes:Aerodromo ;
         rdfs:label                      "273" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "666"^^xsd:int ;
@@ -689,7 +689,7 @@ georesource:273  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.213916556188352 37.71484055468991)"^^geosparql:wktLiteral .
 
-georesource:243  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/243> a                     geoes:Aerodromo ;
         rdfs:label                      "243" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "284"^^xsd:int ;
@@ -712,7 +712,7 @@ georesource:243  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-8.340271570000002 42.462409869361665)"^^geosparql:wktLiteral .
 
-georesource:309  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/309> a                     geoes:Aerodromo ;
         rdfs:label                      "309" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "790"^^xsd:int ;
@@ -731,7 +731,7 @@ georesource:309  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-1.8307532902744927 37.19792296411152)"^^geosparql:wktLiteral .
 
-georesource:340  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/340> a                     geoes:Aerodromo ;
         rdfs:label                      "340" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "1057"^^xsd:int ;
@@ -742,7 +742,7 @@ georesource:340  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo del INFOCA"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/340/geometry> .
 
-georesource:255  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/255> a                     geoes:Aerodromo ;
         rdfs:label                      "255" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "936"^^xsd:int ;
@@ -757,7 +757,7 @@ georesource:255  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.563163640000001 37.25652755548941)"^^geosparql:wktLiteral .
 
-georesource:617  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/617> a                     geoes:Aerodromo ;
         rdfs:label                      "617" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "731"^^xsd:int ;
@@ -768,7 +768,7 @@ georesource:617  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de Ocaña"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/617/geometry> .
 
-georesource:171  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/171> a                     geoes:Aerodromo ;
         rdfs:label                      "171" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "329"^^xsd:int ;
@@ -779,7 +779,7 @@ georesource:171  a                     geoes:Aerodromo ;
         dc:title                        "Aeròdrom"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/171/geometry> .
 
-georesource:563  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/563> a                     geoes:Aerodromo ;
         rdfs:label                      "563" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "339"^^xsd:int ;
@@ -798,7 +798,7 @@ georesource:563  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.594695350000001 40.660262638433544)"^^geosparql:wktLiteral .
 
-georesource:267  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/267> a                     geoes:Aerodromo ;
         rdfs:label                      "267" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "739"^^xsd:int ;
@@ -809,7 +809,7 @@ georesource:267  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de Alcazarén"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/267/geometry> .
 
-georesource:34  a                      geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/34> a                      geoes:Aerodromo ;
         rdfs:label                      "34" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "130"^^xsd:int ;
@@ -821,7 +821,7 @@ georesource:34  a                      geoes:Aerodromo ;
         dc:title                        "Aeròdrom de Mutxamel"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/34/geometry> .
 
-georesource:448  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/448> a                     geoes:Aerodromo ;
         rdfs:label                      "448" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "25"^^xsd:int ;
@@ -832,7 +832,7 @@ georesource:448  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de Mafé-Gibraleón"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/448/geometry> .
 
-georesource:322  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/322> a                     geoes:Aerodromo ;
         rdfs:label                      "322" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "748"^^xsd:int ;
@@ -847,7 +847,7 @@ georesource:322  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-8.774242690000001 42.061640869195536)"^^geosparql:wktLiteral .
 
-georesource:629  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/629> a                     geoes:Aerodromo ;
         rdfs:label                      "629" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "700"^^xsd:int ;
@@ -858,7 +858,7 @@ georesource:629  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/629/geometry> .
 
-georesource:503  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/503> a                     geoes:Aerodromo ;
         rdfs:label                      "503" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "19"^^xsd:int ;
@@ -873,7 +873,7 @@ georesource:503  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.314052507498595 38.73120831163064)"^^geosparql:wktLiteral .
 
-georesource:418  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/418> a                     geoes:Aerodromo ;
         rdfs:label                      "418" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
         geoes:elevation                 "432"^^xsd:int ;
@@ -888,7 +888,7 @@ georesource:418  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.863108130000001 41.78471037906713)"^^geosparql:wktLiteral .
 
-georesource:207  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/207> a                     geoes:Aerodromo ;
         rdfs:label                      "207" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "845"^^xsd:int ;
@@ -899,7 +899,7 @@ georesource:207  a                     geoes:Aerodromo ;
         dc:title                        "Pista de Aeromodelismo asfaltada"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/207/geometry> .
 
-georesource:279  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/279> a                     geoes:Aerodromo ;
         rdfs:label                      "279" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "1169"^^xsd:int ;
@@ -910,7 +910,7 @@ georesource:279  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/279/geometry> .
 
-georesource:630  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/630> a                     geoes:Aerodromo ;
         rdfs:label                      "630" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "721"^^xsd:int ;
@@ -921,7 +921,7 @@ georesource:630  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/630/geometry> .
 
-georesource:153  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/153> a                     geoes:Aerodromo ;
         rdfs:label                      "153" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "3"^^xsd:int ;
@@ -936,7 +936,7 @@ georesource:153  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.39999714 38.78879247699612)"^^geosparql:wktLiteral .
 
-georesource:249  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/249> a                     geoes:Aerodromo ;
         rdfs:label                      "249" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "1114"^^xsd:int ;
@@ -955,7 +955,7 @@ georesource:249  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.8002759599999996 37.90844003616469)"^^geosparql:wktLiteral .
 
-georesource:5  a                       geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/5> a                       geoes:Aerodromo ;
         rdfs:label                      "5" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "1133"^^xsd:int ;
@@ -970,7 +970,7 @@ georesource:5  a                       geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.101314349999999 38.67498484689403)"^^geosparql:wktLiteral .
 
-georesource:195  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/195> a                     geoes:Aerodromo ;
         rdfs:label                      "195" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "286"^^xsd:int ;
@@ -981,7 +981,7 @@ georesource:195  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de Villanueva de Gállego"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/195/geometry> .
 
-georesource:587  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/587> a                     geoes:Aerodromo ;
         rdfs:label                      "587" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "367"^^xsd:int ;
@@ -992,7 +992,7 @@ georesource:587  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de Santa Comba"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/587/geometry> .
 
-georesource:461  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/461> a                     geoes:Aerodromo ;
         rdfs:label                      "461" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "57"^^xsd:int ;
@@ -1004,7 +1004,7 @@ georesource:461  a                     geoes:Aerodromo ;
         dc:title                        "Aeròdrom de San Luis"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/461/geometry> .
 
-georesource:88  a                      geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/88> a                      geoes:Aerodromo ;
         rdfs:label                      "88" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "638"^^xsd:int ;
@@ -1023,7 +1023,7 @@ georesource:88  a                      geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.1496360400000003 38.24187391649074)"^^geosparql:wktLiteral .
 
-georesource:220  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/220> a                     geoes:Aerodromo ;
         rdfs:label                      "220" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "722"^^xsd:int ;
@@ -1035,7 +1035,7 @@ georesource:220  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de Casas de los Pinos"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/220/geometry> .
 
-georesource:135  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/135> a                     geoes:Aerodromo ;
         rdfs:label                      "135" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "2"^^xsd:int ;
@@ -1055,7 +1055,7 @@ georesource:135  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.3903551699999985 39.20636819735671)"^^geosparql:wktLiteral .
 
-georesource:388  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/388> a                     geoes:Aerodromo ;
         rdfs:label                      "388" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "39"^^xsd:int ;
@@ -1067,7 +1067,7 @@ georesource:388  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de La Axarquía-Leoni Benabu"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/388/geometry> .
 
-georesource:262  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/262> a                     geoes:Aerodromo ;
         rdfs:label                      "262" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "978"^^xsd:int ;
@@ -1090,7 +1090,7 @@ georesource:262  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-13.983258569999403 28.391047152768845)"^^geosparql:wktLiteral .
 
-georesource:509  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/509> a                     geoes:Aerodromo ;
         rdfs:label                      "509" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "243"^^xsd:int ;
@@ -1105,7 +1105,7 @@ georesource:509  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (1.8681219699999998 42.38609666933185)"^^geosparql:wktLiteral .
 
-georesource:485  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/485> a                     geoes:Aerodromo ;
         rdfs:label                      "485" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "130"^^xsd:int ;
@@ -1128,7 +1128,7 @@ georesource:485  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.34713977 42.69267510944653)"^^geosparql:wktLiteral .
 
-georesource:455  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/455> a                     geoes:Aerodromo ;
         rdfs:label                      "455" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "66"^^xsd:int ;
@@ -1143,7 +1143,7 @@ georesource:455  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.185915599999803 38.90873315710197)"^^geosparql:wktLiteral .
 
-georesource:244  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/244> a                     geoes:Aerodromo ;
         rdfs:label                      "244" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "430"^^xsd:int ;
@@ -1155,7 +1155,7 @@ georesource:244  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de  Alia/Guadalupe"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/244/geometry> .
 
-georesource:510  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/510> a                     geoes:Aerodromo ;
         rdfs:label                      "510" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "232"^^xsd:int ;
@@ -1170,7 +1170,7 @@ georesource:510  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.601649789999998 39.851217247869194)"^^geosparql:wktLiteral .
 
-georesource:83  a                      geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/83> a                      geoes:Aerodromo ;
         rdfs:label                      "83" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "626"^^xsd:int ;
@@ -1193,7 +1193,7 @@ georesource:83  a                      geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.7257596500000005 37.327639845565436)"^^geosparql:wktLiteral .
 
-georesource:256  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/256> a                     geoes:Aerodromo ;
         rdfs:label                      "256" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "1001"^^xsd:int ;
@@ -1204,7 +1204,7 @@ georesource:256  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de Las Navas"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/256/geometry> .
 
-georesource:23  a                      geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/23> a                      geoes:Aerodromo ;
         rdfs:label                      "23" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "1003"^^xsd:int ;
@@ -1219,7 +1219,7 @@ georesource:23  a                      geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.203227020000003 43.3912217496561)"^^geosparql:wktLiteral .
 
-georesource:311  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/311> a                     geoes:Aerodromo ;
         rdfs:label                      "311" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "711"^^xsd:int ;
@@ -1234,7 +1234,7 @@ georesource:311  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.1495535400000008 42.95330764953315)"^^geosparql:wktLiteral .
 
-georesource:618  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/618> a                     geoes:Aerodromo ;
         rdfs:label                      "618" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "684"^^xsd:int ;
@@ -1253,7 +1253,7 @@ georesource:618  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (1.6527191599999997 41.58431483896733)"^^geosparql:wktLiteral .
 
-georesource:594  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/594> a                     geoes:Aerodromo ;
         rdfs:label                      "594" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "328"^^xsd:int ;
@@ -1264,7 +1264,7 @@ georesource:594  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de Monforte de Lemos"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/594/geometry> .
 
-georesource:298  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/298> a                     geoes:Aerodromo ;
         rdfs:label                      "298" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "197"^^xsd:int ;
@@ -1275,7 +1275,7 @@ georesource:298  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de Totana"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/298/geometry> .
 
-georesource:172  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/172> a                     geoes:Aerodromo ;
         rdfs:label                      "172" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "256"^^xsd:int ;
@@ -1294,7 +1294,7 @@ georesource:172  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.7786211200000003 38.15801798641001)"^^geosparql:wktLiteral .
 
-georesource:268  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/268> a                     geoes:Aerodromo ;
         rdfs:label                      "268" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "850"^^xsd:int ;
@@ -1309,7 +1309,7 @@ georesource:268  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-1.5308606000000005 39.941216417936346)"^^geosparql:wktLiteral .
 
-georesource:323  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/323> a                     geoes:Aerodromo ;
         rdfs:label                      "323" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "26"^^xsd:int ;
@@ -1336,7 +1336,7 @@ georesource:323  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.874061810000001 42.47838058936781)"^^geosparql:wktLiteral .
 
-georesource:631  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/631> a                     geoes:Aerodromo ;
         rdfs:label                      "631" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "823"^^xsd:int ;
@@ -1347,7 +1347,7 @@ georesource:631  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/631/geometry> .
 
-georesource:154  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/154> a                     geoes:Aerodromo ;
         rdfs:label                      "154" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "80"^^xsd:int ;
@@ -1378,7 +1378,7 @@ georesource:154  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.4216456500000003 40.72558912847521)"^^geosparql:wktLiteral .
 
-georesource:305  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/305> a                     geoes:Aerodromo ;
         rdfs:label                      "305" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "749"^^xsd:int ;
@@ -1394,7 +1394,7 @@ georesource:305  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.024977819999999 40.436559898286426)"^^geosparql:wktLiteral .
 
-georesource:6  a                       geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/6> a                       geoes:Aerodromo ;
         rdfs:label                      "6" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "1"^^xsd:int ;
@@ -1405,7 +1405,7 @@ georesource:6  a                       geoes:Aerodromo ;
         dc:title                        "Aeródromo de la Llosa"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/6/geometry> .
 
-georesource:281  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/281> a                     geoes:Aerodromo ;
         rdfs:label                      "281" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "1113"^^xsd:int ;
@@ -1416,7 +1416,7 @@ georesource:281  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de Cañadillas"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/281/geometry> .
 
-georesource:588  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/588> a                     geoes:Aerodromo ;
         rdfs:label                      "588" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "434"^^xsd:int ;
@@ -1427,7 +1427,7 @@ georesource:588  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de Rozas"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/588/geometry> .
 
-georesource:221  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/221> a                     geoes:Aerodromo ;
         rdfs:label                      "221" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "712"^^xsd:int ;
@@ -1442,7 +1442,7 @@ georesource:221  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-7.518604119999998 42.547119679393774)"^^geosparql:wktLiteral .
 
-georesource:528  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/528> a                     geoes:Aerodromo ;
         rdfs:label                      "528" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "171"^^xsd:int ;
@@ -1457,7 +1457,7 @@ georesource:528  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.270259119529319 37.13742576445937)"^^geosparql:wktLiteral .
 
-georesource:90  a                      geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/90> a                      geoes:Aerodromo ;
         rdfs:label                      "90" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "484"^^xsd:int ;
@@ -1472,7 +1472,7 @@ georesource:90  a                      geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.287356839999999 42.451003639357275)"^^geosparql:wktLiteral .
 
-georesource:263  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/263> a                     geoes:Aerodromo ;
         rdfs:label                      "263" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "700"^^xsd:int ;
@@ -1499,7 +1499,7 @@ georesource:263  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-1.2628255 39.13299190729496)"^^geosparql:wktLiteral .
 
-georesource:203  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/203> a                     geoes:Aerodromo ;
         rdfs:label                      "203" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
         geoes:elevation                 "1124"^^xsd:int ;
@@ -1510,7 +1510,7 @@ georesource:203  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de Sigüenza"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/203/geometry> .
 
-georesource:118  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/118> a                     geoes:Aerodromo ;
         rdfs:label                      "118" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "209"^^xsd:int ;
@@ -1526,7 +1526,7 @@ georesource:118  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.1814076 39.74981210779223)"^^geosparql:wktLiteral .
 
-georesource:486  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/486> a                     geoes:Aerodromo ;
         rdfs:label                      "486" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "719"^^xsd:int ;
@@ -1541,7 +1541,7 @@ georesource:486  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.72822715 42.56921530940199)"^^geosparql:wktLiteral .
 
-georesource:456  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/456> a                     geoes:Aerodromo ;
         rdfs:label                      "456" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "55"^^xsd:int ;
@@ -1560,7 +1560,7 @@ georesource:456  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-16.40085396 28.329077352667053)"^^geosparql:wktLiteral .
 
-georesource:300  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/300> a                     geoes:Aerodromo ;
         rdfs:label                      "300" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "646"^^xsd:int ;
@@ -1576,7 +1576,7 @@ georesource:300  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-15.509890403069235 27.781524216820515)"^^geosparql:wktLiteral .
 
-georesource:215  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/215> a                     geoes:Aerodromo ;
         rdfs:label                      "215" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "964"^^xsd:int ;
@@ -1596,7 +1596,7 @@ georesource:215  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.3205412599999993 39.71690106776697)"^^geosparql:wktLiteral .
 
-georesource:84  a                      geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/84> a                      geoes:Aerodromo ;
         rdfs:label                      "84" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "622"^^xsd:int ;
@@ -1611,7 +1611,7 @@ georesource:84  a                      geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.9547696399999994 39.82704893785098)"^^geosparql:wktLiteral .
 
-georesource:257  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/257> a                     geoes:Aerodromo ;
         rdfs:label                      "257" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "1170"^^xsd:int ;
@@ -1622,7 +1622,7 @@ georesource:257  a                     geoes:Aerodromo ;
         dc:title                        "Aeroclub de Arcones"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/257/geometry> .
 
-georesource:24  a                      geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/24> a                      geoes:Aerodromo ;
         rdfs:label                      "24" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "873"^^xsd:int ;
@@ -1633,7 +1633,7 @@ georesource:24  a                      geoes:Aerodromo ;
         dc:title                        "Aeródromo"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/24/geometry> .
 
-georesource:384  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/384> a                     geoes:Aerodromo ;
         rdfs:label                      "384" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "770"^^xsd:int ;
@@ -1644,7 +1644,7 @@ georesource:384  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de Loja"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/384/geometry> .
 
-georesource:299  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/299> a                     geoes:Aerodromo ;
         rdfs:label                      "299" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "693"^^xsd:int ;
@@ -1656,7 +1656,7 @@ georesource:299  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de San Enrique"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/299/geometry> .
 
-georesource:269  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/269> a                     geoes:Aerodromo ;
         rdfs:label                      "269" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "833"^^xsd:int ;
@@ -1671,7 +1671,7 @@ georesource:269  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.5506361099999997 39.44307946755116)"^^geosparql:wktLiteral .
 
-georesource:324  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/324> a                     geoes:Aerodromo ;
         rdfs:label                      "324" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "45"^^xsd:int ;
@@ -1702,7 +1702,7 @@ georesource:324  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-1.5258832028421079 38.61533343287909)"^^geosparql:wktLiteral .
 
-georesource:185  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/185> a                     geoes:Aerodromo ;
         rdfs:label                      "185" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "686"^^xsd:int ;
@@ -1714,7 +1714,7 @@ georesource:185  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de Santa Cilia de Jaca"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/185/geometry> .
 
-georesource:240  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/240> a                     geoes:Aerodromo ;
         rdfs:label                      "240" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "282"^^xsd:int ;
@@ -1725,7 +1725,7 @@ georesource:240  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de Coria"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/240/geometry> .
 
-georesource:155  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/155> a                     geoes:Aerodromo ;
         rdfs:label                      "155" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "136"^^xsd:int ;
@@ -1740,7 +1740,7 @@ georesource:155  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.177719459999998 36.4954085346404)"^^geosparql:wktLiteral .
 
-georesource:421  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/421> a                     geoes:Aerodromo ;
         rdfs:label                      "421" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "109"^^xsd:int ;
@@ -1763,7 +1763,7 @@ georesource:421  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (0.988550000000239 42.45790103989463)"^^geosparql:wktLiteral .
 
-georesource:282  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/282> a                     geoes:Aerodromo ;
         rdfs:label                      "282" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "828"^^xsd:int ;
@@ -1774,7 +1774,7 @@ georesource:282  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de Carcelén"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/282/geometry> .
 
-georesource:589  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/589> a                     geoes:Aerodromo ;
         rdfs:label                      "589" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "25"^^xsd:int ;
@@ -1785,7 +1785,7 @@ georesource:589  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de Villaframil"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/589/geometry> .
 
-georesource:222  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/222> a                     geoes:Aerodromo ;
         rdfs:label                      "222" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "1218"^^xsd:int ;
@@ -1804,7 +1804,7 @@ georesource:222  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.24737473 40.865467348562426)"^^geosparql:wktLiteral .
 
-georesource:91  a                      geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/91> a                      geoes:Aerodromo ;
         rdfs:label                      "91" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "621"^^xsd:int ;
@@ -1819,7 +1819,7 @@ georesource:91  a                      geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.662435996997036 39.56118401495262)"^^geosparql:wktLiteral .
 
-georesource:107  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/107> a                     geoes:Aerodromo ;
         rdfs:label                      "107" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "925"^^xsd:int ;
@@ -1839,7 +1839,7 @@ georesource:107  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.9903300555427856 42.03054197990463)"^^geosparql:wktLiteral .
 
-georesource:264  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/264> a                     geoes:Aerodromo ;
         rdfs:label                      "264" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "707"^^xsd:int ;
@@ -1850,7 +1850,7 @@ georesource:264  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de Mojados"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/264/geometry> .
 
-georesource:445  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/445> a                     geoes:Aerodromo ;
         rdfs:label                      "445" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "2"^^xsd:int ;
@@ -1862,7 +1862,7 @@ georesource:445  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de Trebujena"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/445/geometry> .
 
-georesource:626  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/626> a                     geoes:Aerodromo ;
         rdfs:label                      "626" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "625"^^xsd:int ;
@@ -1885,7 +1885,7 @@ georesource:626  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.920952340000002 37.36415451560427)"^^geosparql:wktLiteral .
 
-georesource:487  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/487> a                     geoes:Aerodromo ;
         rdfs:label                      "487" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "42"^^xsd:int ;
@@ -1905,7 +1905,7 @@ georesource:487  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.25087627 39.56248532764648)"^^geosparql:wktLiteral .
 
-georesource:276  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/276> a                     geoes:Aerodromo ;
         rdfs:label                      "276" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/aena> ;
         geoes:elevation                 "699"^^xsd:int ;
@@ -1916,7 +1916,7 @@ georesource:276  a                     geoes:Aerodromo ;
         dc:title                        "Pista de Aeromodelismo Las Tiesas"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/276/geometry> .
 
-georesource:150  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/150> a                     geoes:Aerodromo ;
         rdfs:label                      "150" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "65"^^xsd:int ;
@@ -1936,7 +1936,7 @@ georesource:150  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-1.0964686000000003 37.83346870608959)"^^geosparql:wktLiteral .
 
-georesource:246  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/246> a                     geoes:Aerodromo ;
         rdfs:label                      "246" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "246"^^xsd:int ;
@@ -1947,7 +1947,7 @@ georesource:246  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de Casatejada"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/246/geometry> .
 
-georesource:638  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/638> a                     geoes:Aerodromo ;
         rdfs:label                      "638" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "0"^^xsd:int ;
@@ -1958,7 +1958,7 @@ georesource:638  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de Vera"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/638/geometry> .
 
-georesource:512  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/512> a                     geoes:Aerodromo ;
         rdfs:label                      "512" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "265"^^xsd:int ;
@@ -1977,7 +1977,7 @@ georesource:512  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-8.76269189 43.10234492957818)"^^geosparql:wktLiteral .
 
-georesource:301  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/301> a                     geoes:Aerodromo ;
         rdfs:label                      "301" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "575"^^xsd:int ;
@@ -1989,7 +1989,7 @@ georesource:301  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de Pozuelos de Calatrava"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/301/geometry> .
 
-georesource:85  a                      geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/85> a                      geoes:Aerodromo ;
         rdfs:label                      "85" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "839"^^xsd:int ;
@@ -2004,7 +2004,7 @@ georesource:85  a                      geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.48896461 42.4006218693376)"^^geosparql:wktLiteral .
 
-georesource:288  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/288> a                     geoes:Aerodromo ;
         rdfs:label                      "288" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "741"^^xsd:int ;
@@ -2023,7 +2023,7 @@ georesource:288  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.367805719108481 38.51344151620616)"^^geosparql:wktLiteral .
 
-georesource:469  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/469> a                     geoes:Aerodromo ;
         rdfs:label                      "469" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "104"^^xsd:int ;
@@ -2058,7 +2058,7 @@ georesource:469  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.9919512800000008 40.50000826832884)"^^geosparql:wktLiteral .
 
-georesource:470  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/470> a                     geoes:Aerodromo ;
         rdfs:label                      "470" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "123"^^xsd:int ;
@@ -2069,7 +2069,7 @@ georesource:470  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de Palma del Río"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/470/geometry> .
 
-georesource:385  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/385> a                     geoes:Aerodromo ;
         rdfs:label                      "385" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "742"^^xsd:int ;
@@ -2080,7 +2080,7 @@ georesource:385  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de Atarfe"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/385/geometry> .
 
-georesource:37  a                      geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/37> a                      geoes:Aerodromo ;
         rdfs:label                      "37" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "322"^^xsd:int ;
@@ -2091,7 +2091,7 @@ georesource:37  a                      geoes:Aerodromo ;
         dc:title                        "Club de Aeromodelismo Vinalopó"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/37/geometry> .
 
-georesource:325  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/325> a                     geoes:Aerodromo ;
         rdfs:label                      "325" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "491"^^xsd:int ;
@@ -2102,7 +2102,7 @@ georesource:325  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de Linares"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/325/geometry> .
 
-georesource:114  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/114> a                     geoes:Aerodromo ;
         rdfs:label                      "114" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "717"^^xsd:int ;
@@ -2113,7 +2113,7 @@ georesource:114  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de Villalambrús de Losa"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/114/geometry> .
 
-georesource:506  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/506> a                     geoes:Aerodromo ;
         rdfs:label                      "506" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "15"^^xsd:int ;
@@ -2136,7 +2136,7 @@ georesource:506  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.1014591099999995 39.908924637912364)"^^geosparql:wktLiteral .
 
-georesource:241  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/241> a                     geoes:Aerodromo ;
         rdfs:label                      "241" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "524"^^xsd:int ;
@@ -2151,7 +2151,7 @@ georesource:241  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.371677069999998 40.91219366859094)"^^geosparql:wktLiteral .
 
-georesource:156  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/156> a                     geoes:Aerodromo ;
         rdfs:label                      "156" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "60"^^xsd:int ;
@@ -2162,7 +2162,7 @@ georesource:156  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de Foixa"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/156/geometry> .
 
-georesource:337  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/337> a                     geoes:Aerodromo ;
         rdfs:label                      "337" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "254"^^xsd:int ;
@@ -2173,7 +2173,7 @@ georesource:337  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de Sierra Morena"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/337/geometry> .
 
-georesource:603  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/603> a                     geoes:Aerodromo ;
         rdfs:label                      "603" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "681"^^xsd:int ;
@@ -2189,7 +2189,7 @@ georesource:603  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.2704193600000004 38.5014293767352)"^^geosparql:wktLiteral .
 
-georesource:307  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/307> a                     geoes:Aerodromo ;
         rdfs:label                      "307" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "674"^^xsd:int ;
@@ -2216,7 +2216,7 @@ georesource:307  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.1535630100000005 42.00863661917182)"^^geosparql:wktLiteral .
 
-georesource:223  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/223> a                     geoes:Aerodromo ;
         rdfs:label                      "223" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "1379"^^xsd:int ;
@@ -2227,7 +2227,7 @@ georesource:223  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/223/geometry> .
 
-georesource:615  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/615> a                     geoes:Aerodromo ;
         rdfs:label                      "615" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "659"^^xsd:int ;
@@ -2242,7 +2242,7 @@ georesource:615  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.681477059999999 42.49817441937536)"^^geosparql:wktLiteral .
 
-georesource:380  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/380> a                     geoes:Aerodromo ;
         rdfs:label                      "380" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "989"^^xsd:int ;
@@ -2265,7 +2265,7 @@ georesource:380  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.344102339999999 39.32906487745841)"^^geosparql:wktLiteral .
 
-georesource:531  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/531> a                     geoes:Aerodromo ;
         rdfs:label                      "531" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "7"^^xsd:int ;
@@ -2286,7 +2286,7 @@ georesource:531  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.28986634 42.59310655941079)"^^geosparql:wktLiteral .
 
-georesource:446  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/446> a                     geoes:Aerodromo ;
         rdfs:label                      "446" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "75"^^xsd:int ;
@@ -2297,7 +2297,7 @@ georesource:446  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de Medina Sidonia"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/446/geometry> .
 
-georesource:320  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/320> a                     geoes:Aerodromo ;
         rdfs:label                      "320" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "876"^^xsd:int ;
@@ -2308,7 +2308,7 @@ georesource:320  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de Chozas"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/320/geometry> .
 
-georesource:235  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/235> a                     geoes:Aerodromo ;
         rdfs:label                      "235" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "410"^^xsd:int ;
@@ -2319,7 +2319,7 @@ georesource:235  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de La Cervera"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/235/geometry> .
 
-georesource:501  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/501> a                     geoes:Aerodromo ;
         rdfs:label                      "501" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "40"^^xsd:int ;
@@ -2338,7 +2338,7 @@ georesource:501  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-1.2975039500000003 37.74992487600506)"^^geosparql:wktLiteral .
 
-georesource:277  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/277> a                     geoes:Aerodromo ;
         rdfs:label                      "277" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "684"^^xsd:int ;
@@ -2350,7 +2350,7 @@ georesource:277  a                     geoes:Aerodromo ;
         dc:title                        "Aeródromo de Almansa"@es ;
         geosparql:hasGeometry           <http://geo.linkeddata.es/recurso/Aerodromo/277/geometry> .
 
-georesource:151  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/151> a                     geoes:Aerodromo ;
         rdfs:label                      "151" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "16"^^xsd:int ;
@@ -2369,7 +2369,7 @@ georesource:151  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.837788620000001 38.8555871070553)"^^geosparql:wktLiteral .
 
-georesource:247  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/247> a                     geoes:Aerodromo ;
         rdfs:label                      "247" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "1117"^^xsd:int ;
@@ -2384,7 +2384,7 @@ georesource:247  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.386345788066898 39.010879724299244)"^^geosparql:wktLiteral .
 
-georesource:639  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/639> a                     geoes:Aerodromo ;
         rdfs:label                      "639" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "16"^^xsd:int ;
@@ -2399,7 +2399,7 @@ georesource:639  a                     geoes:Aerodromo ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.6842476899999985 37.34827355558741)"^^geosparql:wktLiteral .
 
-georesource:513  a                     geoes:Aerodromo ;
+<http://geo.linkeddata.es/recurso/Aerodromo/513> a                     geoes:Aerodromo ;
         rdfs:label                      "513" ;
         geoes:competenciaAeroportuaria  <http://geo.linkeddata.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "542"^^xsd:int ;
