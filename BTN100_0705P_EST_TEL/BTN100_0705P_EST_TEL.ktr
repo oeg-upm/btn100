@@ -53,7 +53,7 @@
   <notepads>
   </notepads>
   <order>
-  <hop> <from>Valor Java Script Modificado</from><to>Selecciona&#47;Renombra valores</to><enabled>Y</enabled> </hop>  <hop> <from>Shapefile File Input</from><to>Valor Java Script Modificado</to><enabled>Y</enabled> </hop>  <hop> <from>SRS Transformation</from><to>Switch &#47; Case</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>EstacionDeTelecomunicacion</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>01. TELEFONÍA</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>02. EstacionDeTV</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>03. EstacionDeRadio</to><enabled>Y</enabled> </hop>  <hop> <from>EstacionDeTelecomunicacion</from><to>Text file output</to><enabled>Y</enabled> </hop>  <hop> <from>01. TELEFONÍA</from><to>Text file output</to><enabled>Y</enabled> </hop>  <hop> <from>02. EstacionDeTV</from><to>Text file output</to><enabled>Y</enabled> </hop>  <hop> <from>03. EstacionDeRadio</from><to>Text file output</to><enabled>Y</enabled> </hop>  <hop> <from>Selecciona&#47;Renombra valores</from><to>situacion de via</to><enabled>Y</enabled> </hop>  <hop> <from>situacion de via</from><to>SRS Transformation</to><enabled>Y</enabled> </hop>  </order>
+  <hop> <from>Valor Java Script Modificado</from><to>Selecciona&#47;Renombra valores</to><enabled>Y</enabled> </hop>  <hop> <from>Shapefile File Input</from><to>Valor Java Script Modificado</to><enabled>Y</enabled> </hop>  <hop> <from>SRS Transformation</from><to>Switch &#47; Case</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>01. TELEFONÍA</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>02. EstacionDeTV</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>03. EstacionDeRadio</to><enabled>Y</enabled> </hop>  <hop> <from>EstacionDeTelecomunicacion</from><to>Text file output</to><enabled>Y</enabled> </hop>  <hop> <from>01. TELEFONÍA</from><to>Text file output</to><enabled>Y</enabled> </hop>  <hop> <from>02. EstacionDeTV</from><to>Text file output</to><enabled>Y</enabled> </hop>  <hop> <from>03. EstacionDeRadio</from><to>Text file output</to><enabled>Y</enabled> </hop>  <hop> <from>Selecciona&#47;Renombra valores</from><to>situacion de via</to><enabled>Y</enabled> </hop>  <hop> <from>situacion de via</from><to>SRS Transformation</to><enabled>Y</enabled> </hop>  <hop> <from>SRS Transformation</from><to>EstacionDeTelecomunicacion</to><enabled>Y</enabled> </hop>  </order>
   <step>
     <name>01. TELEFONÍA</name>
     <type>tripleGEO</type>
@@ -64,7 +64,7 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-		<attributename>ID</attributename>
+		<attributename>identificador</attributename>
 		<feature>EstacionTelefonica</feature>
 		<ontologyns>http://geo.linkeddata.es/ontology/</ontologyns>
 		<ontologynsprefix>geoes</ontologynsprefix>
@@ -84,10 +84,10 @@
 		<column_shp>the_geom</column_shp>
 		</columns>
 		<columns>
-		<column>identifier</column>
-		<prefix>dc</prefix>
-		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
-		<show>YES</show>
+		<column>ID</column>
+		<prefix/>
+		<uri/>
+		<show>NO</show>
 		<column_shp>ID</column_shp>
 		</columns>
 		<columns>
@@ -131,6 +131,13 @@
 		<uri/>
 		<show>NO</show>
 		<column_shp>TIPO_0705</column_shp>
+		</columns>
+		<columns>
+		<column>identifier</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>identificador</column_shp>
 		</columns>
 		</columns>
      <cluster_schema/>
@@ -151,7 +158,7 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-		<attributename>ID</attributename>
+		<attributename>identificador</attributename>
 		<feature>EstacionDeTV</feature>
 		<ontologyns>http://geo.linkeddata.es/ontology/</ontologyns>
 		<ontologynsprefix>geoes</ontologynsprefix>
@@ -171,10 +178,10 @@
 		<column_shp>the_geom</column_shp>
 		</columns>
 		<columns>
-		<column>identifier</column>
-		<prefix>dc</prefix>
-		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
-		<show>YES</show>
+		<column>ID</column>
+		<prefix/>
+		<uri/>
+		<show>NO</show>
 		<column_shp>ID</column_shp>
 		</columns>
 		<columns>
@@ -218,6 +225,13 @@
 		<uri/>
 		<show>NO</show>
 		<column_shp>TIPO_0705</column_shp>
+		</columns>
+		<columns>
+		<column>identifier</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>identificador</column_shp>
 		</columns>
 		</columns>
      <cluster_schema/>
@@ -238,7 +252,7 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-		<attributename>ID</attributename>
+		<attributename>identificador</attributename>
 		<feature>EstacionDeRadio</feature>
 		<ontologyns>http://geo.linkeddata.es/ontology/</ontologyns>
 		<ontologynsprefix>geoes</ontologynsprefix>
@@ -258,10 +272,10 @@
 		<column_shp>the_geom</column_shp>
 		</columns>
 		<columns>
-		<column>identifier</column>
-		<prefix>dc</prefix>
-		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
-		<show>YES</show>
+		<column>ID</column>
+		<prefix/>
+		<uri/>
+		<show>NO</show>
 		<column_shp>ID</column_shp>
 		</columns>
 		<columns>
@@ -305,6 +319,13 @@
 		<uri/>
 		<show>NO</show>
 		<column_shp>TIPO_0705</column_shp>
+		</columns>
+		<columns>
+		<column>identifier</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>identificador</column_shp>
 		</columns>
 		</columns>
      <cluster_schema/>
@@ -325,7 +346,7 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-		<attributename>ID</attributename>
+		<attributename>identificador</attributename>
 		<feature>EstacionDeTelecomunicacion</feature>
 		<ontologyns>http://geo.linkeddata.es/ontology/</ontologyns>
 		<ontologynsprefix>geoes</ontologynsprefix>
@@ -345,10 +366,10 @@
 		<column_shp>the_geom</column_shp>
 		</columns>
 		<columns>
-		<column>identifier</column>
-		<prefix>dc</prefix>
-		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
-		<show>YES</show>
+		<column>ID</column>
+		<prefix/>
+		<uri/>
+		<show>NO</show>
 		<column_shp>ID</column_shp>
 		</columns>
 		<columns>
@@ -393,11 +414,18 @@
 		<show>NO</show>
 		<column_shp>TIPO_0705</column_shp>
 		</columns>
+		<columns>
+		<column>identifier</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>identificador</column_shp>
+		</columns>
 		</columns>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>654</xloc>
-      <yloc>266</yloc>
+      <xloc>669</xloc>
+      <yloc>215</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -406,7 +434,7 @@
     <name>SRS Transformation</name>
     <type>SRSTransformation</type>
     <description/>
-    <distribute>Y</distribute>
+    <distribute>N</distribute>
     <copies>1</copies>
          <partitioning>
            <method>none</method>
@@ -508,9 +536,7 @@
 <case_value_decimal/>
 <case_value_group/>
 <default_target_step>EstacionDeTelecomunicacion</default_target_step>
-<cases><case><value>00</value>
-<target_step>EstacionDeTelecomunicacion</target_step>
-</case><case><value>01</value>
+<cases><case><value>01</value>
 <target_step>01. TELEFONÍA</target_step>
 </case><case><value>02</value>
 <target_step>02. EstacionDeTV</target_step>
@@ -608,13 +634,19 @@ else{
     FECHA_ALTA = new Date(aux[1], aux[2]-1, aux[3]);
     FECHA_ALTA = date2str(FECHA_ALTA, &quot;yyyy-MM-dd&quot;);
 }
-</jsScript_script>
+var identificador = &quot;Estacion-&quot;+ID;</jsScript_script>
       </jsScript>    </jsScripts>    <fields>      <field>        <name>FECHA_ALTA</name>
         <rename>FECHA_ALTA</rename>
         <type>String</type>
         <length>-1</length>
         <precision>-1</precision>
         <replace>Y</replace>
+      </field>      <field>        <name>identificador</name>
+        <rename>identificador</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
       </field>    </fields>     <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
       <xloc>149</xloc>
