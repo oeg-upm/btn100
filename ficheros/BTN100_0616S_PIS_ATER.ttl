@@ -14,7 +14,7 @@
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-3.93114157 39.693609438276916, -3.93124619 39.69334261827671, -3.93561275 39.69326214827666, -3.9371096999999997 39.693234568276615, -3.93711464 39.69359984827691, -3.9353128900000005 39.69360273827692, -3.93114157 39.693609438276916))"^^geosparql:wktLiteral .
 
-georesource:134  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/134> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "134" ;
         dc:created             "2013-03-02"^^xsd:date ;
         dc:identifier          "134"^^xsd:int ;
@@ -28,7 +28,7 @@ georesource:134  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-2.470359419999999 41.82278451961915, -2.4698778399999997 41.82263284961906, -2.4723433399999997 41.81840988961704, -2.4728744299999996 41.81861158961713, -2.4723341700000003 41.81945917961753, -2.4718666999999996 41.8201925696179, -2.4713528 41.820998749618276, -2.473429360000001 41.82101644961829, -2.47375374 41.821019209618285, -2.48770458 41.82115699961835, -2.4876682999999997 41.82153045961854, -2.4711697399999992 41.82143077961846, -2.470359419999999 41.82278451961915))"^^geosparql:wktLiteral .
 
-georesource:104  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/104> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "104" ;
         dc:created             "2012-09-26"^^xsd:date ;
         dc:identifier          "104"^^xsd:int ;
@@ -39,7 +39,7 @@ georesource:104  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-17.22275466 28.02875846261969, -17.21326895 28.03001455262179, -17.20655766 28.03092307262329, -17.206434660000006 28.03035649262234, -17.222630570000003 28.028142482618684, -17.22275466 28.02875846261969))"^^geosparql:wktLiteral .
 
-georesource:75  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/75> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "75" ;
         dc:created             "2012-08-22"^^xsd:date ;
         dc:identifier          "75"^^xsd:int ;
@@ -49,7 +49,7 @@ georesource:75  a             geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-6.3477622999999985 39.329386007985306, -6.347671850000001 39.32976854798564, -6.343674709999999 39.329199417985166, -6.33842283 39.328451407984566, -6.338513840000001 39.328079407984234, -6.3445195 39.32892796798494, -6.3477622999999985 39.329386007985306))"^^geosparql:wktLiteral .
 
-georesource:176  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/176> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "176" ;
         dc:created             "2013-01-30"^^xsd:date ;
         dc:identifier          "176"^^xsd:int ;
@@ -59,7 +59,7 @@ georesource:176  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-1.6189354 42.00263524970315, -1.6270541600000004 42.01327977970798, -1.6264898299999997 42.01351138970807, -1.6261322599999999 42.01341772970804, -1.61846464 42.00338584970349, -1.61866702 42.00306316970335, -1.6189354 42.00263524970315))"^^geosparql:wktLiteral .
 
-georesource:45  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/45> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "45" ;
         dc:created             "2012-09-30"^^xsd:date ;
         dc:identifier          "45"^^xsd:int ;
@@ -73,19 +73,19 @@ georesource:45  a             geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-0.9844162900000002 39.79524526835517, -0.9837110900000001 39.795141958355075, -0.9846504699999996 39.78970014835091, -0.9851059000000002 39.78981689835102, -0.9844162900000002 39.79524526835517))"^^geosparql:wktLiteral .
 
-georesource:201  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/201> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "201" ;
         dc:created             "2012-02-17"^^xsd:date ;
         dc:identifier          "201"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/201/geometry> .
 
-georesource:15  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/15> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "15" ;
         dc:created             "2012-01-24"^^xsd:date ;
         dc:identifier          "15"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/15/geometry> .
 
-georesource:116  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/116> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "116" ;
         dc:created             "2012-12-28"^^xsd:date ;
         dc:identifier          "116"^^xsd:int ;
@@ -99,19 +99,19 @@ georesource:116  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-1.5358232100000002 39.94100635846493, -1.53581524 39.94138009846521, -1.53086363 39.941400848465236, -1.5299642899999994 39.94140458846523, -1.5210168099999999 39.94144146846527, -1.5209606600000003 39.94104197846495, -1.5296900400000002 39.941021288464945, -1.5307712799999995 39.94101867846496, -1.5358232100000002 39.94100635846493))"^^geosparql:wktLiteral .
 
-georesource:87  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/87> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "87" ;
         dc:created             "2012-05-08"^^xsd:date ;
         dc:identifier          "87"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/87/geometry> .
 
-georesource:2  a              geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/2> a              geoes:PistaDeAterrizaje ;
         rdfs:label             "2" ;
         dc:created             "2012-02-15"^^xsd:date ;
         dc:identifier          "2"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/2/geometry> .
 
-georesource:188  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/188> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "188" ;
         dc:created             "2013-01-02"^^xsd:date ;
         dc:identifier          "188"^^xsd:int ;
@@ -126,13 +126,13 @@ georesource:188  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-1.5237983299999998 38.61483634736331, -1.524473329999999 38.620656717368625, -1.5237144899999995 38.62079222736876, -1.5229580099999998 38.61486691736334, -1.5237983299999998 38.61483634736331))"^^geosparql:wktLiteral .
 
-georesource:57  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/57> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "57" ;
         dc:created             "2012-02-04"^^xsd:date ;
         dc:identifier          "57"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/57/geometry> .
 
-georesource:158  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/158> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "158" ;
         dc:created             "2013-04-04"^^xsd:date ;
         dc:identifier          "158"^^xsd:int ;
@@ -142,19 +142,19 @@ georesource:158  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-0.57489068 38.284761787054215, -0.57549778 38.284940757054386, -0.57548105 38.28524705705469, -0.5754194299999998 38.28583437705526, -0.57515173 38.2862930870557, -0.5747382299999999 38.28639229705578, -0.56025617 38.28447530705395, -0.5576569899999998 38.2841202570536, -0.5425001799999999 38.28204858705162, -0.53919476 38.28151502705112, -0.5388264799999999 38.281208857050814, -0.5387989999999998 38.28077719705039, -0.5390192599999999 38.28048338705012, -0.5399564100000002 38.28013828704978, -0.5410583499999999 38.27989611704956, -0.541199 38.27946798704916, -0.5447167700000001 38.27993962704961, -0.5558102299999997 38.28156410705116, -0.5661121199999999 38.282972157052505, -0.5749675899999999 38.28424163705373, -0.57489068 38.284761787054215))"^^geosparql:wktLiteral .
 
-georesource:213  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/213> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "213" ;
         dc:created             "2014-06-17"^^xsd:date ;
         dc:identifier          "213"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/213/geometry> .
 
-georesource:27  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/27> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "27" ;
         dc:created             "2012-05-22"^^xsd:date ;
         dc:identifier          "27"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/27/geometry> .
 
-georesource:128  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/128> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "128" ;
         dc:created             "2013-01-04"^^xsd:date ;
         dc:identifier          "128"^^xsd:int ;
@@ -168,7 +168,7 @@ georesource:128  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-17.78903092 28.669911703679222, -17.78761426 28.67256364368358, -17.78709733000001 28.673660273685407, -17.785270860000004 28.677949593692475, -17.78488467 28.677404313691568, -17.78673469 28.673565283685242, -17.78707888 28.67296398368426, -17.78709126 28.672553923683587, -17.78846902 28.669749113678954, -17.78903092 28.669911703679222))"^^geosparql:wktLiteral .
 
-georesource:99  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/99> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "99" ;
         dc:created             "2012-02-03"^^xsd:date ;
         dc:identifier          "99"^^xsd:int ;
@@ -178,7 +178,7 @@ georesource:99  a             geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-1.93847672 37.13351590587365, -1.9378853199999997 37.13394129587413, -1.9322108999999996 37.13792055587848, -1.93206799 37.137786785878326, -1.93830207 37.13331646587344, -1.93847672 37.13351590587365))"^^geosparql:wktLiteral .
 
-georesource:69  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/69> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "69" ;
         dc:created             "2012-08-14"^^xsd:date ;
         dc:identifier          "69"^^xsd:int ;
@@ -188,7 +188,7 @@ georesource:69  a             geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-4.235861 40.88408898910533, -4.239610789999999 40.88930617910856, -4.242012430000001 40.892647649110586, -4.241544010000001 40.89285038911073, -4.239125270000001 40.88949435910865, -4.236446609999999 40.885777219106394, -4.235376349999999 40.88429187910548, -4.235861 40.88408898910533))"^^geosparql:wktLiteral .
 
-georesource:39  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/39> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "39" ;
         dc:created             "2012-02-24"^^xsd:date ;
         dc:identifier          "39"^^xsd:int ;
@@ -207,7 +207,7 @@ georesource:39  a             geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-0.30589254 40.33382117874652, -0.30615215 40.33400890874664, -0.30617638 40.33414573874675, -0.30595168 40.334571988747044, -0.30568214 40.334633838747074, -0.30518353 40.33448595874696, -0.2965975599999999 40.330265768744084, -0.29651054 40.33011984874396, -0.2966485800000001 40.33000067874387, -0.2968878500000001 40.330016478743886, -0.30534592 40.334161328746745, -0.3055710799999999 40.33419717874678, -0.3056889700000001 40.333914328746594, -0.30589254 40.33382117874652))"^^geosparql:wktLiteral .
 
-georesource:70  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/70> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "70" ;
         dc:created             "2012-08-14"^^xsd:date ;
         dc:identifier          "70"^^xsd:int ;
@@ -229,7 +229,7 @@ georesource:70  a             geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-8.34145213 42.46494015989753, -8.340971800000002 42.46503597989756, -8.33814414 42.457921859894824, -8.337798230000002 42.4579001398948, -8.33756547 42.457248159894554, -8.338551809999998 42.4571355598945, -8.34060245 42.462541669896595, -8.34145213 42.46494015989753))"^^geosparql:wktLiteral .
 
-georesource:40  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/40> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "40" ;
         dc:created             "2012-02-24"^^xsd:date ;
         dc:identifier          "40"^^xsd:int ;
@@ -239,7 +239,7 @@ georesource:40  a             geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-5.219538389999999 37.71327589648767, -5.21071298 37.716132526490604, -5.21054818 37.71578950649025, -5.21418178 37.71462100648907, -5.214925200000001 37.714381916488826, -5.219360169999999 37.71295547648736, -5.219538389999999 37.71327589648767))"^^geosparql:wktLiteral .
 
-georesource:141  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/141> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "141" ;
         dc:created             "2013-02-15"^^xsd:date ;
         dc:identifier          "141"^^xsd:int ;
@@ -257,19 +257,19 @@ georesource:141  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-5.304936919999999 35.89306742443522, -5.304887479999999 35.89299380443513, -5.305168440000001 35.89279159443488, -5.30526818 35.89244087443445, -5.306562510000001 35.89196596443388, -5.30688863 35.89184629443371, -5.307253730000001 35.8916627744335, -5.3074559699999995 35.892020164433944, -5.30766279 35.89238565443439, -5.30742981 35.89246555443448, -5.30733442 35.89250464443454, -5.3071641000000005 35.892566364434614, -5.305158470000001 35.89339736443562, -5.304936919999999 35.89306742443522))"^^geosparql:wktLiteral .
 
-georesource:10  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/10> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "10" ;
         dc:created             "2012-01-12"^^xsd:date ;
         dc:identifier          "10"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/10/geometry> .
 
-georesource:111  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/111> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "111" ;
         dc:created             "2012-10-16"^^xsd:date ;
         dc:identifier          "111"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/111/geometry> .
 
-georesource:82  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/82> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "82" ;
         dc:created             "2013-02-12"^^xsd:date ;
         dc:identifier          "82"^^xsd:int ;
@@ -279,13 +279,13 @@ georesource:82  a             geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-13.611577280000077 28.93502694411581, -13.611134610000079 28.93585091411716, -13.612983490000078 28.936502894118238, -13.611508680000084 28.939191934122665, -13.608433540000082 28.944154404130813, -13.60719010000008 28.9461553441341, -13.602430370000079 28.95474805414823, -13.602473430000078 28.955438954149365, -13.601836840000082 28.95607675415042, -13.60058560000008 28.955718514149854, -13.59980655000008 28.95527313414911, -13.59932074000008 28.956372784150908, -13.598513980000078 28.956042174150372, -13.610831140000078 28.935065274115875, -13.611577280000077 28.93502694411581), (-13.61162274000008 28.936523384118278, -13.61078472000008 28.936583784118387, -13.600130430000076 28.954540024147907, -13.600464520000079 28.954992294148635, -13.601115990000078 28.95519469414899, -13.60164607000008 28.954693884148146, -13.602612690000083 28.952862734145153, -13.61179942000008 28.937008524119086, -13.61162274000008 28.936523384118278))"^^geosparql:wktLiteral .
 
-georesource:183  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/183> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "183" ;
         dc:created             "2013-02-14"^^xsd:date ;
         dc:identifier          "183"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/183/geometry> .
 
-georesource:52  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/52> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "52" ;
         dc:created             "2012-02-28"^^xsd:date ;
         dc:identifier          "52"^^xsd:int ;
@@ -295,19 +295,19 @@ georesource:52  a             geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-0.3054352399999999 42.06991879973337, -0.32850041 42.080973539738274, -0.32789437 42.08170921973862, -0.32328963 42.07951309973764, -0.3221021399999999 42.08096712973829, -0.3217059899999999 42.080734769738186, -0.32146 42.08061339973813, -0.3226088599999999 42.07917585973749, -0.3193096900000001 42.07759731973677, -0.304758 42.07063483973369, -0.3054352399999999 42.06991879973337))"^^geosparql:wktLiteral .
 
-georesource:8  a              geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/8> a              geoes:PistaDeAterrizaje ;
         rdfs:label             "8" ;
         dc:created             "2012-01-17"^^xsd:date ;
         dc:identifier          "8"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/8/geometry> .
 
-georesource:22  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/22> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "22" ;
         dc:created             "2012-09-19"^^xsd:date ;
         dc:identifier          "22"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/22/geometry> .
 
-georesource:123  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/123> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "123" ;
         dc:created             "2012-11-14"^^xsd:date ;
         dc:identifier          "123"^^xsd:int ;
@@ -321,19 +321,19 @@ georesource:123  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-5.254269089999999 40.04585829854215, -5.248867470000001 40.04454324854118, -5.24878614 40.044317618541015, -5.251483380000001 40.04495316854148, -5.254298070000001 40.04561632854197, -5.254269089999999 40.04585829854215))"^^geosparql:wktLiteral .
 
-georesource:219  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/219> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "219" ;
         dc:created             "2014-06-17"^^xsd:date ;
         dc:identifier          "219"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/219/geometry> .
 
-georesource:94  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/94> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "94" ;
         dc:created             "2012-03-07"^^xsd:date ;
         dc:identifier          "94"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/94/geometry> .
 
-georesource:195  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/195> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "195" ;
         dc:created             "2012-04-03"^^xsd:date ;
         dc:identifier          "195"^^xsd:int ;
@@ -347,13 +347,13 @@ georesource:195  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-3.603947140000002 42.36450045985795, -3.622778940000001 42.34949633985192, -3.624502650000001 42.35072891985241, -3.6246547499999995 42.35105927985252, -3.62458416 42.3514460398527, -3.6241051300000002 42.35191782985287, -3.6224067099999986 42.353251809853425, -3.623457240000002 42.35412926985378, -3.62149965 42.355602629854374, -3.6202250699999987 42.35464356985399, -3.6210004600000008 42.35403219985374, -3.619950510000001 42.35320991985341, -3.6196151 42.353156529853386, -3.6123051800000017 42.35907435985578, -3.6140931600000004 42.36028799985626, -3.614402950000001 42.36049826985634, -3.62832592 42.35355070985355, -3.62881429 42.35401720985372, -3.6286298999999995 42.354183819853795, -3.6327726700000005 42.35543057985429, -3.63395945 42.35503763985414, -3.6343762299999995 42.355780499854454, -3.6319284899999995 42.356594379854776, -3.6314739699999996 42.35579651985444, -3.631770810000003 42.355712089854414, -3.6279629200000003 42.354463459853896, -3.613300300000001 42.36191171985692, -3.61273622 42.36130755985668, -3.61366168 42.360805829856474, -3.6133471800000003 42.36057103985638, -3.61189988 42.35949049985593, -3.6047708700000016 42.36502048985818, -3.603947140000002 42.36450045985795), (-3.6205002 42.352351379853076, -3.6204293100000005 42.35271054985322, -3.6206177900000003 42.35295791985331, -3.62095401 42.353094089853364, -3.621474640000001 42.35306366985335, -3.6235424 42.351451709852704, -3.623726249999998 42.35122991985262, -3.623724060000001 42.35100913985252, -3.62338648 42.35073498985242, -3.623013069999998 42.35059902985235, -3.622679040000001 42.3506836398524, -3.6205002 42.352351379853076))"^^geosparql:wktLiteral .
 
-georesource:64  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/64> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "64" ;
         dc:created             "2013-03-12"^^xsd:date ;
         dc:identifier          "64"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/64/geometry> .
 
-georesource:165  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/165> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "165" ;
         dc:created             "2008-05-30"^^xsd:date ;
         dc:identifier          "165"^^xsd:int ;
@@ -363,13 +363,13 @@ georesource:165  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-5.288111699999998 42.45615917989412, -5.282473029999999 42.4535612098931, -5.282990340000001 42.450663729891986, -5.287410180000001 42.44989266989168, -5.287223280000001 42.44634341989029, -5.288782 42.44641349989034, -5.28980363 42.44645942989036, -5.288111699999998 42.45615917989412))"^^geosparql:wktLiteral .
 
-georesource:220  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/220> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "220" ;
         dc:created             "2014-06-17"^^xsd:date ;
         dc:identifier          "220"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/220/geometry> .
 
-georesource:34  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/34> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "34" ;
         dc:created             "2012-07-26"^^xsd:date ;
         dc:identifier          "34"^^xsd:int ;
@@ -379,7 +379,7 @@ georesource:34  a             geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((2.70964485 39.547289208161885, 2.7439755099999994 39.5634329781747, 2.744482629999999 39.56275377817416, 2.7437265100000006 39.562409748173906, 2.744153270000001 39.562461258173954, 2.7446148100000007 39.56236569817385, 2.7450206 39.562163888173714, 2.7452229000000004 39.56177232817339, 2.74518995 39.56137426817307, 2.7449466099999995 39.56098664817277, 2.7437261099999994 39.56041603817232, 2.735742060000001 39.55668278816935, 2.73556742 39.55627357816903, 2.7356151200000003 39.555998688168806, 2.7405803500000006 39.549084398163316, 2.7413635700000003 39.548285438162665, 2.7422264699999994 39.54826675816266, 2.7597345300000002 39.557036538169626, 2.7602705299999997 39.55727331816981, 2.7607557000000003 39.55732185816985, 2.76119604 39.55725453816979, 2.761595750000001 39.55698030816957, 2.7618133800000004 39.5566333781693, 2.7618512099999997 39.556240888169, 2.761666660000001 39.555714118168595, 2.7622041600000005 39.555968978168785, 2.762707279999999 39.5552444881682, 2.7311216700000003 39.540387028156374, 2.7305599199999997 39.54107313815693, 2.7311224100000002 39.541332578157125, 2.7301897600000005 39.54127098815709, 2.7294372999999994 39.541332148157124, 2.7288948200000003 39.54150260815727, 2.7285544699999993 39.54168700815744, 2.7241828100000003 39.5396647981558, 2.7227895400000004 39.541517098157286, 2.727724760000001 39.5438107381591, 2.728022540000001 39.54348480815883, 2.73382285 39.54627034816107, 2.7323462 39.54814805816256, 2.7361619100000003 39.549995838164016, 2.73350629 39.55319528816657, 2.7219494500000003 39.54748970816203, 2.7214383700000004 39.548085588162515, 2.7122832 39.54377826815909, 2.71077004 39.545633258160564, 2.7106181599999997 39.545937478160795, 2.710600560000001 39.546440508161204, 2.7106626499999997 39.546836898161516, 2.7100529299999994 39.546593048161334, 2.70964485 39.547289208161885))"^^geosparql:wktLiteral .
 
-georesource:105  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/105> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "105" ;
         dc:created             "2012-12-14"^^xsd:date ;
         dc:identifier          "105"^^xsd:int ;
@@ -393,13 +393,13 @@ georesource:105  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-1.1116053600000002 38.8919958776123, -1.1136336600000005 38.89452921761455, -1.11465846 38.89432448761437, -1.1148195100000002 38.89465901761468, -1.11394311 38.894962717614916, -1.1164271800000005 38.89811491761769, -1.11574024 38.89839149761794, -1.1105799900000002 38.89222270761252, -1.1116053600000002 38.8919958776123))"^^geosparql:wktLiteral .
 
-georesource:76  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/76> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "76" ;
         dc:created             "2012-08-22"^^xsd:date ;
         dc:identifier          "76"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/76/geometry> .
 
-georesource:177  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/177> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "177" ;
         dc:created             "2009-11-23"^^xsd:date ;
         dc:identifier          "177"^^xsd:int ;
@@ -417,7 +417,7 @@ georesource:177  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-4.793485729999999 40.24447941868432, -4.79128467 40.24640713868567, -4.78578238 40.25122612868906, -4.785318149999999 40.25088447868882, -4.7908308900000005 40.24607249868544, -4.793022089999999 40.24415958868409, -4.793485729999999 40.24447941868432))"^^geosparql:wktLiteral .
 
-georesource:46  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/46> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "46" ;
         dc:created             "2012-03-15"^^xsd:date ;
         dc:identifier          "46"^^xsd:int ;
@@ -427,7 +427,7 @@ georesource:46  a             geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-5.49397953 40.964342529154166, -5.4931530099999994 40.964099549154014, -5.495062750000001 40.961123369152205, -5.497878540000001 40.95708401914978, -5.505065739999999 40.946949529143666, -5.508119669999998 40.94241560914091, -5.510169389999999 40.93976222913931, -5.510866750000002 40.94000790913945, -5.50205595 40.95266871914711, -5.49397953 40.964342529154166))"^^geosparql:wktLiteral .
 
-georesource:202  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/202> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "202" ;
         dc:created             "2012-02-18"^^xsd:date ;
         dc:identifier          "202"^^xsd:int ;
@@ -437,13 +437,13 @@ georesource:202  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-0.5028269199999998 39.497042578121736, -0.5024948700000001 39.49752327812211, -0.5015920800000001 39.49805787812254, -0.5004849499999998 39.4983860581228, -0.4990954599999999 39.49825162812268, -0.4789147100000001 39.49039333811638, -0.47783464 39.490554808116514, -0.47712757 39.49016697811621, -0.4790692399999999 39.48993665811601, -0.4809333799999999 39.48932008811552, -0.4758581400000001 39.48742360811399, -0.47405977 39.48675152811346, -0.4728819300000001 39.48684739811353, -0.47196684 39.48728048811387, -0.47194413 39.487907218114366, -0.4712302099999998 39.48775230811425, -0.4689014399999999 39.4868158081135, -0.4680514200000002 39.48647395811323, -0.46624864 39.48499550811204, -0.4666516399999999 39.483982568111216, -0.4633178600000001 39.482736268110216, -0.4638336200000001 39.48215514810975, -0.4667228899999998 39.48325890811065, -0.4669674500000002 39.48253711811007, -0.4679913199999999 39.4815837381093, -0.4687228499999999 39.481251218109016, -0.46891268 39.4809765881088, -0.47606678 39.480853418108715, -0.4838080200000001 39.480948368108784, -0.48712989 39.48081440810867, -0.4903385000000001 39.482869968110336, -0.4897031800000001 39.483030468110464, -0.4889992899999999 39.482597118110114, -0.4842479700000001 39.487163708113776, -0.4856535400000001 39.48770575811422, -0.48708051 39.486331908113115, -0.4874312600000001 39.486603328113326, -0.48607043 39.487866528114345, -0.4957363099999998 39.49159337811736, -0.4962855200000001 39.49258090811814, -0.49544667 39.494226308119444, -0.5028269199999998 39.497042578121736))"^^geosparql:wktLiteral .
 
-georesource:117  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/117> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "117" ;
         dc:created             "2012-11-21"^^xsd:date ;
         dc:identifier          "117"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/117/geometry> .
 
-georesource:88  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/88> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "88" ;
         dc:created             "2012-05-08"^^xsd:date ;
         dc:identifier          "88"^^xsd:int ;
@@ -453,13 +453,13 @@ georesource:88  a             geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-1.0416603500007984 41.66692231954254, -1.0383276200008007 41.67137751954475, -1.0372176100007986 41.670917229544536, -1.036099550000799 41.672236739545205, -1.032183600000798 41.67036185954428, -1.0312852800008017 41.66993172954405, -1.0294006700008032 41.669874159544044, -1.0240121800008064 41.667634769542886, -1.0254120700008014 41.66591609954203, -1.0143443100008063 41.6610780595396, -1.0113951800008103 41.6616529595399, -1.011813660000808 41.662322409540245, -1.0137343100008052 41.66339116954079, -1.011823760000809 41.665277649541714, -1.0041070200008095 41.661026969539584, -1.0084021300008104 41.654989299536524, -1.039715920000797 41.66849909954335, -1.0410767900007953 41.66667265954243, -1.0431287500007944 41.663888539540984, -1.0401787700007943 41.66260735954035, -1.0407083800007948 41.66188539954004, -1.043664280000796 41.66316498954063, -1.0472619600007946 41.65830371953822, -1.0632333900007884 41.665217519541685, -1.0616315500007871 41.66731142954274, -1.0833539900007791 41.6768145095475, -1.084086740000781 41.67735695954778, -1.0841957600007792 41.67788900954807, -1.0840978000007833 41.67838641954827, -1.0827190100007786 41.679985289549094, -1.0856760800007814 41.68128219954973, -1.0850744800007808 41.681927159550064, -1.0699188200007852 41.67534199954675, -1.0688770800007852 41.676790419547494, -1.0714318600007848 41.67761307954787, -1.0707246300007836 41.67900475954859, -1.0675491200007863 41.678142249548166, -1.0635028000007882 41.677043049547606, -1.0642554700007893 41.67552742954683, -1.0680538400007866 41.67649586954736, -1.0691381100007888 41.6750169795466, -1.0437996400007956 41.664139729541134, -1.0416603500007984 41.66692231954254))"^^geosparql:wktLiteral .
 
-georesource:189  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/189> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "189" ;
         dc:created             "2013-05-17"^^xsd:date ;
         dc:identifier          "189"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/189/geometry> .
 
-georesource:3  a              geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/3> a              geoes:PistaDeAterrizaje ;
         rdfs:label             "3" ;
         dc:created             "2012-04-21"^^xsd:date ;
         dc:identifier          "3"^^xsd:int ;
@@ -469,31 +469,31 @@ georesource:3  a              geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-3.841293020000001 37.6557503064285, -3.835419369999999 37.654845686427564, -3.8354156400000003 37.65451272642723, -3.8369838999999986 37.654799536427525, -3.8412451800000005 37.65541766642816, -3.841293020000001 37.6557503064285))"^^geosparql:wktLiteral .
 
-georesource:58  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/58> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "58" ;
         dc:created             "2012-02-22"^^xsd:date ;
         dc:identifier          "58"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/58/geometry> .
 
-georesource:159  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/159> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "159" ;
         dc:created             "2013-05-04"^^xsd:date ;
         dc:identifier          "159"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/159/geometry> .
 
-georesource:28  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/28> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "28" ;
         dc:created             "2012-04-27"^^xsd:date ;
         dc:identifier          "28"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/28/geometry> .
 
-georesource:129  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/129> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "129" ;
         dc:created             "2013-05-02"^^xsd:date ;
         dc:identifier          "129"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/129/geometry> .
 
-georesource:190  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/190> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "190" ;
         dc:created             "2013-02-06"^^xsd:date ;
         dc:identifier          "190"^^xsd:int ;
@@ -507,7 +507,7 @@ georesource:190  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-4.8088898 37.95825989673535, -4.80593645 37.96488345674195, -4.805188140000001 37.96462085674168, -4.808341210000002 37.95807255673517, -4.8088898 37.95825989673535))"^^geosparql:wktLiteral .
 
-georesource:160  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/160> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "160" ;
         dc:created             "2013-05-04"^^xsd:date ;
         dc:identifier          "160"^^xsd:int ;
@@ -525,7 +525,7 @@ georesource:160  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-3.7617205099999995 40.69935456898956, -3.7612834699999995 40.699113138989404, -3.7632966799999994 40.696829248987946, -3.7647504300000003 40.69516697898688, -3.7649958400000005 40.695313758986984, -3.7652257099999997 40.69545124898706, -3.7639775100000006 40.69692533898801, -3.7617205099999995 40.69935456898956))"^^geosparql:wktLiteral .
 
-georesource:130  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/130> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "130" ;
         dc:created             "2013-02-20"^^xsd:date ;
         dc:identifier          "130"^^xsd:int ;
@@ -539,7 +539,7 @@ georesource:130  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((4.247848520000003 39.85374693839954, 4.254969050000009 39.86923873841125, 4.255457400000005 39.86908929841112, 4.252646640000005 39.86304721840655, 4.252025400000004 39.86168529840554, 4.2520225064770365 39.861678955098945, 4.2483489500000005 39.853624438399436, 4.247848520000003 39.85374693839954))"^^geosparql:wktLiteral .
 
-georesource:100  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/100> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "100" ;
         dc:created             "2012-02-03"^^xsd:date ;
         dc:identifier          "100"^^xsd:int ;
@@ -549,13 +549,13 @@ georesource:100  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-5.833150999999998 43.43085976020192, -5.832352959999997 43.430860460201934, -5.820148089999998 43.430870470201945, -5.820186579999999 43.43042307020182, -5.831233930000001 43.430439380201825, -5.833151259999999 43.43044210020183, -5.833150999999998 43.43085976020192))"^^geosparql:wktLiteral .
 
-georesource:71  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/71> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "71" ;
         dc:created             "2012-09-03"^^xsd:date ;
         dc:identifier          "71"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/71/geometry> .
 
-georesource:41  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/41> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "41" ;
         dc:created             "2012-03-04"^^xsd:date ;
         dc:identifier          "41"^^xsd:int ;
@@ -573,7 +573,7 @@ georesource:41  a             geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-4.667041280000001 39.49008143811613, -4.65636894 39.491661898117414, -4.65622071 39.491043188116905, -4.659724200000001 39.49064740811659, -4.661500900000001 39.49044664811644, -4.662720029999999 39.49030888811631, -4.666929550000002 39.489876108115965, -4.667041280000001 39.49008143811613))"^^geosparql:wktLiteral .
 
-georesource:11  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/11> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "11" ;
         dc:created             "2012-02-22"^^xsd:date ;
         dc:identifier          "11"^^xsd:int ;
@@ -583,7 +583,7 @@ georesource:11  a             geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-7.4595394200000005 43.12063730011927, -7.4589744499999995 43.12037900011918, -7.464828040000002 43.11432486011744, -7.46107605 43.11232183011687, -7.460597549999997 43.11271817011696, -7.460232900000002 43.111760070116695, -7.460692659999999 43.11166108011665, -7.465118089999999 43.11400174011734, -7.467636809999998 43.11150660011661, -7.468147909999998 43.11177470011669, -7.4595394200000005 43.12063730011927))"^^geosparql:wktLiteral .
 
-georesource:112  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/112> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "112" ;
         dc:created             "2013-03-07"^^xsd:date ;
         dc:identifier          "112"^^xsd:int ;
@@ -597,31 +597,31 @@ georesource:112  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-4.373149270000001 40.911036639121846, -4.372964729999997 40.91127235912197, -4.369462180000001 40.91012636912128, -4.369150440000001 40.910024369121224, -4.370415640000001 40.91396123912363, -4.369946250000001 40.91416440912376, -4.36886934 40.91017140912131, -4.368377500000002 40.90996329912118, -4.36643296 40.90914047912067, -4.366711100000001 40.9088497691205, -4.368595240000002 40.90951002912091, -4.36845342 40.909004929120606, -4.36798195 40.907325789119575, -4.368336649999999 40.90730361911955, -4.369095690000002 40.909665759121005, -4.370548599999999 40.9101571391213, -4.373149270000001 40.911036639121846))"^^geosparql:wktLiteral .
 
-georesource:208  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/208> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "208" ;
         dc:created             "2014-06-17"^^xsd:date ;
         dc:identifier          "208"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/208/geometry> .
 
-georesource:83  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/83> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "83" ;
         dc:created             "2012-01-26"^^xsd:date ;
         dc:identifier          "83"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/83/geometry> .
 
-georesource:184  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/184> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "184" ;
         dc:created             "2013-02-14"^^xsd:date ;
         dc:identifier          "184"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/184/geometry> .
 
-georesource:53  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/53> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "53" ;
         dc:created             "2012-02-16"^^xsd:date ;
         dc:identifier          "53"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/53/geometry> .
 
-georesource:9  a              geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/9> a              geoes:PistaDeAterrizaje ;
         rdfs:label             "9" ;
         dc:created             "2012-01-18"^^xsd:date ;
         dc:identifier          "9"^^xsd:int ;
@@ -631,7 +631,7 @@ georesource:9  a              geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-13.983958210000004 28.389818573216882, -13.983258570000002 28.391047153218913, -13.9832646 28.392024573220517, -13.983034270000001 28.39299229322212, -13.982228530000002 28.392817733221836, -13.982608489999999 28.391144933219074, -13.981836780000002 28.38929757321602, -13.983958210000004 28.389818573216882))"^^geosparql:wktLiteral .
 
-georesource:23  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/23> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "23" ;
         dc:created             "2012-09-19"^^xsd:date ;
         dc:identifier          "23"^^xsd:int ;
@@ -641,7 +641,7 @@ georesource:23  a             geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-3.9468558199999997 38.85282662757772, -3.946941080000002 38.85210958757709, -3.958087080000001 38.854068937578816, -3.9683781 38.85583669758038, -3.9769288400000002 38.85737110758173, -3.9935235599999994 38.8602694375843, -3.99324784 38.86088932758484, -3.992710460000001 38.86086918758484, -3.9916336500000003 38.86068072758467, -3.9847279299999996 38.85935585758349, -3.96781821 38.85648358758094, -3.9653147100000004 38.85591146758044, -3.9593305999999995 38.854923297579575, -3.95822271 38.854759477579435, -3.9496423700000016 38.853322747578154, -3.948414409999999 38.85362914757841, -3.9475905200000003 38.853438217578265, -3.9473302799999983 38.852872187577745, -3.9468558199999997 38.85282662757772))"^^geosparql:wktLiteral .
 
-georesource:124  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/124> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "124" ;
         dc:created             "2012-11-28"^^xsd:date ;
         dc:identifier          "124"^^xsd:int ;
@@ -651,13 +651,13 @@ georesource:124  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-0.9434475000000002 39.91123119844274, -0.9476812100000003 39.909261918441274, -0.9481607099999998 39.90903886844111, -0.94919115 39.90855951844075, -0.9519295700000001 39.90732263843984, -0.9521305300000003 39.90723185843976, -0.9541106400000001 39.906358458439094, -0.95433874 39.90659646843928, -0.9438712699999999 39.911572918443, -0.9434475000000002 39.91123119844274))"^^geosparql:wktLiteral .
 
-georesource:95  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/95> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "95" ;
         dc:created             "2012-02-03"^^xsd:date ;
         dc:identifier          "95"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/95/geometry> .
 
-georesource:196  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/196> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "196" ;
         dc:created             "2012-04-03"^^xsd:date ;
         dc:identifier          "196"^^xsd:int ;
@@ -667,13 +667,13 @@ georesource:196  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-2.46554522 39.338903977993155, -2.4654897800000004 39.33914309799336, -2.461187850000001 39.339102447993334, -2.4572891100000005 39.33891781799318, -2.457237269999999 39.338688607992985, -2.4601201000000006 39.338763407993056, -2.4612188199999996 39.33879189799306, -2.4613919900000005 39.338697497992996, -2.46139319 39.33854139799287, -2.461554580000001 39.33846928799282, -2.46229161 39.338483107992815, -2.4623710599999997 39.33860835799292, -2.4623698699999994 39.33876446799305, -2.4624898499999994 39.33884827799311, -2.46395056 39.33887491799314, -2.46554522 39.338903977993155))"^^geosparql:wktLiteral .
 
-georesource:65  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/65> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "65" ;
         dc:created             "2013-03-12"^^xsd:date ;
         dc:identifier          "65"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/65/geometry> .
 
-georesource:166  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/166> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "166" ;
         dc:created             "2012-10-31"^^xsd:date ;
         dc:identifier          "166"^^xsd:int ;
@@ -687,7 +687,7 @@ georesource:166  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-1.5235986200000007 38.61429969736282, -1.5238646700000003 38.61397240736251, -1.5255765399999999 38.61495006736341, -1.5342474899999998 38.61990208736797, -1.5339174099999995 38.62019044736821, -1.5235986200000007 38.61429969736282))"^^geosparql:wktLiteral .
 
-georesource:221  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/221> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "221" ;
         dc:created             "2014-06-17"^^xsd:date ;
         dc:identifier          "221"^^xsd:int ;
@@ -697,13 +697,13 @@ georesource:221  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-0.14541376 38.7282883074664, -0.14464602 38.73056375746847, -0.14445487 38.73117740746902, -0.14403209 38.73253459747021, -0.14315955 38.73546119747285, -0.14304451 38.73558172747297, -0.14293242 38.73562832747302, -0.14277657 38.73558750747298, -0.14265709 38.73542423747283, -0.14378183 38.73209677746983, -0.14468625 38.729158607467184, -0.14500819 38.72819205746632, -0.14541376 38.7282883074664))"^^geosparql:wktLiteral .
 
-georesource:35  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/35> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "35" ;
         dc:created             "2012-08-08"^^xsd:date ;
         dc:identifier          "35"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/35/geometry> .
 
-georesource:136  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/136> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "136" ;
         dc:created             "2012-10-31"^^xsd:date ;
         dc:identifier          "136"^^xsd:int ;
@@ -717,19 +717,19 @@ georesource:136  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((3.107932630000001 42.26334502981662, 3.10854324 42.263500399816664, 3.111222430000001 42.25688736981392, 3.1105991999999993 42.25675480981385, 3.109687880000001 42.259026489814815, 3.1076400500000005 42.25955169981502, 3.10787429 42.26015327981528, 3.1091014699999993 42.25996975981519, 3.109309399999999 42.25954099981502, 3.1094703200000002 42.25954685981501, 3.107932630000001 42.26334502981662))"^^geosparql:wktLiteral .
 
-georesource:106  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/106> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "106" ;
         dc:created             "2012-12-04"^^xsd:date ;
         dc:identifier          "106"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/106/geometry> .
 
-georesource:77  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/77> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "77" ;
         dc:created             "2012-07-30"^^xsd:date ;
         dc:identifier          "77"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/77/geometry> .
 
-georesource:47  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/47> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "47" ;
         dc:created             "2012-05-17"^^xsd:date ;
         dc:identifier          "47"^^xsd:int ;
@@ -743,13 +743,13 @@ georesource:47  a             geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((0.5242100200000004 41.73622002957702, 0.5375931499999999 41.72670061957231, 0.54046393 41.7288261095734, 0.5391081700000001 41.72982397957388, 0.5402732899999998 41.73072370957432, 0.5437543999999999 41.728305719573136, 0.54500744 41.727435289572696, 0.5438293099999997 41.72650821957224, 0.5410481200000001 41.7284558595732, 0.5381745700000001 41.72628014957213, 0.5472973300000001 41.719960309568975, 0.54638975 41.719334219568694, 0.5233694800000002 41.73559169957672, 0.5242100200000004 41.73622002957702))"^^geosparql:wktLiteral .
 
-georesource:203  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/203> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "203" ;
         dc:created             "2012-03-02"^^xsd:date ;
         dc:identifier          "203"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/203/geometry> .
 
-georesource:118  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/118> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "118" ;
         dc:created             "2012-11-22"^^xsd:date ;
         dc:identifier          "118"^^xsd:int ;
@@ -775,19 +775,19 @@ georesource:118  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-16.35774422999993 28.4882677533795, -16.357439969999938 28.488899323380537, -16.356330579999934 28.488987053380665, -16.352114179999937 28.48763401337846, -16.350842979999925 28.48727872337786, -16.34568557999993 28.485597573375085, -16.345769409999935 28.485366793374713, -16.341795779999934 28.483980363372417, -16.34165988999993 28.484211653372796, -16.34016187999992 28.48375119337203, -16.326412609999927 28.479011023364222, -16.325718679999934 28.479017783364213, -16.32487448999993 28.478106203362714, -16.325143449999924 28.47741372336157, -16.32456904999993 28.47726601336133, -16.324770909999934 28.476758143360488, -16.344146299999935 28.483251953371212, -16.358521619999934 28.487999373379054, -16.358387529999934 28.488368633379654, -16.35774422999993 28.4882677533795), (-16.32577083999993 28.47763755336194, -16.326545649999932 28.47854981336345, -16.333428399999928 28.48088933336732, -16.33585853999993 28.48097279336743, -16.32577083999993 28.47763755336194), (-16.337985299999925 28.48176437336876, -16.336283779999928 28.481673803368604, -16.33665214999993 28.481992113369117, -16.34149580999993 28.483584733371746, -16.340807769999934 28.48268704337027, -16.337985299999925 28.48176437336876), (-16.341800339999928 28.482968523370726, -16.342784279999936 28.483939943372356, -16.34604329999993 28.48507280337422, -16.34456985999993 28.483814983372152, -16.341800339999928 28.482968523370726), (-16.346469639999935 28.484486033373255, -16.348274109999927 28.485847863375508, -16.35228180999993 28.487172443377673, -16.352854729999937 28.487197403377746, -16.351661889999928 28.48618215337604, -16.346469639999935 28.484486033373255), (-16.352829759999924 28.48659977337674, -16.353495099999936 28.487068383377505, -16.35349978999993 28.48743626337812, -16.355800489999933 28.488241163379463, -16.356959379999928 28.48795365337898, -16.352829759999924 28.48659977337674))"^^geosparql:wktLiteral .
 
-georesource:89  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/89> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "89" ;
         dc:created             "2012-08-19"^^xsd:date ;
         dc:identifier          "89"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/89/geometry> .
 
-georesource:4  a              geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/4> a              geoes:PistaDeAterrizaje ;
         rdfs:label             "4" ;
         dc:created             "2012-04-21"^^xsd:date ;
         dc:identifier          "4"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/4/geometry> .
 
-georesource:59  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/59> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "59" ;
         dc:created             "2012-06-20"^^xsd:date ;
         dc:identifier          "59"^^xsd:int ;
@@ -801,19 +801,19 @@ georesource:59  a             geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-5.72575965 37.32763984608356, -5.725923320000001 37.327916236083865, -5.72026075 37.33147327608767, -5.71998695 37.33125214608742, -5.72575965 37.32763984608356))"^^geosparql:wktLiteral .
 
-georesource:29  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/29> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "29" ;
         dc:created             "2012-05-28"^^xsd:date ;
         dc:identifier          "29"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/29/geometry> .
 
-georesource:90  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/90> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "90" ;
         dc:created             "2012-07-18"^^xsd:date ;
         dc:identifier          "90"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/90/geometry> .
 
-georesource:191  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/191> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "191" ;
         dc:created             "2013-02-06"^^xsd:date ;
         dc:identifier          "191"^^xsd:int ;
@@ -823,13 +823,13 @@ georesource:191  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((4.216636679999354 39.85118048839763, 4.215921429999357 39.85121951839767, 4.216081759999355 39.851586998397956, 4.219924599999353 39.870238168412, 4.220635329999351 39.87366856841459, 4.221627119999351 39.874209948414965, 4.22268058999935 39.874766438415385, 4.223679989999352 39.874582468415284, 4.223639919999352 39.87347924841444, 4.222811569999567 39.869467568411416, 4.222090079999568 39.86570702840857, 4.219173169999571 39.85233632839845, 4.218919759999567 39.85073082839727, 4.218545219999569 39.85037212839701, 4.21776944999957 39.85045910839707, 4.216958619999569 39.850877548397406, 4.216636679999354 39.85118048839763), (4.218922909999357 39.861898688405695, 4.21784661999957 39.85663309840174, 4.21804992999957 39.85591132840116, 4.218800379999569 39.854389878400035, 4.219129299999568 39.854481018400065, 4.220485059999569 39.86173299840558, 4.218922909999357 39.861898688405695), (4.217554169999352 39.85522428840065, 4.217054229999354 39.85281580839882, 4.216811190863397 39.85186396427389, 4.21738018999957 39.85158260839793, 4.218485709999571 39.85163406839797, 4.218881459999568 39.85369410839952, 4.218101079999569 39.854176488399894, 4.217790279999568 39.85510996840058, 4.217554169999352 39.85522428840065), (4.219065759999567 39.86252436840617, 4.220700929999565 39.86236342840604, 4.221220149999568 39.86528279840824, 4.21960531999957 39.865370908408316, 4.219065759999567 39.86252436840617), (4.219745479999354 39.86604907840885, 4.22137774999957 39.86591948840873, 4.221893349999571 39.86892244841102, 4.221677199999567 39.868959238411016, 4.220012139999568 39.8673392984098, 4.219745479999354 39.86604907840885), (4.2202765099993504 39.868618338410755, 4.221524169999569 39.86955996841147, 4.222222789999568 39.86972603841158, 4.2227072499995675 39.87281112841393, 4.222609999999353 39.873095948414154, 4.220893619999353 39.871603838413016, 4.2202765099993504 39.868618338410755))"^^geosparql:wktLiteral .
 
-georesource:60  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/60> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "60" ;
         dc:created             "2012-06-23"^^xsd:date ;
         dc:identifier          "60"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/60/geometry> .
 
-georesource:161  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/161> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "161" ;
         dc:created             "2013-05-04"^^xsd:date ;
         dc:identifier          "161"^^xsd:int ;
@@ -839,7 +839,7 @@ georesource:161  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-0.73334225 42.56925065993703, -0.72887374 42.56945587993712, -0.7234178600000001 42.56970620993723, -0.7234371800000001 42.56991367993731, -0.7234804300000003 42.570378229937475, -0.7224460200000001 42.570449549937486, -0.7223368499999999 42.56973043993721, -0.72226553 42.56926061993705, -0.7226812699999998 42.56923852993704, -0.72465697 42.56913356993698, -0.72458765 42.56830520993668, -0.7332639299999998 42.56798106993657, -0.73331174 42.56837712993672, -0.7326523600000001 42.56839164993672, -0.7326729899999997 42.5688514899369, -0.7332699300000001 42.56884492993689, -0.73334225 42.56925065993703))"^^geosparql:wktLiteral .
 
-georesource:30  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/30> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "30" ;
         dc:created             "2012-06-02"^^xsd:date ;
         dc:identifier          "30"^^xsd:int ;
@@ -849,7 +849,7 @@ georesource:30  a             geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-7.522276970000001 42.54607377992839, -7.522349659999998 42.546264999928475, -7.518668389999999 42.54722598992882, -7.51644567 42.54780615992907, -7.516295809999998 42.547613929928964, -7.518539450000002 42.54703623992876, -7.522276970000001 42.54607377992839))"^^geosparql:wktLiteral .
 
-georesource:131  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/131> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "131" ;
         dc:created             "2013-02-20"^^xsd:date ;
         dc:identifier          "131"^^xsd:int ;
@@ -863,7 +863,7 @@ georesource:131  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-4.35047809 42.694209239982285, -4.349429609999998 42.69450982998237, -4.348490610000002 42.69264737998175, -4.34713644 42.69462615998243, -4.34689979 42.69497194998254, -4.34528882 42.69455853998241, -4.34736588 42.69103991998115, -4.34755041 42.690727299981056, -4.348462960000001 42.68956362998064, -4.35060791 42.687578379979946, -4.35096257 42.687718309979985, -4.35131723 42.68785823998004, -4.349314429999998 42.69099475998114, -4.35047809 42.694209239982285))"^^geosparql:wktLiteral .
 
-georesource:101  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/101> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "101" ;
         dc:created             "2012-01-14"^^xsd:date ;
         dc:identifier          "101"^^xsd:int ;
@@ -881,7 +881,7 @@ georesource:101  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-8.623260760000004 42.242946209808096, -8.62904967 42.22111501979889, -8.62958721 42.22117643979892, -8.63013136 42.22123860979893, -8.62426384 42.24307371980813, -8.623260760000004 42.242946209808096))"^^geosparql:wktLiteral .
 
-georesource:72  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/72> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "72" ;
         dc:created             "2012-09-03"^^xsd:date ;
         dc:identifier          "72"^^xsd:int ;
@@ -895,7 +895,7 @@ georesource:72  a             geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-3.73459749 42.13277662976102, -3.7286603499999993 42.13621904976251, -3.7283153 42.135912559762396, -3.72901498 42.135504769762214, -3.7342522200000006 42.13245199976088, -3.73459749 42.13277662976102))"^^geosparql:wktLiteral .
 
-georesource:42  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/42> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "42" ;
         dc:created             "2012-04-18"^^xsd:date ;
         dc:identifier          "42"^^xsd:int ;
@@ -905,13 +905,13 @@ georesource:42  a             geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-5.7446097299995715 38.177013336950424, -5.740285969999575 38.17284590694637, -5.739747899999573 38.17316772694667, -5.739574129999574 38.17286252694638, -5.740046149999574 38.172579356946095, -5.732966129999578 38.16592361693966, -5.733359179999575 38.16584092693955, -5.736911199999575 38.16925975694289, -5.739105834859326 38.17136123710266, -5.739115609999574 38.17137059694495, -5.744843579999576 38.17685462695026, -5.7446097299995715 38.177013336950424))"^^geosparql:wktLiteral .
 
-georesource:12  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/12> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "12" ;
         dc:created             "2012-02-27"^^xsd:date ;
         dc:identifier          "12"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/12/geometry> .
 
-georesource:113  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/113> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "113" ;
         dc:created             "2008-04-10"^^xsd:date ;
         dc:identifier          "113"^^xsd:int ;
@@ -925,7 +925,7 @@ georesource:113  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((0.3900006 40.51809352887134, 0.38946238 40.52185745887385, 0.3896905000000001 40.52218699887406, 0.38984957 40.522195778874085, 0.39000254 40.522083688874, 0.39039398 40.51978751887248, 0.39069615 40.51801494887129, 0.39050492 40.51769788887109, 0.3900006 40.51809352887134))"^^geosparql:wktLiteral .
 
-georesource:209  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/209> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "209" ;
         dc:created             "2014-06-17"^^xsd:date ;
         dc:identifier          "209"^^xsd:int ;
@@ -935,13 +935,13 @@ georesource:209  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-1.78439209 43.362587230184985, -1.7836236 43.36213786018486, -1.78421853 43.36154542018472, -1.7847170200000004 43.36145617018469, -1.7969645300000003 43.35039815018188, -1.7976904199999997 43.35081547018197, -1.7970531800000002 43.351376020182116, -1.7966423799999993 43.35140322018212, -1.7913315900000004 43.35625243018337, -1.78439209 43.362587230184985))"^^geosparql:wktLiteral .
 
-georesource:84  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/84> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "84" ;
         dc:created             "2012-01-26"^^xsd:date ;
         dc:identifier          "84"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/84/geometry> .
 
-georesource:185  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/185> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "185" ;
         dc:created             "2013-04-24"^^xsd:date ;
         dc:identifier          "185"^^xsd:int ;
@@ -955,7 +955,7 @@ georesource:185  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-1.8835533999999998 38.948173957661616, -1.87940921 38.94830129766171, -1.87768841 38.95134729766436, -1.876903769999999 38.95273609766557, -1.8757788700000004 38.95274522766559, -1.87636212 38.95176445766473, -1.87714549 38.95044711766358, -1.87203003 38.950568917663695, -1.8726391200000005 38.95131634766433, -1.8688440000000006 38.95339017766616, -1.862246010000001 38.95255597766542, -1.86192873 38.95183985766479, -1.86088516 38.950859957663944, -1.8573328299999994 38.95095760766403, -1.8471089700000003 38.951238057664284, -1.8468833600000003 38.94938195766265, -1.84352132 38.94949129766274, -1.8434923200000004 38.94867452766203, -1.88356522 38.94742040766094, -1.8835533999999998 38.948173957661616))"^^geosparql:wktLiteral .
 
-georesource:54  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/54> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "54" ;
         dc:created             "2012-02-16"^^xsd:date ;
         dc:identifier          "54"^^xsd:int ;
@@ -970,7 +970,7 @@ georesource:54  a             geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-3.242055270000001 39.562373648173875, -3.242092860000001 39.56196592817354, -3.2508043099999995 39.56227723817379, -3.25297057 39.56235464817385, -3.2600210399999994 39.56260660817405, -3.2600026900000008 39.56299773817436, -3.2514692199999997 39.56270132817413, -3.25085428 39.56267996817411, -3.2471638399999994 39.562551578173995, -3.242055270000001 39.562373648173875))"^^geosparql:wktLiteral .
 
-georesource:24  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/24> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "24" ;
         dc:created             "2012-05-09"^^xsd:date ;
         dc:identifier          "24"^^xsd:int ;
@@ -980,7 +980,7 @@ georesource:24  a             geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-4.697991469999998 41.37072426938737, -4.69813983 41.37104415938755, -4.693480740000002 41.37208390938812, -4.693295120000002 41.37178288938795, -4.697991469999998 41.37072426938737))"^^geosparql:wktLiteral .
 
-georesource:125  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/125> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "125" ;
         dc:created             "2012-11-29"^^xsd:date ;
         dc:identifier          "125"^^xsd:int ;
@@ -990,13 +990,13 @@ georesource:125  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-1.143295 39.73594344830966, -1.14168995 39.73580253830957, -1.1410603599999998 39.73632705830995, -1.14012039 39.73599519830973, -1.1399040500000002 39.7354571283093, -1.1387284 39.73524626830914, -1.1331152100000002 39.734239308308375, -1.1333069299999998 39.73378698830802, -1.1388168099999998 39.734831738308806, -1.1412930999999997 39.73530117830918, -1.14333709 39.73559130830939, -1.143295 39.73594344830966))"^^geosparql:wktLiteral .
 
-georesource:96  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/96> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "96" ;
         dc:created             "2012-02-03"^^xsd:date ;
         dc:identifier          "96"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/96/geometry> .
 
-georesource:197  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/197> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "197" ;
         dc:created             "2012-04-03"^^xsd:date ;
         dc:identifier          "197"^^xsd:int ;
@@ -1010,13 +1010,13 @@ georesource:197  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-5.359794618564881 36.151000536073035, -5.340040121014461 36.151711963468244, -5.3399929086116185 36.151290824850946, -5.359748144400734 36.150607529805896, -5.359794618564881 36.151000536073035))"^^geosparql:wktLiteral .
 
-georesource:66  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/66> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "66" ;
         dc:created             "2013-03-12"^^xsd:date ;
         dc:identifier          "66"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/66/geometry> .
 
-georesource:167  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/167> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "167" ;
         dc:created             "2013-05-29"^^xsd:date ;
         dc:identifier          "167"^^xsd:int ;
@@ -1026,13 +1026,13 @@ georesource:167  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((1.86631163 42.387895649867296, 1.8567154099999998 42.38448643986593, 1.8564633900000005 42.3848671098661, 1.8690921999999999 42.38938967986788, 1.86936925 42.38899994986774, 1.867459949999999 42.38831669986747, 1.86738501 42.388221869867444, 1.8672944900000001 42.388074199867376, 1.8672510200000003 42.38790109986729, 1.8672636000000002 42.38784942986727, 1.8673129700000004 42.387694509867224, 1.8673859399999995 42.38752255986716, 1.86750377 42.38744601986713, 1.8677728299999998 42.38737960986709, 1.8680650200000002 42.387322069867075, 1.86825287 42.38723757986703, 1.8683217900000002 42.386642549866785, 1.8684273499999993 42.385952909866525, 1.8682973700000003 42.38594776986653, 1.8678454700000005 42.38592989986652, 1.8678184599999998 42.3861368398666, 1.8676753199999998 42.38632535986665, 1.8674871499999994 42.386427099866715, 1.8672285 42.386562689866764, 1.8670263699999998 42.386793789866864, 1.8671482400000003 42.38714033986701, 1.8671660999999995 42.387442689867136, 1.8670704600000003 42.38757987986717, 1.86674116 42.387757929867256, 1.86631163 42.387895649867296))"^^geosparql:wktLiteral .
 
-georesource:36  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/36> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "36" ;
         dc:created             "2012-04-26"^^xsd:date ;
         dc:identifier          "36"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/36/geometry> .
 
-georesource:137  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/137> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "137" ;
         dc:created             "2006-07-24"^^xsd:date ;
         dc:identifier          "137"^^xsd:int ;
@@ -1043,7 +1043,7 @@ georesource:137  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-5.597585460000002 39.85480146840037, -5.597355309999998 39.85450294840013, -5.60441818 39.84859179839566, -5.60481828 39.84896157839595, -5.601715809999999 39.851466728397824, -5.597585460000002 39.85480146840037))"^^geosparql:wktLiteral .
 
-georesource:107  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/107> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "107" ;
         dc:created             "2012-10-30"^^xsd:date ;
         dc:identifier          "107"^^xsd:int ;
@@ -1057,7 +1057,7 @@ georesource:107  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-17.889832999999996 27.819977842273968, -17.88613905 27.81362696226346, -17.88414973 27.810206432257793, -17.88452498 27.810029682257507, -17.89024997 27.819781442273666, -17.889832999999996 27.819977842273968))"^^geosparql:wktLiteral .
 
-georesource:78  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/78> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "78" ;
         dc:created             "2012-08-31"^^xsd:date ;
         dc:identifier          "78"^^xsd:int ;
@@ -1075,7 +1075,7 @@ georesource:78  a             geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-2.9507921199999996 39.82502794837781, -2.95492925 39.82690180837923, -2.9557228000000006 39.8272611983795, -2.9554883600000004 39.827544938379724, -2.95463135 39.82716168837943, -2.9505599499999997 39.82534083837805, -2.9507921199999996 39.82502794837781))"^^geosparql:wktLiteral .
 
-georesource:48  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/48> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "48" ;
         dc:created             "2012-04-28"^^xsd:date ;
         dc:identifier          "48"^^xsd:int ;
@@ -1085,19 +1085,19 @@ georesource:48  a             geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-13.86397718000006 28.432208833286904, -13.86594201000006 28.43227951328703, -13.866583440000058 28.43261063328757, -13.86645071000006 28.440740503301004, -13.866289020000059 28.447224713311705, -13.866262880000065 28.44827262331346, -13.86560108000006 28.45847491333029, -13.865615260000059 28.462900213337598, -13.865480210000056 28.464039313339484, -13.864527650000058 28.464058513339506, -13.86370260000006 28.463644403338826, -13.86296535000006 28.463638243338828, -13.863515400000065 28.446552833310605, -13.86397718000006 28.432208833286904), (-13.86595854000006 28.433609923289243, -13.864631350000064 28.43422327329024, -13.864230890000062 28.446698443310854, -13.863710440000064 28.462911463337623, -13.86435248000006 28.463201883338105, -13.864998290000058 28.463139403337998, -13.86552269000006 28.44701306331136, -13.86595854000006 28.433609923289243))"^^geosparql:wktLiteral .
 
-georesource:204  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/204> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "204" ;
         dc:created             "2012-03-12"^^xsd:date ;
         dc:identifier          "204"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/204/geometry> .
 
-georesource:18  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/18> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "18" ;
         dc:created             "2012-09-19"^^xsd:date ;
         dc:identifier          "18"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/18/geometry> .
 
-georesource:119  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/119> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "119" ;
         dc:created             "2012-12-28"^^xsd:date ;
         dc:identifier          "119"^^xsd:int ;
@@ -1107,13 +1107,13 @@ georesource:119  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-1.2680555599999999 39.13294076782086, -1.25637516 39.13359578782139, -1.2561991299999997 39.133058777820935, -1.2627489500000004 39.13270403782064, -1.26314378 39.13267125782062, -1.2643749099999997 39.13261776782056, -1.2660688200000003 39.132499307820474, -1.2669045100000005 39.13227228782027, -1.2677081899999998 39.13224329782025, -1.2680555599999999 39.13294076782086))"^^geosparql:wktLiteral .
 
-georesource:5  a              geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/5> a              geoes:PistaDeAterrizaje ;
         rdfs:label             "5" ;
         dc:created             "2012-04-21"^^xsd:date ;
         dc:identifier          "5"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/5/geometry> .
 
-georesource:120  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/120> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "120" ;
         dc:created             "2013-01-17"^^xsd:date ;
         dc:identifier          "120"^^xsd:int ;
@@ -1128,7 +1128,7 @@ georesource:120  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-8.423400080000002 42.91143841005543, -8.42079748 42.91181290005556, -8.42086814 42.91231165005571, -8.420189620000002 42.91236359005575, -8.417219210000003 42.903792870052975, -8.41249519 42.88962007004841, -8.410629189999998 42.88390670004655, -8.411800269999999 42.88349740004643, -8.413343359999999 42.88356069004643, -8.4161763 42.890580300048725, -8.417005990000003 42.890446090048684, -8.419098189999996 42.89621587005053, -8.42004769 42.89937713005156, -8.42056483 42.90123799005216, -8.419574489999999 42.9016451600523, -8.42195438 42.90893919005464, -8.422967200000002 42.90938731005478, -8.423633559999999 42.91063663005517, -8.423400080000002 42.91143841005543))"^^geosparql:wktLiteral .
 
-georesource:91  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/91> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "91" ;
         dc:created             "2012-07-18"^^xsd:date ;
         dc:identifier          "91"^^xsd:int ;
@@ -1138,7 +1138,7 @@ georesource:91  a             geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-2.3714952999999994 37.734246236509165, -2.37167709 37.73499052650993, -2.3647311999999996 37.735813286510776, -2.35662378 37.736773086511754, -2.356534050000001 37.736118396511095, -2.3714952999999994 37.734246236509165))"^^geosparql:wktLiteral .
 
-georesource:192  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/192> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "192" ;
         dc:created             "2013-02-18"^^xsd:date ;
         dc:identifier          "192"^^xsd:int ;
@@ -1148,7 +1148,7 @@ georesource:192  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-4.530485689999999 40.900973899115684, -4.521334049999999 40.90307481911698, -4.521901840000001 40.90437358911777, -4.520910529999999 40.90454995911789, -4.52045698 40.90335528911714, -4.518860889999998 40.90372281911737, -4.518608119999998 40.90306727911696, -4.52019008 40.90265225911672, -4.517418250000001 40.89535003911226, -4.51775057 40.89516739911215, -4.518164160000001 40.89503406911204, -4.518293969999999 40.89536091911225, -4.520704539999999 40.90142987911597, -4.522119770000001 40.90214597911641, -4.524241299999998 40.901723929116166, -4.530581490000002 40.90046236911539, -4.530485689999999 40.900973899115684))"^^geosparql:wktLiteral .
 
-georesource:61  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/61> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "61" ;
         dc:created             "2012-11-03"^^xsd:date ;
         dc:identifier          "61"^^xsd:int ;
@@ -1158,7 +1158,7 @@ georesource:61  a             geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-3.802563189999999 37.90787933668499, -3.79853883 37.90934438668647, -3.7983096000000005 37.909121306686245, -3.8002759599999996 37.908440036685555, -3.8024759400000003 37.90767775668482, -3.802563189999999 37.90787933668499))"^^geosparql:wktLiteral .
 
-georesource:31  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/31> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "31" ;
         dc:created             "2012-05-14"^^xsd:date ;
         dc:identifier          "31"^^xsd:int ;
@@ -1172,13 +1172,13 @@ georesource:31  a             geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-0.9054531200000001 39.49097525811683, -0.90481953 39.49095089811682, -0.9017067600000002 39.48904069811528, -0.9012380600000001 39.488753058115066, -0.8971328100000001 39.486233478113036, -0.8976911199999997 39.485984898112825, -0.9023811800000001 39.488741408115054, -0.9025952600000001 39.488867228115154, -0.9026561600000003 39.4890623281153, -0.9054531200000001 39.49097525811683))"^^geosparql:wktLiteral .
 
-georesource:102  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/102> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "102" ;
         dc:created             "2012-01-14"^^xsd:date ;
         dc:identifier          "102"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/102/geometry> .
 
-georesource:73  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/73> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "73" ;
         dc:created             "2013-02-01"^^xsd:date ;
         dc:identifier          "73"^^xsd:int ;
@@ -1196,7 +1196,7 @@ georesource:73  a             geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-3.4988753899999994 39.93692938846191, -3.50354635 39.93741872846226, -3.50761863 39.93784519846259, -3.5074944500000003 39.93823702846289, -3.50741987 39.93822919846288, -3.49340989 39.93675712846177, -3.4935339699999997 39.93634085846147, -3.4981126 39.93688375846187, -3.498309760000001 39.936895548461884, -3.4988753899999994 39.93692938846191))"^^geosparql:wktLiteral .
 
-georesource:43  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/43> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "43" ;
         dc:created             "2012-04-18"^^xsd:date ;
         dc:identifier          "43"^^xsd:int ;
@@ -1214,7 +1214,7 @@ georesource:43  a             geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-0.85648817 41.79172721960418, -0.85508493 41.792293029604444, -0.8504380600000002 41.78869920960268, -0.84515121 41.78436864960061, -0.8456424699999999 41.78403956960041, -0.84701096 41.7850097396009, -0.8475734599999999 41.784583219600684, -0.85648817 41.79172721960418))"^^geosparql:wktLiteral .
 
-georesource:13  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/13> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "13" ;
         dc:created             "2012-01-19"^^xsd:date ;
         dc:identifier          "13"^^xsd:int ;
@@ -1224,7 +1224,7 @@ georesource:13  a             geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-6.380411540000002 43.33061929017679, -6.378997909999999 43.33152547017703, -6.378586480000001 43.33465778017782, -6.378494600000002 43.335351730178026, -6.377999010000001 43.33912992017898, -6.377436630000002 43.33908368017899, -6.37814455 43.33205361017717, -6.373994299999999 43.334470720177784, -6.373607160000001 43.33408927017769, -6.378149229999999 43.331361980176986, -6.37830294 43.32986446017659, -6.3787705599999995 43.32975633017657, -6.378731880000001 43.3309990101769, -6.3802608 43.33023087017669, -6.380411540000002 43.33061929017679))"^^geosparql:wktLiteral .
 
-georesource:114  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/114> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "114" ;
         dc:created             "2013-04-29"^^xsd:date ;
         dc:identifier          "114"^^xsd:int ;
@@ -1234,13 +1234,13 @@ georesource:114  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-5.65135061 36.870654375582696, -5.648878059999999 36.87194692558414, -5.645978119999997 36.87346290558583, -5.645784790000002 36.873252715585615, -5.6511119700000005 36.87034572558235, -5.65135061 36.870654375582696))"^^geosparql:wktLiteral .
 
-georesource:85  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/85> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "85" ;
         dc:created             "2012-01-26"^^xsd:date ;
         dc:identifier          "85"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/85/geometry> .
 
-georesource:186  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/186> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "186" ;
         dc:created             "2013-03-12"^^xsd:date ;
         dc:identifier          "186"^^xsd:int ;
@@ -1250,7 +1250,7 @@ georesource:186  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-4.83985631 41.71738264956772, -4.839155679999999 41.716802469567426, -4.839693330000001 41.71628131956717, -4.84038384 41.716506819567286, -4.847408209999999 41.711338919564724, -4.865450680000001 41.69806490955813, -4.865720990000001 41.698316789558255, -4.847715439999999 41.711598819564855, -4.83985631 41.71738264956772))"^^geosparql:wktLiteral .
 
-georesource:55  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/55> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "55" ;
         dc:created             "2012-02-17"^^xsd:date ;
         dc:identifier          "55"^^xsd:int ;
@@ -1260,13 +1260,13 @@ georesource:55  a             geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-4.0324713299998125 40.23370828867673, -4.032583959999812 40.234115228677034, -4.025432559999812 40.23524825867786, -4.021491629999813 40.23587263867826, -4.021391289999813 40.235492778677965, -4.024816709999814 40.23494109867761, -4.02875232999981 40.23430731867714, -4.0324713299998125 40.23370828867673))"^^geosparql:wktLiteral .
 
-georesource:211  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/211> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "211" ;
         dc:created             "2014-06-17"^^xsd:date ;
         dc:identifier          "211"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/211/geometry> .
 
-georesource:25  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/25> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "25" ;
         dc:created             "2012-08-28"^^xsd:date ;
         dc:identifier          "25"^^xsd:int ;
@@ -1280,7 +1280,7 @@ georesource:25  a             geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-17.75603387 28.635660213622735, -17.75607734 28.635758563622897, -17.75613009 28.635820633622995, -17.756161930000005 28.635865083623074, -17.756183310000004 28.635900733623135, -17.75619471 28.635945603623206, -17.75619565 28.63598167362327, -17.756197770000004 28.636062813623408, -17.756178990000002 28.636126343623513, -17.756110509999992 28.636245003623696, -17.756080800000003 28.63628169362377, -17.75603112 28.636336833623858, -17.755561020000002 28.636346393623867, -17.755487359999996 28.636266713623726, -17.755413 28.636159973623567, -17.75539067 28.636088263623446, -17.755398299999996 28.635988873623287, -17.75544657 28.635879643623095, -17.755505529999997 28.63578824362294, -17.75554452 28.63571528362283, -17.755540279999998 28.635552993622557, -17.75548711 28.632586883617652, -17.75540645 28.628086513610246, -17.75529833 28.622775463601478, -17.7552669 28.622533493601093, -17.754512599999998 28.622560523601134, -17.7545032 28.62286380360162, -17.75373684 28.622879383601656, -17.753635040000006 28.61937236359588, -17.75378478 28.619234013595644, -17.754449410000003 28.619238543595642, -17.7545146 28.620608693597916, -17.755216540000003 28.620606103597908, -17.7551846 28.617248033592368, -17.75517297 28.617194143592275, -17.755141140000003 28.617149693592204, -17.75509885 28.617096423592113, -17.755056570000008 28.61704316359203, -17.75502403 28.616971653591918, -17.755011700000004 28.616890723591776, -17.75502003 28.61681838359165, -17.755039520000004 28.6167819035916, -17.755127950000002 28.61664479359137, -17.75517809 28.616607693591313, -17.75519806000001 28.61658924359129, -17.755627669999996 28.61659854359129, -17.755721270000002 28.616659783591395, -17.755753099999996 28.61670424359146, -17.755785410000005 28.616766733591575, -17.755807729999997 28.61683844359168, -17.75580961 28.616910573591802, -17.75581126 28.616973683591915, -17.755792000000003 28.61701918359199, -17.7557428 28.617092343592113, -17.755693119999997 28.617147483592184, -17.755663880000007 28.617202203592292, -17.75597546 28.632761443617962, -17.75603387 28.635660213622735))"^^geosparql:wktLiteral .
 
-georesource:97  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/97> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "97" ;
         dc:created             "2012-02-03"^^xsd:date ;
         dc:identifier          "97"^^xsd:int ;
@@ -1294,13 +1294,13 @@ georesource:97  a             geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-5.39486547 39.20274894787987, -5.3922996099999985 39.20493689788171, -5.38615391 39.2101622678861, -5.3858792 39.20991562788589, -5.390516359999999 39.20601291788261, -5.391902809999999 39.20484593788162, -5.394604780000001 39.202574117879706, -5.39478263 39.20269658787983, -5.39486547 39.20274894787987))"^^geosparql:wktLiteral .
 
-georesource:67  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/67> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "67" ;
         dc:created             "2013-03-12"^^xsd:date ;
         dc:identifier          "67"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/67/geometry> .
 
-georesource:168  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/168> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "168" ;
         dc:created             "2012-12-27"^^xsd:date ;
         dc:identifier          "168"^^xsd:int ;
@@ -1314,13 +1314,13 @@ georesource:168  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-5.644336570000001 42.58988193994466, -5.6463350000000005 42.591269029945174, -5.646702330000001 42.59152397994529, -5.64640926 42.59178026994536, -5.64710826 42.592337999945585, -5.649533969999999 42.59061013994494, -5.64852396 42.58988495994466, -5.648809130000001 42.589661759944605, -5.649640560000002 42.58901101994435, -5.651438920000002 42.590141859944765, -5.65082121 42.59070509994494, -5.65179435 42.5913562599452, -5.664988149999999 42.58161823994161, -5.665791569999998 42.58224827994185, -5.652271090000002 42.59232843994559, -5.6495902 42.594326619946315, -5.64990229 42.59451900994639, -5.65324243 42.59309308994584, -5.661643660000001 42.589505869944546, -5.66232177 42.59036340994485, -5.650144879999999 42.59546154994672, -5.64903039 42.59466393994643, -5.645461399999999 42.59719239994737, -5.639127839999999 42.601679439949, -5.6383286199999985 42.601148929948806, -5.643988429999999 42.597051149947305, -5.648224849999999 42.59398392994619, -5.645888470000002 42.59224142994556, -5.645627019999999 42.59244708994561, -5.643223290000001 42.590706089944966, -5.644336570000001 42.58988193994466), (-5.650973159999999 42.59189925994541, -5.651031110000001 42.59167334994532, -5.650195029999998 42.59106891994509, -5.649826050000002 42.59112735994512, -5.647828340000002 42.59259580994565, -5.647838899999999 42.59284508994576, -5.648605410000002 42.59340123994598, -5.649009189999999 42.59336694994595, -5.650973159999999 42.59189925994541))"^^geosparql:wktLiteral .
 
-georesource:37  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/37> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "37" ;
         dc:created             "2012-04-26"^^xsd:date ;
         dc:identifier          "37"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/37/geometry> .
 
-georesource:138  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/138> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "138" ;
         dc:created             "2012-10-31"^^xsd:date ;
         dc:identifier          "138"^^xsd:int ;
@@ -1330,7 +1330,7 @@ georesource:138  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-6.041017609999998 36.89561352561064, -6.036451999999998 36.89745184561271, -6.036443209999999 36.89731211561254, -6.03639187 36.89720175561244, -6.040845690000002 36.895374405610376, -6.041017609999998 36.89561352561064))"^^geosparql:wktLiteral .
 
-georesource:108  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/108> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "108" ;
         dc:created             "2012-10-30"^^xsd:date ;
         dc:identifier          "108"^^xsd:int ;
@@ -1340,7 +1340,7 @@ georesource:108  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-2.0731541200000008 40.53677157888375, -2.0809194899999994 40.54361975888827, -2.08068478 40.54377560888837, -2.0803661099999986 40.54398719888852, -2.07548401 40.53968579888567, -2.07254048 40.537092018883946, -2.0731541200000008 40.53677157888375))"^^geosparql:wktLiteral .
 
-georesource:79  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/79> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "79" ;
         dc:created             "2012-08-31"^^xsd:date ;
         dc:identifier          "79"^^xsd:int ;
@@ -1358,7 +1358,7 @@ georesource:79  a             geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-5.878212749999162 37.41219169617363, -5.87822427999916 37.412492726173944, -5.8772979699991605 37.412584826174054, -5.877453839999159 37.41285506617433, -5.878475699999161 37.41282646617429, -5.886781329999159 37.412593706174064, -5.889122129999155 37.41252800617399, -5.888999229999158 37.41311045617463, -5.889165979999158 37.41396119617549, -5.8882378099991595 37.41771117617948, -5.898902199999155 37.41768583617945, -5.899457189999152 37.41724242617896, -5.900627379999154 37.41630744617799, -5.901748319999156 37.41555015617721, -5.9024779499991515 37.415490536177124, -5.902982999999154 37.41570747617735, -5.903208019999152 37.41611894617779, -5.903295189999154 37.41767512617945, -5.912024559999152 37.417653346179456, -5.912015389999151 37.41809142617989, -5.912651869999153 37.418325936180146, -5.913214039999151 37.41866652618051, -5.913284849999152 37.41914433618103, -5.913118189999149 37.41956544618145, -5.912632459999149 37.41984847618175, -5.903304669999154 37.41997386618189, -5.902968649999154 37.41996944618186, -5.898884439999155 37.4199156361818, -5.898903679999154 37.42016873618209, -5.896359909999155 37.42222103618428, -5.895832819999156 37.421793256183825, -5.894744809999156 37.42092331618285, -5.8932898699991565 37.41988859618178, -5.887938839999157 37.41986248618176, -5.887878049999158 37.42015703618208, -5.885979019999156 37.42742634618975, -5.88664693999916 37.427464536189824, -5.893201759999156 37.422155276184164, -5.8936872499991555 37.422615246184684, -5.8870076099991575 37.427742316190134, -5.885402829999158 37.427700896190075, -5.885636139999157 37.42636025618866, -5.88638022999916 37.42350111618564, -5.887163129999159 37.4199973661819, -5.874466949999159 37.41997994618189, -5.873686299999159 37.41997829618187, -5.873403419999164 37.4198756661818, -5.873120539999162 37.41977303618168, -5.8728627899991634 37.419205516181094, -5.873310819999161 37.41857600618042, -5.873619889999159 37.41843160618024, -5.873406349999159 37.417199236178924, -5.873775609999161 37.4162167861779, -5.87543963999916 37.41468652617628, -5.876321569999164 37.4128867361744, -5.876646009999163 37.4122530361737, -5.878212749999162 37.41219169617363), (-5.8875545999995795 37.418256776180066, -5.8748913599991655 37.418340386180155, -5.874625629999162 37.41842345618023, -5.874368689999162 37.41873610618058, -5.874421119999164 37.419102506180984, -5.874543279999162 37.41928336618114, -5.8746654499991635 37.419464236181355, -5.875208619999158 37.41960421618149, -5.887000599999157 37.41956170618145, -5.887209199999581 37.41956300618144, -5.8875545999995795 37.418256776180066), (-5.8878137299995785 37.41956677618146, -5.88799963999916 37.41956792618147, -5.893121779999575 37.41956708618145, -5.892584959999578 37.418899056180756, -5.89139681999958 37.41823113618004, -5.888131029999578 37.418252936180046, -5.8878137299995785 37.41956677618146), (-5.902072169999157 37.41581325617751, -5.901685259999152 37.41594786617761, -5.899584179999157 37.41768418617944, -5.902823609999155 37.417676286179436, -5.9026439399991535 37.41614125617781, -5.902517739999155 37.41584400617752, -5.902072169999157 37.41581325617751), (-5.888444099999158 37.41303132617454, -5.887842469999157 37.41325463617477, -5.876896189999162 37.41347536617499, -5.876272049999162 37.41466037617626, -5.874008059999159 37.416976006178714, -5.874028419999161 37.41750859617927, -5.8749381699991625 37.41774141617951, -5.887584109999157 37.41771269617949, -5.888387169999159 37.41427059617584, -5.888506269999159 37.41376007617529, -5.888554719999158 37.41304708617454, -5.888444099999158 37.41303132617454), (-5.89301694999958 37.41822029618004, -5.892822929999581 37.41864641618049, -5.893773119999578 37.41956696618146, -5.898319129999155 37.41956600618146, -5.897762219999158 37.418608746180446, -5.896595609999156 37.41819625617999, -5.89301694999958 37.41822029618004), (-5.899131719999155 37.41817914617999, -5.898318709999154 37.41880359618064, -5.898766309999156 37.41956590618146, -5.902713199999152 37.419564916181464, -5.902688319999152 37.41815507617993, -5.899131719999155 37.41817914617999), (-5.903208999999154 37.41815153617996, -5.903210229999153 37.419564776181424, -5.903837839999153 37.41956460618145, -5.909252089999152 37.419639886181535, -5.9116120599991495 37.41847667618027, -5.911466259999147 37.41809519617987, -5.903208999999154 37.41815153617996), (-5.912057649999152 37.41850738618031, -5.911575969999153 37.41889456618073, -5.909996419999151 37.41962154618151, -5.910740749999152 37.4196032061815, -5.911943739999151 37.41961525618152, -5.912594239999151 37.41953666618142, -5.912897139999148 37.4192581461811, -5.912877759999152 37.41875821618059, -5.912057649999152 37.41850738618031), (-5.894076099999154 37.41989240618177, -5.895081639999153 37.42064577618259, -5.895800409999152 37.41990075618178, -5.894076099999154 37.41989240618177), (-5.896898049999154 37.41990606618181, -5.895485599999154 37.4209484261829, -5.896214259999156 37.42149432618348, -5.898232619999155 37.41991249618182, -5.896898049999154 37.41990606618181))"^^geosparql:wktLiteral .
 
-georesource:49  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/49> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "49" ;
         dc:created             "2012-05-17"^^xsd:date ;
         dc:identifier          "49"^^xsd:int ;
@@ -1372,13 +1372,13 @@ georesource:49  a             geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((1.6499633800000004 41.588740279502815, 1.6506145099999998 41.58890061950288, 1.65286943 41.58457024950067, 1.65498492 41.580507049498586, 1.6544047199999996 41.58034384949849, 1.6524171499999996 41.584101379500424, 1.6499633800000004 41.588740279502815))"^^geosparql:wktLiteral .
 
-georesource:205  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/205> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "205" ;
         dc:created             "2014-06-17"^^xsd:date ;
         dc:identifier          "205"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/205/geometry> .
 
-georesource:80  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/80> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "80" ;
         dc:created             "2012-12-27"^^xsd:date ;
         dc:identifier          "80"^^xsd:int ;
@@ -1392,7 +1392,7 @@ georesource:80  a             geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-2.3873067299999997 36.83995090554819, -2.3530220600000007 36.84834746555765, -2.35282837 36.84793900555719, -2.3871693700000005 36.839520155547724, -2.3873067299999997 36.83995090554819))"^^geosparql:wktLiteral .
 
-georesource:6  a              geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/6> a              geoes:PistaDeAterrizaje ;
         rdfs:label             "6" ;
         dc:created             "2012-02-22"^^xsd:date ;
         dc:identifier          "6"^^xsd:int ;
@@ -1402,25 +1402,25 @@ georesource:6  a              geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-6.168235479999542 37.29546470604908, -6.160821609999543 37.29552471604912, -6.159142309999543 37.29553824604915, -6.158611659999543 37.29554251604914, -6.158553381002158 37.29554298486424, -6.157855569999547 37.295548596049166, -6.1578378399995435 37.29534783604892, -6.1592552699995435 37.29533429604891, -6.160122729999543 37.29532601604889, -6.168235729999544 37.29524855604883, -6.168235479999542 37.29546470604908))"^^geosparql:wktLiteral .
 
-georesource:20  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/20> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "20" ;
         dc:created             "2012-09-19"^^xsd:date ;
         dc:identifier          "20"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/20/geometry> .
 
-georesource:121  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/121> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "121" ;
         dc:created             "2013-01-17"^^xsd:date ;
         dc:identifier          "121"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/121/geometry> .
 
-georesource:217  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/217> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "217" ;
         dc:created             "2014-06-17"^^xsd:date ;
         dc:identifier          "217"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/217/geometry> .
 
-georesource:92  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/92> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "92" ;
         dc:created             "2012-07-18"^^xsd:date ;
         dc:identifier          "92"^^xsd:int ;
@@ -1430,7 +1430,7 @@ georesource:92  a             geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-4.390790479999768 39.0126025377176, -4.386331729999771 39.01104464771624, -4.38626957970888 39.011022930764234, -4.380093259999769 39.0088645277144, -4.380351829999771 39.00834922771392, -4.391048979999769 39.01208721771719, -4.390790479999768 39.0126025377176))"^^geosparql:wktLiteral .
 
-georesource:193  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/193> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "193" ;
         dc:created             "2013-06-10"^^xsd:date ;
         dc:identifier          "193"^^xsd:int ;
@@ -1444,7 +1444,7 @@ georesource:193  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-2.91098209 43.30344603016973, -2.9069346499999993 43.30209021016936, -2.90359645 43.300869890169025, -2.903445580000001 43.300814740169, -2.89505117 43.29764000016821, -2.8945439400000006 43.297268590168095, -2.89450552 43.296897600167995, -2.894701590000001 43.29646976016789, -2.8954838399999994 43.295928320167754, -2.8948591799999996 43.295699470167676, -2.89544619 43.295100780167516, -2.910790869999999 43.30062096016896, -2.92965926 43.302317660169415, -2.9331217199999995 43.302642840169504, -2.9373553999999995 43.302978430169595, -2.937824190000001 43.30303575016962, -2.93766718 43.3037490301698, -2.9314945299999993 43.303231880169676, -2.93063488 43.303316960169674, -2.9297356900000002 43.30380150016982, -2.925942819999999 43.30625308017044, -2.92637241 43.306424570170506, -2.9259027799999986 43.30705202017065, -2.92531682 43.30693750017063, -2.9254727000000003 43.30728002017072, -2.925511320000001 43.30765100017082, -2.9253155299999998 43.307993280170905, -2.9248852300000006 43.30839248017102, -2.91098209 43.30344603016973))"^^geosparql:wktLiteral .
 
-georesource:62  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/62> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "62" ;
         dc:created             "2012-11-03"^^xsd:date ;
         dc:identifier          "62"^^xsd:int ;
@@ -1455,7 +1455,7 @@ georesource:62  a             geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-15.511260889999996 27.781175822209697, -15.503678230000004 27.78379252221404, -15.50357542 27.78357784221367, -15.508138559999997 27.781971292211015, -15.511157159999998 27.780911852209265, -15.511260889999996 27.781175822209697))"^^geosparql:wktLiteral .
 
-georesource:163  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/163> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "163" ;
         dc:created             "2012-10-25"^^xsd:date ;
         dc:identifier          "163"^^xsd:int ;
@@ -1469,7 +1469,7 @@ georesource:163  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-3.2484349400000005 40.86098290909113, -3.2468899100000006 40.87010457909673, -3.2465852499999994 40.87006669909671, -3.24635738 40.87003836909672, -3.2478669999999994 40.86091678909109, -3.2484349400000005 40.86098290909113))"^^geosparql:wktLiteral .
 
-georesource:32  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/32> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "32" ;
         dc:created             "2012-05-14"^^xsd:date ;
         dc:identifier          "32"^^xsd:int ;
@@ -1483,7 +1483,7 @@ georesource:32  a             geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-3.428122540000001 40.51066352886641, -3.4305288699999994 40.508628508865044, -3.4302770500000004 40.50845995886495, -3.4285751300000005 40.50982072886584, -3.4277667899999993 40.50921775886544, -3.43050693 40.506909418863906, -3.4313766999999995 40.505706748863105, -3.432157730000001 40.50507292886268, -3.4383433599999997 40.50002230885932, -3.43857963 40.49948451885897, -3.438538449999999 40.49806921885801, -3.4373112400000005 40.497138998857395, -3.4360882699999995 40.49816275885808, -3.43495871 40.49733561885751, -3.4371743799999996 40.495539278856334, -3.4408911600000005 40.49252560885431, -3.44548091 40.488803588851816, -3.4507203999999994 40.484555098848986, -3.452716150000001 40.482936958847894, -3.4544749 40.48151087884693, -3.4564974 40.479870838845834, -3.4574245300000004 40.47911898884535, -3.4589422200000004 40.48021256884607, -3.45667113 40.48196481884726, -3.45667386 40.482367098847526, -3.45747609 40.48289564884786, -3.4710357800000007 40.471796248840434, -3.4714908099999984 40.471579838840285, -3.472087610000001 40.471550588840266, -3.472755960000001 40.471708768840394, -3.47452125 40.473042508841274, -3.47677257 40.47120378884003, -3.47745064 40.47164015884034, -3.4573109800000004 40.48800690885129, -3.4601271100000006 40.48983804885251, -3.4620844799999992 40.49124935885346, -3.4614704399999994 40.491739698853785, -3.4605549800000013 40.49247075885428, -3.459063379999999 40.49134378885352, -3.459204679999999 40.49122386885344, -3.460136350000001 40.49043319885292, -3.4597329699999997 40.490161778852716, -3.4570378100000005 40.48823682885144, -3.45462986 40.490182348852734, -3.4486014899999997 40.495053028856, -3.4349140100000004 40.50611197886337, -3.4287915100000004 40.51116216886673, -3.428122540000001 40.51066352886641), (-3.46155988 40.483571168848314, -3.47338892 40.47398447884189, -3.47369905 40.47367969884169, -3.4737822299999994 40.4733975288415, -3.473723779999999 40.47315929884134, -3.47283937 40.47253421884091, -3.4717949700000004 40.47338397884148, -3.47139877 40.47355902884161, -3.470944869999999 40.473604238841624, -3.470574929999999 40.473475668841544, -3.47020408 40.47321702884137, -3.45953254 40.48188827884722, -3.4592511499999987 40.48225793884743, -3.4591962800000013 40.48253998884765, -3.4593685500000007 40.482821128847824, -3.4603388900000005 40.48355435884831, -3.4608508300000005 40.483682398848394, -3.4611631400000005 40.48368114884841, -3.46155988 40.483571168848314), (-3.4522750799999997 40.487726918851095, -3.44693592 40.49204067885398, -3.43981899 40.497790768857804, -3.43973592 40.49811626885804, -3.43982252 40.49833273885819, -3.4411349299999996 40.499259938858806, -3.4415330799999997 40.49934512885888, -3.4424118600000004 40.4991032988587, -3.4482110500000007 40.49435996885555, -3.4498684299999995 40.49300434885463, -3.4507139099999997 40.492047178853994, -3.4513138699999995 40.491310428853495, -3.4522750799999997 40.487726918851095), (-3.439313339999999 40.49863817885839, -3.4392052600000014 40.49948407885896, -3.4390661000000002 40.49991818885925, -3.438841450000001 40.50030926885951, -3.4325977799999987 40.505384038862886, -3.430876290000001 40.50710311886402, -3.43067998 40.50749407886431, -3.4307384400000003 40.50775400886446, -3.4309099599999997 40.50792680886458, -3.4311943999999994 40.507990778864624, -3.4315345299999986 40.50788111886455, -3.4412250999999987 40.50001835885933, -3.439313339999999 40.49863817885839), (-3.4572957 40.48697007885059, -3.45932906 40.48535774884952, -3.459553829999999 40.485009988849285, -3.4595801499999994 40.48470637884908, -3.4594364200000003 40.484446798848914, -3.458352220000001 40.483670658848375, -3.457840140000001 40.483520928848286, -3.45749959 40.483543958848315, -3.4552120200000003 40.48535235884951, -3.45498664 40.48561339884969, -3.4549598599999998 40.48585197884985, -3.4551035799999994 40.48611155885003, -3.456245300000001 40.48699590885061, -3.45658676 40.48710294885068, -3.4568993699999995 40.487145078850695, -3.4572957 40.48697007885059), (-3.4520996 40.49119627885342, -3.4536623600000005 40.4899620888526, -3.45565843 40.488385688851544, -3.455854840000001 40.488038048851315, -3.455909580000001 40.487734318851096, -3.4557659999999997 40.487496418850924, -3.454367710000001 40.48646131885026, -3.45397006 40.48644120885026, -3.4536024200000006 40.4866594388504, -3.4533781899999996 40.48709390885068, -3.4528385099999994 40.48882548885181, -3.4520996 40.49119627885342))"^^geosparql:wktLiteral .
 
-georesource:133  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/133> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "133" ;
         dc:created             "2013-02-20"^^xsd:date ;
         dc:identifier          "133"^^xsd:int ;
@@ -1498,7 +1498,7 @@ georesource:133  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-6.987842900000002 38.7802551875131, -6.987233750000001 38.779966537512834, -6.995135620000001 38.77463585750806, -6.9954731400000005 38.77490480750831, -6.991208900000001 38.77799097751106, -6.987842900000002 38.7802551875131))"^^geosparql:wktLiteral .
 
-georesource:103  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/103> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "103" ;
         dc:created             "2012-09-26"^^xsd:date ;
         dc:identifier          "103"^^xsd:int ;
@@ -1508,7 +1508,7 @@ georesource:103  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-0.76858694 38.93978235765426, -0.76990224 38.942665707656786, -0.7724825999999999 38.942212847656386, -0.7725381300000002 38.942519007656664, -0.7700606600000002 38.94301296765709, -0.7711021799999997 38.94529594765907, -0.7706444099999998 38.945165587658956, -0.7696615400000001 38.94309594765716, -0.7625851000000001 38.9442947476582, -0.76257406 38.94395553765791, -0.76900676 38.94284441765694, -0.7695024900000001 38.94275925765686, -0.7682112899999999 38.93999551765445, -0.76858694 38.93978235765426))"^^geosparql:wktLiteral .
 
-georesource:74  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/74> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "74" ;
         dc:created             "2012-07-25"^^xsd:date ;
         dc:identifier          "74"^^xsd:int ;
@@ -1518,13 +1518,13 @@ georesource:74  a             geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-5.181431460000001 36.49701021515604, -5.1780116 36.4956756451545, -5.177584229999998 36.4955091851543, -5.1753368 36.49463382515329, -5.175464889999999 36.49442419515305, -5.17724817 36.49512174515387, -5.177810039999999 36.49534112515412, -5.181548389999999 36.496800775155805, -5.181431460000001 36.49701021515604))"^^geosparql:wktLiteral .
 
-georesource:175  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/175> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "175" ;
         dc:created             "2013-01-30"^^xsd:date ;
         dc:identifier          "175"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/175/geometry> .
 
-georesource:44  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/44> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "44" ;
         dc:created             "2012-04-18"^^xsd:date ;
         dc:identifier          "44"^^xsd:int ;
@@ -1534,13 +1534,13 @@ georesource:44  a             geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-4.898699809999999 41.82130874961842, -4.889514499999999 41.82680724962105, -4.889077890000001 41.82642556962087, -4.898552610000001 41.82100123961828, -4.898626209999999 41.82115499961836, -4.898699809999999 41.82130874961842))"^^geosparql:wktLiteral .
 
-georesource:200  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/200> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "200" ;
         dc:created             "2012-02-16"^^xsd:date ;
         dc:identifier          "200"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/200/geometry> .
 
-georesource:14  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/14> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "14" ;
         dc:created             "2012-01-19"^^xsd:date ;
         dc:identifier          "14"^^xsd:int ;
@@ -1550,7 +1550,7 @@ georesource:14  a             geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-4.94728849 39.593792368198756, -4.94290441 39.594362138199195, -4.938469560000001 39.59493849819966, -4.938507189999999 39.59463471819941, -4.94303642 39.594094418198985, -4.94493957 39.593867388198795, -4.947190349999999 39.59358002819857, -4.94728849 39.593792368198756))"^^geosparql:wktLiteral .
 
-georesource:115  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/115> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "115" ;
         dc:created             "2012-12-28"^^xsd:date ;
         dc:identifier          "115"^^xsd:int ;
@@ -1560,13 +1560,13 @@ georesource:115  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-3.47660889 42.94902785006739, -3.47528586 42.95159644006819, -3.4720093699999994 42.95795654007019, -3.4711269199999997 42.95765101007008, -3.4756885100000003 42.948750620067294, -3.47660889 42.94902785006739))"^^geosparql:wktLiteral .
 
-georesource:86  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/86> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "86" ;
         dc:created             "2012-05-08"^^xsd:date ;
         dc:identifier          "86"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/86/geometry> .
 
-georesource:187  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/187> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "187" ;
         dc:created             "2006-08-10"^^xsd:date ;
         dc:identifier          "187"^^xsd:int ;
@@ -1581,19 +1581,19 @@ georesource:187  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-5.6826804000000015 42.49955263991081, -5.682322690000001 42.49952802991082, -5.68277223 42.49440398990884, -5.67983108 42.49442885990884, -5.679696370000001 42.494058119908715, -5.68287971 42.49413754990876, -5.68293119 42.49325659990839, -5.683348709999999 42.49329080990844, -5.6826804000000015 42.49955263991081))"^^geosparql:wktLiteral .
 
-georesource:56  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/56> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "56" ;
         dc:created             "2012-02-04"^^xsd:date ;
         dc:identifier          "56"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/56/geometry> .
 
-georesource:212  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/212> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "212" ;
         dc:created             "2014-06-17"^^xsd:date ;
         dc:identifier          "212"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/212/geometry> .
 
-georesource:26  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/26> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "26" ;
         dc:created             "2012-06-01"^^xsd:date ;
         dc:identifier          "26"^^xsd:int ;
@@ -1607,13 +1607,13 @@ georesource:26  a             geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-3.5246378899999993 38.74580220748217, -3.50588458 38.75011363748606, -3.5056884200000002 38.74964629748564, -3.5168365900000005 38.74707538748332, -3.51808814 38.74679799748306, -3.5244996999999993 38.74536484748178, -3.5246378899999993 38.74580220748217))"^^geosparql:wktLiteral .
 
-georesource:98  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/98> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "98" ;
         dc:created             "2012-02-03"^^xsd:date ;
         dc:identifier          "98"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/98/geometry> .
 
-georesource:199  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/199> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "199" ;
         dc:created             "2012-04-03"^^xsd:date ;
         dc:identifier          "199"^^xsd:int ;
@@ -1631,7 +1631,7 @@ georesource:199  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-6.055684889999576 36.75448654545166, -6.055074809999579 36.75417638545131, -6.064464469999577 36.73477201542927, -6.065186269999576 36.73498615542953, -6.066415569999576 36.73535788542994, -6.066837269999579 36.735781465430435, -6.062986929999577 36.74366993543939, -6.063261359999577 36.74426800544008, -6.0620918699995805 36.746858325443014, -6.061702029999576 36.74772176544399, -6.0607414099995776 36.74974811544629, -6.060198379999579 36.7496689954462, -6.057771469999579 36.75458806545178, -6.057016329999578 36.75499539545225, -6.055684889999576 36.75448654545166), (-6.0649749099995764 36.735488135430096, -6.062487829999579 36.74033125543559, -6.064636529999577 36.7390966454342, -6.066128419999577 36.73589284543054, -6.0649749099995764 36.735488135430096), (-6.061598799999576 36.74221611543775, -6.059791999999576 36.7460442854421, -6.056067879999577 36.75393363545104, -6.057027159999579 36.75429687545145, -6.059665989999577 36.749372365445865, -6.064012409999577 36.74036955543566, -6.062785819999575 36.74103733543642, -6.061598799999576 36.74221611543775))"^^geosparql:wktLiteral .
 
-georesource:68  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/68> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "68" ;
         dc:created             "2012-08-14"^^xsd:date ;
         dc:identifier          "68"^^xsd:int ;
@@ -1641,7 +1641,7 @@ georesource:68  a             geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-5.983588550000001 37.552356876321156, -5.979264309999998 37.55398589632284, -5.978559889999998 37.55425124632312, -5.97838233 37.55405311632291, -5.983508050000003 37.552111256320906, -5.983588550000001 37.552356876321156))"^^geosparql:wktLiteral .
 
-georesource:169  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/169> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "169" ;
         dc:created             "2012-12-20"^^xsd:date ;
         dc:identifier          "169"^^xsd:int ;
@@ -1655,13 +1655,13 @@ georesource:169  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((2.1107688199999997 41.51728525946573, 2.1092257400000003 41.518144439466184, 2.1088736500000005 41.517899979466044, 2.10842565 41.51778985946597, 2.1080635299999995 41.51775595946596, 2.1076460899999994 41.51786459946602, 2.1061825599999997 41.518720199466486, 2.1055048300000005 41.51805998946612, 2.10238063 41.520650369467496, 2.1025102400000004 41.52077466946755, 2.1014707900000005 41.521361869467846, 2.10020313 41.52207794946822, 2.1000455700000003 41.522275059468356, 2.0996449500000005 41.52344350946895, 2.1009137600000005 41.524677809469594, 2.101219 41.52483432946969, 2.10144612 41.52484423946967, 2.1018230300000007 41.524727419469635, 2.1030056699999995 41.524060229469264, 2.1083112599999994 41.52106676946771, 2.1086256299999997 41.5208326494676, 2.1087136800000006 41.52059859946748, 2.108625330000001 41.52032237946731, 2.1099507999999996 41.51957294946692, 2.1101675700000007 41.51928313946678, 2.11006753 41.51902744946664, 2.1096122399999993 41.51848742946634, 2.1111155100000003 41.5176300094659, 2.1107688199999997 41.51728525946573))"^^geosparql:wktLiteral .
 
-georesource:38  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/38> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "38" ;
         dc:created             "2012-04-24"^^xsd:date ;
         dc:identifier          "38"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/38/geometry> .
 
-georesource:139  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/139> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "139" ;
         dc:created             "2013-05-09"^^xsd:date ;
         dc:identifier          "139"^^xsd:int ;
@@ -1679,13 +1679,13 @@ georesource:139  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-3.5972379699999983 41.206634889296005, -3.5967743500000013 41.20680628929611, -3.5950148300000007 41.20450807929481, -3.5943162999999987 41.20429678929469, -3.5879416800000015 41.202368339293606, -3.5881373499999993 41.20202968929339, -3.58859346 41.20216826929347, -3.594513170000002 41.20396666929451, -3.5909450699999987 41.199389169291905, -3.5913756300000004 41.19919954929179, -3.5952605700000007 41.20415310929461, -3.596442100000001 41.204492529294804, -3.59625974 41.204839319295, -3.5957645899999995 41.20469497929492, -3.59588622 41.204855119295004, -3.5972379699999983 41.206634889296005))"^^geosparql:wktLiteral .
 
-georesource:109  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/109> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "109" ;
         dc:created             "2012-10-07"^^xsd:date ;
         dc:identifier          "109"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/109/geometry> .
 
-georesource:170  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/170> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "170" ;
         dc:created             "2012-12-27"^^xsd:date ;
         dc:identifier          "170"^^xsd:int ;
@@ -1695,13 +1695,13 @@ georesource:170  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-3.7710485199999995 38.03457086681102, -3.7616471999999996 38.04069302681707, -3.7616858099999986 38.04022919681661, -3.76567916 38.037627816814044, -3.77076363 38.03431518681077, -3.7710485199999995 38.03457086681102))"^^geosparql:wktLiteral .
 
-georesource:140  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/140> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "140" ;
         dc:created             "2013-02-15"^^xsd:date ;
         dc:identifier          "140"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/140/geometry> .
 
-georesource:110  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/110> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "110" ;
         dc:created             "2012-10-09"^^xsd:date ;
         dc:identifier          "110"^^xsd:int ;
@@ -1719,13 +1719,13 @@ georesource:110  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-5.203304829999999 39.34191752799566, -5.20396766 39.34244035799608, -5.193977270000001 39.3481838080008, -5.19327244 39.3476951680004, -5.203304829999999 39.34191752799566))"^^geosparql:wktLiteral .
 
-georesource:81  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/81> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "81" ;
         dc:created             "2012-06-01"^^xsd:date ;
         dc:identifier          "81"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/81/geometry> .
 
-georesource:182  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/182> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "182" ;
         dc:created             "2013-02-14"^^xsd:date ;
         dc:identifier          "182"^^xsd:int ;
@@ -1739,7 +1739,7 @@ georesource:182  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-0.8233814899999999 37.77548422655125, -0.8228273099999999 37.77584376655162, -0.8114929999999999 37.78482163656074, -0.80659595 37.78849085656447, -0.8061666800000001 37.78844322656444, -0.80539187 37.78835726656434, -0.8030789399999998 37.78856661656458, -0.80238452 37.785245686561176, -0.8023028800000003 37.783961856559884, -0.80213541 37.78355503655946, -0.8013543900000001 37.783659196559555, -0.80097479 37.78334340655924, -0.8009255399999999 37.782986286558874, -0.8081155399999999 37.777611146553404, -0.8145729500000001 37.7726968865484, -0.8227816999999998 37.76617612654176, -0.8235166000000002 37.76661714654221, -0.8235198500000002 37.76711480654271, -0.82202582 37.768489316544105, -0.8219937899999997 37.76958106654523, -0.8216558500000001 37.76988351654553, -0.8208117199999999 37.77010536654577, -0.81817345 37.7722106265479, -0.8133367600000003 37.776069686551836, -0.8135595099999999 37.77625878655203, -0.816168 37.77847311655429, -0.82094771 37.7746434765504, -0.8214492100000002 37.77437502655011, -0.8228542300000001 37.77519092655094, -0.8233814899999999 37.77548422655125))"^^geosparql:wktLiteral .
 
-georesource:51  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/51> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "51" ;
         dc:created             "2012-03-30"^^xsd:date ;
         dc:identifier          "51"^^xsd:int ;
@@ -1749,7 +1749,7 @@ georesource:51  a             geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-2.332930910000001 42.46351805989698, -2.3325982699999996 42.46420859989723, -2.30800746 42.4576799198947, -2.30840265 42.4568693898944, -2.31296367 42.45807102989486, -2.31428126 42.45842515989499, -2.3156597699999995 42.45878715989514, -2.3170382899999997 42.45914914989527, -2.31790966 42.459410259895385, -2.332930910000001 42.46351805989698))"^^geosparql:wktLiteral .
 
-georesource:7  a              geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/7> a              geoes:PistaDeAterrizaje ;
         rdfs:label             "7" ;
         dc:created             "2011-12-29"^^xsd:date ;
         dc:identifier          "7"^^xsd:int ;
@@ -1759,13 +1759,13 @@ georesource:7  a              geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-4.890108660000002 39.230604347903245, -4.88389571 39.22410781789779, -4.8842667 39.22389942789763, -4.890488099999999 39.230383937903056, -4.890108660000002 39.230604347903245))"^^geosparql:wktLiteral .
 
-georesource:21  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/21> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "21" ;
         dc:created             "2012-09-19"^^xsd:date ;
         dc:identifier          "21"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/21/geometry> .
 
-georesource:122  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/122> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "122" ;
         dc:created             "2013-01-17"^^xsd:date ;
         dc:identifier          "122"^^xsd:int ;
@@ -1775,13 +1775,13 @@ georesource:122  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-6.02718609 43.55841087023176, -6.028703029999998 43.55876526023183, -6.032575999999998 43.55966997023202, -6.034743939999999 43.56017633023216, -6.0341162100000005 43.56155096023245, -6.0454277 43.564229340233055, -6.046526550000001 43.564463520233105, -6.047098570000001 43.564752290233166, -6.047569470000002 43.56524643023328, -6.047844510000002 43.565725520233386, -6.04794334 43.566026900233446, -6.04785038 43.56639421023353, -6.048500829999998 43.566579530233575, -6.048197439999999 43.56719567023372, -6.0207536 43.56074985023226, -6.020944890000001 43.56011648023214, -6.02170552 43.560278770232166, -6.021804699999999 43.560032930232104, -6.021961580000001 43.55982610023208, -6.022916519999998 43.55941574023196, -6.02360425 43.55923539023193, -6.02421862 43.559259660231945, -6.026612859999999 43.55976375023205, -6.02718609 43.55841087023176))"^^geosparql:wktLiteral .
 
-georesource:218  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/218> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "218" ;
         dc:created             "2014-06-17"^^xsd:date ;
         dc:identifier          "218"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/218/geometry> .
 
-georesource:93  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/93> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "93" ;
         dc:created             "2012-01-16"^^xsd:date ;
         dc:identifier          "93"^^xsd:int ;
@@ -1791,19 +1791,19 @@ georesource:93  a             geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-4.14148447 36.804008415507695, -4.141198089999999 36.80432834550808, -4.137145729999999 36.802330355505816, -4.1306439699999995 36.7991241955022, -4.13090284 36.798784715501796, -4.14148447 36.804008415507695))"^^geosparql:wktLiteral .
 
-georesource:194  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/194> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "194" ;
         dc:created             "2013-06-13"^^xsd:date ;
         dc:identifier          "194"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/194/geometry> .
 
-georesource:63  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/63> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "63" ;
         dc:created             "2013-03-12"^^xsd:date ;
         dc:identifier          "63"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/63/geometry> .
 
-georesource:164  a            geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/164> a            geoes:PistaDeAterrizaje ;
         rdfs:label             "164" ;
         dc:created             "2010-02-08"^^xsd:date ;
         dc:identifier          "164"^^xsd:int ;
@@ -1813,8 +1813,9 @@ georesource:164  a            geoes:PistaDeAterrizaje ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-4.86683339 41.69585427955701, -4.846634629999999 41.71072815956443, -4.838779070000001 41.7165127995673, -4.838267599999998 41.7161070095671, -4.84604549 41.710219239564175, -4.84789881 41.70881629956346, -4.86632192 41.69544860955682, -4.86683339 41.69585427955701))"^^geosparql:wktLiteral .
 
-georesource:33  a             geoes:PistaDeAterrizaje ;
+<http://geo.linkeddata.es/recurso/PistaDeAterrizaje/33> a             geoes:PistaDeAterrizaje ;
         rdfs:label             "33" ;
         dc:created             "2012-05-30"^^xsd:date ;
         dc:identifier          "33"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PistaDeAterrizaje/33/geometry> .
+
