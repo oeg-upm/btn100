@@ -10,7 +10,7 @@
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
 @prefix dc:    <http://purl.org/dc/terms/> .
 
-georesource:1808  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/Cargadero/1808> a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         rdfs:label              "1808" ;
         geoes:codigoDeEstacion  "51415"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -21,7 +21,7 @@ georesource:1808  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         dc:title                "Cargadero de Las Aletas"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/Cargadero/1808/geometry> .
 
-georesource:1149  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
+<http://geo.linkeddata.es/recurso/Cargadero/1149> a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         rdfs:label              "1149" ;
         geoes:codigoDeEstacion  "70202"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -36,7 +36,7 @@ georesource:1149  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.2068559400000005 36.468043415122345)"^^geosparql:wktLiteral .
 
-georesource:1689  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/Cargadero/1689> a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         rdfs:label              "1689" ;
         geoes:codigoDeEstacion  "50302"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -55,7 +55,7 @@ georesource:1689  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.069083240000001 38.80936629753908)"^^geosparql:wktLiteral .
 
-georesource:1915  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/Cargadero/1915> a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         rdfs:label              "1915" ;
         geoes:codigoDeEstacion  "6"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -78,7 +78,7 @@ georesource:1915  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (0.8149264599999998 41.78857747960262)"^^geosparql:wktLiteral .
 
-georesource:708  a             geoes:Cargadero , geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/Cargadero/708> a             geoes:Cargadero , geoes:InstalacionFerroviaria ;
         rdfs:label              "708" ;
         geoes:codigoDeEstacion  "73001"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -89,7 +89,7 @@ georesource:708  a             geoes:Cargadero , geoes:InstalacionFerroviaria ;
         dc:title                "Cargadero de Puigverd de Lleida-Artesa de Lleida"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/Cargadero/708/geometry> .
 
-georesource:1815  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/Cargadero/1815> a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         rdfs:label              "1815" ;
         geoes:codigoDeEstacion  "51204"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -104,7 +104,7 @@ georesource:1815  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.121279339999999 36.86226408557329)"^^geosparql:wktLiteral .
 
-georesource:1030  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
+<http://geo.linkeddata.es/recurso/Cargadero/1030> a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         rdfs:label              "1030" ;
         geoes:codigoDeEstacion  "78203"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -115,7 +115,7 @@ georesource:1030  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         dc:title                "Cargadero de Sariñena"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/Cargadero/1030/geometry> .
 
-georesource:1156  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
+<http://geo.linkeddata.es/recurso/Cargadero/1156> a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         rdfs:label              "1156" ;
         geoes:codigoDeEstacion  "70210"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -130,7 +130,7 @@ georesource:1156  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.187185263237639 37.71690716232527)"^^geosparql:wktLiteral .
 
-georesource:1696  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
+<http://geo.linkeddata.es/recurso/Cargadero/1696> a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         rdfs:label              "1696" ;
         geoes:codigoDeEstacion  "56002"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -153,7 +153,7 @@ georesource:1696  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.0747684600000005 40.91000227912121)"^^geosparql:wktLiteral .
 
-georesource:1028  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
+<http://geo.linkeddata.es/recurso/Cargadero/1028> a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         rdfs:label              "1028" ;
         geoes:codigoDeEstacion  "78303"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -172,7 +172,7 @@ georesource:1028  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.308646429999999 38.31866590708658)"^^geosparql:wktLiteral .
 
-georesource:1822  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/Cargadero/1822> a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         rdfs:label              "1822" ;
         geoes:codigoDeEstacion  "55015"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -183,7 +183,7 @@ georesource:1822  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         dc:title                "Cargadero de Jimena de La Frontera"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/Cargadero/1822/geometry> .
 
-georesource:1662  a           geoes:InstalacionFerroviaria , geoes:Cargadero ;
+<http://geo.linkeddata.es/recurso/Cargadero/1662> a           geoes:InstalacionFerroviaria , geoes:Cargadero ;
         rdfs:label             "1662" ;
         geoes:rutaTenT         <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         geoes:tipoDeTrafico    <http://geo.linkeddata.es/kos/transportes/tipo-de-trafico/mercancia> ;
@@ -208,7 +208,7 @@ georesource:1662  a           geoes:InstalacionFerroviaria , geoes:Cargadero ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.163014709742228 40.746905116952924)"^^geosparql:wktLiteral .
 
-georesource:1022  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/Cargadero/1022> a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         rdfs:label              "1022" ;
         geoes:codigoDeEstacion  "74211"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -219,7 +219,7 @@ georesource:1022  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         dc:title                "Cargadero de Sabiñánigo"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/Cargadero/1022/geometry> .
 
-georesource:1688  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
+<http://geo.linkeddata.es/recurso/Cargadero/1688> a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         rdfs:label              "1688" ;
         geoes:codigoDeEstacion  "50303"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -230,7 +230,7 @@ georesource:1688  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         dc:title                "Cargadero de Mengibar-Las Palomeras"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/Cargadero/1688/geometry> .
 
-georesource:1007  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/Cargadero/1007> a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         rdfs:label              "1007" ;
         geoes:codigoDeEstacion  "74204"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -245,7 +245,7 @@ georesource:1007  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.68254086 42.275178799821525)"^^geosparql:wktLiteral .
 
-georesource:1707  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/Cargadero/1707> a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         rdfs:label              "1707" ;
         geoes:codigoDeEstacion  "50205"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -268,7 +268,7 @@ georesource:1707  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (0.4740387600000001 41.687875559553035)"^^geosparql:wktLiteral .
 
-georesource:1801  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
+<http://geo.linkeddata.es/recurso/Cargadero/1801> a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         rdfs:label              "1801" ;
         geoes:codigoDeEstacion  "51406"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -283,7 +283,7 @@ georesource:1801  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.185840599999999 36.53108874519559)"^^geosparql:wktLiteral .
 
-georesource:1682  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/Cargadero/1682> a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         rdfs:label              "1682" ;
         geoes:codigoDeEstacion  "50402"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -294,7 +294,7 @@ georesource:1682  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         dc:title                "Cargadero de Villanueva de la Reina"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/Cargadero/1682/geometry> .
 
-georesource:707  a             geoes:Cargadero , geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/Cargadero/707> a             geoes:Cargadero , geoes:InstalacionFerroviaria ;
         rdfs:label              "707" ;
         geoes:codigoDeEstacion  "78304"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -305,7 +305,7 @@ georesource:707  a             geoes:Cargadero , geoes:InstalacionFerroviaria ;
         dc:title                "Cargadero de Almacelles"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/Cargadero/707/geometry> .
 
-georesource:1814  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
+<http://geo.linkeddata.es/recurso/Cargadero/1814> a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         rdfs:label              "1814" ;
         geoes:codigoDeEstacion  "51204"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -315,7 +315,7 @@ georesource:1814  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         dc:title                "Cargadero de El Cuervo"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/Cargadero/1814/geometry> .
 
-georesource:1155  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
+<http://geo.linkeddata.es/recurso/Cargadero/1155> a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         rdfs:label              "1155" ;
         geoes:codigoDeEstacion  "70209"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -326,7 +326,7 @@ georesource:1155  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         dc:title                "Cargadero de Jadraque"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/Cargadero/1155/geometry> .
 
-georesource:1701  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/Cargadero/1701> a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         rdfs:label              "1701" ;
         geoes:codigoDeEstacion  "50209"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -337,7 +337,7 @@ georesource:1701  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         dc:title                "Cargadero de Vadollano"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/Cargadero/1701/geometry> .
 
-georesource:1695  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/Cargadero/1695> a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         rdfs:label              "1695" ;
         geoes:codigoDeEstacion  "56009"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -356,7 +356,7 @@ georesource:1695  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-1.74860342 42.8537894500367)"^^geosparql:wktLiteral .
 
-georesource:1661  a           geoes:InstalacionFerroviaria , geoes:Cargadero ;
+<http://geo.linkeddata.es/recurso/Cargadero/1661> a           geoes:InstalacionFerroviaria , geoes:Cargadero ;
         rdfs:label             "1661" ;
         geoes:rutaTenT         <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         geoes:tipoDeTrafico    <http://geo.linkeddata.es/kos/transportes/tipo-de-trafico/mercancia> ;
@@ -373,7 +373,7 @@ georesource:1661  a           geoes:InstalacionFerroviaria , geoes:Cargadero ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.935995510000024 40.92963229913317)"^^geosparql:wktLiteral .
 
-georesource:1806  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/Cargadero/1806> a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         rdfs:label              "1806" ;
         geoes:codigoDeEstacion  "51401"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -392,7 +392,7 @@ georesource:1806  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.03843644 41.84887880963162)"^^geosparql:wktLiteral .
 
-georesource:1006  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
+<http://geo.linkeddata.es/recurso/Cargadero/1006> a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         rdfs:label              "1006" ;
         geoes:codigoDeEstacion  "78102"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -402,7 +402,7 @@ georesource:1006  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         dc:title                "Cargadero de Almudévar"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/Cargadero/1006/geometry> .
 
-georesource:1706  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
+<http://geo.linkeddata.es/recurso/Cargadero/1706> a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         rdfs:label              "1706" ;
         geoes:codigoDeEstacion  "50204"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -421,7 +421,7 @@ georesource:1706  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.7091260899998906 38.00032740677715)"^^geosparql:wktLiteral .
 
-georesource:1926  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
+<http://geo.linkeddata.es/recurso/Cargadero/1926> a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         rdfs:label              "1926" ;
         geoes:codigoDeEstacion  "7"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -436,7 +436,7 @@ georesource:1926  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.08555472 36.72881785542253)"^^geosparql:wktLiteral .
 
-georesource:706  a             geoes:Cargadero , geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/Cargadero/706> a             geoes:Cargadero , geoes:InstalacionFerroviaria ;
         rdfs:label              "706" ;
         geoes:codigoDeEstacion  "78305"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -450,7 +450,7 @@ georesource:706  a             geoes:Cargadero , geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.132113920000001 36.637697245318456)"^^geosparql:wktLiteral .
 
-georesource:1813  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
+<http://geo.linkeddata.es/recurso/Cargadero/1813> a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         rdfs:label              "1813" ;
         geoes:codigoDeEstacion  "51304"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -469,7 +469,7 @@ georesource:1813  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.1167427000000005 38.01047491678721)"^^geosparql:wktLiteral .
 
-georesource:1700  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
+<http://geo.linkeddata.es/recurso/Cargadero/1700> a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         rdfs:label              "1700" ;
         geoes:codigoDeEstacion  "56004"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -480,7 +480,7 @@ georesource:1700  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         dc:title                "Cargadero de Jodar-Ubeda"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/Cargadero/1700/geometry> .
 
-georesource:1694  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
+<http://geo.linkeddata.es/recurso/Cargadero/1694> a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         rdfs:label              "1694" ;
         geoes:codigoDeEstacion  "56009"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -491,7 +491,7 @@ georesource:1694  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         dc:title                "Cargadero de Huesa"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/Cargadero/1694/geometry> .
 
-georesource:1459  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
+<http://geo.linkeddata.es/recurso/Cargadero/1459> a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         rdfs:label              "1459" ;
         geoes:codigoDeEstacion  "37110"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -506,7 +506,7 @@ georesource:1459  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.695484600502398 42.38026238223497)"^^geosparql:wktLiteral .
 
-georesource:1679  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
+<http://geo.linkeddata.es/recurso/Cargadero/1679> a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         rdfs:label              "1679" ;
         geoes:codigoDeEstacion  "50405"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -525,7 +525,7 @@ georesource:1679  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (0.7336196643088361 41.55381477005718)"^^geosparql:wktLiteral .
 
-georesource:1920  a           geoes:Cargadero , geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/Cargadero/1920> a           geoes:Cargadero , geoes:InstalacionFerroviaria ;
         rdfs:label             "1920" ;
         geoes:rutaTenT         <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         geoes:tipoDeTrafico    <http://geo.linkeddata.es/kos/transportes/tipo-de-trafico/mixto> ;
@@ -547,7 +547,7 @@ georesource:1920  a           geoes:Cargadero , geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.168766790000001 38.018751956795406)"^^geosparql:wktLiteral .
 
-georesource:1820  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/Cargadero/1820> a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         rdfs:label              "1820" ;
         geoes:codigoDeEstacion  "55018"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -557,7 +557,7 @@ georesource:1820  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         dc:title                "Cargadero de San Roque-La Línea"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/Cargadero/1820/geometry> .
 
-georesource:1660  a           geoes:InstalacionFerroviaria , geoes:Cargadero ;
+<http://geo.linkeddata.es/recurso/Cargadero/1660> a           geoes:InstalacionFerroviaria , geoes:Cargadero ;
         rdfs:label             "1660" ;
         geoes:rutaTenT         <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         geoes:tipoDeTrafico    <http://geo.linkeddata.es/kos/transportes/tipo-de-trafico/mercancia> ;
@@ -566,7 +566,7 @@ georesource:1660  a           geoes:InstalacionFerroviaria , geoes:Cargadero ;
         dc:title               "Cargadero de Santander-Puerto"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cargadero/1660/geometry> .
 
-georesource:726  a             geoes:InstalacionFerroviaria , geoes:Cargadero ;
+<http://geo.linkeddata.es/recurso/Cargadero/726> a             geoes:InstalacionFerroviaria , geoes:Cargadero ;
         rdfs:label              "726" ;
         geoes:codigoDeEstacion  "73005"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -577,7 +577,7 @@ georesource:726  a             geoes:InstalacionFerroviaria , geoes:Cargadero ;
         dc:title                "Cargadero de Vinaixa"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/Cargadero/726/geometry> .
 
-georesource:2433  a           geoes:InstalacionFerroviaria , geoes:Cargadero ;
+<http://geo.linkeddata.es/recurso/Cargadero/2433> a           geoes:InstalacionFerroviaria , geoes:Cargadero ;
         rdfs:label             "2433" ;
         geoes:rutaTenT         <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         geoes:tipoDeTrafico    <http://geo.linkeddata.es/kos/transportes/tipo-de-trafico/mercancia> ;
@@ -586,7 +586,7 @@ georesource:2433  a           geoes:InstalacionFerroviaria , geoes:Cargadero ;
         dc:title               "Cargadero de Fresno"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Cargadero/2433/geometry> .
 
-georesource:1705  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/Cargadero/1705> a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         rdfs:label              "1705" ;
         geoes:codigoDeEstacion  "50206"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -601,7 +601,7 @@ georesource:1705  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-7.586386430000001 43.10045094011339)"^^geosparql:wktLiteral .
 
-georesource:1018  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
+<http://geo.linkeddata.es/recurso/Cargadero/1018> a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         rdfs:label              "1018" ;
         geoes:codigoDeEstacion  "78300"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -616,7 +616,7 @@ georesource:1018  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.5356117799999995 37.955573486732675)"^^geosparql:wktLiteral .
 
-georesource:1925  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
+<http://geo.linkeddata.es/recurso/Cargadero/1925> a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         rdfs:label              "1925" ;
         geoes:codigoDeEstacion  "4"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -631,7 +631,7 @@ georesource:1925  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.26252323 37.65648883642926)"^^geosparql:wktLiteral .
 
-georesource:733  a             geoes:InstalacionFerroviaria , geoes:Cargadero ;
+<http://geo.linkeddata.es/recurso/Cargadero/733> a             geoes:InstalacionFerroviaria , geoes:Cargadero ;
         rdfs:label              "733" ;
         geoes:codigoDeEstacion  "78500"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -642,7 +642,7 @@ georesource:733  a             geoes:InstalacionFerroviaria , geoes:Cargadero ;
         dc:title                "Cargadero de Cervera"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/Cargadero/733/geometry> .
 
-georesource:1680  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/Cargadero/1680> a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         rdfs:label              "1680" ;
         geoes:codigoDeEstacion  "50404"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -653,7 +653,7 @@ georesource:1680  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         dc:title                "Cargadero de Arjonilla"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/Cargadero/1680/geometry> .
 
-georesource:1812  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/Cargadero/1812> a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         rdfs:label              "1812" ;
         geoes:codigoDeEstacion  "51207"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -672,7 +672,7 @@ georesource:1812  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.1385295299999996 40.831653169072965)"^^geosparql:wktLiteral .
 
-georesource:1153  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
+<http://geo.linkeddata.es/recurso/Cargadero/1153> a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         rdfs:label              "1153" ;
         geoes:codigoDeEstacion  "70207"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -687,7 +687,7 @@ georesource:1153  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.428487999999998 38.566372137318766)"^^geosparql:wktLiteral .
 
-georesource:1486  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
+<http://geo.linkeddata.es/recurso/Cargadero/1486> a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         rdfs:label              "1486" ;
         geoes:codigoDeEstacion  "37210"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -698,7 +698,7 @@ georesource:1486  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         dc:title                "Cargadero de Calatrava Ave"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/Cargadero/1486/geometry> .
 
-georesource:1693  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
+<http://geo.linkeddata.es/recurso/Cargadero/1693> a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         rdfs:label              "1693" ;
         geoes:codigoDeEstacion  "56009"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -713,7 +713,7 @@ georesource:1693  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.5588117100000001 42.20471836979195)"^^geosparql:wktLiteral .
 
-georesource:1012  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/Cargadero/1012> a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         rdfs:label              "1012" ;
         geoes:codigoDeEstacion  "78202"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -727,7 +727,7 @@ georesource:1012  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.122177 38.22944095700111)"^^geosparql:wktLiteral .
 
-georesource:1678  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/Cargadero/1678> a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         rdfs:label              "1678" ;
         geoes:codigoDeEstacion  "50406"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -738,7 +738,7 @@ georesource:1678  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         dc:title                "Cargadero de Los Siles"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/Cargadero/1678/geometry> .
 
-georesource:2218  a           geoes:InstalacionFerroviaria , geoes:Cargadero ;
+<http://geo.linkeddata.es/recurso/Cargadero/2218> a           geoes:InstalacionFerroviaria , geoes:Cargadero ;
         rdfs:label             "2218" ;
         geoes:rutaTenT         <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         geoes:tipoDeTrafico    "0"^^xsd:int ;
@@ -759,7 +759,7 @@ georesource:2218  a           geoes:InstalacionFerroviaria , geoes:Cargadero ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.089394199999999 36.72442627541752)"^^geosparql:wktLiteral .
 
-georesource:1480  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/Cargadero/1480> a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         rdfs:label              "1480" ;
         geoes:codigoDeEstacion  "37701"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -770,7 +770,7 @@ georesource:1480  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         dc:title                "Cargadero de Brazatortas"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/Cargadero/1480/geometry> .
 
-georesource:712  a             geoes:Cargadero , geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/Cargadero/712> a             geoes:Cargadero , geoes:InstalacionFerroviaria ;
         rdfs:label              "712" ;
         geoes:codigoDeEstacion  "73003"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -801,7 +801,7 @@ georesource:712  a             geoes:Cargadero , geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.1707202 41.81757388961664)"^^geosparql:wktLiteral .
 
-georesource:1817  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/Cargadero/1817> a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         rdfs:label              "1817" ;
         geoes:codigoDeEstacion  "55019"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -812,7 +812,7 @@ georesource:1817  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         dc:title                "Cargadero de Los Barrios"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/Cargadero/1817/geometry> .
 
-georesource:1004  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
+<http://geo.linkeddata.es/recurso/Cargadero/1004> a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         rdfs:label              "1004" ;
         geoes:codigoDeEstacion  "78302"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -823,7 +823,7 @@ georesource:1004  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         dc:title                "Cargadero de Binéfar"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/Cargadero/1004/geometry> .
 
-georesource:1698  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
+<http://geo.linkeddata.es/recurso/Cargadero/1698> a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         rdfs:label              "1698" ;
         geoes:codigoDeEstacion  "56005"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -842,7 +842,7 @@ georesource:1698  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.231043329999999 38.00833288678509)"^^geosparql:wktLiteral .
 
-georesource:1017  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/Cargadero/1017> a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         rdfs:label              "1017" ;
         geoes:codigoDeEstacion  "78204"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -852,7 +852,7 @@ georesource:1017  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         dc:title                "Cargadero de Tormillo-Lastanosa"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/Cargadero/1017/geometry> .
 
-georesource:732  a             geoes:Cargadero , geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/Cargadero/732> a             geoes:Cargadero , geoes:InstalacionFerroviaria ;
         rdfs:label              "732" ;
         geoes:codigoDeEstacion  "78408"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -863,7 +863,7 @@ georesource:732  a             geoes:Cargadero , geoes:InstalacionFerroviaria ;
         dc:title                "Cargadero de Tarrega"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/Cargadero/732/geometry> .
 
-georesource:1811  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
+<http://geo.linkeddata.es/recurso/Cargadero/1811> a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         rdfs:label              "1811" ;
         geoes:codigoDeEstacion  "51206"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -878,7 +878,7 @@ georesource:1811  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.859042300000001 39.17238263785427)"^^geosparql:wktLiteral .
 
-georesource:717  a             geoes:InstalacionFerroviaria , geoes:Cargadero ;
+<http://geo.linkeddata.es/recurso/Cargadero/717> a             geoes:InstalacionFerroviaria , geoes:Cargadero ;
         rdfs:label              "717" ;
         geoes:codigoDeEstacion  "78401"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -893,7 +893,7 @@ georesource:717  a             geoes:InstalacionFerroviaria , geoes:Cargadero ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.7288318400000025 43.52956793022524)"^^geosparql:wktLiteral .
 
-georesource:1824  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
+<http://geo.linkeddata.es/recurso/Cargadero/1824> a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         rdfs:label              "1824" ;
         geoes:codigoDeEstacion  "55005"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -908,7 +908,7 @@ georesource:1824  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.2827092200000005 37.89220573666926)"^^geosparql:wktLiteral .
 
-georesource:1809  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/Cargadero/1809> a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         rdfs:label              "1809" ;
         geoes:codigoDeEstacion  "51400"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -931,7 +931,7 @@ georesource:1809  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.786167858120549 41.00479820094281)"^^geosparql:wktLiteral .
 
-georesource:711  a             geoes:Cargadero , geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/Cargadero/711> a             geoes:Cargadero , geoes:InstalacionFerroviaria ;
         rdfs:label              "711" ;
         geoes:codigoDeEstacion  "73002"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -942,7 +942,7 @@ georesource:711  a             geoes:Cargadero , geoes:InstalacionFerroviaria ;
         dc:title                "Cargadero de Juneda"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/Cargadero/711/geometry> .
 
-georesource:1009  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/Cargadero/1009> a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         rdfs:label              "1009" ;
         geoes:codigoDeEstacion  "74207"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -961,7 +961,7 @@ georesource:1009  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (0.1487814 41.90606453965863)"^^geosparql:wktLiteral .
 
-georesource:724  a             geoes:InstalacionFerroviaria , geoes:Cargadero ;
+<http://geo.linkeddata.es/recurso/Cargadero/724> a             geoes:InstalacionFerroviaria , geoes:Cargadero ;
         rdfs:label              "724" ;
         geoes:codigoDeEstacion  "75105"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -980,7 +980,7 @@ georesource:724  a             geoes:InstalacionFerroviaria , geoes:Cargadero ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.2831238999999998 41.88178815964722)"^^geosparql:wktLiteral .
 
-georesource:1477  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
+<http://geo.linkeddata.es/recurso/Cargadero/1477> a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         rdfs:label              "1477" ;
         geoes:codigoDeEstacion  "37702"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -991,7 +991,7 @@ georesource:1477  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         dc:title                "Cargadero de Venta de la Inés"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/Cargadero/1477/geometry> .
 
-georesource:599  a             geoes:Cargadero , geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/Cargadero/599> a             geoes:Cargadero , geoes:InstalacionFerroviaria ;
         rdfs:label              "599" ;
         geoes:codigoDeEstacion  "80008"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -1006,7 +1006,7 @@ georesource:599  a             geoes:Cargadero , geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (0.8254706357829004 41.54385510015405)"^^geosparql:wktLiteral .
 
-georesource:1157  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/Cargadero/1157> a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         rdfs:label              "1157" ;
         geoes:codigoDeEstacion  "70300"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -1017,7 +1017,7 @@ georesource:1157  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         dc:title                "Cargadero de Baides"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/Cargadero/1157/geometry> .
 
-georesource:1003  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/Cargadero/1003> a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         rdfs:label              "1003" ;
         geoes:codigoDeEstacion  "78301"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -1040,7 +1040,7 @@ georesource:1003  a            geoes:Cargadero , geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.5013565799999995 38.330849537098175)"^^geosparql:wktLiteral .
 
-georesource:1016  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
+<http://geo.linkeddata.es/recurso/Cargadero/1016> a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         rdfs:label              "1016" ;
         geoes:codigoDeEstacion  "74202"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -1054,7 +1054,7 @@ georesource:1016  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.3509270999999994 37.91353340669066)"^^geosparql:wktLiteral .
 
-georesource:1810  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
+<http://geo.linkeddata.es/recurso/Cargadero/1810> a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         rdfs:label              "1810" ;
         geoes:codigoDeEstacion  "51301"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -1065,7 +1065,7 @@ georesource:1810  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         dc:title                "Cargadero de El Portal"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/Cargadero/1810/geometry> .
 
-georesource:1151  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
+<http://geo.linkeddata.es/recurso/Cargadero/1151> a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         rdfs:label              "1151" ;
         geoes:codigoDeEstacion  "70204"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -1076,7 +1076,7 @@ georesource:1151  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         dc:title                "Cargadero de Humanes de Mohernando"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/Cargadero/1151/geometry> .
 
-georesource:1691  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
+<http://geo.linkeddata.es/recurso/Cargadero/1691> a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         rdfs:label              "1691" ;
         geoes:codigoDeEstacion  "50301"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -1087,7 +1087,7 @@ georesource:1691  a            geoes:InstalacionFerroviaria , geoes:Cargadero ;
         dc:title                "Cargadero de Las Madrigueras"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/Cargadero/1691/geometry> .
 
-georesource:716  a             geoes:InstalacionFerroviaria , geoes:Cargadero ;
+<http://geo.linkeddata.es/recurso/Cargadero/716> a             geoes:InstalacionFerroviaria , geoes:Cargadero ;
         rdfs:label              "716" ;
         geoes:codigoDeEstacion  "A7300"@es ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;

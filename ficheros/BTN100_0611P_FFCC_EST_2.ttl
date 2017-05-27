@@ -14,7 +14,7 @@
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.675135289999998 42.85407037003679)"^^geosparql:wktLiteral .
 
-georesource:389  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/389> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "389" ;
         geoes:codigoDeEstacion  "13002"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -28,7 +28,7 @@ georesource:389  a             geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-1.96380759993968 43.27239323301637)"^^geosparql:wktLiteral .
 
-georesource:810  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/810> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "810" ;
         geoes:codigoDeEstacion  "79604"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -47,7 +47,7 @@ georesource:810  a             geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.7460318328745164 42.851725737581816)"^^geosparql:wktLiteral .
 
-georesource:426  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/426> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "426" ;
         geoes:codigoDeEstacion  "13114"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -62,7 +62,7 @@ georesource:426  a             geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.26351615 42.93953166006438)"^^geosparql:wktLiteral .
 
-georesource:1521  a            geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/1521> a            geoes:InstalacionFerroviaria ;
         rdfs:label              "1521" ;
         geoes:codigoDeEstacion  "20106"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -73,7 +73,7 @@ georesource:1521  a            geoes:InstalacionFerroviaria ;
         dc:title                "Estación de La Granja"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/InstalacionFerroviaria/1521/geometry> .
 
-georesource:405  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/405> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "405" ;
         geoes:codigoDeEstacion  "11210"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -83,7 +83,7 @@ georesource:405  a             geoes:InstalacionFerroviaria ;
         dc:title                "Estación de Alegria-Dulantzi/Alegria-Dulantziko Tren Geltokia"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/InstalacionFerroviaria/405/geometry> .
 
-georesource:547  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/547> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "547" ;
         geoes:codigoDeEstacion  "11600"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -98,7 +98,7 @@ georesource:547  a             geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.9163334499999998 43.24229262015339)"^^geosparql:wktLiteral .
 
-georesource:881  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/881> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "881" ;
         geoes:codigoDeEstacion  "78710"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -109,7 +109,7 @@ georesource:881  a             geoes:InstalacionFerroviaria ;
         dc:title                "Apartador de Terrasa Este"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/InstalacionFerroviaria/881/geometry> .
 
-georesource:818  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/818> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "818" ;
         geoes:codigoDeEstacion  "77110"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -124,7 +124,7 @@ georesource:818  a             geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-1.95626149 43.29917479016858)"^^geosparql:wktLiteral .
 
-georesource:1529  a            geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/1529> a            geoes:InstalacionFerroviaria ;
         rdfs:label              "1529" ;
         geoes:codigoDeEstacion  "20006"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -139,7 +139,7 @@ georesource:1529  a            geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.549616363045199 41.577579947074035)"^^geosparql:wktLiteral .
 
-georesource:1508  a            geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/1508> a            geoes:InstalacionFerroviaria ;
         rdfs:label              "1508" ;
         geoes:codigoDeEstacion  "20201"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -154,7 +154,7 @@ georesource:1508  a            geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.06839351 42.55363707993122)"^^geosparql:wktLiteral .
 
-georesource:847  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/847> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "847" ;
         geoes:codigoDeEstacion  "71708"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -165,7 +165,7 @@ georesource:847  a             geoes:InstalacionFerroviaria ;
         dc:title                "Apartador de Bellvitge"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/InstalacionFerroviaria/847/geometry> .
 
-georesource:442  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/442> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "442" ;
         geoes:codigoDeEstacion  "13501"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -176,7 +176,7 @@ georesource:442  a             geoes:InstalacionFerroviaria ;
         dc:title                "Estación de Galindo/Galindoko Tren Geltokia"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/InstalacionFerroviaria/442/geometry> .
 
-georesource:797  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/797> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "797" ;
         geoes:codigoDeEstacion  "79102"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -195,7 +195,7 @@ georesource:797  a             geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.915642714480958 42.992751499444395)"^^geosparql:wktLiteral .
 
-georesource:926  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/926> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "926" ;
         geoes:codigoDeEstacion  "79005"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -206,7 +206,7 @@ georesource:926  a             geoes:InstalacionFerroviaria ;
         dc:title                "Apartador de Montcada i Reixac"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/InstalacionFerroviaria/926/geometry> .
 
-georesource:392  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/392> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "392" ;
         geoes:codigoDeEstacion  "13006"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -232,7 +232,7 @@ georesource:392  a             geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.010199770024335 43.30419406438728)"^^geosparql:wktLiteral .
 
-georesource:1524  a            geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/1524> a            geoes:InstalacionFerroviaria ;
         rdfs:label              "1524" ;
         geoes:codigoDeEstacion  "20104"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -243,7 +243,7 @@ georesource:1524  a            geoes:InstalacionFerroviaria ;
         dc:title                "Estación de Brañuelas"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/InstalacionFerroviaria/1524/geometry> .
 
-georesource:408  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/408> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "408" ;
         geoes:codigoDeEstacion  "11213"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -253,7 +253,7 @@ georesource:408  a             geoes:InstalacionFerroviaria ;
         dc:title                "Estación de Araia/Araiako Tren Geltokia"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/InstalacionFerroviaria/408/geometry> .
 
-georesource:913  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/913> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "913" ;
         geoes:codigoDeEstacion  "78800"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -264,7 +264,7 @@ georesource:913  a             geoes:InstalacionFerroviaria ;
         dc:title                "Apartador de Montcada-Bifurcacio"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/InstalacionFerroviaria/913/geometry> .
 
-georesource:529  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/529> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "529" ;
         geoes:codigoDeEstacion  "11503"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -275,7 +275,7 @@ georesource:529  a             geoes:InstalacionFerroviaria ;
         dc:title                "Estación de Elbarrena/Villabona-zizurkilgo tren geltokia"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/InstalacionFerroviaria/529/geometry> .
 
-georesource:821  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/821> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "821" ;
         geoes:codigoDeEstacion  "77113"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -286,7 +286,7 @@ georesource:821  a             geoes:InstalacionFerroviaria ;
         dc:title                "Apartador de Sant Quirze de Besora-Montesquiu"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/InstalacionFerroviaria/821/geometry> .
 
-georesource:1532  a            geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/1532> a            geoes:InstalacionFerroviaria ;
         rdfs:label              "1532" ;
         geoes:codigoDeEstacion  "20004"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -297,7 +297,7 @@ georesource:1532  a            geoes:InstalacionFerroviaria ;
         dc:title                "Estación de San Martin del Camino"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/InstalacionFerroviaria/1532/geometry> .
 
-georesource:1511  a            geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/1511> a            geoes:InstalacionFerroviaria ;
         rdfs:label              "1511" ;
         geoes:codigoDeEstacion  "20601"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -328,7 +328,7 @@ georesource:1511  a            geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.29491234 42.606681279950834)"^^geosparql:wktLiteral .
 
-georesource:516  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/516> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "516" ;
         geoes:codigoDeEstacion  "11404"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -339,7 +339,7 @@ georesource:516  a             geoes:InstalacionFerroviaria ;
         dc:title                "Estación de Beasain/Beasaingo tren geltokia"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/InstalacionFerroviaria/516/geometry> .
 
-georesource:850  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/850> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "850" ;
         geoes:codigoDeEstacion  "72205"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -358,7 +358,7 @@ georesource:850  a             geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.1998831000001617 41.51047039946216)"^^geosparql:wktLiteral .
 
-georesource:808  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/808> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "808" ;
         geoes:codigoDeEstacion  "79602"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -369,7 +369,7 @@ georesource:808  a             geoes:InstalacionFerroviaria ;
         dc:title                "Apartador de Sant Pol de Mar"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/InstalacionFerroviaria/808/geometry> .
 
-georesource:1561  a            geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/1561> a            geoes:InstalacionFerroviaria ;
         rdfs:label              "1561" ;
         geoes:codigoDeEstacion  "15012"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -384,7 +384,7 @@ georesource:1561  a            geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.9079525400000006 42.80296849001978)"^^geosparql:wktLiteral .
 
-georesource:929  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/929> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "929" ;
         geoes:codigoDeEstacion  "77004"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -395,7 +395,7 @@ georesource:929  a             geoes:InstalacionFerroviaria ;
         dc:title                "Apartador de Mollet-Santa Rosa"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/InstalacionFerroviaria/929/geometry> .
 
-georesource:566  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/566> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "566" ;
         geoes:codigoDeEstacion  "81106"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -405,7 +405,7 @@ georesource:566  a             geoes:InstalacionFerroviaria ;
         dc:title                "Estación de Feculas-Navarra"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/InstalacionFerroviaria/566/geometry> .
 
-georesource:837  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/837> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "837" ;
         geoes:codigoDeEstacion  "71703"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -416,7 +416,7 @@ georesource:837  a             geoes:InstalacionFerroviaria ;
         dc:title                "Apartador de Garraf"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/InstalacionFerroviaria/837/geometry> .
 
-georesource:1548  a            geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/1548> a            geoes:InstalacionFerroviaria ;
         rdfs:label              "1548" ;
         geoes:codigoDeEstacion  "15103"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -427,7 +427,7 @@ georesource:1548  a            geoes:InstalacionFerroviaria ;
         dc:title                "Estación de Santibañez"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/InstalacionFerroviaria/1548/geometry> .
 
-georesource:958  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/958> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "958" ;
         geoes:codigoDeEstacion  "65411"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -438,7 +438,7 @@ georesource:958  a             geoes:InstalacionFerroviaria ;
         dc:title                "Baixador de Port Aventura"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/InstalacionFerroviaria/958/geometry> .
 
-georesource:511  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/511> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "511" ;
         geoes:codigoDeEstacion  "11400"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -453,7 +453,7 @@ georesource:511  a             geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.0981102733577592 42.41112610102614)"^^geosparql:wktLiteral .
 
-georesource:1577  a            geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/1577> a            geoes:InstalacionFerroviaria ;
         rdfs:label              "1577" ;
         geoes:codigoDeEstacion  "15112"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -464,7 +464,7 @@ georesource:1577  a            geoes:InstalacionFerroviaria ;
         dc:title                "Estación de Villamanin"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/InstalacionFerroviaria/1577/geometry> .
 
-georesource:803  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/803> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "803" ;
         geoes:codigoDeEstacion  "79600"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -475,7 +475,7 @@ georesource:803  a             geoes:InstalacionFerroviaria ;
         dc:title                "Apartador de Arenys de Mar"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/InstalacionFerroviaria/803/geometry> .
 
-georesource:795  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/795> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "795" ;
         geoes:codigoDeEstacion  "77102"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -490,7 +490,7 @@ georesource:795  a             geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (1.9024356 41.25423620932292)"^^geosparql:wktLiteral .
 
-georesource:1514  a            geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/1514> a            geoes:InstalacionFerroviaria ;
         rdfs:label              "1514" ;
         geoes:codigoDeEstacion  "20113"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -501,7 +501,7 @@ georesource:1514  a            geoes:InstalacionFerroviaria ;
         dc:title                "Estación de San Miguel de Las Dueñas"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/InstalacionFerroviaria/1514/geometry> .
 
-georesource:540  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/540> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "540" ;
         geoes:codigoDeEstacion  "11508"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -520,7 +520,7 @@ georesource:540  a             geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.6245977179191047 41.60163736934626)"^^geosparql:wktLiteral .
 
-georesource:519  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/519> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "519" ;
         geoes:codigoDeEstacion  "11407"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -535,7 +535,7 @@ georesource:519  a             geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.820097987641278 42.476499690894954)"^^geosparql:wktLiteral .
 
-georesource:1543  a            geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/1543> a            geoes:InstalacionFerroviaria ;
         rdfs:label              "1543" ;
         geoes:codigoDeEstacion  "20003"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -546,7 +546,7 @@ georesource:1543  a            geoes:InstalacionFerroviaria ;
         dc:title                "Estación de Villadangos"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/InstalacionFerroviaria/1543/geometry> .
 
-georesource:1522  a            geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/1522> a            geoes:InstalacionFerroviaria ;
         rdfs:label              "1522" ;
         geoes:codigoDeEstacion  "20108"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -557,7 +557,7 @@ georesource:1522  a            geoes:InstalacionFerroviaria ;
         dc:title                "Estación de Albares"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/InstalacionFerroviaria/1522/geometry> .
 
-georesource:911  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/911> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "911" ;
         geoes:codigoDeEstacion  "78802"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -568,7 +568,7 @@ georesource:911  a             geoes:InstalacionFerroviaria ;
         dc:title                "Apartador de Sant Andreu Arenal"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/InstalacionFerroviaria/911/geometry> .
 
-georesource:548  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/548> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "548" ;
         geoes:codigoDeEstacion  "11602"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -587,7 +587,7 @@ georesource:548  a             geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.5806232187608735 41.58626726115845)"^^geosparql:wktLiteral .
 
-georesource:1572  a            geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/1572> a            geoes:InstalacionFerroviaria ;
         rdfs:label              "1572" ;
         geoes:codigoDeEstacion  "15108"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -598,7 +598,7 @@ georesource:1572  a            geoes:InstalacionFerroviaria ;
         dc:title                "Estación de La Pola de Gordon"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/InstalacionFerroviaria/1572/geometry> .
 
-georesource:435  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/435> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "435" ;
         geoes:codigoDeEstacion  "13505"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -609,7 +609,7 @@ georesource:435  a             geoes:InstalacionFerroviaria ;
         dc:title                "Estación de Putxeta/Putxetako Tren Geltokia"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/InstalacionFerroviaria/435/geometry> .
 
-georesource:385  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/385> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "385" ;
         geoes:codigoDeEstacion  "11202"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -623,7 +623,7 @@ georesource:385  a             geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.251403477474587 42.63060911788764)"^^geosparql:wktLiteral .
 
-georesource:848  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/848> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "848" ;
         geoes:codigoDeEstacion  "XX003"@es ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -638,7 +638,7 @@ georesource:848  a             geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.1800491649928353 41.47018769898611)"^^geosparql:wktLiteral .
 
-georesource:443  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/443> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "443" ;
         geoes:codigoDeEstacion  "13401"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -649,7 +649,7 @@ georesource:443  a             geoes:InstalacionFerroviaria ;
         dc:title                "Estación de Sestao/Sestaoko Tren Geltokia"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/InstalacionFerroviaria/443/geometry> .
 
-georesource:1559  a            geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/1559> a            geoes:InstalacionFerroviaria ;
         rdfs:label              "1559" ;
         geoes:codigoDeEstacion  "15014"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -660,7 +660,7 @@ georesource:1559  a            geoes:InstalacionFerroviaria ;
         dc:title                "Estación de Santas Martas"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/InstalacionFerroviaria/1559/geometry> .
 
-georesource:798  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/798> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "798" ;
         geoes:codigoDeEstacion  "77104"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -675,7 +675,7 @@ georesource:798  a             geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.49752276 42.46089843989594)"^^geosparql:wktLiteral .
 
-georesource:927  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/927> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "927" ;
         geoes:codigoDeEstacion  "79011"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -686,7 +686,7 @@ georesource:927  a             geoes:InstalacionFerroviaria ;
         dc:title                "Apartador de La Llagosta"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/InstalacionFerroviaria/927/geometry> .
 
-georesource:393  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/393> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "393" ;
         geoes:codigoDeEstacion  "13005"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -696,7 +696,7 @@ georesource:393  a             geoes:InstalacionFerroviaria ;
         dc:title                "Estación del camino de Lezama/Lezamarenbideko Tren Geltokia"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/InstalacionFerroviaria/393/geometry> .
 
-georesource:543  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/543> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "543" ;
         geoes:codigoDeEstacion  "11514"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -711,7 +711,7 @@ georesource:543  a             geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.9939535058575113 43.308498976795335)"^^geosparql:wktLiteral .
 
-georesource:2055  a            geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/2055> a            geoes:InstalacionFerroviaria ;
         rdfs:label              "2055" ;
         geoes:codigoDeEstacion  "31301"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -721,7 +721,7 @@ georesource:2055  a            geoes:InstalacionFerroviaria ;
         dc:replaces             "5703"^^xsd:int ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/InstalacionFerroviaria/2055/geometry> .
 
-georesource:522  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/522> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "522" ;
         geoes:codigoDeEstacion  "11500"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -744,7 +744,7 @@ georesource:522  a             geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.1410140680560343 43.08583617288942)"^^geosparql:wktLiteral .
 
-georesource:1546  a            geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/1546> a            geoes:InstalacionFerroviaria ;
         rdfs:label              "1546" ;
         geoes:codigoDeEstacion  "15017"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -763,7 +763,7 @@ georesource:1546  a            geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.74532206 42.521577309919174)"^^geosparql:wktLiteral .
 
-georesource:1504  a            geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/1504> a            geoes:InstalacionFerroviaria ;
         rdfs:label              "1504" ;
         geoes:codigoDeEstacion  "20205"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -778,7 +778,7 @@ georesource:1504  a            geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.2259544249964356 41.55615772665241)"^^geosparql:wktLiteral .
 
-georesource:551  a            geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/551> a            geoes:InstalacionFerroviaria ;
         rdfs:label             "551" ;
         geoes:rutaTenT         <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         geoes:tipoDeTrafico    <http://geo.linkeddata.es/kos/transportes/tipo-de-trafico/viajeros> ;
@@ -795,7 +795,7 @@ georesource:551  a            geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.524022129999999 42.58651938994342)"^^geosparql:wktLiteral .
 
-georesource:509  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/509> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "509" ;
         geoes:codigoDeEstacion  "11305"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -810,7 +810,7 @@ georesource:509  a             geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.9519302000000005 39.334749337989756)"^^geosparql:wktLiteral .
 
-georesource:1575  a            geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/1575> a            geoes:InstalacionFerroviaria ;
         rdfs:label              "1575" ;
         geoes:codigoDeEstacion  "15113"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -829,7 +829,7 @@ georesource:1575  a            geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.24740604 41.84188268962828)"^^geosparql:wktLiteral .
 
-georesource:1533  a            geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/1533> a            geoes:InstalacionFerroviaria ;
         rdfs:label              "1533" ;
         geoes:codigoDeEstacion  "20103"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -847,7 +847,7 @@ georesource:1533  a            geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.56013262 42.517098849917495)"^^geosparql:wktLiteral .
 
-georesource:388  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/388> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "388" ;
         geoes:codigoDeEstacion  "13001"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -857,7 +857,7 @@ georesource:388  a             geoes:InstalacionFerroviaria ;
         dc:title                "Estación de Pobes/Pobeseko Tren Geltokia"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/InstalacionFerroviaria/388/geometry> .
 
-georesource:2434  a           geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/2434> a           geoes:InstalacionFerroviaria ;
         rdfs:label             "2434" ;
         geoes:rutaTenT         <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         geoes:tipoDeTrafico    <http://geo.linkeddata.es/kos/transportes/tipo-de-trafico/mercancia> ;
@@ -889,7 +889,7 @@ georesource:2434  a           geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.320105407836118 43.08678558839492)"^^geosparql:wktLiteral .
 
-georesource:446  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/446> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "446" ;
         geoes:codigoDeEstacion  "13408"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -904,7 +904,7 @@ georesource:446  a             geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.2690611902380624 42.000051458162396)"^^geosparql:wktLiteral .
 
-georesource:1520  a            geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/1520> a            geoes:InstalacionFerroviaria ;
         rdfs:label              "1520" ;
         geoes:codigoDeEstacion  "20109"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -915,7 +915,7 @@ georesource:1520  a            geoes:InstalacionFerroviaria ;
         dc:title                "Estación de Torre del Bierzo"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/InstalacionFerroviaria/1520/geometry> .
 
-georesource:1470  a            geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/1470> a            geoes:InstalacionFerroviaria ;
         rdfs:label              "1470" ;
         geoes:codigoDeEstacion  "60404"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -954,7 +954,7 @@ georesource:1470  a            geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.3344885015557724 43.01907694909593)"^^geosparql:wktLiteral .
 
-georesource:804  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/804> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "804" ;
         geoes:codigoDeEstacion  "79601"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -965,7 +965,7 @@ georesource:804  a             geoes:InstalacionFerroviaria ;
         dc:title                "Apartador de Canet de Mar"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/InstalacionFerroviaria/804/geometry> .
 
-georesource:796  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/796> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "796" ;
         geoes:codigoDeEstacion  "79101"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -984,7 +984,7 @@ georesource:796  a             geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.118867308652649 42.60135450457539)"^^geosparql:wktLiteral .
 
-georesource:391  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/391> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "391" ;
         geoes:codigoDeEstacion  "13003"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -994,7 +994,7 @@ georesource:391  a             geoes:InstalacionFerroviaria ;
         dc:title                "Estación de Izarra/Izarrako Tren Geltokia"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/InstalacionFerroviaria/391/geometry> .
 
-georesource:896  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/896> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "896" ;
         geoes:codigoDeEstacion  "72301"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -1009,7 +1009,7 @@ georesource:896  a             geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.7939283600000016 42.524848239920416)"^^geosparql:wktLiteral .
 
-georesource:1544  a            geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/1544> a            geoes:InstalacionFerroviaria ;
         rdfs:label              "1544" ;
         geoes:codigoDeEstacion  "20002"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -1023,7 +1023,7 @@ georesource:1544  a            geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.1827360999999996 41.43186229942043)"^^geosparql:wktLiteral .
 
-georesource:1523  a            geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/1523> a            geoes:InstalacionFerroviaria ;
         rdfs:label              "1523" ;
         geoes:codigoDeEstacion  "20105"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -1033,7 +1033,7 @@ georesource:1523  a            geoes:InstalacionFerroviaria ;
         dc:title                "Estación de Folgoso"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/InstalacionFerroviaria/1523/geometry> .
 
-georesource:933  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/933> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "933" ;
         geoes:codigoDeEstacion  "77005"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -1048,7 +1048,7 @@ georesource:933  a             geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.05565473 43.189094160138765)"^^geosparql:wktLiteral .
 
-georesource:549  a            geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/549> a            geoes:InstalacionFerroviaria ;
         rdfs:label             "549" ;
         geoes:rutaTenT         <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         geoes:tipoDeTrafico    <http://geo.linkeddata.es/kos/transportes/tipo-de-trafico/mixto> ;
@@ -1057,7 +1057,7 @@ georesource:549  a            geoes:InstalacionFerroviaria ;
         dc:title               "Estación de Andoain/Andoaingo tren geltokia"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/InstalacionFerroviaria/549/geometry> .
 
-georesource:507  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/507> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "507" ;
         geoes:codigoDeEstacion  "11303"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -1068,7 +1068,7 @@ georesource:507  a             geoes:InstalacionFerroviaria ;
         dc:title                "Estación de Zegama/Zegama-otzaurteko tren geltokia"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/InstalacionFerroviaria/507/geometry> .
 
-georesource:820  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/820> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "820" ;
         geoes:codigoDeEstacion  "77111"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -1083,7 +1083,7 @@ georesource:820  a             geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.200953209999999 42.632843609960325)"^^geosparql:wktLiteral .
 
-georesource:1510  a            geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/1510> a            geoes:InstalacionFerroviaria ;
         rdfs:label              "1510" ;
         geoes:codigoDeEstacion  "20603"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -1098,7 +1098,7 @@ georesource:1510  a            geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.6583169370832165 42.93779619252416)"^^geosparql:wktLiteral .
 
-georesource:2432  a           geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/2432> a           geoes:InstalacionFerroviaria ;
         rdfs:label             "2432" ;
         geoes:rutaTenT         <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         geoes:tipoDeTrafico    <http://geo.linkeddata.es/kos/transportes/tipo-de-trafico/mercancia> ;
@@ -1106,7 +1106,7 @@ georesource:2432  a           geoes:InstalacionFerroviaria ;
         dc:identifier          "2432"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/InstalacionFerroviaria/2432/geometry> .
 
-georesource:536  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/536> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "536" ;
         geoes:codigoDeEstacion  "11507"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -1141,7 +1141,7 @@ georesource:536  a             geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (1.7254106000000002 41.37080903938743)"^^geosparql:wktLiteral .
 
-georesource:402  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/402> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "402" ;
         geoes:codigoDeEstacion  "11221"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -1151,7 +1151,7 @@ georesource:402  a             geoes:InstalacionFerroviaria ;
         dc:title                "Estación de Jundiz/Jundizeko Tren Geltokia"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/InstalacionFerroviaria/402/geometry> .
 
-georesource:394  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/394> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "394" ;
         geoes:codigoDeEstacion  "13004"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -1177,7 +1177,7 @@ georesource:394  a             geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.0300028799999157 43.30210194016935)"^^geosparql:wktLiteral .
 
-georesource:815  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/815> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "815" ;
         geoes:codigoDeEstacion  "77107"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -1188,7 +1188,7 @@ georesource:815  a             geoes:InstalacionFerroviaria ;
         dc:title                "Apartador de Balenya-Tona-Seva"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/InstalacionFerroviaria/815/geometry> .
 
-georesource:1547  a            geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/1547> a            geoes:InstalacionFerroviaria ;
         rdfs:label              "1547" ;
         geoes:codigoDeEstacion  "15015"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -1219,7 +1219,7 @@ georesource:1547  a            geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.091566861125189 43.31535444967414)"^^geosparql:wktLiteral .
 
-georesource:823  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/823> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "823" ;
         geoes:codigoDeEstacion  "72203"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -1238,7 +1238,7 @@ georesource:823  a             geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-1.7934759800002782 43.34479733018045)"^^geosparql:wktLiteral .
 
-georesource:439  a             geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/439> a             geoes:InstalacionFerroviaria ;
         rdfs:label              "439" ;
         geoes:codigoDeEstacion  "13503"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -1249,7 +1249,7 @@ georesource:439  a             geoes:InstalacionFerroviaria ;
         dc:title                "Estación de Trapagaran/Trapagarango Tren Geltokia"@es ;
         geosparql:hasGeometry   <http://geo.linkeddata.es/recurso/InstalacionFerroviaria/439/geometry> .
 
-georesource:1534  a            geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/1534> a            geoes:InstalacionFerroviaria ;
         rdfs:label              "1534" ;
         geoes:codigoDeEstacion  "20102"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -1264,7 +1264,7 @@ georesource:1534  a            geoes:InstalacionFerroviaria ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.35374914575441 41.636530374485474)"^^geosparql:wktLiteral .
 
-georesource:1513  a            geoes:InstalacionFerroviaria ;
+<http://geo.linkeddata.es/recurso/InstalacionFerroviaria/1513> a            geoes:InstalacionFerroviaria ;
         rdfs:label              "1513" ;
         geoes:codigoDeEstacion  "30216"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
