@@ -228,13 +228,19 @@ else{
     FECHA_ALTA = date2str(FECHA_ALTA, &quot;yyyy-MM-dd&quot;);
 }
 
-</jsScript_script>
+var identificador = &quot;DepositoDeCombustible-&quot; + ID;</jsScript_script>
       </jsScript>    </jsScripts>    <fields>      <field>        <name>FECHA_ALTA</name>
         <rename>FECHA_ALTA</rename>
         <type>String</type>
         <length>-1</length>
         <precision>-1</precision>
         <replace>Y</replace>
+      </field>      <field>        <name>identificador</name>
+        <rename>identificador</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
       </field>    </fields>     <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
       <xloc>134</xloc>
@@ -253,7 +259,7 @@ else{
            <method>none</method>
            <schema_name/>
            </partitioning>
-		<attributename>ID</attributename>
+		<attributename>identificador</attributename>
 		<feature>DepositoDeCombustible</feature>
 		<ontologyns>http://geo.linkeddata.es/ontology/</ontologyns>
 		<ontologynsprefix>geoes</ontologynsprefix>
@@ -273,10 +279,10 @@ else{
 		<column_shp>the_geom</column_shp>
 		</columns>
 		<columns>
-		<column>identifier</column>
-		<prefix>dc</prefix>
-		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
-		<show>YES</show>
+		<column>ID</column>
+		<prefix/>
+		<uri/>
+		<show>NO</show>
 		<column_shp>ID</column_shp>
 		</columns>
 		<columns>
@@ -306,6 +312,13 @@ else{
 		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
 		<show>YES</show>
 		<column_shp>FECHA_ALTA</column_shp>
+		</columns>
+		<columns>
+		<column>identificador</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>identificador</column_shp>
 		</columns>
 		</columns>
      <cluster_schema/>
