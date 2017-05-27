@@ -313,112 +313,112 @@ identificador =  etiq + &apos;-&apos; + ID
 		<column_shp>the_geom</column_shp>
 		</columns>
 		<columns>
-		<column>identifier</column>
-		<prefix>dc</prefix>
-		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<column>ID</column>
+		<prefix/>
+		<uri/>
 		<show>NO</show>
 		<column_shp>ID</column_shp>
-		</columns>
-		<columns>
-		<column>identifier</column>
-		<prefix>dc</prefix>
-		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
-		<show>YES</show>
-		<column_shp>ID_BD</column_shp>
 		</columns>
 		<columns>
 		<column>ID_BD</column>
 		<prefix/>
 		<uri/>
 		<show>NO</show>
-		<column_shp>ID_CODIGO</column_shp>
+		<column_shp>ID_BD</column_shp>
 		</columns>
 		<columns>
 		<column>ID_CODIGO</column>
 		<prefix/>
 		<uri/>
 		<show>NO</show>
-		<column_shp>ID_MOD</column_shp>
+		<column_shp>ID_CODIGO</column_shp>
 		</columns>
 		<columns>
 		<column>replaces</column>
 		<prefix>dc</prefix>
 		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
 		<show>YES</show>
-		<column_shp>FECHA_ALTA</column_shp>
+		<column_shp>ID_MOD</column_shp>
 		</columns>
 		<columns>
 		<column>created</column>
 		<prefix>dc</prefix>
 		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
 		<show>YES</show>
-		<column_shp>TIPO_1001</column_shp>
+		<column_shp>FECHA_ALTA</column_shp>
 		</columns>
 		<columns>
 		<column>TIPO_1001</column>
 		<prefix/>
 		<uri/>
 		<show>NO</show>
-		<column_shp>NUMERO</column_shp>
+		<column_shp>TIPO_1001</column_shp>
 		</columns>
 		<columns>
 		<column>numero</column>
 		<prefix>geoes</prefix>
 		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology&#47;</uri>
 		<show>YES</show>
-		<column_shp>HUSO</column_shp>
+		<column_shp>NUMERO</column_shp>
 		</columns>
 		<columns>
 		<column>huso</column>
 		<prefix>geoes</prefix>
 		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology&#47;</uri>
 		<show>YES</show>
-		<column_shp>X_ETRS89</column_shp>
+		<column_shp>HUSO</column_shp>
 		</columns>
 		<columns>
 		<column>xETRS89</column>
 		<prefix>geoes</prefix>
 		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology&#47;</uri>
 		<show>YES</show>
-		<column_shp>Y_ETRS89</column_shp>
+		<column_shp>X_ETRS89</column_shp>
 		</columns>
 		<columns>
 		<column>yETRS89</column>
 		<prefix>geoes</prefix>
 		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology&#47;</uri>
 		<show>YES</show>
-		<column_shp>LATITUD</column_shp>
+		<column_shp>Y_ETRS89</column_shp>
 		</columns>
 		<columns>
 		<column>lat</column>
 		<prefix>geo</prefix>
 		<uri>http:&#47;&#47;www.w3.org&#47;2003&#47;01&#47;geo&#47;wgs84_pos#</uri>
 		<show>YES</show>
-		<column_shp>LONGITUD</column_shp>
+		<column_shp>LATITUD</column_shp>
 		</columns>
 		<columns>
 		<column>long</column>
 		<prefix>geo</prefix>
 		<uri>http:&#47;&#47;www.w3.org&#47;2003&#47;01&#47;geo&#47;wgs84_pos#</uri>
 		<show>YES</show>
-		<column_shp>ALT_ORTOM</column_shp>
+		<column_shp>LONGITUD</column_shp>
 		</columns>
 		<columns>
 		<column>altitudOrtometrica</column>
 		<prefix>geoes</prefix>
 		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology&#47;</uri>
 		<show>YES</show>
-		<column_shp>ALT_ELIPS</column_shp>
+		<column_shp>ALT_ORTOM</column_shp>
 		</columns>
 		<columns>
 		<column>altitudElipsoidal</column>
 		<prefix>geoes</prefix>
 		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology&#47;</uri>
 		<show>YES</show>
-		<column_shp>ETIQUETA</column_shp>
+		<column_shp>ALT_ELIPS</column_shp>
 		</columns>
 		<columns>
 		<column>title</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>ETIQUETA</column_shp>
+		</columns>
+		<columns>
+		<column>identifier</column>
 		<prefix>dc</prefix>
 		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
 		<show>YES</show>
@@ -427,8 +427,8 @@ identificador =  etiq + &apos;-&apos; + ID
 		</columns>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>736</xloc>
-      <yloc>94</yloc>
+      <xloc>737</xloc>
+      <yloc>95</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -454,7 +454,7 @@ identificador =  etiq + &apos;-&apos; + ID
 		<uuidsactive>false</uuidsactive>
 		<fields>
 		</fields>
-		<columns>
+				<columns>
 		<columns>
 		<column>the_geom</column>
 		<prefix>n&#47;a</prefix>
@@ -463,112 +463,112 @@ identificador =  etiq + &apos;-&apos; + ID
 		<column_shp>the_geom</column_shp>
 		</columns>
 		<columns>
-		<column>identifier</column>
+		<column>ID</column>
 		<prefix/>
 		<uri/>
 		<show>NO</show>
 		<column_shp>ID</column_shp>
 		</columns>
 		<columns>
-		<column>identifier</column>
-		<prefix>dc</prefix>
-		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
-		<show>YES</show>
-		<column_shp>ID_BD</column_shp>
-		</columns>
-		<columns>
 		<column>ID_BD</column>
 		<prefix/>
 		<uri/>
 		<show>NO</show>
-		<column_shp>ID_CODIGO</column_shp>
+		<column_shp>ID_BD</column_shp>
 		</columns>
 		<columns>
 		<column>ID_CODIGO</column>
 		<prefix/>
 		<uri/>
 		<show>NO</show>
-		<column_shp>ID_MOD</column_shp>
+		<column_shp>ID_CODIGO</column_shp>
 		</columns>
 		<columns>
 		<column>replaces</column>
 		<prefix>dc</prefix>
 		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
 		<show>YES</show>
-		<column_shp>FECHA_ALTA</column_shp>
+		<column_shp>ID_MOD</column_shp>
 		</columns>
 		<columns>
 		<column>created</column>
 		<prefix>dc</prefix>
 		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
 		<show>YES</show>
-		<column_shp>TIPO_1001</column_shp>
+		<column_shp>FECHA_ALTA</column_shp>
 		</columns>
 		<columns>
 		<column>TIPO_1001</column>
 		<prefix/>
 		<uri/>
 		<show>NO</show>
-		<column_shp>NUMERO</column_shp>
+		<column_shp>TIPO_1001</column_shp>
 		</columns>
 		<columns>
 		<column>numero</column>
 		<prefix>geoes</prefix>
 		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology&#47;</uri>
 		<show>YES</show>
-		<column_shp>HUSO</column_shp>
+		<column_shp>NUMERO</column_shp>
 		</columns>
 		<columns>
 		<column>huso</column>
 		<prefix>geoes</prefix>
 		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology&#47;</uri>
 		<show>YES</show>
-		<column_shp>X_ETRS89</column_shp>
+		<column_shp>HUSO</column_shp>
 		</columns>
 		<columns>
 		<column>xETRS89</column>
 		<prefix>geoes</prefix>
 		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology&#47;</uri>
 		<show>YES</show>
-		<column_shp>Y_ETRS89</column_shp>
+		<column_shp>X_ETRS89</column_shp>
 		</columns>
 		<columns>
 		<column>yETRS89</column>
 		<prefix>geoes</prefix>
 		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology&#47;</uri>
 		<show>YES</show>
-		<column_shp>LATITUD</column_shp>
+		<column_shp>Y_ETRS89</column_shp>
 		</columns>
 		<columns>
 		<column>lat</column>
 		<prefix>geo</prefix>
 		<uri>http:&#47;&#47;www.w3.org&#47;2003&#47;01&#47;geo&#47;wgs84_pos#</uri>
 		<show>YES</show>
-		<column_shp>LONGITUD</column_shp>
+		<column_shp>LATITUD</column_shp>
 		</columns>
 		<columns>
 		<column>long</column>
 		<prefix>geo</prefix>
 		<uri>http:&#47;&#47;www.w3.org&#47;2003&#47;01&#47;geo&#47;wgs84_pos#</uri>
 		<show>YES</show>
-		<column_shp>ALT_ORTOM</column_shp>
+		<column_shp>LONGITUD</column_shp>
 		</columns>
 		<columns>
 		<column>altitudOrtometrica</column>
 		<prefix>geoes</prefix>
 		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology&#47;</uri>
 		<show>YES</show>
-		<column_shp>ALT_ELIPS</column_shp>
+		<column_shp>ALT_ORTOM</column_shp>
 		</columns>
 		<columns>
 		<column>altitudElipsoidal</column>
 		<prefix>geoes</prefix>
 		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology&#47;</uri>
 		<show>YES</show>
-		<column_shp>ETIQUETA</column_shp>
+		<column_shp>ALT_ELIPS</column_shp>
 		</columns>
 		<columns>
 		<column>title</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>ETIQUETA</column_shp>
+		</columns>
+		<columns>
+		<column>identifier</column>
 		<prefix>dc</prefix>
 		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
 		<show>YES</show>
@@ -604,7 +604,7 @@ identificador =  etiq + &apos;-&apos; + ID
 		<uuidsactive>false</uuidsactive>
 		<fields>
 		</fields>
-		<columns>
+				<columns>
 		<columns>
 		<column>the_geom</column>
 		<prefix>n&#47;a</prefix>
@@ -613,112 +613,112 @@ identificador =  etiq + &apos;-&apos; + ID
 		<column_shp>the_geom</column_shp>
 		</columns>
 		<columns>
-		<column>identifier</column>
+		<column>ID</column>
 		<prefix/>
 		<uri/>
 		<show>NO</show>
 		<column_shp>ID</column_shp>
 		</columns>
 		<columns>
-		<column>identifier</column>
-		<prefix>dc</prefix>
-		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
-		<show>YES</show>
-		<column_shp>ID_BD</column_shp>
-		</columns>
-		<columns>
 		<column>ID_BD</column>
 		<prefix/>
 		<uri/>
 		<show>NO</show>
-		<column_shp>ID_CODIGO</column_shp>
+		<column_shp>ID_BD</column_shp>
 		</columns>
 		<columns>
 		<column>ID_CODIGO</column>
 		<prefix/>
 		<uri/>
 		<show>NO</show>
-		<column_shp>ID_MOD</column_shp>
+		<column_shp>ID_CODIGO</column_shp>
 		</columns>
 		<columns>
 		<column>replaces</column>
 		<prefix>dc</prefix>
 		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
 		<show>YES</show>
-		<column_shp>FECHA_ALTA</column_shp>
+		<column_shp>ID_MOD</column_shp>
 		</columns>
 		<columns>
 		<column>created</column>
 		<prefix>dc</prefix>
 		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
 		<show>YES</show>
-		<column_shp>TIPO_1001</column_shp>
+		<column_shp>FECHA_ALTA</column_shp>
 		</columns>
 		<columns>
 		<column>TIPO_1001</column>
 		<prefix/>
 		<uri/>
 		<show>NO</show>
-		<column_shp>NUMERO</column_shp>
+		<column_shp>TIPO_1001</column_shp>
 		</columns>
 		<columns>
 		<column>numero</column>
 		<prefix>geoes</prefix>
 		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology&#47;</uri>
 		<show>YES</show>
-		<column_shp>HUSO</column_shp>
+		<column_shp>NUMERO</column_shp>
 		</columns>
 		<columns>
 		<column>huso</column>
 		<prefix>geoes</prefix>
 		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology&#47;</uri>
 		<show>YES</show>
-		<column_shp>X_ETRS89</column_shp>
+		<column_shp>HUSO</column_shp>
 		</columns>
 		<columns>
 		<column>xETRS89</column>
 		<prefix>geoes</prefix>
 		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology&#47;</uri>
 		<show>YES</show>
-		<column_shp>Y_ETRS89</column_shp>
+		<column_shp>X_ETRS89</column_shp>
 		</columns>
 		<columns>
 		<column>yETRS89</column>
 		<prefix>geoes</prefix>
 		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology&#47;</uri>
 		<show>YES</show>
-		<column_shp>LATITUD</column_shp>
+		<column_shp>Y_ETRS89</column_shp>
 		</columns>
 		<columns>
 		<column>lat</column>
 		<prefix>geo</prefix>
 		<uri>http:&#47;&#47;www.w3.org&#47;2003&#47;01&#47;geo&#47;wgs84_pos#</uri>
 		<show>YES</show>
-		<column_shp>LONGITUD</column_shp>
+		<column_shp>LATITUD</column_shp>
 		</columns>
 		<columns>
 		<column>long</column>
 		<prefix>geo</prefix>
 		<uri>http:&#47;&#47;www.w3.org&#47;2003&#47;01&#47;geo&#47;wgs84_pos#</uri>
 		<show>YES</show>
-		<column_shp>ALT_ORTOM</column_shp>
+		<column_shp>LONGITUD</column_shp>
 		</columns>
 		<columns>
 		<column>altitudOrtometrica</column>
 		<prefix>geoes</prefix>
 		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology&#47;</uri>
 		<show>YES</show>
-		<column_shp>ALT_ELIPS</column_shp>
+		<column_shp>ALT_ORTOM</column_shp>
 		</columns>
 		<columns>
 		<column>altitudElipsoidal</column>
 		<prefix>geoes</prefix>
 		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology&#47;</uri>
 		<show>YES</show>
-		<column_shp>ETIQUETA</column_shp>
+		<column_shp>ALT_ELIPS</column_shp>
 		</columns>
 		<columns>
 		<column>title</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>ETIQUETA</column_shp>
+		</columns>
+		<columns>
+		<column>identifier</column>
 		<prefix>dc</prefix>
 		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
 		<show>YES</show>
@@ -754,7 +754,7 @@ identificador =  etiq + &apos;-&apos; + ID
 		<uuidsactive>false</uuidsactive>
 		<fields>
 		</fields>
-		<columns>
+				<columns>
 		<columns>
 		<column>the_geom</column>
 		<prefix>n&#47;a</prefix>
@@ -763,112 +763,112 @@ identificador =  etiq + &apos;-&apos; + ID
 		<column_shp>the_geom</column_shp>
 		</columns>
 		<columns>
-		<column>identifier</column>
+		<column>ID</column>
 		<prefix/>
 		<uri/>
 		<show>NO</show>
 		<column_shp>ID</column_shp>
 		</columns>
 		<columns>
-		<column>identifier</column>
-		<prefix>dc</prefix>
-		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
-		<show>YES</show>
-		<column_shp>ID_BD</column_shp>
-		</columns>
-		<columns>
 		<column>ID_BD</column>
 		<prefix/>
 		<uri/>
 		<show>NO</show>
-		<column_shp>ID_CODIGO</column_shp>
+		<column_shp>ID_BD</column_shp>
 		</columns>
 		<columns>
 		<column>ID_CODIGO</column>
 		<prefix/>
 		<uri/>
 		<show>NO</show>
-		<column_shp>ID_MOD</column_shp>
+		<column_shp>ID_CODIGO</column_shp>
 		</columns>
 		<columns>
 		<column>replaces</column>
 		<prefix>dc</prefix>
 		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
 		<show>YES</show>
-		<column_shp>FECHA_ALTA</column_shp>
+		<column_shp>ID_MOD</column_shp>
 		</columns>
 		<columns>
 		<column>created</column>
 		<prefix>dc</prefix>
 		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
 		<show>YES</show>
-		<column_shp>TIPO_1001</column_shp>
+		<column_shp>FECHA_ALTA</column_shp>
 		</columns>
 		<columns>
 		<column>TIPO_1001</column>
 		<prefix/>
 		<uri/>
 		<show>NO</show>
-		<column_shp>NUMERO</column_shp>
+		<column_shp>TIPO_1001</column_shp>
 		</columns>
 		<columns>
 		<column>numero</column>
 		<prefix>geoes</prefix>
 		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology&#47;</uri>
 		<show>YES</show>
-		<column_shp>HUSO</column_shp>
+		<column_shp>NUMERO</column_shp>
 		</columns>
 		<columns>
 		<column>huso</column>
 		<prefix>geoes</prefix>
 		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology&#47;</uri>
 		<show>YES</show>
-		<column_shp>X_ETRS89</column_shp>
+		<column_shp>HUSO</column_shp>
 		</columns>
 		<columns>
 		<column>xETRS89</column>
 		<prefix>geoes</prefix>
 		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology&#47;</uri>
 		<show>YES</show>
-		<column_shp>Y_ETRS89</column_shp>
+		<column_shp>X_ETRS89</column_shp>
 		</columns>
 		<columns>
 		<column>yETRS89</column>
 		<prefix>geoes</prefix>
 		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology&#47;</uri>
 		<show>YES</show>
-		<column_shp>LATITUD</column_shp>
+		<column_shp>Y_ETRS89</column_shp>
 		</columns>
 		<columns>
 		<column>lat</column>
 		<prefix>geo</prefix>
 		<uri>http:&#47;&#47;www.w3.org&#47;2003&#47;01&#47;geo&#47;wgs84_pos#</uri>
 		<show>YES</show>
-		<column_shp>LONGITUD</column_shp>
+		<column_shp>LATITUD</column_shp>
 		</columns>
 		<columns>
 		<column>long</column>
 		<prefix>geo</prefix>
 		<uri>http:&#47;&#47;www.w3.org&#47;2003&#47;01&#47;geo&#47;wgs84_pos#</uri>
 		<show>YES</show>
-		<column_shp>ALT_ORTOM</column_shp>
+		<column_shp>LONGITUD</column_shp>
 		</columns>
 		<columns>
 		<column>altitudOrtometrica</column>
 		<prefix>geoes</prefix>
 		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology&#47;</uri>
 		<show>YES</show>
-		<column_shp>ALT_ELIPS</column_shp>
+		<column_shp>ALT_ORTOM</column_shp>
 		</columns>
 		<columns>
 		<column>altitudElipsoidal</column>
 		<prefix>geoes</prefix>
 		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology&#47;</uri>
 		<show>YES</show>
-		<column_shp>ETIQUETA</column_shp>
+		<column_shp>ALT_ELIPS</column_shp>
 		</columns>
 		<columns>
 		<column>title</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>ETIQUETA</column_shp>
+		</columns>
+		<columns>
+		<column>identifier</column>
 		<prefix>dc</prefix>
 		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
 		<show>YES</show>
@@ -878,7 +878,7 @@ identificador =  etiq + &apos;-&apos; + ID
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
       <xloc>735</xloc>
-      <yloc>207</yloc>
+      <yloc>206</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
