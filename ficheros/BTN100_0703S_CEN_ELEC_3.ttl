@@ -10,7 +10,7 @@
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
 @prefix dc:    <http://purl.org/dc/terms/> .
 
-georesource:126  a            geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/126> a            geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "126" ;
         dc:created             "2010-11-14"^^xsd:date ;
         dc:identifier          "126"^^xsd:int ;
@@ -21,14 +21,14 @@ georesource:126  a            geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-0.14995102 39.9691387684858, -0.14879474 39.96863172848544, -0.14785059 39.96815357848509, -0.14756021 39.96800772848496, -0.14781701 39.96770239848473, -0.1479966 39.96762333848468, -0.14830992 39.96758931848465, -0.1490450699999999 39.96784741848483, -0.1501624 39.968699258485486, -0.15018343 39.96884585848557, -0.14995102 39.9691387684858))"^^geosparql:wktLiteral .
 
-georesource:1781  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/1781> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "1781" ;
         dc:created             "2013-04-24"^^xsd:date ;
         dc:identifier          "1781"^^xsd:int ;
         dc:title               "Central Hidroeléctrica"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/1781/geometry> .
 
-georesource:2177  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/2177> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "2177" ;
         dc:created             "2013-02-13"^^xsd:date ;
         dc:identifier          "2177"^^xsd:int ;
@@ -55,21 +55,21 @@ georesource:2177  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-4.45945658 42.44238457988876, -4.459066199999999 42.442562779888824, -4.45889108 42.44245500988878, -4.458715960000001 42.44202393988862, -4.458810249999998 42.441808399888544, -4.459038949999999 42.44167844988848, -4.4593063699999975 42.44167504988848, -4.459516350000001 42.441816459888535, -4.45981288 42.44201981988862, -4.459863380000001 42.442100229888645, -4.45970933 42.44227328988873, -4.4596370300000014 42.442301229888734, -4.45945658 42.44238457988876))"^^geosparql:wktLiteral .
 
-georesource:2185  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/2185> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "2185" ;
         dc:created             "2013-05-09"^^xsd:date ;
         dc:identifier          "2185"^^xsd:int ;
         dc:title               "Central Hidroeléctrica de Prada"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/2185/geometry> .
 
-georesource:1747  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/1747> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "1747" ;
         dc:created             "2012-09-26"^^xsd:date ;
         dc:identifier          "1747"^^xsd:int ;
         dc:title               "Central Hidroeléctrica la Remolina"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/1747/geometry> .
 
-georesource:82  a             geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/82> a             geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "82" ;
         dc:created             "2011-12-27"^^xsd:date ;
         dc:identifier          "82"^^xsd:int ;
@@ -79,7 +79,7 @@ georesource:82  a             geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-0.5168579700000001 42.74369787999957, -0.5161776300000003 42.74375497999957, -0.5161013499999999 42.743473449999485, -0.51614137 42.74262222999918, -0.51675393 42.74257257999918, -0.5168579700000001 42.74369787999957))"^^geosparql:wktLiteral .
 
-georesource:405  a            geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/405> a            geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "405" ;
         dc:created             "2012-08-08"^^xsd:date ;
         dc:identifier          "405"^^xsd:int ;
@@ -101,13 +101,13 @@ georesource:405  a            geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-6.72908919 43.47909560021349, -6.72888935 43.47904176021348, -6.72876245 43.47877316021343, -6.729098769999999 43.47857768021338, -6.729686500000001 43.47831851021333, -6.73035988 43.47826460021329, -6.730635380000002 43.4782716302133, -6.731101990000001 43.478344520213305, -6.73245016 43.47826039021329, -6.73264176 43.478334250213315, -6.732716020000001 43.478468040213336, -6.732738829999999 43.47865959021338, -6.732551039999998 43.47882597021343, -6.730519449999999 43.47916705021351, -6.730141680000002 43.47913909021352, -6.729649509999999 43.479208930213524, -6.72940214 43.47920218021351, -6.72923151 43.47911876021351, -6.72908919 43.47909560021349))"^^geosparql:wktLiteral .
 
-georesource:1229  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/1229> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "1229" ;
         dc:created             "2012-07-18"^^xsd:date ;
         dc:identifier          "1229"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/1229/geometry> .
 
-georesource:2172  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/2172> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "2172" ;
         dc:created             "2013-02-13"^^xsd:date ;
         dc:identifier          "2172"^^xsd:int ;
@@ -118,7 +118,7 @@ georesource:2172  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((1.8864445800000007 41.883449629648005, 1.8860390100000004 41.88363500964812, 1.8861184100000001 41.884117759648305, 1.8860644300000005 41.88445047964847, 1.8860285999999995 41.88512562964879, 1.8860408699999995 41.88521919964883, 1.88604989 41.88528794964887, 1.8860747800000004 41.88537708964893, 1.8867629199999998 41.885284609648885, 1.8869135700000006 41.88519140964882, 1.8869893099999993 41.884691019648585, 1.8870596400000004 41.884073649648315, 1.8869995499999996 41.88367216964811, 1.8868461899999995 41.88349249964804, 1.88667591 41.883429599648004, 1.8864445800000007 41.883449629648005))"^^geosparql:wktLiteral .
 
-georesource:2038  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/2038> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "2038" ;
         dc:created             "2013-01-09"^^xsd:date ;
         dc:identifier          "2038"^^xsd:int ;
@@ -132,46 +132,46 @@ georesource:2038  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-5.839975479999999 42.822859290026436, -5.83949982 42.823022840026496, -5.838974020000001 42.82304590002649, -5.83823033 42.82302043002649, -5.838454440000001 42.82253753002634, -5.8388077900000015 42.82228904002625, -5.839326340000002 42.82195016002614, -5.839569320000002 42.822135900026204, -5.839585549999999 42.822490290026316, -5.839975479999999 42.822859290026436))"^^geosparql:wktLiteral .
 
-georesource:2159  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/2159> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "2159" ;
         dc:created             "2013-02-13"^^xsd:date ;
         dc:identifier          "2159"^^xsd:int ;
         dc:title               "Central Hidroeléctrica Las Conchas"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/2159/geometry> .
 
-georesource:56  a             geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/56> a             geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "56" ;
         dc:created             "2012-01-11"^^xsd:date ;
         dc:identifier          "56"^^xsd:int ;
         dc:title               "Central Hidroeléctrica"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/56/geometry> .
 
-georesource:1358  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/1358> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "1358" ;
         dc:created             "2013-01-25"^^xsd:date ;
         dc:identifier          "1358"^^xsd:int ;
         dc:title               "Central Eléctrica de Puente Nuevo"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/1358/geometry> .
 
-georesource:400  a            geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/400> a            geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "400" ;
         dc:created             "2012-08-30"^^xsd:date ;
         dc:identifier          "400"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/400/geometry> .
 
-georesource:2472  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/2472> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "2472" ;
         dc:created             "2013-01-25"^^xsd:date ;
         dc:identifier          "2472"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/2472/geometry> .
 
-georesource:1145  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/1145> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "1145" ;
         dc:created             "2012-02-06"^^xsd:date ;
         dc:identifier          "1145"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/1145/geometry> .
 
-georesource:1629  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/1629> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "1629" ;
         dc:created             "2012-06-18"^^xsd:date ;
         dc:identifier          "1629"^^xsd:int ;
@@ -182,7 +182,7 @@ georesource:1629  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-0.9323175600000004 39.24415778791458, -0.9319855900000003 39.24424952791467, -0.9312647900000003 39.24446373791484, -0.9308726099999999 39.24360184791412, -0.93130495 39.243492937914034, -0.9320363299999999 39.243308697913875, -0.9323175600000004 39.24415778791458))"^^geosparql:wktLiteral .
 
-georesource:2188  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/2188> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "2188" ;
         dc:created             "2013-05-09"^^xsd:date ;
         dc:identifier          "2188"^^xsd:int ;
@@ -209,7 +209,7 @@ georesource:2188  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((0.2743418899999999 41.36951317938671, 0.2746437400000001 41.36977721938685, 0.27653178 41.36925282938657, 0.2772188 41.36910499938647, 0.27862559 41.36813884938595, 0.2794510000000001 41.36738699938556, 0.2790605900000001 41.36706312938538, 0.2785414999999999 41.36689570938528, 0.27808829 41.366969379385324, 0.27767334 41.3672891693855, 0.27731867 41.36740007938557, 0.27635878 41.367929059385844, 0.27530816 41.36897959938642, 0.2743418899999999 41.36951317938671))"^^geosparql:wktLiteral .
 
-georesource:1111  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/1111> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "1111" ;
         dc:created             "2012-02-06"^^xsd:date ;
         dc:identifier          "1111"^^xsd:int ;
@@ -219,7 +219,7 @@ georesource:1111  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-3.5686619399999997 41.639719229528815, -3.56720543 41.64000833952897, -3.5670082899999995 41.639530929528725, -3.5674257099999998 41.63934565952864, -3.5675565199999992 41.6392846895286, -3.56844619 41.63917271952854, -3.568549960000001 41.63943556952869, -3.5686619399999997 41.639719229528815))"^^geosparql:wktLiteral .
 
-georesource:508  a            geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/508> a            geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "508" ;
         dc:created             "2012-05-24"^^xsd:date ;
         dc:identifier          "508"^^xsd:int ;
@@ -237,34 +237,34 @@ georesource:508  a            geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-5.058130140000001 43.14705411012688, -5.058455809999999 43.14732962012694, -5.058097360000001 43.14755534012701, -5.057662239999999 43.147886510127115, -5.05718113 43.148044550127146, -5.056929979999999 43.147844510127086, -5.0569670800000015 43.14756259012701, -5.0572317 43.14712316012689, -5.05776901 43.14683223012679, -5.058130140000001 43.14705411012688))"^^geosparql:wktLiteral .
 
-georesource:1758  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/1758> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "1758" ;
         dc:created             "2012-09-06"^^xsd:date ;
         dc:identifier          "1758"^^xsd:int ;
         dc:title               "Central eléctrica de Sorriba"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/1758/geometry> .
 
-georesource:1737  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/1737> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "1737" ;
         dc:created             "2012-02-03"^^xsd:date ;
         dc:identifier          "1737"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/1737/geometry> .
 
-georesource:792  a            geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/792> a            geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "792" ;
         dc:created             "2012-03-14"^^xsd:date ;
         dc:identifier          "792"^^xsd:int ;
         dc:title               "Central Eléctrica de Menuza"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/792/geometry> .
 
-georesource:51  a             geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/51> a             geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "51" ;
         dc:created             "2011-12-29"^^xsd:date ;
         dc:identifier          "51"^^xsd:int ;
         dc:title               "Central Hidroeléctrica de Vila-Real"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/51/geometry> .
 
-georesource:1353  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/1353> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "1353" ;
         dc:created             "2012-11-06"^^xsd:date ;
         dc:identifier          "1353"^^xsd:int ;
@@ -275,7 +275,7 @@ georesource:1353  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-2.0958430100000003 43.109734540116115, -2.09589793 43.10983130011614, -2.0959872899999996 43.10998874011617, -2.09590273 43.11028879011626, -2.095627860000001 43.11078265011642, -2.0953286800000006 43.11087196011645, -2.09492161 43.110800630116415, -2.09435562 43.11065400011638, -2.0944312199999997 43.110528530116326, -2.0949991200000015 43.10952450011604, -2.0955007000000005 43.10968156011609, -2.0958430100000003 43.109734540116115))"^^geosparql:wktLiteral .
 
-georesource:1161  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/1161> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "1161" ;
         dc:created             "2012-08-20"^^xsd:date ;
         dc:identifier          "1161"^^xsd:int ;
@@ -285,7 +285,7 @@ georesource:1161  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-8.158317670000002 42.39836272987147, -8.156671379999997 42.39813851987137, -8.15595974 42.39799326987131, -8.155641250000002 42.3976722298712, -8.15604507 42.3974998298711, -8.156332550000004 42.39747314987111, -8.15749063 42.39767853987117, -8.158420519999998 42.398028079871324, -8.158486160000002 42.39826917987142, -8.158317670000002 42.39836272987147))"^^geosparql:wktLiteral .
 
-georesource:708  a            geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/708> a            geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "708" ;
         dc:created             "2012-07-27"^^xsd:date ;
         dc:identifier          "708"^^xsd:int ;
@@ -299,7 +299,7 @@ georesource:708  a            geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-7.224217879999999 42.31460648983775, -7.224000450000001 42.31516375983798, -7.223755329999998 42.31530785983803, -7.223072809999997 42.31526101983801, -7.22266502 42.31515000983794, -7.222616010000003 42.315142809837965, -7.2219704 42.31510359983793, -7.221605539999999 42.31509003983793, -7.221451970000003 42.31478956983783, -7.221527949999997 42.31393138983747, -7.221600040000003 42.31373964983738, -7.222003 42.313778809837416, -7.2232373 42.31391335983745, -7.2234926800000006 42.31392194983745, -7.223832699999997 42.31392739983745, -7.224297980000002 42.31399126983751, -7.224319640000002 42.31431460983764, -7.224242080000001 42.31460559983775, -7.224217879999999 42.31460648983775))"^^geosparql:wktLiteral .
 
-georesource:2183  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/2183> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "2183" ;
         dc:created             "2013-02-13"^^xsd:date ;
         dc:identifier          "2183"^^xsd:int ;
@@ -310,21 +310,21 @@ georesource:2183  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-1.9414292999999998 42.70402923998574, -1.9419587400000007 42.70412555998577, -1.94198318 42.70422197998581, -1.9418550100000003 42.70477948998601, -1.9417785199999995 42.70500892998609, -1.9418019799999995 42.705163059986134, -1.9418049099999992 42.70550298998625, -1.9419834600000003 42.70574193998633, -1.94206724 42.7059286899864, -1.9420621999999996 42.70602012998644, -1.9416269300000004 42.70588934998642, -1.9411934299999998 42.705654879986305, -1.94105694 42.7054116199862, -1.94116377 42.704839669986015, -1.9411772600000001 42.704767429986, -1.9414292999999998 42.70402923998574))"^^geosparql:wktLiteral .
 
-georesource:2162  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/2162> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "2162" ;
         dc:created             "2009-02-05"^^xsd:date ;
         dc:identifier          "2162"^^xsd:int ;
         dc:title               "Subestación Eléctrica de Puente Bibei"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/2162/geometry> .
 
-georesource:1745  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/1745> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "1745" ;
         dc:created             "2012-09-26"^^xsd:date ;
         dc:identifier          "1745"^^xsd:int ;
         dc:title               "Central Hidroeléctrica de la Boca del Casar"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/1745/geometry> .
 
-georesource:80  a             geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/80> a             geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "80" ;
         dc:created             "2011-12-27"^^xsd:date ;
         dc:identifier          "80"^^xsd:int ;
@@ -338,20 +338,20 @@ georesource:80  a             geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-6.98554521 42.125632929757906, -6.985579789999999 42.12616507975815, -6.985602229999999 42.12651025975829, -6.985319290000002 42.12675734975841, -6.984817429999999 42.126746609758406, -6.984597279999998 42.12661337975834, -6.984545809999999 42.126234389758174, -6.984603589999998 42.125747049757955, -6.9850258000000025 42.125334379757795, -6.9852577899999995 42.12535945975779, -6.98554521 42.125632929757906))"^^geosparql:wktLiteral .
 
-georesource:59  a             geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/59> a             geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "59" ;
         dc:created             "2012-01-11"^^xsd:date ;
         dc:identifier          "59"^^xsd:int ;
         dc:title               "Central Hidroeléctrica"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/59/geometry> .
 
-georesource:403  a            geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/403> a            geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "403" ;
         dc:created             "2012-08-30"^^xsd:date ;
         dc:identifier          "403"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/403/geometry> .
 
-georesource:1824  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/1824> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "1824" ;
         dc:created             "2012-11-14"^^xsd:date ;
         dc:identifier          "1824"^^xsd:int ;
@@ -361,13 +361,13 @@ georesource:1824  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-5.086698920000001 42.93132799006178, -5.086962099999999 42.93149990006183, -5.08722891 42.93185099006195, -5.087237130000001 42.93209438006202, -5.086529930000001 42.93266930006221, -5.085936210000001 42.932830000062246, -5.085488100000001 42.932772600062236, -5.08541273 42.93270344006222, -5.0852248100000015 42.932531000062184, -5.08508889 42.93240628006213, -5.085027669999999 42.9323501000621, -5.085138330000001 42.93185163006197, -5.08534472 42.93194039006197, -5.08547466 42.931994080062, -5.085611349999998 42.932038290061996, -5.085827659999998 42.93201924006199, -5.086185610000002 42.93153280006185, -5.086329169999999 42.931475520061824, -5.08656233 42.93138249006179, -5.086698920000001 42.93132799006178))"^^geosparql:wktLiteral .
 
-georesource:2191  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/2191> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "2191" ;
         dc:created             "2013-05-09"^^xsd:date ;
         dc:identifier          "2191"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/2191/geometry> .
 
-georesource:1227  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/1227> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "1227" ;
         dc:created             "2012-07-17"^^xsd:date ;
         dc:identifier          "1227"^^xsd:int ;
@@ -377,20 +377,20 @@ georesource:1227  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-2.562353240000001 42.2967031898304, -2.56259334 42.29551875982991, -2.5635709000000007 42.29564216982996, -2.563580269999999 42.2967119198304, -2.5630601200000007 42.29682187983046, -2.562353240000001 42.2967031898304))"^^geosparql:wktLiteral .
 
-georesource:979  a            geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/979> a            geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "979" ;
         dc:created             "2012-07-05"^^xsd:date ;
         dc:identifier          "979"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/979/geometry> .
 
-georesource:787  a            geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/787> a            geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "787" ;
         dc:created             "2012-05-05"^^xsd:date ;
         dc:identifier          "787"^^xsd:int ;
         dc:title               "Central Hidroeléctrica Sotonera"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/787/geometry> .
 
-georesource:67  a             geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/67> a             geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "67" ;
         dc:created             "2012-05-09"^^xsd:date ;
         dc:identifier          "67"^^xsd:int ;
@@ -401,7 +401,7 @@ georesource:67  a             geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-8.059037689999998 42.25683620981388, -8.058630200000001 42.25723642981406, -8.05734704 42.25775228981428, -8.056244610000002 42.25723436981408, -8.05565099 42.25586085981348, -8.05760191 42.25491185981309, -8.059044469999998 42.256380059813694, -8.059037689999998 42.25683620981388))"^^geosparql:wktLiteral .
 
-georesource:46  a             geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/46> a             geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "46" ;
         dc:created             "2012-04-24"^^xsd:date ;
         dc:identifier          "46"^^xsd:int ;
@@ -419,7 +419,7 @@ georesource:46  a             geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-1.3435344600000003 39.20440273788126, -1.3436982300000002 39.204905997881674, -1.34316128 39.205338577882046, -1.3422825200000001 39.20537160788208, -1.3418473600000003 39.204878117881655, -1.3418907799999997 39.204607047881424, -1.3429951299999998 39.204106657881, -1.3435344600000003 39.20440273788126))"^^geosparql:wktLiteral .
 
-georesource:1135  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/1135> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "1135" ;
         dc:created             "2012-02-24"^^xsd:date ;
         dc:identifier          "1135"^^xsd:int ;
@@ -429,7 +429,7 @@ georesource:1135  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-1.47294406 39.189371307868605, -1.4723730500000003 39.18888540786819, -1.47269424 39.188631017867976, -1.4733233199999995 39.189176217868436, -1.47294406 39.189371307868605))"^^geosparql:wktLiteral .
 
-georesource:1782  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/1782> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "1782" ;
         dc:created             "2012-10-30"^^xsd:date ;
         dc:identifier          "1782"^^xsd:int ;
@@ -443,20 +443,20 @@ georesource:1782  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-7.279402570000003 42.34477490985002, -7.279479460000001 42.34453738984991, -7.280060720000002 42.3444588998499, -7.28065738 42.342355409849034, -7.282209360000002 42.342675749849164, -7.282054380000003 42.3430220998493, -7.282419510000002 42.34314087984934, -7.282221350000001 42.34360236984954, -7.283108099999997 42.34389081984965, -7.28203713 42.34614450985055, -7.2818854500000025 42.3462260498506, -7.279781510000004 42.34560452985034, -7.279238089999997 42.34511400985014, -7.279159609999998 42.34505807985012, -7.279402570000003 42.34477490985002))"^^geosparql:wktLiteral .
 
-georesource:774  a            geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/774> a            geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "774" ;
         dc:created             "2012-04-01"^^xsd:date ;
         dc:identifier          "774"^^xsd:int ;
         dc:title               "Central Hidroeléctrica de Ip"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/774/geometry> .
 
-georesource:2470  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/2470> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "2470" ;
         dc:created             "2009-02-05"^^xsd:date ;
         dc:identifier          "2470"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/2470/geometry> .
 
-georesource:1335  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/1335> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "1335" ;
         dc:created             "2012-11-06"^^xsd:date ;
         dc:identifier          "1335"^^xsd:int ;
@@ -470,13 +470,13 @@ georesource:1335  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-0.3278116599999999 42.792826410016346, -0.3276677200000001 42.793198090016475, -0.3272559299999999 42.79316682001646, -0.32712681 42.79280693001634, -0.32678064 42.792520770016246, -0.3262303400000001 42.79191645001607, -0.32648178 42.79185656001603, -0.3267949599999999 42.79190616001603, -0.32716363 42.79225331001616, -0.32740103 42.79247685001623, -0.32748591 42.792549110016274, -0.3278116599999999 42.792826410016346))"^^geosparql:wktLiteral .
 
-georesource:135  a            geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/135> a            geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "135" ;
         dc:created             "2012-04-27"^^xsd:date ;
         dc:identifier          "135"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/135/geometry> .
 
-georesource:2023  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/2023> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "2023" ;
         dc:created             "2013-01-11"^^xsd:date ;
         dc:identifier          "2023"^^xsd:int ;
@@ -486,7 +486,7 @@ georesource:2023  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-2.28434526 40.532954258881226, -2.2839637000000006 40.53311402888131, -2.28333027 40.533197848881365, -2.2828323400000006 40.53315819888136, -2.2825759299999997 40.53293722888121, -2.2822767600000002 40.53223338888073, -2.28240415 40.53197093888057, -2.28294717 40.53167952888037, -2.2829053600000004 40.53200515888059, -2.2838030500000004 40.53270524888106, -2.28434526 40.532954258881226))"^^geosparql:wktLiteral .
 
-georesource:2186  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/2186> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "2186" ;
         dc:created             "2013-05-09"^^xsd:date ;
         dc:identifier          "2186"^^xsd:int ;
@@ -505,19 +505,19 @@ georesource:2186  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-5.93128723 37.916766696693905, -5.930908979999999 37.916875126693995, -5.930607869999999 37.91694697669409, -5.93018324 37.916006726693155, -5.929911299999998 37.916310806693446, -5.929802560000001 37.91616946669331, -5.930119919999999 37.915483906692614, -5.93046333 37.915421736692565, -5.93064619 37.915571736692705, -5.9309914 37.91631606669345, -5.931213119999999 37.91641408669354, -5.93128723 37.916766696693905))"^^geosparql:wktLiteral .
 
-georesource:2478  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/2478> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "2478" ;
         dc:created             "2013-02-04"^^xsd:date ;
         dc:identifier          "2478"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/2478/geometry> .
 
-georesource:1130  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/1130> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "1130" ;
         dc:created             "2012-02-22"^^xsd:date ;
         dc:identifier          "1130"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/1130/geometry> .
 
-georesource:185  a            geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/185> a            geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "185" ;
         dc:created             "2012-06-02"^^xsd:date ;
         dc:identifier          "185"^^xsd:int ;
@@ -527,20 +527,20 @@ georesource:185  a            geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-0.56061435 40.087753318572574, -0.5612521600000001 40.08818085857289, -0.56205818 40.08842679857306, -0.56276632 40.08892736857343, -0.5622724100000001 40.08961542857393, -0.5617988999999999 40.089566138573886, -0.56027009 40.08896916857348, -0.5594861099999998 40.08866261857324, -0.55832505 40.088897628573406, -0.5575086699999999 40.08894146857343, -0.55705848 40.0887487985733, -0.55690888 40.08848614857311, -0.55664833 40.08807633857281, -0.5572732100000001 40.08774589857258, -0.5581711 40.08770886857255, -0.5583605399999998 40.08806583857279, -0.55868815 40.08815746857287, -0.55900268 40.08810055857283, -0.5594405399999999 40.08767916857253, -0.5597460300000001 40.08736086857231, -0.5600866000000002 40.08734686857228, -0.56061435 40.087753318572574))"^^geosparql:wktLiteral .
 
-georesource:1109  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/1109> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "1109" ;
         dc:created             "2012-02-06"^^xsd:date ;
         dc:identifier          "1109"^^xsd:int ;
         dc:title               "Central Hidroeléctrica de los Toriles"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/1109/geometry> .
 
-georesource:1230  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/1230> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "1230" ;
         dc:created             "2012-07-18"^^xsd:date ;
         dc:identifier          "1230"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/1230/geometry> .
 
-georesource:1756  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/1756> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "1756" ;
         dc:created             "2012-09-02"^^xsd:date ;
         dc:identifier          "1756"^^xsd:int ;
@@ -563,7 +563,7 @@ georesource:1756  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-2.1207271699999994 40.155578138621344, -2.1212254699999997 40.156136378621746, -2.12130638 40.156509758622, -2.1212731 40.156874948622274, -2.1209940500000006 40.157092098622435, -2.11923185 40.15856242862348, -2.11859971 40.15906900862385, -2.1179998700000007 40.15901407862381, -2.117637399999999 40.158842648623676, -2.1175862500000004 40.158554678623474, -2.11790237 40.15835417862333, -2.1188580199999993 40.157748048622885, -2.1191743400000007 40.157368148622645, -2.11935166 40.15698735862235, -2.11964603 40.156614678622084, -2.1203938100000004 40.155922618621595, -2.1207271699999994 40.155578138621344))"^^geosparql:wktLiteral .
 
-georesource:1117  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/1117> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "1117" ;
         dc:created             "2012-02-09"^^xsd:date ;
         dc:identifier          "1117"^^xsd:int ;
@@ -573,20 +573,20 @@ georesource:1117  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-6.580194100000003 37.721505636496126, -6.579855519999997 37.72194102649657, -6.579319860000003 37.721930746496554, -6.578930979999999 37.721842936496465, -6.57891692 37.72155110649617, -6.57818183 37.721459596496075, -6.57842662 37.721142286495734, -6.578614909999999 37.720836296495435, -6.57895445 37.72042080649502, -6.579348160000001 37.720435406495014, -6.5792626200000015 37.72091623649551, -6.57936533 37.721138946495756, -6.579899029999999 37.72128213649589, -6.580194100000003 37.721505636496126))"^^geosparql:wktLiteral .
 
-georesource:1977  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/1977> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "1977" ;
         dc:created             "2012-11-27"^^xsd:date ;
         dc:identifier          "1977"^^xsd:int ;
         dc:title               "Estación Transformadora Dehesa"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/1977/geometry> .
 
-georesource:2544  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/2544> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "2544" ;
         dc:created             "2012-03-14"^^xsd:date ;
         dc:identifier          "2544"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/2544/geometry> .
 
-georesource:2160  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/2160> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "2160" ;
         dc:created             "2013-02-13"^^xsd:date ;
         dc:identifier          "2160"^^xsd:int ;
@@ -601,45 +601,45 @@ georesource:2160  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-1.0946225699999999 39.248558347918255, -1.09398509 39.248644407918334, -1.0935136999999997 39.24734884791723, -1.09349103 39.24716656791709, -1.0934877599999997 39.24699901791696, -1.0934726500000005 39.24687235791685, -1.0933786499999998 39.24665512791667, -1.0933062299999998 39.246624927916635, -1.0932441299999995 39.246521007916556, -1.0939489400000004 39.2464406479165, -1.09437227 39.24714277791706, -1.09491116 39.24780809791763, -1.0958478999999999 39.24830513791805, -1.0954427000000004 39.248289437918025, -1.0952156099999997 39.24856708791827, -1.0946225699999999 39.248558347918255))"^^geosparql:wktLiteral .
 
-georesource:1188  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/1188> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "1188" ;
         dc:created             "2012-08-15"^^xsd:date ;
         dc:identifier          "1188"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/1188/geometry> .
 
-georesource:57  a             geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/57> a             geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "57" ;
         dc:created             "2012-01-11"^^xsd:date ;
         dc:identifier          "57"^^xsd:int ;
         dc:title               "Central Hidroeléctrica"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/57/geometry> .
 
-georesource:401  a            geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/401> a            geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "401" ;
         dc:created             "2012-08-30"^^xsd:date ;
         dc:identifier          "401"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/401/geometry> .
 
-georesource:2473  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/2473> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "2473" ;
         dc:created             "2013-01-28"^^xsd:date ;
         dc:identifier          "2473"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/2473/geometry> .
 
-georesource:36  a             geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/36> a             geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "36" ;
         dc:created             "2012-04-22"^^xsd:date ;
         dc:identifier          "36"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/36/geometry> .
 
-georesource:735  a            geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/735> a            geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "735" ;
         dc:created             "2012-08-23"^^xsd:date ;
         dc:identifier          "735"^^xsd:int ;
         dc:title               "Central Hidroeléctrica de Seròs"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/735/geometry> .
 
-georesource:1146  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/1146> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "1146" ;
         dc:created             "2012-11-03"^^xsd:date ;
         dc:identifier          "1146"^^xsd:int ;
@@ -653,7 +653,7 @@ georesource:1146  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-7.712471469999998 42.45081962989204, -7.712736560000004 42.45076433989204, -7.713082640000002 42.45107479989215, -7.713688360000003 42.45181902989242, -7.713979790000003 42.45206671989252, -7.714179020000002 42.452172529892565, -7.714182360000001 42.45227545989262, -7.713920679999999 42.45226642989261, -7.713619920000001 42.45220247989257, -7.713322729999999 42.45207498989254, -7.712928759999999 42.451524019892325, -7.712639790000001 42.45120670989219, -7.712471469999998 42.45081962989204))"^^geosparql:wktLiteral .
 
-georesource:1630  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/1630> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "1630" ;
         dc:created             "2012-08-09"^^xsd:date ;
         dc:identifier          "1630"^^xsd:int ;
@@ -667,14 +667,14 @@ georesource:1630  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-3.396893859999999 42.795280270017194, -3.39561325 42.7965069700176, -3.3950894699999994 42.796223300017516, -3.396367500000001 42.79496824001708, -3.396893859999999 42.795280270017194))"^^geosparql:wktLiteral .
 
-georesource:2189  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/2189> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "2189" ;
         dc:created             "2013-05-09"^^xsd:date ;
         dc:identifier          "2189"^^xsd:int ;
         dc:title               "Central Hidroeléctrica de Santiago"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/2189/geometry> .
 
-georesource:1225  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/1225> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "1225" ;
         dc:created             "2012-07-17"^^xsd:date ;
         dc:identifier          "1225"^^xsd:int ;
@@ -684,7 +684,7 @@ georesource:1225  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-7.234172220000002 42.37517188986222, -7.234016259999998 42.3751347698622, -7.233763539999998 42.37458441986198, -7.233808270000002 42.37428141986187, -7.233928490000002 42.37422099986185, -7.234232730000001 42.37435242986191, -7.23458426 42.37439268986192, -7.234723530000003 42.37432224986189, -7.235155509999997 42.374103789861785, -7.235470099999999 42.374598319861995, -7.23572733 42.37500267986214, -7.235571249999999 42.37503553986218, -7.235534910000002 42.37503688986217, -7.2354587399999994 42.375050469862174, -7.235341019999999 42.375071449862176, -7.234917809999997 42.375146889862215, -7.234505450000002 42.37518854986223, -7.234172220000002 42.37517188986222))"^^geosparql:wktLiteral .
 
-georesource:1033  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/1033> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "1033" ;
         dc:created             "2012-02-17"^^xsd:date ;
         dc:identifier          "1033"^^xsd:int ;
@@ -695,13 +695,13 @@ georesource:1033  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-0.31703772 40.77235709903589, -0.31629357 40.77276413903615, -0.31606525 40.77246515903596, -0.316177 40.77182169903554, -0.3171312000000001 40.771743529035504, -0.3173561 40.77194269903563, -0.31703772 40.77235709903589))"^^geosparql:wktLiteral .
 
-georesource:86  a             geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/86> a             geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "86" ;
         dc:created             "2012-01-10"^^xsd:date ;
         dc:identifier          "86"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/86/geometry> .
 
-georesource:1901  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/1901> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "1901" ;
         dc:created             "2013-03-13"^^xsd:date ;
         dc:identifier          "1901"^^xsd:int ;
@@ -719,7 +719,7 @@ georesource:1901  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-7.849173080000003 42.3586609898556, -7.8477457000000035 42.35856296985557, -7.847495260000001 42.358443029855515, -7.847645510000001 42.35779276985526, -7.847902259999999 42.35736913985508, -7.84795376 42.357321859855055, -7.848683979999998 42.35724321985505, -7.849260939999998 42.35736984985508, -7.849306140000001 42.35740605985509, -7.84960886 42.357648569855186, -7.849219679999999 42.35850636985555, -7.849173080000003 42.3586609898556))"^^geosparql:wktLiteral .
 
-georesource:1112  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/1112> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "1112" ;
         dc:created             "2012-02-06"^^xsd:date ;
         dc:identifier          "1112"^^xsd:int ;
@@ -729,13 +729,13 @@ georesource:1112  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-3.417666259999999 40.03943629853746, -3.4175774000000003 40.04035127853812, -3.4168245999999995 40.04080406853846, -3.416145129999999 40.04089361853853, -3.4156789600000006 40.04142794853892, -3.415543550000001 40.04137888853888, -3.4152354199999992 40.04128466853883, -3.41578342 40.04043032853818, -3.41574194 40.03982069853773, -3.414890460000001 40.03957693853758, -3.41499878 40.03874899853697, -3.417361660000001 40.03904539853718, -3.417666259999999 40.03943629853746))"^^geosparql:wktLiteral .
 
-georesource:509  a            geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/509> a            geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "509" ;
         dc:created             "2012-05-24"^^xsd:date ;
         dc:identifier          "509"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/509/geometry> .
 
-georesource:1780  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/1780> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "1780" ;
         dc:created             "2013-03-20"^^xsd:date ;
         dc:identifier          "1780"^^xsd:int ;
@@ -753,7 +753,7 @@ georesource:1780  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-6.48858062 42.33791323984723, -6.488275070000003 42.33793012984723, -6.487892039999998 42.337843579847195, -6.4874474100000015 42.33774310984717, -6.4872832700000025 42.337361549847, -6.487572080000001 42.337041989846895, -6.488331030000001 42.33682711984678, -6.488662390000002 42.33717552984693, -6.488751639999999 42.33768064984712, -6.48858062 42.33791323984723))"^^geosparql:wktLiteral .
 
-georesource:1312  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/1312> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "1312" ;
         dc:created             "2008-05-29"^^xsd:date ;
         dc:identifier          "1312"^^xsd:int ;
@@ -764,7 +764,7 @@ georesource:1312  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-4.423146049999999 42.85677716003767, -4.4225879400000006 42.856906410037716, -4.42145282 42.8570974400378, -4.421029300000001 42.856689790037656, -4.420977720000001 42.8565343300376, -4.4212326399999995 42.85654332003761, -4.422229949999998 42.8565061700376, -4.422464409999999 42.85644518003756, -4.422896070000001 42.85629180003752, -4.4231712000000005 42.85618837003749, -4.4231524 42.856601270037636, -4.423146049999999 42.85677716003767))"^^geosparql:wktLiteral .
 
-georesource:1120  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/1120> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "1120" ;
         dc:created             "2012-02-18"^^xsd:date ;
         dc:identifier          "1120"^^xsd:int ;
@@ -786,39 +786,39 @@ georesource:1120  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-1.5557558999999996 42.02460330971308, -1.5561192900000003 42.02447290971303, -1.55675602 42.024945519713256, -1.5570179799999997 42.02514638971334, -1.55761917 42.02560735971354, -1.5578144099999995 42.025933549713706, -1.5576170499999995 42.02634112971387, -1.5566424000000003 42.02626123971386, -1.5557758600000002 42.025712609713615, -1.5553156500000003 42.025135489713335, -1.5557558999999996 42.02460330971308))"^^geosparql:wktLiteral .
 
-georesource:2547  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/2547> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "2547" ;
         dc:created             "2012-03-15"^^xsd:date ;
         dc:identifier          "2547"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/2547/geometry> .
 
-georesource:2184  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/2184> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "2184" ;
         dc:created             "2013-02-28"^^xsd:date ;
         dc:identifier          "2184"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/2184/geometry> .
 
-georesource:1746  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/1746> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "1746" ;
         dc:created             "2010-08-11"^^xsd:date ;
         dc:identifier          "1746"^^xsd:int ;
         dc:title               "Central Hidroeléctrica del Cabrito"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/1746/geometry> .
 
-georesource:60  a             geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/60> a             geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "60" ;
         dc:created             "2012-01-12"^^xsd:date ;
         dc:identifier          "60"^^xsd:int ;
         dc:title               "Central Hidroeléctrica"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/60/geometry> .
 
-georesource:404  a            geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/404> a            geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "404" ;
         dc:created             "2012-08-30"^^xsd:date ;
         dc:identifier          "404"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/404/geometry> .
 
-georesource:2476  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/2476> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "2476" ;
         dc:created             "2013-01-28"^^xsd:date ;
         dc:identifier          "2476"^^xsd:int ;
@@ -840,7 +840,7 @@ georesource:2476  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-8.113237220000002 42.29100560982806, -8.11374422 42.29112698982812, -8.114290370000003 42.29128261982817, -8.114589790000002 42.2913862598282, -8.11478936 42.291305309828196, -8.115032450000001 42.291312439828204, -8.115336680000004 42.29132584982818, -8.11521862 42.291664229828335, -8.115245419999999 42.29167514982832, -8.11555722 42.29180212982839, -8.115866539999999 42.291878329828414, -8.116013700000002 42.291898739828426, -8.115873669999997 42.29226512982857, -8.115834510000001 42.292230869828565, -8.1157771 42.29235200982862, -8.114934620000001 42.29219909982856, -8.114568940000002 42.29277363982878, -8.11440688 42.2928005698288, -8.11430604 42.292821409828804, -8.113946210000003 42.292720459828764, -8.114086980000002 42.29236304982861, -8.113501660000003 42.29217315982854, -8.113385 42.29213820982852, -8.11271985 42.29193894982844, -8.112666500000001 42.291340129828185, -8.112569800000001 42.29116294982812, -8.113237220000002 42.29100560982806))"^^geosparql:wktLiteral .
 
-georesource:1825  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/1825> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "1825" ;
         dc:created             "2012-11-14"^^xsd:date ;
         dc:identifier          "1825"^^xsd:int ;
@@ -850,7 +850,7 @@ georesource:1825  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-3.690133949999998 36.812850405517686, -3.68970648 36.81327787551817, -3.6889209599999995 36.8129486955178, -3.68927244 36.812474285517254, -3.69004409 36.812378585517145, -3.690133949999998 36.812850405517686))"^^geosparql:wktLiteral .
 
-georesource:1228  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/1228> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "1228" ;
         dc:created             "2012-07-17"^^xsd:date ;
         dc:identifier          "1228"^^xsd:int ;
@@ -860,7 +860,7 @@ georesource:1228  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-6.39038204 43.29402404016724, -6.389847239999998 43.29291604016695, -6.39080685 43.292406350166786, -6.39208065 43.29182419016664, -6.39397041 43.29115019016647, -6.394688199999999 43.29101785016644, -6.3959718699999994 43.29114696016648, -6.398084779999998 43.29183405016667, -6.3979466999999985 43.2924494501668, -6.39628282 43.2927270101669, -6.395333889999998 43.292911150166944, -6.39200837 43.293556370167124, -6.39038204 43.29402404016724))"^^geosparql:wktLiteral .
 
-georesource:128  a            geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/128> a            geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "128" ;
         dc:created             "2012-05-22"^^xsd:date ;
         dc:identifier          "128"^^xsd:int ;
@@ -871,13 +871,13 @@ georesource:128  a            geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-1.6262870199999997 39.70590259828645, -1.62561191 39.70606840828656, -1.6246597300000005 39.70610100828662, -1.62430077 39.70486815828564, -1.62307838 39.70420645828513, -1.6234258900000003 39.70387052828487, -1.6243278199999995 39.70422127828515, -1.6244396399999996 39.70420201828512, -1.6256388400000001 39.70399546828498, -1.6269350499999993 39.70549990828613, -1.6262870199999997 39.70590259828645))"^^geosparql:wktLiteral .
 
-georesource:1783  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/1783> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "1783" ;
         dc:created             "2012-10-30"^^xsd:date ;
         dc:identifier          "1783"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/1783/geometry> .
 
-georesource:2521  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/2521> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "2521" ;
         dc:created             "2012-02-16"^^xsd:date ;
         dc:identifier          "2521"^^xsd:int ;
@@ -887,21 +887,21 @@ georesource:2521  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-3.049155149999999 42.7562629000039, -3.04900649 42.756651130004016, -3.04898578 42.75672076000406, -3.04888782 42.75705011000415, -3.047879810000001 42.75691906000412, -3.0479025599999994 42.75616263000385, -3.0473786100000004 42.756147640003846, -3.0474303400000005 42.75596818000378, -3.04748714 42.75577108000371, -3.04764804 42.755212820003536, -3.0478235200000006 42.75546272000362, -3.048388369999999 42.7554785000036, -3.0484425099999997 42.75525434000354, -3.049007439999999 42.75536617000357, -3.0492900300000003 42.755582170003656, -3.0495662100000005 42.755521890003635, -3.0495449700000004 42.75557858000365, -3.0493797500000004 42.755722290003696, -3.049287980000001 42.75588947000375, -3.049155149999999 42.7562629000039))"^^geosparql:wktLiteral .
 
-georesource:775  a            geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/775> a            geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "775" ;
         dc:created             "2012-04-08"^^xsd:date ;
         dc:identifier          "775"^^xsd:int ;
         dc:title               "Central Hidroeléctrica de La Sarra"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/775/geometry> .
 
-georesource:1357  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/1357> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "1357" ;
         dc:created             "2012-11-19"^^xsd:date ;
         dc:identifier          "1357"^^xsd:int ;
         dc:title               "Central del Zaburdón"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/1357/geometry> .
 
-georesource:2471  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/2471> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "2471" ;
         dc:created             "2013-02-06"^^xsd:date ;
         dc:identifier          "2471"^^xsd:int ;
@@ -915,7 +915,7 @@ georesource:2471  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-4.442776230000001 40.41256956880043, -4.442251069999999 40.41318535880086, -4.44146616 40.412870048800634, -4.4406867100000005 40.412815348800606, -4.440141989999999 40.41219893880019, -4.44128731 40.41166894879984, -4.442776230000001 40.41256956880043))"^^geosparql:wktLiteral .
 
-georesource:712  a            geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/712> a            geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "712" ;
         dc:created             "2012-04-26"^^xsd:date ;
         dc:identifier          "712"^^xsd:int ;
@@ -925,7 +925,7 @@ georesource:712  a            geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-2.2684156299999994 39.884252838422526, -2.2662000000000004 39.885892058423764, -2.26445708 39.88648466842421, -2.2644368500000005 39.886298218424066, -2.2644177900000004 39.88612230842393, -2.2644225400000004 39.88594052842381, -2.26446515 39.88578375842367, -2.26461845 39.8854142484234, -2.2644543600000007 39.88529382842331, -2.26441003 39.8852612884233, -2.2643463700000006 39.88517546842322, -2.2643671599999995 39.88511662842319, -2.2644390700000003 39.88507181842316, -2.265357939999999 39.88492203842303, -2.265482369999999 39.884889398423006, -2.2658033700000004 39.88480502842294, -2.2670407999999997 39.88428181842256, -2.26767348 39.884166488422466, -2.2684156299999994 39.884252838422526))"^^geosparql:wktLiteral .
 
-georesource:2187  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/2187> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "2187" ;
         dc:created             "2013-05-09"^^xsd:date ;
         dc:identifier          "2187"^^xsd:int ;
@@ -940,27 +940,27 @@ georesource:2187  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-3.96492587 41.42824702941848, -3.9647539000000003 41.42805998941839, -3.9650271200000002 41.42796869941832, -3.9655696800000007 41.42824692941847, -3.9654204299999996 41.429193699419, -3.9648179899999985 41.429173119418984, -3.96470661 41.42861368941868, -3.96474461 41.42837762941855, -3.96492587 41.42824702941848))"^^geosparql:wktLiteral .
 
-georesource:84  a             geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/84> a             geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "84" ;
         dc:created             "2011-12-28"^^xsd:date ;
         dc:identifier          "84"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/84/geometry> .
 
-georesource:783  a            geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/783> a            geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "783" ;
         dc:created             "2012-05-17"^^xsd:date ;
         dc:identifier          "783"^^xsd:int ;
         dc:title               "Central Hidroeléctrica de Ariéstolas"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/783/geometry> .
 
-georesource:741  a            geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/741> a            geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "741" ;
         dc:created             "2012-04-18"^^xsd:date ;
         dc:identifier          "741"^^xsd:int ;
         dc:title               "Central Hidroeléctrica de Balsareny"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/741/geometry> .
 
-georesource:1131  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/1131> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "1131" ;
         dc:created             "2012-02-22"^^xsd:date ;
         dc:identifier          "1131"^^xsd:int ;
@@ -970,7 +970,7 @@ georesource:1131  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-6.220095949999999 43.317167060173304, -6.220053659999999 43.31701296017326, -6.219713269999999 43.316905630173224, -6.21986559 43.316540170173134, -6.22023759 43.31649519017312, -6.22084486 43.31669904017318, -6.221071100000001 43.316875620173235, -6.22070446 43.317343930173344, -6.22046469 43.31773428017345, -6.220167419999999 43.31776307017347, -6.219855770000001 43.31756640017342, -6.220095949999999 43.317167060173304))"^^geosparql:wktLiteral .
 
-georesource:1807  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/1807> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "1807" ;
         dc:created             "2012-11-01"^^xsd:date ;
         dc:identifier          "1807"^^xsd:int ;
@@ -984,7 +984,7 @@ georesource:1807  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-2.13218021 40.09681391857913, -2.12951462 40.097304128579495, -2.1281069900000005 40.09791849857996, -2.1277372600000004 40.098274928580196, -2.12729639 40.09830184858021, -2.1262931000000003 40.097760448579834, -2.1260536200000004 40.097534708579666, -2.12621696 40.09693814857921, -2.1255350199999996 40.096682418579036, -2.1247529500000004 40.09682499857913, -2.1246874800000004 40.09656007857895, -2.1251063800000005 40.096113708578635, -2.126074429999999 40.095803708578394, -2.128553590000001 40.095795938578405, -2.129933400000001 40.095594778578274, -2.1307300400000004 40.095834168578435, -2.13176527 40.095943998578505, -2.1320519599999996 40.096184298578684, -2.13218021 40.09681391857913))"^^geosparql:wktLiteral .
 
-georesource:1757  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/1757> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "1757" ;
         dc:created             "2012-09-02"^^xsd:date ;
         dc:identifier          "1757"^^xsd:int ;
@@ -1003,7 +1003,7 @@ georesource:1757  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-4.629906689999999 37.95499401673209, -4.629935369999999 37.95531748673242, -4.62994103 37.955381366732475, -4.629977670000001 37.955794676732886, -4.629288420000001 37.95595189673305, -4.62862216 37.95602026673312, -4.628470149999999 37.95561225673271, -4.628447659999999 37.955551876732656, -4.62832657 37.95522685673233, -4.629906689999999 37.95499401673209))"^^geosparql:wktLiteral .
 
-georesource:1139  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/1139> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "1139" ;
         dc:created             "2012-02-24"^^xsd:date ;
         dc:identifier          "1139"^^xsd:int ;
@@ -1021,7 +1021,7 @@ georesource:1139  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-7.089928509999999 42.391925029868915, -7.08982117 42.39274305986922, -7.089090089999997 42.39390566986969, -7.0887325400000005 42.39385384986965, -7.08808464 42.39345726986951, -7.0879968500000015 42.39334443986945, -7.088261499999997 42.39311023986939, -7.089322470000002 42.39225712986902, -7.08978456 42.391894789868886, -7.089928509999999 42.391925029868915))"^^geosparql:wktLiteral .
 
-georesource:2182  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/2182> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "2182" ;
         dc:created             "2013-02-26"^^xsd:date ;
         dc:identifier          "2182"^^xsd:int ;
@@ -1032,14 +1032,14 @@ georesource:2182  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-0.2792734099999999 40.01748044852139, -0.2788186300000001 40.01808697852184, -0.2783439 40.0179024385217, -0.2779705899999999 40.01775053852159, -0.2775423900000002 40.017618828521506, -0.2776355200000001 40.01742212852135, -0.2772504200000001 40.017206538521194, -0.2776150600000001 40.0168090385209, -0.2779330100000001 40.01676182852087, -0.2788578999999999 40.017268628521244, -0.2792734099999999 40.01748044852139))"^^geosparql:wktLiteral .
 
-georesource:1765  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/1765> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "1765" ;
         dc:created             "2012-09-16"^^xsd:date ;
         dc:identifier          "1765"^^xsd:int ;
         dc:title               "Central Hidraúlica Mora de Luna"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/1765/geometry> .
 
-georesource:2161  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/2161> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "2161" ;
         dc:created             "2013-02-13"^^xsd:date ;
         dc:identifier          "2161"^^xsd:int ;
@@ -1054,14 +1054,14 @@ georesource:2161  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-0.6725952000000002 42.10399543974843, -0.6723362300000001 42.104495649748664, -0.6722291099999999 42.10487298974883, -0.6716441799999999 42.10474582974876, -0.6705796000000002 42.104571499748694, -0.6688931499999998 42.10441442974862, -0.66891043 42.10428686974856, -0.66898314 42.10375001974835, -0.66913301 42.103775609748354, -0.6697164400000001 42.10387521974838, -0.6705727700000002 42.10386898974837, -0.6715232799999997 42.10369132974831, -0.6725952000000002 42.10399543974843))"^^geosparql:wktLiteral .
 
-georesource:58  a             geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/58> a             geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "58" ;
         dc:created             "2012-01-11"^^xsd:date ;
         dc:identifier          "58"^^xsd:int ;
         dc:title               "Central Hidroeléctrica del Júcar"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/58/geometry> .
 
-georesource:402  a            geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/402> a            geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "402" ;
         dc:created             "2012-08-30"^^xsd:date ;
         dc:identifier          "402"^^xsd:int ;
@@ -1080,13 +1080,13 @@ georesource:402  a            geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-0.8504365799999997 39.60000303820365, -0.8509670300000002 39.59998271820364, -0.8511096000000001 39.600332548203916, -0.8514075299999999 39.60043473820398, -0.8512881299999999 39.60062150820415, -0.8508268800000003 39.600656918204166, -0.8508447500000001 39.600446298204005, -0.8505838500000001 39.60043267820399, -0.8503731000000002 39.60045075820398, -0.8503772300000001 39.600868328204335, -0.84975727 39.60089200820433, -0.8494733100000001 39.600283148203864, -0.8499586100000001 39.60014202820377, -0.8504365799999997 39.60000303820365))"^^geosparql:wktLiteral .
 
-georesource:1823  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/1823> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "1823" ;
         dc:created             "2012-11-14"^^xsd:date ;
         dc:identifier          "1823"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/1823/geometry> .
 
-georesource:160  a            geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/160> a            geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "160" ;
         dc:created             "2012-05-04"^^xsd:date ;
         dc:identifier          "160"^^xsd:int ;
@@ -1100,13 +1100,13 @@ georesource:160  a            geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-4.54541941 41.860980559637376, -4.545139260000001 41.86100028963735, -4.545043800000001 41.86045371963713, -4.54497354 41.860247779637014, -4.54492519 41.86005082963694, -4.54483506 41.85987506963684, -4.54471111 41.85973233963678, -4.544761140000001 41.85965225963673, -4.545143310000001 41.85951201963667, -4.545244240000001 41.85954302963669, -4.545302699999999 41.85962695963673, -4.545458929999999 41.86011120963695, -4.54546565 41.86039032963707, -4.54547865 41.860930549637345, -4.54541941 41.860980559637376))"^^geosparql:wktLiteral .
 
-georesource:1226  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/1226> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "1226" ;
         dc:created             "2012-07-17"^^xsd:date ;
         dc:identifier          "1226"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/CentralHidraulica/1226/geometry> .
 
-georesource:87  a             geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/87> a             geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "87" ;
         dc:created             "2012-01-11"^^xsd:date ;
         dc:identifier          "87"^^xsd:int ;
@@ -1116,7 +1116,7 @@ georesource:87  a             geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((0.19434653 41.9679469596873, 0.19539608 41.96756106968714, 0.1968796600000001 41.96699926968689, 0.19808052 41.96685760968682, 0.19833114 41.966806799686786, 0.19795518 41.96608093968647, 0.1977222300000001 41.96573972968631, 0.19591671 41.96603786968643, 0.19469151 41.965879829686365, 0.1943729 41.96693818968684, 0.19434653 41.9679469596873))"^^geosparql:wktLiteral .
 
-georesource:2482  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/2482> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "2482" ;
         dc:created             "2013-02-19"^^xsd:date ;
         dc:identifier          "2482"^^xsd:int ;
@@ -1142,7 +1142,7 @@ georesource:2482  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-1.0964400199999995 39.72572903830179, -1.09518798 39.72451742830086, -1.09532732 39.72440807830077, -1.0954786700000003 39.72428929830068, -1.0961410499999995 39.72456221830088, -1.0973217700000002 39.725048708301266, -1.0971688199999998 39.72516671830135, -1.09693348 39.72534829830149, -1.0964400199999995 39.72572903830179))"^^geosparql:wktLiteral .
 
-georesource:1113  a           geoes:CentralElectrica , geoes:CentralHidraulica ;
+<http://geo.linkeddata.es/recurso/CentralHidraulica/1113> a           geoes:CentralElectrica , geoes:CentralHidraulica ;
         rdfs:label             "1113" ;
         dc:created             "2012-02-06"^^xsd:date ;
         dc:identifier          "1113"^^xsd:int ;

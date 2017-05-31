@@ -10,7 +10,7 @@
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
 @prefix dc:    <http://purl.org/dc/terms/> .
 
-georesource:5711  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/5711> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "5711" ;
         dc:created             "2012-02-03"^^xsd:date ;
         dc:identifier          "5711"^^xsd:int ;
@@ -18,7 +18,7 @@ georesource:5711  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         dc:title               "Balneario el Cristo"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/5711/geometry> .
 
-georesource:2695  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/2695> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "2695" ;
         dc:created             "2012-03-18"^^xsd:date ;
         dc:identifier          "2695"^^xsd:int ;
@@ -29,7 +29,7 @@ georesource:2695  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-1.72568405 39.754941728324305)"^^geosparql:wktLiteral .
 
-georesource:6107  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/6107> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "6107" ;
         dc:created             "2006-07-24"^^xsd:date ;
         dc:identifier          "6107"^^xsd:int ;
@@ -37,7 +37,7 @@ georesource:6107  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         dc:title               "Balneario"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/6107/geometry> .
 
-georesource:1539  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/1539> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "1539" ;
         dc:created             "2006-07-14"^^xsd:date ;
         dc:identifier          "1539"^^xsd:int ;
@@ -49,7 +49,7 @@ georesource:1539  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.7563177899999998 42.11653914975393)"^^geosparql:wktLiteral .
 
-georesource:121  a            geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/121> a            geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "121" ;
         dc:created             "2012-02-22"^^xsd:date ;
         dc:identifier          "121"^^xsd:int ;
@@ -61,7 +61,7 @@ georesource:121  a            geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-7.798432970000005 42.65883214996971)"^^geosparql:wktLiteral .
 
-georesource:1276  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/1276> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "1276" ;
         dc:created             "2012-06-01"^^xsd:date ;
         dc:identifier          "1276"^^xsd:int ;
@@ -76,14 +76,14 @@ georesource:1276  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.3977987 38.779342037512265)"^^geosparql:wktLiteral .
 
-georesource:6470  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/6470> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "6470" ;
         dc:created             "2008-07-11"^^xsd:date ;
         dc:identifier          "6470"^^xsd:int ;
         dc:title               "Balneario de San Nicolás"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/6470/geometry> .
 
-georesource:1718  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/1718> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "1718" ;
         dc:created             "2006-07-27"^^xsd:date ;
         dc:identifier          "1718"^^xsd:int ;
@@ -95,7 +95,7 @@ georesource:1718  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-8.89368465 42.1015934397474)"^^geosparql:wktLiteral .
 
-georesource:8827  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/8827> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "8827" ;
         dc:created             "2013-05-26"^^xsd:date ;
         dc:identifier          "8827"^^xsd:int ;
@@ -110,7 +110,7 @@ georesource:8827  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.223813259999998 39.25967432792752)"^^geosparql:wktLiteral .
 
-georesource:9599  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/9599> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "9599" ;
         dc:created             "2006-08-10"^^xsd:date ;
         dc:identifier          "9599"^^xsd:int ;
@@ -118,7 +118,7 @@ georesource:9599  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         dc:title               "Balneario do Incio"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/9599/geometry> .
 
-georesource:5961  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/5961> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "5961" ;
         dc:created             "2006-07-27"^^xsd:date ;
         dc:identifier          "5961"^^xsd:int ;
@@ -126,14 +126,14 @@ georesource:5961  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         dc:title               "Balneario de Lierganes"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/5961/geometry> .
 
-georesource:9749  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/9749> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "9749" ;
         dc:created             "2013-05-15"^^xsd:date ;
         dc:identifier          "9749"^^xsd:int ;
         dc:title               "Balneario das Augas Santas"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/9749/geometry> .
 
-georesource:5706  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/5706> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "5706" ;
         dc:created             "2006-07-26"^^xsd:date ;
         dc:identifier          "5706"^^xsd:int ;
@@ -141,14 +141,14 @@ georesource:5706  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         dc:title               "Balneario Hervideros de la Fuensanta"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/5706/geometry> .
 
-georesource:1534  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/1534> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "1534" ;
         dc:created             "2010-10-05"^^xsd:date ;
         dc:identifier          "1534"^^xsd:int ;
         dc:title               "Balneario"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/1534/geometry> .
 
-georesource:7045  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/7045> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "7045" ;
         dc:created             "2012-11-14"^^xsd:date ;
         dc:identifier          "7045"^^xsd:int ;
@@ -164,7 +164,7 @@ georesource:7045  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.9313891000000005 42.66602522997227)"^^geosparql:wktLiteral .
 
-georesource:4855  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/4855> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "4855" ;
         dc:created             "2010-07-17"^^xsd:date ;
         dc:identifier          "4855"^^xsd:int ;
@@ -191,7 +191,7 @@ georesource:4855  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-7.670587289999999 42.24293376980807)"^^geosparql:wktLiteral .
 
-georesource:3841  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/3841> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "3841" ;
         dc:created             "2012-03-15"^^xsd:date ;
         dc:identifier          "3841"^^xsd:int ;
@@ -206,7 +206,7 @@ georesource:3841  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.6723244000000004 41.84657063963053)"^^geosparql:wktLiteral .
 
-georesource:6110  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/6110> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "6110" ;
         dc:created             "2006-07-24"^^xsd:date ;
         dc:identifier          "6110"^^xsd:int ;
@@ -218,7 +218,7 @@ georesource:6110  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.427626400000001 37.020021655748984)"^^geosparql:wktLiteral .
 
-georesource:7032  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/7032> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "7032" ;
         dc:created             "2006-07-24"^^xsd:date ;
         dc:identifier          "7032"^^xsd:int ;
@@ -226,14 +226,14 @@ georesource:7032  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         dc:title               "Balneario de Fuente Amarga"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/7032/geometry> .
 
-georesource:10304  a          geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/10304> a          geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "10304" ;
         dc:created             "2012-04-03"^^xsd:date ;
         dc:identifier          "10304"^^xsd:int ;
         dc:title               "Balneario Baños del Sagrario"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/10304/geometry> .
 
-georesource:7921  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/7921> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "7921" ;
         dc:created             "2007-04-01"^^xsd:date ;
         dc:identifier          "7921"^^xsd:int ;
@@ -252,7 +252,7 @@ georesource:7921  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-1.04297045 40.13375518860574)"^^geosparql:wktLiteral .
 
-georesource:9594  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/9594> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "9594" ;
         dc:created             "2007-07-30"^^xsd:date ;
         dc:identifier          "9594"^^xsd:int ;
@@ -267,7 +267,7 @@ georesource:9594  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.857837589999999 40.31725646873506)"^^geosparql:wktLiteral .
 
-georesource:1721  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/1721> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "1721" ;
         dc:created             "2012-05-14"^^xsd:date ;
         dc:identifier          "1721"^^xsd:int ;
@@ -287,7 +287,7 @@ georesource:1721  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.360817020000001 39.5067455781295)"^^geosparql:wktLiteral .
 
-georesource:1316  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/1316> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "1316" ;
         dc:created             "2012-05-22"^^xsd:date ;
         dc:identifier          "1316"^^xsd:int ;
@@ -295,7 +295,7 @@ georesource:1316  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         dc:title               "Terlekiz Bainuetxea"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/1316/geometry> .
 
-georesource:3899  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/3899> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "3899" ;
         dc:created             "2012-03-14"^^xsd:date ;
         dc:identifier          "3899"^^xsd:int ;
@@ -303,7 +303,7 @@ georesource:3899  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         dc:title               "Balneario de Serón"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/3899/geometry> .
 
-georesource:4295  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/4295> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "4295" ;
         dc:created             "2012-02-17"^^xsd:date ;
         dc:identifier          "4295"^^xsd:int ;
@@ -311,7 +311,7 @@ georesource:4295  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         dc:title               "Balneario de Solán de Cabras"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/4295/geometry> .
 
-georesource:1437  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/1437> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "1437" ;
         dc:created             "2012-04-27"^^xsd:date ;
         dc:identifier          "1437"^^xsd:int ;
@@ -323,7 +323,7 @@ georesource:1437  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-1.8883674900000003 41.18688936928476)"^^geosparql:wktLiteral .
 
-georesource:7816  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/7816> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "7816" ;
         dc:created             "2012-10-25"^^xsd:date ;
         dc:identifier          "7816"^^xsd:int ;
@@ -335,7 +335,7 @@ georesource:7816  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.0044525699999998 43.00954654008618)"^^geosparql:wktLiteral .
 
-georesource:5709  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/5709> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "5709" ;
         dc:created             "2012-02-03"^^xsd:date ;
         dc:identifier          "5709"^^xsd:int ;
@@ -343,14 +343,14 @@ georesource:5709  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         dc:title               "Balneario Cervantes"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/5709/geometry> .
 
-georesource:7432  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/7432> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "7432" ;
         dc:created             "2006-07-24"^^xsd:date ;
         dc:identifier          "7432"^^xsd:int ;
         dc:title               "Baños del Arenosillo"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/7432/geometry> .
 
-georesource:2317  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/2317> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "2317" ;
         dc:created             "2012-02-24"^^xsd:date ;
         dc:identifier          "2317"^^xsd:int ;
@@ -378,7 +378,7 @@ georesource:2317  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-18.104935180000002 27.756189542168308)"^^geosparql:wktLiteral .
 
-georesource:119  a            geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/119> a            geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "119" ;
         dc:created             "2012-02-22"^^xsd:date ;
         dc:identifier          "119"^^xsd:int ;
@@ -386,7 +386,7 @@ georesource:119  a            geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         dc:title               "Balneari de San Antonio"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/119/geometry> .
 
-georesource:4858  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/4858> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "4858" ;
         dc:created             "2012-06-14"^^xsd:date ;
         dc:identifier          "4858"^^xsd:int ;
@@ -398,7 +398,7 @@ georesource:4858  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-1.9512446600000004 42.00635501970484)"^^geosparql:wktLiteral .
 
-georesource:8433  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/8433> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "8433" ;
         dc:created             "2010-03-31"^^xsd:date ;
         dc:identifier          "8433"^^xsd:int ;
@@ -409,14 +409,14 @@ georesource:8433  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-7.88237917 43.174655540134694)"^^geosparql:wktLiteral .
 
-georesource:3481  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/3481> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "3481" ;
         dc:created             "2010-09-02"^^xsd:date ;
         dc:identifier          "3481"^^xsd:int ;
         dc:title               "Balneari Les Masies"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/3481/geometry> .
 
-georesource:2325  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/2325> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "2325" ;
         dc:created             "2012-02-24"^^xsd:date ;
         dc:identifier          "2325"^^xsd:int ;
@@ -424,7 +424,7 @@ georesource:2325  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         dc:title               "Balneari"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/2325/geometry> .
 
-georesource:5525  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/5525> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "5525" ;
         dc:created             "2007-09-06"^^xsd:date ;
         dc:identifier          "5525"^^xsd:int ;
@@ -436,14 +436,14 @@ georesource:5525  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.30407648 38.63018938737736)"^^geosparql:wktLiteral .
 
-georesource:1716  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/1716> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "1716" ;
         dc:created             "2012-05-14"^^xsd:date ;
         dc:identifier          "1716"^^xsd:int ;
         dc:title               "Balneario"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/1716/geometry> .
 
-georesource:6468  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/6468> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "6468" ;
         dc:created             "2008-04-10"^^xsd:date ;
         dc:identifier          "6468"^^xsd:int ;
@@ -454,7 +454,7 @@ georesource:6468  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.396685919999999 36.960602745683126)"^^geosparql:wktLiteral .
 
-georesource:7924  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/7924> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "7924" ;
         dc:created             "2013-02-13"^^xsd:date ;
         dc:identifier          "7924"^^xsd:int ;
@@ -466,21 +466,21 @@ georesource:7924  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.3161685200000006 40.509944038865925)"^^geosparql:wktLiteral .
 
-georesource:4169  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/4169> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "4169" ;
         dc:created             "2012-04-02"^^xsd:date ;
         dc:identifier          "4169"^^xsd:int ;
         dc:title               "Balneario de Camarena"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/4169/geometry> .
 
-georesource:8825  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/8825> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "8825" ;
         dc:created             "2013-05-26"^^xsd:date ;
         dc:identifier          "8825"^^xsd:int ;
         dc:title               "Balneario Acuña"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/8825/geometry> .
 
-georesource:9597  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/9597> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "9597" ;
         dc:created             "2006-08-10"^^xsd:date ;
         dc:identifier          "9597"^^xsd:int ;
@@ -492,7 +492,7 @@ georesource:9597  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.8717838900000001 39.625437038223666)"^^geosparql:wktLiteral .
 
-georesource:5959  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/5959> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "5959" ;
         dc:created             "2006-07-27"^^xsd:date ;
         dc:identifier          "5959"^^xsd:int ;
@@ -500,7 +500,7 @@ georesource:5959  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         dc:title               "Balneario de Puente Viesgo"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/5959/geometry> .
 
-georesource:5704  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/5704> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "5704" ;
         dc:created             "2012-02-03"^^xsd:date ;
         dc:identifier          "5704"^^xsd:int ;
@@ -508,7 +508,7 @@ georesource:5704  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         dc:title               "Baños de la Tiñosa"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/5704/geometry> .
 
-georesource:7811  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/7811> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "7811" ;
         dc:created             "2007-08-09"^^xsd:date ;
         dc:identifier          "7811"^^xsd:int ;
@@ -520,14 +520,14 @@ georesource:7811  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-7.307239290000003 42.6340542699608)"^^geosparql:wktLiteral .
 
-georesource:3639  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/3639> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "3639" ;
         dc:created             "2012-05-17"^^xsd:date ;
         dc:identifier          "3639"^^xsd:int ;
         dc:title               "Balneario de Villas de Turbón"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/3639/geometry> .
 
-georesource:5533  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/5533> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "5533" ;
         dc:created             "2012-07-18"^^xsd:date ;
         dc:identifier          "5533"^^xsd:int ;
@@ -535,7 +535,7 @@ georesource:5533  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         dc:title               "Balneario de Fortuna"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/5533/geometry> .
 
-georesource:6476  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/6476> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "6476" ;
         dc:created             "2006-07-24"^^xsd:date ;
         dc:identifier          "6476"^^xsd:int ;
@@ -547,7 +547,7 @@ georesource:6476  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.146788140000001 36.402903965046214)"^^geosparql:wktLiteral .
 
-georesource:2312  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/2312> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "2312" ;
         dc:created             "2012-02-24"^^xsd:date ;
         dc:identifier          "2312"^^xsd:int ;
@@ -563,7 +563,7 @@ georesource:2312  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.9470280200000005 40.95697933914971)"^^geosparql:wktLiteral .
 
-georesource:7043  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/7043> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "7043" ;
         dc:created             "2006-07-24"^^xsd:date ;
         dc:identifier          "7043"^^xsd:int ;
@@ -571,7 +571,7 @@ georesource:7043  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         dc:title               "Balneario Gigonza"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/7043/geometry> .
 
-georesource:10478  a          geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/10478> a          geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "10478" ;
         dc:created             "2015-07-01"^^xsd:date ;
         dc:identifier          "10478"^^xsd:int ;
@@ -582,7 +582,7 @@ georesource:10478  a          geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.64917078 43.33774578017862)"^^geosparql:wktLiteral .
 
-georesource:1440  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/1440> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "1440" ;
         dc:created             "2012-04-27"^^xsd:date ;
         dc:identifier          "1440"^^xsd:int ;
@@ -590,7 +590,7 @@ georesource:1440  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         dc:title               "Zestoako Bainuetxea"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/1440/geometry> .
 
-georesource:5946  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/5946> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "5946" ;
         dc:created             "2012-09-29"^^xsd:date ;
         dc:identifier          "5946"^^xsd:int ;
@@ -609,7 +609,7 @@ georesource:5946  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-7.923261439999997 43.19031046013909)"^^geosparql:wktLiteral .
 
-georesource:3647  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/3647> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "3647" ;
         dc:created             "2012-05-17"^^xsd:date ;
         dc:identifier          "3647"^^xsd:int ;
@@ -617,7 +617,7 @@ georesource:3647  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         dc:title               "Baños de Benasque"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/3647/geometry> .
 
-georesource:5712  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/5712> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "5712" ;
         dc:created             "2012-02-03"^^xsd:date ;
         dc:identifier          "5712"^^xsd:int ;
@@ -625,7 +625,7 @@ georesource:5712  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         dc:title               "Balneario la Hijosa"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/5712/geometry> .
 
-georesource:6108  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/6108> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "6108" ;
         dc:created             "2006-07-24"^^xsd:date ;
         dc:identifier          "6108"^^xsd:int ;
@@ -633,7 +633,7 @@ georesource:6108  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         dc:title               "Baños de Agua Hedionda"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/6108/geometry> .
 
-georesource:4740  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/4740> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "4740" ;
         dc:created             "2012-08-22"^^xsd:date ;
         dc:identifier          "4740"^^xsd:int ;
@@ -656,7 +656,7 @@ georesource:4740  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.032035629296659 38.32432763852335)"^^geosparql:wktLiteral .
 
-georesource:1719  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/1719> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "1719" ;
         dc:created             "2012-05-14"^^xsd:date ;
         dc:identifier          "1719"^^xsd:int ;
@@ -667,7 +667,7 @@ georesource:1719  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-8.0294837 42.32608419984245)"^^geosparql:wktLiteral .
 
-georesource:5499  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/5499> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "5499" ;
         dc:created             "2012-06-18"^^xsd:date ;
         dc:identifier          "5499"^^xsd:int ;
@@ -686,7 +686,7 @@ georesource:5499  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.1072971500000004 37.50912982627592)"^^geosparql:wktLiteral .
 
-georesource:1435  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/1435> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "1435" ;
         dc:created             "2012-05-22"^^xsd:date ;
         dc:identifier          "1435"^^xsd:int ;
@@ -694,7 +694,7 @@ georesource:1435  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         dc:title               "Muelako Bainuetxea"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/1435/geometry> .
 
-georesource:3897  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/3897> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "3897" ;
         dc:created             "2012-03-14"^^xsd:date ;
         dc:identifier          "3897"^^xsd:int ;
@@ -702,7 +702,7 @@ georesource:3897  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         dc:title               "Balneario de Sicilia"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/3897/geometry> .
 
-georesource:4293  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/4293> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "4293" ;
         dc:created             "2010-08-27"^^xsd:date ;
         dc:identifier          "4293"^^xsd:int ;
@@ -710,7 +710,7 @@ georesource:4293  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         dc:title               "Balneario de Yémeda (ruinas)"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/4293/geometry> .
 
-georesource:9750  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/9750> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "9750" ;
         dc:created             "2013-05-15"^^xsd:date ;
         dc:identifier          "9750"^^xsd:int ;
@@ -733,7 +733,7 @@ georesource:9750  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.7491939700000003 42.7259516599934)"^^geosparql:wktLiteral .
 
-georesource:5707  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/5707> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "5707" ;
         dc:created             "2012-02-03"^^xsd:date ;
         dc:identifier          "5707"^^xsd:int ;
@@ -741,7 +741,7 @@ georesource:5707  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         dc:title               "Balneario de la Nava"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/5707/geometry> .
 
-georesource:6479  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/6479> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "6479" ;
         dc:created             "2012-12-28"^^xsd:date ;
         dc:identifier          "6479"^^xsd:int ;
@@ -769,7 +769,7 @@ georesource:6479  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.67997464 41.288933339342314)"^^geosparql:wktLiteral .
 
-georesource:8431  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/8431> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "8431" ;
         dc:created             "2006-08-10"^^xsd:date ;
         dc:identifier          "8431"^^xsd:int ;
@@ -789,7 +789,7 @@ georesource:8431  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (0.58515144 42.661552919970674)"^^geosparql:wktLiteral .
 
-georesource:6679  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/6679> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "6679" ;
         dc:created             "2006-07-24"^^xsd:date ;
         dc:identifier          "6679"^^xsd:int ;
@@ -805,14 +805,14 @@ georesource:6679  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.8151995499999996 38.933507277648765)"^^geosparql:wktLiteral .
 
-georesource:7922  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/7922> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "7922" ;
         dc:created             "2007-04-01"^^xsd:date ;
         dc:identifier          "7922"^^xsd:int ;
         dc:title               "Vila Termal"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/7922/geometry> .
 
-georesource:4359  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/4359> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "4359" ;
         dc:created             "2007-04-12"^^xsd:date ;
         dc:identifier          "4359"^^xsd:int ;
@@ -824,7 +824,7 @@ georesource:4359  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.8315047199999994 38.83197716755922)"^^geosparql:wktLiteral .
 
-georesource:3900  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/3900> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "3900" ;
         dc:created             "2012-03-14"^^xsd:date ;
         dc:identifier          "3900"^^xsd:int ;
@@ -832,14 +832,14 @@ georesource:3900  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         dc:title               "Balneario de Alhama de Aragón"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/3900/geometry> .
 
-georesource:5089  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/5089> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "5089" ;
         dc:created             "2012-01-26"^^xsd:date ;
         dc:identifier          "5089"^^xsd:int ;
         dc:title               "Balneario"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/5089/geometry> .
 
-georesource:9595  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/9595> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "9595" ;
         dc:created             "2006-08-10"^^xsd:date ;
         dc:identifier          "9595"^^xsd:int ;
@@ -851,14 +851,14 @@ georesource:9595  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.35383748 39.53036253814839)"^^geosparql:wktLiteral .
 
-georesource:5957  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/5957> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "5957" ;
         dc:created             "2010-02-25"^^xsd:date ;
         dc:identifier          "5957"^^xsd:int ;
         dc:title               "Balneario"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/5957/geometry> .
 
-georesource:5531  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/5531> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "5531" ;
         dc:created             "2006-07-14"^^xsd:date ;
         dc:identifier          "5531"^^xsd:int ;
@@ -870,14 +870,14 @@ georesource:5531  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-8.466070650000002 42.22634885980111)"^^geosparql:wktLiteral .
 
-georesource:10476  a          geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/10476> a          geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "10476" ;
         dc:created             "2015-06-30"^^xsd:date ;
         dc:identifier          "10476"^^xsd:int ;
         dc:title               "Baños de la Higuerilla"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/10476/geometry> .
 
-georesource:1317  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/1317> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "1317" ;
         dc:created             "2006-07-14"^^xsd:date ;
         dc:identifier          "1317"^^xsd:int ;
@@ -889,7 +889,7 @@ georesource:1317  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.30399342 38.39985849716353)"^^geosparql:wktLiteral .
 
-georesource:5097  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/5097> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "5097" ;
         dc:created             "2006-07-26"^^xsd:date ;
         dc:identifier          "5097"^^xsd:int ;
@@ -913,7 +913,7 @@ georesource:5097  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.9450657299999987 37.68694605646064)"^^geosparql:wktLiteral .
 
-georesource:7049  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/7049> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "7049" ;
         dc:created             "2012-11-14"^^xsd:date ;
         dc:identifier          "7049"^^xsd:int ;
@@ -925,7 +925,7 @@ georesource:7049  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-7.39277015 42.833733890030054)"^^geosparql:wktLiteral .
 
-georesource:4354  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/4354> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "4354" ;
         dc:created             "2007-04-12"^^xsd:date ;
         dc:identifier          "4354"^^xsd:int ;
@@ -933,7 +933,7 @@ georesource:4354  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         dc:title               "Balneario Fuentes del Trampal"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/4354/geometry> .
 
-georesource:120  a            geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/120> a            geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "120" ;
         dc:created             "2012-02-22"^^xsd:date ;
         dc:identifier          "120"^^xsd:int ;
@@ -949,7 +949,7 @@ georesource:120  a            geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.8768255 38.85019323757538)"^^geosparql:wktLiteral .
 
-georesource:1275  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/1275> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "1275" ;
         dc:created             "2006-07-14"^^xsd:date ;
         dc:identifier          "1275"^^xsd:int ;
@@ -960,7 +960,7 @@ georesource:1275  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.5724859600000003 36.96004246568249)"^^geosparql:wktLiteral .
 
-georesource:8434  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/8434> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "8434" ;
         dc:created             "2006-08-10"^^xsd:date ;
         dc:identifier          "8434"^^xsd:int ;
@@ -968,7 +968,7 @@ georesource:8434  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         dc:title               "Balneario de Cuntis"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/8434/geometry> .
 
-georesource:6114  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/6114> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "6114" ;
         dc:created             "2006-07-24"^^xsd:date ;
         dc:identifier          "6114"^^xsd:int ;
@@ -976,7 +976,7 @@ georesource:6114  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         dc:title               "Balneario"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/6114/geometry> .
 
-georesource:7925  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/7925> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "7925" ;
         dc:created             "2006-08-10"^^xsd:date ;
         dc:identifier          "7925"^^xsd:int ;
@@ -988,21 +988,21 @@ georesource:7925  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.5800545599999998 38.33062646709797)"^^geosparql:wktLiteral .
 
-georesource:5092  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/5092> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "5092" ;
         dc:created             "2012-01-26"^^xsd:date ;
         dc:identifier          "5092"^^xsd:int ;
         dc:title               "Baño de Mulas"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/5092/geometry> .
 
-georesource:8826  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/8826> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "8826" ;
         dc:created             "2013-05-26"^^xsd:date ;
         dc:identifier          "8826"^^xsd:int ;
         dc:title               "Balneario"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/8826/geometry> .
 
-georesource:9598  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/9598> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "9598" ;
         dc:created             "2006-08-10"^^xsd:date ;
         dc:identifier          "9598"^^xsd:int ;
@@ -1010,7 +1010,7 @@ georesource:9598  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         dc:title               "Balneario de Lugo"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/9598/geometry> .
 
-georesource:4291  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/4291> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "4291" ;
         dc:created             "2012-02-17"^^xsd:date ;
         dc:identifier          "4291"^^xsd:int ;
@@ -1018,7 +1018,7 @@ georesource:4291  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         dc:title               "Balneario de Alcantud"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/4291/geometry> .
 
-georesource:1220  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/1220> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "1220" ;
         dc:created             "2012-05-09"^^xsd:date ;
         dc:identifier          "1220"^^xsd:int ;
@@ -1026,7 +1026,7 @@ georesource:1220  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         dc:title               "Balneario Albotea"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/1220/geometry> .
 
-georesource:7812  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/7812> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "7812" ;
         dc:created             "2007-04-12"^^xsd:date ;
         dc:identifier          "7812"^^xsd:int ;
@@ -1038,7 +1038,7 @@ georesource:7812  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.47589712 43.30503167017012)"^^geosparql:wktLiteral .
 
-georesource:5705  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/5705> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "5705" ;
         dc:created             "2012-02-03"^^xsd:date ;
         dc:identifier          "5705"^^xsd:int ;
@@ -1070,7 +1070,7 @@ georesource:5705  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-1.6422406599999997 41.31651704935762)"^^geosparql:wktLiteral .
 
-georesource:10479  a          geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/10479> a          geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "10479" ;
         dc:created             "2015-07-01"^^xsd:date ;
         dc:identifier          "10479"^^xsd:int ;
@@ -1089,7 +1089,7 @@ georesource:10479  a          geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.818329620000001 36.85195021556171)"^^geosparql:wktLiteral .
 
-georesource:6109  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/6109> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "6109" ;
         dc:created             "2012-10-30"^^xsd:date ;
         dc:identifier          "6109"^^xsd:int ;
@@ -1105,7 +1105,7 @@ georesource:6109  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.759018230000001 38.51277968726917)"^^geosparql:wktLiteral .
 
-georesource:10303  a          geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/10303> a          geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "10303" ;
         dc:created             "2010-07-30"^^xsd:date ;
         dc:identifier          "10303"^^xsd:int ;
@@ -1128,14 +1128,14 @@ georesource:10303  a          geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-7.4217323 41.926356739668094)"^^geosparql:wktLiteral .
 
-georesource:1720  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/1720> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "1720" ;
         dc:created             "2010-07-19"^^xsd:date ;
         dc:identifier          "1720"^^xsd:int ;
         dc:title               "Balneario"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/1720/geometry> .
 
-georesource:6472  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/6472> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "6472" ;
         dc:created             "2012-12-28"^^xsd:date ;
         dc:identifier          "6472"^^xsd:int ;
@@ -1151,7 +1151,7 @@ georesource:6472  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.57376825 38.614329307362816)"^^geosparql:wktLiteral .
 
-georesource:1315  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/1315> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "1315" ;
         dc:created             "2012-05-22"^^xsd:date ;
         dc:identifier          "1315"^^xsd:int ;
@@ -1159,7 +1159,7 @@ georesource:1315  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         dc:title               "Gezalako Bainuetxea"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/1315/geometry> .
 
-georesource:3898  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/3898> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "3898" ;
         dc:created             "2012-03-14"^^xsd:date ;
         dc:identifier          "3898"^^xsd:int ;
@@ -1175,7 +1175,7 @@ georesource:3898  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-1.33341507 39.324621967981386)"^^geosparql:wktLiteral .
 
-georesource:444  a            geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/444> a            geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "444" ;
         dc:created             "2006-07-14"^^xsd:date ;
         dc:identifier          "444"^^xsd:int ;
@@ -1187,7 +1187,7 @@ georesource:444  a            geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.93273994 41.2697244093316)"^^geosparql:wktLiteral .
 
-georesource:7815  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/7815> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "7815" ;
         dc:created             "2012-10-25"^^xsd:date ;
         dc:identifier          "7815"^^xsd:int ;
@@ -1198,14 +1198,14 @@ georesource:7815  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.220232540000001 36.907502035623956)"^^geosparql:wktLiteral .
 
-georesource:7431  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/7431> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "7431" ;
         dc:created             "2006-07-24"^^xsd:date ;
         dc:identifier          "7431"^^xsd:int ;
         dc:title               "Balneario de Fuente Agria"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/7431/geometry> .
 
-georesource:6480  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/6480> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "6480" ;
         dc:created             "2006-07-24"^^xsd:date ;
         dc:identifier          "6480"^^xsd:int ;
@@ -1217,7 +1217,7 @@ georesource:6480  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.745697780000001 43.34685353018096)"^^geosparql:wktLiteral .
 
-georesource:4181  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/4181> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "4181" ;
         dc:created             "2006-07-14"^^xsd:date ;
         dc:identifier          "4181"^^xsd:int ;
@@ -1225,7 +1225,7 @@ georesource:4181  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         dc:title               "Balneario de Baños del Segura"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/4181/geometry> .
 
-georesource:4160  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/4160> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "4160" ;
         dc:created             "2012-04-02"^^xsd:date ;
         dc:identifier          "4160"^^xsd:int ;
@@ -1236,7 +1236,7 @@ georesource:4160  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-8.84510164 42.48513697990529)"^^geosparql:wktLiteral .
 
-georesource:5295  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/5295> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "5295" ;
         dc:created             "2012-08-19"^^xsd:date ;
         dc:identifier          "5295"^^xsd:int ;
@@ -1248,7 +1248,7 @@ georesource:5295  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.88751112 42.87080312004227)"^^geosparql:wktLiteral .
 
-georesource:6680  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/6680> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "6680" ;
         dc:created             "2006-07-24"^^xsd:date ;
         dc:identifier          "6680"^^xsd:int ;
@@ -1264,14 +1264,14 @@ georesource:6680  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.2414651900000004 42.20657868979274)"^^geosparql:wktLiteral .
 
-georesource:5524  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/5524> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "5524" ;
         dc:created             "2012-07-18"^^xsd:date ;
         dc:identifier          "5524"^^xsd:int ;
         dc:title               "Balneario del Cantalar"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/5524/geometry> .
 
-georesource:6112  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/6112> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "6112" ;
         dc:created             "2012-10-30"^^xsd:date ;
         dc:identifier          "6112"^^xsd:int ;
@@ -1287,7 +1287,7 @@ georesource:6112  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.79025933 37.619702176391215)"^^geosparql:wktLiteral .
 
-georesource:4381  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/4381> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "4381" ;
         dc:created             "2010-02-01"^^xsd:date ;
         dc:identifier          "4381"^^xsd:int ;
@@ -1298,14 +1298,14 @@ georesource:4381  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.8680893500000001 40.03950608853752)"^^geosparql:wktLiteral .
 
-georesource:7923  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/7923> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "7923" ;
         dc:created             "2007-04-01"^^xsd:date ;
         dc:identifier          "7923"^^xsd:int ;
         dc:title               "Balneario"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/7923/geometry> .
 
-georesource:3901  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/3901> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "3901" ;
         dc:created             "2012-03-14"^^xsd:date ;
         dc:identifier          "3901"^^xsd:int ;
@@ -1313,21 +1313,21 @@ georesource:3901  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         dc:title               "Balneario de Paracuellos de Jiloca"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/3901/geometry> .
 
-georesource:4844  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/4844> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "4844" ;
         dc:created             "2012-12-27"^^xsd:date ;
         dc:identifier          "4844"^^xsd:int ;
         dc:title               "Balneario Villa de Olmedo"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/4844/geometry> .
 
-georesource:5090  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/5090> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "5090" ;
         dc:created             "2010-08-08"^^xsd:date ;
         dc:identifier          "5090"^^xsd:int ;
         dc:title               "Balneario de Tus"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/5090/geometry> .
 
-georesource:4865  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/4865> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "4865" ;
         dc:created             "2006-07-26"^^xsd:date ;
         dc:identifier          "4865"^^xsd:int ;
@@ -1343,14 +1343,14 @@ georesource:4865  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.033802280000001 38.05847446683458)"^^geosparql:wktLiteral .
 
-georesource:8824  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/8824> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "8824" ;
         dc:created             "2013-05-26"^^xsd:date ;
         dc:identifier          "8824"^^xsd:int ;
         dc:title               "Balneario Caldelas de Tui"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/8824/geometry> .
 
-georesource:9596  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/9596> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "9596" ;
         dc:created             "2006-08-10"^^xsd:date ;
         dc:identifier          "9596"^^xsd:int ;
@@ -1362,7 +1362,7 @@ georesource:9596  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.5016469500000005 43.02873197009204)"^^geosparql:wktLiteral .
 
-georesource:5958  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/5958> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "5958" ;
         dc:created             "2012-12-04"^^xsd:date ;
         dc:identifier          "5958"^^xsd:int ;
@@ -1370,7 +1370,7 @@ georesource:5958  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         dc:title               "Balneario de las Caldas de Besaya"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/5958/geometry> .
 
-georesource:8269  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/8269> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "8269" ;
         dc:created             "2008-02-15"^^xsd:date ;
         dc:identifier          "8269"^^xsd:int ;
@@ -1389,7 +1389,7 @@ georesource:8269  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.83311554 36.553360975221366)"^^geosparql:wktLiteral .
 
-georesource:1218  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/1218> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "1218" ;
         dc:created             "2006-07-26"^^xsd:date ;
         dc:identifier          "1218"^^xsd:int ;
@@ -1397,7 +1397,7 @@ georesource:1218  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         dc:title               "Balneario Los Baños de Arnedillo"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/1218/geometry> .
 
-georesource:5532  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/5532> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "5532" ;
         dc:created             "2006-07-14"^^xsd:date ;
         dc:identifier          "5532"^^xsd:int ;
@@ -1405,7 +1405,7 @@ georesource:5532  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         dc:title               "Balneario de los Baños de Archena"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Balneario/5532/geometry> .
 
-georesource:5703  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/5703> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "5703" ;
         dc:created             "2012-02-03"^^xsd:date ;
         dc:identifier          "5703"^^xsd:int ;
@@ -1421,7 +1421,7 @@ georesource:5703  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-1.8993146199999995 41.29615101934632)"^^geosparql:wktLiteral .
 
-georesource:10477  a          geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/10477> a          geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "10477" ;
         dc:created             "2015-06-30"^^xsd:date ;
         dc:identifier          "10477"^^xsd:int ;
@@ -1432,7 +1432,7 @@ georesource:10477  a          geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.18410644 38.05738953683353)"^^geosparql:wktLiteral .
 
-georesource:4155  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/4155> a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "4155" ;
         dc:created             "2012-03-14"^^xsd:date ;
         dc:identifier          "4155"^^xsd:int ;
@@ -1452,7 +1452,7 @@ georesource:4155  a           geoes:LugarDeOcio , geoes:Alojamiento , geoes:Baln
         a                sf:Point ;
         geosparql:asWKT  "POINT (-7.560701779999999 43.00179635008381)"^^geosparql:wktLiteral .
 
-georesource:447  a            geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
+<http://geo.linkeddata.es/recurso/Balneario/447> a            geoes:LugarDeOcio , geoes:Alojamiento , geoes:Balneario ;
         rdfs:label             "447" ;
         dc:created             "2012-02-16"^^xsd:date ;
         dc:identifier          "447"^^xsd:int ;

@@ -53,7 +53,7 @@
   <notepads>
   </notepads>
   <order>
-  <hop> <from>Valor Java Script Modificado</from><to>Selecciona&#47;Renombra valores</to><enabled>Y</enabled> </hop>  <hop> <from>Shapefile File Input</from><to>Valor Java Script Modificado</to><enabled>Y</enabled> </hop>  <hop> <from>Selecciona&#47;Renombra valores</from><to>SRS Transformation</to><enabled>Y</enabled> </hop>  <hop> <from>SRS Transformation</from><to>Switch &#47; Case</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>00. CentralElectrica</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>01. TÉRMICA</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>02. Hidráulica</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>03. Nuclear</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>04. eólico</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>05. Solar</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>06. Ciclo combinado</to><enabled>Y</enabled> </hop>  <hop> <from>00. CentralElectrica</from><to>Text file output</to><enabled>Y</enabled> </hop>  <hop> <from>01. TÉRMICA</from><to>Text file output</to><enabled>Y</enabled> </hop>  <hop> <from>02. Hidráulica</from><to>Text file output</to><enabled>Y</enabled> </hop>  <hop> <from>03. Nuclear</from><to>Text file output</to><enabled>Y</enabled> </hop>  <hop> <from>04. eólico</from><to>Text file output</to><enabled>Y</enabled> </hop>  <hop> <from>05. Solar</from><to>Text file output</to><enabled>Y</enabled> </hop>  <hop> <from>06. Ciclo combinado</from><to>Text file output</to><enabled>Y</enabled> </hop>  <hop> <from>SRS Transformation</from><to>00. CentralElectrica</to><enabled>Y</enabled> </hop>  </order>
+  <hop> <from>Valor Java Script Modificado</from><to>Selecciona&#47;Renombra valores</to><enabled>Y</enabled> </hop>  <hop> <from>Shapefile File Input</from><to>Valor Java Script Modificado</to><enabled>Y</enabled> </hop>  <hop> <from>Selecciona&#47;Renombra valores</from><to>SRS Transformation</to><enabled>Y</enabled> </hop>  <hop> <from>SRS Transformation</from><to>Switch &#47; Case</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>01. TÉRMICA</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>02. Hidráulica</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>03. Nuclear</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>04. eólico</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>05. Solar</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>06. Ciclo combinado</to><enabled>Y</enabled> </hop>  <hop> <from>00. CentralElectrica</from><to>Text file output</to><enabled>Y</enabled> </hop>  <hop> <from>01. TÉRMICA</from><to>Text file output</to><enabled>Y</enabled> </hop>  <hop> <from>02. Hidráulica</from><to>Text file output</to><enabled>Y</enabled> </hop>  <hop> <from>03. Nuclear</from><to>Text file output</to><enabled>Y</enabled> </hop>  <hop> <from>04. eólico</from><to>Text file output</to><enabled>Y</enabled> </hop>  <hop> <from>05. Solar</from><to>Text file output</to><enabled>Y</enabled> </hop>  <hop> <from>06. Ciclo combinado</from><to>Text file output</to><enabled>Y</enabled> </hop>  <hop> <from>SRS Transformation</from><to>00. CentralElectrica</to><enabled>Y</enabled> </hop>  </order>
   <step>
     <name>00. CentralElectrica</name>
     <type>tripleGEO</type>
@@ -818,9 +818,7 @@
 <case_value_decimal/>
 <case_value_group/>
 <default_target_step>00. CentralElectrica</default_target_step>
-<cases><case><value>00</value>
-<target_step>00. CentralElectrica</target_step>
-</case><case><value>01</value>
+<cases><case><value>01</value>
 <target_step>01. TÉRMICA</target_step>
 </case><case><value>02</value>
 <target_step>02. Hidráulica</target_step>

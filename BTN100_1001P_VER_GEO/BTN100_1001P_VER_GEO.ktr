@@ -259,6 +259,9 @@ else{
     FECHA_ALTA = date2str(FECHA_ALTA, &quot;yyyy-MM-dd&quot;);
 }
 
+var etiq = ETIQUETA.replace(&#47;\s&#47;g, &apos;&apos;).replace(&apos;á&apos;, &apos;a&apos;).replace(&apos;Á&apos;, &apos;A&apos;).replace(&apos;é&apos;, &apos;e&apos;).replace(&apos;É&apos;, &apos;E&apos;).replace(&apos;í&apos;, &apos;i&apos;)
+.replace(&apos;Í&apos;, &apos;I&apos;).replace(&apos;ó&apos;, &apos;o&apos;).replace(&apos;Ó&apos;, &apos;O&apos;).replace(&apos;ú&apos;, &apos;u&apos;).replace(&apos;Ú&apos;, &apos;U&apos;).replace(&apos;ñ&apos;, &apos;n&apos;);
+identificador =  etiq + &apos;-&apos; + ID
 </jsScript_script>
       </jsScript>    </jsScripts>    <fields>      <field>        <name>FECHA_ALTA</name>
         <rename>FECHA_ALTA</rename>
@@ -266,6 +269,12 @@ else{
         <length>-1</length>
         <precision>-1</precision>
         <replace>Y</replace>
+      </field>      <field>        <name>identificador</name>
+        <rename>identificador</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
       </field>    </fields>     <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
       <xloc>230</xloc>
@@ -284,7 +293,7 @@ else{
            <method>none</method>
            <schema_name/>
            </partitioning>
-		<attributename>ID</attributename>
+		<attributename>identificador</attributename>
 		<feature>VerticeGeodesico</feature>
 		<ontologyns>http://geo.linkeddata.es/ontology/</ontologyns>
 		<ontologynsprefix>geoes</ontologynsprefix>
@@ -304,10 +313,10 @@ else{
 		<column_shp>the_geom</column_shp>
 		</columns>
 		<columns>
-		<column>identifier</column>
-		<prefix>dc</prefix>
-		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
-		<show>YES</show>
+		<column>ID</column>
+		<prefix/>
+		<uri/>
+		<show>NO</show>
 		<column_shp>ID</column_shp>
 		</columns>
 		<columns>
@@ -408,10 +417,17 @@ else{
 		<show>YES</show>
 		<column_shp>ETIQUETA</column_shp>
 		</columns>
+		<columns>
+		<column>identifier</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>identificador</column_shp>
+		</columns>
 		</columns>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>736</xloc>
+      <xloc>737</xloc>
       <yloc>95</yloc>
       <draw>Y</draw>
       </GUI>
@@ -427,7 +443,7 @@ else{
            <method>none</method>
            <schema_name/>
            </partitioning>
-		<attributename>ID</attributename>
+		<attributename>identificador</attributename>
 		<feature>VerticeGeodesicoRegcan95</feature>
 		<ontologyns>http://geo.linkeddata.es/ontology/</ontologyns>
 		<ontologynsprefix>geoes</ontologynsprefix>
@@ -438,7 +454,7 @@ else{
 		<uuidsactive>false</uuidsactive>
 		<fields>
 		</fields>
-		<columns>
+				<columns>
 		<columns>
 		<column>the_geom</column>
 		<prefix>n&#47;a</prefix>
@@ -447,10 +463,10 @@ else{
 		<column_shp>the_geom</column_shp>
 		</columns>
 		<columns>
-		<column>identifier</column>
-		<prefix>dc</prefix>
-		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
-		<show>YES</show>
+		<column>ID</column>
+		<prefix/>
+		<uri/>
+		<show>NO</show>
 		<column_shp>ID</column_shp>
 		</columns>
 		<columns>
@@ -550,6 +566,13 @@ else{
 		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
 		<show>YES</show>
 		<column_shp>ETIQUETA</column_shp>
+		</columns>
+		<columns>
+		<column>identifier</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>identificador</column_shp>
 		</columns>
 		</columns>
      <cluster_schema/>
@@ -570,7 +593,7 @@ else{
            <method>none</method>
            <schema_name/>
            </partitioning>
-		<attributename>ID</attributename>
+		<attributename>identificador</attributename>
 		<feature>VerticeGeodesicoDeOrdenInferior</feature>
 		<ontologyns>http://geo.linkeddata.es/ontology/</ontologyns>
 		<ontologynsprefix>geoes</ontologynsprefix>
@@ -581,7 +604,7 @@ else{
 		<uuidsactive>false</uuidsactive>
 		<fields>
 		</fields>
-		<columns>
+				<columns>
 		<columns>
 		<column>the_geom</column>
 		<prefix>n&#47;a</prefix>
@@ -590,10 +613,10 @@ else{
 		<column_shp>the_geom</column_shp>
 		</columns>
 		<columns>
-		<column>identifier</column>
-		<prefix>dc</prefix>
-		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
-		<show>YES</show>
+		<column>ID</column>
+		<prefix/>
+		<uri/>
+		<show>NO</show>
 		<column_shp>ID</column_shp>
 		</columns>
 		<columns>
@@ -693,6 +716,13 @@ else{
 		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
 		<show>YES</show>
 		<column_shp>ETIQUETA</column_shp>
+		</columns>
+		<columns>
+		<column>identifier</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>identificador</column_shp>
 		</columns>
 		</columns>
      <cluster_schema/>
@@ -713,7 +743,7 @@ else{
            <method>none</method>
            <schema_name/>
            </partitioning>
-		<attributename>ID</attributename>
+		<attributename>identificador</attributename>
 		<feature>VerticeGeodesicoRegente</feature>
 		<ontologyns>http://geo.linkeddata.es/ontology/</ontologyns>
 		<ontologynsprefix>geoes</ontologynsprefix>
@@ -724,7 +754,7 @@ else{
 		<uuidsactive>false</uuidsactive>
 		<fields>
 		</fields>
-		<columns>
+				<columns>
 		<columns>
 		<column>the_geom</column>
 		<prefix>n&#47;a</prefix>
@@ -733,10 +763,10 @@ else{
 		<column_shp>the_geom</column_shp>
 		</columns>
 		<columns>
-		<column>identifier</column>
-		<prefix>dc</prefix>
-		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
-		<show>YES</show>
+		<column>ID</column>
+		<prefix/>
+		<uri/>
+		<show>NO</show>
 		<column_shp>ID</column_shp>
 		</columns>
 		<columns>
@@ -837,11 +867,18 @@ else{
 		<show>YES</show>
 		<column_shp>ETIQUETA</column_shp>
 		</columns>
+		<columns>
+		<column>identifier</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>identificador</column_shp>
+		</columns>
 		</columns>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
       <xloc>735</xloc>
-      <yloc>207</yloc>
+      <yloc>206</yloc>
       <draw>Y</draw>
       </GUI>
     </step>

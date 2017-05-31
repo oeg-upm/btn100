@@ -18,7 +18,7 @@
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.7239189 36.06010723463834)"^^geosparql:wktLiteral .
 
-georesource:870  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/870> a            geoes:Morfologia ;
         rdfs:label             "870" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -34,7 +34,7 @@ georesource:870  a            geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.0018623999999994 39.92378053845211)"^^geosparql:wktLiteral .
 
-georesource:1335  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1335> a           geoes:Morfologia ;
         rdfs:label             "1335" ;
         geoes:producto         "SERIES C"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -46,7 +46,7 @@ georesource:1335  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.7463490000000004 39.4320794380693)"^^geosparql:wktLiteral .
 
-georesource:1124  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1124> a           geoes:Morfologia ;
         rdfs:label             "1124" ;
         geoes:producto         "MP200 y SERIE C"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -66,7 +66,7 @@ georesource:1124  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-13.662333779999999 29.118554224417334)"^^geosparql:wktLiteral .
 
-georesource:1643  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1643> a           geoes:Morfologia ;
         rdfs:label             "1643" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-27"^^xsd:date ;
@@ -82,7 +82,7 @@ georesource:1643  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (1.3046680999999998 39.03597083773782)"^^geosparql:wktLiteral .
 
-georesource:852  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/852> a            geoes:Morfologia ;
         rdfs:label             "852" ;
         geoes:producto         "MP200 y SERIE C"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -110,7 +110,7 @@ georesource:852  a            geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (4.2372667999999996 39.81453313836984)"^^geosparql:wktLiteral .
 
-georesource:1106  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1106> a           geoes:Morfologia ;
         rdfs:label             "1106" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -118,7 +118,7 @@ georesource:1106  a           geoes:Morfologia ;
         dc:title               "Es Joncar"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1106/geometry> .
 
-georesource:918  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/918> a            geoes:Morfologia ;
         rdfs:label             "918" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -126,7 +126,7 @@ georesource:918  a            geoes:Morfologia ;
         dc:title               "Sa Cigonya"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/918/geometry> .
 
-georesource:1655  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1655> a           geoes:Morfologia ;
         rdfs:label             "1655" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-27"^^xsd:date ;
@@ -138,7 +138,7 @@ georesource:1655  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.8655679000000003 39.362788038012795)"^^geosparql:wktLiteral .
 
-georesource:472  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/472> a            geoes:Morfologia ;
         rdfs:label             "472" ;
         geoes:producto         "MP200 y SERIE C"@es ;
         dc:created             "2012-08-06"^^xsd:date ;
@@ -150,7 +150,7 @@ georesource:472  a            geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.6668164999999995 39.78682023834872)"^^geosparql:wktLiteral .
 
-georesource:1052  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1052> a           geoes:Morfologia ;
         rdfs:label             "1052" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -166,7 +166,7 @@ georesource:1052  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.5139087000000004 39.69178393827549)"^^geosparql:wktLiteral .
 
-georesource:1329  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1329> a           geoes:Morfologia ;
         rdfs:label             "1329" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -178,7 +178,7 @@ georesource:1329  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.9676686000000005 40.056361838549805)"^^geosparql:wktLiteral .
 
-georesource:1390  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1390> a           geoes:Morfologia ;
         rdfs:label             "1390" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -186,7 +186,7 @@ georesource:1390  a           geoes:Morfologia ;
         dc:title               "Es Pont d'en Barracar"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1390/geometry> .
 
-georesource:1118  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1118> a           geoes:Morfologia ;
         rdfs:label             "1118" ;
         geoes:producto         "MP200 y SERIE C"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -194,7 +194,7 @@ georesource:1118  a           geoes:Morfologia ;
         dc:title               "Morrillo de Bordils"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1118/geometry> .
 
-georesource:412  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/412> a            geoes:Morfologia ;
         rdfs:label             "412" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-05-13"^^xsd:date ;
@@ -202,7 +202,7 @@ georesource:412  a            geoes:Morfologia ;
         dc:title               "Lo Colodar de l'Almadrava"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/412/geometry> .
 
-georesource:2180  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/2180> a           geoes:Morfologia ;
         rdfs:label             "2180" ;
         geoes:producto         "MP200 y SERIE C"@es ;
         dc:created             "2013-03-07"^^xsd:date ;
@@ -214,7 +214,7 @@ georesource:2180  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (1.4747250000000005 38.716659937455915)"^^geosparql:wktLiteral .
 
-georesource:201  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/201> a            geoes:Morfologia ;
         rdfs:label             "201" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2012-06-05"^^xsd:date ;
@@ -222,7 +222,7 @@ georesource:201  a            geoes:Morfologia ;
         dc:title               "Anparrantxi Punta"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/201/geometry> .
 
-georesource:1360  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1360> a           geoes:Morfologia ;
         rdfs:label             "1360" ;
         geoes:producto         "MP200 y SERIE C"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -234,7 +234,7 @@ georesource:1360  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-15.77866377 28.02823520261883)"^^geosparql:wktLiteral .
 
-georesource:1064  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1064> a           geoes:Morfologia ;
         rdfs:label             "1064" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -250,7 +250,7 @@ georesource:1064  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (4.1072032 39.8751750384157)"^^geosparql:wktLiteral .
 
-georesource:1330  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1330> a           geoes:Morfologia ;
         rdfs:label             "1330" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -266,7 +266,7 @@ georesource:1330  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.7441862 39.448446738082566)"^^geosparql:wktLiteral .
 
-georesource:931  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/931> a            geoes:Morfologia ;
         rdfs:label             "931" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -278,7 +278,7 @@ georesource:931  a            geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.9197982000000002 39.9019404384358)"^^geosparql:wktLiteral .
 
-georesource:18  a             geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/18> a             geoes:Morfologia ;
         rdfs:label             "18" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2012-01-13"^^xsd:date ;
@@ -290,7 +290,7 @@ georesource:18  a             geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.3161512599999985 39.756781668325694)"^^geosparql:wktLiteral .
 
-georesource:1215  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1215> a           geoes:Morfologia ;
         rdfs:label             "1215" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -302,7 +302,7 @@ georesource:1215  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.1929366999999997 39.954333638474814)"^^geosparql:wktLiteral .
 
-georesource:1372  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1372> a           geoes:Morfologia ;
         rdfs:label             "1372" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -310,7 +310,7 @@ georesource:1372  a           geoes:Morfologia ;
         dc:title               "Morro d'en Ferrà"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1372/geometry> .
 
-georesource:1287  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1287> a           geoes:Morfologia ;
         rdfs:label             "1287" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -338,7 +338,7 @@ georesource:1287  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (1.5593328 38.651844037397105)"^^geosparql:wktLiteral .
 
-georesource:1046  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1046> a           geoes:Morfologia ;
         rdfs:label             "1046" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -350,7 +350,7 @@ georesource:1046  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (4.306217300000001 39.85328523839921)"^^geosparql:wktLiteral .
 
-georesource:1312  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1312> a           geoes:Morfologia ;
         rdfs:label             "1312" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -358,7 +358,7 @@ georesource:1312  a           geoes:Morfologia ;
         dc:title               "Es Dos Ulls"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1312/geometry> .
 
-georesource:436  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/436> a            geoes:Morfologia ;
         rdfs:label             "436" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2012-03-27"^^xsd:date ;
@@ -366,7 +366,7 @@ georesource:436  a            geoes:Morfologia ;
         dc:title               "Barra del Trabucador"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/436/geometry> .
 
-georesource:828  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/828> a            geoes:Morfologia ;
         rdfs:label             "828" ;
         geoes:producto         "SERIES C"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -374,7 +374,7 @@ georesource:828  a            geoes:Morfologia ;
         dc:title               "Escull Gros"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/828/geometry> .
 
-georesource:1408  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1408> a           geoes:Morfologia ;
         rdfs:label             "1408" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -386,7 +386,7 @@ georesource:1408  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (1.2931174000000003 39.030594537733165)"^^geosparql:wktLiteral .
 
-georesource:1650  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1650> a           geoes:Morfologia ;
         rdfs:label             "1650" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-27"^^xsd:date ;
@@ -394,7 +394,7 @@ georesource:1650  a           geoes:Morfologia ;
         dc:title               "Puerto Nuevo"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1650/geometry> .
 
-georesource:985  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/985> a            geoes:Morfologia ;
         rdfs:label             "985" ;
         geoes:producto         "MP200 y SERIE C"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -410,7 +410,7 @@ georesource:985  a            geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.4048861000000006 39.52689323814562)"^^geosparql:wktLiteral .
 
-georesource:1269  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1269> a           geoes:Morfologia ;
         rdfs:label             "1269" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -422,7 +422,7 @@ georesource:1269  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.929664900000001 39.155240837839784)"^^geosparql:wktLiteral .
 
-georesource:1324  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1324> a           geoes:Morfologia ;
         rdfs:label             "1324" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -438,7 +438,7 @@ georesource:1324  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.9994483999999995 40.05844343855131)"^^geosparql:wktLiteral .
 
-georesource:1239  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1239> a           geoes:Morfologia ;
         rdfs:label             "1239" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -446,7 +446,7 @@ georesource:1239  a           geoes:Morfologia ;
         dc:title               "Cova de ses Pedreres"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1239/geometry> .
 
-georesource:1113  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1113> a           geoes:Morfologia ;
         rdfs:label             "1113" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -458,7 +458,7 @@ georesource:1113  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.2470462000000007 43.39910894019413)"^^geosparql:wktLiteral .
 
-georesource:871  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/871> a            geoes:Morfologia ;
         rdfs:label             "871" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -466,7 +466,7 @@ georesource:871  a            geoes:Morfologia ;
         dc:title               "Tronc de sa Savina"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/871/geometry> .
 
-georesource:1155  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1155> a           geoes:Morfologia ;
         rdfs:label             "1155" ;
         geoes:producto         "SERIES C"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -474,7 +474,7 @@ georesource:1155  a           geoes:Morfologia ;
         dc:title               "Morro d'es Pont"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1155/geometry> .
 
-georesource:967  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/967> a            geoes:Morfologia ;
         rdfs:label             "967" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -486,7 +486,7 @@ georesource:967  a            geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.2773091999999995 39.439088738075)"^^geosparql:wktLiteral .
 
-georesource:279  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/279> a            geoes:Morfologia ;
         rdfs:label             "279" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2012-02-29"^^xsd:date ;
@@ -498,7 +498,7 @@ georesource:279  a            geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (4.219848299999999 39.821844038375396)"^^geosparql:wktLiteral .
 
-georesource:1210  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1210> a           geoes:Morfologia ;
         rdfs:label             "1210" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -506,7 +506,7 @@ georesource:1210  a           geoes:Morfologia ;
         dc:title               "Na Rafela"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1210/geometry> .
 
-georesource:1125  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1125> a           geoes:Morfologia ;
         rdfs:label             "1125" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -522,7 +522,7 @@ georesource:1125  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (4.308382999999998 39.84852183839562)"^^geosparql:wktLiteral .
 
-georesource:1306  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1306> a           geoes:Morfologia ;
         rdfs:label             "1306" ;
         geoes:producto         "SERIES C"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -534,7 +534,7 @@ georesource:1306  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.880416700000001 43.43725414020351)"^^geosparql:wktLiteral .
 
-georesource:907  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/907> a            geoes:Morfologia ;
         rdfs:label             "907" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -542,7 +542,7 @@ georesource:907  a            geoes:Morfologia ;
         dc:title               "Pont Puós"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/907/geometry> .
 
-georesource:1071  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1071> a           geoes:Morfologia ;
         rdfs:label             "1071" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -550,7 +550,7 @@ georesource:1071  a           geoes:Morfologia ;
         dc:title               "Pou des Lleó"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1071/geometry> .
 
-georesource:280  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/280> a            geoes:Morfologia ;
         rdfs:label             "280" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2012-02-29"^^xsd:date ;
@@ -562,7 +562,7 @@ georesource:280  a            geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.3372975999999994 39.7853553383476)"^^geosparql:wktLiteral .
 
-georesource:1041  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1041> a           geoes:Morfologia ;
         rdfs:label             "1041" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -582,7 +582,7 @@ georesource:1041  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (1.4030413000000004 38.7277138374659)"^^geosparql:wktLiteral .
 
-georesource:1011  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1011> a           geoes:Morfologia ;
         rdfs:label             "1011" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -590,7 +590,7 @@ georesource:1011  a           geoes:Morfologia ;
         dc:title               "Punta Verda"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1011/geometry> .
 
-georesource:1403  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1403> a           geoes:Morfologia ;
         rdfs:label             "1403" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -598,7 +598,7 @@ georesource:1403  a           geoes:Morfologia ;
         dc:title               "Tres Codols"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1403/geometry> .
 
-georesource:1318  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1318> a           geoes:Morfologia ;
         rdfs:label             "1318" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -610,7 +610,7 @@ georesource:1318  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-1.8622788 37.049112115781064)"^^geosparql:wktLiteral .
 
-georesource:1107  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1107> a           geoes:Morfologia ;
         rdfs:label             "1107" ;
         geoes:producto         "MP200 y SERIE C"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -618,7 +618,7 @@ georesource:1107  a           geoes:Morfologia ;
         dc:title               "Morro de na Mora"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1107/geometry> .
 
-georesource:919  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/919> a            geoes:Morfologia ;
         rdfs:label             "919" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -630,7 +630,7 @@ georesource:919  a            geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (1.6087966 39.034768037736775)"^^geosparql:wktLiteral .
 
-georesource:1475  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1475> a           geoes:Morfologia ;
         rdfs:label             "1475" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-26"^^xsd:date ;
@@ -638,7 +638,7 @@ georesource:1475  a           geoes:Morfologia ;
         dc:title               "Baja Mares"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1475/geometry> .
 
-georesource:950  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/950> a            geoes:Morfologia ;
         rdfs:label             "950" ;
         geoes:producto         "SERIES C"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -650,7 +650,7 @@ georesource:950  a            geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.9382632000000006 39.909366738441356)"^^geosparql:wktLiteral .
 
-georesource:473  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/473> a            geoes:Morfologia ;
         rdfs:label             "473" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2012-08-06"^^xsd:date ;
@@ -658,7 +658,7 @@ georesource:473  a            geoes:Morfologia ;
         dc:title               "Cabezo de la Reya"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/473/geometry> .
 
-georesource:865  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/865> a            geoes:Morfologia ;
         rdfs:label             "865" ;
         geoes:producto         "MP200 y SERIE C"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -678,7 +678,7 @@ georesource:865  a            geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.5799907 43.55717934023148)"^^geosparql:wktLiteral .
 
-georesource:920  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/920> a            geoes:Morfologia ;
         rdfs:label             "920" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -710,7 +710,7 @@ georesource:920  a            geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.8941992000000005 40.05779933855085)"^^geosparql:wktLiteral .
 
-georesource:1095  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1095> a           geoes:Morfologia ;
         rdfs:label             "1095" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -726,7 +726,7 @@ georesource:1095  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-15.566353359999999 28.146292982814213)"^^geosparql:wktLiteral .
 
-georesource:570  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/570> a            geoes:Morfologia ;
         rdfs:label             "570" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-06"^^xsd:date ;
@@ -738,7 +738,7 @@ georesource:570  a            geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (4.3087587 39.84984203839661)"^^geosparql:wktLiteral .
 
-georesource:877  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/877> a            geoes:Morfologia ;
         rdfs:label             "877" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -746,7 +746,7 @@ georesource:877  a            geoes:Morfologia ;
         dc:title               "Na Rodona"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/877/geometry> .
 
-georesource:1331  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1331> a           geoes:Morfologia ;
         rdfs:label             "1331" ;
         geoes:producto         "SERIES C"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -758,7 +758,7 @@ georesource:1331  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.0317515 41.771455739594295)"^^geosparql:wktLiteral .
 
-georesource:1120  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1120> a           geoes:Morfologia ;
         rdfs:label             "1120" ;
         geoes:producto         "MP200 y SERIE C"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -766,7 +766,7 @@ georesource:1120  a           geoes:Morfologia ;
         dc:title               "Morro d'en Llobera"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1120/geometry> .
 
-georesource:1638  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1638> a           geoes:Morfologia ;
         rdfs:label             "1638" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-27"^^xsd:date ;
@@ -774,7 +774,7 @@ georesource:1638  a           geoes:Morfologia ;
         dc:title               "Risco Partido"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1638/geometry> .
 
-georesource:932  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/932> a            geoes:Morfologia ;
         rdfs:label             "932" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -806,7 +806,7 @@ georesource:932  a            geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.7278378000000005 39.82542543837812)"^^geosparql:wktLiteral .
 
-georesource:1469  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1469> a           geoes:Morfologia ;
         rdfs:label             "1469" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-26"^^xsd:date ;
@@ -818,7 +818,7 @@ georesource:1469  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (4.038971199999998 40.06146523855352)"^^geosparql:wktLiteral .
 
-georesource:1313  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1313> a           geoes:Morfologia ;
         rdfs:label             "1313" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -826,7 +826,7 @@ georesource:1313  a           geoes:Morfologia ;
         dc:title               "Es Bastons"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1313/geometry> .
 
-georesource:1228  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1228> a           geoes:Morfologia ;
         rdfs:label             "1228" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -834,7 +834,7 @@ georesource:1228  a           geoes:Morfologia ;
         dc:title               "Banquet des Coloms"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1228/geometry> .
 
-georesource:1102  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1102> a           geoes:Morfologia ;
         rdfs:label             "1102" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -842,7 +842,7 @@ georesource:1102  a           geoes:Morfologia ;
         dc:title               "Salt d'en Moixina"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1102/geometry> .
 
-georesource:1409  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1409> a           geoes:Morfologia ;
         rdfs:label             "1409" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -850,7 +850,7 @@ georesource:1409  a           geoes:Morfologia ;
         dc:title               "Còdol Negre"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1409/geometry> .
 
-georesource:1470  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1470> a           geoes:Morfologia ;
         rdfs:label             "1470" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-26"^^xsd:date ;
@@ -862,7 +862,7 @@ georesource:1470  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.385425499999999 39.59077713819635)"^^geosparql:wktLiteral .
 
-georesource:1385  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1385> a           geoes:Morfologia ;
         rdfs:label             "1385" ;
         geoes:producto         "MP200 y SERIE C"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -878,7 +878,7 @@ georesource:1385  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-13.522073510000002 29.16862783449949)"^^geosparql:wktLiteral .
 
-georesource:860  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/860> a            geoes:Morfologia ;
         rdfs:label             "860" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -886,7 +886,7 @@ georesource:860  a            geoes:Morfologia ;
         dc:title               "Morro d'en Bruixa"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/860/geometry> .
 
-georesource:1440  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1440> a           geoes:Morfologia ;
         rdfs:label             "1440" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-26"^^xsd:date ;
@@ -898,7 +898,7 @@ georesource:1440  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.2621627 39.41919223805883)"^^geosparql:wktLiteral .
 
-georesource:956  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/956> a            geoes:Morfologia ;
         rdfs:label             "956" ;
         geoes:producto         "SERIES C"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -910,7 +910,7 @@ georesource:956  a            geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.8399959000000004 39.86507103840811)"^^geosparql:wktLiteral .
 
-georesource:1325  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1325> a           geoes:Morfologia ;
         rdfs:label             "1325" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -918,7 +918,7 @@ georesource:1325  a           geoes:Morfologia ;
         dc:title               "S'Estaca d'en Rotger"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1325/geometry> .
 
-georesource:926  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/926> a            geoes:Morfologia ;
         rdfs:label             "926" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -926,7 +926,7 @@ georesource:926  a            geoes:Morfologia ;
         dc:title               "Escull de ses Vinyoles"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/926/geometry> .
 
-georesource:1482  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1482> a           geoes:Morfologia ;
         rdfs:label             "1482" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-26"^^xsd:date ;
@@ -946,7 +946,7 @@ georesource:1482  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.1737728999999995 39.3278997379841)"^^geosparql:wktLiteral .
 
-georesource:1578  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1578> a           geoes:Morfologia ;
         rdfs:label             "1578" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-27"^^xsd:date ;
@@ -954,7 +954,7 @@ georesource:1578  a           geoes:Morfologia ;
         dc:title               "Los Pollos"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1578/geometry> .
 
-georesource:872  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/872> a            geoes:Morfologia ;
         rdfs:label             "872" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -966,7 +966,7 @@ georesource:872  a            geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (1.6022789999999998 39.0876449377822)"^^geosparql:wktLiteral .
 
-georesource:1241  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1241> a           geoes:Morfologia ;
         rdfs:label             "1241" ;
         geoes:producto         "SERIES C"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -974,7 +974,7 @@ georesource:1241  a           geoes:Morfologia ;
         dc:title               "Sa Punta"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1241/geometry> .
 
-georesource:1633  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1633> a           geoes:Morfologia ;
         rdfs:label             "1633" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-27"^^xsd:date ;
@@ -986,7 +986,7 @@ georesource:1633  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.9541218 39.13495973782257)"^^geosparql:wktLiteral .
 
-georesource:1030  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1030> a           geoes:Morfologia ;
         rdfs:label             "1030" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -998,7 +998,7 @@ georesource:1030  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.5034156 39.68642363827132)"^^geosparql:wktLiteral .
 
-georesource:1126  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1126> a           geoes:Morfologia ;
         rdfs:label             "1126" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -1018,7 +1018,7 @@ georesource:1126  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (1.2164423 38.908313037626684)"^^geosparql:wktLiteral .
 
-georesource:673  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/673> a            geoes:Morfologia ;
         rdfs:label             "673" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-13"^^xsd:date ;
@@ -1026,7 +1026,7 @@ georesource:673  a            geoes:Morfologia ;
         dc:title               "Morrón de los Genoveses"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/673/geometry> .
 
-georesource:1168  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1168> a           geoes:Morfologia ;
         rdfs:label             "1168" ;
         geoes:producto         "SERIES C"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -1038,7 +1038,7 @@ georesource:1168  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (4.1688998999999995 40.060993338553175)"^^geosparql:wktLiteral .
 
-georesource:769  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/769> a            geoes:Morfologia ;
         rdfs:label             "769" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-05-27"^^xsd:date ;
@@ -1054,7 +1054,7 @@ georesource:769  a            geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.9044435 39.89818083843297)"^^geosparql:wktLiteral .
 
-georesource:1615  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1615> a           geoes:Morfologia ;
         rdfs:label             "1615" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-27"^^xsd:date ;
@@ -1066,7 +1066,7 @@ georesource:1615  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.9150389000000003 40.05116773854602)"^^geosparql:wktLiteral .
 
-georesource:1404  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1404> a           geoes:Morfologia ;
         rdfs:label             "1404" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -1078,7 +1078,7 @@ georesource:1404  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.5014505 39.46112893809281)"^^geosparql:wktLiteral .
 
-georesource:1295  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1295> a           geoes:Morfologia ;
         rdfs:label             "1295" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -1090,7 +1090,7 @@ georesource:1295  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.27789601 39.446368018080875)"^^geosparql:wktLiteral .
 
-georesource:1476  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1476> a           geoes:Morfologia ;
         rdfs:label             "1476" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-26"^^xsd:date ;
@@ -1098,7 +1098,7 @@ georesource:1476  a           geoes:Morfologia ;
         dc:title               "Los Lajares"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1476/geometry> .
 
-georesource:1054  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1054> a           geoes:Morfologia ;
         rdfs:label             "1054" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -1110,7 +1110,7 @@ georesource:1054  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.3891018 39.61663583821674)"^^geosparql:wktLiteral .
 
-georesource:1627  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1627> a           geoes:Morfologia ;
         rdfs:label             "1627" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-27"^^xsd:date ;
@@ -1122,7 +1122,7 @@ georesource:1627  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.8757332000000004 39.922066938450826)"^^geosparql:wktLiteral .
 
-georesource:444  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/444> a            geoes:Morfologia ;
         rdfs:label             "444" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-05-13"^^xsd:date ;
@@ -1134,7 +1134,7 @@ georesource:444  a            geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-1.2789991 37.557446436326465)"^^geosparql:wktLiteral .
 
-georesource:1488  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1488> a           geoes:Morfologia ;
         rdfs:label             "1488" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-26"^^xsd:date ;
@@ -1142,7 +1142,7 @@ georesource:1488  a           geoes:Morfologia ;
         dc:title               "Bajo Negro"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1488/geometry> .
 
-georesource:1362  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1362> a           geoes:Morfologia ;
         rdfs:label             "1362" ;
         geoes:producto         "SERIES C"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -1154,7 +1154,7 @@ georesource:1362  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.8597397000000004 39.36331283801322)"^^geosparql:wktLiteral .
 
-georesource:1151  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1151> a           geoes:Morfologia ;
         rdfs:label             "1151" ;
         geoes:producto         "SERIES C"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -1162,7 +1162,7 @@ georesource:1151  a           geoes:Morfologia ;
         dc:title               "Racó del Xot"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1151/geometry> .
 
-georesource:571  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/571> a            geoes:Morfologia ;
         rdfs:label             "571" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-06"^^xsd:date ;
@@ -1170,7 +1170,7 @@ georesource:571  a            geoes:Morfologia ;
         dc:title               "El Portillo"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/571/geometry> .
 
-georesource:963  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/963> a            geoes:Morfologia ;
         rdfs:label             "963" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -1178,7 +1178,7 @@ georesource:963  a            geoes:Morfologia ;
         dc:title               "Caló Fondo"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/963/geometry> .
 
-georesource:878  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/878> a            geoes:Morfologia ;
         rdfs:label             "878" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -1186,7 +1186,7 @@ georesource:878  a            geoes:Morfologia ;
         dc:title               "Racó des Cavalls"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/878/geometry> .
 
-georesource:1066  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1066> a           geoes:Morfologia ;
         rdfs:label             "1066" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -1194,7 +1194,7 @@ georesource:1066  a           geoes:Morfologia ;
         dc:title               "Caló d'en Trull"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1066/geometry> .
 
-georesource:1332  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1332> a           geoes:Morfologia ;
         rdfs:label             "1332" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -1202,7 +1202,7 @@ georesource:1332  a           geoes:Morfologia ;
         dc:title               "Racó de s'Almadrava na Cocó"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1332/geometry> .
 
-georesource:1121  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1121> a           geoes:Morfologia ;
         rdfs:label             "1121" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -1214,7 +1214,7 @@ georesource:1121  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.734462899999999 39.48404323811127)"^^geosparql:wktLiteral .
 
-georesource:933  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/933> a            geoes:Morfologia ;
         rdfs:label             "933" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -1226,7 +1226,7 @@ georesource:933  a            geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.9942145 40.05892093855167)"^^geosparql:wktLiteral .
 
-georesource:1302  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1302> a           geoes:Morfologia ;
         rdfs:label             "1302" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -1242,7 +1242,7 @@ georesource:1302  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.1239436000000005 42.13298673976112)"^^geosparql:wktLiteral .
 
-georesource:1006  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1006> a           geoes:Morfologia ;
         rdfs:label             "1006" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -1250,7 +1250,7 @@ georesource:1006  a           geoes:Morfologia ;
         dc:title               "Ses Covetes"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1006/geometry> .
 
-georesource:300  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/300> a            geoes:Morfologia ;
         rdfs:label             "300" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2012-02-29"^^xsd:date ;
@@ -1270,7 +1270,7 @@ georesource:300  a            geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (4.0899849 39.883689938422116)"^^geosparql:wktLiteral .
 
-georesource:1314  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1314> a           geoes:Morfologia ;
         rdfs:label             "1314" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -1290,7 +1290,7 @@ georesource:1314  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.8441670999999995 40.05377823854792)"^^geosparql:wktLiteral .
 
-georesource:1386  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1386> a           geoes:Morfologia ;
         rdfs:label             "1386" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -1322,7 +1322,7 @@ georesource:1386  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (1.537255 38.651416637396736)"^^geosparql:wktLiteral .
 
-georesource:1411  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1411> a           geoes:Morfologia ;
         rdfs:label             "1411" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -1330,7 +1330,7 @@ georesource:1411  a           geoes:Morfologia ;
         dc:title               "Partions Noves"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1411/geometry> .
 
-georesource:269  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/269> a            geoes:Morfologia ;
         rdfs:label             "269" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2012-02-29"^^xsd:date ;
@@ -1338,7 +1338,7 @@ georesource:269  a            geoes:Morfologia ;
         dc:title               "Sa Conca"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/269/geometry> .
 
-georesource:1326  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1326> a           geoes:Morfologia ;
         rdfs:label             "1326" ;
         geoes:producto         "SERIES C"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -1350,7 +1350,7 @@ georesource:1326  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-15.704076750000002 28.14226424280755)"^^geosparql:wktLiteral .
 
-georesource:1115  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1115> a           geoes:Morfologia ;
         rdfs:label             "1115" ;
         geoes:producto         "MP200 y SERIE C"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -1366,7 +1366,7 @@ georesource:1115  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-1.87611695 37.034975235765486)"^^geosparql:wktLiteral .
 
-georesource:1483  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1483> a           geoes:Morfologia ;
         rdfs:label             "1483" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-26"^^xsd:date ;
@@ -1374,7 +1374,7 @@ georesource:1483  a           geoes:Morfologia ;
         dc:title               "La Isleta"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1483/geometry> .
 
-georesource:873  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/873> a            geoes:Morfologia ;
         rdfs:label             "873" ;
         geoes:producto         "MP200 y SERIE C"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -1382,7 +1382,7 @@ georesource:873  a            geoes:Morfologia ;
         dc:title               "Cova de Sant Llorenç"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/873/geometry> .
 
-georesource:1061  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1061> a           geoes:Morfologia ;
         rdfs:label             "1061" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -1390,7 +1390,7 @@ georesource:1061  a           geoes:Morfologia ;
         dc:title               "Racó de s'Alga"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1061/geometry> .
 
-georesource:45  a             geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/45> a             geoes:Morfologia ;
         rdfs:label             "45" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-05-16"^^xsd:date ;
@@ -1406,7 +1406,7 @@ georesource:45  a             geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.927297400000001 39.9013867384354)"^^geosparql:wktLiteral .
 
-georesource:1634  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1634> a           geoes:Morfologia ;
         rdfs:label             "1634" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-27"^^xsd:date ;
@@ -1414,7 +1414,7 @@ georesource:1634  a           geoes:Morfologia ;
         dc:title               "Los Farallones"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1634/geometry> .
 
-georesource:843  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/843> a            geoes:Morfologia ;
         rdfs:label             "843" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -1426,7 +1426,7 @@ georesource:843  a            geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.4761413000000005 39.466225738096924)"^^geosparql:wktLiteral .
 
-georesource:1127  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1127> a           geoes:Morfologia ;
         rdfs:label             "1127" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -1434,7 +1434,7 @@ georesource:1127  a           geoes:Morfologia ;
         dc:title               "Coal de la Morena"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1127/geometry> .
 
-georesource:939  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/939> a            geoes:Morfologia ;
         rdfs:label             "939" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -1462,7 +1462,7 @@ georesource:939  a            geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (4.115770399999999 39.8713088384128)"^^geosparql:wktLiteral .
 
-georesource:970  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/970> a            geoes:Morfologia ;
         rdfs:label             "970" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -1470,7 +1470,7 @@ georesource:970  a            geoes:Morfologia ;
         dc:title               "Aigua Blanca"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/970/geometry> .
 
-georesource:1465  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1465> a           geoes:Morfologia ;
         rdfs:label             "1465" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-26"^^xsd:date ;
@@ -1482,7 +1482,7 @@ georesource:1465  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.597868200000001 39.72806393830359)"^^geosparql:wktLiteral .
 
-georesource:674  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/674> a            geoes:Morfologia ;
         rdfs:label             "674" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-13"^^xsd:date ;
@@ -1494,7 +1494,7 @@ georesource:674  a            geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-15.832099280000001 27.922972282444544)"^^geosparql:wktLiteral .
 
-georesource:940  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/940> a            geoes:Morfologia ;
         rdfs:label             "940" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -1510,7 +1510,7 @@ georesource:940  a            geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (0.8912337999999999 40.9662662391553)"^^geosparql:wktLiteral .
 
-georesource:433  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/433> a            geoes:Morfologia ;
         rdfs:label             "433" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2012-03-27"^^xsd:date ;
@@ -1518,7 +1518,7 @@ georesource:433  a            geoes:Morfologia ;
         dc:title               "Gola de Migjorn"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/433/geometry> .
 
-georesource:1013  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1013> a           geoes:Morfologia ;
         rdfs:label             "1013" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -1526,7 +1526,7 @@ georesource:1013  a           geoes:Morfologia ;
         dc:title               "Clot des Llamp"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1013/geometry> .
 
-georesource:1405  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1405> a           geoes:Morfologia ;
         rdfs:label             "1405" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -1538,7 +1538,7 @@ georesource:1405  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.356013000000001 39.605563838208035)"^^geosparql:wktLiteral .
 
-georesource:99  a             geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/99> a             geoes:Morfologia ;
         rdfs:label             "99" ;
         geoes:producto         "MP200 y SERIE C"@es ;
         dc:created             "2012-01-23"^^xsd:date ;
@@ -1546,7 +1546,7 @@ georesource:99  a             geoes:Morfologia ;
         dc:title               "Gola del Río Segura"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/99/geometry> .
 
-georesource:1296  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1296> a           geoes:Morfologia ;
         rdfs:label             "1296" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -1558,7 +1558,7 @@ georesource:1296  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.7215576999999995 39.82086943837466)"^^geosparql:wktLiteral .
 
-georesource:1085  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1085> a           geoes:Morfologia ;
         rdfs:label             "1085" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -1566,7 +1566,7 @@ georesource:1085  a           geoes:Morfologia ;
         dc:title               "Sa Rabassa"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1085/geometry> .
 
-georesource:1477  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1477> a           geoes:Morfologia ;
         rdfs:label             "1477" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-26"^^xsd:date ;
@@ -1574,7 +1574,7 @@ georesource:1477  a           geoes:Morfologia ;
         dc:title               "Morro Negro"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1477/geometry> .
 
-georesource:1266  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1266> a           geoes:Morfologia ;
         rdfs:label             "1266" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -1582,7 +1582,7 @@ georesource:1266  a           geoes:Morfologia ;
         dc:title               "Es Pou Salat"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1266/geometry> .
 
-georesource:1055  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1055> a           geoes:Morfologia ;
         rdfs:label             "1055" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -1590,7 +1590,7 @@ georesource:1055  a           geoes:Morfologia ;
         dc:title               "Pesquerres Altes"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1055/geometry> .
 
-georesource:1321  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1321> a           geoes:Morfologia ;
         rdfs:label             "1321" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -1598,7 +1598,7 @@ georesource:1321  a           geoes:Morfologia ;
         dc:title               "Partió de s'Àguila"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1321/geometry> .
 
-georesource:1110  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1110> a           geoes:Morfologia ;
         rdfs:label             "1110" ;
         geoes:producto         "MP200 y SERIE C"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -1606,7 +1606,7 @@ georesource:1110  a           geoes:Morfologia ;
         dc:title               "Morro des Forat"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1110/geometry> .
 
-georesource:445  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/445> a            geoes:Morfologia ;
         rdfs:label             "445" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-05-13"^^xsd:date ;
@@ -1618,7 +1618,7 @@ georesource:445  a            geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-15.725534979999999 28.068073282684775)"^^geosparql:wktLiteral .
 
-georesource:1182  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1182> a           geoes:Morfologia ;
         rdfs:label             "1182" ;
         geoes:producto         "SERIES C"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -1630,7 +1630,7 @@ georesource:1182  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (4.0791263 39.89153073842801)"^^geosparql:wktLiteral .
 
-georesource:1363  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1363> a           geoes:Morfologia ;
         rdfs:label             "1363" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -1642,7 +1642,7 @@ georesource:1363  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.947323999999999 39.91775933844761)"^^geosparql:wktLiteral .
 
-georesource:572  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/572> a            geoes:Morfologia ;
         rdfs:label             "572" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-06"^^xsd:date ;
@@ -1654,7 +1654,7 @@ georesource:572  a            geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (1.2938762 39.02161343772543)"^^geosparql:wktLiteral .
 
-georesource:1333  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1333> a           geoes:Morfologia ;
         rdfs:label             "1333" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -1674,7 +1674,7 @@ georesource:1333  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.192942800000001 39.93989993846412)"^^geosparql:wktLiteral .
 
-georesource:1122  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1122> a           geoes:Morfologia ;
         rdfs:label             "1122" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -1686,7 +1686,7 @@ georesource:1122  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (0.8576803999999998 40.93506533913645)"^^geosparql:wktLiteral .
 
-georesource:1429  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1429> a           geoes:Morfologia ;
         rdfs:label             "1429" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-26"^^xsd:date ;
@@ -1702,7 +1702,7 @@ georesource:1429  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.3716443000000003 39.774618438339374)"^^geosparql:wktLiteral .
 
-georesource:976  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/976> a            geoes:Morfologia ;
         rdfs:label             "976" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -1714,7 +1714,7 @@ georesource:976  a            geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (4.3038652 39.83213923838321)"^^geosparql:wktLiteral .
 
-georesource:1134  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1134> a           geoes:Morfologia ;
         rdfs:label             "1134" ;
         geoes:producto         "SERIES C"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -1734,7 +1734,7 @@ georesource:1134  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.9612759999999985 39.9324894384586)"^^geosparql:wktLiteral .
 
-georesource:1400  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1400> a           geoes:Morfologia ;
         rdfs:label             "1400" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -1762,7 +1762,7 @@ georesource:1400  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.3792906 39.53322893815067)"^^geosparql:wktLiteral .
 
-georesource:1261  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1261> a           geoes:Morfologia ;
         rdfs:label             "1261" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -1770,7 +1770,7 @@ georesource:1261  a           geoes:Morfologia ;
         dc:title               "Ses Falconeres"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1261/geometry> .
 
-georesource:1176  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1176> a           geoes:Morfologia ;
         rdfs:label             "1176" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -1778,7 +1778,7 @@ georesource:1176  a           geoes:Morfologia ;
         dc:title               "Es Bufador"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1176/geometry> .
 
-georesource:862  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/862> a            geoes:Morfologia ;
         rdfs:label             "862" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -1786,7 +1786,7 @@ georesource:862  a            geoes:Morfologia ;
         dc:title               "Illots d'en Marçal"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/862/geometry> .
 
-georesource:1623  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1623> a           geoes:Morfologia ;
         rdfs:label             "1623" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-27"^^xsd:date ;
@@ -1798,7 +1798,7 @@ georesource:1623  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.7479441999999996 39.437597338073765)"^^geosparql:wktLiteral .
 
-georesource:832  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/832> a            geoes:Morfologia ;
         rdfs:label             "832" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -1814,7 +1814,7 @@ georesource:832  a            geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.9171748 39.147203537832965)"^^geosparql:wktLiteral .
 
-georesource:1327  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1327> a           geoes:Morfologia ;
         rdfs:label             "1327" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -1826,7 +1826,7 @@ georesource:1327  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (1.5213884000000002 39.11558803780606)"^^geosparql:wktLiteral .
 
-georesource:928  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/928> a            geoes:Morfologia ;
         rdfs:label             "928" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -1838,7 +1838,7 @@ georesource:928  a            geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.2050780000000003 41.897764439654736)"^^geosparql:wktLiteral .
 
-georesource:1399  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1399> a           geoes:Morfologia ;
         rdfs:label             "1399" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -1858,7 +1858,7 @@ georesource:1399  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (1.5900008000000003 39.058564237757274)"^^geosparql:wktLiteral .
 
-georesource:874  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/874> a            geoes:Morfologia ;
         rdfs:label             "874" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -1866,7 +1866,7 @@ georesource:874  a            geoes:Morfologia ;
         dc:title               "Cala Llucalari"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/874/geometry> .
 
-georesource:844  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/844> a            geoes:Morfologia ;
         rdfs:label             "844" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -1874,7 +1874,7 @@ georesource:844  a            geoes:Morfologia ;
         dc:title               "Sa Roqueta"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/844/geometry> .
 
-georesource:1032  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1032> a           geoes:Morfologia ;
         rdfs:label             "1032" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -1886,7 +1886,7 @@ georesource:1032  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-1.2870483000000004 37.55645493632543)"^^geosparql:wktLiteral .
 
-georesource:971  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/971> a            geoes:Morfologia ;
         rdfs:label             "971" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -1894,7 +1894,7 @@ georesource:971  a            geoes:Morfologia ;
         dc:title               "Escull des Pas"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/971/geometry> .
 
-georesource:886  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/886> a            geoes:Morfologia ;
         rdfs:label             "886" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -1910,7 +1910,7 @@ georesource:886  a            geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-13.827627960000001 29.00997264423902)"^^geosparql:wktLiteral .
 
-georesource:1340  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1340> a           geoes:Morfologia ;
         rdfs:label             "1340" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -1918,7 +1918,7 @@ georesource:1340  a           geoes:Morfologia ;
         dc:title               "Caló de ses Lleonardes"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1340/geometry> .
 
-georesource:675  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/675> a            geoes:Morfologia ;
         rdfs:label             "675" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-13"^^xsd:date ;
@@ -1930,7 +1930,7 @@ georesource:675  a            geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.3094101 39.51109173813297)"^^geosparql:wktLiteral .
 
-georesource:856  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/856> a            geoes:Morfologia ;
         rdfs:label             "856" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -1938,7 +1938,7 @@ georesource:856  a            geoes:Morfologia ;
         dc:title               "Caló des Vi Blanc"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/856/geometry> .
 
-georesource:1225  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1225> a           geoes:Morfologia ;
         rdfs:label             "1225" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -1946,7 +1946,7 @@ georesource:1225  a           geoes:Morfologia ;
         dc:title               "Morro de sa Carabassa"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1225/geometry> .
 
-georesource:911  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/911> a            geoes:Morfologia ;
         rdfs:label             "911" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -1958,7 +1958,7 @@ georesource:911  a            geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.969701300000001 40.05336273854761)"^^geosparql:wktLiteral .
 
-georesource:1406  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1406> a           geoes:Morfologia ;
         rdfs:label             "1406" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -1974,7 +1974,7 @@ georesource:1406  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.298867520000002 35.17190134352667)"^^geosparql:wktLiteral .
 
-georesource:1297  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1297> a           geoes:Morfologia ;
         rdfs:label             "1297" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -1982,7 +1982,7 @@ georesource:1297  a           geoes:Morfologia ;
         dc:title               "Pedres des Codolar"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1297/geometry> .
 
-georesource:1086  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1086> a           geoes:Morfologia ;
         rdfs:label             "1086" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -1998,7 +1998,7 @@ georesource:1086  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (4.0995568 39.878175838417974)"^^geosparql:wktLiteral .
 
-georesource:868  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/868> a            geoes:Morfologia ;
         rdfs:label             "868" ;
         geoes:producto         "MP200 y SERIE C"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -2006,7 +2006,7 @@ georesource:868  a            geoes:Morfologia ;
         dc:title               "Morro Esclafat"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/868/geometry> .
 
-georesource:1056  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1056> a           geoes:Morfologia ;
         rdfs:label             "1056" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -2014,7 +2014,7 @@ georesource:1056  a           geoes:Morfologia ;
         dc:title               "S'Estufador"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1056/geometry> .
 
-georesource:1237  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1237> a           geoes:Morfologia ;
         rdfs:label             "1237" ;
         geoes:producto         "SERIES C"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -2026,7 +2026,7 @@ georesource:1237  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.9412671000000006 40.056489338549895)"^^geosparql:wktLiteral .
 
-georesource:1629  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1629> a           geoes:Morfologia ;
         rdfs:label             "1629" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-27"^^xsd:date ;
@@ -2034,7 +2034,7 @@ georesource:1629  a           geoes:Morfologia ;
         dc:title               "Roque del Herrero"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1629/geometry> .
 
-georesource:923  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/923> a            geoes:Morfologia ;
         rdfs:label             "923" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -2058,7 +2058,7 @@ georesource:923  a            geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.2126540000000006 39.95506493847539)"^^geosparql:wktLiteral .
 
-georesource:1630  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1630> a           geoes:Morfologia ;
         rdfs:label             "1630" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-27"^^xsd:date ;
@@ -2070,7 +2070,7 @@ georesource:1630  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-13.700319549999998 29.09092495437199)"^^geosparql:wktLiteral .
 
-georesource:1153  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1153> a           geoes:Morfologia ;
         rdfs:label             "1153" ;
         geoes:producto         "SERIES C"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -2078,7 +2078,7 @@ georesource:1153  a           geoes:Morfologia ;
         dc:title               "Racó de les Arcades"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1153/geometry> .
 
-georesource:1545  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1545> a           geoes:Morfologia ;
         rdfs:label             "1545" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-26"^^xsd:date ;
@@ -2094,7 +2094,7 @@ georesource:1545  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.808526100000002 40.025030738526944)"^^geosparql:wktLiteral .
 
-georesource:1334  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1334> a           geoes:Morfologia ;
         rdfs:label             "1334" ;
         geoes:producto         "SERIES C"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -2102,7 +2102,7 @@ georesource:1334  a           geoes:Morfologia ;
         dc:title               "Es Racó de na Casetes"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1334/geometry> .
 
-georesource:1123  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1123> a           geoes:Morfologia ;
         rdfs:label             "1123" ;
         geoes:producto         "MP200 y SERIE C"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -2110,7 +2110,7 @@ georesource:1123  a           geoes:Morfologia ;
         dc:title               "Cova des Cingle"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1123/geometry> .
 
-georesource:935  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/935> a            geoes:Morfologia ;
         rdfs:label             "935" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -2118,7 +2118,7 @@ georesource:935  a            geoes:Morfologia ;
         dc:title               "Na Plana"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/935/geometry> .
 
-georesource:332  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/332> a            geoes:Morfologia ;
         rdfs:label             "332" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2012-02-29"^^xsd:date ;
@@ -2134,7 +2134,7 @@ georesource:332  a            geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.1296361000000004 39.86802683841032)"^^geosparql:wktLiteral .
 
-georesource:1219  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1219> a           geoes:Morfologia ;
         rdfs:label             "1219" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -2142,7 +2142,7 @@ georesource:1219  a           geoes:Morfologia ;
         dc:title               "Es Codol"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1219/geometry> .
 
-georesource:1280  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1280> a           geoes:Morfologia ;
         rdfs:label             "1280" ;
         geoes:producto         "SERIES C"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -2158,7 +2158,7 @@ georesource:1280  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (4.285367900000001 39.92491783845298)"^^geosparql:wktLiteral .
 
-georesource:302  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/302> a            geoes:Morfologia ;
         rdfs:label             "302" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2012-02-29"^^xsd:date ;
@@ -2166,7 +2166,7 @@ georesource:302  a            geoes:Morfologia ;
         dc:title               "Muscleres Grosses"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/302/geometry> .
 
-georesource:1376  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1376> a           geoes:Morfologia ;
         rdfs:label             "1376" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -2178,7 +2178,7 @@ georesource:1376  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (4.0950334999999995 40.05738123855055)"^^geosparql:wktLiteral .
 
-georesource:1220  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1220> a           geoes:Morfologia ;
         rdfs:label             "1220" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -2202,7 +2202,7 @@ georesource:1220  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.8532588 39.87412543841492)"^^geosparql:wktLiteral .
 
-georesource:917  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/917> a            geoes:Morfologia ;
         rdfs:label             "917" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -2222,7 +2222,7 @@ georesource:917  a            geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (1.3902860000000001 38.69737923743847)"^^geosparql:wktLiteral .
 
-georesource:893  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/893> a            geoes:Morfologia ;
         rdfs:label             "893" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -2230,7 +2230,7 @@ georesource:893  a            geoes:Morfologia ;
         dc:title               "Es Melaos"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/893/geometry> .
 
-georesource:1388  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1388> a           geoes:Morfologia ;
         rdfs:label             "1388" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -2238,7 +2238,7 @@ georesource:1388  a           geoes:Morfologia ;
         dc:title               "Es Ratjolí"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1388/geometry> .
 
-georesource:2178  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/2178> a           geoes:Morfologia ;
         rdfs:label             "2178" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-11"^^xsd:date ;
@@ -2246,7 +2246,7 @@ georesource:2178  a           geoes:Morfologia ;
         dc:title               "El Castaño"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/2178/geometry> .
 
-georesource:1051  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1051> a           geoes:Morfologia ;
         rdfs:label             "1051" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -2258,7 +2258,7 @@ georesource:1051  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (1.4201380000000006 38.66176933740616)"^^geosparql:wktLiteral .
 
-georesource:929  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/929> a            geoes:Morfologia ;
         rdfs:label             "929" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -2270,7 +2270,7 @@ georesource:929  a            geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (1.2105477 38.9840992376929)"^^geosparql:wktLiteral .
 
-georesource:1093  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1093> a           geoes:Morfologia ;
         rdfs:label             "1093" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -2282,7 +2282,7 @@ georesource:1093  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (1.6092904000000001 39.04435213774505)"^^geosparql:wktLiteral .
 
-georesource:875  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/875> a            geoes:Morfologia ;
         rdfs:label             "875" ;
         geoes:producto         "MP200 y SERIE C"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -2290,7 +2290,7 @@ georesource:875  a            geoes:Morfologia ;
         dc:title               "Cap de ses Penyes"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/875/geometry> .
 
-georesource:47  a             geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/47> a             geoes:Morfologia ;
         rdfs:label             "47" ;
         geoes:producto         "SERIES C"@es ;
         dc:created             "2012-01-18"^^xsd:date ;
@@ -2298,7 +2298,7 @@ georesource:47  a             geoes:Morfologia ;
         dc:title               "Gola de Estany"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/47/geometry> .
 
-georesource:930  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/930> a            geoes:Morfologia ;
         rdfs:label             "930" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -2310,7 +2310,7 @@ georesource:930  a            geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (1.5694903999999998 39.09794233779102)"^^geosparql:wktLiteral .
 
-georesource:845  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/845> a            geoes:Morfologia ;
         rdfs:label             "845" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -2322,7 +2322,7 @@ georesource:845  a            geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (1.4720136999999998 38.7192107374582)"^^geosparql:wktLiteral .
 
-georesource:1129  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1129> a           geoes:Morfologia ;
         rdfs:label             "1129" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -2338,7 +2338,7 @@ georesource:1129  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (4.084384399999999 39.88897703842608)"^^geosparql:wktLiteral .
 
-georesource:972  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/972> a            geoes:Morfologia ;
         rdfs:label             "972" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -2350,7 +2350,7 @@ georesource:972  a            geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (4.294014619999999 39.90871386844088)"^^geosparql:wktLiteral .
 
-georesource:676  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/676> a            geoes:Morfologia ;
         rdfs:label             "676" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-13"^^xsd:date ;
@@ -2358,7 +2358,7 @@ georesource:676  a            geoes:Morfologia ;
         dc:title               "Piedra del Sombrerico"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/676/geometry> .
 
-georesource:1045  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1045> a           geoes:Morfologia ;
         rdfs:label             "1045" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -2370,7 +2370,7 @@ georesource:1045  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (4.1740911 39.84370463839196)"^^geosparql:wktLiteral .
 
-georesource:1407  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1407> a           geoes:Morfologia ;
         rdfs:label             "1407" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -2390,7 +2390,7 @@ georesource:1407  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-13.6615938 29.120460954420462)"^^geosparql:wktLiteral .
 
-georesource:1087  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1087> a           geoes:Morfologia ;
         rdfs:label             "1087" ;
         geoes:producto         "MP200 y SERIE C"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -2402,7 +2402,7 @@ georesource:1087  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.6102291000000006 39.739882138312716)"^^geosparql:wktLiteral .
 
-georesource:1268  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1268> a           geoes:Morfologia ;
         rdfs:label             "1268" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -2414,7 +2414,7 @@ georesource:1268  a           geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (4.190748600000002 40.034995238534215)"^^geosparql:wktLiteral .
 
-georesource:869  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/869> a            geoes:Morfologia ;
         rdfs:label             "869" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-03-17"^^xsd:date ;
@@ -2422,7 +2422,7 @@ georesource:869  a            geoes:Morfologia ;
         dc:title               "Talaia de Torre Nova"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/869/geometry> .
 
-georesource:1323  a           geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/1323> a           geoes:Morfologia ;
         rdfs:label             "1323" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;
@@ -2430,7 +2430,7 @@ georesource:1323  a           geoes:Morfologia ;
         dc:title               "S'Escorxador"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Morfologia/1323/geometry> .
 
-georesource:266  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/266> a            geoes:Morfologia ;
         rdfs:label             "266" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2012-02-29"^^xsd:date ;
@@ -2450,7 +2450,7 @@ georesource:266  a            geoes:Morfologia ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (1.5824130000000005 38.67721363742019)"^^geosparql:wktLiteral .
 
-georesource:924  a            geoes:Morfologia ;
+<http://geo.linkeddata.es/recurso/Morfologia/924> a            geoes:Morfologia ;
         rdfs:label             "924" ;
         geoes:producto         "MP200"@es ;
         dc:created             "2013-06-12"^^xsd:date ;

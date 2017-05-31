@@ -53,7 +53,7 @@
   <notepads>
   </notepads>
   <order>
-  <hop> <from>Valor Java Script Modificado</from><to>Selecciona&#47;Renombra valores</to><enabled>Y</enabled> </hop>  <hop> <from>Shapefile File Input</from><to>Valor Java Script Modificado</to><enabled>Y</enabled> </hop>  <hop> <from>Selecciona&#47;Renombra valores</from><to>SRS Transformation</to><enabled>Y</enabled> </hop>  <hop> <from>SRS Transformation</from><to>Switch &#47; Case</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>LineaElectricaBajaTension</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>LineaElectricaAltaTension</to><enabled>Y</enabled> </hop>  <hop> <from>LineaElectricaBajaTension</from><to>Text file output</to><enabled>Y</enabled> </hop>  <hop> <from>LineaElectricaAltaTension</from><to>Text file output</to><enabled>Y</enabled> </hop>  </order>
+  <hop> <from>Valor Java Script Modificado</from><to>Selecciona&#47;Renombra valores</to><enabled>Y</enabled> </hop>  <hop> <from>Shapefile File Input</from><to>Valor Java Script Modificado</to><enabled>Y</enabled> </hop>  <hop> <from>Selecciona&#47;Renombra valores</from><to>SRS Transformation</to><enabled>Y</enabled> </hop>  <hop> <from>SRS Transformation</from><to>Switch &#47; Case</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>LineaElectricaBajaTension</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>LineaElectricaAltaTension</to><enabled>Y</enabled> </hop>  <hop> <from>LineaElectricaBajaTension</from><to>Text file output</to><enabled>Y</enabled> </hop>  <hop> <from>LineaElectricaAltaTension</from><to>Text file output</to><enabled>Y</enabled> </hop>  <hop> <from>SRS Transformation</from><to>LineaElectricaBajaTension 2</to><enabled>Y</enabled> </hop>  <hop> <from>LineaElectricaBajaTension 2</from><to>Text file output</to><enabled>Y</enabled> </hop>  </order>
   <step>
     <name>LineaElectricaAltaTension</name>
     <type>tripleGEO</type>
@@ -218,7 +218,7 @@
     <name>SRS Transformation</name>
     <type>SRSTransformation</type>
     <description/>
-    <distribute>Y</distribute>
+    <distribute>N</distribute>
     <copies>1</copies>
          <partitioning>
            <method>none</method>
@@ -427,6 +427,86 @@ else{
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
       <xloc>138</xloc>
       <yloc>199</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>LineaElectricaBajaTension 2</name>
+    <type>tripleGEO</type>
+    <description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+		<attributename>ID</attributename>
+		<feature>LineaElectrica</feature>
+		<ontologyns>http://geo.linkeddata.es/ontology/</ontologyns>
+		<ontologynsprefix>geoes</ontologynsprefix>
+		<resourcens>http://geo.linkeddata.es/recurso/LineaElectrica/</resourcens>
+		<resourcensprefix>georesource</resourcensprefix>
+		<language>es</language>
+		<pathcsv>null</pathcsv>
+		<uuidsactive>false</uuidsactive>
+		<fields>
+		</fields>
+		<columns>
+		<columns>
+		<column>the_geom</column>
+		<prefix>n&#47;a</prefix>
+		<uri/>
+		<show>YES</show>
+		<column_shp>the_geom</column_shp>
+		</columns>
+		<columns>
+		<column>identifier</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>ID</column_shp>
+		</columns>
+		<columns>
+		<column>ID_BD</column>
+		<prefix/>
+		<uri/>
+		<show>NO</show>
+		<column_shp>ID_BD</column_shp>
+		</columns>
+		<columns>
+		<column>ID_CODIGO</column>
+		<prefix/>
+		<uri/>
+		<show>NO</show>
+		<column_shp>ID_CODIGO</column_shp>
+		</columns>
+		<columns>
+		<column>replaces</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>ID_MOD</column_shp>
+		</columns>
+		<columns>
+		<column>created</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>FECHA_ALTA</column_shp>
+		</columns>
+		<columns>
+		<column>TIPO_0702</column>
+		<prefix/>
+		<uri/>
+		<show>NO</show>
+		<column_shp>TIPO_0702</column_shp>
+		</columns>
+		</columns>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>627</xloc>
+      <yloc>157</yloc>
       <draw>Y</draw>
       </GUI>
     </step>

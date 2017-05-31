@@ -10,7 +10,7 @@
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
 @prefix dc:    <http://purl.org/dc/terms/> .
 
-georesource:55136  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/55136> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "55136" ;
         geoes:cota             "1207"^^xsd:int ;
         dc:created             "2013-02-20"^^xsd:date ;
@@ -18,7 +18,7 @@ georesource:55136  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Collado de Pasamontes"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/55136/geometry> .
 
-georesource:2922  a           geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/2922> a           geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "2922" ;
         geoes:cota             "1011"^^xsd:int ;
         dc:created             "2013-05-14"^^xsd:date ;
@@ -26,7 +26,7 @@ georesource:2922  a           geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Collado de la Zapata"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/2922/geometry> .
 
-georesource:36648  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/36648> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "36648" ;
         geoes:cota             "873"^^xsd:int ;
         dc:created             "2013-05-10"^^xsd:date ;
@@ -38,7 +38,7 @@ georesource:36648  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.474509299999999 43.18301462013704)"^^geosparql:wktLiteral .
 
-georesource:48513  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/48513> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "48513" ;
         geoes:cota             "514"^^xsd:int ;
         dc:created             "2013-03-07"^^xsd:date ;
@@ -58,7 +58,7 @@ georesource:48513  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.911014869999999 40.180554668639154)"^^geosparql:wktLiteral .
 
-georesource:6496  a           geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/6496> a           geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "6496" ;
         geoes:cota             "1048"^^xsd:int ;
         dc:created             "2013-05-23"^^xsd:date ;
@@ -70,7 +70,7 @@ georesource:6496  a           geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.18243519 38.30443637707302)"^^geosparql:wktLiteral .
 
-georesource:55118  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/55118> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "55118" ;
         geoes:cota             "812"^^xsd:int ;
         dc:created             "2013-02-20"^^xsd:date ;
@@ -94,7 +94,7 @@ georesource:55118  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.69491803 39.43678074807313)"^^geosparql:wktLiteral .
 
-georesource:48525  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/48525> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "48525" ;
         geoes:cota             "611"^^xsd:int ;
         dc:created             "2013-03-07"^^xsd:date ;
@@ -110,7 +110,7 @@ georesource:48525  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.77009066 39.19597919787417)"^^geosparql:wktLiteral .
 
-georesource:3851  a           geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/3851> a           geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "3851" ;
         geoes:cota             "1225"^^xsd:int ;
         dc:created             "2013-05-24"^^xsd:date ;
@@ -118,7 +118,7 @@ georesource:3851  a           geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Collado Cervanco"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/3851/geometry> .
 
-georesource:53635  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/53635> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "53635" ;
         geoes:cota             "1276"^^xsd:int ;
         dc:created             "2011-09-12"^^xsd:date ;
@@ -131,7 +131,7 @@ georesource:53635  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.08004707 42.75673301000406)"^^geosparql:wktLiteral .
 
-georesource:37366  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/37366> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "37366" ;
         geoes:cota             "1103"^^xsd:int ;
         dc:created             "2013-06-05"^^xsd:date ;
@@ -143,7 +143,7 @@ georesource:37366  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-1.0091916 38.501359107258565)"^^geosparql:wktLiteral .
 
-georesource:54763  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/54763> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "54763" ;
         geoes:cota             "488"^^xsd:int ;
         dc:created             "2011-11-22"^^xsd:date ;
@@ -152,7 +152,7 @@ georesource:54763  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Collado Soto de Tardío"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/54763/geometry> .
 
-georesource:24290  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/24290> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "24290" ;
         geoes:cota             "349"^^xsd:int ;
         dc:created             "2013-03-25"^^xsd:date ;
@@ -168,7 +168,7 @@ georesource:24290  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.130902630000002 42.31869227983942)"^^geosparql:wktLiteral .
 
-georesource:37306  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/37306> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "37306" ;
         geoes:cota             "1001"^^xsd:int ;
         dc:created             "2013-06-05"^^xsd:date ;
@@ -184,7 +184,7 @@ georesource:37306  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.3240398400000001 38.866930407590196)"^^geosparql:wktLiteral .
 
-georesource:1957  a           geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/1957> a           geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "1957" ;
         geoes:cota             "359"^^xsd:int ;
         dc:created             "2011-02-07"^^xsd:date ;
@@ -193,7 +193,7 @@ georesource:1957  a           geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Collado de La Rafaela"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/1957/geometry> .
 
-georesource:860  a            geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/860> a            geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "860" ;
         geoes:cota             "734"^^xsd:int ;
         dc:created             "2013-05-16"^^xsd:date ;
@@ -201,7 +201,7 @@ georesource:860  a            geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Collado de Villacampo"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/860/geometry> .
 
-georesource:36643  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/36643> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "36643" ;
         geoes:cota             "972"^^xsd:int ;
         dc:created             "2013-05-10"^^xsd:date ;
@@ -209,7 +209,7 @@ georesource:36643  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "El Tremedal"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/36643/geometry> .
 
-georesource:1927  a           geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/1927> a           geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "1927" ;
         geoes:cota             "836"^^xsd:int ;
         dc:created             "2011-01-27"^^xsd:date ;
@@ -218,7 +218,7 @@ georesource:1927  a           geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Collado del Fort"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/1927/geometry> .
 
-georesource:2928  a           geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/2928> a           geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "2928" ;
         geoes:cota             "849"^^xsd:int ;
         dc:created             "2013-05-14"^^xsd:date ;
@@ -226,7 +226,7 @@ georesource:2928  a           geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Collado del Caldero del Cochino"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/2928/geometry> .
 
-georesource:30890  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/30890> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "30890" ;
         geoes:cota             "853"^^xsd:int ;
         dc:created             "2013-05-23"^^xsd:date ;
@@ -234,7 +234,7 @@ georesource:30890  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Collado de la Vívora"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/30890/geometry> .
 
-georesource:1481  a           geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/1481> a           geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "1481" ;
         geoes:cota             "866"^^xsd:int ;
         dc:created             "2011-03-03"^^xsd:date ;
@@ -243,7 +243,7 @@ georesource:1481  a           geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Collado de las Cruces"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/1481/geometry> .
 
-georesource:26007  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/26007> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "26007" ;
         geoes:cota             "1376"^^xsd:int ;
         dc:created             "2013-06-04"^^xsd:date ;
@@ -255,7 +255,7 @@ georesource:26007  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.6815010799999985 42.74938414000151)"^^geosparql:wktLiteral .
 
-georesource:10742  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/10742> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "10742" ;
         geoes:cota             "666"^^xsd:int ;
         dc:created             "2013-05-09"^^xsd:date ;
@@ -271,7 +271,7 @@ georesource:10742  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.20054105 40.286239498713506)"^^geosparql:wktLiteral .
 
-georesource:48519  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/48519> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "48519" ;
         geoes:cota             "315"^^xsd:int ;
         dc:created             "2013-03-07"^^xsd:date ;
@@ -283,7 +283,7 @@ georesource:48519  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-1.0206639500000005 39.262595837929965)"^^geosparql:wktLiteral .
 
-georesource:39954  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/39954> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "39954" ;
         geoes:cota             "1011"^^xsd:int ;
         dc:created             "2012-03-27"^^xsd:date ;
@@ -291,7 +291,7 @@ georesource:39954  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Collado de los Nabos"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/39954/geometry> .
 
-georesource:1240  a           geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/1240> a           geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "1240" ;
         geoes:cota             "601"^^xsd:int ;
         dc:created             "2011-02-15"^^xsd:date ;
@@ -308,7 +308,7 @@ georesource:1240  a           geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.766890880000002 43.283306130164426)"^^geosparql:wktLiteral .
 
-georesource:24308  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/24308> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "24308" ;
         geoes:cota             "673"^^xsd:int ;
         dc:created             "2013-03-25"^^xsd:date ;
@@ -324,7 +324,7 @@ georesource:24308  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.652073 39.543009128158474)"^^geosparql:wktLiteral .
 
-georesource:36637  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/36637> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "36637" ;
         geoes:cota             "826"^^xsd:int ;
         dc:created             "2013-05-10"^^xsd:date ;
@@ -340,7 +340,7 @@ georesource:36637  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.933306730000001 39.19003715786916)"^^geosparql:wktLiteral .
 
-georesource:2953  a           geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/2953> a           geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "2953" ;
         geoes:cota             "494"^^xsd:int ;
         dc:created             "2013-05-14"^^xsd:date ;
@@ -352,7 +352,7 @@ georesource:2953  a           geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.6061166300000002 39.82521906837796)"^^geosparql:wktLiteral .
 
-georesource:29276  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/29276> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "29276" ;
         geoes:cota             "2009"^^xsd:int ;
         dc:created             "2013-06-14"^^xsd:date ;
@@ -361,7 +361,7 @@ georesource:29276  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Collado de la Centenera"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/29276/geometry> .
 
-georesource:36679  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/36679> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "36679" ;
         geoes:cota             "984"^^xsd:int ;
         dc:created             "2013-05-10"^^xsd:date ;
@@ -373,7 +373,7 @@ georesource:36679  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-1.8099322699999998 41.67624444954721)"^^geosparql:wktLiteral .
 
-georesource:14011  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/14011> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "14011" ;
         geoes:cota             "2183"^^xsd:int ;
         dc:created             "2013-05-14"^^xsd:date ;
@@ -389,7 +389,7 @@ georesource:14011  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.36610546 39.047320027747595)"^^geosparql:wktLiteral .
 
-georesource:14686  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/14686> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "14686" ;
         geoes:cota             "1964"^^xsd:int ;
         dc:created             "2013-05-13"^^xsd:date ;
@@ -397,7 +397,7 @@ georesource:14686  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Collada de Petraficha"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/14686/geometry> .
 
-georesource:53654  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/53654> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "53654" ;
         geoes:cota             "1331"^^xsd:int ;
         dc:created             "2011-09-12"^^xsd:date ;
@@ -410,7 +410,7 @@ georesource:53654  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.157280189999998 42.20613457979256)"^^geosparql:wktLiteral .
 
-georesource:36680  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/36680> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "36680" ;
         geoes:cota             "1074"^^xsd:int ;
         dc:created             "2013-05-10"^^xsd:date ;
@@ -426,7 +426,7 @@ georesource:36680  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-1.0143986500000002 40.06293391855459)"^^geosparql:wktLiteral .
 
-georesource:13052  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/13052> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "13052" ;
         geoes:cota             "138"^^xsd:int ;
         dc:created             "2013-05-13"^^xsd:date ;
@@ -434,7 +434,7 @@ georesource:13052  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Coll de Balaguer"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/13052/geometry> .
 
-georesource:36650  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/36650> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "36650" ;
         geoes:cota             "948"^^xsd:int ;
         dc:created             "2013-05-10"^^xsd:date ;
@@ -454,7 +454,7 @@ georesource:36650  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.991283199999998 42.569284239937055)"^^geosparql:wktLiteral .
 
-georesource:24303  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/24303> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "24303" ;
         geoes:cota             "1477"^^xsd:int ;
         dc:created             "2013-03-25"^^xsd:date ;
@@ -462,7 +462,7 @@ georesource:24303  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Collado de Alovera"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/24303/geometry> .
 
-georesource:37059  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/37059> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "37059" ;
         geoes:cota             "1136"^^xsd:int ;
         dc:created             "2013-06-05"^^xsd:date ;
@@ -474,7 +474,7 @@ georesource:37059  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.597433540000001 43.26509070015955)"^^geosparql:wktLiteral .
 
-georesource:2193  a           geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/2193> a           geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "2193" ;
         geoes:cota             "792"^^xsd:int ;
         dc:created             "2013-03-11"^^xsd:date ;
@@ -482,7 +482,7 @@ georesource:2193  a           geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Coll de l'Ombrieta"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/2193/geometry> .
 
-georesource:53455  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/53455> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "53455" ;
         geoes:cota             "1037"^^xsd:int ;
         dc:created             "2013-06-11"^^xsd:date ;
@@ -498,7 +498,7 @@ georesource:53455  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.26873389 38.995279547702616)"^^geosparql:wktLiteral .
 
-georesource:1343  a           geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/1343> a           geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "1343" ;
         geoes:cota             "499"^^xsd:int ;
         dc:created             "2011-02-15"^^xsd:date ;
@@ -519,7 +519,7 @@ georesource:1343  a           geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.9415357300000001 39.20467779788148)"^^geosparql:wktLiteral .
 
-georesource:24261  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/24261> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "24261" ;
         geoes:cota             "1285"^^xsd:int ;
         dc:created             "2013-03-22"^^xsd:date ;
@@ -527,7 +527,7 @@ georesource:24261  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Collada de la Zambrana"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/24261/geometry> .
 
-georesource:40994  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/40994> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "40994" ;
         geoes:cota             "1361"^^xsd:int ;
         dc:created             "2013-05-07"^^xsd:date ;
@@ -535,7 +535,7 @@ georesource:40994  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Collado del Moralejo"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/40994/geometry> .
 
-georesource:1355  a           geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/1355> a           geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "1355" ;
         geoes:cota             "623"^^xsd:int ;
         dc:created             "2011-02-21"^^xsd:date ;
@@ -560,7 +560,7 @@ georesource:1355  a           geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.75412856 39.768256678334495)"^^geosparql:wktLiteral .
 
-georesource:55089  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/55089> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "55089" ;
         geoes:cota             "1134"^^xsd:int ;
         dc:created             "2013-02-20"^^xsd:date ;
@@ -568,7 +568,7 @@ georesource:55089  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Collado de la Arañosa"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/55089/geometry> .
 
-georesource:1482  a           geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/1482> a           geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "1482" ;
         geoes:cota             "1021"^^xsd:int ;
         dc:created             "2011-03-03"^^xsd:date ;
@@ -589,7 +589,7 @@ georesource:1482  a           geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.04925127 42.44644891989034)"^^geosparql:wktLiteral .
 
-georesource:8198  a           geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/8198> a           geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "8198" ;
         geoes:cota             "996"^^xsd:int ;
         dc:created             "2013-06-03"^^xsd:date ;
@@ -601,7 +601,7 @@ georesource:8198  a           geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (0.5489130600000001 41.11135248924122)"^^geosparql:wktLiteral .
 
-georesource:7644  a           geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/7644> a           geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "7644" ;
         geoes:cota             "1349"^^xsd:int ;
         dc:created             "2013-06-03"^^xsd:date ;
@@ -609,7 +609,7 @@ georesource:7644  a           geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Colladillo de Hollado"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/7644/geometry> .
 
-georesource:55090  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/55090> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "55090" ;
         geoes:cota             "1192"^^xsd:int ;
         dc:created             "2013-02-20"^^xsd:date ;
@@ -617,7 +617,7 @@ georesource:55090  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Collado de las Estacas"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/55090/geometry> .
 
-georesource:43768  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/43768> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "43768" ;
         geoes:cota             "256"^^xsd:int ;
         dc:created             "2013-06-11"^^xsd:date ;
@@ -629,7 +629,7 @@ georesource:43768  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.2848048399999996 37.210500785957414)"^^geosparql:wktLiteral .
 
-georesource:27010  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/27010> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "27010" ;
         geoes:cota             "788"^^xsd:int ;
         dc:created             "2013-06-10"^^xsd:date ;
@@ -645,7 +645,7 @@ georesource:27010  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-1.18650861 39.86969947841157)"^^geosparql:wktLiteral .
 
-georesource:1941  a           geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/1941> a           geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "1941" ;
         geoes:cota             "598"^^xsd:int ;
         dc:created             "2011-01-27"^^xsd:date ;
@@ -658,7 +658,7 @@ georesource:1941  a           geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-1.4051121400000002 43.02730238009159)"^^geosparql:wktLiteral .
 
-georesource:36572  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/36572> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "36572" ;
         geoes:cota             "1687"^^xsd:int ;
         dc:created             "2012-09-26"^^xsd:date ;
@@ -675,7 +675,7 @@ georesource:36572  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.223161590000001 39.52857181814696)"^^geosparql:wktLiteral .
 
-georesource:6389  a           geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/6389> a           geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "6389" ;
         geoes:cota             "1145"^^xsd:int ;
         dc:created             "2013-05-23"^^xsd:date ;
@@ -691,7 +691,7 @@ georesource:6389  a           geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.265330279999998 42.671865389974364)"^^geosparql:wktLiteral .
 
-georesource:24310  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/24310> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "24310" ;
         geoes:cota             "1185"^^xsd:int ;
         dc:created             "2013-03-25"^^xsd:date ;
@@ -699,7 +699,7 @@ georesource:24310  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Collado del Brezo"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/24310/geometry> .
 
-georesource:48563  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/48563> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "48563" ;
         geoes:cota             "629"^^xsd:int ;
         dc:created             "2013-03-07"^^xsd:date ;
@@ -707,7 +707,7 @@ georesource:48563  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Carrascal"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/48563/geometry> .
 
-georesource:6359  a           geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/6359> a           geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "6359" ;
         geoes:cota             "912"^^xsd:int ;
         dc:created             "2013-05-23"^^xsd:date ;
@@ -715,7 +715,7 @@ georesource:6359  a           geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Collado de Urkiaga"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/6359/geometry> .
 
-georesource:36638  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/36638> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "36638" ;
         geoes:cota             "805"^^xsd:int ;
         dc:created             "2013-05-10"^^xsd:date ;
@@ -723,7 +723,7 @@ georesource:36638  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "El Pico"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/36638/geometry> .
 
-georesource:1295  a           geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/1295> a           geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "1295" ;
         geoes:cota             "719"^^xsd:int ;
         dc:created             "2011-02-15"^^xsd:date ;
@@ -736,7 +736,7 @@ georesource:1295  a           geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.3505567800000002 38.982818667691795)"^^geosparql:wktLiteral .
 
-georesource:13041  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/13041> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "13041" ;
         geoes:cota             "446"^^xsd:int ;
         dc:created             "2013-05-10"^^xsd:date ;
@@ -744,7 +744,7 @@ georesource:13041  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Lo Coll del Moro"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/13041/geometry> .
 
-georesource:1320  a           geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/1320> a           geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "1320" ;
         geoes:cota             "842"^^xsd:int ;
         dc:created             "2011-02-15"^^xsd:date ;
@@ -765,7 +765,7 @@ georesource:1320  a           geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.226675899999999 42.269791749819284)"^^geosparql:wktLiteral .
 
-georesource:37290  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/37290> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "37290" ;
         geoes:cota             "1701"^^xsd:int ;
         dc:created             "2013-06-05"^^xsd:date ;
@@ -777,7 +777,7 @@ georesource:37290  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.8079305800000001 39.060694217759085)"^^geosparql:wktLiteral .
 
-georesource:36651  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/36651> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "36651" ;
         geoes:cota             "935"^^xsd:int ;
         dc:created             "2013-05-10"^^xsd:date ;
@@ -789,7 +789,7 @@ georesource:36651  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.281092979999999 42.76198097000586)"^^geosparql:wktLiteral .
 
-georesource:8163  a           geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/8163> a           geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "8163" ;
         geoes:cota             "967"^^xsd:int ;
         dc:created             "2013-05-30"^^xsd:date ;
@@ -797,7 +797,7 @@ georesource:8163  a           geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Portillo de Cejuelo"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/8163/geometry> .
 
-georesource:1724  a           geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/1724> a           geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "1724" ;
         geoes:cota             "799"^^xsd:int ;
         dc:created             "2011-02-24"^^xsd:date ;
@@ -806,7 +806,7 @@ georesource:1724  a           geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Collado de Cabezo Gordo"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/1724/geometry> .
 
-georesource:36621  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/36621> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "36621" ;
         geoes:cota             "1054"^^xsd:int ;
         dc:created             "2013-05-08"^^xsd:date ;
@@ -822,7 +822,7 @@ georesource:36621  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (0.36745217 41.08203776922411)"^^geosparql:wktLiteral .
 
-georesource:12782  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/12782> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "12782" ;
         geoes:cota             "709"^^xsd:int ;
         dc:created             "2013-05-10"^^xsd:date ;
@@ -830,7 +830,7 @@ georesource:12782  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Coll de la Torre"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/12782/geometry> .
 
-georesource:24304  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/24304> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "24304" ;
         geoes:cota             "1233"^^xsd:int ;
         dc:created             "2013-03-25"^^xsd:date ;
@@ -838,7 +838,7 @@ georesource:24304  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Collado de la Yegua"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/24304/geometry> .
 
-georesource:14699  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/14699> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "14699" ;
         geoes:cota             "2002"^^xsd:int ;
         dc:created             "2013-05-13"^^xsd:date ;
@@ -858,7 +858,7 @@ georesource:14699  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.28936116 43.05706711010056)"^^geosparql:wktLiteral .
 
-georesource:37272  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/37272> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "37272" ;
         geoes:cota             "1066"^^xsd:int ;
         dc:created             "2013-06-05"^^xsd:date ;
@@ -866,7 +866,7 @@ georesource:37272  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Collado de los Lobos"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/37272/geometry> .
 
-georesource:2948  a           geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/2948> a           geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "2948" ;
         geoes:cota             "731"^^xsd:int ;
         dc:created             "2013-05-14"^^xsd:date ;
@@ -874,7 +874,7 @@ georesource:2948  a           geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Collado de Xarpa"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/2948/geometry> .
 
-georesource:1947  a           geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/1947> a           geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "1947" ;
         geoes:cota             "574"^^xsd:int ;
         dc:created             "2011-02-07"^^xsd:date ;
@@ -883,7 +883,7 @@ georesource:1947  a           geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Collado de Los Barrancos"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/1947/geometry> .
 
-georesource:850  a            geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/850> a            geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "850" ;
         geoes:cota             "555"^^xsd:int ;
         dc:created             "2013-05-16"^^xsd:date ;
@@ -895,7 +895,7 @@ georesource:850  a            geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.756046560000002 43.09917333011301)"^^geosparql:wktLiteral .
 
-georesource:36367  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/36367> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "36367" ;
         geoes:cota             "1021"^^xsd:int ;
         dc:created             "2012-02-20"^^xsd:date ;
@@ -903,7 +903,7 @@ georesource:36367  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Canto de la Hoja GRande"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/36367/geometry> .
 
-georesource:36633  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/36633> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "36633" ;
         geoes:cota             "1125"^^xsd:int ;
         dc:created             "2013-05-10"^^xsd:date ;
@@ -911,7 +911,7 @@ georesource:36633  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Los Llanos del Canto"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/36633/geometry> .
 
-georesource:54005  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/54005> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "54005" ;
         geoes:cota             "372"^^xsd:int ;
         dc:created             "2011-11-08"^^xsd:date ;
@@ -920,7 +920,7 @@ georesource:54005  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Collado La Hormiga"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/54005/geometry> .
 
-georesource:37338  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/37338> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "37338" ;
         geoes:cota             "1099"^^xsd:int ;
         dc:created             "2013-06-05"^^xsd:date ;
@@ -936,7 +936,7 @@ georesource:37338  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.69789733 39.619057908218664)"^^geosparql:wktLiteral .
 
-georesource:2080  a           geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/2080> a           geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "2080" ;
         geoes:cota             "612"^^xsd:int ;
         dc:created             "2011-03-03"^^xsd:date ;
@@ -949,7 +949,7 @@ georesource:2080  a           geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (1.4328535600000003 41.388715089397145)"^^geosparql:wktLiteral .
 
-georesource:48509  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/48509> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "48509" ;
         geoes:cota             "318"^^xsd:int ;
         dc:created             "2013-03-07"^^xsd:date ;
@@ -957,7 +957,7 @@ georesource:48509  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "El Peñón"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/48509/geometry> .
 
-georesource:39160  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/39160> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "39160" ;
         geoes:cota             "871"^^xsd:int ;
         dc:created             "2013-06-13"^^xsd:date ;
@@ -974,7 +974,7 @@ georesource:39160  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.7275393 39.136850297824175)"^^geosparql:wktLiteral .
 
-georesource:36645  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/36645> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "36645" ;
         geoes:cota             "777"^^xsd:int ;
         dc:created             "2013-05-10"^^xsd:date ;
@@ -986,7 +986,7 @@ georesource:36645  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (0.5900596499999999 42.554463419931544)"^^geosparql:wktLiteral .
 
-georesource:35222  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/35222> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "35222" ;
         geoes:cota             "924"^^xsd:int ;
         dc:created             "2012-02-27"^^xsd:date ;
@@ -1002,7 +1002,7 @@ georesource:35222  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.97239078 39.22867183790163)"^^geosparql:wktLiteral .
 
-georesource:22272  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/22272> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "22272" ;
         geoes:cota             "1024"^^xsd:int ;
         dc:created             "2013-02-25"^^xsd:date ;
@@ -1014,7 +1014,7 @@ georesource:22272  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.994253929999999 42.21590154979669)"^^geosparql:wktLiteral .
 
-georesource:36923  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/36923> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "36923" ;
         geoes:cota             "952"^^xsd:int ;
         dc:created             "2013-06-05"^^xsd:date ;
@@ -1022,7 +1022,7 @@ georesource:36923  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Collado de la Carrizosa"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/36923/geometry> .
 
-georesource:6222  a           geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/6222> a           geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "6222" ;
         geoes:cota             "793"^^xsd:int ;
         dc:created             "2013-05-23"^^xsd:date ;
@@ -1030,7 +1030,7 @@ georesource:6222  a           geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Portillo de Jarés"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/6222/geometry> .
 
-georesource:814  a            geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/814> a            geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "814" ;
         geoes:cota             "529"^^xsd:int ;
         dc:created             "2013-05-16"^^xsd:date ;
@@ -1042,7 +1042,7 @@ georesource:814  a            geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.1047126 42.1624766397739)"^^geosparql:wktLiteral .
 
-georesource:24286  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/24286> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "24286" ;
         geoes:cota             "1577"^^xsd:int ;
         dc:created             "2013-03-25"^^xsd:date ;
@@ -1050,7 +1050,7 @@ georesource:24286  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Collado del Cerbunal"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/24286/geometry> .
 
-georesource:10756  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/10756> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "10756" ;
         geoes:cota             "1781"^^xsd:int ;
         dc:created             "2013-05-10"^^xsd:date ;
@@ -1058,7 +1058,7 @@ georesource:10756  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Còth de Panèc"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/10756/geometry> .
 
-georesource:18150  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/18150> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "18150" ;
         geoes:cota             "1857"^^xsd:int ;
         dc:created             "2013-04-15"^^xsd:date ;
@@ -1066,7 +1066,7 @@ georesource:18150  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Collado de la Saltidera"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/18150/geometry> .
 
-georesource:35668  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/35668> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "35668" ;
         geoes:cota             "1132"^^xsd:int ;
         dc:created             "2013-05-08"^^xsd:date ;
@@ -1074,7 +1074,7 @@ georesource:35668  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Laperal"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/35668/geometry> .
 
-georesource:48564  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/48564> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "48564" ;
         geoes:cota             "705"^^xsd:int ;
         dc:created             "2013-03-07"^^xsd:date ;
@@ -1082,7 +1082,7 @@ georesource:48564  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Collado de la Viuda"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/48564/geometry> .
 
-georesource:39546  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/39546> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "39546" ;
         geoes:cota             "1041"^^xsd:int ;
         dc:created             "2013-06-13"^^xsd:date ;
@@ -1091,7 +1091,7 @@ georesource:39546  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Las Almohallas"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/39546/geometry> .
 
-georesource:168  a            geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/168> a            geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "168" ;
         geoes:cota             "935"^^xsd:int ;
         dc:created             "2013-05-16"^^xsd:date ;
@@ -1099,7 +1099,7 @@ georesource:168  a            geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "El Clot de Carreres"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/168/geometry> .
 
-georesource:36639  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/36639> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "36639" ;
         geoes:cota             "806"^^xsd:int ;
         dc:created             "2013-05-10"^^xsd:date ;
@@ -1107,7 +1107,7 @@ georesource:36639  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Valdecalvo"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/36639/geometry> .
 
-georesource:8236  a           geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/8236> a           geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "8236" ;
         geoes:cota             "1053"^^xsd:int ;
         dc:created             "2013-06-03"^^xsd:date ;
@@ -1119,7 +1119,7 @@ georesource:8236  a           geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.0109379899999995 43.07037437010453)"^^geosparql:wktLiteral .
 
-georesource:39124  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/39124> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "39124" ;
         geoes:cota             "1249"^^xsd:int ;
         dc:created             "2013-06-13"^^xsd:date ;
@@ -1132,7 +1132,7 @@ georesource:39124  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-1.5017739599999997 43.0605950601016)"^^geosparql:wktLiteral .
 
-georesource:36640  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/36640> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "36640" ;
         geoes:cota             "809"^^xsd:int ;
         dc:created             "2013-05-10"^^xsd:date ;
@@ -1148,7 +1148,7 @@ georesource:36640  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.7547598399999998 38.5149530872712)"^^geosparql:wktLiteral .
 
-georesource:53560  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/53560> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "53560" ;
         geoes:cota             "948"^^xsd:int ;
         dc:created             "2011-09-12"^^xsd:date ;
@@ -1161,7 +1161,7 @@ georesource:53560  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.2985840900000007 42.88318173004632)"^^geosparql:wktLiteral .
 
-georesource:1809  a           geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/1809> a           geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "1809" ;
         geoes:cota             "344"^^xsd:int ;
         dc:created             "2011-02-15"^^xsd:date ;
@@ -1170,7 +1170,7 @@ georesource:1809  a           geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Collado de La Carbonera"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/1809/geometry> .
 
-georesource:1393  a           geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/1393> a           geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "1393" ;
         geoes:cota             "851"^^xsd:int ;
         dc:created             "2011-03-01"^^xsd:date ;
@@ -1179,7 +1179,7 @@ georesource:1393  a           geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Collado Pozo Seco"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/1393/geometry> .
 
-georesource:7670  a           geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/7670> a           geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "7670" ;
         geoes:cota             "1103"^^xsd:int ;
         dc:created             "2013-06-03"^^xsd:date ;
@@ -1187,7 +1187,7 @@ georesource:7670  a           geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Portillo de Condado o de Madrid"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/7670/geometry> .
 
-georesource:699  a            geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/699> a            geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "699" ;
         geoes:cota             "1331"^^xsd:int ;
         dc:created             "2013-05-16"^^xsd:date ;
@@ -1195,7 +1195,7 @@ georesource:699  a            geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Collet del Curandero"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/699/geometry> .
 
-georesource:36652  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/36652> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "36652" ;
         geoes:cota             "1264"^^xsd:int ;
         dc:created             "2013-05-10"^^xsd:date ;
@@ -1203,7 +1203,7 @@ georesource:36652  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Campanero Alto"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/36652/geometry> .
 
-georesource:1725  a           geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/1725> a           geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "1725" ;
         geoes:cota             "731"^^xsd:int ;
         dc:created             "2011-02-24"^^xsd:date ;
@@ -1216,7 +1216,7 @@ georesource:1725  a           geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.1773500899999996 40.423056558807545)"^^geosparql:wktLiteral .
 
-georesource:28706  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/28706> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "28706" ;
         geoes:cota             "1774"^^xsd:int ;
         dc:created             "2013-06-14"^^xsd:date ;
@@ -1224,7 +1224,7 @@ georesource:28706  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Collado del Pinillo"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/28706/geometry> .
 
-georesource:6409  a           geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/6409> a           geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "6409" ;
         geoes:cota             "1309"^^xsd:int ;
         dc:created             "2013-05-23"^^xsd:date ;
@@ -1256,7 +1256,7 @@ georesource:6409  a           geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.667313369999998 39.548844278163116)"^^geosparql:wktLiteral .
 
-georesource:9147  a           geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/9147> a           geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "9147" ;
         geoes:cota             "1642"^^xsd:int ;
         dc:created             "2012-01-31"^^xsd:date ;
@@ -1269,7 +1269,7 @@ georesource:9147  a           geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.467319299999999 39.61464865821518)"^^geosparql:wktLiteral .
 
-georesource:53554  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/53554> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "53554" ;
         geoes:cota             "944"^^xsd:int ;
         dc:created             "2011-09-12"^^xsd:date ;
@@ -1290,7 +1290,7 @@ georesource:53554  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.8861027299999993 42.81455177002366)"^^geosparql:wktLiteral .
 
-georesource:36646  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/36646> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "36646" ;
         geoes:cota             "782"^^xsd:int ;
         dc:created             "2013-05-10"^^xsd:date ;
@@ -1298,7 +1298,7 @@ georesource:36646  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "El Pedrerín"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/36646/geometry> .
 
-georesource:1991  a           geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/1991> a           geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "1991" ;
         geoes:cota             "213"^^xsd:int ;
         dc:created             "2011-02-07"^^xsd:date ;
@@ -1319,7 +1319,7 @@ georesource:1991  a           geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.909997249999999 42.65622882996878)"^^geosparql:wktLiteral .
 
-georesource:1695  a           geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/1695> a           geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "1695" ;
         geoes:cota             "1062"^^xsd:int ;
         dc:created             "2011-03-03"^^xsd:date ;
@@ -1340,7 +1340,7 @@ georesource:1695  a           geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.74832354 37.87788139665487)"^^geosparql:wktLiteral .
 
-georesource:35742  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/35742> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "35742" ;
         geoes:cota             "1637"^^xsd:int ;
         dc:created             "2012-02-20"^^xsd:date ;
@@ -1364,7 +1364,7 @@ georesource:35742  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.19676309 37.24392549599357)"^^geosparql:wktLiteral .
 
-georesource:37322  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/37322> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "37322" ;
         geoes:cota             "577"^^xsd:int ;
         dc:created             "2013-06-05"^^xsd:date ;
@@ -1388,7 +1388,7 @@ georesource:37322  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.55268069 43.275565420162344)"^^geosparql:wktLiteral .
 
-georesource:35669  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/35669> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "35669" ;
         geoes:cota             "1125"^^xsd:int ;
         dc:created             "2013-05-08"^^xsd:date ;
@@ -1396,7 +1396,7 @@ georesource:35669  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Las Lagunas"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/35669/geometry> .
 
-georesource:9268  a           geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/9268> a           geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "9268" ;
         geoes:cota             "1363"^^xsd:int ;
         dc:created             "2012-01-25"^^xsd:date ;
@@ -1409,7 +1409,7 @@ georesource:9268  a           geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.51059133 43.12483992012049)"^^geosparql:wktLiteral .
 
-georesource:24312  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/24312> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "24312" ;
         geoes:cota             "812"^^xsd:int ;
         dc:created             "2013-03-25"^^xsd:date ;
@@ -1417,7 +1417,7 @@ georesource:24312  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Collado de la Posadilla"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/24312/geometry> .
 
-georesource:48565  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/48565> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "48565" ;
         geoes:cota             "728"^^xsd:int ;
         dc:created             "2013-03-07"^^xsd:date ;
@@ -1429,7 +1429,7 @@ georesource:48565  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.0548983 37.263228606014394)"^^geosparql:wktLiteral .
 
-georesource:48505  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/48505> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "48505" ;
         geoes:cota             "405"^^xsd:int ;
         dc:created             "2013-03-07"^^xsd:date ;
@@ -1437,7 +1437,7 @@ georesource:48505  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Morrón de Borreguero"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/48505/geometry> .
 
-georesource:1955  a           geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/1955> a           geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "1955" ;
         geoes:cota             "578"^^xsd:int ;
         dc:created             "2011-01-27"^^xsd:date ;
@@ -1446,7 +1446,7 @@ georesource:1955  a           geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Collado dels Caragols"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/1955/geometry> .
 
-georesource:36641  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/36641> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "36641" ;
         geoes:cota             "813"^^xsd:int ;
         dc:created             "2013-05-10"^^xsd:date ;
@@ -1454,7 +1454,7 @@ georesource:36641  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Páramo del Medio"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/36641/geometry> .
 
-georesource:40876  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/40876> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "40876" ;
         geoes:cota             "1387"^^xsd:int ;
         dc:created             "2012-04-09"^^xsd:date ;
@@ -1462,7 +1462,7 @@ georesource:40876  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Collado de las Pablas"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/40876/geometry> .
 
-georesource:869  a            geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/869> a            geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "869" ;
         geoes:cota             "734"^^xsd:int ;
         dc:created             "2013-03-11"^^xsd:date ;
@@ -1474,7 +1474,7 @@ georesource:869  a            geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (0.2984475700000001 42.478761139902815)"^^geosparql:wktLiteral .
 
-georesource:13592  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/13592> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "13592" ;
         geoes:cota             "2272"^^xsd:int ;
         dc:created             "2013-05-14"^^xsd:date ;
@@ -1482,7 +1482,7 @@ georesource:13592  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Collada de Basibé o de Castanesa"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/13592/geometry> .
 
-georesource:37346  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/37346> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "37346" ;
         geoes:cota             "1349"^^xsd:int ;
         dc:created             "2013-06-05"^^xsd:date ;
@@ -1494,7 +1494,7 @@ georesource:37346  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-1.10384768 42.64626917996521)"^^geosparql:wktLiteral .
 
-georesource:2504  a           geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/2504> a           geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "2504" ;
         geoes:cota             "1116"^^xsd:int ;
         dc:created             "2013-05-14"^^xsd:date ;
@@ -1506,7 +1506,7 @@ georesource:2504  a           geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.90970093 42.489541649906975)"^^geosparql:wktLiteral .
 
-georesource:35229  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/35229> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "35229" ;
         geoes:cota             "828"^^xsd:int ;
         dc:created             "2012-02-27"^^xsd:date ;
@@ -1522,7 +1522,7 @@ georesource:35229  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.8094956000000004 42.26687813981807)"^^geosparql:wktLiteral .
 
-georesource:8165  a           geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/8165> a           geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "8165" ;
         geoes:cota             "1303"^^xsd:int ;
         dc:created             "2013-06-03"^^xsd:date ;
@@ -1530,7 +1530,7 @@ georesource:8165  a           geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Portillo de Bustihierro"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/8165/geometry> .
 
-georesource:24306  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/24306> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "24306" ;
         geoes:cota             "715"^^xsd:int ;
         dc:created             "2013-03-25"^^xsd:date ;
@@ -1550,7 +1550,7 @@ georesource:24306  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.787430209999999 42.8871331900476)"^^geosparql:wktLiteral .
 
-georesource:36665  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/36665> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "36665" ;
         geoes:cota             "1007"^^xsd:int ;
         dc:created             "2013-05-10"^^xsd:date ;
@@ -1558,7 +1558,7 @@ georesource:36665  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "La Gándara"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/36665/geometry> .
 
-georesource:36931  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/36931> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "36931" ;
         geoes:cota             "1101"^^xsd:int ;
         dc:created             "2013-06-05"^^xsd:date ;
@@ -1582,7 +1582,7 @@ georesource:36931  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (0.6537441299999999 42.79002030001539)"^^geosparql:wktLiteral .
 
-georesource:36647  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/36647> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "36647" ;
         geoes:cota             "813"^^xsd:int ;
         dc:created             "2013-05-10"^^xsd:date ;
@@ -1602,7 +1602,7 @@ georesource:36647  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.50586792 38.51652786727265)"^^geosparql:wktLiteral .
 
-georesource:8214  a           geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/8214> a           geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "8214" ;
         geoes:cota             "1209"^^xsd:int ;
         dc:created             "2013-06-03"^^xsd:date ;
@@ -1610,7 +1610,7 @@ georesource:8214  a           geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Collado el Cerro"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/8214/geometry> .
 
-georesource:13050  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/13050> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "13050" ;
         geoes:cota             "351"^^xsd:int ;
         dc:created             "2013-05-10"^^xsd:date ;
@@ -1622,7 +1622,7 @@ georesource:13050  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.419181180000002 40.34107149875154)"^^geosparql:wktLiteral .
 
-georesource:2064  a           geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/2064> a           geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "2064" ;
         geoes:cota             "774"^^xsd:int ;
         dc:created             "2011-03-03"^^xsd:date ;
@@ -1643,7 +1643,7 @@ georesource:2064  a           geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.455291089999999 39.59114234819665)"^^geosparql:wktLiteral .
 
-georesource:6520  a           geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/6520> a           geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "6520" ;
         geoes:cota             "682"^^xsd:int ;
         dc:created             "2013-05-23"^^xsd:date ;
@@ -1655,7 +1655,7 @@ georesource:6520  a           geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.933059039999999 42.23985224980679)"^^geosparql:wktLiteral .
 
-georesource:1944  a           geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/1944> a           geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "1944" ;
         geoes:cota             "432"^^xsd:int ;
         dc:created             "2011-02-07"^^xsd:date ;
@@ -1668,7 +1668,7 @@ georesource:1944  a           geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-1.8085043 41.74132225957955)"^^geosparql:wktLiteral .
 
-georesource:38632  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/38632> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "38632" ;
         geoes:cota             "1514"^^xsd:int ;
         dc:created             "2011-04-28"^^xsd:date ;
@@ -1676,7 +1676,7 @@ georesource:38632  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Collado de Piedra"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/38632/geometry> .
 
-georesource:9269  a           geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/9269> a           geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "9269" ;
         geoes:cota             "1718"^^xsd:int ;
         dc:created             "2012-01-25"^^xsd:date ;
@@ -1689,7 +1689,7 @@ georesource:9269  a           geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.80914762 39.63449443823079)"^^geosparql:wktLiteral .
 
-georesource:37335  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/37335> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "37335" ;
         geoes:cota             "784"^^xsd:int ;
         dc:created             "2013-06-05"^^xsd:date ;
@@ -1697,7 +1697,7 @@ georesource:37335  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Collado de Edillo"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/37335/geometry> .
 
-georesource:25994  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/25994> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "25994" ;
         geoes:cota             "1772"^^xsd:int ;
         dc:created             "2013-06-04"^^xsd:date ;
@@ -1709,7 +1709,7 @@ georesource:25994  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.48880101 39.74051371831318)"^^geosparql:wktLiteral .
 
-georesource:53646  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/53646> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "53646" ;
         geoes:cota             "1155"^^xsd:int ;
         dc:created             "2011-09-12"^^xsd:date ;
@@ -1718,7 +1718,7 @@ georesource:53646  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Collado de la Becada"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/53646/geometry> .
 
-georesource:55130  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/55130> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "55130" ;
         geoes:cota             "825"^^xsd:int ;
         dc:created             "2013-02-20"^^xsd:date ;
@@ -1730,7 +1730,7 @@ georesource:55130  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.10593473 42.33824389984736)"^^geosparql:wktLiteral .
 
-georesource:22268  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/22268> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "22268" ;
         geoes:cota             "1318"^^xsd:int ;
         dc:created             "2013-02-25"^^xsd:date ;
@@ -1750,7 +1750,7 @@ georesource:22268  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-1.3911227199999998 42.50643388991344)"^^geosparql:wktLiteral .
 
-georesource:6363  a           geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/6363> a           geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "6363" ;
         geoes:cota             "1127"^^xsd:int ;
         dc:created             "2013-05-23"^^xsd:date ;
@@ -1758,7 +1758,7 @@ georesource:6363  a           geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Collado Sorotepo"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/6363/geometry> .
 
-georesource:36642  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/36642> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "36642" ;
         geoes:cota             "838"^^xsd:int ;
         dc:created             "2013-05-10"^^xsd:date ;
@@ -1766,7 +1766,7 @@ georesource:36642  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Cadilloso"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/36642/geometry> .
 
-georesource:30858  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/30858> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "30858" ;
         geoes:cota             "1329"^^xsd:int ;
         dc:created             "2013-05-23"^^xsd:date ;
@@ -1774,7 +1774,7 @@ georesource:30858  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "Collado de las Crucetas"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/30858/geometry> .
 
-georesource:14703  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/14703> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "14703" ;
         geoes:cota             "1471"^^xsd:int ;
         dc:created             "2013-05-13"^^xsd:date ;
@@ -1786,7 +1786,7 @@ georesource:14703  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.7579387499999999 38.43709088719853)"^^geosparql:wktLiteral .
 
-georesource:8154  a           geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/8154> a           geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "8154" ;
         geoes:cota             "894"^^xsd:int ;
         dc:created             "2013-05-30"^^xsd:date ;
@@ -1802,7 +1802,7 @@ georesource:8154  a           geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.01902102 39.742628078314816)"^^geosparql:wktLiteral .
 
-georesource:37528  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/37528> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "37528" ;
         geoes:cota             "1366"^^xsd:int ;
         dc:created             "2012-03-29"^^xsd:date ;
@@ -1814,7 +1814,7 @@ georesource:37528  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.34378085 42.34437677984984)"^^geosparql:wktLiteral .
 
-georesource:14268  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/14268> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "14268" ;
         geoes:cota             "2862"^^xsd:int ;
         dc:created             "2013-05-14"^^xsd:date ;
@@ -1826,7 +1826,7 @@ georesource:14268  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.324211109999999 43.265327650159605)"^^geosparql:wktLiteral .
 
-georesource:35653  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/35653> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "35653" ;
         geoes:cota             "1456"^^xsd:int ;
         dc:created             "2013-05-08"^^xsd:date ;
@@ -1862,7 +1862,7 @@ georesource:35653  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.73815514 39.964621088482446)"^^geosparql:wktLiteral .
 
-georesource:36666  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/36666> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "36666" ;
         geoes:cota             "1544"^^xsd:int ;
         dc:created             "2013-05-10"^^xsd:date ;
@@ -1870,7 +1870,7 @@ georesource:36666  a          geoes:PuntoAcotado , geoes:Collado ;
         dc:title               "El Cellerón"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Collado/36666/geometry> .
 
-georesource:21738  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/21738> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "21738" ;
         geoes:cota             "1826"^^xsd:int ;
         dc:created             "2011-03-17"^^xsd:date ;
@@ -1882,7 +1882,7 @@ georesource:21738  a          geoes:PuntoAcotado , geoes:Collado ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.067280659999999 42.23588467980512)"^^geosparql:wktLiteral .
 
-georesource:28413  a          geoes:PuntoAcotado , geoes:Collado ;
+<http://geo.linkeddata.es/recurso/Collado/28413> a          geoes:PuntoAcotado , geoes:Collado ;
         rdfs:label             "28413" ;
         geoes:cota             "785"^^xsd:int ;
         dc:created             "2013-05-30"^^xsd:date ;

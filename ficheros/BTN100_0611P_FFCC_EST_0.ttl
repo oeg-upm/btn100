@@ -10,7 +10,7 @@
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
 @prefix dc:    <http://purl.org/dc/terms/> .
 
-georesource:1295  a            geoes:InstalacionFerroviaria , geoes:EstacionDeSuministro ;
+<http://geo.linkeddata.es/recurso/EstacionDeSuministro/1295> a            geoes:InstalacionFerroviaria , geoes:EstacionDeSuministro ;
         rdfs:label              "1295" ;
         geoes:codigoDeEstacion  "60121"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
@@ -25,7 +25,7 @@ georesource:1295  a            geoes:InstalacionFerroviaria , geoes:EstacionDeSu
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.4908718888235617 40.427814092969186)"^^geosparql:wktLiteral .
 
-georesource:351  a             geoes:InstalacionFerroviaria , geoes:EstacionDeSuministro ;
+<http://geo.linkeddata.es/recurso/EstacionDeSuministro/351> a             geoes:InstalacionFerroviaria , geoes:EstacionDeSuministro ;
         rdfs:label              "351" ;
         geoes:codigoDeEstacion  "70121"^^xsd:int ;
         geoes:rutaTenT          <http://geo.linkeddata.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
