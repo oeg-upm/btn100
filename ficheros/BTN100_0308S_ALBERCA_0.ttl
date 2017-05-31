@@ -18,7 +18,7 @@
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-3.6846712999999998 40.38550852878201, -3.6843499700000013 40.385803518782204, -3.6837591999999995 40.38569428878214, -3.68346918 40.386169448782454, -3.6823293999999995 40.38716816878314, -3.6815905100000004 40.388213398783854, -3.6808246000000002 40.388885808784316, -3.68063828 40.38904937878443, -3.6808668699999996 40.38832658878393, -3.6813907399999994 40.38764714878346, -3.6819443100000004 40.38699007878301, -3.68249992 40.3865358987827, -3.68296662 40.38603714878235, -3.683343730000001 40.385426198781936, -3.68354326 40.38474866878147, -3.6838348800000005 40.384431308781274, -3.6846712999999998 40.38550852878201))"^^geosparql:wktLiteral .
 
-georesource:1626  a           geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/1626> a           geoes:Alberca , geoes:Estanque ;
         rdfs:label             "1626" ;
         dc:created             "2012-03-13"^^xsd:date ;
         dc:identifier          "1626"^^xsd:int ;
@@ -40,7 +40,7 @@ georesource:1626  a           geoes:Alberca , geoes:Estanque ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((2.874671380000001 42.23261925980375, 2.8750712599999995 42.232578269803724, 2.8752633199999997 42.23259279980373, 2.875689400000001 42.23272348980379, 2.8758931800000007 42.23275396980382, 2.8760796200000005 42.232727879803775, 2.87619938 42.23265559980376, 2.87621248 42.232587789803745, 2.876171869999999 42.23247192980369, 2.87606143 42.23236427980365, 2.875906 42.23227394980361, 2.8751770300000006 42.23197820980347, 2.87480274 42.23188890980344, 2.8746136900000008 42.23188446980344, 2.8744772699999994 42.23192799980347, 2.8743817199999993 42.2320155298035, 2.874330560000001 42.23214677980355, 2.8743294599999984 42.232458849803685, 2.87438954 42.23259544980375, 2.87448085 42.23263021980376, 2.874671380000001 42.23261925980375))"^^geosparql:wktLiteral .
 
-georesource:1554  a           geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/1554> a           geoes:Alberca , geoes:Estanque ;
         rdfs:label             "1554" ;
         dc:created             "2012-01-25"^^xsd:date ;
         dc:identifier          "1554"^^xsd:int ;
@@ -50,19 +50,19 @@ georesource:1554  a           geoes:Alberca , geoes:Estanque ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((1.9277903200000006 42.436778949886566, 1.9278990499999993 42.43673402988655, 1.9279785999999999 42.43666056988651, 1.9280312999999996 42.4365788398865, 1.9280631800000003 42.43648439988646, 1.9280618100000002 42.436393789886424, 1.9280499299999996 42.43629847988638, 1.92799453 42.43619673988634, 1.92791115 42.43611688988632, 1.92782904 42.43604821988628, 1.92774215 42.43598174988627, 1.92764925 42.43591846988623, 1.9275547699999993 42.435855179886204, 1.9274527299999993 42.43579288988617, 1.9273502600000008 42.435741769886164, 1.9272359599999993 42.43568594988614, 1.9271257000000004 42.43564249988613, 1.9270041399999998 42.435620019886116, 1.9268805499999997 42.43561660988612, 1.9267533500000005 42.43562540988612, 1.9266347200000002 42.43565221988612, 1.92651104 42.435690149886135, 1.9263995100000004 42.43572836988617, 1.92628468 42.4357742998862, 1.9261727999999998 42.43582584988619, 1.92606642 42.43588986988622, 1.92598103 42.435956439886255, 1.9258967100000002 42.43603876988628, 1.9258363800000002 42.4361259198863, 1.9257862199999993 42.43622234988635, 1.9257437800000001 42.43631542988638, 1.92571787 42.436408939886434, 1.9257361000000002 42.43649430988647, 1.9257917400000002 42.43654678988647, 1.9258910299999996 42.4365989698865, 1.9259977399999997 42.43665804988652, 1.9260874899999991 42.43672787988656, 1.9261540800000005 42.436808559886586, 1.92621177 42.43689015988662, 1.9262801299999996 42.43696644988664, 1.926368279999999 42.43703742988668, 1.9264666699999997 42.437071669886684, 1.9265738799999994 42.43707258988668, 1.9266938000000002 42.437055879886685, 1.9268237 42.437010169886655, 1.92694208 42.43694868988662, 1.92704941 42.43690033988663, 1.9271715099999998 42.43686239988661, 1.9272804399999999 42.436855499886605, 1.92733807 42.4368487398866, 1.9274820499999996 42.436832439886594, 1.927603450000001 42.43681456988661, 1.9276792200000006 42.43680599988659, 1.9277903200000006 42.436778949886566))"^^geosparql:wktLiteral .
 
-georesource:4012  a           geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/4012> a           geoes:Alberca , geoes:Estanque ;
         rdfs:label             "4012" ;
         dc:created             "2012-03-20"^^xsd:date ;
         dc:identifier          "4012"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Estanque/4012/geometry> .
 
-georesource:577  a            geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/577> a            geoes:Alberca , geoes:Estanque ;
         rdfs:label             "577" ;
         dc:created             "2012-03-07"^^xsd:date ;
         dc:identifier          "577"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Estanque/577/geometry> .
 
-georesource:797  a            geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/797> a            geoes:Alberca , geoes:Estanque ;
         rdfs:label             "797" ;
         dc:created             "2012-02-14"^^xsd:date ;
         dc:identifier          "797"^^xsd:int ;
@@ -76,13 +76,13 @@ georesource:797  a            geoes:Alberca , geoes:Estanque ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-3.8420686700000006 43.4533979602074, -3.8419499000000004 43.45339019020737, -3.8418356000000005 43.45336528020736, -3.8417302200000005 43.453324360207354, -3.8416382399999995 43.45326903020734, -3.8415631399999994 43.45320142020732, -3.8415080599999984 43.453124390207314, -3.8414750200000007 43.45304080020729, -3.8414654100000005 43.45295416020727, -3.84147966 43.45286789020724, -3.8415172000000006 43.45278531020723, -3.841576469999999 43.4527098702072, -3.8416551600000006 43.45264455020719, -3.8417501 43.45259190020719, -3.841857590000001 43.45255401020719, -3.8419731100000014 43.45253254020718, -3.842092320000001 43.452528150207186, -3.842210280000001 43.45254106020719, -3.8423224299999994 43.45257084020717, -3.8424241600000006 43.45261629020719, -3.8425114999999996 43.452675520207194, -3.8425808300000006 43.45274623020722, -3.8426296399999997 43.452825560207245, -3.8426557900000002 43.45291046020725, -3.8426582300000005 43.45299733020729, -3.8426369200000017 43.45308285020731, -3.8425926800000014 43.453163590207325, -3.8425273200000003 43.45323637020736, -3.842443390000001 43.45329813020735, -3.842344320000001 43.453346580207366, -3.8422339099999996 43.45337972020737, -3.84211685 43.45339616020739, -3.8420686700000006 43.4533979602074))"^^geosparql:wktLiteral .
 
-georesource:4757  a           geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/4757> a           geoes:Alberca , geoes:Estanque ;
         rdfs:label             "4757" ;
         dc:created             "2012-02-16"^^xsd:date ;
         dc:identifier          "4757"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Estanque/4757/geometry> .
 
-georesource:571  a            geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/571> a            geoes:Alberca , geoes:Estanque ;
         rdfs:label             "571" ;
         dc:created             "2012-03-07"^^xsd:date ;
         dc:identifier          "571"^^xsd:int ;
@@ -92,7 +92,7 @@ georesource:571  a            geoes:Alberca , geoes:Estanque ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-0.93922994 41.633208299525535, -0.9396212500000003 41.633032849525435, -0.9398203300000004 41.632997959525404, -0.9400080700000001 41.633017359525425, -0.9400864900000002 41.63307279952546, -0.9401332399999998 41.63318801952552, -0.9401086300000001 41.63348577952566, -0.94001425 41.63376157952581, -0.93992884 41.6338048095258, -0.93980397 41.6337904095258, -0.9393600200000001 41.63353792952569, -0.9391722800000002 41.633514659525694, -0.9390094099999997 41.63355495952569, -0.9389104399999998 41.63362811952571, -0.9388373299999999 41.63374866952579, -0.9388245700000001 41.63389271952586, -0.93897334 41.63433634952609, -0.9389643299999999 41.634491099526166, -0.9388990799999999 41.63457953952621, -0.9387830899999999 41.634614119526226, -0.9386163600000005 41.634602299526215, -0.9385381200000001 41.634536949526186, -0.9384115200000002 41.63413613952599, -0.9380270899999995 41.63361749952572, -0.9379974000000002 41.63349041952564, -0.93806377 41.633427039525635, -0.93822323 41.63336198952558, -0.9388474900000006 41.63329429952556, -0.93922994 41.633208299525535))"^^geosparql:wktLiteral .
 
-georesource:1712  a           geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/1712> a           geoes:Alberca , geoes:Estanque ;
         rdfs:label             "1712" ;
         dc:created             "2012-02-15"^^xsd:date ;
         dc:identifier          "1712"^^xsd:int ;
@@ -102,7 +102,7 @@ georesource:1712  a           geoes:Alberca , geoes:Estanque ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-2.928737269999999 42.69807108998364, -2.9289699100000006 42.69834148998374, -2.9292490900000003 42.69900934998399, -2.9289588100000006 42.699085159984, -2.928473640000001 42.69895418998396, -2.9279099100000012 42.69866142998386, -2.928137349999999 42.69836330998375, -2.928563750000001 42.69809601998365, -2.928737269999999 42.69807108998364))"^^geosparql:wktLiteral .
 
-georesource:1019  a           geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/1019> a           geoes:Alberca , geoes:Estanque ;
         rdfs:label             "1019" ;
         dc:created             "2012-02-06"^^xsd:date ;
         dc:identifier          "1019"^^xsd:int ;
@@ -112,13 +112,13 @@ georesource:1019  a           geoes:Alberca , geoes:Estanque ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-6.93276585 37.27248281602436, -6.932898840000001 37.27259962602447, -6.93351593 37.27314165602506, -6.932682789999999 37.27375490602572, -6.932085860000001 37.27323345602515, -6.931920600000001 37.273089096025004, -6.93276585 37.27248281602436))"^^geosparql:wktLiteral .
 
-georesource:597  a            geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/597> a            geoes:Alberca , geoes:Estanque ;
         rdfs:label             "597" ;
         dc:created             "2012-10-14"^^xsd:date ;
         dc:identifier          "597"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Estanque/597/geometry> .
 
-georesource:443  a            geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/443> a            geoes:Alberca , geoes:Estanque ;
         rdfs:label             "443" ;
         dc:created             "2010-11-03"^^xsd:date ;
         dc:identifier          "443"^^xsd:int ;
@@ -132,7 +132,7 @@ georesource:443  a            geoes:Alberca , geoes:Estanque ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-1.07714446 41.727821399572896, -1.07723082 41.72821498957309, -1.0771424999999997 41.72854376957323, -1.07718718 41.728795259573374, -1.0769882500000005 41.728825889573386, -1.0768557799999998 41.72880078957337, -1.07673553 41.72883777957341, -1.07666045 41.72896485957345, -1.0766846500000002 41.729144859573545, -1.07678764 41.729315809573635, -1.0769032799999998 41.729409159573656, -1.0769360799999999 41.72951472957373, -1.0768150500000002 41.729734799573826, -1.07691312 41.7298733395739, -1.07668593 41.72992384957393, -1.0766769599999997 41.73010382957403, -1.0766436 41.73017828957405, -1.07645288 41.730227519574086, -1.07620844 41.73021152957407, -1.0760468200000002 41.73023286957409, -1.0758605999999997 41.73017976957406, -1.07578626 41.73012060957402, -1.0757990099999999 41.73002760957397, -1.0759734100000002 41.729900659573914, -1.0760523000000004 41.7298760395739, -1.0760362199999998 41.729717709573826, -1.0759305399999999 41.729576699573755, -1.0762940300000001 41.72946686957369, -1.07633171 41.729364559573646, -1.07622077 41.72910979957353, -1.0765076500000001 41.7288435095734, -1.07652438 41.72877839957336, -1.0763341700000004 41.72868172957332, -1.0762472399999998 41.72866603957329, -1.0759895 41.72889832957342, -1.0757573199999997 41.72894748957343, -1.0756372100000005 41.72894717957347, -1.0754720400000002 41.72881345957339, -1.0754183700000004 41.72873879957333, -1.0755184899999999 41.728574579573255, -1.07563908 41.72845374957319, -1.07579256 41.72839516957316, -1.0767288400000001 41.728397069573155, -1.07683248 41.72835691957316, -1.07688758 41.72803739957301, -1.0769957699999995 41.727888619572916, -1.07714446 41.727821399572896))"^^geosparql:wktLiteral .
 
-georesource:3910  a           geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/3910> a           geoes:Alberca , geoes:Estanque ;
         rdfs:label             "3910" ;
         dc:created             "2012-03-27"^^xsd:date ;
         dc:identifier          "3910"^^xsd:int ;
@@ -142,7 +142,7 @@ georesource:3910  a           geoes:Alberca , geoes:Estanque ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-4.017048740000001 40.62309664894037, -4.016970850000001 40.62337101894057, -4.016943619999999 40.62339981894059, -4.0169086300000005 40.62342327894062, -4.016867620000002 40.623440128940615, -4.016822599999999 40.62344952894061, -4.016776039999999 40.623451108940614, -4.016730190000001 40.62344457894063, -4.016687410000001 40.623430448940596, -4.016649850000001 40.62340942894058, -4.016619530000001 40.62338248894057, -4.01653541 40.622965418940296, -4.016348100000001 40.62260410894006, -4.016347889999999 40.622528348940016, -4.0163643800000015 40.62245378893996, -4.016397230000001 40.622382338939914, -4.01644541 40.62231614893989, -4.01650753 40.62225713893984, -4.01658184 40.62220693893982, -4.01666624 40.622166998939775, -4.0167582600000005 40.62213853893976, -4.016855199999999 40.622122368939756, -4.01695446 40.62211887893974, -4.017369549999999 40.622172878939786, -4.0174422000000005 40.62215331893978, -4.017504450000001 40.62211880893975, -4.01753001 40.62209678893972, -4.017533239999999 40.62207576893971, -4.0175421600000005 40.622055868939704, -4.017556549999999 40.62203790893969, -4.017575710000001 40.62202268893967, -4.017598579999999 40.622010958939676, -4.01762436 40.62200325893968, -4.017651739999997 40.62200003893967, -4.0176793 40.62200132893967, -4.01770587 40.62200712893967, -4.01773014 40.62201709893969, -4.017751160000001 40.62203087893971, -4.017767619999998 40.622047758939715, -4.01777902 40.622066938939724, -4.017784769999999 40.62208750893973, -4.01771047 40.62230977893988, -4.0174629400000015 40.62256960894005, -4.017208359999999 40.6228010289402, -4.017067010000001 40.623022708940326, -4.017048740000001 40.62309664894037))"^^geosparql:wktLiteral .
 
-georesource:3286  a           geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/3286> a           geoes:Alberca , geoes:Estanque ;
         rdfs:label             "3286" ;
         dc:created             "2012-02-14"^^xsd:date ;
         dc:identifier          "3286"^^xsd:int ;
@@ -156,7 +156,7 @@ georesource:3286  a           geoes:Alberca , geoes:Estanque ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-3.602899899999999 40.05665260855001, -3.6032046600000003 40.05691080855019, -3.6034011 40.056991818550266, -3.603385119999999 40.05719699855041, -3.6026922900000007 40.05732365855051, -3.6021246199999992 40.05751802855065, -3.6018039899999996 40.05747867855062, -3.60151715 40.057234058550435, -3.60169291 40.05698702855027, -3.6023307899999994 40.056682918550024, -3.602899899999999 40.05665260855001))"^^geosparql:wktLiteral .
 
-georesource:1673  a           geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/1673> a           geoes:Alberca , geoes:Estanque ;
         rdfs:label             "1673" ;
         dc:created             "2012-03-18"^^xsd:date ;
         dc:identifier          "1673"^^xsd:int ;
@@ -166,13 +166,13 @@ georesource:1673  a           geoes:Alberca , geoes:Estanque ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-0.7093968300000001 38.07237194684827, -0.7094152 38.07242231684831, -0.7094126800000002 38.072455696848344, -0.7081201800000001 38.072973766848854, -0.7080673400000002 38.07296831684885, -0.7079877800000002 38.07289909684878, -0.70760845 38.07229588684819, -0.7076197 38.072245826848125, -0.7085041099999999 38.07188497684778, -0.7088441000000002 38.07176563684766, -0.7090158 38.071735276847626, -0.7090869999999998 38.071787676847684, -0.7093968300000001 38.07237194684827))"^^geosparql:wktLiteral .
 
-georesource:4784  a           geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/4784> a           geoes:Alberca , geoes:Estanque ;
         rdfs:label             "4784" ;
         dc:created             "2012-02-28"^^xsd:date ;
         dc:identifier          "4784"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Estanque/4784/geometry> .
 
-georesource:1020  a           geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/1020> a           geoes:Alberca , geoes:Estanque ;
         rdfs:label             "1020" ;
         dc:created             "2012-02-06"^^xsd:date ;
         dc:identifier          "1020"^^xsd:int ;
@@ -182,25 +182,25 @@ georesource:1020  a           geoes:Alberca , geoes:Estanque ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((0.4013986399999999 40.36158611876562, 0.4014590000000001 40.3615412687656, 0.4011995799999999 40.36102370876523, 0.4011801500000001 40.36096859876519, 0.4011954 40.360869038765145, 0.4012325500000001 40.36082447876511, 0.4012897999999999 40.36079342876506, 0.4013444900000001 40.360722908765034, 0.4011571200000001 40.36027466876474, 0.4010191300000001 40.36002600876456, 0.4008194999999999 40.35976371876438, 0.40071765 40.35967765876432, 0.40059263 40.359612608764266, 0.40050824 40.35969735876432, 0.4004718800000001 40.35977652876439, 0.4004664800000002 40.35988639876446, 0.4005017400000001 40.3599339387645, 0.4005471999999999 40.35998575876452, 0.4005743300000001 40.36011635876462, 0.4005811299999999 40.36029782876474, 0.40061195 40.360433368764845, 0.40057832 40.36053935876492, 0.4006111099999999 40.36071564876503, 0.4006250200000001 40.36080423876509, 0.40067876 40.36089489876517, 0.40074288 40.36090867876517, 0.40087824 40.360894698765144, 0.4009840200000001 40.36092742876517, 0.40102933 40.36100789876523, 0.4010351599999999 40.361073518765274, 0.4009967499999999 40.36114471876532, 0.40095214 40.36118406876535, 0.4009750199999999 40.36129951876543, 0.4010376300000001 40.361395508765504, 0.4011046 40.361430068765515, 0.40122358 40.36145625876553, 0.4012767500000001 40.36145780876555, 0.4013398300000002 40.361492288765554, 0.40136368 40.36153065876558, 0.4013986399999999 40.36158611876562))"^^geosparql:wktLiteral .
 
-georesource:570  a            geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/570> a            geoes:Alberca , geoes:Estanque ;
         rdfs:label             "570" ;
         dc:created             "2012-03-07"^^xsd:date ;
         dc:identifier          "570"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Estanque/570/geometry> .
 
-georesource:1532  a           geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/1532> a           geoes:Alberca , geoes:Estanque ;
         rdfs:label             "1532" ;
         dc:created             "2012-01-19"^^xsd:date ;
         dc:identifier          "1532"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Estanque/1532/geometry> .
 
-georesource:1005  a           geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/1005> a           geoes:Alberca , geoes:Estanque ;
         rdfs:label             "1005" ;
         dc:created             "2012-02-06"^^xsd:date ;
         dc:identifier          "1005"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Estanque/1005/geometry> .
 
-georesource:1711  a           geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/1711> a           geoes:Alberca , geoes:Estanque ;
         rdfs:label             "1711" ;
         dc:created             "2012-02-15"^^xsd:date ;
         dc:identifier          "1711"^^xsd:int ;
@@ -214,13 +214,13 @@ georesource:1711  a           geoes:Alberca , geoes:Estanque ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-1.86012997 42.06369076973061, -1.8589677 42.06381377973067, -1.8589586999999992 42.06374298973064, -1.8588771700000002 42.06271373973018, -1.85896664 42.06270553973018, -1.8593230100000002 42.06262054973014, -1.8598392400000003 42.062443839730044, -1.86012997 42.06369076973061))"^^geosparql:wktLiteral .
 
-georesource:1709  a           geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/1709> a           geoes:Alberca , geoes:Estanque ;
         rdfs:label             "1709" ;
         dc:created             "2012-02-15"^^xsd:date ;
         dc:identifier          "1709"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Estanque/1709/geometry> .
 
-georesource:1916  a           geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/1916> a           geoes:Alberca , geoes:Estanque ;
         rdfs:label             "1916" ;
         dc:created             "2012-03-07"^^xsd:date ;
         dc:identifier          "1916"^^xsd:int ;
@@ -230,13 +230,13 @@ georesource:1916  a           geoes:Alberca , geoes:Estanque ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-0.88585149 41.636906839527384, -0.8855866100000003 41.635821019526844, -0.8877835600000001 41.63556643952673, -0.88814782 41.636674669527274, -0.88585149 41.636906839527384))"^^geosparql:wktLiteral .
 
-georesource:1957  a           geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/1957> a           geoes:Alberca , geoes:Estanque ;
         rdfs:label             "1957" ;
         dc:created             "2012-03-07"^^xsd:date ;
         dc:identifier          "1957"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Estanque/1957/geometry> .
 
-georesource:1637  a           geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/1637> a           geoes:Alberca , geoes:Estanque ;
         rdfs:label             "1637" ;
         dc:created             "2012-03-14"^^xsd:date ;
         dc:identifier          "1637"^^xsd:int ;
@@ -246,7 +246,7 @@ georesource:1637  a           geoes:Alberca , geoes:Estanque ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-2.9293713000000006 42.697843199983566, -2.9303472999999998 42.6979416799836, -2.9298768300000004 42.69842336998375, -2.9290371899999994 42.69822526998369, -2.928829100000001 42.6979486799836, -2.9284745499999985 42.6979459299836, -2.928355419999999 42.697918299983584, -2.9282490200000004 42.69787185998358, -2.9281746199999996 42.69780345998355, -2.9281194100000003 42.69772326998352, -2.9286395599999997 42.697460009983416, -2.92883612 42.69767688998349, -2.9289328700000006 42.69773989998354, -2.9290445299999996 42.69778553998355, -2.929265810000001 42.697845469983555, -2.9293713000000006 42.697843199983566))"^^geosparql:wktLiteral .
 
-georesource:562  a            geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/562> a            geoes:Alberca , geoes:Estanque ;
         rdfs:label             "562" ;
         dc:created             "2010-11-03"^^xsd:date ;
         dc:identifier          "562"^^xsd:int ;
@@ -256,7 +256,7 @@ georesource:562  a            geoes:Alberca , geoes:Estanque ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-6.931530979999999 37.27207496602392, -6.9319405000000005 37.2717725560236, -6.932681320000001 37.27243150602429, -6.93187247 37.27302228602494, -6.931123639999998 37.27237589602423, -6.931530979999999 37.27207496602392))"^^geosparql:wktLiteral .
 
-georesource:3797  a           geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/3797> a           geoes:Alberca , geoes:Estanque ;
         rdfs:label             "3797" ;
         dc:created             "2011-03-16"^^xsd:date ;
         dc:identifier          "3797"^^xsd:int ;
@@ -274,31 +274,31 @@ georesource:3797  a           geoes:Alberca , geoes:Estanque ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((2.64881537 39.56639370817705, 2.6507059000000006 39.56490485817588, 2.6499871899999996 39.565036408175985, 2.6493292900000007 39.56552962817638, 2.6485049499999995 39.5656891481765, 2.64844606 39.565755828176556, 2.64796864 39.56584646817663, 2.647703610000001 39.5660667781768, 2.6470182999999996 39.566199048176905, 2.6468670500000004 39.56631688817699, 2.64622164 39.5668198681774, 2.6463523499999995 39.567053548177576, 2.6468637899999994 39.5669594081775, 2.64806343 39.56673869817731, 2.64802383 39.5665828781772, 2.6487683299999993 39.56637329817703, 2.64881537 39.56639370817705))"^^geosparql:wktLiteral .
 
-georesource:1672  a           geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/1672> a           geoes:Alberca , geoes:Estanque ;
         rdfs:label             "1672" ;
         dc:created             "2012-03-18"^^xsd:date ;
         dc:identifier          "1672"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Estanque/1672/geometry> .
 
-georesource:4256  a           geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/4256> a           geoes:Alberca , geoes:Estanque ;
         rdfs:label             "4256" ;
         dc:created             "2012-01-31"^^xsd:date ;
         dc:identifier          "4256"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Estanque/4256/geometry> .
 
-georesource:81  a             geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/81> a             geoes:Alberca , geoes:Estanque ;
         rdfs:label             "81" ;
         dc:created             "2011-03-14"^^xsd:date ;
         dc:identifier          "81"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Estanque/81/geometry> .
 
-georesource:1531  a           geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/1531> a           geoes:Alberca , geoes:Estanque ;
         rdfs:label             "1531" ;
         dc:created             "2012-01-19"^^xsd:date ;
         dc:identifier          "1531"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Estanque/1531/geometry> .
 
-georesource:1710  a           geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/1710> a           geoes:Alberca , geoes:Estanque ;
         rdfs:label             "1710" ;
         dc:created             "2012-02-15"^^xsd:date ;
         dc:identifier          "1710"^^xsd:int ;
@@ -308,49 +308,49 @@ georesource:1710  a           geoes:Alberca , geoes:Estanque ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-3.1256922999999994 40.58285764891413, -3.1262187200000002 40.58339785891447, -3.126454809999999 40.58321733891434, -3.1267961400000006 40.58311681891428, -3.12687548 40.58339713891447, -3.1266661499999997 40.58383799891474, -3.1258783999999986 40.584039148914876, -3.1256943199999996 40.58393920891481, -3.1258774999999996 40.583558458914574, -3.1255619999999995 40.58341859891448, -3.12529959 40.58357911891458, -3.1250890199999994 40.58335902891444, -3.1254053000000006 40.583096178914275, -3.1256922999999994 40.58285764891413))"^^geosparql:wktLiteral .
 
-georesource:3955  a           geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/3955> a           geoes:Alberca , geoes:Estanque ;
         rdfs:label             "3955" ;
         dc:created             "2012-02-03"^^xsd:date ;
         dc:identifier          "3955"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Estanque/3955/geometry> .
 
-georesource:3927  a           geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/3927> a           geoes:Alberca , geoes:Estanque ;
         rdfs:label             "3927" ;
         dc:created             "2012-03-27"^^xsd:date ;
         dc:identifier          "3927"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Estanque/3927/geometry> .
 
-georesource:595  a            geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/595> a            geoes:Alberca , geoes:Estanque ;
         rdfs:label             "595" ;
         dc:created             "2012-10-13"^^xsd:date ;
         dc:identifier          "595"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Estanque/595/geometry> .
 
-georesource:912  a            geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/912> a            geoes:Alberca , geoes:Estanque ;
         rdfs:label             "912" ;
         dc:created             "2012-02-13"^^xsd:date ;
         dc:identifier          "912"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Estanque/912/geometry> .
 
-georesource:4806  a           geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/4806> a           geoes:Alberca , geoes:Estanque ;
         rdfs:label             "4806" ;
         dc:created             "2012-03-08"^^xsd:date ;
         dc:identifier          "4806"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Estanque/4806/geometry> .
 
-georesource:1529  a           geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/1529> a           geoes:Alberca , geoes:Estanque ;
         rdfs:label             "1529" ;
         dc:created             "2012-01-25"^^xsd:date ;
         dc:identifier          "1529"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Estanque/1529/geometry> .
 
-georesource:4097  a           geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/4097> a           geoes:Alberca , geoes:Estanque ;
         rdfs:label             "4097" ;
         dc:created             "2012-02-16"^^xsd:date ;
         dc:identifier          "4097"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Estanque/4097/geometry> .
 
-georesource:1677  a           geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/1677> a           geoes:Alberca , geoes:Estanque ;
         rdfs:label             "1677" ;
         dc:created             "2012-03-19"^^xsd:date ;
         dc:identifier          "1677"^^xsd:int ;
@@ -376,13 +376,13 @@ georesource:1677  a           geoes:Alberca , geoes:Estanque ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-0.7111895600000002 38.060760346836844, -0.7131700300000001 38.06050019683657, -0.7135656400000001 38.061491446837564, -0.71137251 38.061838476837906, -0.7111895600000002 38.060760346836844))"^^geosparql:wktLiteral .
 
-georesource:1530  a           geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/1530> a           geoes:Alberca , geoes:Estanque ;
         rdfs:label             "1530" ;
         dc:created             "2012-01-19"^^xsd:date ;
         dc:identifier          "1530"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Estanque/1530/geometry> .
 
-georesource:139  a            geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/139> a            geoes:Alberca , geoes:Estanque ;
         rdfs:label             "139" ;
         dc:created             "2012-01-09"^^xsd:date ;
         dc:identifier          "139"^^xsd:int ;
@@ -392,13 +392,13 @@ georesource:139  a            geoes:Alberca , geoes:Estanque ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-3.114270120000001 40.586370938916424, -3.1140187600000004 40.58622309891632, -3.11427892 40.58600435891618, -3.114157290000001 40.58568140891597, -3.11406001 40.5854322889158, -3.114253319999999 40.585192098915634, -3.114737519999999 40.58513623891562, -3.11496789 40.58532984891574, -3.114992609999999 40.585625198915935, -3.114799489999999 40.58597614891615, -3.1145062 40.58619487891628, -3.114270120000001 40.586370938916424))"^^geosparql:wktLiteral .
 
-georesource:3954  a           geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/3954> a           geoes:Alberca , geoes:Estanque ;
         rdfs:label             "3954" ;
         dc:created             "2012-02-03"^^xsd:date ;
         dc:identifier          "3954"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Estanque/3954/geometry> .
 
-georesource:594  a            geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/594> a            geoes:Alberca , geoes:Estanque ;
         rdfs:label             "594" ;
         dc:created             "2012-10-11"^^xsd:date ;
         dc:identifier          "594"^^xsd:int ;
@@ -408,7 +408,7 @@ georesource:594  a            geoes:Alberca , geoes:Estanque ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-3.68316785 40.41744373880373, -3.6832072000000027 40.41740684880373, -3.683236250000001 40.41736477880368, -3.6832540599999994 40.41731926880365, -3.683259709999999 40.41727193880363, -3.6832532200000005 40.41722467880359, -3.6832348399999995 40.41717928880355, -3.683205069999999 40.417137488803526, -3.68316521 40.41710096880352, -3.68311682 40.417071158803495, -3.6830617900000013 40.41704914880349, -3.68300201 40.41703580880345, -3.6829154000000015 40.41680514880331, -3.6826565399999986 40.41611531880283, -3.684239690000001 40.41581902880266, -3.684563350000001 40.416795398803316, -3.68457879 40.41684214880333, -3.685085919999999 40.418137258804215, -3.6835284599999993 40.41846061880445, -3.68316785 40.41744373880373))"^^geosparql:wktLiteral .
 
-georesource:1676  a           geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/1676> a           geoes:Alberca , geoes:Estanque ;
         rdfs:label             "1676" ;
         dc:created             "2012-03-19"^^xsd:date ;
         dc:identifier          "1676"^^xsd:int ;
@@ -430,13 +430,13 @@ georesource:1676  a           geoes:Alberca , geoes:Estanque ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-3.7065242 40.374721768774634, -3.7069604499999995 40.3751320587749, -3.706788249999999 40.375876448775415, -3.7062500400000005 40.37604491877555, -3.704761139999999 40.37605399877553, -3.7040183000000004 40.37605852877556, -3.7039042999999983 40.375481078775145, -3.7037554499999983 40.37501395877484, -3.70421966 40.37465322877458, -3.7065242 40.374721768774634))"^^geosparql:wktLiteral .
 
-georesource:1008  a           geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/1008> a           geoes:Alberca , geoes:Estanque ;
         rdfs:label             "1008" ;
         dc:created             "2012-02-06"^^xsd:date ;
         dc:identifier          "1008"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Estanque/1008/geometry> .
 
-georesource:1714  a           geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/1714> a           geoes:Alberca , geoes:Estanque ;
         rdfs:label             "1714" ;
         dc:created             "2012-02-15"^^xsd:date ;
         dc:identifier          "1714"^^xsd:int ;
@@ -454,13 +454,13 @@ georesource:1714  a           geoes:Alberca , geoes:Estanque ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-1.6784486200000004 41.31473853935664, -1.6783156199999998 41.315355039356966, -1.6776749599999998 41.316038409357354, -1.6775814799999997 41.31589191935727, -1.6775183500000004 41.315436759357034, -1.67726056 41.315070259356816, -1.6772430699999996 41.31474286935663, -1.6775110799999997 41.31474190935661, -1.67786646 41.31491362935674, -1.6784486200000004 41.31473853935664))"^^geosparql:wktLiteral .
 
-georesource:1030  a           geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/1030> a           geoes:Alberca , geoes:Estanque ;
         rdfs:label             "1030" ;
         dc:created             "2012-03-24"^^xsd:date ;
         dc:identifier          "1030"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Estanque/1030/geometry> .
 
-georesource:1002  a           geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/1002> a           geoes:Alberca , geoes:Estanque ;
         rdfs:label             "1002" ;
         dc:created             "2012-02-09"^^xsd:date ;
         dc:identifier          "1002"^^xsd:int ;
@@ -474,7 +474,7 @@ georesource:1002  a           geoes:Alberca , geoes:Estanque ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-2.8273177100000004 36.7090298354, -2.8270728100000015 36.708987205399964, -2.826792789999999 36.70900089539998, -2.82665271 36.70904295540002, -2.82654746 36.709155515400155, -2.826564420000001 36.70939506540042, -2.8267215 36.70957845540063, -2.8264061000000003 36.70976116540082, -2.8257054600000004 36.71005602540117, -2.8250925299999996 36.710252375401375, -2.82476008 36.71023779540139, -2.8246375800000005 36.71023761540137, -2.8240077600000006 36.7101662354013, -2.823587999999999 36.71006699540119, -2.8230106800000003 36.70999568540112, -2.8229231799999996 36.70999555540109, -2.82196091 36.70990958540101, -2.8211384100000005 36.709922445401006, -2.81987408 36.70996631540108, -2.8196156999999995 36.71003285540114, -2.8194231799999985 36.71004665540115, -2.8188281000000006 36.710088025401205, -2.8187931 36.71008796540121, -2.81819752 36.71034067540149, -2.8178820999999994 36.710523355401705, -2.8172862800000003 36.710874685402096, -2.8169882200000003 36.71111374540237, -2.816707590000001 36.71138101540268, -2.81651453 36.711620245402955, -2.8163040599999998 36.711817165403176, -2.8158834600000002 36.71207013540346, -2.815585729999999 36.71216829540357, -2.815340590000001 36.71222427540364, -2.8149557000000005 36.71218141540359, -2.8147632999999996 36.712138845403544, -2.8143609400000003 36.7120818554035, -2.81427357 36.71202536540343, -2.8141687799999997 36.71194066540332, -2.8140468900000006 36.71168685540303, -2.8141174000000015 36.711475625402784, -2.8143629700000012 36.71123648540252, -2.8144509799999993 36.711025285402286, -2.814451590000001 36.710771665402, -2.8145050000000005 36.71039133540154, -2.8150489 36.709800415400885, -2.8157503900000003 36.709167475400164, -2.81578549 36.709125265400104, -2.8163813000000006 36.708773945399706, -2.8169241099999995 36.70863388539955, -2.81694164 36.70861982539953, -2.817536570000001 36.70863482539956, -2.818061480000001 36.70866380539959, -2.8187262399999997 36.708749355399696, -2.81880557 36.70874324539966, -2.81944384 36.70869409539963, -2.8215266200000015 36.708528155399435, -2.8226118199999988 36.70841706539929, -2.8229092699999994 36.708431595399325, -2.8230661200000005 36.70871361539965, -2.8232055 36.708981525399956, -2.8233453300000004 36.709052185400026, -2.82364275 36.70908080540007, -2.8238003399999996 36.70903876540002, -2.8238529000000008 36.70901066539997, -2.8238707899999995 36.708841615399784, -2.8237492899999994 36.70840466539928, -2.82383717 36.7082357153991, -2.8246775399999993 36.708053795398875, -2.825202670000001 36.70798411539882, -2.825499190000001 36.7084072353993, -2.825656299999999 36.70857654539948, -2.8258662 36.708619115399536, -2.8259887500000005 36.7085911153995, -2.8260940300000006 36.70846446539937, -2.826147170000001 36.708182755399044, -2.82607768 36.707957215398764, -2.82613075 36.70770368539848, -2.8266735 36.70757766539835, -2.8271982099999997 36.70769114539848, -2.82737285 36.707846385398646, -2.8274945599999994 36.70819880539907, -2.8275289899999994 36.70845246539934, -2.827528259999999 36.7087765253997, -2.82751073 36.70879058539974, -2.8273177100000004 36.7090298354))"^^geosparql:wktLiteral .
 
-georesource:593  a            geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/593> a            geoes:Alberca , geoes:Estanque ;
         rdfs:label             "593" ;
         dc:created             "2012-10-11"^^xsd:date ;
         dc:identifier          "593"^^xsd:int ;
@@ -484,25 +484,25 @@ georesource:593  a            geoes:Alberca , geoes:Estanque ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((2.21317746 41.40910062940818, 2.2133220000000002 41.408981009408116, 2.2134458899999996 41.408807659408026, 2.21362119 41.40867680940796, 2.2138663399999996 41.408606959407905, 2.2143056999999997 41.4085952794079, 2.2144879399999997 41.40848365940785, 2.21466585 41.40821104940772, 2.2148437500000004 41.407938439407545, 2.21488602 41.407736869407444, 2.2150371300000002 41.407398499407265, 2.2153375999999994 41.407145549407105, 2.2151575699999997 41.40698443940703, 2.21505644 41.407165699407145, 2.2146954500000002 41.407218539407175, 2.21470452 41.40753818940734, 2.21462748 41.407666739407404, 2.214477669999999 41.407757499407445, 2.2146423299999998 41.40800317940758, 2.2144692299999997 41.408119899407644, 2.2141016500000004 41.40798416940758, 2.2137324699999996 41.40776303940746, 2.21379105 41.40814354940767, 2.2136004899999997 41.408321169407756, 2.21325525 41.40864295940794, 2.2132111799999996 41.408740159408, 2.21316712 41.408837369408026, 2.213169620000001 41.408901209408086, 2.21317746 41.40910062940818))"^^geosparql:wktLiteral .
 
-georesource:4013  a           geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/4013> a           geoes:Alberca , geoes:Estanque ;
         rdfs:label             "4013" ;
         dc:created             "2012-03-20"^^xsd:date ;
         dc:identifier          "4013"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Estanque/4013/geometry> .
 
-georesource:716  a            geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/716> a            geoes:Alberca , geoes:Estanque ;
         rdfs:label             "716" ;
         dc:created             "2012-01-31"^^xsd:date ;
         dc:identifier          "716"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Estanque/716/geometry> .
 
-georesource:160  a            geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/160> a            geoes:Alberca , geoes:Estanque ;
         rdfs:label             "160" ;
         dc:created             "2011-02-07"^^xsd:date ;
         dc:identifier          "160"^^xsd:int ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/Estanque/160/geometry> .
 
-georesource:798  a            geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/798> a            geoes:Alberca , geoes:Estanque ;
         rdfs:label             "798" ;
         dc:created             "2012-02-14"^^xsd:date ;
         dc:identifier          "798"^^xsd:int ;
@@ -540,7 +540,7 @@ georesource:798  a            geoes:Alberca , geoes:Estanque ;
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-4.6970924799999985 40.63892774895065, -4.697084340000002 40.63856284895045, -4.69718325 40.638471588950374, -4.69769336 40.63851236895039, -4.697712220000001 40.638267518950244, -4.69779635 40.638148278950155, -4.69788443 40.63815220895015, -4.69811233 40.63820479895021, -4.698236419999999 40.63835354895029, -4.69831175 40.638569008950434, -4.6982206600000005 40.63893437895067, -4.697993290000001 40.63918544895082, -4.697639509999999 40.63926031895088, -4.697263050000002 40.63924262895087, -4.6970924799999985 40.63892774895065))"^^geosparql:wktLiteral .
 
-georesource:1713  a           geoes:Alberca , geoes:Estanque ;
+<http://geo.linkeddata.es/recurso/Estanque/1713> a           geoes:Alberca , geoes:Estanque ;
         rdfs:label             "1713" ;
         dc:created             "2012-02-15"^^xsd:date ;
         dc:identifier          "1713"^^xsd:int ;

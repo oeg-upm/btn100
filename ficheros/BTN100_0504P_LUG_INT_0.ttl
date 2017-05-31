@@ -14,7 +14,7 @@
         a                sf:Point ;
         geosparql:asWKT  "POINT (-17.95147713 27.738077582138313)"^^geosparql:wktLiteral .
 
-georesource:30415  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
+<http://geo.linkeddata.es/recurso/VistaPanoramica/30415> a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         rdfs:label             "30415" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2008-07-02"^^xsd:date ;
@@ -34,7 +34,7 @@ georesource:30415  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.77315725 40.114105478591604)"^^geosparql:wktLiteral .
 
-georesource:16225  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
+<http://geo.linkeddata.es/recurso/VistaPanoramica/16225> a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         rdfs:label             "16225" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2010-08-20"^^xsd:date ;
@@ -46,7 +46,7 @@ georesource:16225  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.678232080000003 37.46436240622882)"^^geosparql:wktLiteral .
 
-georesource:23911  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
+<http://geo.linkeddata.es/recurso/VistaPanoramica/23911> a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         rdfs:label             "23911" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2012-10-04"^^xsd:date ;
@@ -54,7 +54,7 @@ georesource:23911  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         dc:title               "Mirador del Cura"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/VistaPanoramica/23911/geometry> .
 
-georesource:17930  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
+<http://geo.linkeddata.es/recurso/VistaPanoramica/17930> a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         rdfs:label             "17930" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2012-02-17"^^xsd:date ;
@@ -67,7 +67,7 @@ georesource:17930  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.5402998500000002 42.050288519724624)"^^geosparql:wktLiteral .
 
-georesource:21582  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
+<http://geo.linkeddata.es/recurso/VistaPanoramica/21582> a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         rdfs:label             "21582" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2010-07-13"^^xsd:date ;
@@ -79,7 +79,7 @@ georesource:21582  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.82321418 42.77600060001064)"^^geosparql:wktLiteral .
 
-georesource:23340  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
+<http://geo.linkeddata.es/recurso/VistaPanoramica/23340> a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         rdfs:label             "23340" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2010-08-05"^^xsd:date ;
@@ -87,7 +87,7 @@ georesource:23340  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         dc:title               "Vista Panorámica"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/VistaPanoramica/23340/geometry> .
 
-georesource:29791  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
+<http://geo.linkeddata.es/recurso/VistaPanoramica/29791> a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         rdfs:label             "29791" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2013-02-26"^^xsd:date ;
@@ -95,7 +95,7 @@ georesource:29791  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         dc:title               "Mirador"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/VistaPanoramica/29791/geometry> .
 
-georesource:11075  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
+<http://geo.linkeddata.es/recurso/VistaPanoramica/11075> a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         rdfs:label             "11075" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2012-03-21"^^xsd:date ;
@@ -103,7 +103,7 @@ georesource:11075  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         dc:title               "Mirador"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/VistaPanoramica/11075/geometry> .
 
-georesource:30414  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
+<http://geo.linkeddata.es/recurso/VistaPanoramica/30414> a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         rdfs:label             "30414" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2008-07-02"^^xsd:date ;
@@ -115,7 +115,7 @@ georesource:30414  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.80412249 40.32137307873791)"^^geosparql:wktLiteral .
 
-georesource:17093  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
+<http://geo.linkeddata.es/recurso/VistaPanoramica/17093> a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         rdfs:label             "17093" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2007-03-12"^^xsd:date ;
@@ -124,7 +124,7 @@ georesource:17093  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         dc:title               "Mirador de Pelegrina"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/VistaPanoramica/17093/geometry> .
 
-georesource:23878  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
+<http://geo.linkeddata.es/recurso/VistaPanoramica/23878> a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         rdfs:label             "23878" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2012-09-20"^^xsd:date ;
@@ -136,7 +136,7 @@ georesource:23878  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.8380120900000003 39.82892046838076)"^^geosparql:wktLiteral .
 
-georesource:16224  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
+<http://geo.linkeddata.es/recurso/VistaPanoramica/16224> a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         rdfs:label             "16224" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2010-09-19"^^xsd:date ;
@@ -145,7 +145,7 @@ georesource:16224  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         dc:title               "Vista Panorámica Abrigo de los Toricos del Navazo"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/VistaPanoramica/16224/geometry> .
 
-georesource:18842  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
+<http://geo.linkeddata.es/recurso/VistaPanoramica/18842> a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         rdfs:label             "18842" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2007-04-12"^^xsd:date ;
@@ -182,7 +182,7 @@ georesource:18842  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (1.9619124000000001 42.363516689857555)"^^geosparql:wktLiteral .
 
-georesource:11074  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
+<http://geo.linkeddata.es/recurso/VistaPanoramica/11074> a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         rdfs:label             "11074" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2012-03-21"^^xsd:date ;
@@ -194,7 +194,7 @@ georesource:11074  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.682150400000003 41.21116004929859)"^^geosparql:wktLiteral .
 
-georesource:8719  a           geoes:LugarDeInteres , geoes:VistaPanoramica ;
+<http://geo.linkeddata.es/recurso/VistaPanoramica/8719> a           geoes:LugarDeInteres , geoes:VistaPanoramica ;
         rdfs:label             "8719" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2012-08-08"^^xsd:date ;
@@ -210,7 +210,7 @@ georesource:8719  a           geoes:LugarDeInteres , geoes:VistaPanoramica ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.6386049000000003 42.28391303982512)"^^geosparql:wktLiteral .
 
-georesource:35031  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
+<http://geo.linkeddata.es/recurso/VistaPanoramica/35031> a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         rdfs:label             "35031" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2013-03-27"^^xsd:date ;
@@ -218,7 +218,7 @@ georesource:35031  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         dc:title               "Mirador de Isora"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/VistaPanoramica/35031/geometry> .
 
-georesource:29619  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
+<http://geo.linkeddata.es/recurso/VistaPanoramica/29619> a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         rdfs:label             "29619" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2008-06-05"^^xsd:date ;
@@ -238,7 +238,7 @@ georesource:29619  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (1.4351062700000001 38.73967433747668)"^^geosparql:wktLiteral .
 
-georesource:26719  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
+<http://geo.linkeddata.es/recurso/VistaPanoramica/26719> a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         rdfs:label             "26719" ;
         geoes:bicCode          "RI-53-0000556-00000"@es ;
         dc:created             "2012-09-12"^^xsd:date ;
@@ -246,7 +246,7 @@ georesource:26719  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         dc:title               "Campo del Agua, El Regueiral y Las Valiñas"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/VistaPanoramica/26719/geometry> .
 
-georesource:11079  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
+<http://geo.linkeddata.es/recurso/VistaPanoramica/11079> a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         rdfs:label             "11079" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2012-03-21"^^xsd:date ;
@@ -258,7 +258,7 @@ georesource:11079  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.3805020700000004 39.612676208213635)"^^geosparql:wktLiteral .
 
-georesource:11073  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
+<http://geo.linkeddata.es/recurso/VistaPanoramica/11073> a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         rdfs:label             "11073" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2012-03-21"^^xsd:date ;
@@ -270,7 +270,7 @@ georesource:11073  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.5401053600000005 42.0042677197039)"^^geosparql:wktLiteral .
 
-georesource:18846  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
+<http://geo.linkeddata.es/recurso/VistaPanoramica/18846> a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         rdfs:label             "18846" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2007-04-12"^^xsd:date ;
@@ -287,7 +287,7 @@ georesource:18846  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.35147635 39.48111793810892)"^^geosparql:wktLiteral .
 
-georesource:11080  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
+<http://geo.linkeddata.es/recurso/VistaPanoramica/11080> a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         rdfs:label             "11080" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2012-03-21"^^xsd:date ;
@@ -299,7 +299,7 @@ georesource:11080  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.7298836999999985 41.103511599236654)"^^geosparql:wktLiteral .
 
-georesource:31066  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
+<http://geo.linkeddata.es/recurso/VistaPanoramica/31066> a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         rdfs:label             "31066" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2010-10-22"^^xsd:date ;
@@ -307,7 +307,7 @@ georesource:31066  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         dc:title               "Vista Panoràmica de sa Casa Nova"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/VistaPanoramica/31066/geometry> .
 
-georesource:34535  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
+<http://geo.linkeddata.es/recurso/VistaPanoramica/34535> a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         rdfs:label             "34535" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2010-02-26"^^xsd:date ;
@@ -315,7 +315,7 @@ georesource:34535  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         dc:title               "Mirador"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/VistaPanoramica/34535/geometry> .
 
-georesource:11078  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
+<http://geo.linkeddata.es/recurso/VistaPanoramica/11078> a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         rdfs:label             "11078" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2012-03-21"^^xsd:date ;
@@ -323,7 +323,7 @@ georesource:11078  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         dc:title               "Mirador"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/VistaPanoramica/11078/geometry> .
 
-georesource:31173  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
+<http://geo.linkeddata.es/recurso/VistaPanoramica/31173> a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         rdfs:label             "31173" ;
         geoes:bicCode          "RI-53-0000561-00000"@es ;
         dc:created             "2012-12-03"^^xsd:date ;
@@ -331,7 +331,7 @@ georesource:31173  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         dc:title               "Salinas de Formentera"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/VistaPanoramica/31173/geometry> .
 
-georesource:11072  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
+<http://geo.linkeddata.es/recurso/VistaPanoramica/11072> a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         rdfs:label             "11072" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2012-03-21"^^xsd:date ;
@@ -343,7 +343,7 @@ georesource:11072  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-7.226003770000001 39.58585169819248)"^^geosparql:wktLiteral .
 
-georesource:18845  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
+<http://geo.linkeddata.es/recurso/VistaPanoramica/18845> a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         rdfs:label             "18845" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2007-04-12"^^xsd:date ;
@@ -356,7 +356,7 @@ georesource:18845  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.1978052700000004 42.04958827972432)"^^geosparql:wktLiteral .
 
-georesource:3795  a           geoes:LugarDeInteres , geoes:VistaPanoramica ;
+<http://geo.linkeddata.es/recurso/VistaPanoramica/3795> a           geoes:LugarDeInteres , geoes:VistaPanoramica ;
         rdfs:label             "3795" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2012-05-09"^^xsd:date ;
@@ -372,7 +372,7 @@ georesource:3795  a           geoes:LugarDeInteres , geoes:VistaPanoramica ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-15.53924385 28.010737642589852)"^^geosparql:wktLiteral .
 
-georesource:31065  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
+<http://geo.linkeddata.es/recurso/VistaPanoramica/31065> a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         rdfs:label             "31065" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2010-09-30"^^xsd:date ;
@@ -384,7 +384,7 @@ georesource:31065  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.18087834 42.091649739743)"^^geosparql:wktLiteral .
 
-georesource:23926  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
+<http://geo.linkeddata.es/recurso/VistaPanoramica/23926> a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         rdfs:label             "23926" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2012-10-04"^^xsd:date ;
@@ -392,7 +392,7 @@ georesource:23926  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         dc:title               "Mirador de las Barrancas"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/VistaPanoramica/23926/geometry> .
 
-georesource:21584  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
+<http://geo.linkeddata.es/recurso/VistaPanoramica/21584> a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         rdfs:label             "21584" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2006-07-26"^^xsd:date ;
@@ -409,7 +409,7 @@ georesource:21584  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.1626909299999992 42.38519466986623)"^^geosparql:wktLiteral .
 
-georesource:11077  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
+<http://geo.linkeddata.es/recurso/VistaPanoramica/11077> a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         rdfs:label             "11077" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2012-03-21"^^xsd:date ;
@@ -425,7 +425,7 @@ georesource:11077  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.38262616 41.36862355938622)"^^geosparql:wktLiteral .
 
-georesource:1276  a           geoes:LugarDeInteres , geoes:VistaPanoramica ;
+<http://geo.linkeddata.es/recurso/VistaPanoramica/1276> a           geoes:LugarDeInteres , geoes:VistaPanoramica ;
         rdfs:label             "1276" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2012-01-15"^^xsd:date ;
@@ -433,7 +433,7 @@ georesource:1276  a           geoes:LugarDeInteres , geoes:VistaPanoramica ;
         dc:title               "Mirador elevat"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/VistaPanoramica/1276/geometry> .
 
-georesource:11071  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
+<http://geo.linkeddata.es/recurso/VistaPanoramica/11071> a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         rdfs:label             "11071" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2012-03-21"^^xsd:date ;
@@ -441,7 +441,7 @@ georesource:11071  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         dc:title               "Mirador"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/VistaPanoramica/11071/geometry> .
 
-georesource:16226  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
+<http://geo.linkeddata.es/recurso/VistaPanoramica/16226> a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         rdfs:label             "16226" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2010-09-16"^^xsd:date ;
@@ -453,7 +453,7 @@ georesource:16226  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.0715490100000005 40.23698920867907)"^^geosparql:wktLiteral .
 
-georesource:18829  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
+<http://geo.linkeddata.es/recurso/VistaPanoramica/18829> a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         rdfs:label             "18829" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2007-04-12"^^xsd:date ;
@@ -470,7 +470,7 @@ georesource:18829  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (-1.40267963 40.39346912878745)"^^geosparql:wktLiteral .
 
-georesource:31064  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
+<http://geo.linkeddata.es/recurso/VistaPanoramica/31064> a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         rdfs:label             "31064" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2010-09-30"^^xsd:date ;
@@ -478,7 +478,7 @@ georesource:31064  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         dc:title               "Vista Panoràmica des Grau"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/VistaPanoramica/31064/geometry> .
 
-georesource:21583  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
+<http://geo.linkeddata.es/recurso/VistaPanoramica/21583> a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         rdfs:label             "21583" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2010-07-13"^^xsd:date ;
@@ -490,7 +490,7 @@ georesource:21583  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.45047054 39.64508743823908)"^^geosparql:wktLiteral .
 
-georesource:11076  a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
+<http://geo.linkeddata.es/recurso/VistaPanoramica/11076> a          geoes:LugarDeInteres , geoes:VistaPanoramica ;
         rdfs:label             "11076" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2012-03-21"^^xsd:date ;

@@ -14,7 +14,7 @@
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-0.8337785800000002 41.75997182958871, -0.8307636900000003 41.757332549587396, -0.83169561 41.75634096958691, -0.8333993 41.75419540958587, -0.83439386 41.752744659585154, -0.8358876600000001 41.75332166958544, -0.83702423 41.75327226958543, -0.8374772499999997 41.753523079585534, -0.8345512600000004 41.75891017958817, -0.8337785800000002 41.75997182958871))"^^geosparql:wktLiteral .
 
-georesource:19020  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/19020> a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "19020" ;
         dc:created             "2013-02-22"^^xsd:date ;
         dc:identifier          "19020"^^xsd:int ;
@@ -25,7 +25,7 @@ georesource:19020  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-6.998489789999997 38.886640807607584, -6.997740920000001 38.88271417760413, -7.000695899999999 38.88243955760388, -7.0024701999999985 38.88235257760382, -7.002535209999999 38.882268577603725, -7.009452659999999 38.88167431760321, -7.010760390000001 38.8815459576031, -7.01104925 38.88273664760415, -7.012158019999998 38.88262706760406, -7.01270457 38.8851552376063, -7.012929999999999 38.886032897607066, -7.013360109999999 38.88840228760914, -7.00982094 38.887463707608326, -7.008531649999999 38.88729401760817, -7.008272639999999 38.88561995760669, -7.003508740000001 38.88607353760709, -7.0032328800000005 38.88609979760713, -7.00086135 38.88637032760735, -7.001198800000001 38.887652707608495, -6.9988221500000005 38.887858687608684, -6.998489789999997 38.886640807607584))"^^geosparql:wktLiteral .
 
-georesource:2583  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/2583> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "2583" ;
         dc:created             "2010-11-16"^^xsd:date ;
         dc:identifier          "2583"^^xsd:int ;
@@ -36,7 +36,7 @@ georesource:2583  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((2.0974617600000003 41.50179704945759, 2.0954187000000006 41.50300983945822, 2.0940920000000003 41.50334793945838, 2.0935049899999996 41.50320508945831, 2.0935143700000003 41.50401121945876, 2.09381164 41.50462727945907, 2.09544063 41.5057794394597, 2.0962338199999997 41.506084339459825, 2.0975345800000005 41.50536326945946, 2.0993960199999995 41.50400500945874, 2.1004136900000003 41.505150259459356, 2.1005616 41.50674233946019, 2.1013442800000006 41.50720073946041, 2.1022171699999994 41.50765511946067, 2.1029493100000005 41.50775860946072, 2.10445159 41.50701148946034, 2.10556254 41.50626593945994, 2.1060690700000007 41.506004109459795, 2.11065789 41.50394598945873, 2.1148213500000015 41.50080119945707, 2.1148393200000006 41.49988201945657, 2.1123081200000007 41.49819210945569, 2.1088885200000003 41.496316979454704, 2.1077120300000005 41.495728829454386, 2.10572548 41.49532197945416, 2.10447782 41.49556457945431, 2.1035445500000005 41.49606529945455, 2.1015414899999993 41.49734488945522, 2.1004398199999996 41.49800612945559, 2.0995952 41.498196749455694, 2.0982134300000004 41.49817312945567, 2.0957802399999994 41.498587369455905, 2.0950179699999993 41.499250489456244, 2.09480871 41.50004210945666, 2.0952213500000005 41.500687059457015, 2.0970118500000003 41.50130480945732, 2.0974617600000003 41.50179704945759))"^^geosparql:wktLiteral .
 
-georesource:1590  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/1590> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "1590" ;
         dc:created             "2012-09-14"^^xsd:date ;
         dc:identifier          "1590"^^xsd:int ;
@@ -47,21 +47,21 @@ georesource:1590  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-15.44723919 28.082812062709174, -15.44730646 28.08157940270712, -15.447754359999996 28.08112069270637, -15.448522180000001 28.08133166270672, -15.449311760000002 28.080887662705983, -15.449867770000001 28.081175292706455, -15.449934670000005 28.081565832707113, -15.45005887 28.081999612707822, -15.4511264 28.081684942707284, -15.451627270000003 28.082443112708564, -15.451515409999994 28.083007912709494, -15.45145558 28.084310642711646, -15.45122882 28.08471662271232, -15.450002410000003 28.084112802711335, -15.44900633 28.08395686271106, -15.44784689 28.083758042710727, -15.44723919 28.082812062709174))"^^geosparql:wktLiteral .
 
-georesource:461  a            geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/461> a            geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "461" ;
         dc:created             "2012-01-07"^^xsd:date ;
         dc:identifier          "461"^^xsd:int ;
         dc:title               "Campus de Ciencies de l´Universitat de València"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaUniversitaria/461/geometry> .
 
-georesource:19554  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/19554> a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "19554" ;
         dc:created             "2013-06-13"^^xsd:date ;
         dc:identifier          "19554"^^xsd:int ;
         dc:title               "Universidad de Educación a Distancia"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaUniversitaria/19554/geometry> .
 
-georesource:440  a            geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/440> a            geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "440" ;
         dc:created             "2012-01-07"^^xsd:date ;
         dc:identifier          "440"^^xsd:int ;
@@ -80,14 +80,14 @@ georesource:440  a            geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-8.417758300000001 43.3360160501782, -8.416581860000003 43.336083770178185, -8.414806499999997 43.33569926017811, -8.412981879999998 43.335304050178, -8.409627659999998 43.33457744017782, -8.40746594 43.33481501017786, -8.406574870000002 43.335315240178005, -8.40576175 43.3344737201778, -8.40690614 43.333735010177605, -8.408683590000003 43.3325876001773, -8.409921759999998 43.33259399017728, -8.413040650000001 43.33239186017727, -8.41423702 43.332304490177236, -8.41504405 43.33274498017734, -8.41673726 43.33428087017774, -8.417758300000001 43.3360160501782))"^^geosparql:wktLiteral .
 
-georesource:1577  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/1577> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "1577" ;
         dc:created             "2012-06-10"^^xsd:date ;
         dc:identifier          "1577"^^xsd:int ;
         dc:title               "Universitat Politècnica de València"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaUniversitaria/1577/geometry> .
 
-georesource:1201  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/1201> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "1201" ;
         dc:created             "2013-01-17"^^xsd:date ;
         dc:identifier          "1201"^^xsd:int ;
@@ -123,21 +123,21 @@ georesource:1201  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-0.4253598900000001 39.51260637813419, -0.42356503 39.513837518135176, -0.4220942999999999 39.51256939813417, -0.42031999 39.51103942813294, -0.4189032199999999 39.51040252813243, -0.4202215799999999 39.50880459813115, -0.4203798300000001 39.50858657813098, -0.4172406099999999 39.507606548130184, -0.4182156 39.5060188181289, -0.4228596900000001 39.50757963813016, -0.42183612 39.508468938130875, -0.42151089 39.50895805813126, -0.4225596500000001 39.50977572813193, -0.4241737200000001 39.51140736813325, -0.4253598900000001 39.51260637813419))"^^geosparql:wktLiteral .
 
-georesource:3650  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/3650> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "3650" ;
         dc:created             "2012-05-22"^^xsd:date ;
         dc:identifier          "3650"^^xsd:int ;
         dc:title               "Deustoko Unibertsitatea"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaUniversitaria/3650/geometry> .
 
-georesource:4622  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/4622> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "4622" ;
         dc:created             "2012-04-26"^^xsd:date ;
         dc:identifier          "4622"^^xsd:int ;
         dc:title               "Institut Escola d'Hosteleria i Turisme de Lleida"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaUniversitaria/4622/geometry> .
 
-georesource:3671  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/3671> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "3671" ;
         dc:created             "2012-11-05"^^xsd:date ;
         dc:identifier          "3671"^^xsd:int ;
@@ -148,7 +148,7 @@ georesource:3671  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-3.98706514 40.450866118826355, -3.989343269999998 40.451101508826504, -3.98917728 40.45219188882724, -3.988237179999999 40.452199928827255, -3.988040849999999 40.453290568827974, -3.987948919999999 40.45413844882856, -3.985929520000001 40.45409634882852, -3.98570763 40.45572523882962, -3.9832820399999997 40.455578578829524, -3.9822080900000008 40.45473043882895, -3.981275710000001 40.4552712488293, -3.9796488100000005 40.455155088829244, -3.9795348199999996 40.454615488828864, -3.9802935099999988 40.45325762882794, -3.9803943 40.45213053882721, -3.9803705700000007 40.451256868826604, -3.9813230000000006 40.450302838825976, -3.98208032 40.45012081882585, -3.983931829999998 40.450220918825906, -3.98707619 40.450448218826075, -3.98706514 40.450866118826355))"^^geosparql:wktLiteral .
 
-georesource:5736  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/5736> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "5736" ;
         dc:created             "2012-04-18"^^xsd:date ;
         dc:identifier          "5736"^^xsd:int ;
@@ -159,7 +159,7 @@ georesource:5736  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-4.7174017 41.65648780953726, -4.71422153 41.65784293953797, -4.7150947 41.65894520953853, -4.71409952 41.65944235953879, -4.71289143 41.659453489538784, -4.71174047 41.65780916953796, -4.71140139 41.65730607953771, -4.71137107 41.656729029537416, -4.71179841 41.65680970953744, -4.713315699999997 41.65669939953738, -4.7135455 41.65599437953704, -4.71485872 41.65535541953672, -4.71617191 41.654716439536394, -4.71808457 41.65415263953609, -4.719266099999998 41.654774389536435, -4.716946599999999 41.65574716953693, -4.7174017 41.65648780953726))"^^geosparql:wktLiteral .
 
-georesource:12582  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/12582> a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "12582" ;
         dc:created             "2008-02-19"^^xsd:date ;
         dc:identifier          "12582"^^xsd:int ;
@@ -170,21 +170,21 @@ georesource:12582  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-3.9228612899999997 40.37477542877467, -3.922469700000001 40.375426738775104, -3.922231300000001 40.376086238775564, -3.9220648999999987 40.3768443387761, -3.92105321 40.37677147877604, -3.9197002499999996 40.37645957877583, -3.918516700000001 40.374926638774774, -3.917585499999998 40.374006038774155, -3.9169007999999996 40.37302953877347, -3.9150796200000006 40.37147991877242, -3.914641310000001 40.37110694877215, -3.9174865899999998 40.36863748877047, -3.9183062100000003 40.36795336877, -3.919416899999998 40.36984390877129, -3.9195245000000005 40.37008722877147, -3.920830789999999 40.37304124877346, -3.9228612899999997 40.37477542877467))"^^geosparql:wktLiteral .
 
-georesource:18072  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/18072> a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "18072" ;
         dc:created             "2012-11-13"^^xsd:date ;
         dc:identifier          "18072"^^xsd:int ;
         dc:title               "Ciudad Universitaria"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaUniversitaria/18072/geometry> .
 
-georesource:4551  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/4551> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "4551" ;
         dc:created             "2012-08-07"^^xsd:date ;
         dc:identifier          "4551"^^xsd:int ;
         dc:title               "Universidad"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaUniversitaria/4551/geometry> .
 
-georesource:3416  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/3416> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "3416" ;
         dc:created             "2013-01-03"^^xsd:date ;
         dc:identifier          "3416"^^xsd:int ;
@@ -195,21 +195,21 @@ georesource:3416  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-0.4545985999999999 42.121067139755915, -0.4539667000000001 42.12090173975586, -0.4508613000000001 42.1200884397555, -0.4489993 42.119600739755285, -0.4472241399999999 42.118851459754936, -0.4446850600000001 42.117221649754235, -0.4440019300000001 42.11655329975395, -0.4435506999999999 42.11611183975377, -0.4458644 42.11502953975327, -0.4466021 42.11454853975307, -0.44910913 42.11297643975238, -0.4496213399999999 42.11265521975224, -0.4552046200000001 42.11837025975475, -0.4545985999999999 42.121067139755915))"^^geosparql:wktLiteral .
 
-georesource:6587  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/6587> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "6587" ;
         dc:created             "2012-05-17"^^xsd:date ;
         dc:identifier          "6587"^^xsd:int ;
         dc:title               "Centro de Enseñanzas Integradas"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaUniversitaria/6587/geometry> .
 
-georesource:1814  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/1814> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "1814" ;
         dc:created             "2010-11-27"^^xsd:date ;
         dc:identifier          "1814"^^xsd:int ;
         dc:title               "Universitat Miguel Hernández"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaUniversitaria/1814/geometry> .
 
-georesource:2586  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/2586> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "2586" ;
         dc:created             "2012-09-19"^^xsd:date ;
         dc:identifier          "2586"^^xsd:int ;
@@ -220,21 +220,21 @@ georesource:2586  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-3.6990653300000007 40.54146328888685, -3.6991903 40.54203613888722, -3.7003961000000003 40.54379700888839, -3.701068180000001 40.54477842888904, -3.70122985 40.54513638888927, -3.7020929400000013 40.547047308890534, -3.7022719200000007 40.54750437889084, -3.702354470000001 40.54853416889153, -3.701690800000001 40.54855243889153, -3.701278099999999 40.54860903889158, -3.7007832999999994 40.54872913889165, -3.6974142999999993 40.54956923889219, -3.6966945799999995 40.549681818892275, -3.6957474699999993 40.54977680889234, -3.6948121500000006 40.54988064889241, -3.694102040000002 40.5500067988925, -3.6933356899999996 40.55038679889275, -3.69195096 40.55080261889303, -3.691354450000001 40.550347918892726, -3.689905429999999 40.550479508892806, -3.6875494700000004 40.55017394889262, -3.68661158 40.54985991889239, -3.68565703 40.54935040889206, -3.6842388800000005 40.547907178891116, -3.687225229999999 40.54683228889038, -3.6888632600000006 40.546281658890024, -3.6884930000000002 40.54564973888961, -3.6868915000000007 40.542632338887636, -3.689743469999999 40.54177885888706, -3.691005820000001 40.54120216888668, -3.6908257099999995 40.54061511888628, -3.69309466 40.539057838885256, -3.693875630000002 40.53814868888463, -3.69454994 40.53763321888431, -3.695131050000001 40.53852138888492, -3.6955148199999996 40.539562518885575, -3.6963686999999994 40.54037315888612, -3.6975198199999997 40.54106816888658, -3.6990653300000007 40.54146328888685))"^^geosparql:wktLiteral .
 
-georesource:18343  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/18343> a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "18343" ;
         dc:created             "2012-12-14"^^xsd:date ;
         dc:identifier          "18343"^^xsd:int ;
         dc:title               "Universidad Laboral de Las Palmas"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaUniversitaria/18343/geometry> .
 
-georesource:15498  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/15498> a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "15498" ;
         dc:created             "2013-01-04"^^xsd:date ;
         dc:identifier          "15498"^^xsd:int ;
         dc:title               "Campus Universitario Instituto Politécnico"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaUniversitaria/15498/geometry> .
 
-georesource:3679  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/3679> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "3679" ;
         dc:created             "2012-05-22"^^xsd:date ;
         dc:identifier          "3679"^^xsd:int ;
@@ -245,7 +245,7 @@ georesource:3679  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-0.9003577299999997 41.644334539531165, -0.89522825 41.64169388952983, -0.8964184299999999 41.64031262952912, -0.8971652000000004 41.640690839529306, -0.8975760999999998 41.640239039529085, -0.8981666300000001 41.63959470952877, -0.9014965799999999 41.64052200952923, -0.9030434599999998 41.64139043952966, -0.9019509300000003 41.642812919530385, -0.9003577299999997 41.644334539531165))"^^geosparql:wktLiteral .
 
-georesource:7062  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/7062> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "7062" ;
         dc:created             "2012-06-27"^^xsd:date ;
         dc:identifier          "7062"^^xsd:int ;
@@ -260,7 +260,7 @@ georesource:7062  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-0.42648385 39.51417090813545, -0.4246717000000002 39.51629297813715, -0.42450214 39.5163650181372, -0.42427332 39.516237688137096, -0.42292042 39.51713949813782, -0.4218155000000001 39.51604198813695, -0.4249334999999999 39.51407299813537, -0.42488765 39.513643388135016, -0.4253997299999999 39.51324520813469, -0.42648385 39.51417090813545))"^^geosparql:wktLiteral .
 
-georesource:443  a            geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/443> a            geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "443" ;
         dc:created             "2012-01-07"^^xsd:date ;
         dc:identifier          "443"^^xsd:int ;
@@ -271,14 +271,14 @@ georesource:443  a            geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-3.83302446 40.44236271882062, -3.83303993 40.44090589881962, -3.8327931900000007 40.43988541881894, -3.8327897299999996 40.439604328818746, -3.834418100000001 40.43874922881819, -3.835346639999999 40.43810360881775, -3.835758210000001 40.438051148817706, -3.8360181299999994 40.43824063881783, -3.836899929999999 40.43888348881826, -3.8363575000000014 40.439335728818556, -3.83592592 40.43990717881896, -3.835745489999999 40.440739118819515, -3.835700910000001 40.441759518820206, -3.835423140000001 40.44243185882067, -3.8349101899999996 40.44259586882078, -3.83302446 40.44236271882062))"^^geosparql:wktLiteral .
 
-georesource:9878  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/9878> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "9878" ;
         dc:created             "2012-01-26"^^xsd:date ;
         dc:identifier          "9878"^^xsd:int ;
         dc:title               "Universidad Castilla La Mancha"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaUniversitaria/9878/geometry> .
 
-georesource:2260  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/2260> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "2260" ;
         dc:created             "2012-09-19"^^xsd:date ;
         dc:identifier          "2260"^^xsd:int ;
@@ -294,7 +294,7 @@ georesource:2260  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-0.69559881 38.27839979704812, -0.6902134 38.27946560704915, -0.6885801700000006 38.27978883704946, -0.6882179900000001 38.27986050704953, -0.68647712 38.279406157049095, -0.6847949500000001 38.28006475704972, -0.68438873 38.28020098704986, -0.6829064 38.280698097050326, -0.6826969399999997 38.2806488270503, -0.6825723300000001 38.280619517050255, -0.6813586600000001 38.27775873704752, -0.6809730000000002 38.276912447046705, -0.6806255400000001 38.27610958704595, -0.68011707 38.2746000470445, -0.6881050099999998 38.27330544704324, -0.6913093600000002 38.272748057042726, -0.6927025999999997 38.272505687042475, -0.69337538 38.27536647704523, -0.6955476 38.275063277044936, -0.6959502199999998 38.276207737046036, -0.69534336 38.276566427046376, -0.69567695 38.27770401704746, -0.6958243300000001 38.27820656704795, -0.69559881 38.27839979704812))"^^geosparql:wktLiteral .
 
-georesource:4680  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/4680> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "4680" ;
         dc:created             "2012-04-26"^^xsd:date ;
         dc:identifier          "4680"^^xsd:int ;
@@ -309,7 +309,7 @@ georesource:4680  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-0.1672179 38.99543523770275, -0.1670056500000001 38.99654357770371, -0.16685958 38.99730631770437, -0.16507038 38.99691354770403, -0.1634797 38.99481723770222, -0.1640143 38.99501943770239, -0.16472639 38.995135617702495, -0.16517606 38.995208977702546, -0.1662853 38.99538993770271, -0.1672179 38.99543523770275))"^^geosparql:wktLiteral .
 
-georesource:7049  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/7049> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "7049" ;
         dc:created             "2012-06-26"^^xsd:date ;
         dc:identifier          "7049"^^xsd:int ;
@@ -328,7 +328,7 @@ georesource:7049  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-3.7675033299999994 40.331798738745114, -3.76748594 40.33258804874567, -3.7664144700000013 40.33347453874629, -3.764885460000001 40.33422752874681, -3.764995600000001 40.33364626874639, -3.7626366499999992 40.333170618746074, -3.7628809499999982 40.33240984874554, -3.7646140900000002 40.33102217874458, -3.7649242700000007 40.33077383874443, -3.7658888899999985 40.33100140874458, -3.7674061799999987 40.331532738744926, -3.7675033299999994 40.331798738745114))"^^geosparql:wktLiteral .
 
-georesource:2581  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/2581> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "2581" ;
         dc:created             "2012-09-19"^^xsd:date ;
         dc:identifier          "2581"^^xsd:int ;
@@ -347,21 +347,21 @@ georesource:2581  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-0.36186115 39.477518708106025, -0.35621269 39.475972328104774, -0.3567227099999999 39.47511133810408, -0.35765454 39.47553318810441, -0.3588167500000002 39.47555960810444, -0.3623322899999999 39.47660510810528, -0.36186115 39.477518708106025))"^^geosparql:wktLiteral .
 
-georesource:1817  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/1817> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "1817" ;
         dc:created             "2012-02-16"^^xsd:date ;
         dc:identifier          "1817"^^xsd:int ;
         dc:title               "Universitat d'Alacant"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaUniversitaria/1817/geometry> .
 
-georesource:19289  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/19289> a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "19289" ;
         dc:created             "2013-04-25"^^xsd:date ;
         dc:identifier          "19289"^^xsd:int ;
         dc:title               "Campus de Zapateira"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaUniversitaria/19289/geometry> .
 
-georesource:5200  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/5200> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "5200" ;
         dc:created             "2012-04-18"^^xsd:date ;
         dc:identifier          "5200"^^xsd:int ;
@@ -376,7 +376,7 @@ georesource:5200  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-5.633739 43.52512713022419, -5.633006760000002 43.52499055022418, -5.6327357000000005 43.5250971002242, -5.632025160000001 43.52641739022451, -5.632314280000001 43.52672596022455, -5.633898359999998 43.52737724022472, -5.63392489 43.527534250224754, -5.633848549999999 43.52766701022478, -5.62849249 43.5272130402247, -5.625555780000002 43.52706982022465, -5.62037197 43.527136770224665, -5.62059622 43.526250230224456, -5.6206292 43.525647660224315, -5.620365439999998 43.525177260224226, -5.62327982 43.52459697022409, -5.620326520000001 43.52318256022375, -5.6208511 43.52200594022348, -5.624411920000001 43.522125810223514, -5.630391989999998 43.52266034022363, -5.6308985499999995 43.52369034022389, -5.633264460000001 43.52382789022389, -5.634209750000001 43.52338497022381, -5.63520343 43.523315270223804, -5.63627812 43.52436669022404, -5.635082990000001 43.52497916022417, -5.633739 43.52512713022419))"^^geosparql:wktLiteral .
 
-georesource:16723  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/16723> a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "16723" ;
         dc:created             "2013-02-15"^^xsd:date ;
         dc:identifier          "16723"^^xsd:int ;
@@ -384,35 +384,35 @@ georesource:16723  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         dc:title               "Universidad Pablo de Olavide"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaUniversitaria/16723/geometry> .
 
-georesource:638  a            geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/638> a            geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "638" ;
         dc:created             "2012-11-16"^^xsd:date ;
         dc:identifier          "638"^^xsd:int ;
         dc:title               "Campus de Paterna de l´Univeristat de València"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaUniversitaria/638/geometry> .
 
-georesource:2576  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/2576> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "2576" ;
         dc:created             "2009-01-12"^^xsd:date ;
         dc:identifier          "2576"^^xsd:int ;
         dc:title               "Universidad Carlos III (Campus de Getafe)"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaUniversitaria/2576/geometry> .
 
-georesource:4720  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/4720> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "4720" ;
         dc:created             "2012-08-16"^^xsd:date ;
         dc:identifier          "4720"^^xsd:int ;
         dc:title               "Campus de Agrónomos"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaUniversitaria/4720/geometry> .
 
-georesource:19376  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/19376> a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "19376" ;
         dc:created             "2013-05-15"^^xsd:date ;
         dc:identifier          "19376"^^xsd:int ;
         dc:title               "Campus Universitario"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaUniversitaria/19376/geometry> .
 
-georesource:18959  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/18959> a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "18959" ;
         dc:created             "2013-02-14"^^xsd:date ;
         dc:identifier          "18959"^^xsd:int ;
@@ -423,7 +423,7 @@ georesource:18959  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-3.9383562000000008 40.47675939884376, -3.9384327399999997 40.4747409788424, -3.9386219800000006 40.473301008841425, -3.937858989999999 40.47110959883995, -3.93813448 40.47005139883926, -3.938893299999999 40.47024213883938, -3.9407209099999987 40.46998753883921, -3.941687299999999 40.46987977883915, -3.94215978 40.46999579883923, -3.9425281499999985 40.47037224883948, -3.9424971799999993 40.470912728839835, -3.942327989999999 40.472671508841024, -3.9418100199999992 40.476791238843774, -3.9407369500000002 40.476760018843756, -3.939407040000001 40.47675269884377, -3.9392717600000005 40.47675195884375, -3.9383562000000008 40.47675939884376))"^^geosparql:wktLiteral .
 
-georesource:9513  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/9513> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "9513" ;
         dc:created             "2012-06-13"^^xsd:date ;
         dc:identifier          "9513"^^xsd:int ;
@@ -434,7 +434,7 @@ georesource:9513  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-16.304604619999996 28.471082263351118, -16.30212198 28.468643183347083, -16.302804669999997 28.467273953344836, -16.303598240000007 28.467245713344784, -16.304471470000003 28.467768843345652, -16.306360439999995 28.469410903348365, -16.30664921 28.470394103349975, -16.304604619999996 28.471082263351118))"^^geosparql:wktLiteral .
 
-georesource:2584  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/2584> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "2584" ;
         dc:created             "2012-09-19"^^xsd:date ;
         dc:identifier          "2584"^^xsd:int ;
@@ -446,7 +446,7 @@ georesource:2584  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-8.41079203 43.32648947017573, -8.409412919999996 43.32782260017606, -8.408282649999999 43.32990504017659, -8.407364520000002 43.32927201017646, -8.40653201 43.32764659017602, -8.40660034 43.32575261017554, -8.40840122 43.3252883601754, -8.408790679999997 43.32629218017568, -8.41079203 43.32648947017573))"^^geosparql:wktLiteral .
 
-georesource:2258  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/2258> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "2258" ;
         dc:created             "2012-09-19"^^xsd:date ;
         dc:identifier          "2258"^^xsd:int ;
@@ -454,7 +454,7 @@ georesource:2258  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         dc:title               "Universidad Rey Juan Carlos (Móstoles)"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaUniversitaria/2258/geometry> .
 
-georesource:4152  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/4152> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "4152" ;
         dc:created             "2012-10-08"^^xsd:date ;
         dc:identifier          "4152"^^xsd:int ;
@@ -469,7 +469,7 @@ georesource:4152  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-2.5068854 43.191261910139346, -2.50690291 43.191722570139476, -2.5061656100000005 43.19215625013961, -2.5054395999999994 43.19207927013957, -2.50474234 43.19225762013962, -2.5041630200000005 43.19269401013976, -2.5034556400000008 43.1928090901398, -2.50281444 43.192230340139616, -2.5020684899999996 43.191584700139444, -2.50188911 43.191429450139395, -2.5018939000000007 43.19084309013924, -2.5020813600000005 43.19080519013924, -2.50259774 43.19070080013918, -2.50318204 43.19009883013902, -2.5032879200000004 43.189354140138825, -2.50370678 43.1893388001388, -2.503854560000001 43.18979702013894, -2.50464785 43.189638200138894, -2.5052447999999994 43.18958543013888, -2.50570794 43.19050560013913, -2.5058912900000005 43.19075680013922, -2.5065697900000004 43.19094460013927, -2.5068854 43.191261910139346))"^^geosparql:wktLiteral .
 
-georesource:10314  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/10314> a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "10314" ;
         dc:created             "2012-07-18"^^xsd:date ;
         dc:identifier          "10314"^^xsd:int ;
@@ -477,21 +477,21 @@ georesource:10314  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         dc:title               "Universidad de Murcia. Campus Universitario de Espinardo"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaUniversitaria/10314/geometry> .
 
-georesource:1578  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/1578> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "1578" ;
         dc:created             "2012-06-10"^^xsd:date ;
         dc:identifier          "1578"^^xsd:int ;
         dc:title               "Universitat Cardenal Herrera (CEU)"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaUniversitaria/1578/geometry> .
 
-georesource:16534  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/16534> a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "16534" ;
         dc:created             "2006-09-08"^^xsd:date ;
         dc:identifier          "16534"^^xsd:int ;
         dc:title               "Campus Universitario de Rabanales"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaUniversitaria/16534/geometry> .
 
-georesource:17627  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/17627> a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "17627" ;
         dc:created             "2013-02-06"^^xsd:date ;
         dc:identifier          "17627"^^xsd:int ;
@@ -502,14 +502,14 @@ georesource:17627  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-3.8486522999999986 40.34197272875214, -3.8489168700000005 40.342340208752404, -3.8485908500000012 40.34299619875284, -3.8482676700000003 40.34387949875345, -3.848535450000001 40.344502708753886, -3.8493295600000006 40.34563356875466, -3.8496355700000002 40.34634174875516, -3.8490510000000007 40.34711330875569, -3.846492519999998 40.34874997875679, -3.8464751000000006 40.35015627875777, -3.844348000000001 40.35088763875827, -3.84156936 40.348787768756836, -3.8416390500000004 40.348417838756575, -3.8437873999999996 40.347947508756256, -3.84423901 40.34544350875453, -3.8476221300000004 40.34274754875267, -3.8467570099999997 40.341872948752076, -3.8486522999999986 40.34197272875214))"^^geosparql:wktLiteral .
 
-georesource:17606  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/17606> a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "17606" ;
         dc:created             "2013-02-06"^^xsd:date ;
         dc:identifier          "17606"^^xsd:int ;
         dc:title               "Universidad"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaUniversitaria/17606/geometry> .
 
-georesource:16271  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/16271> a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "16271" ;
         dc:created             "2013-02-20"^^xsd:date ;
         dc:identifier          "16271"^^xsd:int ;
@@ -517,21 +517,21 @@ georesource:16271  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         dc:title               "Universitat de les Illes Balears"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaUniversitaria/16271/geometry> .
 
-georesource:2579  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/2579> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "2579" ;
         dc:created             "2010-11-13"^^xsd:date ;
         dc:identifier          "2579"^^xsd:int ;
         dc:title               "Universidad Francisco de Vitoria"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaUniversitaria/2579/geometry> .
 
-georesource:19471  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/19471> a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "19471" ;
         dc:created             "2013-02-15"^^xsd:date ;
         dc:identifier          "19471"^^xsd:int ;
         dc:title               "Campus Universitario"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaUniversitaria/19471/geometry> .
 
-georesource:11874  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/11874> a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "11874" ;
         dc:created             "2013-01-22"^^xsd:date ;
         dc:identifier          "11874"^^xsd:int ;
@@ -550,7 +550,7 @@ georesource:11874  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-8.67803937 42.16389607977451, -8.67949022 42.16391468977452, -8.679762060000003 42.1639181797745, -8.681022740000001 42.16402777977455, -8.681472840000001 42.16406996977458, -8.68277672 42.16419218977462, -8.684147020000001 42.16424697977464, -8.685380279999999 42.16410992977458, -8.686025989999997 42.16409052977458, -8.686777989999998 42.16427434977465, -8.687683790000001 42.164575799774795, -8.688696440000001 42.16539795977514, -8.689627359999998 42.16628022977552, -8.69179938 42.167507179776045, -8.69119047 42.16841256977644, -8.690834210000002 42.169070319776715, -8.69083424 42.17013914977719, -8.69058761 42.17098873977756, -8.69048002 42.1710963297776, -8.690012969999998 42.1715633997778, -8.689957290000002 42.17161907977782, -8.68899809 42.17186574977793, -8.68884303 42.17195620977796, -8.68834036 42.172249439778085, -8.687683989999998 42.17309902977844, -8.68702491 42.1734553197786, -8.68625041 42.173694569778704, -8.68500115 42.17350657977863, -8.684612660000003 42.17344811977862, -8.68273291 42.17316524977848, -8.68247551 42.17312651977848, -8.681351870000002 42.17318134977848, -8.678446819999998 42.17244142977819, -8.67691209 42.17238664977814, -8.676534419999998 42.17214169977805, -8.676469649999996 42.17170578977785, -8.676558190000002 42.17126226977768, -8.676631839999999 42.17067171977742, -8.675793109999999 42.170679169777415, -8.673832150000003 42.1706467397774, -8.673862830000001 42.16964610977697, -8.67536006 42.1694682597769, -8.675835270000002 42.16917643977677, -8.675743770000002 42.169049819776724, -8.67549985 42.168593749776534, -8.675435420000003 42.16847326977647, -8.675503509999997 42.16780165977617, -8.675561370000002 42.16701600977583, -8.67571291 42.16613024977547, -8.675895099999998 42.1653002397751, -8.67629533 42.16461213977481, -8.67675178 42.164264919774666, -8.677368339999997 42.163986109774555, -8.67803937 42.16389607977451))"^^geosparql:wktLiteral .
 
-georesource:3651  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/3651> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "3651" ;
         dc:created             "2012-05-22"^^xsd:date ;
         dc:identifier          "3651"^^xsd:int ;
@@ -565,14 +565,14 @@ georesource:3651  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-4.727267489999999 37.91303508669017, -4.72719789 37.91570036669284, -4.726932839999999 37.91833985669548, -4.725539080000002 37.91844838669558, -4.722998550000001 37.91864616669579, -4.722743969999997 37.91866598669581, -4.71948716 37.916281916693414, -4.71725179 37.91570683669286, -4.716565899999999 37.915786706692934, -4.716042390000001 37.91602485669317, -4.715830210000002 37.91629913669344, -4.715521739999999 37.916765906693904, -4.71486409 37.91793633669509, -4.713634980000002 37.91753384669468, -4.714713859999999 37.91550109669262, -4.714273859999999 37.91519438669233, -4.714412199999999 37.91447337669162, -4.714731400000002 37.91417229669131, -4.71588896 37.913344036690475, -4.71717296 37.912842566689974, -4.71798227 37.91265915668979, -4.7187839799999995 37.912520166689646, -4.71979324 37.912486136689616, -4.72122194 37.91256120668968, -4.722730109999999 37.912647736689784, -4.725174019999998 37.91285639668998, -4.727267489999999 37.91303508669017))"^^geosparql:wktLiteral .
 
-georesource:7055  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/7055> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "7055" ;
         dc:created             "2012-06-27"^^xsd:date ;
         dc:identifier          "7055"^^xsd:int ;
         dc:title               "Universidad San Jorge"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaUniversitaria/7055/geometry> .
 
-georesource:1815  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/1815> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "1815" ;
         dc:created             "2010-11-28"^^xsd:date ;
         dc:identifier          "1815"^^xsd:int ;
@@ -591,7 +591,7 @@ georesource:1815  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-5.870974990000001 43.358063890183836, -5.869789870000001 43.356667930183455, -5.869481950000003 43.356176960183326, -5.868396720000002 43.35350993018268, -5.868628700000001 43.353460270182644, -5.870315780000002 43.35278102018249, -5.870908469999999 43.35267725018245, -5.871375810000001 43.352595430182426, -5.87315255 43.35196345018228, -5.87411929 43.351626430182186, -5.87480788 43.35181399018223, -5.87537101 43.3524737801824, -5.875817070000001 43.35337909018264, -5.876773130000001 43.354116820182824, -5.877361080000001 43.35577193018324, -5.876876620000001 43.35648641018342, -5.874052139999998 43.35729294018361, -5.873886560000001 43.35734022018366, -5.870974990000001 43.358063890183836))"^^geosparql:wktLiteral .
 
-georesource:8035  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/8035> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "8035" ;
         dc:created             "2013-03-04"^^xsd:date ;
         dc:identifier          "8035"^^xsd:int ;
@@ -602,42 +602,42 @@ georesource:8035  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-3.7379640999999997 40.442790558820896, -3.73970365 40.453312468828, -3.7397158999999993 40.453640538828225, -3.7396708999999992 40.45383903882836, -3.7395785000000004 40.454019838828486, -3.7393913000000008 40.45415613882855, -3.7391214000000015 40.454275038828655, -3.7388860999999998 40.45433053882868, -3.738252580000001 40.454491448828804, -3.73658805 40.45456418882885, -3.734655080000001 40.4546590188289, -3.7332893999999994 40.45480753882901, -3.732454 40.45498403882912, -3.7318626399999997 40.455204958829285, -3.7312838799999994 40.45563779882957, -3.7306627099999994 40.4561451888299, -3.7302027800000004 40.4565772688302, -3.7298079400000015 40.4570336988305, -3.7295365000000005 40.456750238830324, -3.72913776 40.456633688830244, -3.7278416 40.45706713883053, -3.727396699999999 40.457376338830734, -3.7260656000000005 40.457519738830825, -3.7259136000000006 40.45764683883092, -3.7257207500000002 40.45795417883112, -3.725174840000001 40.45797738883114, -3.7246112900000004 40.45732502883068, -3.7243800199999995 40.45686292883038, -3.7242995000000008 40.45670203883028, -3.7241321 40.456495838830136, -3.7236331000000003 40.456147638829925, -3.7234049000000007 40.45576163882965, -3.723449000000001 40.45548213882945, -3.723764099999999 40.45516483882923, -3.7244309999999996 40.454674138828906, -3.7246967000000017 40.454149938828564, -3.7244099999999998 40.45380943882834, -3.7239378000000003 40.45376733882832, -3.7232937000000006 40.45419473882859, -3.7224918 40.454199838828586, -3.721753800000001 40.454663838828914, -3.721024100000001 40.45480353882899, -3.720662 40.455130138829226, -3.720012300000001 40.455035038829166, -3.7199598000000003 40.45453083882882, -3.7199696000000007 40.454350638828686, -3.7197919 40.45427063882865, -3.7191870199999997 40.45395904882844, -3.7185823000000005 40.45364753882823, -3.7161872 40.45342513882807, -3.714296699999999 40.45054253882612, -3.7162797000000003 40.44916203882519, -3.7164779999999995 40.448371538824674, -3.7175599000000012 40.446470338823396, -3.719904399999999 40.446718938823565, -3.7209885 40.445028238822424, -3.7206798999999995 40.441925338820326, -3.72196578 40.44109693881976, -3.7222397000000007 40.43965283881877, -3.7232598 40.43843613881798, -3.723191290000001 40.43753422881735, -3.7238770999999997 40.437149178817094, -3.726307400000001 40.43613983881641, -3.7272370399999994 40.43580261881618, -3.7310813000000005 40.434947638815615, -3.7334921200000015 40.43432986881518, -3.73396904 40.43424719881513, -3.7340634900000005 40.43423082881511, -3.73687856 40.43912292881844, -3.73780063 40.44143619881999, -3.737931520000001 40.44252062882072, -3.7379640999999997 40.442790558820896))"^^geosparql:wktLiteral .
 
-georesource:2816  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/2816> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "2816" ;
         dc:created             "2012-09-30"^^xsd:date ;
         dc:identifier          "2816"^^xsd:int ;
         dc:title               "Universidad Politécnica. Campus de Monte Gancedo"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaUniversitaria/2816/geometry> .
 
-georesource:2261  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/2261> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "2261" ;
         dc:created             "2010-10-21"^^xsd:date ;
         dc:identifier          "2261"^^xsd:int ;
         dc:title               "Universidad Rey Juan Carlos (Campus de Alcorcón)"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaUniversitaria/2261/geometry> .
 
-georesource:19516  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/19516> a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "19516" ;
         dc:created             "2013-02-06"^^xsd:date ;
         dc:identifier          "19516"^^xsd:int ;
         dc:title               "Universidad de Oviedo, Campus de Mieres"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaUniversitaria/19516/geometry> .
 
-georesource:6220  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/6220> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "6220" ;
         dc:created             "2012-03-14"^^xsd:date ;
         dc:identifier          "6220"^^xsd:int ;
         dc:title               "Universitat Laboral"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaUniversitaria/6220/geometry> .
 
-georesource:7163  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/7163> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "7163" ;
         dc:created             "2012-04-02"^^xsd:date ;
         dc:identifier          "7163"^^xsd:int ;
         dc:title               "Universidad Pública de Teruel"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaUniversitaria/7163/geometry> .
 
-georesource:2574  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/2574> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "2574" ;
         dc:created             "2012-09-19"^^xsd:date ;
         dc:identifier          "2574"^^xsd:int ;
@@ -653,7 +653,7 @@ georesource:2574  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-2.42698822 42.46728489989842, -2.4250561999999998 42.46675169989822, -2.4204639 42.46465720989741, -2.4226753000000003 42.4620596398964, -2.423039 42.461591739896235, -2.42391141 42.461781289896294, -2.4252478 42.4620716398964, -2.4287670000000006 42.46295383989675, -2.42756076 42.465075869897575, -2.42698822 42.46728489989842))"^^geosparql:wktLiteral .
 
-georesource:2582  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/2582> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "2582" ;
         dc:created             "2012-09-19"^^xsd:date ;
         dc:identifier          "2582"^^xsd:int ;
@@ -677,14 +677,14 @@ georesource:2582  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-1.86450206 39.00604294771193, -1.8673275399999998 39.008487137714056, -1.8648029800000006 39.0103737477157, -1.8628222700000006 39.00838483771398, -1.86450206 39.00604294771193))"^^geosparql:wktLiteral .
 
-georesource:7037  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/7037> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "7037" ;
         dc:created             "2012-03-29"^^xsd:date ;
         dc:identifier          "7037"^^xsd:int ;
         dc:title               "Ciudad Universitaria"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaUniversitaria/7037/geometry> .
 
-georesource:19553  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/19553> a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "19553" ;
         dc:created             "2013-06-13"^^xsd:date ;
         dc:identifier          "19553"^^xsd:int ;
@@ -699,7 +699,7 @@ georesource:19553  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-7.014292500000001 38.88354351760486, -7.014831810000001 38.881918547603455, -7.015970880000003 38.88207179760357, -7.015715780000001 38.883161737604524, -7.01599263 38.88320934760456, -7.01578522 38.883745077605035, -7.014292500000001 38.88354351760486))"^^geosparql:wktLiteral .
 
-georesource:439  a            geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/439> a            geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "439" ;
         dc:created             "2012-01-07"^^xsd:date ;
         dc:identifier          "439"^^xsd:int ;
@@ -714,7 +714,7 @@ georesource:439  a            geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-0.3512079 39.48154873810927, -0.34711556 39.48031891810829, -0.3451921199999999 39.47974082810781, -0.33992164 39.47815656810655, -0.34101452 39.4766170581053, -0.34591283 39.4781111081065, -0.34800241 39.478627228106916, -0.35112615 39.47939877810754, -0.3512079 39.48154873810927))"^^geosparql:wktLiteral .
 
-georesource:5201  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/5201> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "5201" ;
         dc:created             "2012-04-18"^^xsd:date ;
         dc:identifier          "5201"^^xsd:int ;
@@ -722,7 +722,7 @@ georesource:5201  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         dc:title               "Universitat Autònoma de Barcelona"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaUniversitaria/5201/geometry> .
 
-georesource:11317  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/11317> a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "11317" ;
         dc:created             "2012-05-16"^^xsd:date ;
         dc:identifier          "11317"^^xsd:int ;
@@ -737,7 +737,7 @@ georesource:11317  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-0.3344061799999999 39.48131499810907, -0.3336476899999999 39.48098689810882, -0.33255939 39.48076579810864, -0.3328920600000002 39.479117958107324, -0.33347725 39.47621902810499, -0.3384354399999999 39.47770977810617, -0.33992164 39.47815656810655, -0.3451921199999999 39.47974082810781, -0.34711556 39.48031891810829, -0.3512079 39.48154873810927, -0.3478831700000001 39.48393343811119, -0.3456158200000001 39.48525830811225, -0.34427001 39.48496455811201, -0.34362055 39.484713868111804, -0.3419498500000001 39.4840689681113, -0.34005113 39.483714818111004, -0.33881397 39.48380599811109, -0.33921562 39.48297870811043, -0.33790151 39.48266180811018, -0.3375782199999999 39.4827082681102, -0.33732638 39.482744468110226, -0.33675408 39.482826708110274, -0.3361910999999999 39.482994668110415, -0.33578697 39.48311523811053, -0.33561758 39.482705058110206, -0.3347520399999999 39.48275690811024, -0.33456005 39.48213111810974, -0.3344061799999999 39.48131499810907))"^^geosparql:wktLiteral .
 
-georesource:1200  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/1200> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "1200" ;
         dc:created             "2013-01-17"^^xsd:date ;
         dc:identifier          "1200"^^xsd:int ;
@@ -753,7 +753,7 @@ georesource:1200  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-7.54801859 42.98973291008007, -7.54809728 42.99092961008046, -7.54834505 42.99113362008052, -7.549902839999997 42.99112246008052, -7.5504872899999995 42.991330730080584, -7.551512489999999 42.99225709008087, -7.550507699999998 42.99283819008103, -7.5502762400000005 42.99316384008115, -7.549753850000002 42.994748570081626, -7.548318110000002 42.995059320081715, -7.54744914 42.99508941008173, -7.546081500000001 42.994887010081676, -7.545101989999999 42.994854000081666, -7.544341620000001 42.995029370081724, -7.54374895 42.995317220081816, -7.5422367 42.99370224008132, -7.54177522 42.99320940008116, -7.539899410000002 42.99134423008058, -7.54070225 42.991237270080546, -7.540887969999998 42.991394150080595, -7.541002890000002 42.99187460008075, -7.541397929999999 42.99208050008079, -7.543167990000001 42.99199489008079, -7.543676640000001 42.99184686008075, -7.544850799999999 42.99025488008025, -7.544772990000003 42.98974586008009, -7.54801859 42.98973291008007))"^^geosparql:wktLiteral .
 
-georesource:639  a            geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/639> a            geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "639" ;
         dc:created             "2012-11-16"^^xsd:date ;
         dc:identifier          "639"^^xsd:int ;
@@ -768,7 +768,7 @@ georesource:639  a            geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-4.48895407 36.71834892541063, -4.485031909999999 36.71780605540997, -4.483745240000001 36.71811754541036, -4.4821121 36.718810355411144, -4.47995111 36.719355065411754, -4.47927412 36.71941782541184, -4.478891729999999 36.719453265411865, -4.475961019999999 36.719034265411416, -4.4753599600000005 36.71862520541092, -4.47401733 36.71830559541056, -4.473205500000001 36.71854230541084, -4.468802809999999 36.719731805412195, -4.4685931000000005 36.72031485541284, -4.46582419 36.72013836541265, -4.464345329999999 36.7200845854126, -4.459951829999999 36.71992471541241, -4.4597775 36.71954017541198, -4.4589535 36.71682672540889, -4.45909321 36.715379175407236, -4.459718789999999 36.71422828540592, -4.46082267 36.713935125405584, -4.46658325 36.71327979540484, -4.468887499999999 36.71312064540465, -4.472581990000001 36.71347917540508, -4.473046899999998 36.71352397540512, -4.473511809999999 36.71356877540516, -4.474534350000001 36.71366729540529, -4.47625247 36.713814545405455, -4.477842620000001 36.71395079540561, -4.4829571600000016 36.71401905540569, -4.48339114 36.714410825406134, -4.484213429999999 36.71477972540656, -4.48487711 36.71498298540677, -4.485503169999999 36.71519822540702, -4.485971210000001 36.71543095540731, -4.486261129999999 36.71566871540757, -4.486562319999999 36.715904995407826, -4.486916700000001 36.716189065408166, -4.487278979999999 36.716499855408514, -4.48766896 36.716834255408905, -4.488075080000001 36.71719769540932, -4.48839346 36.71752724540967, -4.488655340000002 36.717811885409986, -4.488864960000002 36.71814108541038, -4.48895407 36.71834892541063))"^^geosparql:wktLiteral .
 
-georesource:2577  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/2577> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "2577" ;
         dc:created             "2012-09-19"^^xsd:date ;
         dc:identifier          "2577"^^xsd:int ;
@@ -784,21 +784,21 @@ georesource:2577  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-5.61367784 43.52270788022365, -5.61691722 43.52286895022369, -5.61796698 43.52365135022386, -5.619266720000001 43.52356474022385, -5.619411920000002 43.52543309022427, -5.61737085 43.52588273022439, -5.613995800000001 43.52579199022436, -5.61369897 43.526403610224484, -5.612025120000002 43.5263742602245, -5.6105366000000005 43.52647344022453, -5.6105888 43.524772260224125, -5.610510279999998 43.52415041022396, -5.610971770000003 43.523994450223945, -5.61287463 43.52415917022398, -5.613297809999999 43.52401935022394, -5.613496489999999 43.52365043022386, -5.61367784 43.52270788022365))"^^geosparql:wktLiteral .
 
-georesource:9222  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/9222> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "9222" ;
         dc:created             "2012-12-26"^^xsd:date ;
         dc:identifier          "9222"^^xsd:int ;
         dc:title               "Zona Universitaria"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaUniversitaria/9222/geometry> .
 
-georesource:100  a            geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/100> a            geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "100" ;
         dc:created             "2012-01-02"^^xsd:date ;
         dc:identifier          "100"^^xsd:int ;
         dc:title               "Universitat Jaume I"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaUniversitaria/100/geometry> .
 
-georesource:18071  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/18071> a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "18071" ;
         dc:created             "2012-11-13"^^xsd:date ;
         dc:identifier          "18071"^^xsd:int ;
@@ -813,14 +813,14 @@ georesource:18071  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-3.8788587999999993 40.33342333874624, -3.8796596900000013 40.333417788746246, -3.8806804500000007 40.33380573874652, -3.8824454299999998 40.33319870874609, -3.8830135000000015 40.33388238874657, -3.8828317900000013 40.33457558874705, -3.881650940000001 40.33506558874736, -3.881048 40.33434868874689, -3.8795836500000003 40.334520168747, -3.8783706400000004 40.33522415874749, -3.879222129999999 40.33625983874822, -3.877591469999999 40.33707386874876, -3.87589301 40.33804872874944, -3.873783570000001 40.33887514875, -3.873199239999999 40.337960938749376, -3.872449010000001 40.33815556874952, -3.8714179300000007 40.33766050874916, -3.87039183 40.33659383874842, -3.8735504 40.33440943874693, -3.8788587999999993 40.33342333874624))"^^geosparql:wktLiteral .
 
-georesource:2585  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/2585> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "2585" ;
         dc:created             "2009-01-12"^^xsd:date ;
         dc:identifier          "2585"^^xsd:int ;
         dc:title               "Universidad Pontificia de Comillas"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaUniversitaria/2585/geometry> .
 
-georesource:18150  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/18150> a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "18150" ;
         dc:created             "2013-01-30"^^xsd:date ;
         dc:identifier          "18150"^^xsd:int ;
@@ -839,21 +839,21 @@ georesource:18150  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-3.613006459999999 40.406353648796234, -3.6121025900000014 40.40759962879706, -3.6094164499999994 40.40763638879707, -3.6088529600000014 40.40407373879465, -3.6100933599999996 40.404134898794695, -3.613006459999999 40.406353648796234))"^^geosparql:wktLiteral .
 
-georesource:442  a            geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/442> a            geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "442" ;
         dc:created             "2012-01-07"^^xsd:date ;
         dc:identifier          "442"^^xsd:int ;
         dc:title               "Campus Blasco Ibañez Universitat de València"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaUniversitaria/442/geometry> .
 
-georesource:9877  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/9877> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "9877" ;
         dc:created             "2010-08-16"^^xsd:date ;
         dc:identifier          "9877"^^xsd:int ;
         dc:title               "Universidad Agrónomos"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaUniversitaria/9877/geometry> .
 
-georesource:2259  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/2259> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "2259" ;
         dc:created             "2012-09-19"^^xsd:date ;
         dc:identifier          "2259"^^xsd:int ;
@@ -861,7 +861,7 @@ georesource:2259  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         dc:title               "Universidad Alfonso X El Sabio"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaUniversitaria/2259/geometry> .
 
-georesource:4153  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/4153> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "4153" ;
         dc:created             "2012-10-08"^^xsd:date ;
         dc:identifier          "4153"^^xsd:int ;
@@ -876,7 +876,7 @@ georesource:4153  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((0.4979746999999999 41.68546693955185, 0.4986776999999999 41.68547753955185, 0.4990992299999999 41.685483909551834, 0.501633 41.68552213955187, 0.5016345000000001 41.68437843955131, 0.5008386000000002 41.68435503955128, 0.5000427000000001 41.684331639551274, 0.5001969 41.68365983955095, 0.5010531000000001 41.68303803955063, 0.5000276000000001 41.68171113954997, 0.4969497 41.681804939550005, 0.4973506 41.68450903955136, 0.4979746999999999 41.68546693955185))"^^geosparql:wktLiteral .
 
-georesource:9998  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/9998> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "9998" ;
         dc:created             "2012-05-03"^^xsd:date ;
         dc:identifier          "9998"^^xsd:int ;
@@ -887,7 +887,7 @@ georesource:9998  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-0.95102776 38.08549499686116, -0.9504727499999998 38.08557416686121, -0.94952507 38.085615916861265, -0.94934038 38.085614906861274, -0.9489471700000002 38.08561275686126, -0.94857724 38.084783256860455, -0.9491983400000001 38.08455120686022, -0.9512269399999997 38.08453802686021, -0.95102776 38.08549499686116))"^^geosparql:wktLiteral .
 
-georesource:16535  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/16535> a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "16535" ;
         dc:created             "2006-09-13"^^xsd:date ;
         dc:identifier          "16535"^^xsd:int ;
@@ -906,7 +906,7 @@ georesource:16535  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-3.34873225 40.50449493886229, -3.349731999999999 40.50475474886247, -3.3507317 40.50501453886264, -3.3519743800000006 40.50521351886278, -3.3524528599999996 40.50529012886283, -3.3529338900000005 40.50535891886287, -3.3547471599999996 40.50550584886298, -3.3558391399999996 40.50557557886302, -3.3575912399999996 40.50578535886314, -3.359331829999999 40.50582063886318, -3.359112250000001 40.50668067886375, -3.3588593599999994 40.50771059886443, -3.3584592900000003 40.509381418865566, -3.358370779999999 40.5103592488662, -3.35767755 40.51104764886666, -3.35660107 40.511757678867134, -3.35532748 40.512720708867775, -3.3548796299999992 40.51315005886807, -3.35432265 40.512803688867834, -3.3541927 40.514170218868735, -3.3526796700000006 40.51514662886939, -3.3511163900000005 40.51484254886918, -3.3493983099999993 40.51511921886936, -3.347933490000001 40.51628827887016, -3.3468261799999994 40.51538496886955, -3.344800330000001 40.51635795887021, -3.345963779999999 40.517298998870835, -3.34467742 40.51806649887133, -3.3429895599999995 40.51644658887026, -3.340616840000001 40.517013438870634, -3.33945388 40.516152728870054, -3.3381419399999994 40.51708099887068, -3.3364208200000003 40.51517687886942, -3.33802067 40.513906158868565, -3.3374911299999996 40.51332490886819, -3.3384097700000015 40.51273943886779, -3.338992070000001 40.51334061886817, -3.33988406 40.51269491886775, -3.3403277199999994 40.51190985886724, -3.3400075899999995 40.51108685886668, -3.340400099999999 40.51060339886638, -3.34178913 40.509333238865516, -3.3399135600000007 40.50860665886504, -3.3378213999999997 40.50727203886415, -3.3359400499999996 40.506011398863315, -3.3353017 40.50533653886286, -3.33768167 40.50353137886165, -3.3407441000000007 40.500959068859935, -3.3421995000000004 40.50169473886043, -3.3449792000000005 40.50298093886128, -3.3473793 40.50414703886205, -3.34873225 40.50449493886229))"^^geosparql:wktLiteral .
 
-georesource:2580  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/2580> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "2580" ;
         dc:created             "2008-03-13"^^xsd:date ;
         dc:identifier          "2580"^^xsd:int ;
@@ -926,7 +926,7 @@ georesource:2580  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-5.77758438 43.23823190015229, -5.777119469999998 43.24333607015368, -5.77540109 43.24323348015365, -5.7746286300000005 43.24307848015361, -5.7741636000000005 43.24259284015347, -5.775779419999999 43.24033105015288, -5.775958390000001 43.239660290152685, -5.776154669999999 43.239236830152564, -5.776633499999999 43.2382565001523, -5.77758438 43.23823190015229))"^^geosparql:wktLiteral .
 
-georesource:9580  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/9580> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "9580" ;
         dc:created             "2012-09-18"^^xsd:date ;
         dc:identifier          "9580"^^xsd:int ;
@@ -941,21 +941,21 @@ georesource:9580  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-3.6280849599999994 40.39133494878597, -3.62771285 40.39140757878604, -3.62592984 40.39175558878626, -3.623636099999999 40.39125123878592, -3.6221728800000004 40.390899518785695, -3.62187025 40.39082676878565, -3.6219707200000006 40.39059474878548, -3.6220254900000017 40.390468248785396, -3.6221919999999983 40.390004938785076, -3.624289100000002 40.39050893878542, -3.6250147000000004 40.38998243878507, -3.6265591 40.388802938784266, -3.627678599999999 40.3881266687838, -3.6280465199999994 40.38793976878367, -3.6289620999999994 40.38747463878335, -3.63011093 40.38683755878293, -3.630813900000001 40.38643743878264, -3.6321047200000014 40.38561793878208, -3.6327693000000005 40.385120638781736, -3.63351357 40.38445744878128, -3.6348433 40.38518123878178, -3.63356433 40.386751528782845, -3.632655109999999 40.38812752878379, -3.6316149000000024 40.38893763878435, -3.6308646 40.38934713878464, -3.6299048 40.39002803878509, -3.6287679000000015 40.39066493878554, -3.6280849599999994 40.39133494878597))"^^geosparql:wktLiteral .
 
-georesource:12500  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/12500> a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "12500" ;
         dc:created             "2012-11-08"^^xsd:date ;
         dc:identifier          "12500"^^xsd:int ;
         dc:title               "Universidad de Jaén"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaUniversitaria/12500/geometry> .
 
-georesource:3197  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/3197> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "3197" ;
         dc:created             "2012-06-01"^^xsd:date ;
         dc:identifier          "3197"^^xsd:int ;
         dc:title               "Universidad de La Rioja"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaUniversitaria/3197/geometry> .
 
-georesource:1816  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/1816> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "1816" ;
         dc:created             "2012-02-16"^^xsd:date ;
         dc:identifier          "1816"^^xsd:int ;
@@ -970,14 +970,14 @@ georesource:1816  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((1.2034755200000002 41.09794732923342, 1.2019731599999999 41.09968300923441, 1.19990811 41.1020388392358, 1.19873456 41.10124411923533, 1.1975056000000004 41.10200126923577, 1.1975147400000001 41.10309226923639, 1.1999397700000003 41.10325794923651, 1.20007189 41.10365310923673, 1.20305405 41.103876569236874, 1.2038611100000003 41.10286709923628, 1.20442877 41.10301353923636, 1.2054631400000002 41.102243459235915, 1.2060347000000002 41.10272407923619, 1.20691983 41.10314078923644, 1.2074054099999998 41.10296162923633, 1.2087614000000002 41.10135134923539, 1.2034755200000002 41.09794732923342))"^^geosparql:wktLiteral .
 
-georesource:19288  a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/19288> a          geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "19288" ;
         dc:created             "2013-04-25"^^xsd:date ;
         dc:identifier          "19288"^^xsd:int ;
         dc:title               "Campus de Elviña"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaUniversitaria/19288/geometry> .
 
-georesource:3681  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/3681> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "3681" ;
         dc:created             "2013-01-16"^^xsd:date ;
         dc:identifier          "3681"^^xsd:int ;
@@ -996,7 +996,7 @@ georesource:3681  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-3.8359772400000014 40.39701144878985, -3.8360104000000006 40.39759733879025, -3.8362951 40.39775743879036, -3.8367678099999987 40.397898718790465, -3.83808874 40.39829348879072, -3.8384053900000006 40.39850955879086, -3.838637700000001 40.39874963879103, -3.8388919600000024 40.399242358791376, -3.8391005799999998 40.399508968791565, -3.8392258999999993 40.399826258791784, -3.8391520200000007 40.40010217879197, -3.8370147 40.400680238792354, -3.8374045999999984 40.40171343879306, -3.835728099999999 40.40199573879325, -3.83514029 40.40114815879269, -3.834758829999999 40.39984046879178, -3.8342059700000006 40.39980638879175, -3.8337995499999997 40.39952514879155, -3.83353187 40.39874575879104, -3.83377206 40.39803557879054, -3.8342735999999995 40.3973903787901, -3.8359772400000014 40.39701144878985))"^^geosparql:wktLiteral .
 
-georesource:2262  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/2262> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "2262" ;
         dc:created             "2012-09-19"^^xsd:date ;
         dc:identifier          "2262"^^xsd:int ;
@@ -1007,14 +1007,14 @@ georesource:2262  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversi
         a                sf:Polygon ;
         geosparql:asWKT  "POLYGON ((-2.67459567 42.84112542003252, -2.6683765400000006 42.840483460032324, -2.66853036 42.83941944003196, -2.668729070000001 42.83854910003168, -2.6718364099999996 42.838501010031635, -2.6750637799999994 42.83890351003178, -2.67459567 42.84112542003252))"^^geosparql:wktLiteral .
 
-georesource:2575  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/2575> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "2575" ;
         dc:created             "2012-09-19"^^xsd:date ;
         dc:identifier          "2575"^^xsd:int ;
         dc:title               "Universidad Carlos III (Campus de Leganés)"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/ZonaUniversitaria/2575/geometry> .
 
-georesource:9220  a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
+<http://geo.linkeddata.es/recurso/ZonaUniversitaria/9220> a           geoes:ZonaDeUsoCaracteristico , geoes:ZonaUniversitaria ;
         rdfs:label             "9220" ;
         dc:created             "2012-09-04"^^xsd:date ;
         dc:identifier          "9220"^^xsd:int ;

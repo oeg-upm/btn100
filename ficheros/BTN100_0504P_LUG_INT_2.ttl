@@ -34,7 +34,7 @@
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.31756791601224 36.409601214166145)"^^geosparql:wktLiteral .
 
-georesource:29192  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/29192> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "29192" ;
         geoes:bicCode          "RI-51-0010966-00000"@es ;
         dc:created             "2013-05-16"^^xsd:date ;
@@ -46,7 +46,7 @@ georesource:29192  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         a                sf:Point ;
         geosparql:asWKT  "POINT (1.2587739309001753 41.1145988433406)"^^geosparql:wktLiteral .
 
-georesource:14617  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/14617> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "14617" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2013-06-11"^^xsd:date ;
@@ -58,7 +58,7 @@ georesource:14617  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.1754484199999995 41.387419949396445)"^^geosparql:wktLiteral .
 
-georesource:11487  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/11487> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "11487" ;
         geoes:bicCode          "RI-51-0003821"@es ;
         dc:created             "2012-09-04"^^xsd:date ;
@@ -66,7 +66,7 @@ georesource:11487  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         dc:title               "Palacio Güell"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/11487/geometry> .
 
-georesource:37528  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/37528> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "37528" ;
         geoes:bicCode          "53-0000003-00000"@es ;
         dc:created             "2012-11-12"^^xsd:date ;
@@ -78,7 +78,7 @@ georesource:37528  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.46190873 36.98982180571554)"^^geosparql:wktLiteral .
 
-georesource:30562  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/30562> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "30562" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2013-04-15"^^xsd:date ;
@@ -86,7 +86,7 @@ georesource:30562  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         dc:title               "Parque Nacional de Doñana"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/30562/geometry> .
 
-georesource:30590  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/30590> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "30590" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2013-06-11"^^xsd:date ;
@@ -94,7 +94,7 @@ georesource:30590  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         dc:title               "Paisaje Cultural de la Sierra de Tramuntana"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/30590/geometry> .
 
-georesource:31761  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/31761> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "31761" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2013-06-19"^^xsd:date ;
@@ -102,7 +102,7 @@ georesource:31761  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         dc:title               "Mezquita-catedral de Córdoba"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/31761/geometry> .
 
-georesource:16585  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/16585> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "16585" ;
         geoes:bicCode          "RI-51-0004630-00000"@es ;
         dc:created             "2010-08-12"^^xsd:date ;
@@ -115,7 +115,7 @@ georesource:16585  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.724920659999999 39.73431988830841)"^^geosparql:wktLiteral .
 
-georesource:41961  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/41961> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "41961" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2013-03-08"^^xsd:date ;
@@ -123,7 +123,7 @@ georesource:41961  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         dc:title               "Ciudad Histórica de Toledo"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/41961/geometry> .
 
-georesource:22161  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/22161> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "22161" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2013-03-08"^^xsd:date ;
@@ -131,7 +131,7 @@ georesource:22161  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         dc:title               "Ciudad Vieja de Salamanca"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/22161/geometry> .
 
-georesource:19222  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/19222> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "19222" ;
         geoes:bicCode          "RI-51-0000024-00000"@es ;
         dc:created             "2012-07-31"^^xsd:date ;
@@ -139,7 +139,7 @@ georesource:19222  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         dc:title               "Santuario de Nuestra Señora de Guadalupe"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/19222/geometry> .
 
-georesource:15631  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/15631> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "15631" ;
         geoes:bicCode          "RI-51-0001033"@es ;
         dc:created             "2012-03-14"^^xsd:date ;
@@ -147,7 +147,7 @@ georesource:15631  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         dc:title               "Restos Mudejares del Palacio de la Aljafería"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/15631/geometry> .
 
-georesource:19982  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/19982> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "19982" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2013-03-08"^^xsd:date ;
@@ -155,7 +155,7 @@ georesource:19982  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         dc:title               "Ciudad vieja y acueducto de Segovia"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/19982/geometry> .
 
-georesource:22711  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/22711> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "22711" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2013-03-08"^^xsd:date ;
@@ -167,7 +167,7 @@ georesource:22711  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.373836519999999 38.00957200678633)"^^geosparql:wktLiteral .
 
-georesource:28550  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/28550> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "28550" ;
         geoes:bicCode          "51-0011013-00000"@es ;
         dc:created             "2013-06-11"^^xsd:date ;
@@ -183,7 +183,7 @@ georesource:28550  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         a                sf:Point ;
         geosparql:asWKT  "POINT (-1.1093530299999999 40.34408861875361)"^^geosparql:wktLiteral .
 
-georesource:11486  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/11486> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "11486" ;
         geoes:bicCode          "RI-51-0003814-00001"@es ;
         dc:created             "2012-09-04"^^xsd:date ;
@@ -191,7 +191,7 @@ georesource:11486  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         dc:title               "Casa Milà (La Pedrera)"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/11486/geometry> .
 
-georesource:36149  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/36149> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "36149" ;
         geoes:bicCode          "RI-51-0000072"@es ;
         dc:created             "2012-02-22"^^xsd:date ;
@@ -203,7 +203,7 @@ georesource:36149  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         a                sf:Point ;
         geosparql:asWKT  "POINT (-7.560760620000001 43.01372331008746)"^^geosparql:wktLiteral .
 
-georesource:40959  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/40959> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "40959" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2012-12-07"^^xsd:date ;
@@ -215,7 +215,7 @@ georesource:40959  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.8727795000000005 42.329399539843756)"^^geosparql:wktLiteral .
 
-georesource:31817  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/31817> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "31817" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2013-06-17"^^xsd:date ;
@@ -227,7 +227,7 @@ georesource:31817  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         a                sf:Point ;
         geosparql:asWKT  "POINT (0.03464053 42.67543330997564)"^^geosparql:wktLiteral .
 
-georesource:33258  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/33258> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "33258" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2013-03-08"^^xsd:date ;
@@ -235,7 +235,7 @@ georesource:33258  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         dc:title               "Conjunto Arqueológico de Mérida"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/33258/geometry> .
 
-georesource:25522  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/25522> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "25522" ;
         geoes:bicCode          "RI-51-000067"@es ;
         dc:created             "2006-07-27"^^xsd:date ;
@@ -244,7 +244,7 @@ georesource:25522  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         dc:title               "Las Médulas"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/25522/geometry> .
 
-georesource:4848  a           geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/4848> a           geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "4848" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2013-03-08"^^xsd:date ;
@@ -252,7 +252,7 @@ georesource:4848  a           geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         dc:title               "Puente de Vizcaya"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/4848/geometry> .
 
-georesource:19221  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/19221> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "19221" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2012-07-31"^^xsd:date ;
@@ -260,7 +260,7 @@ georesource:19221  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         dc:title               "Ciudad Vieja de Cáceres"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/19221/geometry> .
 
-georesource:17614  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/17614> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "17614" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2013-03-08"^^xsd:date ;
@@ -268,7 +268,7 @@ georesource:17614  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         dc:title               "La Ciudad Histórica Amurallada de Cuenca"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/17614/geometry> .
 
-georesource:35029  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/35029> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "35029" ;
         geoes:bicCode          "RI-53-0000466"@es ;
         dc:created             "2013-06-06"^^xsd:date ;
@@ -276,7 +276,7 @@ georesource:35029  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         dc:title               "Conjunto Historico Artistico de la Ciudad de San Cristobal de La Laguna"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/35029/geometry> .
 
-georesource:15630  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/15630> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "15630" ;
         geoes:bicCode          "RI-51-0001048"@es ;
         dc:created             "2012-07-06"^^xsd:date ;
@@ -292,7 +292,7 @@ georesource:15630  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.1523945700000002 41.4139525894108)"^^geosparql:wktLiteral .
 
-georesource:6490  a           geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/6490> a           geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "6490" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2013-03-08"^^xsd:date ;
@@ -308,7 +308,7 @@ georesource:6490  a           geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.3629999999999995 40.48285003884784)"^^geosparql:wktLiteral .
 
-georesource:27934  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/27934> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "27934" ;
         geoes:bicCode          "RI-53-0000071"@es ;
         dc:created             "2012-09-27"^^xsd:date ;
@@ -316,7 +316,7 @@ georesource:27934  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         dc:title               "Ciudad de Baeza"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/27934/geometry> .
 
-georesource:11503  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/11503> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "11503" ;
         geoes:bicCode          "RI-51-0004278-00002"@es ;
         dc:created             "2012-09-04"^^xsd:date ;
@@ -332,7 +332,7 @@ georesource:11503  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         a                sf:Point ;
         geosparql:asWKT  "POINT (-8.54512054 42.880561730045464)"^^geosparql:wktLiteral .
 
-georesource:73309  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/73309> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "73309" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2014-06-17"^^xsd:date ;
@@ -340,7 +340,7 @@ georesource:73309  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         dc:title               "Centro Histórico de Córdoba"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/73309/geometry> .
 
-georesource:16614  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/16614> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "16614" ;
         geoes:bicCode          "RI-51-0000926-00001"@es ;
         dc:created             "2010-08-12"^^xsd:date ;
@@ -349,7 +349,7 @@ georesource:16614  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         dc:title               "Iglesia de San Pedro (Teruel)"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/16614/geometry> .
 
-georesource:6513  a           geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/6513> a           geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "6513" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2013-03-08"^^xsd:date ;
@@ -361,7 +361,7 @@ georesource:6513  a           geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         a                sf:Point ;
         geosparql:asWKT  "POINT (-1.10642528 40.342506018752516)"^^geosparql:wktLiteral .
 
-georesource:11485  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/11485> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "11485" ;
         geoes:bicCode          "RI-51-0003813"@es ;
         dc:created             "2012-09-04"^^xsd:date ;
@@ -381,7 +381,7 @@ georesource:11485  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.11789173 40.94794835914427)"^^geosparql:wktLiteral .
 
-georesource:34648  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/34648> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "34648" ;
         geoes:bicCode          "RI-51-0008733-00000"@es ;
         dc:created             "2013-02-26"^^xsd:date ;
@@ -413,7 +413,7 @@ georesource:34648  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.3275 39.45277003808606)"^^geosparql:wktLiteral .
 
-georesource:37518  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/37518> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "37518" ;
         geoes:bicCode          "51-0000540-00000"@es ;
         dc:created             "2013-04-24"^^xsd:date ;
@@ -421,7 +421,7 @@ georesource:37518  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         dc:title               "Torre de Hércules"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/37518/geometry> .
 
-georesource:39665  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/39665> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "39665" ;
         geoes:bicCode          "RI-51-0000191"@es ;
         dc:created             "2013-05-15"^^xsd:date ;
@@ -429,7 +429,7 @@ georesource:39665  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         dc:title               "Muralla Romana de Lugo"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/39665/geometry> .
 
-georesource:11502  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/11502> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "11502" ;
         geoes:bicCode          "RI-51-0003864"@es ;
         dc:created             "2012-09-04"^^xsd:date ;
@@ -445,7 +445,7 @@ georesource:11502  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.01739578 43.323495330174936)"^^geosparql:wktLiteral .
 
-georesource:35035  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/35035> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "35035" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2013-03-08"^^xsd:date ;
@@ -453,7 +453,7 @@ georesource:35035  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         dc:title               "Parque Nacional del Teide"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/35035/geometry> .
 
-georesource:73308  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/73308> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "73308" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2014-06-17"^^xsd:date ;
@@ -469,7 +469,7 @@ georesource:73308  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.780508799862066 37.87989608178751)"^^geosparql:wktLiteral .
 
-georesource:28075  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/28075> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "28075" ;
         geoes:bicCode          "RI-53-0000024"@es ;
         dc:created             "2012-09-27"^^xsd:date ;
@@ -477,7 +477,7 @@ georesource:28075  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         dc:title               "Conjunto Histórico de la Ciudad de Úbeda"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/28075/geometry> .
 
-georesource:3568  a           geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/3568> a           geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "3568" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2012-07-17"^^xsd:date ;
@@ -485,7 +485,7 @@ georesource:3568  a           geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         dc:title               "Paisaje Cultural de Aranjuez"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/3568/geometry> .
 
-georesource:11484  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/11484> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "11484" ;
         geoes:bicCode          "RI-51-0003823"@es ;
         dc:created             "2012-09-04"^^xsd:date ;
@@ -505,7 +505,7 @@ georesource:11484  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.147837420000001 40.58906336891819)"^^geosparql:wktLiteral .
 
-georesource:33256  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/33256> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "33256" ;
         geoes:bicCode          "RI-53-0000148"@es ;
         dc:created             "2012-08-06"^^xsd:date ;
@@ -529,7 +529,7 @@ georesource:33256  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.09587675 37.67618627644957)"^^geosparql:wktLiteral .
 
-georesource:16021  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/16021> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "16021" ;
         geoes:bicCode          "RI-51-0000925-00001"@es ;
         dc:created             "2010-08-12"^^xsd:date ;
@@ -538,7 +538,7 @@ georesource:16021  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         dc:title               "Catedral de Santa María de Teruel"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/16021/geometry> .
 
-georesource:11501  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/11501> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "11501" ;
         geoes:bicCode          "RI-51-0003825"@es ;
         dc:created             "2012-09-04"^^xsd:date ;
@@ -546,7 +546,7 @@ georesource:11501  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         dc:title               "Cripta de la Colonia Güell"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/11501/geometry> .
 
-georesource:73335  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/73335> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "73335" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2015-07-01"^^xsd:date ;
@@ -554,7 +554,7 @@ georesource:73335  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         dc:title               "Ermita del Rosario"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/73335/geometry> .
 
-georesource:35034  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/35034> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "35034" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2013-03-08"^^xsd:date ;
@@ -566,7 +566,7 @@ georesource:35034  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.843095120000001 43.36260405018497)"^^geosparql:wktLiteral .
 
-georesource:4075  a           geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/4075> a           geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "4075" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2013-03-08"^^xsd:date ;
@@ -574,7 +574,7 @@ georesource:4075  a           geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         dc:title               "Monasterio de San Millán de Yuso"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/4075/geometry> .
 
-georesource:2201  a           geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/2201> a           geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "2201" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2013-03-08"^^xsd:date ;
@@ -590,7 +590,7 @@ georesource:2201  a           geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.7039999999999997 42.34047003984826)"^^geosparql:wktLiteral .
 
-georesource:12927  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/12927> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "12927" ;
         geoes:bicCode          "RI-51-0000197"@es ;
         dc:created             "2012-08-21"^^xsd:date ;
@@ -607,7 +607,7 @@ georesource:12927  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         a                sf:Point ;
         geosparql:asWKT  "POINT (-8.543068498898423 42.88347846266893)"^^geosparql:wktLiteral .
 
-georesource:3567  a           geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/3567> a           geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "3567" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2012-07-17"^^xsd:date ;
@@ -615,7 +615,7 @@ georesource:3567  a           geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         dc:title               "Universidad y Recinto Histórico de Alcalá de Henares"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/3567/geometry> .
 
-georesource:11483  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/11483> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "11483" ;
         geoes:bicCode          "RI-51-0003818"@es ;
         dc:created             "2012-09-04"^^xsd:date ;
@@ -623,7 +623,7 @@ georesource:11483  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         dc:title               "Parque Güell"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/11483/geometry> .
 
-georesource:15633  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/15633> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "15633" ;
         geoes:bicCode          "RI-51-0001028"@es ;
         dc:created             "2012-03-14"^^xsd:date ;
@@ -640,7 +640,7 @@ georesource:15633  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.1505710300000005 41.403499689405145)"^^geosparql:wktLiteral .
 
-georesource:29224  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/29224> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "29224" ;
         geoes:bicCode          "RI-51-0000009"@es ;
         dc:created             "2013-05-17"^^xsd:date ;
@@ -648,7 +648,7 @@ georesource:29224  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         dc:title               "La Alhambra"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/29224/geometry> .
 
-georesource:1289  a           geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/1289> a           geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "1289" ;
         geoes:bicCode          "RI-51-0000968-00002"@es ;
         dc:created             "2013-03-08"^^xsd:date ;
@@ -676,7 +676,7 @@ georesource:1289  a           geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.164889080000168 41.39163766939876)"^^geosparql:wktLiteral .
 
-georesource:29152  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/29152> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "29152" ;
         geoes:bicCode          "RI-52-0000021"@es ;
         dc:created             "2012-10-22"^^xsd:date ;
@@ -688,7 +688,7 @@ georesource:29152  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.6981707499999998 38.269740347039836)"^^geosparql:wktLiteral .
 
-georesource:11500  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/11500> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "11500" ;
         geoes:bicCode          "RI-51-0003815-00001"@es ;
         dc:created             "2012-09-04"^^xsd:date ;
@@ -696,7 +696,7 @@ georesource:11500  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         dc:title               "Casa Batlló"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/11500/geometry> .
 
-georesource:4074  a           geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/4074> a           geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "4074" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2013-03-08"^^xsd:date ;
@@ -716,7 +716,7 @@ georesource:4074  a           geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.346853629999999 38.91493719763247)"^^geosparql:wktLiteral .
 
-georesource:14618  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/14618> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "14618" ;
         geoes:bicCode          "53-0000035-00006"@es ;
         dc:created             "2013-06-11"^^xsd:date ;
@@ -732,7 +732,7 @@ georesource:14618  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         a                sf:Point ;
         geosparql:asWKT  "POINT (-1.10756495 40.34376266875338)"^^geosparql:wktLiteral .
 
-georesource:3566  a           geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/3566> a           geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "3566" ;
         geoes:bicCode          "NO PROCEDE"@es ;
         dc:created             "2012-07-17"^^xsd:date ;
@@ -740,7 +740,7 @@ georesource:3566  a           geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanid
         dc:title               "Monasterio y Real Sitio de El Escorial"@es ;
         geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/3566/geometry> .
 
-georesource:15632  a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
+<http://geo.linkeddata.es/recurso/PatrimonioDeLaHumanidad/15632> a          geoes:LugarDeInteres , geoes:PatrimonioDeLaHumanidad ;
         rdfs:label             "15632" ;
         geoes:bicCode          "RI-51-0001030"@es ;
         dc:created             "2012-07-31"^^xsd:date ;
