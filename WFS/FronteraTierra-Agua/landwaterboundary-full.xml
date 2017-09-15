@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<wfs:FeatureCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd http://inspire.ec.europa.eu/schemas/hy-p/3.0 http://servicios.idee.es/wfs-inspire/hidrografia-btn100?SERVICE=WFS&amp;VERSION=2.0.0&amp;REQUEST=DescribeFeatureType&amp;OUTPUTFORMAT=application%2Fgml%2Bxml%3B+version%3D3.2&amp;TYPENAME=hy-p:LandWaterBoundary&amp;NAMESPACES=xmlns(hy-p,http%3A%2F%2Finspire.ec.europa.eu%2Fschemas%2Fhy-p%2F3.0)" xmlns:wfs="http://www.opengis.net/wfs/2.0" timeStamp="2017-09-08T08:13:58Z" xmlns:gml="http://www.opengis.net/gml/3.2" numberMatched="3" numberReturned="3">
+  <wfs:boundedBy>
+    <gml:Envelope srsName="EPSG:4326">
+      <gml:lowerCorner>-17.854864 28.834636</gml:lowerCorner>
+      <gml:upperCorner>4.279614 39.808822</gml:upperCorner>
+    </gml:Envelope>
+  </wfs:boundedBy>
+  <wfs:member>
+    <hy-p:LandWaterBoundary xmlns:hy-p="http://inspire.ec.europa.eu/schemas/hy-p/3.0" gml:id="HY-P_LANDWATERBOUNDARY_80311L">
+      <hy-p:beginLifespanVersion>2012-01-18T00:00:00</hy-p:beginLifespanVersion>
+      <hy-p:geometry>
+        <!--Inlined geometry 'HY-P_LANDWATERBOUNDARY_80311L_HY-P_GEOMETRY'-->
+        <gml:LineString gml:id="HY-P_LANDWATERBOUNDARY_80311L_HY-P_GEOMETRY" srsName="EPSG:4326">
+          <gml:posList>-0.092834 38.959626 -0.042113 38.958553</gml:posList>
+        </gml:LineString>
+      </hy-p:geometry>
+      <hy-p:inspireId>
+        <base:Identifier xmlns:base="http://inspire.ec.europa.eu/schemas/base/3.2">
+          <base:localId>8</base:localId>
+          <base:namespace>ES.IGN.HIDROGRAFIA</base:namespace>
+          <base:versionId>1</base:versionId>
+        </base:Identifier>
+      </hy-p:inspireId>
+      <hy-p:origin nilReason="Unpopulated"/>
+      <hy-p:waterLevelCategory nilReason="Unpopulated"/>
+    </hy-p:LandWaterBoundary>
+  </wfs:member>
+  <wfs:member>
+    <hy-p:LandWaterBoundary xmlns:hy-p="http://inspire.ec.europa.eu/schemas/hy-p/3.0" gml:id="HY-P_LANDWATERBOUNDARY_1710311L">
+      <hy-p:beginLifespanVersion>2013-03-17T00:00:00</hy-p:beginLifespanVersion>
+      <hy-p:geometry>
+        <!--Inlined geometry 'HY-P_LANDWATERBOUNDARY_1710311L_HY-P_GEOMETRY'-->
+        <gml:LineString gml:id="HY-P_LANDWATERBOUNDARY_1710311L_HY-P_GEOMETRY" srsName="EPSG:4326">
+          <gml:posList>4.270854 39.807822 4.276548 39.808253 4.279614 39.808822</gml:posList>
+        </gml:LineString>
+      </hy-p:geometry>
+      <hy-p:inspireId>
+        <base:Identifier xmlns:base="http://inspire.ec.europa.eu/schemas/base/3.2">
+          <base:localId>171</base:localId>
+          <base:namespace>ES.IGN.HIDROGRAFIA</base:namespace>
+          <base:versionId>1</base:versionId>
+        </base:Identifier>
+      </hy-p:inspireId>
+      <hy-p:origin nilReason="Unpopulated"/>
+      <hy-p:waterLevelCategory nilReason="Unpopulated"/>
+    </hy-p:LandWaterBoundary>
+  </wfs:member>
+  <wfs:member>
+    <hy-p:LandWaterBoundary xmlns:hy-p="http://inspire.ec.europa.eu/schemas/hy-p/3.0" gml:id="HY-P_LANDWATERBOUNDARY_2390311L">
+      <hy-p:beginLifespanVersion>2013-03-07T00:00:00</hy-p:beginLifespanVersion>
+      <hy-p:geometry>
+        <!--Inlined geometry 'HY-P_LANDWATERBOUNDARY_2390311L_HY-P_GEOMETRY'-->
+        <gml:LineString gml:id="HY-P_LANDWATERBOUNDARY_2390311L_HY-P_GEOMETRY" srsName="EPSG:4326">
+          <gml:posList>-17.854864 28.834636 -17.832079 28.862018</gml:posList>
+        </gml:LineString>
+      </hy-p:geometry>
+      <hy-p:inspireId>
+        <base:Identifier xmlns:base="http://inspire.ec.europa.eu/schemas/base/3.2">
+          <base:localId>239</base:localId>
+          <base:namespace>ES.IGN.HIDROGRAFIA</base:namespace>
+          <base:versionId>1</base:versionId>
+        </base:Identifier>
+      </hy-p:inspireId>
+      <hy-p:origin nilReason="Unpopulated"/>
+      <hy-p:waterLevelCategory nilReason="Unpopulated"/>
+    </hy-p:LandWaterBoundary>
+  </wfs:member>
+</wfs:FeatureCollection>

@@ -1,0 +1,333 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<wfs:FeatureCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd http://inspire.ec.europa.eu/schemas/hy-p/3.0 http://servicios.idee.es/wfs-inspire/hidrografia-btn100?SERVICE=WFS&amp;VERSION=2.0.0&amp;REQUEST=DescribeFeatureType&amp;OUTPUTFORMAT=application%2Fgml%2Bxml%3B+version%3D3.2&amp;TYPENAME=hy-p:Lock&amp;NAMESPACES=xmlns(hy-p,http%3A%2F%2Finspire.ec.europa.eu%2Fschemas%2Fhy-p%2F3.0)" xmlns:wfs="http://www.opengis.net/wfs/2.0" timeStamp="2017-09-08T08:10:34Z" xmlns:gml="http://www.opengis.net/gml/3.2" numberMatched="15" numberReturned="15">
+  <wfs:boundedBy>
+    <gml:Envelope srsName="EPSG:4326">
+      <gml:lowerCorner>-6.005622 37.319051</gml:lowerCorner>
+      <gml:upperCorner>-4.272585 42.638832</gml:upperCorner>
+    </gml:Envelope>
+  </wfs:boundedBy>
+  <wfs:member>
+    <hy-p:Lock xmlns:hy-p="http://inspire.ec.europa.eu/schemas/hy-p/3.0" gml:id="HY-P_LOCK_40309P">
+      <hy-p:geographicalName>
+        <gn:GeographicalName xmlns:gn="http://inspire.ec.europa.eu/schemas/gn/3.0">
+          <gn:spelling>
+            <gn:SpellingOfName>
+              <gn:text>Esclusa de Sevilla</gn:text>
+            </gn:SpellingOfName>
+          </gn:spelling>
+        </gn:GeographicalName>
+      </hy-p:geographicalName>
+      <hy-p:hydroId nilReason="Unpopulated"/>
+      <hy-p:relatedHydroObject/>
+      <hy-p:beginLifespanVersion>2013-03-06T00:00:00</hy-p:beginLifespanVersion>
+      <hy-p:condition nilReason="Unpopulated"/>
+      <hy-p:geometry>
+        <!--Inlined geometry 'HY-P_LOCK_40309P_HY-P_GEOMETRY'-->
+        <gml:Point gml:id="HY-P_LOCK_40309P_HY-P_GEOMETRY" srsName="EPSG:4326">
+          <gml:pos>-6.005622 37.319051</gml:pos>
+        </gml:Point>
+      </hy-p:geometry>
+      <hy-p:inspireId>
+        <base:Identifier xmlns:base="http://inspire.ec.europa.eu/schemas/base/3.2">
+          <base:localId>4</base:localId>
+          <base:namespace>ES.IGN.HIDROGRAFIA</base:namespace>
+          <base:versionId>1</base:versionId>
+        </base:Identifier>
+      </hy-p:inspireId>
+    </hy-p:Lock>
+  </wfs:member>
+  <wfs:member>
+    <hy-p:Lock xmlns:hy-p="http://inspire.ec.europa.eu/schemas/hy-p/3.0" gml:id="HY-P_LOCK_50309P">
+      <hy-p:hydroId nilReason="Unpopulated"/>
+      <hy-p:relatedHydroObject/>
+      <hy-p:beginLifespanVersion>2013-07-03T00:00:00</hy-p:beginLifespanVersion>
+      <hy-p:condition nilReason="Unpopulated"/>
+      <hy-p:geometry>
+        <!--Inlined geometry 'HY-P_LOCK_50309P_HY-P_GEOMETRY'-->
+        <gml:Point gml:id="HY-P_LOCK_50309P_HY-P_GEOMETRY" srsName="EPSG:4326">
+          <gml:pos>-4.524692 41.921597</gml:pos>
+        </gml:Point>
+      </hy-p:geometry>
+      <hy-p:inspireId>
+        <base:Identifier xmlns:base="http://inspire.ec.europa.eu/schemas/base/3.2">
+          <base:localId>5</base:localId>
+          <base:namespace>ES.IGN.HIDROGRAFIA</base:namespace>
+          <base:versionId>1</base:versionId>
+        </base:Identifier>
+      </hy-p:inspireId>
+    </hy-p:Lock>
+  </wfs:member>
+  <wfs:member>
+    <hy-p:Lock xmlns:hy-p="http://inspire.ec.europa.eu/schemas/hy-p/3.0" gml:id="HY-P_LOCK_60309P">
+      <hy-p:hydroId nilReason="Unpopulated"/>
+      <hy-p:relatedHydroObject/>
+      <hy-p:beginLifespanVersion>2013-07-03T00:00:00</hy-p:beginLifespanVersion>
+      <hy-p:condition nilReason="Unpopulated"/>
+      <hy-p:geometry>
+        <!--Inlined geometry 'HY-P_LOCK_60309P_HY-P_GEOMETRY'-->
+        <gml:Point gml:id="HY-P_LOCK_60309P_HY-P_GEOMETRY" srsName="EPSG:4326">
+          <gml:pos>-4.531293 42.165480</gml:pos>
+        </gml:Point>
+      </hy-p:geometry>
+      <hy-p:inspireId>
+        <base:Identifier xmlns:base="http://inspire.ec.europa.eu/schemas/base/3.2">
+          <base:localId>6</base:localId>
+          <base:namespace>ES.IGN.HIDROGRAFIA</base:namespace>
+          <base:versionId>1</base:versionId>
+        </base:Identifier>
+      </hy-p:inspireId>
+    </hy-p:Lock>
+  </wfs:member>
+  <wfs:member>
+    <hy-p:Lock xmlns:hy-p="http://inspire.ec.europa.eu/schemas/hy-p/3.0" gml:id="HY-P_LOCK_80309P">
+      <hy-p:hydroId nilReason="Unpopulated"/>
+      <hy-p:relatedHydroObject/>
+      <hy-p:beginLifespanVersion>2013-07-03T00:00:00</hy-p:beginLifespanVersion>
+      <hy-p:condition nilReason="Unpopulated"/>
+      <hy-p:geometry>
+        <!--Inlined geometry 'HY-P_LOCK_80309P_HY-P_GEOMETRY'-->
+        <gml:Point gml:id="HY-P_LOCK_80309P_HY-P_GEOMETRY" srsName="EPSG:4326">
+          <gml:pos>-4.358162 42.269706</gml:pos>
+        </gml:Point>
+      </hy-p:geometry>
+      <hy-p:inspireId>
+        <base:Identifier xmlns:base="http://inspire.ec.europa.eu/schemas/base/3.2">
+          <base:localId>8</base:localId>
+          <base:namespace>ES.IGN.HIDROGRAFIA</base:namespace>
+          <base:versionId>1</base:versionId>
+        </base:Identifier>
+      </hy-p:inspireId>
+    </hy-p:Lock>
+  </wfs:member>
+  <wfs:member>
+    <hy-p:Lock xmlns:hy-p="http://inspire.ec.europa.eu/schemas/hy-p/3.0" gml:id="HY-P_LOCK_90309P">
+      <hy-p:hydroId nilReason="Unpopulated"/>
+      <hy-p:relatedHydroObject/>
+      <hy-p:beginLifespanVersion>2013-07-03T00:00:00</hy-p:beginLifespanVersion>
+      <hy-p:condition nilReason="Unpopulated"/>
+      <hy-p:geometry>
+        <!--Inlined geometry 'HY-P_LOCK_90309P_HY-P_GEOMETRY'-->
+        <gml:Point gml:id="HY-P_LOCK_90309P_HY-P_GEOMETRY" srsName="EPSG:4326">
+          <gml:pos>-4.272585 42.511332</gml:pos>
+        </gml:Point>
+      </hy-p:geometry>
+      <hy-p:inspireId>
+        <base:Identifier xmlns:base="http://inspire.ec.europa.eu/schemas/base/3.2">
+          <base:localId>9</base:localId>
+          <base:namespace>ES.IGN.HIDROGRAFIA</base:namespace>
+          <base:versionId>1</base:versionId>
+        </base:Identifier>
+      </hy-p:inspireId>
+    </hy-p:Lock>
+  </wfs:member>
+  <wfs:member>
+    <hy-p:Lock xmlns:hy-p="http://inspire.ec.europa.eu/schemas/hy-p/3.0" gml:id="HY-P_LOCK_100309P">
+      <hy-p:hydroId nilReason="Unpopulated"/>
+      <hy-p:relatedHydroObject/>
+      <hy-p:beginLifespanVersion>2013-07-03T00:00:00</hy-p:beginLifespanVersion>
+      <hy-p:condition nilReason="Unpopulated"/>
+      <hy-p:geometry>
+        <!--Inlined geometry 'HY-P_LOCK_100309P_HY-P_GEOMETRY'-->
+        <gml:Point gml:id="HY-P_LOCK_100309P_HY-P_GEOMETRY" srsName="EPSG:4326">
+          <gml:pos>-4.283788 42.528993</gml:pos>
+        </gml:Point>
+      </hy-p:geometry>
+      <hy-p:inspireId>
+        <base:Identifier xmlns:base="http://inspire.ec.europa.eu/schemas/base/3.2">
+          <base:localId>10</base:localId>
+          <base:namespace>ES.IGN.HIDROGRAFIA</base:namespace>
+          <base:versionId>1</base:versionId>
+        </base:Identifier>
+      </hy-p:inspireId>
+    </hy-p:Lock>
+  </wfs:member>
+  <wfs:member>
+    <hy-p:Lock xmlns:hy-p="http://inspire.ec.europa.eu/schemas/hy-p/3.0" gml:id="HY-P_LOCK_130309P">
+      <hy-p:hydroId nilReason="Unpopulated"/>
+      <hy-p:relatedHydroObject/>
+      <hy-p:beginLifespanVersion>2013-07-03T00:00:00</hy-p:beginLifespanVersion>
+      <hy-p:condition nilReason="Unpopulated"/>
+      <hy-p:geometry>
+        <!--Inlined geometry 'HY-P_LOCK_130309P_HY-P_GEOMETRY'-->
+        <gml:Point gml:id="HY-P_LOCK_130309P_HY-P_GEOMETRY" srsName="EPSG:4326">
+          <gml:pos>-4.311861 42.586356</gml:pos>
+        </gml:Point>
+      </hy-p:geometry>
+      <hy-p:inspireId>
+        <base:Identifier xmlns:base="http://inspire.ec.europa.eu/schemas/base/3.2">
+          <base:localId>13</base:localId>
+          <base:namespace>ES.IGN.HIDROGRAFIA</base:namespace>
+          <base:versionId>1</base:versionId>
+        </base:Identifier>
+      </hy-p:inspireId>
+    </hy-p:Lock>
+  </wfs:member>
+  <wfs:member>
+    <hy-p:Lock xmlns:hy-p="http://inspire.ec.europa.eu/schemas/hy-p/3.0" gml:id="HY-P_LOCK_140309P">
+      <hy-p:hydroId nilReason="Unpopulated"/>
+      <hy-p:relatedHydroObject/>
+      <hy-p:beginLifespanVersion>2013-07-03T00:00:00</hy-p:beginLifespanVersion>
+      <hy-p:condition nilReason="Unpopulated"/>
+      <hy-p:geometry>
+        <!--Inlined geometry 'HY-P_LOCK_140309P_HY-P_GEOMETRY'-->
+        <gml:Point gml:id="HY-P_LOCK_140309P_HY-P_GEOMETRY" srsName="EPSG:4326">
+          <gml:pos>-4.313826 42.594066</gml:pos>
+        </gml:Point>
+      </hy-p:geometry>
+      <hy-p:inspireId>
+        <base:Identifier xmlns:base="http://inspire.ec.europa.eu/schemas/base/3.2">
+          <base:localId>14</base:localId>
+          <base:namespace>ES.IGN.HIDROGRAFIA</base:namespace>
+          <base:versionId>1</base:versionId>
+        </base:Identifier>
+      </hy-p:inspireId>
+    </hy-p:Lock>
+  </wfs:member>
+  <wfs:member>
+    <hy-p:Lock xmlns:hy-p="http://inspire.ec.europa.eu/schemas/hy-p/3.0" gml:id="HY-P_LOCK_150309P">
+      <hy-p:hydroId nilReason="Unpopulated"/>
+      <hy-p:relatedHydroObject/>
+      <hy-p:beginLifespanVersion>2013-07-03T00:00:00</hy-p:beginLifespanVersion>
+      <hy-p:condition nilReason="Unpopulated"/>
+      <hy-p:geometry>
+        <!--Inlined geometry 'HY-P_LOCK_150309P_HY-P_GEOMETRY'-->
+        <gml:Point gml:id="HY-P_LOCK_150309P_HY-P_GEOMETRY" srsName="EPSG:4326">
+          <gml:pos>-4.314719 42.605208</gml:pos>
+        </gml:Point>
+      </hy-p:geometry>
+      <hy-p:inspireId>
+        <base:Identifier xmlns:base="http://inspire.ec.europa.eu/schemas/base/3.2">
+          <base:localId>15</base:localId>
+          <base:namespace>ES.IGN.HIDROGRAFIA</base:namespace>
+          <base:versionId>1</base:versionId>
+        </base:Identifier>
+      </hy-p:inspireId>
+    </hy-p:Lock>
+  </wfs:member>
+  <wfs:member>
+    <hy-p:Lock xmlns:hy-p="http://inspire.ec.europa.eu/schemas/hy-p/3.0" gml:id="HY-P_LOCK_160309P">
+      <hy-p:hydroId nilReason="Unpopulated"/>
+      <hy-p:relatedHydroObject/>
+      <hy-p:beginLifespanVersion>2013-07-03T00:00:00</hy-p:beginLifespanVersion>
+      <hy-p:condition nilReason="Unpopulated"/>
+      <hy-p:geometry>
+        <!--Inlined geometry 'HY-P_LOCK_160309P_HY-P_GEOMETRY'-->
+        <gml:Point gml:id="HY-P_LOCK_160309P_HY-P_GEOMETRY" srsName="EPSG:4326">
+          <gml:pos>-4.314018 42.619999</gml:pos>
+        </gml:Point>
+      </hy-p:geometry>
+      <hy-p:inspireId>
+        <base:Identifier xmlns:base="http://inspire.ec.europa.eu/schemas/base/3.2">
+          <base:localId>16</base:localId>
+          <base:namespace>ES.IGN.HIDROGRAFIA</base:namespace>
+          <base:versionId>1</base:versionId>
+        </base:Identifier>
+      </hy-p:inspireId>
+    </hy-p:Lock>
+  </wfs:member>
+  <wfs:member>
+    <hy-p:Lock xmlns:hy-p="http://inspire.ec.europa.eu/schemas/hy-p/3.0" gml:id="HY-P_LOCK_170309P">
+      <hy-p:hydroId nilReason="Unpopulated"/>
+      <hy-p:relatedHydroObject/>
+      <hy-p:beginLifespanVersion>2013-07-03T00:00:00</hy-p:beginLifespanVersion>
+      <hy-p:condition nilReason="Unpopulated"/>
+      <hy-p:geometry>
+        <!--Inlined geometry 'HY-P_LOCK_170309P_HY-P_GEOMETRY'-->
+        <gml:Point gml:id="HY-P_LOCK_170309P_HY-P_GEOMETRY" srsName="EPSG:4326">
+          <gml:pos>-4.312688 42.626466</gml:pos>
+        </gml:Point>
+      </hy-p:geometry>
+      <hy-p:inspireId>
+        <base:Identifier xmlns:base="http://inspire.ec.europa.eu/schemas/base/3.2">
+          <base:localId>17</base:localId>
+          <base:namespace>ES.IGN.HIDROGRAFIA</base:namespace>
+          <base:versionId>1</base:versionId>
+        </base:Identifier>
+      </hy-p:inspireId>
+    </hy-p:Lock>
+  </wfs:member>
+  <wfs:member>
+    <hy-p:Lock xmlns:hy-p="http://inspire.ec.europa.eu/schemas/hy-p/3.0" gml:id="HY-P_LOCK_180309P">
+      <hy-p:hydroId nilReason="Unpopulated"/>
+      <hy-p:relatedHydroObject/>
+      <hy-p:beginLifespanVersion>2013-07-03T00:00:00</hy-p:beginLifespanVersion>
+      <hy-p:condition nilReason="Unpopulated"/>
+      <hy-p:geometry>
+        <!--Inlined geometry 'HY-P_LOCK_180309P_HY-P_GEOMETRY'-->
+        <gml:Point gml:id="HY-P_LOCK_180309P_HY-P_GEOMETRY" srsName="EPSG:4326">
+          <gml:pos>-4.306708 42.638832</gml:pos>
+        </gml:Point>
+      </hy-p:geometry>
+      <hy-p:inspireId>
+        <base:Identifier xmlns:base="http://inspire.ec.europa.eu/schemas/base/3.2">
+          <base:localId>18</base:localId>
+          <base:namespace>ES.IGN.HIDROGRAFIA</base:namespace>
+          <base:versionId>1</base:versionId>
+        </base:Identifier>
+      </hy-p:inspireId>
+    </hy-p:Lock>
+  </wfs:member>
+  <wfs:member>
+    <hy-p:Lock xmlns:hy-p="http://inspire.ec.europa.eu/schemas/hy-p/3.0" gml:id="HY-P_LOCK_120309P">
+      <hy-p:hydroId nilReason="Unpopulated"/>
+      <hy-p:relatedHydroObject/>
+      <hy-p:beginLifespanVersion>2013-07-03T00:00:00</hy-p:beginLifespanVersion>
+      <hy-p:condition nilReason="Unpopulated"/>
+      <hy-p:geometry>
+        <!--Inlined geometry 'HY-P_LOCK_120309P_HY-P_GEOMETRY'-->
+        <gml:Point gml:id="HY-P_LOCK_120309P_HY-P_GEOMETRY" srsName="EPSG:4326">
+          <gml:pos>-4.313895 42.564144</gml:pos>
+        </gml:Point>
+      </hy-p:geometry>
+      <hy-p:inspireId>
+        <base:Identifier xmlns:base="http://inspire.ec.europa.eu/schemas/base/3.2">
+          <base:localId>12</base:localId>
+          <base:namespace>ES.IGN.HIDROGRAFIA</base:namespace>
+          <base:versionId>1</base:versionId>
+        </base:Identifier>
+      </hy-p:inspireId>
+    </hy-p:Lock>
+  </wfs:member>
+  <wfs:member>
+    <hy-p:Lock xmlns:hy-p="http://inspire.ec.europa.eu/schemas/hy-p/3.0" gml:id="HY-P_LOCK_110309P">
+      <hy-p:hydroId nilReason="Unpopulated"/>
+      <hy-p:relatedHydroObject/>
+      <hy-p:beginLifespanVersion>2013-07-03T00:00:00</hy-p:beginLifespanVersion>
+      <hy-p:condition nilReason="Unpopulated"/>
+      <hy-p:geometry>
+        <!--Inlined geometry 'HY-P_LOCK_110309P_HY-P_GEOMETRY'-->
+        <gml:Point gml:id="HY-P_LOCK_110309P_HY-P_GEOMETRY" srsName="EPSG:4326">
+          <gml:pos>-4.297873 42.542779</gml:pos>
+        </gml:Point>
+      </hy-p:geometry>
+      <hy-p:inspireId>
+        <base:Identifier xmlns:base="http://inspire.ec.europa.eu/schemas/base/3.2">
+          <base:localId>11</base:localId>
+          <base:namespace>ES.IGN.HIDROGRAFIA</base:namespace>
+          <base:versionId>1</base:versionId>
+        </base:Identifier>
+      </hy-p:inspireId>
+    </hy-p:Lock>
+  </wfs:member>
+  <wfs:member>
+    <hy-p:Lock xmlns:hy-p="http://inspire.ec.europa.eu/schemas/hy-p/3.0" gml:id="HY-P_LOCK_70309P">
+      <hy-p:hydroId nilReason="Unpopulated"/>
+      <hy-p:relatedHydroObject/>
+      <hy-p:beginLifespanVersion>2013-07-03T00:00:00</hy-p:beginLifespanVersion>
+      <hy-p:condition nilReason="Unpopulated"/>
+      <hy-p:geometry>
+        <!--Inlined geometry 'HY-P_LOCK_70309P_HY-P_GEOMETRY'-->
+        <gml:Point gml:id="HY-P_LOCK_70309P_HY-P_GEOMETRY" srsName="EPSG:4326">
+          <gml:pos>-4.416142 42.251020</gml:pos>
+        </gml:Point>
+      </hy-p:geometry>
+      <hy-p:inspireId>
+        <base:Identifier xmlns:base="http://inspire.ec.europa.eu/schemas/base/3.2">
+          <base:localId>7</base:localId>
+          <base:namespace>ES.IGN.HIDROGRAFIA</base:namespace>
+          <base:versionId>1</base:versionId>
+        </base:Identifier>
+      </hy-p:inspireId>
+    </hy-p:Lock>
+  </wfs:member>
+</wfs:FeatureCollection>
