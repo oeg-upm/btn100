@@ -1,0 +1,1 @@
+El fichero shape está en el archivo rar por restricciones de tamaño de los ficheros en GitHub. Excede de los 100MB que es el límite máximo para ficheros.
