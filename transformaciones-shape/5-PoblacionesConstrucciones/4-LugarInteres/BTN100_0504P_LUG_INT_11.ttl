@@ -1,0 +1,640 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix geoes: <http://geo.linkeddata.es/ontology#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix btn100: <https://datos.ign.es/def/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georec: <https://datos.ign.es/recurso/jardin-historico/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+georec:29211  a                btn100:JardinHistorico ;
+        geoes:bicCode          "RI-52-0000042-00000" ;
+        dc:created             "2013-05-17"^^xsd:date ;
+        dc:identifier          "29211" ;
+        dc:title               "Jardines del Carmen de los Cipreses" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/29211/geometry> .
+
+<https://datos.ign.es/recurso/jardin-historico/3544/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.775437750000002 40.52225231887412)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/jardin-historico/32336/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.987499999999999 37.384440036144156)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/jardin-historico/3541/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.779680940000001 40.5233094088748)"^^geosparql:wktLiteral .
+
+georec:3322  a                 btn100:JardinHistorico ;
+        geoes:bicCode          "RI-52-0000003-00000" ;
+        dc:created             "2012-07-17"^^xsd:date ;
+        dc:identifier          "3322" ;
+        dc:title               "Campo del Moro" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/3322/geometry> .
+
+<https://datos.ign.es/recurso/jardin-historico/3436/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.6812253611240937 40.41717341382863)"^^geosparql:wktLiteral .
+
+georec:3542  a                 btn100:JardinHistorico ;
+        geoes:bicCode          "RI-52-0000017-00000" ;
+        dc:created             "2012-11-29"^^xsd:date ;
+        dc:identifier          "3542" ;
+        dc:title               "Jardín Denominado la Princesa Ciudad Universitaria" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/3542/geometry> .
+
+<https://datos.ign.es/recurso/jardin-historico/3279/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.147100000000001 40.58790603891741)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/jardin-historico/29211/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.5947069499999986 37.17866455592284)"^^geosparql:wktLiteral .
+
+georec:29209  a                btn100:JardinHistorico ;
+        geoes:bicCode          "RI-52-0000082-00000" ;
+        dc:created             "2013-05-17"^^xsd:date ;
+        dc:identifier          "29209" ;
+        dc:title               "Paseo y espacios ajardinados del Genil" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/29209/geometry> .
+
+<https://datos.ign.es/recurso/jardin-historico/31192/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.692000000000001 39.71639003829457)"^^geosparql:wktLiteral .
+
+georec:3307  a                 btn100:JardinHistorico ;
+        geoes:bicCode          "RI-52-0000050-00000" ;
+        dc:created             "2012-07-17"^^xsd:date ;
+        dc:identifier          "3307" ;
+        dc:title               "Jardín del Príncipe" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/3307/geometry> .
+
+<https://datos.ign.es/recurso/jardin-historico/3322/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.7181099999999994 40.4173710388037)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/jardin-historico/29103/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.585839969999998 37.172650255916324)"^^geosparql:wktLiteral .
+
+georec:11334  a                btn100:JardinHistorico ;
+        geoes:bicCode          "RI-52-0000049-00000" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "11334" ;
+        dc:title               "Jardín de las Pesqueras y los Paseos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/11334/geometry> .
+
+georec:11375  a                btn100:JardinHistorico ;
+        geoes:bicCode          "RI-52-0000025-00000" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "11375" ;
+        dc:title               "Parque de la Devesa" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/11375/geometry> .
+
+<https://datos.ign.es/recurso/jardin-historico/3429/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.691 40.41249003880038)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/jardin-historico/13532/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.0200090000000002 41.106303039238284)"^^geosparql:wktLiteral .
+
+georec:32334  a                btn100:JardinHistorico ;
+        geoes:bicCode          "RI-52-0000012-00000" ;
+        dc:created             "2012-10-26"^^xsd:date ;
+        dc:identifier          "32334" ;
+        dc:title               "Jardines de los Reales Alcázares" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/32334/geometry> .
+
+georec:22021  a                btn100:JardinHistorico ;
+        geoes:bicCode          "RI-52-0000079-00000" ;
+        dc:created             "2012-05-03"^^xsd:date ;
+        dc:identifier          "22021" ;
+        dc:title               "Coto de Nuestra Señora del Carmen" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/22021/geometry> .
+
+georec:29103  a                btn100:JardinHistorico ;
+        geoes:bicCode          "RI-52-0000024-00000" ;
+        dc:created             "2012-10-22"^^xsd:date ;
+        dc:identifier          "29103" ;
+        dc:title               "Jardín de El Carmen de los Mártires" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/29103/geometry> .
+
+georec:31688  a                btn100:JardinHistorico ;
+        geoes:bicCode          "RI-52-0000038-00000" ;
+        dc:created             "2012-09-27"^^xsd:date ;
+        dc:identifier          "31688" ;
+        dc:title               "Jardín del Palacio de las Rejas de Don Gome (Palacio de Viana)" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/31688/geometry> .
+
+georec:34880  a                btn100:JardinHistorico ;
+        geoes:bicCode          "NO PROCEDE" ;
+        dc:created             "2008-02-04"^^xsd:date ;
+        dc:identifier          "34880" ;
+        dc:title               "Parque García de Sanabria" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/34880/geometry> .
+
+georec:29210  a                btn100:JardinHistorico ;
+        geoes:bicCode          "RI-52-0000001-00000" ;
+        dc:created             "2013-05-17"^^xsd:date ;
+        dc:identifier          "29210" ;
+        dc:title               "Jardines de la Alhambra" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/29210/geometry> .
+
+georec:3475  a                 btn100:JardinHistorico ;
+        geoes:bicCode          "RI-52-0000006-00000" ;
+        dc:created             "2012-07-17"^^xsd:date ;
+        dc:identifier          "3475" ;
+        dc:title               "Jardínes del Palacio en El Pardo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/3475/geometry> .
+
+georec:1271  a                 btn100:JardinHistorico ;
+        geoes:bicCode          "RI-52-0000018-00000" ;
+        dc:created             "2012-01-07"^^xsd:date ;
+        dc:identifier          "1271" ;
+        dc:title               "Jardins de Monforte" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/1271/geometry> .
+
+<https://datos.ign.es/recurso/jardin-historico/32312/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.989 37.37475003613385)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/jardin-historico/31688/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.773451760000001 37.88882122666586)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/jardin-historico/19916/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.0043999999999995 40.894360039111646)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/jardin-historico/29094/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.151129849999999 37.17048839591396)"^^geosparql:wktLiteral .
+
+georec:3541  a                 btn100:JardinHistorico ;
+        geoes:bicCode          "RI-52-0000008-00000" ;
+        dc:created             "2012-11-29"^^xsd:date ;
+        dc:identifier          "3541" ;
+        dc:title               "Jardín de la Quinta en El Pardo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/3541/geometry> .
+
+georec:3306  a                 btn100:JardinHistorico ;
+        geoes:bicCode          "RI-52-0000051-00000" ;
+        dc:created             "2012-07-17"^^xsd:date ;
+        dc:identifier          "3306" ;
+        dc:title               "Jardín de Isabel II" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/3306/geometry> .
+
+georec:3441  a                 btn100:JardinHistorico ;
+        geoes:bicCode          "RI-52-0000027-00000" ;
+        dc:created             "2012-07-17"^^xsd:date ;
+        dc:identifier          "3441" ;
+        dc:title               "Parque Llamado Quinta del Berro Quinta del Berro o Fuente del Berro" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/3441/geometry> .
+
+<https://datos.ign.es/recurso/jardin-historico/3540/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.726233539999999 40.44738319882399)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/jardin-historico/27553/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.217257000000001 43.37551004018823)"^^geosparql:wktLiteral .
+
+georec:3539  a                 btn100:JardinHistorico ;
+        geoes:bicCode          "RI-52-0000019-00003" ;
+        dc:created             "2012-11-29"^^xsd:date ;
+        dc:identifier          "3539" ;
+        dc:title               "Estufa de Graells (Jardín Botánico)" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/3539/geometry> .
+
+georec:34872  a                btn100:JardinHistorico ;
+        geoes:bicCode          "NO PROCEDE" ;
+        dc:created             "2008-02-04"^^xsd:date ;
+        dc:identifier          "34872" ;
+        dc:title               "Parque de la Granja" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/34872/geometry> .
+
+<https://datos.ign.es/recurso/jardin-historico/29210/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.587683780000001 37.17674850592078)"^^geosparql:wktLiteral .
+
+georec:72505  a                btn100:JardinHistorico ;
+        geoes:bicCode          "36013020000" ;
+        dc:created             "2014-06-17"^^xsd:date ;
+        dc:identifier          "72505" ;
+        dc:title               "Campo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/72505/geometry> .
+
+<https://datos.ign.es/recurso/jardin-historico/3539/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.6901192899999997 40.41216480880017)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/jardin-historico/3456/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.5985999999999994 40.45611003882987)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/jardin-historico/29209/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.591689709999999 37.16898713591234)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/jardin-historico/29772/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.42605175 36.76089589545894)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/jardin-historico/3298/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.611000000000001 40.03972803853767)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/jardin-historico/12604/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.15278 41.41361003941063)"^^geosparql:wktLiteral .
+
+georec:19867  a                btn100:JardinHistorico ;
+        geoes:bicCode          "RI-52-0000052-00000" ;
+        dc:created             "2012-07-31"^^xsd:date ;
+        dc:identifier          "19867" ;
+        dc:title               "Coto o Bosque de Riofrío" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/19867/geometry> .
+
+georec:32312  a                btn100:JardinHistorico ;
+        geoes:bicCode          "RI-52-0000040-00000" ;
+        dc:created             "2012-10-26"^^xsd:date ;
+        dc:identifier          "32312" ;
+        dc:title               "Parque de María Luisa" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/32312/geometry> .
+
+georec:13532  a                btn100:JardinHistorico ;
+        geoes:bicCode          "RI-52-0000044-00000" ;
+        dc:created             "2012-02-27"^^xsd:date ;
+        dc:identifier          "13532" ;
+        dc:title               "Parque de Samá" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/13532/geometry> .
+
+georec:3540  a                 btn100:JardinHistorico ;
+        geoes:bicCode          "RI-52-0000016-00000" ;
+        dc:created             "2012-11-29"^^xsd:date ;
+        dc:identifier          "3540" ;
+        dc:title               "Jardín Denominado Estufa de la Ciudad Universitaria" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/3540/geometry> .
+
+<https://datos.ign.es/recurso/jardin-historico/72416/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.108848719999997 42.320573159840166)"^^geosparql:wktLiteral .
+
+georec:22025  a                btn100:JardinHistorico ;
+        geoes:bicCode          "RI-52-0000028-00000" ;
+        dc:created             "2012-05-03"^^xsd:date ;
+        dc:identifier          "22025" ;
+        dc:title               "Parque Llamado El Bosque" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/22025/geometry> .
+
+<https://datos.ign.es/recurso/jardin-historico/1271/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.36499533 39.477504178106)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/jardin-historico/27507/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.7688080000000004 43.469335040211206)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/jardin-historico/70026/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.492547079999998 43.02859207009199)"^^geosparql:wktLiteral .
+
+georec:27443  a                btn100:JardinHistorico ;
+        geoes:bicCode          "RI-52-0000060-00000" ;
+        dc:created             "2012-09-07"^^xsd:date ;
+        dc:identifier          "27443" ;
+        dc:title               "Jardínes de la Universidad Pontificia" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/27443/geometry> .
+
+<https://datos.ign.es/recurso/jardin-historico/32311/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.989934050000001 37.371665376130565)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/jardin-historico/3307/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.5895999999999995 40.04109603853867)"^^geosparql:wktLiteral .
+
+georec:12604  a                btn100:JardinHistorico ;
+        geoes:bicCode          "RI-51-0003818" ;
+        dc:created             "2012-09-04"^^xsd:date ;
+        dc:identifier          "12604" ;
+        dc:title               "Parque Güell[2] [3]" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/12604/geometry> .
+
+georec:71804  a                btn100:JardinHistorico ;
+        geoes:bicCode          "32035010000" ;
+        dc:created             "2014-06-17"^^xsd:date ;
+        dc:identifier          "71804" ;
+        dc:title               "Campo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/71804/geometry> .
+
+<https://datos.ign.es/recurso/jardin-historico/19167/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.974199529999998 40.26081513869578)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/jardin-historico/32334/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.98995467 37.38315753614278)"^^geosparql:wktLiteral .
+
+georec:27507  a                btn100:JardinHistorico ;
+        geoes:bicCode          "RI-52-0000037-00000" ;
+        dc:created             "2012-09-07"^^xsd:date ;
+        dc:identifier          "27507" ;
+        dc:title               "Jardines del Palacio de la Magdalena" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/27507/geometry> .
+
+<https://datos.ign.es/recurso/jardin-historico/3543/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.79998345 40.48272305884776)"^^geosparql:wktLiteral .
+
+georec:22058  a                btn100:JardinHistorico ;
+        geoes:bicCode          "RI-54-0000086-00000" ;
+        dc:created             "2012-05-03"^^xsd:date ;
+        dc:identifier          "22058" ;
+        dc:title               "Campo de Los Arapiles" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/22058/geometry> .
+
+<https://datos.ign.es/recurso/jardin-historico/34880/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-16.254574540000004 28.4723484833532)"^^geosparql:wktLiteral .
+
+georec:3279  a                 btn100:JardinHistorico ;
+        geoes:bicCode          "RI-52-0000011-00000" ;
+        dc:created             "2012-07-17"^^xsd:date ;
+        dc:identifier          "3279" ;
+        dc:title               "Jardínes del Palacio Monasterio de San Lorenzo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/3279/geometry> .
+
+georec:32311  a                btn100:JardinHistorico ;
+        geoes:bicCode          "RI-51-0000083" ;
+        dc:created             "2012-10-26"^^xsd:date ;
+        dc:identifier          "32311" ;
+        dc:title               "Parque de las Delicias" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/32311/geometry> .
+
+georec:40725  a                btn100:JardinHistorico ;
+        geoes:bicCode          "RI-54-0000023-00000" ;
+        dc:created             "2012-12-07"^^xsd:date ;
+        dc:identifier          "40725" ;
+        dc:title               "Bosque de Muniellos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/40725/geometry> .
+
+<https://datos.ign.es/recurso/jardin-historico/22025/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.745000000000001 40.38793003878365)"^^geosparql:wktLiteral .
+
+georec:70026  a                btn100:JardinHistorico ;
+        geoes:bicCode          "15086030000" ;
+        dc:created             "2014-06-17"^^xsd:date ;
+        dc:identifier          "70026" ;
+        dc:title               "Campo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/70026/geometry> .
+
+georec:19167  a                btn100:JardinHistorico ;
+        geoes:bicCode          "RI-52-0000005-00000" ;
+        dc:created             "2012-07-31"^^xsd:date ;
+        dc:identifier          "19167" ;
+        dc:title               "Jardín de la Abadía" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/19167/geometry> .
+
+georec:35028  a                btn100:JardinHistorico ;
+        geoes:bicCode          "NO PROCEDE" ;
+        dc:created             "2013-03-08"^^xsd:date ;
+        dc:identifier          "35028" ;
+        dc:title               "Parque Nacional de Garajonay" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/35028/geometry> .
+
+<https://datos.ign.es/recurso/jardin-historico/3475/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.7750000000000004 40.520570038873004)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/jardin-historico/35418/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.728035849999998 42.215440939796494)"^^geosparql:wktLiteral .
+
+georec:3544  a                 btn100:JardinHistorico ;
+        geoes:bicCode          "RI-52-0000007-00000" ;
+        dc:created             "2012-11-29"^^xsd:date ;
+        dc:identifier          "3544" ;
+        dc:title               "Los Jardínes del Príncipe en El Pardo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/3544/geometry> .
+
+<https://datos.ign.es/recurso/jardin-historico/3441/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.6609999999999996 40.4225200388072)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/jardin-historico/71324/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.772905289999999 42.6925998199817)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/jardin-historico/71804/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.10737399 42.52272737991962)"^^geosparql:wktLiteral .
+
+georec:35355  a                btn100:JardinHistorico ;
+        geoes:bicCode          "RI-54-0000019-00000" ;
+        dc:created             "2013-06-10"^^xsd:date ;
+        dc:identifier          "35355" ;
+        dc:title               "Parque-jardín y Robledal de Caldas de los Reyes" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/35355/geometry> .
+
+georec:72416  a                btn100:JardinHistorico ;
+        geoes:bicCode          "32069010000" ;
+        dc:created             "2014-06-17"^^xsd:date ;
+        dc:identifier          "72416" ;
+        dc:title               "Campo Redondo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/72416/geometry> .
+
+<https://datos.ign.es/recurso/jardin-historico/3306/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.604560000000001 40.03508403853428)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/jardin-historico/70153/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.220892629999998 42.988130070079585)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/jardin-historico/11375/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.81790247 41.98719843969612)"^^geosparql:wktLiteral .
+
+georec:3429  a                 btn100:JardinHistorico ;
+        geoes:bicCode          "RI-52-0000019-00000" ;
+        dc:created             "2012-07-17"^^xsd:date ;
+        dc:identifier          "3429" ;
+        dc:title               "Jardín Botánico" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/3429/geometry> .
+
+georec:71324  a                btn100:JardinHistorico ;
+        geoes:bicCode          "27060050000" ;
+        dc:created             "2014-06-17"^^xsd:date ;
+        dc:identifier          "71324" ;
+        dc:title               "Campo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/71324/geometry> .
+
+georec:70153  a                btn100:JardinHistorico ;
+        geoes:bicCode          "15006080000" ;
+        dc:created             "2014-06-17"^^xsd:date ;
+        dc:identifier          "70153" ;
+        dc:title               "Campo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/70153/geometry> .
+
+<https://datos.ign.es/recurso/jardin-historico/3542/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.722883289999999 40.44187093882028)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/jardin-historico/12597/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.1875170000000006 41.3881100393968)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/jardin-historico/40725/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.73416 43.00944404008613)"^^geosparql:wktLiteral .
+
+georec:32336  a                btn100:JardinHistorico ;
+        geoes:bicCode          "RI-52-0000058-00000" ;
+        dc:created             "2012-10-26"^^xsd:date ;
+        dc:identifier          "32336" ;
+        dc:title               "Jardines de murillo y Paseo de Santa Catalina de Ribera" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/32336/geometry> .
+
+<https://datos.ign.es/recurso/jardin-historico/27443/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.300376000000002 43.38599004019087)"^^geosparql:wktLiteral .
+
+georec:19916  a                btn100:JardinHistorico ;
+        geoes:bicCode          "RI-52-0000002-00000" ;
+        dc:created             "2012-07-31"^^xsd:date ;
+        dc:identifier          "19916" ;
+        dc:title               "Jardines del Palacio de San Ildefonso" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/19916/geometry> .
+
+<https://datos.ign.es/recurso/jardin-historico/35355/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.639313649999998 42.60335170994961)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/jardin-historico/29104/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.585553619999999 37.17714188592121)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/jardin-historico/72505/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.334554699999996 42.287869419826755)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/jardin-historico/22058/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.628604459999998 40.901906299116256)"^^geosparql:wktLiteral .
+
+georec:3436  a                 btn100:JardinHistorico ;
+        geoes:bicCode          "RI-52-0000015-00000" ;
+        dc:created             "2012-07-17"^^xsd:date ;
+        dc:identifier          "3436" ;
+        dc:title               "Parque del Buen Retiro" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/3436/geometry> .
+
+georec:3298  a                 btn100:JardinHistorico ;
+        geoes:bicCode          "RI-52-0000010-00000" ;
+        dc:created             "2012-07-17"^^xsd:date ;
+        dc:identifier          "3298" ;
+        dc:title               "Jardín de la Isla" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/3298/geometry> .
+
+<https://datos.ign.es/recurso/jardin-historico/35028/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-17.24746957 28.129084442785736)"^^geosparql:wktLiteral .
+
+georec:70465  a                btn100:JardinHistorico ;
+        geoes:bicCode          "15046070000" ;
+        dc:created             "2014-06-17"^^xsd:date ;
+        dc:identifier          "70465" ;
+        dc:title               "Campos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/70465/geometry> .
+
+<https://datos.ign.es/recurso/jardin-historico/70465/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.044693460000001 42.90086416005203)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/jardin-historico/22021/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.846700349999999 40.34361717875328)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/jardin-historico/11334/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.758012710000001 42.125613299757916)"^^geosparql:wktLiteral .
+
+georec:3543  a                 btn100:JardinHistorico ;
+        geoes:bicCode          "RI-52-0000009-00000" ;
+        dc:created             "2012-11-29"^^xsd:date ;
+        dc:identifier          "3543" ;
+        dc:title               "Jardínes de la Zarzuela en El Pardo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/3543/geometry> .
+
+<https://datos.ign.es/recurso/jardin-historico/34872/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-16.26748108 28.462566403337046)"^^geosparql:wktLiteral .
+
+georec:12597  a                btn100:JardinHistorico ;
+        geoes:bicCode          "RI-52-0000030-00000" ;
+        dc:created             "2012-09-04"^^xsd:date ;
+        dc:identifier          "12597" ;
+        dc:title               "Parc Jardí de la Ciutadella" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/12597/geometry> .
+
+georec:29094  a                btn100:JardinHistorico ;
+        geoes:bicCode          "RI-52-0000041-00000" ;
+        dc:created             "2012-10-22"^^xsd:date ;
+        dc:identifier          "29094" ;
+        dc:title               "Jardines de Narváez" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/29094/geometry> .
+
+georec:3456  a                 btn100:JardinHistorico ;
+        geoes:bicCode          "RI-52-0000014-00000" ;
+        dc:created             "2012-07-17"^^xsd:date ;
+        dc:identifier          "3456" ;
+        dc:title               "Parque del Capricho de la Alameda de Osuna" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/3456/geometry> .
+
+georec:29772  a                btn100:JardinHistorico ;
+        geoes:bicCode          "RI-52-0000023-00000" ;
+        dc:created             "2012-10-09"^^xsd:date ;
+        dc:identifier          "29772" ;
+        dc:title               "Jardín del Parque de la Concepción" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/29772/geometry> .
+
+georec:31192  a                btn100:JardinHistorico ;
+        geoes:bicCode          "RI-52-0000031-00000" ;
+        dc:created             "2012-12-03"^^xsd:date ;
+        dc:identifier          "31192" ;
+        dc:title               "Jardín de la Alfabia" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/31192/geometry> .
+
+georec:27553  a                btn100:JardinHistorico ;
+        geoes:bicCode          "RI-52-0000059-00000" ;
+        dc:created             "2012-09-07"^^xsd:date ;
+        dc:identifier          "27553" ;
+        dc:title               "Jardín de los Ocharan" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/27553/geometry> .
+
+<https://datos.ign.es/recurso/jardin-historico/19867/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.1546041199999975 40.87728285910116)"^^geosparql:wktLiteral .
+
+georec:29104  a                btn100:JardinHistorico ;
+        geoes:bicCode          "RI-52-0000021" ;
+        dc:created             "2012-10-22"^^xsd:date ;
+        dc:identifier          "29104" ;
+        dc:title               "Jardín del Conjunto del Generalife" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/29104/geometry> .
+
+georec:35418  a                btn100:JardinHistorico ;
+        geoes:bicCode          "RI-52-0000033-00000" ;
+        dc:created             "2013-04-16"^^xsd:date ;
+        dc:identifier          "35418" ;
+        dc:title               "Parque de Quiñones de León y Pazo de Valladares mas conocido como Castrelos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/jardin-historico/35418/geometry> .
+
