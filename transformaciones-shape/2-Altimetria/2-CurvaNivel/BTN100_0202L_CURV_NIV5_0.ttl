@@ -1,0 +1,83 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix geoes: <http://geo.linkeddata.es/ontology#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix btn100: <https://datos.ign.es/def/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georec: <https://datos.ign.es/recurso/curva-nivel-interpolada/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+georec:58875  a                btn100:CurvaNivelInterpolada ;
+        geoes:cota             "10" ;
+        dc:created             "2013-01-07"^^xsd:date ;
+        dc:identifier          "58875" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-interpolada/58875/geometry> .
+
+<https://datos.ign.es/recurso/curva-nivel-interpolada/58872/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.9868383800000005 37.58687848635713, -0.9868351399999998 37.586818306357074)"^^geosparql:wktLiteral .
+
+georec:58878  a                btn100:CurvaNivelInterpolada ;
+        geoes:cota             "10" ;
+        dc:created             "2013-01-07"^^xsd:date ;
+        dc:identifier          "58878" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-interpolada/58878/geometry> .
+
+georec:58873  a                btn100:CurvaNivelInterpolada ;
+        geoes:cota             "10" ;
+        dc:created             "2013-01-07"^^xsd:date ;
+        dc:identifier          "58873" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-interpolada/58873/geometry> .
+
+<https://datos.ign.es/recurso/curva-nivel-interpolada/58876/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.9602518499999999 37.55874358632783, -0.9604427 37.55876897632784)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/curva-nivel-interpolada/58875/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.50093555 37.42896302619141, -1.50106826 37.429061716191505)"^^geosparql:wktLiteral .
+
+georec:58876  a                btn100:CurvaNivelInterpolada ;
+        geoes:cota             "10" ;
+        dc:created             "2013-01-07"^^xsd:date ;
+        dc:identifier          "58876" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-interpolada/58876/geometry> .
+
+<https://datos.ign.es/recurso/curva-nivel-interpolada/58874/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.5600273400000004 37.408613346169844, -1.55997945 37.40865095616988)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/curva-nivel-interpolada/58873/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.9628162 37.564725866334065, -0.9627501499999996 37.56485504633417)"^^geosparql:wktLiteral .
+
+georec:58874  a                btn100:CurvaNivelInterpolada ;
+        geoes:cota             "10" ;
+        dc:created             "2013-01-07"^^xsd:date ;
+        dc:identifier          "58874" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-interpolada/58874/geometry> .
+
+<https://datos.ign.es/recurso/curva-nivel-interpolada/58878/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.04998668 37.58157874635162, -1.0499984099999997 37.581635656351665)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/curva-nivel-interpolada/58877/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.5767568500000002 37.402743296163614, -1.5767696700000005 37.40279878616368)"^^geosparql:wktLiteral .
+
+georec:58872  a                btn100:CurvaNivelInterpolada ;
+        geoes:cota             "10" ;
+        dc:created             "2013-01-07"^^xsd:date ;
+        dc:identifier          "58872" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-interpolada/58872/geometry> .
+
+georec:58877  a                btn100:CurvaNivelInterpolada ;
+        geoes:cota             "10" ;
+        dc:created             "2013-01-07"^^xsd:date ;
+        dc:identifier          "58877" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-interpolada/58877/geometry> .
+

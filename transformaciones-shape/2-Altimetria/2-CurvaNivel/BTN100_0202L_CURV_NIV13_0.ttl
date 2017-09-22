@@ -1,0 +1,23 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix geoes: <http://geo.linkeddata.es/ontology#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix btn100: <https://datos.ign.es/def/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georec: <https://datos.ign.es/recurso/curva-nivel-interpolada/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+<https://datos.ign.es/recurso/curva-nivel-interpolada/133757/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (0.5382375300000001 40.79286708904878, 0.53760735 40.79301639904886, 0.53759913 40.793721549049295, 0.5378214500000001 40.793984009049474, 0.5385041300000001 40.79386294904939, 0.53887182 40.79357238904922, 0.5388561800000001 40.79302949904887, 0.5382375300000001 40.79286708904878)"^^geosparql:wktLiteral .
+
+georec:133757  a               btn100:CurvaNivelInterpolada ;
+        geoes:cota             "100" ;
+        dc:created             "2013-01-07"^^xsd:date ;
+        dc:identifier          "133757" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-interpolada/133757/geometry> .
+

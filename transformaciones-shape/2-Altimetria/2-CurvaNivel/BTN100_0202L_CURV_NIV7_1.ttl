@@ -1,0 +1,23 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix geoes: <http://geo.linkeddata.es/ontology#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix btn100: <https://datos.ign.es/def/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georec: <https://datos.ign.es/recurso/curva-nivel-maestra/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+<https://datos.ign.es/recurso/curva-nivel-maestra/71104/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-6.324406539999999 42.60517673995029, -6.324686349999999 42.60518601995028, -6.324940579999999 42.605312309950335, -6.32503024 42.60556769995043, -6.3249441399999995 42.60584376995054, -6.324633939999999 42.60606127995062, -6.324306780000002 42.60613939995064, -6.32403236 42.606052169950615, -6.3238578500000004 42.60586924995053, -6.323899169999997 42.605598949950426, -6.32411976 42.605334869950326, -6.324406539999999 42.60517673995029)"^^geosparql:wktLiteral .
+
+georec:71104  a                btn100:CurvaNivelMaestra ;
+        geoes:cota             "1000" ;
+        dc:created             "2013-01-07"^^xsd:date ;
+        dc:identifier          "71104" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/71104/geometry> .
+

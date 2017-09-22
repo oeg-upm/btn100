@@ -1,0 +1,23 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix geoes: <http://geo.linkeddata.es/ontology#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix btn100: <https://datos.ign.es/def/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georec: <https://datos.ign.es/recurso/depresion-maestra/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+georec:85010  a                btn100:DepresionMaestra ;
+        geoes:cota             "700" ;
+        dc:created             "2013-01-07"^^xsd:date ;
+        dc:identifier          "85010" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/depresion-maestra/85010/geometry> .
+
+<https://datos.ign.es/recurso/depresion-maestra/85010/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.9116880700000005 38.390085077154296, -1.91193423 38.390150687154375, -1.9119124500000007 38.390453567154665, -1.9116182099999999 38.39052773715473, -1.9113281100000004 38.390326007154535, -1.9113875400000007 38.390195377154406, -1.9116880700000005 38.390085077154296)"^^geosparql:wktLiteral .
+

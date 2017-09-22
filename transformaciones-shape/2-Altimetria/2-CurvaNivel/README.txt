@@ -1,0 +1,1 @@
+El fichero shape está en un fichero rar porque no se pueden subir a GitHub ficheros superiores a 100MB. Por lo tanto, se ha comprimido en un fichero rar divido en cuatro partes.

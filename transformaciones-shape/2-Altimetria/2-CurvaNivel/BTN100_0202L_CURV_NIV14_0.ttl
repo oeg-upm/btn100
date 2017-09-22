@@ -1,0 +1,33 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix geoes: <http://geo.linkeddata.es/ontology#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix btn100: <https://datos.ign.es/def/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georec: <https://datos.ign.es/recurso/curva-nivel-interpolada/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+georec:149701  a               btn100:CurvaNivelInterpolada ;
+        geoes:cota             "1300" ;
+        dc:created             "2013-01-07"^^xsd:date ;
+        dc:identifier          "149701" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-interpolada/149701/geometry> .
+
+<https://datos.ign.es/recurso/curva-nivel-interpolada/149601/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.216094640000001 42.89928205005152, -5.2166555500000005 42.899445050051575, -5.216717109999999 42.89961235005163, -5.21634174 42.89987179005172, -5.215727269999999 42.89976034005168, -5.21559235 42.89943798005158, -5.216094640000001 42.89928205005152)"^^geosparql:wktLiteral .
+
+georec:149601  a               btn100:CurvaNivelInterpolada ;
+        geoes:cota             "1700" ;
+        dc:created             "2013-01-07"^^xsd:date ;
+        dc:identifier          "149601" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-interpolada/149601/geometry> .
+
+<https://datos.ign.es/recurso/curva-nivel-interpolada/149701/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.46776492 42.81211572002285, -5.4681505600000015 42.81225199002289, -5.468236039999998 42.81240928002293, -5.468045759999998 42.812607220023004, -5.46769703 42.812381130022935, -5.46776492 42.81211572002285)"^^geosparql:wktLiteral .
+
