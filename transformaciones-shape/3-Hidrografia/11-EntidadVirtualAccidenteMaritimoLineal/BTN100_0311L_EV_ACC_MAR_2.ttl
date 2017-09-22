@@ -1,0 +1,46 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix geoes: <http://geo.linkeddata.es/ontology#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix btn100: <https://datos.ign.es/def/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georec: <https://datos.ign.es/recurso/entidad-virtual-accidente-maritimo-costa/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+georec:171  a                  btn100:EntidadVirtualAccidenteMaritimoCosta ;
+        geoes:producto         "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "171" ;
+        dc:title               "Costa de Son Ganxo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/entidad-virtual-accidente-maritimo-costa/171/geometry> .
+
+georec:8  a                    btn100:EntidadVirtualAccidenteMaritimoCosta ;
+        geoes:producto         "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        dc:created             "2012-01-18"^^xsd:date ;
+        dc:identifier          "8" ;
+        dc:title               "Costa Blanca" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/entidad-virtual-accidente-maritimo-costa/8/geometry> .
+
+<https://datos.ign.es/recurso/entidad-virtual-accidente-maritimo-costa/171/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (4.27085422 39.80782229836475, 4.27654781 39.808253108365065, 4.2796144 39.80882226836549)"^^geosparql:wktLiteral .
+
+georec:239  a                  btn100:EntidadVirtualAccidenteMaritimoCosta ;
+        geoes:producto         "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        dc:created             "2013-03-07"^^xsd:date ;
+        dc:identifier          "239" ;
+        dc:title               "Costa de Franceses" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/entidad-virtual-accidente-maritimo-costa/239/geometry> .
+
+<https://datos.ign.es/recurso/entidad-virtual-accidente-maritimo-costa/8/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.09283406 38.9596261376716, -0.04211308 38.95855280767066)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/entidad-virtual-accidente-maritimo-costa/239/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-17.854864199999998 28.834636193950615, -17.832079180000004 28.8620178539957)"^^geosparql:wktLiteral .
+

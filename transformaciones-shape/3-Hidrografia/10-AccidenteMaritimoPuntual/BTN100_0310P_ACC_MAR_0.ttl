@@ -1,0 +1,156 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix geoes: <http://geo.linkeddata.es/ontology#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix btn100: <https://datos.ign.es/def/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georec: <https://datos.ign.es/recurso/penon/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+georec:2075  a                 btn100:Penon ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-02-06"^^xsd:date ;
+        dc:identifier          "2075" ;
+        dc:title               "Peñón del Forno" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/penon/2075/geometry> .
+
+georec:10  a                   btn100:Penon ;
+        geoes:producto         "MP200" ;
+        dc:created             "2012-01-13"^^xsd:date ;
+        dc:identifier          "10" ;
+        dc:title               "La Peñiscoleta" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/penon/10/geometry> .
+
+<https://datos.ign.es/recurso/penon/17/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.4073057999999999 40.356454338762106)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/penon/693/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.6945186000000008 36.727720235421266)"^^geosparql:wktLiteral .
+
+georec:693  a                  btn100:Penon ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-05-07"^^xsd:date ;
+        dc:identifier          "693" ;
+        dc:title               "Peñón del Santo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/penon/693/geometry> .
+
+georec:24  a                   btn100:Penon ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2012-01-14"^^xsd:date ;
+        dc:identifier          "24" ;
+        dc:title               "Roca de los Cañones" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/penon/24/geometry> .
+
+<https://datos.ign.es/recurso/penon/10/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.5003005 40.498983738858605)"^^geosparql:wktLiteral .
+
+georec:14  a                   btn100:Penon ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2012-01-13"^^xsd:date ;
+        dc:identifier          "14" ;
+        dc:title               "La Roca Plana" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/penon/14/geometry> .
+
+georec:385  a                  btn100:Penon ;
+        geoes:producto         "MP200" ;
+        dc:created             "2012-03-27"^^xsd:date ;
+        dc:identifier          "385" ;
+        dc:title               "Roca Grossa" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/penon/385/geometry> .
+
+<https://datos.ign.es/recurso/penon/379/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.8961169 41.24970883932036)"^^geosparql:wktLiteral .
+
+georec:23  a                   btn100:Penon ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2012-01-14"^^xsd:date ;
+        dc:identifier          "23" ;
+        dc:title               "Roca del Chivero" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/penon/23/geometry> .
+
+<https://datos.ign.es/recurso/penon/23/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.1063038 40.05671133855006)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/penon/2075/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.103863200000001 43.475570740212646)"^^geosparql:wktLiteral .
+
+georec:682  a                  btn100:Penon ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-05-07"^^xsd:date ;
+        dc:identifier          "682" ;
+        dc:title               "Peñón de San Patricio" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/penon/682/geometry> .
+
+<https://datos.ign.es/recurso/penon/1764/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.73681194 42.37647277986274)"^^geosparql:wktLiteral .
+
+georec:1764  a                 btn100:Penon ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-02-14"^^xsd:date ;
+        dc:identifier          "1764" ;
+        dc:title               "Peñón del Chirteu" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/penon/1764/geometry> .
+
+georec:691  a                  btn100:Penon ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-05-07"^^xsd:date ;
+        dc:identifier          "691" ;
+        dc:title               "Peñón de Salobreña" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/penon/691/geometry> .
+
+georec:148  a                  btn100:Penon ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2012-01-23"^^xsd:date ;
+        dc:identifier          "148" ;
+        dc:title               "Penyal d'Ifac" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/penon/148/geometry> .
+
+<https://datos.ign.es/recurso/penon/691/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.5936183000000006 36.73543503543005)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/penon/682/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.2338573 36.749591335446134)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/penon/24/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.0904996 40.055621638549276)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/penon/148/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.083969 38.63108003737816)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/penon/14/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.4529480999999999 40.44183193882025)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/penon/385/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.6397482000000005 41.604799439511055)"^^geosparql:wktLiteral .
+
+georec:379  a                  btn100:Penon ;
+        geoes:producto         "MP200" ;
+        dc:created             "2012-03-26"^^xsd:date ;
+        dc:identifier          "379" ;
+        dc:title               "Les Penyes Roges" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/penon/379/geometry> .
+
+georec:17  a                   btn100:Penon ;
+        geoes:producto         "MP200" ;
+        dc:created             "2012-01-13"^^xsd:date ;
+        dc:identifier          "17" ;
+        dc:title               "El Bufador" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/penon/17/geometry> .
+

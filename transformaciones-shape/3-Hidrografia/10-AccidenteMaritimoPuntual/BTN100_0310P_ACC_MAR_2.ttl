@@ -1,0 +1,2763 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix geoes: <http://geo.linkeddata.es/ontology#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix btn100: <https://datos.ign.es/def/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georec: <https://datos.ign.es/recurso/cala/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+<https://datos.ign.es/recurso/cala/1024/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2877652999999996 38.971327637681796)"^^geosparql:wktLiteral .
+
+georec:357  a                  btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2012-03-20"^^xsd:date ;
+        dc:identifier          "357" ;
+        dc:title               "Calla Guillota" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/357/geometry> .
+
+<https://datos.ign.es/recurso/cala/1012/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2202035 38.91563283763309)"^^geosparql:wktLiteral .
+
+georec:623  a                  btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2010-12-22"^^xsd:date ;
+        dc:identifier          "623" ;
+        dc:title               "Cala de la Cueva" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/623/geometry> .
+
+<https://datos.ign.es/recurso/cala/48/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.2438821 39.63010543822734)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/153/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.09684975 38.670784337414354)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/122/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.4137093000000002 38.35264133711889)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/629/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.7031720499999998 37.31410730606907)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/419/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.8192827000000001 40.89607153911268)"^^geosparql:wktLiteral .
+
+georec:1141  a                 btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1141" ;
+        dc:title               "Cala Molins" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1141/geometry> .
+
+georec:961  a                  btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "961" ;
+        dc:title               "Cala del Pilar" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/961/geometry> .
+
+<https://datos.ign.es/recurso/cala/320/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.3046507 42.31139193983642)"^^geosparql:wktLiteral .
+
+georec:1111  a                 btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1111" ;
+        dc:title               "Cala Tuent" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1111/geometry> .
+
+<https://datos.ign.es/recurso/cala/1288/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.9451082 39.15015783783548)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/235/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.9484138000000002 43.33203064017715)"^^geosparql:wktLiteral .
+
+georec:846  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "846" ;
+        dc:title               "Cala en Cavaller" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/846/geometry> .
+
+<https://datos.ign.es/recurso/cala/1009/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2177639999999998 38.89419583761425)"^^geosparql:wktLiteral .
+
+georec:158  a                  btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-05-16"^^xsd:date ;
+        dc:identifier          "158" ;
+        dc:title               "Cala Pinos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/158/geometry> .
+
+georec:1183  a                 btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1183" ;
+        dc:title               "Caló des Corb Marí" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1183/geometry> .
+
+<https://datos.ign.es/recurso/cala/822/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.104820300000001 40.044125738540885)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/612/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.0633840300000004 36.78187755548273)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/978/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.6170853000000003 39.02798263773092)"^^geosparql:wktLiteral .
+
+georec:424  a                  btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2012-03-27"^^xsd:date ;
+        dc:identifier          "424" ;
+        dc:title               "Cala de l'Àguila" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/424/geometry> .
+
+<https://datos.ign.es/recurso/cala/768/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.734475099999999 36.067167134646866)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/947/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.291005949999999 39.91109790844265)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/1092/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.589448 39.7194028382969)"^^geosparql:wktLiteral .
+
+georec:888  a                  btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "888" ;
+        dc:title               "Cala Macarella" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/888/geometry> .
+
+georec:1249  a                 btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1249" ;
+        dc:title               "Cala d'Egos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1249/geometry> .
+
+georec:943  a                  btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "943" ;
+        dc:title               "Cala Pregonda" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/943/geometry> .
+
+georec:1038  a                 btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1038" ;
+        dc:title               "Cala d'Albarca" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1038/geometry> .
+
+<https://datos.ign.es/recurso/cala/133/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.3158822 38.47495883723397)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/1117/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.8229077000000005 39.85835193840304)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/258/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.9511668999999996 41.73297893957544)"^^geosparql:wktLiteral .
+
+georec:913  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "913" ;
+        dc:title               "Cal Be" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/913/geometry> .
+
+<https://datos.ign.es/recurso/cala/1384/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.351751100000001 39.59666503820101)"^^geosparql:wktLiteral .
+
+georec:1008  a                 btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1008" ;
+        dc:title               "Cala d'Hort" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1008/geometry> .
+
+<https://datos.ign.es/recurso/cala/1353/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.53613341 39.49496282812005)"^^geosparql:wktLiteral .
+
+georec:617  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-06-13"^^xsd:date ;
+        dc:identifier          "617" ;
+        dc:title               "Cala del Cuervo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/617/geometry> .
+
+<https://datos.ign.es/recurso/cala/1089/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.5444290000000005 39.69906153828116)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/80/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.7360204000000001 37.909548836686675)"^^geosparql:wktLiteral .
+
+georec:1346  a                 btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1346" ;
+        dc:title               "Cala Gamba" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1346/geometry> .
+
+georec:297  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "297" ;
+        dc:title               "Cala de Baix de Cols" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/297/geometry> .
+
+<https://datos.ign.es/recurso/cala/1310/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.8958548 39.361467338011714)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/1100/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.6478005000000007 39.764482338331625)"^^geosparql:wktLiteral .
+
+georec:955  a                  btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "955" ;
+        dc:title               "Cala Canutells" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/955/geometry> .
+
+<https://datos.ign.es/recurso/cala/1256/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.146240099999999 39.327388037983674)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/958/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.8266146000000005 39.995360738505155)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/1015/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2338649 38.940988437655314)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/328/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2095722000000007 42.343820739849605)"^^geosparql:wktLiteral .
+
+georec:629  a                  btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-06-13"^^xsd:date ;
+        dc:identifier          "629" ;
+        dc:title               "Cala de Cabezo Negro" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/629/geometry> .
+
+georec:322  a                  btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "322" ;
+        dc:title               "Cala Culip" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/322/geometry> .
+
+<https://datos.ign.es/recurso/cala/984/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.5206353000000001 38.952092737665026)"^^geosparql:wktLiteral .
+
+georec:1262  a                 btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1262" ;
+        dc:title               "Cala Figuereta" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1262/geometry> .
+
+<https://datos.ign.es/recurso/cala/1213/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.3930965799999995 39.61494038821542)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/1251/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1885863999999993 39.34850233800105)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/354/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.227698199999999 42.250911639811406)"^^geosparql:wktLiteral .
+
+georec:418  a                  btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2012-03-27"^^xsd:date ;
+        dc:identifier          "418" ;
+        dc:title               "Cala Mosques" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/418/geometry> .
+
+georec:997  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "997" ;
+        dc:title               "Cala de Bocs Gros" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/997/geometry> .
+
+georec:1232  a                 btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1232" ;
+        dc:title               "Cala Pilota" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1232/geometry> .
+
+georec:79  a                   btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2011-12-30"^^xsd:date ;
+        dc:identifier          "79" ;
+        dc:title               "Cala Capitán" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/79/geometry> .
+
+georec:630  a                  btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-06-13"^^xsd:date ;
+        dc:identifier          "630" ;
+        dc:title               "Cala Panizo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/630/geometry> .
+
+georec:1117  a                 btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1117" ;
+        dc:title               "Cala Teix" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1117/geometry> .
+
+georec:153  a                  btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2012-01-23"^^xsd:date ;
+        dc:identifier          "153" ;
+        dc:title               "Cala de Cabo Blanco" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/153/geometry> .
+
+<https://datos.ign.es/recurso/cala/882/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.003805500000001 39.92531783845326)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/1111/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.7757009 39.839926038389095)"^^geosparql:wktLiteral .
+
+georec:80  a                   btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2011-12-30"^^xsd:date ;
+        dc:identifier          "80" ;
+        dc:title               "La Caleta" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/80/geometry> .
+
+<https://datos.ign.es/recurso/cala/1236/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2782414 39.45719803808962)"^^geosparql:wktLiteral .
+
+georec:1244  a                 btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1244" ;
+        dc:title               "Cala sa Nau" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1244/geometry> .
+
+<https://datos.ign.es/recurso/cala/377/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.8700379000000007 41.24280483931647)"^^geosparql:wktLiteral .
+
+georec:979  a                  btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "979" ;
+        dc:title               "Cala Boix" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/979/geometry> .
+
+georec:376  a                  btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2012-03-26"^^xsd:date ;
+        dc:identifier          "376" ;
+        dc:title               "Cala de Vallcarca" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/376/geometry> .
+
+<https://datos.ign.es/recurso/cala/1262/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.096026100000001 39.292686037954994)"^^geosparql:wktLiteral .
+
+georec:768  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-05-27"^^xsd:date ;
+        dc:identifier          "768" ;
+        dc:title               "Cala del Picacho" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/768/geometry> .
+
+<https://datos.ign.es/recurso/cala/88/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.6552815000000001 37.99104983676794)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/754/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.049122399999999 36.19931783480546)"^^geosparql:wktLiteral .
+
+georec:1190  a                 btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1190" ;
+        dc:title               "Cala Matzoc" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1190/geometry> .
+
+georec:1003  a                 btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1003" ;
+        dc:title               "Cala des Cubells" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1003/geometry> .
+
+georec:2191  a                 btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-06-17"^^xsd:date ;
+        dc:identifier          "2191" ;
+        dc:title               "Cala del Sarchal" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/2191/geometry> .
+
+georec:346  a                  btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2012-03-20"^^xsd:date ;
+        dc:identifier          "346" ;
+        dc:title               "Cala Margarita" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/346/geometry> .
+
+georec:612  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-06-13"^^xsd:date ;
+        dc:identifier          "612" ;
+        dc:title               "Cala Grande" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/612/geometry> .
+
+georec:1160  a                 btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1160" ;
+        dc:title               "Cala Pi de la Posada" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1160/geometry> .
+
+<https://datos.ign.es/recurso/cala/1375/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.388632399999999 39.533458638150854)"^^geosparql:wktLiteral .
+
+georec:980  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "980" ;
+        dc:title               "Cala Llenya" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/980/geometry> .
+
+<https://datos.ign.es/recurso/cala/360/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1590313999999995 42.38427343986585)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/150/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.0776779 38.65153423739684)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/867/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.1312295 39.868537338410704)"^^geosparql:wktLiteral .
+
+georec:1256  a                 btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1256" ;
+        dc:title               "Cala Santanyí" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1256/geometry> .
+
+georec:1130  a                 btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1130" ;
+        dc:title               "Cala de Xaloc" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1130/geometry> .
+
+georec:684  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-05-07"^^xsd:date ;
+        dc:identifier          "684" ;
+        dc:title               "Cala de Cambriles" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/684/geometry> .
+
+<https://datos.ign.es/recurso/cala/836/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.2101983999999995 40.002783538510606)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/626/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.7302492400000002 37.2848910360377)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/416/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.8338252 40.911933839122376)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/1191/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.419248600000001 39.751435538321594)"^^geosparql:wktLiteral .
+
+georec:1226  a                 btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1226" ;
+        dc:title               "Cala Magrana" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1226/geometry> .
+
+georec:1100  a                 btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1100" ;
+        dc:title               "Caleta de son Beltran" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1100/geometry> .
+
+<https://datos.ign.es/recurso/cala/1160/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1327912 39.927407038454824)"^^geosparql:wktLiteral .
+
+georec:1015  a                 btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1015" ;
+        dc:title               "Cala Tarida" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1015/geometry> .
+
+<https://datos.ign.es/recurso/cala/1301/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.9229697 39.139178537826155)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/1247/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2273523999999996 39.367463538016615)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/739/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.30590206 36.53006949519442)"^^geosparql:wktLiteral .
+
+georec:624  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-06-13"^^xsd:date ;
+        dc:identifier          "624" ;
+        dc:title               "Cala de la Invencible" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/624/geometry> .
+
+georec:1172  a                 btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1172" ;
+        dc:title               "La Solana" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1172/geometry> .
+
+georec:413  a                  btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2012-03-27"^^xsd:date ;
+        dc:identifier          "413" ;
+        dc:title               "Cala Ronyosa" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/413/geometry> .
+
+georec:328  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "328" ;
+        dc:title               "Cala Cativa" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/328/geometry> .
+
+georec:1353  a                 btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1353" ;
+        dc:title               "Cala Vinyes o de Salamó" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1353/geometry> .
+
+<https://datos.ign.es/recurso/cala/1273/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.0284186999999996 39.28891063795183)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/1242/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2614323999999995 39.41029133805161)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/906/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.8337285999999997 39.980236638494006)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/1188/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.37349541 39.769014098335084)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/1119/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.8429974999999996 39.86138103840533)"^^geosparql:wktLiteral .
+
+georec:1238  a                 btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1238" ;
+        dc:title               "S'Algar" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1238/geometry> .
+
+<https://datos.ign.es/recurso/cala/161/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.1669768 38.71005233744994)"^^geosparql:wktLiteral .
+
+georec:847  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "847" ;
+        dc:title               "Cala Rambles" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/847/geometry> .
+
+<https://datos.ign.es/recurso/cala/1355/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.5210405299999996 39.47422249810338)"^^geosparql:wktLiteral .
+
+georec:1395  a                 btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1395" ;
+        dc:title               "Cala Cas Xeremier" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1395/geometry> .
+
+georec:1208  a                 btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1208" ;
+        dc:title               "Cala Cayamel" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1208/geometry> .
+
+<https://datos.ign.es/recurso/cala/1145/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.0967368000000004 39.92830783845549)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/130/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.3640526500000001 38.44609098720698)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/847/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.255019199999999 39.963656838481754)"^^geosparql:wktLiteral .
+
+georec:902  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "902" ;
+        dc:title               "Cala Aixada" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/902/geometry> .
+
+<https://datos.ign.es/recurso/cala/1114/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.799212499999999 39.853502138399364)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/427/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.7208654999999999 40.81469433906239)"^^geosparql:wktLiteral .
+
+georec:1099  a                 btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1099" ;
+        dc:title               "Cala de Deyá" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1099/geometry> .
+
+<https://datos.ign.es/recurso/cala/82/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.7041276000000002 37.9519862367291)"^^geosparql:wktLiteral .
+
+georec:1365  a                 btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1365" ;
+        dc:title               "Cala de ses Penyes Rotges" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1365/geometry> .
+
+georec:86  a                   btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2012-01-03"^^xsd:date ;
+        dc:identifier          "86" ;
+        dc:title               "Cala Cornuda" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/86/geometry> .
+
+<https://datos.ign.es/recurso/cala/1140/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.0553858 39.92196513845076)"^^geosparql:wktLiteral .
+
+georec:974  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "974" ;
+        dc:title               "Cala de Sant Vicent" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/974/geometry> .
+
+<https://datos.ign.es/recurso/cala/1227/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.3174373 39.52152213814133)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/1017/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2275181000000002 38.94983953766306)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/2191/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.298660560000001 35.8884819544296)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/158/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.1559499 38.69228363743387)"^^geosparql:wktLiteral .
+
+georec:859  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "859" ;
+        dc:title               "Caló Roig" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/859/geometry> .
+
+<https://datos.ign.es/recurso/cala/830/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.2009145000000006 40.01383553851873)"^^geosparql:wktLiteral .
+
+georec:130  a                  btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2012-01-23"^^xsd:date ;
+        dc:identifier          "130" ;
+        dc:title               "Cala Ahumada" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/130/geometry> .
+
+<https://datos.ign.es/recurso/cala/620/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.9584140400000007 36.91500185563232)"^^geosparql:wktLiteral .
+
+georec:256  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "256" ;
+        dc:title               "Cala Llorell" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/256/geometry> .
+
+<https://datos.ign.es/recurso/cala/410/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.8800306999999999 40.958782539150796)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/115/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.5199233 38.297474737066366)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/79/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.7221841000000002 37.92079803669793)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/955/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.1685974 39.84920183839613)"^^geosparql:wktLiteral .
+
+georec:1009  a                 btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1009" ;
+        dc:title               "Cala Carbó" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1009/geometry> .
+
+<https://datos.ign.es/recurso/cala/325/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2610885000000005 42.33769573984711)"^^geosparql:wktLiteral .
+
+georec:1070  a                 btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1070" ;
+        dc:title               "Cala Xarraca" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1070/geometry> .
+
+georec:829  a                  btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "829" ;
+        dc:title               "Cala Morts" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/829/geometry> .
+
+<https://datos.ign.es/recurso/cala/1378/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.3674329000000007 39.55378993816704)"^^geosparql:wktLiteral .
+
+georec:890  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "890" ;
+        dc:title               "Cala en Truqueta" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/890/geometry> .
+
+georec:618  a                  btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2010-12-22"^^xsd:date ;
+        dc:identifier          "618" ;
+        dc:title               "Cala Hernández" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/618/geometry> .
+
+georec:1251  a                 btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1251" ;
+        dc:title               "Cala Mondragó" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1251/geometry> .
+
+<https://datos.ign.es/recurso/cala/1309/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.9063777999999996 39.35654743800767)"^^geosparql:wktLiteral .
+
+georec:986  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "986" ;
+        dc:title               "Cala Espart" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/986/geometry> .
+
+georec:298  a                  btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "298" ;
+        dc:title               "Punta del Milà" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/298/geometry> .
+
+<https://datos.ign.es/recurso/cala/297/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.188157399999999 42.09560313974475)"^^geosparql:wktLiteral .
+
+georec:1136  a                 btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1136" ;
+        dc:title               "Cala Castell" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1136/geometry> .
+
+georec:172  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-05-16"^^xsd:date ;
+        dc:identifier          "172" ;
+        dc:title               "Cala Sardinera" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/172/geometry> .
+
+georec:1402  a                 btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1402" ;
+        dc:title               "Cala Mendia" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1402/geometry> .
+
+<https://datos.ign.es/recurso/cala/617/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.00346575 36.873372965585745)"^^geosparql:wktLiteral .
+
+georec:830  a                  btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "830" ;
+        dc:title               "Cala Molins" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/830/geometry> .
+
+georec:1317  a                 btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1317" ;
+        dc:title               "Es Carril" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1317/geometry> .
+
+<https://datos.ign.es/recurso/cala/884/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.9894240999999995 39.9310183384575)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/1361/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.491818600000001 39.47169263810133)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/1097/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.6296179 39.75665923832564)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/1028/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2986640000000003 39.01028533771563)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/1238/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2744615 39.43004873806766)"^^geosparql:wktLiteral .
+
+georec:238  a                  btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2012-04-23"^^xsd:date ;
+        dc:identifier          "238" ;
+        dc:title               "Cala Azabaratza" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/238/geometry> .
+
+georec:1263  a                 btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1263" ;
+        dc:title               "Caló des Màrmols" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1263/geometry> .
+
+georec:419  a                  btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2012-03-27"^^xsd:date ;
+        dc:identifier          "419" ;
+        dc:title               "Cala Nova" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/419/geometry> .
+
+<https://datos.ign.es/recurso/cala/966/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.5385744000000003 39.108380237799935)"^^geosparql:wktLiteral .
+
+georec:1022  a                 btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1022" ;
+        dc:title               "Cala Roja" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1022/geometry> .
+
+<https://datos.ign.es/recurso/cala/1023/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2438355000000003 38.96662023767769)"^^geosparql:wktLiteral .
+
+georec:757  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-05-27"^^xsd:date ;
+        dc:identifier          "757" ;
+        dc:title               "Cala del Varadero" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/757/geometry> .
+
+georec:1203  a                 btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1203" ;
+        dc:title               "Cala d'es Carregador" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1203/geometry> .
+
+georec:154  a                  btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2012-01-23"^^xsd:date ;
+        dc:identifier          "154" ;
+        dc:title               "Cala del Baladrar" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/154/geometry> .
+
+<https://datos.ign.es/recurso/cala/961/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.986943199999999 40.053910838548006)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/362/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1622451 42.42961193988376)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/1346/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.697036800000001 39.54728633816187)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/1136/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.0319749000000003 39.930659538457235)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/121/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.4261269 38.354176337120336)"^^geosparql:wktLiteral .
+
+georec:908  a                  btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "908" ;
+        dc:title               "Cala en Brut" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/908/geometry> .
+
+<https://datos.ign.es/recurso/cala/1315/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.833789900000001 39.36098103801131)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/628/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.70630229 37.30858936606316)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/418/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.8282522 40.9085529391203)"^^geosparql:wktLiteral .
+
+georec:884  a                  btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "884" ;
+        dc:title               "Cala Trebalúger" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/884/geometry> .
+
+<https://datos.ign.es/recurso/cala/42/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.3039894000000001 40.260397538695486)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/864/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.199529899999999 39.83262403838357)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/1303/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.919156300000001 39.15499063783955)"^^geosparql:wktLiteral .
+
+georec:1034  a                 btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1034" ;
+        dc:title               "Cala d'en Sardina" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1034/geometry> .
+
+georec:854  a                  btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "854" ;
+        dc:title               "Cala des Murtar" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/854/geometry> .
+
+georec:377  a                  btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2012-03-26"^^xsd:date ;
+        dc:identifier          "377" ;
+        dc:title               "Cala Morisca" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/377/geometry> .
+
+<https://datos.ign.es/recurso/cala/1218/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.3687765999999995 39.5563758381691)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/623/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.7611777200000003 37.258184426008945)"^^geosparql:wktLiteral .
+
+georec:1191  a                 btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1191" ;
+        dc:title               "Cala Torta" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1191/geometry> .
+
+<https://datos.ign.es/recurso/cala/413/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.8612363 40.94594203914305)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/1008/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2229696000000003 38.8907341376112)"^^geosparql:wktLiteral .
+
+georec:1004  a                 btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1004" ;
+        dc:title               "Cala Llentrisca" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1004/geometry> .
+
+<https://datos.ign.es/recurso/cala/359/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2486405000000005 42.33134733984455)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/890/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.9143872000000006 39.932048738458285)"^^geosparql:wktLiteral .
+
+georec:824  a                  btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "824" ;
+        dc:title               "Cala Viola de Llevant" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/824/geometry> .
+
+georec:739  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-05-27"^^xsd:date ;
+        dc:identifier          "739" ;
+        dc:title               "La Caleta" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/739/geometry> .
+
+georec:613  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-06-13"^^xsd:date ;
+        dc:identifier          "613" ;
+        dc:title               "Cala Cortada" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/613/geometry> .
+
+georec:1161  a                 btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1161" ;
+        dc:title               "Platja Caló" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1161/geometry> .
+
+<https://datos.ign.es/recurso/cala/1244/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2524871 39.39387573803822)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/946/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.263665700000001 39.959517738478674)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/1034/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.3363432000000002 39.0538524377532)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/1369/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.4793856999999995 39.51601443813693)"^^geosparql:wktLiteral .
+
+georec:1342  a                 btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1342" ;
+        dc:title               "Cala Mosques" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1342/geometry> .
+
+<https://datos.ign.es/recurso/cala/1003/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2699182000000002 38.87835613760029)"^^geosparql:wktLiteral .
+
+georec:1257  a                 btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1257" ;
+        dc:title               "Caló d'en Ferrà" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1257/geometry> .
+
+georec:866  a                  btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "866" ;
+        dc:title               "Cales Coves" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/866/geometry> .
+
+georec:1227  a                 btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1227" ;
+        dc:title               "Cala Anguila" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1227/geometry> .
+
+<https://datos.ign.es/recurso/cala/1395/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.4615493000000006 39.651872438244396)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/887/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.954258700000001 39.93703413846198)"^^geosparql:wktLiteral .
+
+georec:1016  a                 btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1016" ;
+        dc:title               "Cala Corral" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1016/geometry> .
+
+georec:836  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "836" ;
+        dc:title               "Cala en Brut" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/836/geometry> .
+
+georec:359  a                  btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2012-03-20"^^xsd:date ;
+        dc:identifier          "359" ;
+        dc:title               "Cala Tavallera" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/359/geometry> .
+
+georec:710  a                  btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-02-03"^^xsd:date ;
+        dc:identifier          "710" ;
+        dc:title               "Cala de la Sardina" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/710/geometry> .
+
+georec:1384  a                 btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1384" ;
+        dc:title               "Cala en Basset" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1384/geometry> .
+
+georec:625  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-06-13"^^xsd:date ;
+        dc:identifier          "625" ;
+        dc:title               "Cala Concha" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/625/geometry> .
+
+georec:1173  a                 btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1173" ;
+        dc:title               "Cala d'es Clot" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1173/geometry> .
+
+georec:1088  a                 btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1088" ;
+        dc:title               "Cala de Bañarbufar" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1088/geometry> .
+
+<https://datos.ign.es/recurso/cala/1088/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.5174457 39.69299703827644)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/424/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.7507996999999998 40.84438753908087)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/1229/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.300759 39.50380703812714)"^^geosparql:wktLiteral .
+
+georec:360  a                  btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2012-03-20"^^xsd:date ;
+        dc:identifier          "360" ;
+        dc:title               "Cala Cañelas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/360/geometry> .
+
+<https://datos.ign.es/recurso/cala/1255/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1728020999999997 39.32942393798533)"^^geosparql:wktLiteral .
+
+georec:1028  a                 btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1028" ;
+        dc:title               "Cala Salada" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1028/geometry> .
+
+<https://datos.ign.es/recurso/cala/1224/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.336391999999999 39.54138163815717)"^^geosparql:wktLiteral .
+
+georec:1396  a                 btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1396" ;
+        dc:title               "Cala d'Estellencs" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1396/geometry> .
+
+<https://datos.ign.es/recurso/cala/983/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.5284765 38.95905793767109)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/952/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.2415209 39.81591123837088)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/1337/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.7353411 39.45786993809016)"^^geosparql:wktLiteral .
+
+georec:87  a                   btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2012-01-03"^^xsd:date ;
+        dc:identifier          "87" ;
+        dc:title               "Cala del Mojón" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/87/geometry> .
+
+<https://datos.ign.es/recurso/cala/322/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.3112062 42.32028323984006)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/829/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.1939924999999985 40.02543003852722)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/619/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.9796662200000001 36.90308021561901)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/409/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.9374358999999997 41.002139639176825)"^^geosparql:wktLiteral .
+
+georec:287  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "287" ;
+        dc:title               "Cala d'Aiguafreda" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/287/geometry> .
+
+georec:679  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-05-07"^^xsd:date ;
+        dc:identifier          "679" ;
+        dc:title               "Cala Chílchez" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/679/geometry> .
+
+georec:161  a                  btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-05-16"^^xsd:date ;
+        dc:identifier          "161" ;
+        dc:title               "Cala dels Testos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/161/geometry> .
+
+<https://datos.ign.es/recurso/cala/294/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.204202099999999 42.073067939734784)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/1278/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.9917504400000006 39.314982067973446)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/824/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.093029800000001 40.07432853856286)"^^geosparql:wktLiteral .
+
+georec:131  a                  btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2012-01-23"^^xsd:date ;
+        dc:identifier          "131" ;
+        dc:title               "Cala Baeza" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/131/geometry> .
+
+<https://datos.ign.es/recurso/cala/614/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.023939969999999 36.83235860553966)"^^geosparql:wktLiteral .
+
+georec:1378  a                 btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1378" ;
+        dc:title               "Cala d'Egos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1378/geometry> .
+
+georec:619  a                  btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-06-13"^^xsd:date ;
+        dc:identifier          "619" ;
+        dc:title               "Cala de San Pedro" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/619/geometry> .
+
+<https://datos.ign.es/recurso/cala/1235/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2829415 39.4668369380974)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/376/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.8613212 41.23834823931397)"^^geosparql:wktLiteral .
+
+georec:1348  a                 btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1348" ;
+        dc:title               "Cala Mayor" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1348/geometry> .
+
+georec:299  a                  btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "299" ;
+        dc:title               "Cala Montgó" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/299/geometry> .
+
+<https://datos.ign.es/recurso/cala/1402/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.3164396000000003 39.51957853813978)"^^geosparql:wktLiteral .
+
+georec:354  a                  btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2012-03-20"^^xsd:date ;
+        dc:identifier          "354" ;
+        dc:title               "Cala Montjoy" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/354/geometry> .
+
+<https://datos.ign.es/recurso/cala/87/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.6525351000000001 37.997906536774764)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/1230/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.296075900000001 39.499322838123554)"^^geosparql:wktLiteral .
+
+georec:620  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-06-13"^^xsd:date ;
+        dc:identifier          "620" ;
+        dc:title               "Cala Chumba" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/620/geometry> .
+
+<https://datos.ign.es/recurso/cala/1317/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.807716 39.366428438015774)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/710/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.2425282 36.32127003495021)"^^geosparql:wktLiteral .
+
+georec:1053  a                 btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1053" ;
+        dc:title               "Cala Codolar" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1053/geometry> .
+
+<https://datos.ign.es/recurso/cala/1289/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.9368398000000004 39.15613703784053)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/1079/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.453392 39.089035037783404)"^^geosparql:wktLiteral .
+
+georec:1234  a                 btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1234" ;
+        dc:title               "Cala Botà" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1234/geometry> .
+
+<https://datos.ign.es/recurso/cala/625/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.7379867800000002 37.28030504603277)"^^geosparql:wktLiteral .
+
+georec:1149  a                 btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1149" ;
+        dc:title               "Cala Figuera" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1149/geometry> .
+
+<https://datos.ign.es/recurso/cala/415/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.8535960000000001 40.9328336391351)"^^geosparql:wktLiteral .
+
+georec:1023  a                 btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1023" ;
+        dc:title               "Cala Bassa" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1023/geometry> .
+
+georec:1391  a                 btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1391" ;
+        dc:title               "Cala de ses Ortigues" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1391/geometry> .
+
+georec:1119  a                 btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1119" ;
+        dc:title               "Cala es Codolar" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1119/geometry> .
+
+georec:421  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-05-13"^^xsd:date ;
+        dc:identifier          "421" ;
+        dc:title               "Punta de l'Estany Podrit" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/421/geometry> .
+
+<https://datos.ign.es/recurso/cala/1284/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.9597043 39.185839137865635)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/1074/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.5817823 39.0083211377139)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/986/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.492669 38.92895623764479)"^^geosparql:wktLiteral .
+
+georec:1361  a                 btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1361" ;
+        dc:title               "Cala Rafeubetx" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1361/geometry> .
+
+georec:82  a                   btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2011-12-30"^^xsd:date ;
+        dc:identifier          "82" ;
+        dc:title               "Cala Ferris" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/82/geometry> .
+
+<https://datos.ign.es/recurso/cala/974/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.5920060599999997 39.07534637777167)"^^geosparql:wktLiteral .
+
+georec:885  a                  btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "885" ;
+        dc:title               "Cala Mitjana" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/885/geometry> .
+
+<https://datos.ign.es/recurso/cala/943/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.040622600000001 40.05903593855174)"^^geosparql:wktLiteral .
+
+georec:1246  a                 btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1246" ;
+        dc:title               "Cala Mitjana" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1246/geometry> .
+
+georec:282  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "282" ;
+        dc:title               "Cala Marquesa" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/282/geometry> .
+
+<https://datos.ign.es/recurso/cala/1187/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.3570140000000004 39.78145793834461)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/172/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.21738365 38.76092058749575)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/679/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.2013398 36.750507935447146)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/1156/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.189085499999999 39.941816438465544)"^^geosparql:wktLiteral .
+
+georec:1301  a                 btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1301" ;
+        dc:title               "Cala Col Roig" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1301/geometry> .
+
+<https://datos.ign.es/recurso/cala/846/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.260009599999998 39.97783743849223)"^^geosparql:wktLiteral .
+
+georec:614  a                  btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2010-12-22"^^xsd:date ;
+        dc:identifier          "614" ;
+        dc:title               "Cala del Carnaje" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/614/geometry> .
+
+georec:1288  a                 btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1288" ;
+        dc:title               "Cala Ganduf" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1288/geometry> .
+
+georec:137  a                  btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-05-16"^^xsd:date ;
+        dc:identifier          "137" ;
+        dc:title               "Cala de Finisterrat o Morales" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/137/geometry> .
+
+<https://datos.ign.es/recurso/cala/1380/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.3554662 39.562725638174136)"^^geosparql:wktLiteral .
+
+georec:897  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "897" ;
+        dc:title               "Cala en Bosc" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/897/geometry> .
+
+georec:294  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "294" ;
+        dc:title               "Cala Ferriol" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/294/geometry> .
+
+georec:1132  a                 btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1132" ;
+        dc:title               "Cala Solleric" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1132/geometry> .
+
+georec:952  a                  btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "952" ;
+        dc:title               "Cala Binibeca" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/952/geometry> .
+
+<https://datos.ign.es/recurso/cala/997/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.4252755000000001 38.79271573752425)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/421/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.768015 40.855190739087554)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/1226/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.3235436499999995 39.52368574814305)"^^geosparql:wktLiteral .
+
+georec:867  a                  btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "867" ;
+        dc:title               "Cala en Porter" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/867/geometry> .
+
+<https://datos.ign.es/recurso/cala/1016/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2308198999999997 38.945132137658945)"^^geosparql:wktLiteral .
+
+georec:1017  a                 btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1017" ;
+        dc:title               "Cala Codolar" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1017/geometry> .
+
+georec:837  a                  btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "837" ;
+        dc:title               "Cala Caldès" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/837/geometry> .
+
+<https://datos.ign.es/recurso/cala/954/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.227538900000001 39.82197923837551)"^^geosparql:wktLiteral .
+
+georec:626  a                  btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2010-12-22"^^xsd:date ;
+        dc:identifier          "626" ;
+        dc:title               "Cala del Embarcadero Viejo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/626/geometry> .
+
+georec:415  a                  btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2012-03-27"^^xsd:date ;
+        dc:identifier          "415" ;
+        dc:title               "Cala Llobeta" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/415/geometry> .
+
+georec:1089  a                 btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1089" ;
+        dc:title               "Cala de Son Buñola" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1089/geometry> .
+
+<https://datos.ign.es/recurso/cala/152/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.0881226 38.664664037408784)"^^geosparql:wktLiteral .
+
+georec:1355  a                 btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1355" ;
+        dc:title               "Cala Portals Vells" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1355/geometry> .
+
+<https://datos.ign.es/recurso/cala/980/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.5844928999999994 39.01486863771959)"^^geosparql:wktLiteral .
+
+georec:1410  a                 btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1410" ;
+        dc:title               "Cala Fumada" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1410/geometry> .
+
+<https://datos.ign.es/recurso/cala/1193/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.4333659000000005 39.74480633831649)"^^geosparql:wktLiteral .
+
+georec:150  a                  btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2012-01-23"^^xsd:date ;
+        dc:identifier          "150" ;
+        dc:title               "La Caleta" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/150/geometry> .
+
+georec:1114  a                 btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1114" ;
+        dc:title               "Cala de sa Calobra" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1114/geometry> .
+
+<https://datos.ign.es/recurso/cala/616/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.999671779999999 36.85282461556268)"^^geosparql:wktLiteral .
+
+georec:934  a                  btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "934" ;
+        dc:title               "Cala Calderer" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/934/geometry> .
+
+<https://datos.ign.es/recurso/cala/1249/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2300109499999996 39.35989185801041)"^^geosparql:wktLiteral .
+
+georec:427  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2012-03-27"^^xsd:date ;
+        dc:identifier          "427" ;
+        dc:title               "Cala María" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/427/geometry> .
+
+<https://datos.ign.es/recurso/cala/908/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.8080338000000005 39.999167638507934)"^^geosparql:wktLiteral .
+
+georec:1156  a                 btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1156" ;
+        dc:title               "Cala en Gossalba" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1156/geometry> .
+
+georec:88  a                   btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2012-01-03"^^xsd:date ;
+        dc:identifier          "88" ;
+        dc:title               "Cala de la Higuera" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/88/geometry> .
+
+<https://datos.ign.es/recurso/cala/137/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.16741595 38.52414328727973)"^^geosparql:wktLiteral .
+
+georec:1337  a                 btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1337" ;
+        dc:title               "Cala Vella" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1337/geometry> .
+
+<https://datos.ign.es/recurso/cala/1232/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2905854 39.48512733811216)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/934/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.0143344 40.05656623854994)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/1022/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2339145000000002 38.96920963767996)"^^geosparql:wktLiteral .
+
+georec:946  a                  btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "946" ;
+        dc:title               "Cala de Sa Torreta" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/946/geometry> .
+
+<https://datos.ign.es/recurso/cala/1357/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.5216416 39.462844638094204)"^^geosparql:wktLiteral .
+
+georec:258  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "258" ;
+        dc:title               "Cala Bona" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/258/geometry> .
+
+<https://datos.ign.es/recurso/cala/960/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.8829538999999995 40.05314663854745)"^^geosparql:wktLiteral .
+
+georec:1198  a                 btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1198" ;
+        dc:title               "Cala de s'Àguila" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1198/geometry> .
+
+<https://datos.ign.es/recurso/cala/1345/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.7124980999999995 39.53475573815188)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/1173/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1859003 39.87231973841355)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/837/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.2261923999999995 39.99770523850687)"^^geosparql:wktLiteral .
+
+georec:409  a                  btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2012-03-27"^^xsd:date ;
+        dc:identifier          "409" ;
+        dc:title               "Cala Bot" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/409/geometry> .
+
+georec:988  a                  btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "988" ;
+        dc:title               "Cala Talamanca" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/988/geometry> .
+
+georec:777  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-05-27"^^xsd:date ;
+        dc:identifier          "777" ;
+        dc:title               "Cala Arenas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/777/geometry> .
+
+georec:1223  a                 btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1223" ;
+        dc:title               "Cala Petita" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1223/geometry> .
+
+georec:1138  a                 btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1138" ;
+        dc:title               "Cala Estremer" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1138/geometry> .
+
+<https://datos.ign.es/recurso/cala/1130/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.9526246000000005 39.91756333844746)"^^geosparql:wktLiteral .
+
+georec:1012  a                 btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1012" ;
+        dc:title               "Cala Vedella" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1012/geometry> .
+
+georec:958  a                  btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "958" ;
+        dc:title               "Cala d'es Frares" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/958/geometry> .
+
+<https://datos.ign.es/recurso/cala/622/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.76528088 37.252885586003245)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/988/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.4539453000000002 38.916114337633516)"^^geosparql:wktLiteral .
+
+georec:355  a                  btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2012-03-20"^^xsd:date ;
+        dc:identifier          "355" ;
+        dc:title               "Cala Joncols" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/355/geometry> .
+
+georec:1380  a                 btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1380" ;
+        dc:title               "Cala d'en Tió" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1380/geometry> .
+
+georec:621  a                  btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-06-13"^^xsd:date ;
+        dc:identifier          "621" ;
+        dc:title               "Cala de Enmedio" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/621/geometry> .
+
+georec:410  a                  btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-05-13"^^xsd:date ;
+        dc:identifier          "410" ;
+        dc:title               "Cala de Gestell" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/410/geometry> .
+
+georec:325  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "325" ;
+        dc:title               "Cala Prona" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/325/geometry> .
+
+<https://datos.ign.es/recurso/cala/1158/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1644290000000006 39.929744938456565)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/299/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.169347000000001 42.10760113975003)"^^geosparql:wktLiteral .
+
+georec:1235  a                 btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1235" ;
+        dc:title               "Cala Antena" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1235/geometry> .
+
+georec:1024  a                 btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1024" ;
+        dc:title               "Cala de Bou" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1024/geometry> .
+
+georec:1205  a                 btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1205" ;
+        dc:title               "Sa Cala de sa Font" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1205/geometry> .
+
+georec:1181  a                 btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1181" ;
+        dc:title               "Cala Serralot" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1181/geometry> .
+
+<https://datos.ign.es/recurso/cala/256/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.9022347 41.70985723956399)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/1099/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.6378923000000003 39.76375813833104)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/1141/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.0583803000000005 39.9205491384497)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/282/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2177865999999997 41.92792263966882)"^^geosparql:wktLiteral .
+
+georec:1247  a                 btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1247" ;
+        dc:title               "Cala Llonga" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1247/geometry> .
+
+<https://datos.ign.es/recurso/cala/1223/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.3568393 39.54829473816269)"^^geosparql:wktLiteral .
+
+georec:1193  a                 btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1193" ;
+        dc:title               "Cala Mesquida" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1193/geometry> .
+
+<https://datos.ign.es/recurso/cala/154/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.111148 38.67494503741813)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/1348/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.6038022 39.5509714381648)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/1138/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.0399090999999996 39.92976503845658)"^^geosparql:wktLiteral .
+
+georec:615  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-06-13"^^xsd:date ;
+        dc:identifier          "615" ;
+        dc:title               "Cala de la Polacra" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/615/geometry> .
+
+georec:1289  a                 btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1289" ;
+        dc:title               "Cala Santa María" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1289/geometry> .
+
+georec:983  a                  btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "983" ;
+        dc:title               "Cala Blanca" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/983/geometry> .
+
+<https://datos.ign.es/recurso/cala/897/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.8375461 39.926484438454125)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/321/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.317437500000001 42.31675223983863)"^^geosparql:wktLiteral .
+
+georec:1259  a                 btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1259" ;
+        dc:title               "Cala de sa Comuna" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1259/geometry> .
+
+<https://datos.ign.es/recurso/cala/866/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.144826600000001 39.86354783840697)"^^geosparql:wktLiteral .
+
+georec:953  a                  btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "953" ;
+        dc:title               "Cala de Binacolla" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/953/geometry> .
+
+georec:1229  a                 btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1229" ;
+        dc:title               "Cala Falcó" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1229/geometry> .
+
+<https://datos.ign.es/recurso/cala/1190/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.4049327000000003 39.76245153833006)"^^geosparql:wktLiteral .
+
+georec:627  a                  btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2010-12-22"^^xsd:date ;
+        dc:identifier          "627" ;
+        dc:title               "Cala Mal Paso" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/627/geometry> .
+
+georec:320  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "320" ;
+        dc:title               "Cala Bona" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/320/geometry> .
+
+<https://datos.ign.es/recurso/cala/613/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.0626331200000005 36.79109339549312)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/979/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.6073138999999999 39.02966843773237)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/1208/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.4415700999999994 39.656973238248376)"^^geosparql:wktLiteral .
+
+georec:235  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-06-03"^^xsd:date ;
+        dc:identifier          "235" ;
+        dc:title               "Cala Illurgita" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/235/geometry> .
+
+<https://datos.ign.es/recurso/cala/1246/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2476682 39.38743453803296)"^^geosparql:wktLiteral .
+
+georec:416  a                  btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2012-03-27"^^xsd:date ;
+        dc:identifier          "416" ;
+        dc:title               "Cala de Sant Jordi" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/416/geometry> .
+
+georec:1230  a                 btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1230" ;
+        dc:title               "Cala Barques" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1230/geometry> .
+
+<https://datos.ign.es/recurso/cala/1234/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2872281999999986 39.47462053810369)"^^geosparql:wktLiteral .
+
+georec:1145  a                 btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1145" ;
+        dc:title               "Cala Bóquer" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1145/geometry> .
+
+<https://datos.ign.es/recurso/cala/1203/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.4547357000000005 39.689781838273966)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/905/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.835425300000001 39.967619938484674)"^^geosparql:wktLiteral .
+
+georec:362  a                  btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2012-03-20"^^xsd:date ;
+        dc:identifier          "362" ;
+        dc:title               "Cala de las Ratas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/362/geometry> .
+
+<https://datos.ign.es/recurso/cala/1149/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1814914999999986 39.95161323847282)"^^geosparql:wktLiteral .
+
+georec:754  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-05-27"^^xsd:date ;
+        dc:identifier          "754" ;
+        dc:title               "Caletón de Zahora o Cala Meléndez" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/754/geometry> .
+
+<https://datos.ign.es/recurso/cala/134/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.2814556999999999 38.48979613724781)"^^geosparql:wktLiteral .
+
+georec:151  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2012-01-23"^^xsd:date ;
+        dc:identifier          "151" ;
+        dc:title               "Cala de les Bassetes" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/151/geometry> .
+
+<https://datos.ign.es/recurso/cala/86/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.6566723000000001 37.98491403676187)"^^geosparql:wktLiteral .
+
+georec:121  a                  btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2012-01-23"^^xsd:date ;
+        dc:identifier          "121" ;
+        dc:title               "Cala Judíos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/121/geometry> .
+
+georec:1187  a                 btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1187" ;
+        dc:title               "Cala Fosca" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1187/geometry> .
+
+georec:905  a                  btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "905" ;
+        dc:title               "Cala Blanca" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/905/geometry> .
+
+georec:1242  a                 btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1242" ;
+        dc:title               "Cala Marçal" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1242/geometry> .
+
+<https://datos.ign.es/recurso/cala/1342/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.7361795 39.48826403811467)"^^geosparql:wktLiteral .
+
+georec:1157  a                 btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1157" ;
+        dc:title               "Cala Murta" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1157/geometry> .
+
+<https://datos.ign.es/recurso/cala/1132/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.97053707 39.90920093844124)"^^geosparql:wktLiteral .
+
+georec:851  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "851" ;
+        dc:title               "Caleta de Binillautí" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/851/geometry> .
+
+<https://datos.ign.es/recurso/cala/624/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.7593760799999998 37.26227897601338)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/1257/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.137646 39.3170091379751)"^^geosparql:wktLiteral .
+
+georec:947  a                  btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "947" ;
+        dc:title               "Cala Mesquida" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/947/geometry> .
+
+georec:1284  a                 btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1284" ;
+        dc:title               "Escala" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1284/geometry> .
+
+georec:133  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-05-16"^^xsd:date ;
+        dc:identifier          "133" ;
+        dc:title               "Cala Lanussa" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/133/geometry> .
+
+<https://datos.ign.es/recurso/cala/1004/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2534124000000002 38.8627654375865)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/355/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2539021000000012 42.25272083981217)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/1198/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.4531952 39.72163803829863)"^^geosparql:wktLiteral .
+
+georec:1254  a                 btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1254" ;
+        dc:title               "Caló de ses Faves" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1254/geometry> .
+
+<https://datos.ign.es/recurso/cala/1396/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.4719072 39.658578438249634)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/888/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.93638391 39.938085738462775)"^^geosparql:wktLiteral .
+
+georec:1224  a                 btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1224" ;
+        dc:title               "Cala Manacor" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1224/geometry> .
+
+<https://datos.ign.es/recurso/cala/1365/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.4767551000000005 39.49292673811841)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/857/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.2994650000000005 39.84048633838953)"^^geosparql:wktLiteral .
+
+georec:1109  a                 btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1109" ;
+        dc:title               "Cala Roja" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1109/geometry> .
+
+georec:622  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-06-13"^^xsd:date ;
+        dc:identifier          "622" ;
+        dc:title               "Cala de la Esperanza" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/622/geometry> .
+
+<https://datos.ign.es/recurso/cala/1391/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.4213555 39.62991973822719)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/1181/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2022096999999996 39.748197738319114)"^^geosparql:wktLiteral .
+
+georec:115  a                  btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2012-01-23"^^xsd:date ;
+        dc:identifier          "115" ;
+        dc:title               "Cala de Calabarda" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/115/geometry> .
+
+georec:1140  a                 btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1140" ;
+        dc:title               "Cala Barques" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1140/geometry> .
+
+georec:960  a                  btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "960" ;
+        dc:title               "Cala Morell" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/960/geometry> .
+
+<https://datos.ign.es/recurso/cala/840/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.2557745 39.99342433850373)"^^geosparql:wktLiteral .
+
+georec:1236  a                 btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1236" ;
+        dc:title               "Cala Domingos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1236/geometry> .
+
+<https://datos.ign.es/recurso/cala/630/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.6998986999999999 37.31938924607473)"^^geosparql:wktLiteral .
+
+georec:42  a                   btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2012-01-14"^^xsd:date ;
+        dc:identifier          "42" ;
+        dc:title               "Cala Mundina" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/42/geometry> .
+
+<https://datos.ign.es/recurso/cala/1263/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.0921827999999993 39.28889553795184)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/1053/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.5755617000000002 38.658071437402775)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/755/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.039592099999998 36.190945134795456)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/1109/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.7440179000000007 39.83285053838375)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/953/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.260932799999999 39.811773938367736)"^^geosparql:wktLiteral .
+
+georec:1097  a                 btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1097" ;
+        dc:title               "Cala de sa Costa Brava" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1097/geometry> .
+
+georec:1278  a                 btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1278" ;
+        dc:title               "Cala Galiota" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1278/geometry> .
+
+<https://datos.ign.es/recurso/cala/151/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.0864808 38.66122093740564)"^^geosparql:wktLiteral .
+
+georec:887  a                  btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "887" ;
+        dc:title               "Cala Galdana" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/887/geometry> .
+
+<https://datos.ign.es/recurso/cala/238/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.8838815999999996 43.349363440181605)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/627/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.71660555 37.29857957605241)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/1161/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.110039 39.91137543844284)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/684/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.3450055 36.7346792354292)"^^geosparql:wktLiteral .
+
+georec:857  a                  btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "857" ;
+        dc:title               "Cala Rafalet" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/857/geometry> .
+
+georec:1303  a                 btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1303" ;
+        dc:title               "Cala Galiota" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1303/geometry> .
+
+<https://datos.ign.es/recurso/cala/615/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.0010895400000006 36.84558002555453)"^^geosparql:wktLiteral .
+
+georec:1218  a                 btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1218" ;
+        dc:title               "Cala Morlanda" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1218/geometry> .
+
+<https://datos.ign.es/recurso/cala/1038/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.3684758000000001 39.0631269377612)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/851/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.2749428 39.93254663845865)"^^geosparql:wktLiteral .
+
+georec:1375  a                 btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1375" ;
+        dc:title               "Cala Llamp" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1375/geometry> .
+
+georec:616  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-06-13"^^xsd:date ;
+        dc:identifier          "616" ;
+        dc:title               "Cala del Bergantín" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/616/geometry> .
+
+georec:1079  a                 btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1079" ;
+        dc:title               "Cala Benirras" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1079/geometry> .
+
+georec:984  a                  btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "984" ;
+        dc:title               "Cala Llonga" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/984/geometry> .
+
+<https://datos.ign.es/recurso/cala/1205/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.4544262999999997 39.68349413826904)"^^geosparql:wktLiteral .
+
+georec:1345  a                 btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1345" ;
+        dc:title               "Cala Estancia" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1345/geometry> .
+
+<https://datos.ign.es/recurso/cala/346/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1451759999999997 41.85082513963255)"^^geosparql:wktLiteral .
+
+georec:954  a                  btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "954" ;
+        dc:title               "Cala d'en Fust" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/954/geometry> .
+
+georec:1049  a                 btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1049" ;
+        dc:title               "Sa Cala" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1049/geometry> .
+
+georec:1315  a                 btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1315" ;
+        dc:title               "Cala Pi" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1315/geometry> .
+
+<https://datos.ign.es/recurso/cala/1410/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.4585675999999994 39.74170013831411)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/902/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.8266189999999987 39.94715903846951)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/1146/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1194454000000005 39.931349938457764)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/131/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.3186894 38.4722045172314)"^^geosparql:wktLiteral .
+
+georec:321  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "321" ;
+        dc:title               "Cala Fredosa" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/321/geometry> .
+
+<https://datos.ign.es/recurso/cala/287/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2270237999999987 41.96437073968568)"^^geosparql:wktLiteral .
+
+georec:628  a                  btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2010-12-22"^^xsd:date ;
+        dc:identifier          "628" ;
+        dc:title               "Cala El Calón" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/628/geometry> .
+
+<https://datos.ign.es/recurso/cala/1172/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1883232 39.881704038420594)"^^geosparql:wktLiteral .
+
+georec:1357  a                 btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1357" ;
+        dc:title               "Cala Figuera" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1357/geometry> .
+
+<https://datos.ign.es/recurso/cala/1259/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.124500400000001 39.31559133797394)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/1049/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.5518277999999999 38.68498483742723)"^^geosparql:wktLiteral .
+
+georec:1146  a                 btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1146" ;
+        dc:title               "Cala Nao" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1146/geometry> .
+
+georec:966  a                  btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "966" ;
+        dc:title               "Cala d'en Serra" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/966/geometry> .
+
+georec:840  a                  btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "840" ;
+        dc:title               "Cala Presili" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/840/geometry> .
+
+georec:755  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-05-27"^^xsd:date ;
+        dc:identifier          "755" ;
+        dc:title               "Cala Isabel" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/755/geometry> .
+
+georec:48  a                   btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2012-01-18"^^xsd:date ;
+        dc:identifier          "48" ;
+        dc:title               "Cala Bernat" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/48/geometry> .
+
+georec:152  a                  btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2012-01-23"^^xsd:date ;
+        dc:identifier          "152" ;
+        dc:title               "Cala de la Fustera" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/152/geometry> .
+
+<https://datos.ign.es/recurso/cala/621/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.9466711399999999 36.9321963956515)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/777/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.4484714 36.060003634638235)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/1254/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1782571999999996 39.330190637985986)"^^geosparql:wktLiteral .
+
+georec:1092  a                 btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1092" ;
+        dc:title               "Cala de Valdemossa" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1092/geometry> .
+
+<https://datos.ign.es/recurso/cala/357/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2892384999999997 42.30679583983456)"^^geosparql:wktLiteral .
+
+georec:1273  a                 btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1273" ;
+        dc:title               "Cala en Tugores" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1273/geometry> .
+
+georec:122  a                  btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2012-01-23"^^xsd:date ;
+        dc:identifier          "122" ;
+        dc:title               "Cala Palmera" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/122/geometry> .
+
+georec:1188  a                 btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1188" ;
+        dc:title               "Cala Peña Rotja" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1188/geometry> .
+
+georec:906  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "906" ;
+        dc:title               "Cala Santandria" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/906/geometry> .
+
+<https://datos.ign.es/recurso/cala/1070/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.4987585000000005 39.100062337792814)"^^geosparql:wktLiteral .
+
+georec:882  a                  btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "882" ;
+        dc:title               "Cala Escorxada" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/882/geometry> .
+
+georec:1369  a                 btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1369" ;
+        dc:title               "Cala de Santa Ponça" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1369/geometry> .
+
+<https://datos.ign.es/recurso/cala/913/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.8192060999999993 40.0400377385379)"^^geosparql:wktLiteral .
+
+georec:1158  a                 btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1158" ;
+        dc:title               "Cala en Feliu" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1158/geometry> .
+
+<https://datos.ign.es/recurso/cala/1157/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1815330999999993 39.940828438464806)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/859/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.2948930999999995 39.82730233837953)"^^geosparql:wktLiteral .
+
+georec:978  a                  btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "978" ;
+        dc:title               "Cala Negra" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/978/geometry> .
+
+<https://datos.ign.es/recurso/cala/298/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1820628000000006 42.10498793974889)"^^geosparql:wktLiteral .
+
+georec:1213  a                 btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1213" ;
+        dc:title               "Cala Bona" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1213/geometry> .
+
+<https://datos.ign.es/recurso/cala/618/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.99166114 36.891907275606506)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/1183/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2944995 39.7478194383188)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/cala/885/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.971654799999999 39.934015638459734)"^^geosparql:wktLiteral .
+
+georec:822  a                  btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "822" ;
+        dc:title               "Cala Tirant" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/822/geometry> .
+
+georec:1309  a                 btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1309" ;
+        dc:title               "Cala Entimo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1309/geometry> .
+
+<https://datos.ign.es/recurso/cala/854/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.293458299999999 39.90339463843687)"^^geosparql:wktLiteral .
+
+georec:134  a                  btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-05-16"^^xsd:date ;
+        dc:identifier          "134" ;
+        dc:title               "Cala del Xarco" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/134/geometry> .
+
+georec:1074  a                 btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1074" ;
+        dc:title               "Cala Nova" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1074/geometry> .
+
+georec:1255  a                 btn100:Cala ;
+        geoes:producto         "SERIES C" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1255" ;
+        dc:title               "Cala Figuera" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1255/geometry> .
+
+georec:864  a                  btn100:Cala ;
+        geoes:producto         "MP200 y SERIE C" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "864" ;
+        dc:title               "Cala de Binidalí" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/864/geometry> .
+
+<https://datos.ign.es/recurso/cala/757/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.023219799999998 36.186133234789715)"^^geosparql:wktLiteral .
+
+georec:1310  a                 btn100:Cala ;
+        geoes:producto         "MP200" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1310" ;
+        dc:title               "Cala en Paiàs" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/cala/1310/geometry> .
+
