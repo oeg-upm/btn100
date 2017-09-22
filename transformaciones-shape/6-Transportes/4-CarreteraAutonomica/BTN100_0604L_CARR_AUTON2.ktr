@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transformation>
+  <info>
+    <name>BTN100_0604L_CARR_AUTON2</name>
+    <description/>
+    <extended_description/>
+    <trans_version/>
+    <directory>&#47;</directory>
+    <parameters>
+    </parameters>
+    <log>
+      <read/>
+      <write/>
+      <input/>
+      <output/>
+      <update/>
+      <rejected/>
+      <connection/>
+      <table/>
+      <step_performance_table/>
+      <use_batchid>Y</use_batchid>
+      <use_logfield>N</use_logfield>
+      <size_limit_lines/>
+    </log>
+    <maxdate>
+      <connection/>
+      <table/>
+      <field/>
+      <offset>0.0</offset>
+      <maxdiff>0.0</maxdiff>
+    </maxdate>
+    <size_rowset>10000</size_rowset>
+    <sleep_time_empty>50</sleep_time_empty>
+    <sleep_time_full>50</sleep_time_full>
+    <unique_connections>N</unique_connections>
+    <feedback_shown>Y</feedback_shown>
+    <feedback_size>50000</feedback_size>
+    <using_thread_priorities>Y</using_thread_priorities>
+    <shared_objects_file/>
+    <capture_step_performance>N</capture_step_performance>
+    <step_performance_capturing_delay>1000</step_performance_capturing_delay>
+    <dependencies>
+    </dependencies>
+    <partitionschemas>
+    </partitionschemas>
+    <slaveservers>
+    </slaveservers>
+    <clusterschemas>
+    </clusterschemas>
+  <modified_user>-</modified_user>
+  <modified_date>2015&#47;10&#47;30 14:25:02.541</modified_date>
+  </info>
+  <notepads>
+  </notepads>
+  <order>
+  <hop> <from>Valor Java Script Modificado</from><to>Selecciona&#47;Renombra valores</to><enabled>Y</enabled> </hop>  <hop> <from>Selecciona&#47;Renombra valores</from><to>SRS Transformation</to><enabled>Y</enabled> </hop>  <hop> <from>SRS Transformation</from><to>Carretera atuonómica</to><enabled>Y</enabled> </hop>  <hop> <from>Carretera atuonómica</from><to>Text file output</to><enabled>Y</enabled> </hop>  <hop> <from>Filtrar filas</from><to>Valor Java Script Modificado</to><enabled>Y</enabled> </hop>  <hop> <from>Shapefile File Input</from><to>Filtrar filas</to><enabled>Y</enabled> </hop>  <hop> <from>Filtrar filas</from><to>Dummy Plugin</to><enabled>Y</enabled> </hop>  </order>
+  <step>
+    <name>Carretera atuonómica</name>
+    <type>tripleGEO</type>
+    <description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+		<attributename>ID</attributename>
+		<feature>CarreteraAutonomica</feature>
+		<ontologyns>https://datos.ign.es/def/</ontologyns>
+		<ontologynsprefix>btn100</ontologynsprefix>
+		<resourcens>https://datos.ign.es/recurso/carretera-autonomica/</resourcens>
+		<resourcensprefix>georec</resourcensprefix>
+		<language>null</language>
+		<pathcsv>null</pathcsv>
+		<uuidsactive>false</uuidsactive>
+		<fields>
+		</fields>
+		<columns>
+		<columns>
+		<column>the_geom</column>
+		<prefix>n&#47;a</prefix>
+		<uri/>
+		<show>YES</show>
+		<column_shp>the_geom</column_shp>
+		</columns>
+		<columns>
+		<column>identifier</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>ID</column_shp>
+		</columns>
+		<columns>
+		<column>ID_BD</column>
+		<prefix/>
+		<uri/>
+		<show>NO</show>
+		<column_shp>ID_BD</column_shp>
+		</columns>
+		<columns>
+		<column>ID_CODIGO</column>
+		<prefix/>
+		<uri/>
+		<show>NO</show>
+		<column_shp>ID_CODIGO</column_shp>
+		</columns>
+		<columns>
+		<column>replaces</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>ID_MOD</column_shp>
+		</columns>
+		<columns>
+		<column>created</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>FECHA_ALTA</column_shp>
+		</columns>
+		<columns>
+		<column>estado</column>
+		<prefix>geoes</prefix>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<show>YES</show>
+		<column_shp>ESTADO</column_shp>
+		</columns>
+		<columns>
+		<column>tipoDeCalzada</column>
+		<prefix>geoes</prefix>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<show>YES</show>
+		<column_shp>CALZADA</column_shp>
+		</columns>
+		<columns>
+		<column>ordenDeImportancia</column>
+		<prefix>geoes</prefix>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<show>YES</show>
+		<column_shp>CATEG_0604</column_shp>
+		</columns>
+		<columns>
+		<column>competencia</column>
+		<prefix>geoes</prefix>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<show>YES</show>
+		<column_shp>COMPE</column_shp>
+		</columns>
+		<columns>
+		<column>tipoDeTramo</column>
+		<prefix>geoes</prefix>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<show>YES</show>
+		<column_shp>INTERNA</column_shp>
+		</columns>
+		<columns>
+		<column>itinerarioEuropeo</column>
+		<prefix>geoes</prefix>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<show>YES</show>
+		<column_shp>ITIN_EUR</column_shp>
+		</columns>
+		<columns>
+		<column>situacion</column>
+		<prefix>geoes</prefix>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<show>YES</show>
+		<column_shp>SITUACION</column_shp>
+		</columns>
+		<columns>
+		<column>rutaTEN-T</column>
+		<prefix>geoes</prefix>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<show>YES</show>
+		<column_shp>TEN_T</column_shp>
+		</columns>
+		<columns>
+		<column>title</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>ETIQUETA</column_shp>
+		</columns>
+		<columns>
+		<column>type</column>
+		<prefix>rdf</prefix>
+		<uri>http:&#47;&#47;www.w3.org&#47;1999&#47;02&#47;22-rdf-syntax-ns#</uri>
+		<show>NO</show>
+		<column_shp>type</column_shp>
+		</columns>
+		</columns>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>522</xloc>
+      <yloc>419</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Dummy Plugin</name>
+    <type>DummyPlugin</type>
+    <description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <values>
+<value><name>valuename</name><type>Number</type><text>123.456</text><length>12</length><precision>4</precision><isnull>N</isnull><mask>#.#;-#.#</mask></value>      </values>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>319</xloc>
+      <yloc>177</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Filtrar filas</name>
+    <type>FilterRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+<send_true_to>Valor Java Script Modificado</send_true_to>
+<send_false_to>Dummy Plugin</send_false_to>
+    <compare>
+<condition>
+ <negated>N</negated>
+ <conditions>
+  <condition>
+   <negated>N</negated>
+   <leftvalue>ID</leftvalue>
+   <function>&gt;</function>
+   <rightvalue/>
+   <value><name>constant</name><type>Integer</type><text>10000</text><length>-1</length><precision>0</precision><isnull>N</isnull><mask>#;-#</mask></value>   </condition>
+  <condition>
+   <negated>N</negated>
+   <operator>AND</operator>
+   <leftvalue>ID</leftvalue>
+   <function>&lt;=</function>
+   <rightvalue/>
+   <value><name>constant</name><type>Integer</type><text>20000</text><length>-1</length><precision>0</precision><isnull>N</isnull><mask>#;-#</mask></value>   </condition>
+  </conditions>
+ </condition>
+    </compare>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>165</xloc>
+      <yloc>177</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>SRS Transformation</name>
+    <type>SRSTransformation</type>
+    <description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+<field_name>the_geom</field_name>
+<source_gui_status>1</source_gui_status>
+<target_gui_status>1</target_gui_status>
+    <source_srs>
+<authority>EPSG</authority>
+<srid>4258</srid>
+<description>ETRS89</description>
+<is_custom>N</is_custom>
+    </source_srs>
+    <target_srs>
+<authority>EPSG</authority>
+<srid>4326</srid>
+<description>WGS 84</description>
+<is_custom>N</is_custom>
+    </target_srs>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>348</xloc>
+      <yloc>419</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Selecciona&#47;Renombra valores</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <fields>        <select_unspecified>N</select_unspecified>
+      <meta>        <name>FECHA_ALTA</name>
+        <rename>FECHA_ALTA</rename>
+        <type>Date</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask>yyyy-MM-dd</conversion_mask>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>    </fields>     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>164</xloc>
+      <yloc>419</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Shapefile File Input</name>
+    <type>GISFileInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <filename>${Internal.Transformation.Filename.Directory}/BTN100_0604L_CARR_AUTON.shp</filename>
+    <isfilenameinfield>N</isfilenameinfield>
+    <filenamefield/>
+    <limit>0</limit>
+    <add_rownr>N</add_rownr>
+    <field_rownr/>
+    <gis_file_charset>ISO-8859-1</gis_file_charset>
+    <passing_through_fields>N</passing_through_fields>
+    <accept_stepname/>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>165</xloc>
+      <yloc>68</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Text file output</name>
+    <type>TextFileOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <separator>;</separator>
+    <enclosure>&quot;</enclosure>
+    <enclosure_forced>N</enclosure_forced>
+    <header>N</header>
+    <footer>N</footer>
+    <format>DOS</format>
+    <compression>None</compression>
+    <encoding>UTF-8</encoding>
+    <endedLine/>
+    <fileNameInField>N</fileNameInField>
+    <fileNameField/>
+    <file>
+      <name>${Internal.Transformation.Filename.Directory}/BTN100_0604L_CARR_AUTON2</name>
+      <is_command>N</is_command>
+      <do_not_open_new_file_init>N</do_not_open_new_file_init>
+      <extention>ttl</extention>
+      <append>N</append>
+      <split>N</split>
+      <haspartno>N</haspartno>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <SpecifyFormat>N</SpecifyFormat>
+      <date_time_format/>
+      <add_to_result_filenames>Y</add_to_result_filenames>
+      <pad>N</pad>
+      <fast_dump>N</fast_dump>
+      <splitevery>0</splitevery>
+    </file>
+    <fields>
+      <field>
+        <name>rdf_output</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+    </fields>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>720</xloc>
+      <yloc>420</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Valor Java Script Modificado</name>
+    <type>ScriptValueMod</type>
+    <description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <compatible>N</compatible>
+    <jsScripts>      <jsScript>        <jsScript_type>0</jsScript_type>
+        <jsScript_name>Script 1</jsScript_name>
+        <jsScript_script>
+
+var aux = FECHA_ALTA.match(&#47;^(\d{4})(\d{2})(\d{2})&#47;);
+
+if(!aux || aux.length &lt; 4){
+	FECHA_ALTA = &quot;&quot;;
+}
+else{
+    FECHA_ALTA = new Date(aux[1], aux[2]-1, aux[3]);
+    FECHA_ALTA = date2str(FECHA_ALTA, &quot;yyyy-MM-dd&quot;);
+}
+
+
+var type =&quot;&lt;http:&#47;&#47;geo.linkeddata.es&#47;ontology&#47;Carretera&gt;&quot;;
+
+&#47;&#47;ESTADO
+if(ESTADO == &quot;01&quot;){
+	ESTADO = &apos;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;estado-de-uso&#47;en-uso&gt;&apos;;
+}
+else if(ESTADO == &quot;02&quot;){
+	ESTADO = &apos;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;estado-de-uso&#47;en-construccion&gt;&apos;;
+}
+else{
+	ESTADO = &apos;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;estado-de-uso&#47;abandonado&gt;&apos;;
+}
+
+&#47;&#47;CALZADA
+if(CALZADA == &quot;01&quot;){
+	CALZADA = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;calzada&#47;convencional&gt;&quot;;
+}
+else if(CALZADA == &quot;02&quot;){
+	CALZADA = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;calzada&#47;doble&gt;&quot;;
+}
+else{
+	CALZADA = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;calzada&#47;sentido-unico&gt;&quot;;
+}
+
+&#47;&#47;CATEG_0604
+if(CATEG_0604 == &quot;01&quot;){
+	CATEG_0604 = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;categoria-importancia&#47;primer-orden&gt;&quot;;
+}
+else if(CATEG_0604 == &quot;02&quot;){
+	CATEG_0604 = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;categoria-importancia&#47;segundo-orden&gt;&quot;;
+}
+else if(CATEG_0604 == &quot;03&quot;){
+	CATEG_0604 = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;categoria-importancia&#47;tercer-orden&gt;&quot;;
+}
+else{
+	CATEG_0604 = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;categoria-importancia&#47;no-definido&gt;&quot;;
+}
+
+&#47;&#47;COMPE
+if(COMPE == &quot;01&quot;){
+	COMPE = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;competencia&#47;estatal&gt;&quot;;
+}
+else if(COMPE == &quot;02&quot;){
+	COMPE = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;competencia&#47;autonomica&gt;&quot;;
+}
+else if(COMPE == &quot;03&quot;){
+	COMPE = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;competencia&#47;provincial&gt;&quot;;
+}
+else{
+	COMPE = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;competencia&#47;local&gt;&quot;;
+}
+
+
+&#47;&#47; INTERNA
+
+if(INTERNA == &quot;01&quot;){
+	INTERNA = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;tipo-de-tramo&#47;no-interno&gt;&quot;;
+}
+else {
+	INTERNA = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;tipo-de-tramo&#47;interno&gt;&quot;;
+}
+
+&#47;&#47;ITINERARIO EUROPEO
+if(ITIN_EUR == &quot;01&quot;){
+	ITIN_EUR = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;tipoDeItinerario&#47;itinerarioNoEuropeo&gt;&quot;;
+}
+else{
+	ITIN_EUR = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;tipoDeItinerario&#47;itinerarioEuropeo&gt;&quot;;
+}
+
+&#47;&#47;SITUACION
+if(SITUACION == &quot;01&quot;){
+	SITUACION = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;situacion-de-via&#47;superficial&gt;&quot;;
+}
+else if(SITUACION == &quot;02&quot;){
+	SITUACION = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;situacion-de-via&#47;subterraneo&gt;&quot;;
+}
+else if (SITUACION == &quot;03&quot;){
+	SITUACION = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;situacion-de-via&#47;elevado&gt;&quot;;
+}
+else {
+	SITUACION = &quot;&quot;;
+}
+
+&#47;&#47;RUTA TEN-T
+if(TEN_T == &quot;01&quot;){
+	TEN_T  = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;ruta-ten-t&#47;ruta-no-transeuropea&gt;&quot;;
+}
+else{
+	TEN_T  = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;ruta-ten-t&#47;ruta-transeuropea&gt;&quot;;
+}
+</jsScript_script>
+      </jsScript>    </jsScripts>    <fields>      <field>        <name>FECHA_ALTA</name>
+        <rename>FECHA_ALTA</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>Y</replace>
+      </field>      <field>        <name>CALZADA</name>
+        <rename>CALZADA</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>Y</replace>
+      </field>      <field>        <name>COMPE</name>
+        <rename>COMPE</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>Y</replace>
+      </field>      <field>        <name>INTERNA</name>
+        <rename>INTERNA</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>Y</replace>
+      </field>      <field>        <name>ITIN_EUR</name>
+        <rename>ITIN_EUR</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>Y</replace>
+      </field>      <field>        <name>SITUACION</name>
+        <rename>SITUACION</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>Y</replace>
+      </field>      <field>        <name>TEN_T</name>
+        <rename>TEN_T</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>Y</replace>
+      </field>      <field>        <name>CATEG_0604</name>
+        <rename>CATEG_0604</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>Y</replace>
+      </field>      <field>        <name>ESTADO</name>
+        <rename>ESTADO</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>Y</replace>
+      </field>      <field>        <name>type</name>
+        <rename>type</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
+      </field>    </fields>     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>163</xloc>
+      <yloc>306</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step_error_handling>
+  </step_error_handling>
+   <slave-step-copy-partition-distribution>
+</slave-step-copy-partition-distribution>
+   <slave_transformation>N</slave_transformation>
+</transformation>
