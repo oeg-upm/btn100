@@ -12,6 +12,7 @@
 @prefix dc:    <http://purl.org/dc/terms/> .
 
 georec:149701  a               btn100:CurvaNivelInterpolada ;
+        rdfs:label             "149701" ;
         geoes:cota             "1300" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "149701" ;
@@ -22,6 +23,7 @@ georec:149701  a               btn100:CurvaNivelInterpolada ;
         geosparql:asWKT  "LINESTRING (-5.216094640000001 42.89928205005152, -5.2166555500000005 42.899445050051575, -5.216717109999999 42.89961235005163, -5.21634174 42.89987179005172, -5.215727269999999 42.89976034005168, -5.21559235 42.89943798005158, -5.216094640000001 42.89928205005152)"^^geosparql:wktLiteral .
 
 georec:149601  a               btn100:CurvaNivelInterpolada ;
+        rdfs:label             "149601" ;
         geoes:cota             "1700" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "149601" ;

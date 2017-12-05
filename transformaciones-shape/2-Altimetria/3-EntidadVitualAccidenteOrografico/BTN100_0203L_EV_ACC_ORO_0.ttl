@@ -20,8 +20,9 @@
         geosparql:asWKT  "LINESTRING (-7.177756029999999 37.25652043600716, -7.139560929999999 37.25485616600537, -7.0859836099999995 37.25578032600637)"^^geosparql:wktLiteral .
 
 georec:455  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "455" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "455" ;
         dc:title                "Monte los Revillos" ;
@@ -32,8 +33,9 @@ georec:455  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-3.004246010000001 42.79172037001598, -2.985754780000001 42.79122732001581)"^^geosparql:wktLiteral .
 
 georec:3879  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "3879" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2013-01-22"^^xsd:date ;
         dc:identifier           "3879" ;
         dc:title                "Marismas de Hinojos" ;
@@ -44,8 +46,9 @@ georec:3879  a                  btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (1.6376806600000002 41.26734295933028, 1.66081961 41.26696117933005)"^^geosparql:wktLiteral .
 
 georec:425  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "425" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "425" ;
         dc:title                "Analamendi" ;
@@ -60,8 +63,9 @@ georec:425  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-3.0384500999999995 43.05042220009856, -3.02556534 43.05042581009857)"^^geosparql:wktLiteral .
 
 georec:3880  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "3880" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2013-05-27"^^xsd:date ;
         dc:identifier           "3880" ;
         dc:title                "Reserva Biológica de Doñana (CSIC)" ;
@@ -76,16 +80,18 @@ georec:3880  a                  btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-3.16309598 42.893957150049786, -3.1537913499999997 42.89378000004975)"^^geosparql:wktLiteral .
 
 georec:467  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "467" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "467" ;
         dc:title                "Alto de Santa Águeda" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/467/geometry> .
 
 georec:859  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "859" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-06-07"^^xsd:date ;
         dc:identifier           "859" ;
         dc:title                "Monte Otsondo" ;
@@ -100,24 +106,27 @@ georec:859  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-5.001264899999999 39.69171321827545, -4.980361139999999 39.685706068270775)"^^geosparql:wktLiteral .
 
 georec:437  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "437" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "437" ;
         dc:title                "Peña Caída" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/437/geometry> .
 
 georec:2945  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/terciario>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "2945" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/terciario> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-09-29"^^xsd:date ;
         dc:identifier           "2945" ;
         dc:title                "El Regañón" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/2945/geometry> .
 
 georec:860  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "860" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-06-07"^^xsd:date ;
         dc:identifier           "860" ;
         dc:title                "Monte Anchastegui" ;
@@ -128,8 +137,9 @@ georec:860  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-2.85073203 42.98834310007965, -2.825684369999999 42.989158920079916)"^^geosparql:wktLiteral .
 
 georec:1829  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "1829" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2013-06-13"^^xsd:date ;
         dc:identifier           "1829" ;
         dc:title                "Loma de los Camarotes" ;
@@ -148,8 +158,9 @@ georec:1829  a                  btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-2.24486657 42.939176640064275, -2.2328354 42.93883656006416)"^^geosparql:wktLiteral .
 
 georec:479  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "479" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "479" ;
         dc:title                "Peña del Silo" ;
@@ -160,8 +171,9 @@ georec:479  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (1.9480044900000004 42.08424138973972, 2.0266836399999995 42.08420310973973)"^^geosparql:wktLiteral .
 
 georec:4386  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "4386" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2013-03-27"^^xsd:date ;
         dc:identifier           "4386" ;
         dc:title                "Lomo de Tauro Alto" ;
@@ -176,16 +188,18 @@ georec:4386  a                  btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-14.405946459999996 28.081437162706905, -14.357680410000002 28.086948982716017, -14.312782230000002 28.103919072744105, -14.274266469999999 28.130647732788326, -14.250359500000002 28.160883392838358)"^^geosparql:wktLiteral .
 
 georec:2957  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c>" ;
+        rdfs:label              "2957" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c> ;
         dc:created              "2012-09-29"^^xsd:date ;
         dc:identifier           "2957" ;
         dc:title                "Reserva Nacional de Mampodre" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/2957/geometry> .
 
 georec:1830  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "1830" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2013-06-13"^^xsd:date ;
         dc:identifier           "1830" ;
         dc:title                "El Espolón" ;
@@ -196,40 +210,45 @@ georec:1830  a                  btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-6.67884802 37.09563474583221, -6.620907429999999 37.08964674582564, -6.561178220000002 37.08185470581708)"^^geosparql:wktLiteral .
 
 georec:1353  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "1353" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-03-20"^^xsd:date ;
         dc:identifier           "1353" ;
         dc:title                "Valle de Ribas" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/1353/geometry> .
 
 georec:4833  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "4833" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-03-19"^^xsd:date ;
         dc:identifier           "4833" ;
         dc:title                "Loma de los Sacristanes" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/4833/geometry> .
 
 georec:1926  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c>" ;
+        rdfs:label              "1926" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c> ;
         dc:created              "2012-06-06"^^xsd:date ;
         dc:identifier           "1926" ;
         dc:title                "Hola de Huesca" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/1926/geometry> .
 
 georec:419  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "419" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "419" ;
         dc:title                "Alto de Ultzama" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/419/geometry> .
 
 georec:480  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "480" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "480" ;
         dc:title                "Pico de Izarza" ;
@@ -240,16 +259,18 @@ georec:480  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-2.2660566400000004 42.87679414004424, -2.2484020299999994 42.87759564004448)"^^geosparql:wktLiteral .
 
 georec:395  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "395" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "395" ;
         dc:title                "Alto de Zavalla" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/395/geometry> .
 
 georec:3874  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "3874" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2013-01-22"^^xsd:date ;
         dc:identifier           "3874" ;
         dc:title                "Parque Natural del Entorno de Doñana" ;
@@ -264,32 +285,36 @@ georec:3874  a                  btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-3.0615985100000014 43.14885658012738, -3.043167180000001 43.148865020127374)"^^geosparql:wktLiteral .
 
 georec:420  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "420" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "420" ;
         dc:title                "Peña Olano" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/420/geometry> .
 
 georec:1968  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "1968" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2013-05-13"^^xsd:date ;
         dc:identifier           "1968" ;
         dc:title                "Garganta de Escuaín" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/1968/geometry> .
 
 georec:2969  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c>" ;
+        rdfs:label              "2969" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c> ;
         dc:created              "2012-09-29"^^xsd:date ;
         dc:identifier           "2969" ;
         dc:title                "Parque Nacional de los Picos de Europa" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/2969/geometry> .
 
 georec:124  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c>" ;
+        rdfs:label              "124" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c> ;
         dc:created              "2012-01-19"^^xsd:date ;
         dc:identifier           "124" ;
         dc:title                "Parque Natural de La Albufera" ;
@@ -320,8 +345,9 @@ georec:124  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-6.4040292 43.566611120233595, -6.3963911 43.56680864023364)"^^geosparql:wktLiteral .
 
 georec:462  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "462" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "462" ;
         dc:title                "Alto Hornillo" ;
@@ -336,8 +362,9 @@ georec:462  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-3.102828079999999 42.864382550040176, -3.0893948599999996 42.86420380004012)"^^geosparql:wktLiteral .
 
 georec:2970  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "2970" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-09-29"^^xsd:date ;
         dc:identifier           "2970" ;
         dc:title                "Valdeón" ;
@@ -348,16 +375,18 @@ georec:2970  a                  btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (1.9842072900000007 41.63246687952514, 2.09769118 41.632938079525374)"^^geosparql:wktLiteral .
 
 georec:3886  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/secundario>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c>" ;
+        rdfs:label              "3886" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/secundario> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c> ;
         dc:created              "2013-06-11"^^xsd:date ;
         dc:identifier           "3886" ;
         dc:title                "Vall d'Axartell" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/3886/geometry> .
 
 georec:432  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "432" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "432" ;
         dc:title                "Mendicorocha" ;
@@ -376,8 +405,9 @@ georec:432  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-2.95147518 43.07601226010621, -2.9382552199999994 43.0760058901062)"^^geosparql:wktLiteral .
 
 georec:402  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "402" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "402" ;
         dc:title                "Pico Elordo" ;
@@ -388,40 +418,45 @@ georec:402  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-17.33865417000001 28.12328640277615, -17.297214760000003 28.12391907277721)"^^geosparql:wktLiteral .
 
 georec:2222  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "2222" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-02-24"^^xsd:date ;
         dc:identifier           "2222" ;
         dc:title                "RESERVA NACIONAL DE CAZA" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/2222/geometry> .
 
 georec:474  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "474" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "474" ;
         dc:title                "Alto de Olazar" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/474/geometry> .
 
 georec:866  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c>" ;
+        rdfs:label              "866" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c> ;
         dc:created              "2012-06-07"^^xsd:date ;
         dc:identifier           "866" ;
         dc:title                "PARQUE NATURAL BÁRDENAS REALES" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/866/geometry> .
 
 georec:4381  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "4381" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2013-03-27"^^xsd:date ;
         dc:identifier           "4381" ;
         dc:title                "PENÍNSULA DE JANDÍA" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/4381/geometry> .
 
 georec:921  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "921" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2011-03-14"^^xsd:date ;
         dc:identifier           "921" ;
         dc:title                "Espacio Natural La Yecla" ;
@@ -432,32 +467,36 @@ georec:921  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-2.5077309600000004 42.670542699973886, -2.4760994100000007 42.67007358997372)"^^geosparql:wktLiteral .
 
 georec:444  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "444" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "444" ;
         dc:title                "Monte Morales" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/444/geometry> .
 
 georec:3084  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "3084" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2012-12-17"^^xsd:date ;
         dc:identifier           "3084" ;
         dc:title                "PARQUE NATURAL DE LAS MARISMAS DE SANTOÑA" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/3084/geometry> .
 
 georec:3868  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "3868" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2013-01-22"^^xsd:date ;
         dc:identifier           "3868" ;
         dc:title                "Reserva Natural Isla de Enmedio" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/3868/geometry> .
 
 georec:4743  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c>" ;
+        rdfs:label              "4743" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c> ;
         dc:created              "2013-01-29"^^xsd:date ;
         dc:identifier           "4743" ;
         dc:title                "Islas Las Chugaronas" ;
@@ -468,16 +507,18 @@ georec:4743  a                  btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-3.0229765900000003 42.83618388003088, -3.00893089 42.83585768003078)"^^geosparql:wktLiteral .
 
 georec:414  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c>" ;
+        rdfs:label              "414" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "414" ;
         dc:title                "Burgamendi" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/414/geometry> .
 
 georec:390  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "390" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "390" ;
         dc:title                "Alto de los Caminos Blancos" ;
@@ -492,8 +533,9 @@ georec:390  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-3.8591735299999983 43.362652230184985, -3.745093600000001 43.36255846018497)"^^geosparql:wktLiteral .
 
 georec:56  a                    btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "56" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-02-15"^^xsd:date ;
         dc:identifier           "56" ;
         dc:title                "PARQUE NATURAL DEL PRAT DE CABANES - TORREBLANCA" ;
@@ -508,16 +550,18 @@ georec:56  a                    btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-2.2436597799999998 41.08442826922551, -2.1907528699999994 41.062335559212514)"^^geosparql:wktLiteral .
 
 georec:456  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "456" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "456" ;
         dc:title                "Alto Lagunos" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/456/geometry> .
 
 georec:2964  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c>" ;
+        rdfs:label              "2964" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c> ;
         dc:created              "2012-09-29"^^xsd:date ;
         dc:identifier           "2964" ;
         dc:title                "Reserva Nacional de Mampodre" ;
@@ -544,8 +588,9 @@ georec:2964  a                  btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-15.78280595 27.876560452367695, -15.750324109999998 27.919042502438042)"^^geosparql:wktLiteral .
 
 georec:468  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "468" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "468" ;
         dc:title                "Monte Santa Cruz" ;
@@ -564,8 +609,9 @@ georec:468  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-7.39553723 37.20913221595592, -7.360308624784338 37.20990361195072, -7.354786189999997 37.210024535956904, -7.313066799999998 37.211964385959014)"^^geosparql:wktLiteral .
 
 georec:438  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "438" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "438" ;
         dc:title                "Alto de Gazteluberri" ;
@@ -584,24 +630,27 @@ georec:438  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-3.13763138 42.762759450006115, -3.1224915300000005 42.76408930000658)"^^geosparql:wktLiteral .
 
 georec:408  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "408" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "408" ;
         dc:title                "Peña de San Tirso" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/408/geometry> .
 
 georec:861  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "861" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-06-07"^^xsd:date ;
         dc:identifier           "861" ;
         dc:title                "Monte Ococa" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/861/geometry> .
 
 georec:3290  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "3290" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2013-06-13"^^xsd:date ;
         dc:identifier           "3290" ;
         dc:replaces             "100" ;
@@ -609,16 +658,18 @@ georec:3290  a                  btn100:EntidadVirtualSinDefinir ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/3290/geometry> .
 
 georec:3863  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "3863" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2013-01-22"^^xsd:date ;
         dc:identifier           "3863" ;
         dc:title                "Parque Natural de Doñana" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/3863/geometry> .
 
 georec:4472  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "4472" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2013-06-14"^^xsd:date ;
         dc:identifier           "4472" ;
         dc:title                "PENÍNSULA DO MORRAZO" ;
@@ -633,8 +684,9 @@ georec:4472  a                  btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-3.282403070000001 42.88107064004565, -3.2683473399999996 42.88012175004531)"^^geosparql:wktLiteral .
 
 georec:4834  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "4834" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-03-19"^^xsd:date ;
         dc:identifier           "4834" ;
         dc:title                "Loma de Jaeña" ;
@@ -649,8 +701,9 @@ georec:4834  a                  btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-1.49425003 42.250568179811275, -1.4269408100000003 42.25071068981133)"^^geosparql:wktLiteral .
 
 georec:1535  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "1535" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2012-03-27"^^xsd:date ;
         dc:identifier           "1535" ;
         dc:title                "Reserva Natural Parcial Merlès-Lluçanés" ;
@@ -661,16 +714,18 @@ georec:1535  a                  btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-3.03128803 42.896729450050714, -3.0165557400000003 42.896732530050706)"^^geosparql:wktLiteral .
 
 georec:873  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "873" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2011-03-14"^^xsd:date ;
         dc:identifier           "873" ;
         dc:title                "Monumento Natural Ojo de Guareña" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/873/geometry> .
 
 georec:396  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "396" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "396" ;
         dc:title                "Alto de Panabarra" ;
@@ -681,8 +736,9 @@ georec:396  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-2.78477528 42.94959214006756, -2.77133102 42.95024706006776)"^^geosparql:wktLiteral .
 
 georec:3875  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "3875" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2013-01-22"^^xsd:date ;
         dc:identifier           "3875" ;
         dc:title                "Reserva Biótica Ayuntamiento de Hinojos" ;
@@ -705,8 +761,9 @@ georec:3875  a                  btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-2.82091982 43.068112400103836, -2.810351360000001 43.06816275010386)"^^geosparql:wktLiteral .
 
 georec:3272  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "3272" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2013-06-13"^^xsd:date ;
         dc:identifier           "3272" ;
         dc:replaces             "100" ;
@@ -714,8 +771,9 @@ georec:3272  a                  btn100:EntidadVirtualSinDefinir ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/3272/geometry> .
 
 georec:421  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "421" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "421" ;
         dc:title                "Peña de Egino" ;
@@ -726,8 +784,9 @@ georec:421  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-5.082688890000001 42.95574977006949, -5.017086920000001 42.95570208006948, -4.953480569999999 42.95558269006944, -4.878815400000001 42.95316406006869)"^^geosparql:wktLiteral .
 
 georec:1909  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "1909" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2013-06-14"^^xsd:date ;
         dc:identifier           "1909" ;
         dc:title                "Ensenada de Basa" ;
@@ -738,16 +797,18 @@ georec:1909  a                  btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-15.715829710000003 27.80940915225646, -15.696474949999997 27.839301082305983)"^^geosparql:wktLiteral .
 
 georec:463  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "463" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "463" ;
         dc:title                "Alto El Otero" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/463/geometry> .
 
 georec:2971  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "2971" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-09-29"^^xsd:date ;
         dc:identifier           "2971" ;
         dc:title                "Reserva Nacional de Caza de Riaño" ;
@@ -758,16 +819,18 @@ georec:2971  a                  btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-7.009598779999999 37.21988284596758, -6.987696439999997 37.220045795967735, -6.9534648 37.21926959596691)"^^geosparql:wktLiteral .
 
 georec:559  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "559" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2013-06-04"^^xsd:date ;
         dc:identifier           "559" ;
         dc:title                "Macizo de Itxina" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/559/geometry> .
 
 georec:433  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "433" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "433" ;
         dc:title                "Alto de San Cristóbal" ;
@@ -782,8 +845,9 @@ georec:433  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (2.1307429 42.11695573975412, 2.1929762500000005 42.11635821975386)"^^geosparql:wktLiteral .
 
 georec:403  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "403" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "403" ;
         dc:title                "Alto de Astaez" ;
@@ -794,8 +858,9 @@ georec:403  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (0.05884554 42.684806929978954, 0.06431781 42.68802111998009, 0.07099922 42.69008240998081, 0.0778785 42.69101777998115, 0.0851988 42.69063395998102, 0.09122754 42.68972446998069, 0.09599242 42.68884885998038)"^^geosparql:wktLiteral .
 
 georec:560  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "560" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2013-06-04"^^xsd:date ;
         dc:identifier           "560" ;
         dc:title                "Alto de Barazar" ;
@@ -810,8 +875,9 @@ georec:560  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-1.4730233099999996 43.24630583015448, -1.44950826 43.24670540015459)"^^geosparql:wktLiteral .
 
 georec:475  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "475" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "475" ;
         dc:title                "Alto de Bardarán" ;
@@ -822,8 +888,9 @@ georec:475  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-2.13951479 37.44788834621142, -2.08705349 37.4349091161977)"^^geosparql:wktLiteral .
 
 georec:4406  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/menor>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "4406" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/menor> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2013-02-19"^^xsd:date ;
         dc:identifier           "4406" ;
         dc:title                "Valle de la Orotava" ;
@@ -834,40 +901,45 @@ georec:4406  a                  btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-3.6671690800000007 43.20098760014207, -3.5818069500000003 43.202414450142456)"^^geosparql:wktLiteral .
 
 georec:4382  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "4382" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2013-03-27"^^xsd:date ;
         dc:identifier           "4382" ;
         dc:title                "Morro de los Pinos" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/4382/geometry> .
 
 georec:445  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "445" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "445" ;
         dc:title                "Peña Los Castros" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/445/geometry> .
 
 georec:2476  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/secundario>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c>" ;
+        rdfs:label              "2476" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/secundario> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c> ;
         dc:created              "2013-06-14"^^xsd:date ;
         dc:identifier           "2476" ;
         dc:title                "Circo de Gredos" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/2476/geometry> .
 
 georec:3869  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "3869" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2013-01-22"^^xsd:date ;
         dc:identifier           "3869" ;
         dc:title                "Paraje Natural Marismas del Río Piedras y Flecha del Rompido" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/3869/geometry> .
 
 georec:4744  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "4744" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2013-01-29"^^xsd:date ;
         dc:identifier           "4744" ;
         dc:title                "Islas Las Combiechas" ;
@@ -890,16 +962,18 @@ georec:4744  a                  btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-2.2596023499999998 42.8513392100359, -2.24075248 42.85256368003629)"^^geosparql:wktLiteral .
 
 georec:57  a                    btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "57" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-02-15"^^xsd:date ;
         dc:identifier           "57" ;
         dc:title                "Montes de Murs" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/57/geometry> .
 
 georec:3870  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "3870" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2013-01-22"^^xsd:date ;
         dc:identifier           "3870" ;
         dc:title                "Reserva Natural Marismas del Burro" ;
@@ -910,16 +984,18 @@ georec:3870  a                  btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-6.39974058 36.860056935570796, -6.376207849999999 36.85949651557016, -6.35466291 36.85764328556809)"^^geosparql:wktLiteral .
 
 georec:4660  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "4660" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2010-09-22"^^xsd:date ;
         dc:identifier           "4660" ;
         dc:title                "Cordal de Lena" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/4660/geometry> .
 
 georec:457  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "457" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "457" ;
         dc:title                "Alto de los Mojones" ;
@@ -930,16 +1006,18 @@ georec:457  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-3.027620740000001 42.75154968000228, -3.0087071500000016 42.751693470002316)"^^geosparql:wktLiteral .
 
 georec:427  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "427" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "427" ;
         dc:title                "Peña Hueca" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/427/geometry> .
 
 georec:1723  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "1723" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2011-03-04"^^xsd:date ;
         dc:identifier           "1723" ;
         dc:title                "Cañón de Añisclo" ;
@@ -950,48 +1028,54 @@ georec:1723  a                  btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-2.2914901800000007 42.88550411004708, -2.271147090000001 42.88522373004698)"^^geosparql:wktLiteral .
 
 georec:850  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "850" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2012-06-07"^^xsd:date ;
         dc:identifier           "850" ;
         dc:title                "PARQUE NATURAL DE URBASA Y ANDÍA" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/850/geometry> .
 
 georec:469  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "469" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "469" ;
         dc:title                "Monte de Tulla" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/469/geometry> .
 
 georec:1499  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "1499" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2012-03-26"^^xsd:date ;
         dc:identifier           "1499" ;
         dc:title                "PARC NATURAL DEL GARRAF" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/1499/geometry> .
 
 georec:1554  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "1554" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2013-04-19"^^xsd:date ;
         dc:identifier           "1554" ;
         dc:title                "Parc Comarcal Montesquiu" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/1554/geometry> .
 
 georec:439  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "439" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "439" ;
         dc:title                "Alto Corona" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/439/geometry> .
 
 georec:1343  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "1343" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-03-20"^^xsd:date ;
         dc:identifier           "1343" ;
         dc:title                "Valle de Ribas" ;
@@ -1002,16 +1086,18 @@ georec:1343  a                  btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-2.31905301 42.92312749005916, -2.30520977 42.92304430005913)"^^geosparql:wktLiteral .
 
 georec:409  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "409" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "409" ;
         dc:title                "Peña del Castillo" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/409/geometry> .
 
 georec:862  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "862" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-06-07"^^xsd:date ;
         dc:identifier           "862" ;
         dc:title                "Monte Arxabal" ;
@@ -1034,40 +1120,45 @@ georec:862  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-3.0981929800000003 42.87369808004322, -3.0842412700000006 42.87370919004323)"^^geosparql:wktLiteral .
 
 georec:440  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "440" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "440" ;
         dc:title                "Monte Manzanal" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/440/geometry> .
 
 georec:2471  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/secundario>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "2471" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/secundario> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-11-14"^^xsd:date ;
         dc:identifier           "2471" ;
         dc:title                "Parameras de Ávila" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/2471/geometry> .
 
 georec:3080  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "3080" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2012-12-17"^^xsd:date ;
         dc:identifier           "3080" ;
         dc:title                "PARQUE NATURAL COLLADOS DE ANSÓN" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/3080/geometry> .
 
 georec:3864  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "3864" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2013-01-22"^^xsd:date ;
         dc:identifier           "3864" ;
         dc:title                "Zona de protección del Arroyo de la Rocina" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/3864/geometry> .
 
 georec:410  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "410" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "410" ;
         dc:title                "Peña Roja" ;
@@ -1078,16 +1169,18 @@ georec:410  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-3.0128773200000003 43.13462546012331, -2.997018140000001 43.134413030123234)"^^geosparql:wktLiteral .
 
 georec:397  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "397" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "397" ;
         dc:title                "Monte el Duengo" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/397/geometry> .
 
 georec:3876  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "3876" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2013-01-22"^^xsd:date ;
         dc:identifier           "3876" ;
         dc:title                "Parque Natural de Doñana" ;
@@ -1098,8 +1191,9 @@ georec:3876  a                  btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-2.515773339999999 42.69638811998304, -2.4963783500000005 42.69696209998324)"^^geosparql:wktLiteral .
 
 georec:422  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "422" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "422" ;
         dc:title                "Alto de Ataun" ;
@@ -1114,8 +1208,9 @@ georec:422  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-3.1342208600000006 42.83331816002995, -3.11660891 42.83333745002994)"^^geosparql:wktLiteral .
 
 georec:1790  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/terciario>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "1790" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/terciario> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2011-03-04"^^xsd:date ;
         dc:identifier           "1790" ;
         dc:title                "Circo de Pineta" ;
@@ -1130,8 +1225,9 @@ georec:1790  a                  btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-2.68078095 42.58922800994442, -2.670049519999999 42.58919760994443)"^^geosparql:wktLiteral .
 
 georec:464  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "464" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "464" ;
         dc:title                "Monte Lago" ;
@@ -1142,8 +1238,9 @@ georec:464  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-3.13583318 43.10689202011526, -3.1208836199999994 43.106999310115306)"^^geosparql:wktLiteral .
 
 georec:4497  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "4497" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2013-06-14"^^xsd:date ;
         dc:identifier           "4497" ;
         dc:title                "Ensenada de Merexo" ;
@@ -1154,24 +1251,27 @@ georec:4497  a                  btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-0.4978982800000001 39.70556278828617, -0.4227176400000001 39.7058244682864)"^^geosparql:wktLiteral .
 
 georec:434  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "434" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "434" ;
         dc:title                "Alto del Mojón" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/434/geometry> .
 
 georec:3466  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "3466" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2013-06-13"^^xsd:date ;
         dc:identifier           "3466" ;
         dc:title                "Loma de las Minillas" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/3466/geometry> .
 
 georec:404  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "404" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "404" ;
         dc:title                "Alto Pagasaun" ;
@@ -1206,8 +1306,9 @@ georec:404  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-6.443868960000002 37.19263397593804, -6.39352202 37.19162469593694, -6.35439829 37.189044385934146)"^^geosparql:wktLiteral .
 
 georec:476  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "476" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "476" ;
         dc:title                "Alto del Vedado" ;
@@ -1218,8 +1319,9 @@ georec:476  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (0.2752302600000001 40.31529885873372, 0.34348596 40.3152793087337)"^^geosparql:wktLiteral .
 
 georec:4383  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "4383" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2013-03-27"^^xsd:date ;
         dc:identifier           "4383" ;
         dc:title                "Loma de la Degollada Honda" ;
@@ -1230,8 +1332,9 @@ georec:4383  a                  btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-2.2880999000000006 42.800280880018875, -2.2731091700000006 42.800426660018935)"^^geosparql:wktLiteral .
 
 georec:446  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "446" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "446" ;
         dc:title                "Risco Malo" ;
@@ -1250,8 +1353,9 @@ georec:446  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-2.0728436000000006 37.45143036621516, -2.0451798699999997 37.43659368619948, -2.0039146199999993 37.415106816176724)"^^geosparql:wktLiteral .
 
 georec:4745  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "4745" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2013-01-30"^^xsd:date ;
         dc:identifier           "4745" ;
         dc:title                "Islas Sarnosas" ;
@@ -1262,32 +1366,36 @@ georec:4745  a                  btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-3.0897853300000007 42.78413753001341, -3.0766427 42.78431116001345)"^^geosparql:wktLiteral .
 
 georec:1531  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "1531" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2012-03-27"^^xsd:date ;
         dc:identifier           "1531" ;
         dc:title                "PARC NATURAL DEL CADÍ-MOIXERÓ" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/1531/geometry> .
 
 georec:416  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "416" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "416" ;
         dc:title                "Alto de Milpirivil" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/416/geometry> .
 
 georec:392  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "392" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "392" ;
         dc:title                "Monte Paquete" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/392/geometry> .
 
 georec:458  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "458" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "458" ;
         dc:title                "Alto de San Juan del Olmo" ;
@@ -1298,8 +1406,9 @@ georec:458  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-2.2836733699999994 42.92852712006088, -2.2680566900000003 42.92858340006091)"^^geosparql:wktLiteral .
 
 georec:428  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "428" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "428" ;
         dc:title                "Alto de Yermanda" ;
@@ -1330,8 +1439,9 @@ georec:428  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-5.008606169999999 39.67906046826561, -4.98038632 39.677286528264226)"^^geosparql:wktLiteral .
 
 georec:1555  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "1555" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2013-04-22"^^xsd:date ;
         dc:identifier           "1555" ;
         dc:title                "Parc del Foix" ;
@@ -1342,16 +1452,18 @@ georec:1555  a                  btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-4.9581114 43.11373280011725, -4.924300969999999 43.11544726011776, -4.8998347 43.117282080118294)"^^geosparql:wktLiteral .
 
 georec:863  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "863" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-06-07"^^xsd:date ;
         dc:identifier           "863" ;
         dc:title                "Monte Erreguerena" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/863/geometry> .
 
 georec:41  a                    btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c>" ;
+        rdfs:label              "41" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c> ;
         dc:created              "2012-01-18"^^xsd:date ;
         dc:identifier           "41" ;
         dc:title                "PARQUE NATURAL SIERRA D´IRTA" ;
@@ -1366,8 +1478,9 @@ georec:41  a                    btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-15.730346970000001 27.828335652287823, -15.706815319999999 27.860160792340533)"^^geosparql:wktLiteral .
 
 georec:441  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "441" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "441" ;
         dc:title                "Peña Lisa" ;
@@ -1378,24 +1491,27 @@ georec:441  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-7.013783469999999 37.248816785998855, -6.984097469999998 37.24770283599764, -6.9439021300000014 37.24828035599827)"^^geosparql:wktLiteral .
 
 georec:3865  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "3865" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2013-01-22"^^xsd:date ;
         dc:identifier           "3865" ;
         dc:title                "Paraje Natural Estero de Domingo Rubio" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/3865/geometry> .
 
 georec:4389  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/menor>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c>" ;
+        rdfs:label              "4389" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/menor> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c> ;
         dc:created              "2013-02-19"^^xsd:date ;
         dc:identifier           "4389" ;
         dc:title                "Valle Gran Rey" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/4389/geometry> .
 
 georec:411  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "411" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "411" ;
         dc:title                "Peña del Cuervo" ;
@@ -1410,16 +1526,18 @@ georec:411  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-0.71300649 42.01322963970798, -0.6881577600000002 42.01429517970843, -0.65415298 42.017253229709766)"^^geosparql:wktLiteral .
 
 georec:4921  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "4921" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2014-06-17"^^xsd:date ;
         dc:identifier           "4921" ;
         dc:title                "Raña de los Lobos" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/4921/geometry> .
 
 georec:398  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "398" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "398" ;
         dc:title                "Peñas del Arco" ;
@@ -1430,16 +1548,18 @@ georec:398  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-3.1651929500000002 43.02671468009141, -3.14703991 43.02655053009137)"^^geosparql:wktLiteral .
 
 georec:453  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "453" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "453" ;
         dc:title                "Alto de los Caminos" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/453/geometry> .
 
 georec:3877  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "3877" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2013-01-22"^^xsd:date ;
         dc:identifier           "3877" ;
         dc:title                "Marisma de Doñana" ;
@@ -1462,8 +1582,9 @@ georec:3877  a                  btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-2.58252965 42.76632808000734, -2.560556420000001 42.76613344000728)"^^geosparql:wktLiteral .
 
 georec:1549  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "1549" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2012-03-27"^^xsd:date ;
         dc:identifier           "1549" ;
         dc:title                "PARC NATURAL DEL MONTSENY" ;
@@ -1478,8 +1599,9 @@ georec:1549  a                  btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-2.2530750699999995 42.84666335003434, -2.237448589999999 42.8465603500343)"^^geosparql:wktLiteral .
 
 georec:465  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "465" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "465" ;
         dc:title                "Monte los Montilobes" ;
@@ -1490,8 +1612,9 @@ georec:465  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-6.417659509999999 43.56120946023238, -6.41298649 43.56138506023241)"^^geosparql:wktLiteral .
 
 georec:857  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "857" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-06-07"^^xsd:date ;
         dc:identifier           "857" ;
         dc:title                "Montes de Bidasoa" ;
@@ -1506,8 +1629,9 @@ georec:857  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-6.50843206 37.04397507577541, -6.3912971999999995 37.0443131757758)"^^geosparql:wktLiteral .
 
 georec:1942  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "1942" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-06-07"^^xsd:date ;
         dc:identifier           "1942" ;
         dc:title                "Monte de la Sarda" ;
@@ -1518,8 +1642,9 @@ georec:1942  a                  btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (1.7271467499999997 41.5823412094995, 1.8550872100000007 41.58416224950046)"^^geosparql:wktLiteral .
 
 georec:1550  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "1550" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2012-03-27"^^xsd:date ;
         dc:identifier           "1550" ;
         dc:title                "PARC NATURAL DE MONTNEGRE-GORREDOR" ;
@@ -1530,16 +1655,18 @@ georec:1550  a                  btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-3.0264892700000003 42.786326460014145, -3.01253518 42.78689202001435)"^^geosparql:wktLiteral .
 
 georec:2943  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/terciario>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "2943" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/terciario> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-09-29"^^xsd:date ;
         dc:identifier           "2943" ;
         dc:title                "Pradera de Espinas" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/2943/geometry> .
 
 georec:405  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "405" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "405" ;
         dc:title                "Monte Cabrera" ;
@@ -1550,16 +1677,18 @@ georec:405  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-16.88829069 28.333178573123277, -16.866471550000004 28.333355133123572)"^^geosparql:wktLiteral .
 
 georec:477  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "477" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "477" ;
         dc:title                "Alto de las Procesiones" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/477/geometry> .
 
 georec:4408  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/menor>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "4408" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/menor> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2013-02-19"^^xsd:date ;
         dc:identifier           "4408" ;
         dc:title                "Valle de Güimar" ;
@@ -1570,8 +1699,9 @@ georec:4408  a                  btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-0.30494267 39.24172495791255, -0.38319676 39.349981698002274)"^^geosparql:wktLiteral .
 
 georec:4384  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "4384" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2013-03-27"^^xsd:date ;
         dc:identifier           "4384" ;
         dc:title                "Lomo de Veneguera" ;
@@ -1582,8 +1712,9 @@ georec:4384  a                  btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-3.1321277799999994 42.79262871001629, -3.1120766800000004 42.792650090016295)"^^geosparql:wktLiteral .
 
 georec:447  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "447" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "447" ;
         dc:title                "Monte El Cerrado" ;
@@ -1594,8 +1725,9 @@ georec:447  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-3.4334682200000004 41.93225303967085, -3.3849252600000015 41.93287916967113)"^^geosparql:wktLiteral .
 
 georec:417  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c>" ;
+        rdfs:label              "417" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "417" ;
         dc:title                "Peña Aratz" ;
@@ -1606,8 +1738,9 @@ georec:417  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-2.3528838199999993 42.93825903006399, -2.34631481 42.938286930063974)"^^geosparql:wktLiteral .
 
 georec:393  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "393" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "393" ;
         dc:title                "Alto de la Vela" ;
@@ -1618,8 +1751,9 @@ georec:393  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (0.05468192 42.5532937399311, 0.06184952 42.55011501992991, 0.06851205 42.54694938992875, 0.07096051 42.54539011992813, 0.07287708 42.543284959927334, 0.07378497 42.54120684992657, 0.07343214 42.53916259992582, 0.07308849 42.537304789925095, 0.07424842 42.535219919924316, 0.07592164 42.53330794992359, 0.07898818 42.52893134992194, 0.08402498 42.52356808991991)"^^geosparql:wktLiteral .
 
 georec:1502  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "1502" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2012-03-26"^^xsd:date ;
         dc:identifier           "1502" ;
         dc:title                "PARC NATURAL DE LA MUNTANYA DE MONTSERRAT" ;
@@ -1638,48 +1772,54 @@ georec:1502  a                  btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-3.1560872000000004 42.88180506004587, -3.1418752999999997 42.881823550045866)"^^geosparql:wktLiteral .
 
 georec:3872  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "3872" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2013-01-22"^^xsd:date ;
         dc:identifier           "3872" ;
         dc:title                "Reserva Natural Laguna del Portil" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/3872/geometry> .
 
 georec:2183  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "2183" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2013-02-25"^^xsd:date ;
         dc:identifier           "2183" ;
         dc:title                "Loma de la Cruz de Hierro" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/2183/geometry> .
 
 georec:459  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c>" ;
+        rdfs:label              "459" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "459" ;
         dc:title                "Alto de la Mota" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/459/geometry> .
 
 georec:429  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "429" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "429" ;
         dc:title                "La Peña Ancha" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/429/geometry> .
 
 georec:460  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "460" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "460" ;
         dc:title                "Peña del Mazo" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/460/geometry> .
 
 georec:1037  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "1037" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2013-02-22"^^xsd:date ;
         dc:identifier           "1037" ;
         dc:title                "Cuerda de Villalpardo" ;
@@ -1690,15 +1830,17 @@ georec:1037  a                  btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-3.1818237900000006 42.934594980062826, -3.1673406400000004 42.934427040062765)"^^geosparql:wktLiteral .
 
 georec:4970  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "4970" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:identifier           "4970" ;
         dc:title                "Paraje Natural Marismas de Isla Cristina" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/4970/geometry> .
 
 georec:948  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "948" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2011-03-14"^^xsd:date ;
         dc:identifier           "948" ;
         dc:title                "Espacio Natural" ;
@@ -1709,8 +1851,9 @@ georec:948  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-4.9806050399999995 43.1353033601235, -4.934494240000001 43.13010403012203, -4.883410810000001 43.12753456012126)"^^geosparql:wktLiteral .
 
 georec:430  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "430" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "430" ;
         dc:title                "Calamendi" ;
@@ -1737,8 +1880,9 @@ georec:430  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-3.7026078399999993 43.05435822009973, -3.5574657299999997 43.058328620100944)"^^geosparql:wktLiteral .
 
 georec:400  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "400" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "400" ;
         dc:title                "Pico de Mostacha" ;
@@ -1761,24 +1905,27 @@ georec:400  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (2.472903809999999 41.6388992895284, 2.5632077 41.68491170955157)"^^geosparql:wktLiteral .
 
 georec:472  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "472" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "472" ;
         dc:title                "Alto de Sisaitén" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/472/geometry> .
 
 georec:42  a                    btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "42" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2012-01-18"^^xsd:date ;
         dc:identifier           "42" ;
         dc:title                "PARQUE NATURAL SERRA D´ESPADÀ" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/42/geometry> .
 
 georec:442  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "442" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "442" ;
         dc:title                "Monte Rodil" ;
@@ -1789,16 +1936,18 @@ georec:442  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-3.0648127600000006 43.13822720012434, -3.0483040100000007 43.13795421012428)"^^geosparql:wktLiteral .
 
 georec:3082  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/terciario>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "3082" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/terciario> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2012-12-17"^^xsd:date ;
         dc:identifier           "3082" ;
         dc:title                "PARQUE NACIONAL DE LOS PICOS DE EUROPA" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/3082/geometry> .
 
 georec:3866  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "3866" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2013-01-22"^^xsd:date ;
         dc:identifier           "3866" ;
         dc:title                "Zona de protección de la Carretera Comarcal" ;
@@ -1809,24 +1958,27 @@ georec:3866  a                  btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (0.18992848 40.31290952873206, 0.19805501 40.328857738743096)"^^geosparql:wktLiteral .
 
 georec:2388  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/principal>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c>" ;
+        rdfs:label              "2388" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/principal> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c> ;
         dc:created              "2012-07-26"^^xsd:date ;
         dc:identifier           "2388" ;
         dc:title                "PARQUE NATURAL FUENTES CARRIONAS Y FUENTE COBRE" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/2388/geometry> .
 
 georec:4741  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "4741" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2013-01-29"^^xsd:date ;
         dc:identifier           "4741" ;
         dc:title                "Islas Las Mouchas" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/4741/geometry> .
 
 georec:116  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "116" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2012-01-19"^^xsd:date ;
         dc:identifier           "116" ;
         dc:title                "Parque natural Sierra Calderona" ;
@@ -1841,8 +1993,9 @@ georec:116  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-6.344653040000001 43.560865770232304, -6.340630499999999 43.56098351023232)"^^geosparql:wktLiteral .
 
 georec:399  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "399" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "399" ;
         dc:title                "Pico del Babio" ;
@@ -1857,8 +2010,9 @@ georec:399  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-6.423723590000001 36.97352719569749, -6.39553745 36.972695015696566, -6.3683013399999995 36.97018651569378)"^^geosparql:wktLiteral .
 
 georec:454  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "454" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "454" ;
         dc:title                "Monte las Encinillas" ;
@@ -1869,8 +2023,9 @@ georec:454  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-2.31903844 42.77635670001076, -2.30344947 42.77658189001084)"^^geosparql:wktLiteral .
 
 georec:3878  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "3878" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2013-01-22"^^xsd:date ;
         dc:identifier           "3878" ;
         dc:title                "Marismas del Guadalquivir" ;
@@ -1881,8 +2036,9 @@ georec:3878  a                  btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-2.96977518 43.02442681009074, -2.9567608400000003 43.0239950700906)"^^geosparql:wktLiteral .
 
 georec:424  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "424" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "424" ;
         dc:title                "Altos de Heredia" ;
@@ -1897,16 +2053,18 @@ georec:424  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-16.54874006 28.34067511313568, -16.515349810000004 28.35392368315756, -16.491752610000002 28.367552573180102)"^^geosparql:wktLiteral .
 
 georec:466  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "466" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "466" ;
         dc:title                "Alto de San Andrés" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/466/geometry> .
 
 georec:858  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "858" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2012-06-07"^^xsd:date ;
         dc:identifier           "858" ;
         dc:title                "PARQUE NATURAL SEÑORÍO DE BÉRNITZ" ;
@@ -1917,16 +2075,18 @@ georec:858  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-9.16772105 43.14068901012505, -9.170300199999998 43.13348822012298)"^^geosparql:wktLiteral .
 
 georec:436  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "436" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "436" ;
         dc:title                "Alto del Bellecu" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/436/geometry> .
 
 georec:2944  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/secundario>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "2944" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/secundario> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-09-29"^^xsd:date ;
         dc:identifier           "2944" ;
         dc:title                "Sierra Delgada" ;
@@ -1937,24 +2097,27 @@ georec:2944  a                  btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-2.9766060600000004 42.82978469002874, -2.9605554399999994 42.829944360028804)"^^geosparql:wktLiteral .
 
 georec:3468  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "3468" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2013-06-13"^^xsd:date ;
         dc:identifier           "3468" ;
         dc:title                "Loma de la Zarza" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/3468/geometry> .
 
 georec:406  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "406" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "406" ;
         dc:title                "Peña del Trillo" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/406/geometry> .
 
 georec:1828  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "1828" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2013-06-13"^^xsd:date ;
         dc:identifier           "1828" ;
         dc:title                "Loma de la Capellanía" ;
@@ -1981,32 +2144,36 @@ georec:1828  a                  btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-2.51077614 42.95751841007005, -2.4955488599999995 42.95757658007007)"^^geosparql:wktLiteral .
 
 georec:478  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "478" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "478" ;
         dc:title                "Alto Campanavea" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/478/geometry> .
 
 georec:48  a                    btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/menor>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "48" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/menor> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-02-15"^^xsd:date ;
         dc:identifier           "48" ;
         dc:title                "Lomas de la Muela" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/48/geometry> .
 
 georec:4385  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "4385" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2013-03-27"^^xsd:date ;
         dc:identifier           "4385" ;
         dc:title                "Lomo de Taurito" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/4385/geometry> .
 
 georec:4832  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "4832" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-03-19"^^xsd:date ;
         dc:identifier           "4832" ;
         dc:title                "Loma de los Lobos" ;
@@ -2021,32 +2188,36 @@ georec:4832  a                  btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-0.78308025 39.89649975843173, -0.7562506999999999 39.91908806844861)"^^geosparql:wktLiteral .
 
 georec:1925  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "1925" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-06-06"^^xsd:date ;
         dc:identifier           "1925" ;
         dc:title                "Alto Gállego" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/1925/geometry> .
 
 georec:418  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "418" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "418" ;
         dc:title                "Alto de Arrizabalpe" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/418/geometry> .
 
 georec:4410  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "4410" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2013-03-08"^^xsd:date ;
         dc:identifier           "4410" ;
         dc:title                "Macizo de Anaga" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/4410/geometry> .
 
 georec:394  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "394" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "394" ;
         dc:title                "Alto de Garonela" ;
@@ -2057,8 +2228,9 @@ georec:394  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-6.414319099999998 37.0009729057279, -6.40254068 37.02223811575143, -6.384780379999999 37.04487466577642)"^^geosparql:wktLiteral .
 
 georec:1503  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "1503" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2013-04-19"^^xsd:date ;
         dc:identifier           "1503" ;
         dc:title                "PARC NATURAL DE SANT LLORENÇ DEL MUNT I L'OBAC" ;
@@ -2073,8 +2245,9 @@ georec:1503  a                  btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-15.772608729999996 27.850450062324448, -15.733747750000003 27.886757142384578)"^^geosparql:wktLiteral .
 
 georec:3873  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c>" ;
+        rdfs:label              "3873" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c> ;
         dc:created              "2013-01-22"^^xsd:date ;
         dc:identifier           "3873" ;
         dc:title                "Parque Nacional Coto de Doñana" ;
@@ -2093,16 +2266,18 @@ georec:3873  a                  btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-3.165187549999965 42.28900558982724, -3.0973013499999795 42.29058998982788, -3.0956554799999796 42.29062839982789)"^^geosparql:wktLiteral .
 
 georec:4729  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "4729" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2010-09-30"^^xsd:date ;
         dc:identifier           "4729" ;
         dc:title                "Desfiladero de la Hermida" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/4729/geometry> .
 
 georec:461  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "461" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "461" ;
         dc:title                "Monte la Tala" ;
@@ -2113,8 +2288,9 @@ georec:461  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-3.0730457400000013 43.131858150122504, -3.051865260000001 43.13125536012235)"^^geosparql:wktLiteral .
 
 georec:4886  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "4886" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2014-06-17"^^xsd:date ;
         dc:identifier           "4886" ;
         dc:title                "Espacio Natural Sierra de la Demanda" ;
@@ -2125,8 +2301,9 @@ georec:4886  a                  btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (2.29848765 41.77011338959363, 2.35816536 41.77093762959406)"^^geosparql:wktLiteral .
 
 georec:401  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "401" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "401" ;
         dc:title                "Goico Mendi" ;
@@ -2149,8 +2326,9 @@ georec:401  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-6.01086388 39.81793073837241, -5.87718865 39.818308078372695)"^^geosparql:wktLiteral .
 
 georec:4404  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "4404" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2013-03-08"^^xsd:date ;
         dc:identifier           "4404" ;
         dc:title                "Macizo de Teno" ;
@@ -2161,8 +2339,9 @@ georec:4404  a                  btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-6.474180170000001 43.57176522023474, -6.47166136 43.57180241023474)"^^geosparql:wktLiteral .
 
 georec:3294  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "3294" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2013-06-13"^^xsd:date ;
         dc:identifier           "3294" ;
         dc:replaces             "100" ;
@@ -2174,8 +2353,9 @@ georec:3294  a                  btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-2.8923425299999996 43.03437660009373, -2.8766097199999994 43.03458925009381)"^^geosparql:wktLiteral .
 
 georec:443  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "443" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "443" ;
         dc:title                "Peña Rubia" ;
@@ -2186,16 +2366,18 @@ georec:443  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-7.091021490000003 37.24428335599397, -7.061716260000001 37.243651675993284, -7.022147929999999 37.24315701599274)"^^geosparql:wktLiteral .
 
 georec:3083  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "3083" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2012-12-17"^^xsd:date ;
         dc:identifier           "3083" ;
         dc:title                "PARQUE NATURAL MACIZO DE PEÑA CABARGA" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/3083/geometry> .
 
 georec:3867  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "3867" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2013-01-22"^^xsd:date ;
         dc:identifier           "3867" ;
         dc:title                "Paraje Natural Marismas del Odiel" ;
@@ -2206,16 +2388,18 @@ georec:3867  a                  btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-2.2241755799999994 42.83516385003055, -2.0635175699999997 42.83547283003063)"^^geosparql:wktLiteral .
 
 georec:4742  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp>" ;
+        rdfs:label              "4742" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> ;
         dc:created              "2013-01-29"^^xsd:date ;
         dc:identifier           "4742" ;
         dc:title                "Islas Los Perceberos" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/entidad-virtual-resto/4742/geometry> .
 
 georec:413  a                   btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c>" ;
+        rdfs:label              "413" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/no-definido> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> ;
         dc:created              "2012-04-30"^^xsd:date ;
         dc:identifier           "413" ;
         dc:title                "Alto de Mugariluse" ;
@@ -2226,8 +2410,9 @@ georec:413  a                   btn100:EntidadVirtualSinDefinir ;
         geosparql:asWKT  "LINESTRING (-2.5020827900000002 42.68038242997738, -2.4809087899999995 42.68111044997765)"^^geosparql:wktLiteral .
 
 georec:2359  a                  btn100:EntidadVirtualSinDefinir ;
-        geoes:categoriaInteres  "<https://datos.ign.es/kos/accidente-orografico/interes-lugar/principal>" ;
-        geoes:productoFuente    "<https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c>" ;
+        rdfs:label              "2359" ;
+        geoes:categoriaInteres  <https://datos.ign.es/kos/accidente-orografico/interes-lugar/principal> ;
+        geoes:productoFuente    <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c> ;
         dc:created              "2012-11-06"^^xsd:date ;
         dc:identifier           "2359" ;
         dc:title                "PARQUE NACIONAL DE MONFRAGÜE" ;

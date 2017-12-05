@@ -12,6 +12,7 @@
 @prefix dc:    <http://purl.org/dc/terms/> .
 
 georec:10129  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10129" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10129" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10129/geometry> .
@@ -21,6 +22,7 @@ georec:10129  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.60262005 39.550702128164595, 2.6034418999999995 39.55088092816473)"^^geosparql:wktLiteral .
 
 georec:10003  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10003" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10003" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10003/geometry> .
@@ -30,11 +32,13 @@ georec:10003  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.7899926500000003 39.36224335801235, 2.79064464 39.36231879801241)"^^geosparql:wktLiteral .
 
 georec:10160  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10160" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10160" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10160/geometry> .
 
 georec:10075  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10075" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10075" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10075/geometry> .
@@ -44,6 +48,7 @@ georec:10075  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.7119465800000007 39.53356159815093, 2.71226221 39.53348297815088, 2.7123405800000002 39.533665078151024)"^^geosparql:wktLiteral .
 
 georec:10130  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10130" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10130" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10130/geometry> .
@@ -53,16 +58,19 @@ georec:10130  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.38375017 39.54712139816174, 2.3837945200000004 39.547131608161735)"^^geosparql:wktLiteral .
 
 georec:10045  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10045" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10045" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10045/geometry> .
 
 georec:10100  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10100" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10100" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10100/geometry> .
 
 georec:10015  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10015" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10015" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10015/geometry> .
@@ -80,16 +88,19 @@ georec:10015  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.3209000600000005 39.59035100819603, 2.3213122599999996 39.59075543819634, 2.32283853 39.59212643819743, 2.32377692 39.59261209819781, 2.32467818 39.592911088198065, 2.32532712 39.593189918198256)"^^geosparql:wktLiteral .
 
 georec:10172  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10172" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10172" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10172/geometry> .
 
 georec:10087  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10087" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10087" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10087/geometry> .
 
 georec:10142  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10142" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10142" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10142/geometry> .
@@ -99,6 +110,7 @@ georec:10142  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.4807200399999996 39.47699960810561, 2.47999175 39.477149688105726, 2.4792515900000005 39.477321278105876, 2.4785622099999998 39.477524938106036, 2.478064 39.47780554810626, 2.47776861 39.47808407810646, 2.4775896500000005 39.47845641810679)"^^geosparql:wktLiteral .
 
 georec:10057  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10057" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10057" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10057/geometry> .
@@ -112,11 +124,13 @@ georec:10057  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.6864167100000005 39.552890038166325, 2.68643935 39.55269517816619)"^^geosparql:wktLiteral .
 
 georec:10112  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10112" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10112" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10112/geometry> .
 
 georec:10027  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10027" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10027" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10027/geometry> .
@@ -126,11 +140,13 @@ georec:10027  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.6281774999999996 39.55883218817105, 2.62856034 39.55882753817105, 2.62821831 39.55891379817111)"^^geosparql:wktLiteral .
 
 georec:10099  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10099" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10099" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10099/geometry> .
 
 georec:10154  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10154" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10154" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10154/geometry> .
@@ -140,6 +156,7 @@ georec:10154  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.50944592 39.45868351809084, 2.5096155700000002 39.458534668090714, 2.51018226 39.45841040809062)"^^geosparql:wktLiteral .
 
 georec:10069  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10069" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10069" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10069/geometry> .
@@ -153,11 +170,13 @@ georec:10069  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.425361909999999 39.52451086814371, 2.426169270000001 39.525300888144336)"^^geosparql:wktLiteral .
 
 georec:10124  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10124" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10124" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10124/geometry> .
 
 georec:10039  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10039" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10039" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10039/geometry> .
@@ -167,11 +186,13 @@ georec:10039  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.47644769 39.51355543813496, 2.4754937900000002 39.51366446813504, 2.474935 39.513675038135055, 2.47387298 39.51339938813483, 2.4734274200000006 39.51314859813462, 2.4729140400000005 39.512575868134185, 2.4728514899999996 39.512137868133806)"^^geosparql:wktLiteral .
 
 georec:10009  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10009" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10009" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10009/geometry> .
 
 georec:10070  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10070" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10070" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10070/geometry> .
@@ -185,11 +206,13 @@ georec:10070  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.97100657 39.18547746786531, 2.9707706499999995 39.18541893786527)"^^geosparql:wktLiteral .
 
 georec:10166  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10166" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10166" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10166/geometry> .
 
 georec:10040  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10040" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10040" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10040/geometry> .
@@ -199,6 +222,7 @@ georec:10040  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (3.011834669999999 39.305356537965466, 3.01237861 39.30498421796516, 3.012468999999999 39.30463464796489, 3.0123613500000004 39.30426489796457, 3.0120267499999995 39.3039478479643, 3.0116135799999997 39.30374994796413, 3.0111313900000005 39.303614717964024, 3.0108105900000006 39.30360671796402)"^^geosparql:wktLiteral .
 
 georec:10136  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10136" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10136" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10136/geometry> .
@@ -208,16 +232,19 @@ georec:10136  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.5875673500000005 39.53036825814839, 2.5880207800000004 39.530774738148715)"^^geosparql:wktLiteral .
 
 georec:10010  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10010" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10010" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10010/geometry> .
 
 georec:10106  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10106" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10106" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10106/geometry> .
 
 georec:10082  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10082" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10082" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10082/geometry> .
@@ -235,6 +262,7 @@ georec:10082  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.3261645700000004 39.58528969819203, 2.3257650000000005 39.584915428191735)"^^geosparql:wktLiteral .
 
 georec:10052  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10052" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10052" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10052/geometry> .
@@ -244,11 +272,13 @@ georec:10052  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.6693095799999997 39.560688128172536, 2.6691294900000004 39.56067413817251)"^^geosparql:wktLiteral .
 
 georec:10148  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10148" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10148" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10148/geometry> .
 
 georec:10022  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10022" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10022" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10022/geometry> .
@@ -258,6 +288,7 @@ georec:10022  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.4049536600000003 39.623197758221906, 2.4037500300000003 39.62238874822129)"^^geosparql:wktLiteral .
 
 georec:10118  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10118" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10118" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10118/geometry> .
@@ -267,6 +298,7 @@ georec:10118  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.5732253400000005 39.52918347814744, 2.5726976799999997 39.52956600814776, 2.5725817199999996 39.5297713281479, 2.5728420599999997 39.52987455814799)"^^geosparql:wktLiteral .
 
 georec:10094  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10094" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10094" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10094/geometry> .
@@ -284,11 +316,13 @@ georec:10094  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.4034809500000005 39.6221682082211, 2.402959950000001 39.62186393822087, 2.4026689499999994 39.6217840782208)"^^geosparql:wktLiteral .
 
 georec:10064  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10064" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10064" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10064/geometry> .
 
 georec:10034  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10034" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10034" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10034/geometry> .
@@ -310,11 +344,13 @@ georec:10034  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.7003120700000007 39.54347153815883, 2.700391859999999 39.54321241815863)"^^geosparql:wktLiteral .
 
 georec:10004  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10004" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10004" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10004/geometry> .
 
 georec:10161  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10161" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10161" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10161/geometry> .
@@ -324,6 +360,7 @@ georec:10161  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.44382384 39.645929588239746, 2.4434877699999995 39.645980868239775)"^^geosparql:wktLiteral .
 
 georec:10076  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10076" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10076" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10076/geometry> .
@@ -333,11 +370,13 @@ georec:10076  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.48013223 39.46907667809921, 2.48065693 39.46945701809954)"^^geosparql:wktLiteral .
 
 georec:10131  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10131" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10131" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10131/geometry> .
 
 georec:10046  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10046" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10046" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10046/geometry> .
@@ -347,6 +386,7 @@ georec:10046  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.7402465500000006 39.41831944805814, 2.7400076 39.41778209805769, 2.7397719900000004 39.417099078057134, 2.739536029999999 39.416238798056455, 2.7394340300000004 39.41557951805591)"^^geosparql:wktLiteral .
 
 georec:10101  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10101" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10101" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10101/geometry> .
@@ -356,6 +396,7 @@ georec:10101  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.3077567 39.57377355818291, 2.30774027 39.573492628182684, 2.3075562599999997 39.57299353818228, 2.30738917 39.572842238182176)"^^geosparql:wktLiteral .
 
 georec:10016  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10016" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10016" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10016/geometry> .
@@ -365,11 +406,13 @@ georec:10016  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.61506833 39.54858315816291, 2.6153080100000006 39.5484515981628)"^^geosparql:wktLiteral .
 
 georec:10173  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10173" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10173" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10173/geometry> .
 
 georec:10088  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10088" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10088" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10088/geometry> .
@@ -387,11 +430,13 @@ georec:10088  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.5349577599999993 39.49583310812074, 2.5360267799999994 39.49622849812106, 2.5364739000000007 39.49652726812131, 2.5367076600000003 39.49692637812163, 2.53676862 39.49743325812202)"^^geosparql:wktLiteral .
 
 georec:10143  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10143" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10143" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10143/geometry> .
 
 georec:10058  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10058" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10058" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10058/geometry> .
@@ -401,6 +446,7 @@ georec:10058  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.45806908 39.50642372812922, 2.45749859 39.50592939812885, 2.4567226700000004 39.504967928128075, 2.45665788 39.504616618127784, 2.457269529999999 39.5045105581277, 2.4577961299999993 39.50469131812786)"^^geosparql:wktLiteral .
 
 georec:10113  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10113" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10113" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10113/geometry> .
@@ -410,6 +456,7 @@ georec:10113  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.38502976 39.54752186816206, 2.3850691999999993 39.547527928162054)"^^geosparql:wktLiteral .
 
 georec:10028  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10028" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10028" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10028/geometry> .
@@ -427,6 +474,7 @@ georec:10028  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.440449259999999 39.53344564815084, 2.4415159100000006 39.53371064815108)"^^geosparql:wktLiteral .
 
 georec:10155  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10155" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10155" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10155/geometry> .
@@ -440,6 +488,7 @@ georec:10155  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.4593676000000007 39.507358758129996, 2.45896251 39.50719262812985)"^^geosparql:wktLiteral .
 
 georec:10125  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10125" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10125" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10125/geometry> .
@@ -453,6 +502,7 @@ georec:10125  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.97731054 39.16961273785193, 2.9774649 39.169578777851896, 2.97775387 39.16941318785177, 2.977877650000001 39.169166277851545)"^^geosparql:wktLiteral .
 
 georec:10071  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10071" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10071" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10071/geometry> .
@@ -462,11 +512,13 @@ georec:10071  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.54243015 39.524093998143385, 2.542992079999999 39.52397051814328, 2.5433906699999995 39.52409598814339)"^^geosparql:wktLiteral .
 
 georec:10167  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10167" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10167" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10167/geometry> .
 
 georec:10041  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10041" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10041" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10041/geometry> .
@@ -480,11 +532,13 @@ georec:10041  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.6658087900000007 39.560231838172164, 2.6659134900000003 39.560200868172146)"^^geosparql:wktLiteral .
 
 georec:10137  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10137" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10137" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10137/geometry> .
 
 georec:10011  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10011" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10011" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10011/geometry> .
@@ -502,6 +556,7 @@ georec:10011  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.449234960000001 39.536389558153196, 2.44970822 39.536365788153184)"^^geosparql:wktLiteral .
 
 georec:10107  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10107" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10107" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10107/geometry> .
@@ -511,11 +566,13 @@ georec:10107  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.97916854 39.20628534788285, 2.9794380700000005 39.20632563788288)"^^geosparql:wktLiteral .
 
 georec:10083  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10083" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10083" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10083/geometry> .
 
 georec:10053  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10053" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10053" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10053/geometry> .
@@ -529,11 +586,13 @@ georec:10053  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.6129927899999994 39.549156508163364, 2.61337145 39.54913933816334)"^^geosparql:wktLiteral .
 
 georec:10149  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10149" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10149" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10149/geometry> .
 
 georec:10023  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10023" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10023" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10023/geometry> .
@@ -551,11 +610,13 @@ georec:10023  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.5578046399999996 39.52991186814804, 2.55816536 39.529947848148055, 2.558133600000001 39.5303774481484)"^^geosparql:wktLiteral .
 
 georec:10119  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10119" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10119" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10119/geometry> .
 
 georec:10095  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10095" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10095" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10095/geometry> .
@@ -565,11 +626,13 @@ georec:10095  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.7583315699999997 39.38952799803468, 2.759398730000001 39.38882945803412)"^^geosparql:wktLiteral .
 
 georec:10150  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10150" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10150" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10150/geometry> .
 
 georec:10065  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10065" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10065" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10065/geometry> .
@@ -579,6 +642,7 @@ georec:10065  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.31328269 39.57434421818336, 2.3127683099999996 39.574222038183265)"^^geosparql:wktLiteral .
 
 georec:10120  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10120" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10120" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10120/geometry> .
@@ -592,6 +656,7 @@ georec:10120  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.6405659199999993 39.56525975817616, 2.6404865200000014 39.56521946817612)"^^geosparql:wktLiteral .
 
 georec:10035  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10035" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10035" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10035/geometry> .
@@ -601,6 +666,7 @@ georec:10035  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.42746255 39.639006848234324, 2.4260690399999993 39.638354048233815)"^^geosparql:wktLiteral .
 
 georec:10005  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10005" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10005" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10005/geometry> .
@@ -610,6 +676,7 @@ georec:10005  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.3881652 39.53376932815111, 2.3882067299999994 39.533753778151095)"^^geosparql:wktLiteral .
 
 georec:10162  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10162" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10162" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10162/geometry> .
@@ -619,11 +686,13 @@ georec:10162  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.4684790799999994 39.51287799813439, 2.46770156 39.513119158134614, 2.4667334199999997 39.51307642813457, 2.4662799399999997 39.512981318134486, 2.4660123999999994 39.512832688134374, 2.4659145099999993 39.5126304181342, 2.4662920299999995 39.51236053813399)"^^geosparql:wktLiteral .
 
 georec:10077  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10077" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10077" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10077/geometry> .
 
 georec:10132  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10132" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10132" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10132/geometry> .
@@ -633,6 +702,7 @@ georec:10132  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.52589123 39.47914526810734, 2.5259654500000006 39.479277088107445)"^^geosparql:wktLiteral .
 
 georec:10047  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10047" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10047" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10047/geometry> .
@@ -642,6 +712,7 @@ georec:10047  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.477443839999999 39.48859441811493, 2.47736219 39.489967688116025)"^^geosparql:wktLiteral .
 
 georec:10102  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10102" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10102" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10102/geometry> .
@@ -651,6 +722,7 @@ georec:10102  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.743376209999999 39.446915098081334, 2.74360839 39.44664630808112)"^^geosparql:wktLiteral .
 
 georec:10017  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10017" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10017" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10017/geometry> .
@@ -664,11 +736,13 @@ georec:10017  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.6275627699999986 39.5452103381602, 2.629010479999999 39.5456860481606)"^^geosparql:wktLiteral .
 
 georec:10174  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10174" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10174" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10174/geometry> .
 
 georec:10089  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10089" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10089" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10089/geometry> .
@@ -678,11 +752,13 @@ georec:10089  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.743055500000001 39.4493641880833, 2.7432080500000007 39.449244598083204)"^^geosparql:wktLiteral .
 
 georec:10144  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10144" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10144" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10144/geometry> .
 
 georec:10059  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10059" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10059" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10059/geometry> .
@@ -692,16 +768,19 @@ georec:10059  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.79608428 39.36333910801323, 2.797308809999999 39.363441738013336, 2.7980634600000003 39.36355053801341, 2.799363490000001 39.364066428013835)"^^geosparql:wktLiteral .
 
 georec:10114  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10114" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10114" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10114/geometry> .
 
 georec:10029  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10029" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10029" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10029/geometry> .
 
 georec:10090  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10090" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10090" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10090/geometry> .
@@ -715,6 +794,7 @@ georec:10090  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.5460117500000004 39.50420917812746, 2.5465104199999997 39.50378402812712, 2.546815940000001 39.50344395812687, 2.54700951 39.502841878126375, 2.546819410000001 39.50268308812625, 2.5462970000000005 39.50255229812613)"^^geosparql:wktLiteral .
 
 georec:10060  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10060" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10060" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10060/geometry> .
@@ -724,11 +804,13 @@ georec:10060  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.6676617399999993 39.56015642817211, 2.66762813 39.56022464817215)"^^geosparql:wktLiteral .
 
 georec:10156  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10156" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10156" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10156/geometry> .
 
 georec:10030  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10030" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10030" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10030/geometry> .
@@ -738,11 +820,13 @@ georec:10030  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.53060339 39.48125701810902, 2.530841170000001 39.48157424810929, 2.53118979 39.4823351681099)"^^geosparql:wktLiteral .
 
 georec:10126  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10126" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10126" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10126/geometry> .
 
 georec:10000  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10000" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10000" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10000/geometry> .
@@ -756,6 +840,7 @@ georec:10000  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.70824158 39.53696912815365, 2.7087603 39.536642238153384, 2.7094929700000003 39.536396178153204)"^^geosparql:wktLiteral .
 
 georec:10072  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10072" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10072" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10072/geometry> .
@@ -769,11 +854,13 @@ georec:10072  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.7708473899999997 39.38299283802934, 2.771157790000001 39.3826961480291)"^^geosparql:wktLiteral .
 
 georec:10168  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10168" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10168" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10168/geometry> .
 
 georec:10042  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10042" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10042" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10042/geometry> .
@@ -783,11 +870,13 @@ georec:10042  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.62984671 39.55771257817017, 2.62981957 39.55817135817053, 2.6297046699999997 39.558763968171)"^^geosparql:wktLiteral .
 
 georec:10138  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10138" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10138" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10138/geometry> .
 
 georec:10012  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10012" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10012" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10012/geometry> .
@@ -801,6 +890,7 @@ georec:10012  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.3889537400000007 39.533048628150524, 2.3890635400000004 39.53292812815044)"^^geosparql:wktLiteral .
 
 georec:10108  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10108" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10108" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10108/geometry> .
@@ -810,6 +900,7 @@ georec:10108  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.3830503500000004 39.54680498816149, 2.38308698 39.546815708161496)"^^geosparql:wktLiteral .
 
 georec:10084  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10084" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10084" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10084/geometry> .
@@ -823,6 +914,7 @@ georec:10084  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.4660402500000007 39.49610665812096, 2.4667900400000007 39.49575583812069)"^^geosparql:wktLiteral .
 
 georec:10054  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10054" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10054" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10054/geometry> .
@@ -832,6 +924,7 @@ georec:10054  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.7163469500000006 39.53230307814993, 2.7163511699999985 39.53220955814987, 2.71670573 39.53233703814996)"^^geosparql:wktLiteral .
 
 georec:10024  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10024" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10024" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10024/geometry> .
@@ -845,16 +938,19 @@ georec:10024  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.6215101000000005 39.550145118164146, 2.6220314700000005 39.55022454816421, 2.62292193 39.55020280816419, 2.62354872 39.550259248164245, 2.6249710800000003 39.55097792816481)"^^geosparql:wktLiteral .
 
 georec:10096  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10096" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10096" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10096/geometry> .
 
 georec:10151  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10151" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10151" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10151/geometry> .
 
 georec:10066  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10066" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10066" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10066/geometry> .
@@ -872,6 +968,7 @@ georec:10066  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.4593793900000005 39.504746078127894, 2.46005762 39.504562398127746, 2.46022738 39.504460458127674)"^^geosparql:wktLiteral .
 
 georec:10121  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10121" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10121" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10121/geometry> .
@@ -881,6 +978,7 @@ georec:10121  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.3833748299999997 39.54714480816176, 2.38342685 39.54712531816175)"^^geosparql:wktLiteral .
 
 georec:10036  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10036" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10036" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10036/geometry> .
@@ -890,6 +988,7 @@ georec:10036  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.63619188 39.567659318178066, 2.6362541699999995 39.56768207817809)"^^geosparql:wktLiteral .
 
 georec:10006  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10006" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10006" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10006/geometry> .
@@ -899,11 +998,13 @@ georec:10006  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.512952110000001 39.458881448091, 2.5134665600000003 39.458875978090994, 2.5143805200000005 39.45879558809092)"^^geosparql:wktLiteral .
 
 georec:10163  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10163" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10163" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10163/geometry> .
 
 georec:10078  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10078" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10078" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10078/geometry> .
@@ -913,6 +1014,7 @@ georec:10078  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.46995996 39.512615578134195, 2.4690371399999997 39.51273291813431, 2.46872625 39.51281260813435)"^^geosparql:wktLiteral .
 
 georec:10133  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10133" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10133" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10133/geometry> .
@@ -922,16 +1024,19 @@ georec:10133  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.7507137900000003 39.49989683812401, 2.7501379099999994 39.50036264812438)"^^geosparql:wktLiteral .
 
 georec:10048  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10048" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10048" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10048/geometry> .
 
 georec:10103  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10103" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10103" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10103/geometry> .
 
 georec:10018  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10018" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10018" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10018/geometry> .
@@ -949,6 +1054,7 @@ georec:10018  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.4775132000000006 39.48784438811432, 2.4775131200000002 39.487848278114335)"^^geosparql:wktLiteral .
 
 georec:10175  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10175" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10175" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10175/geometry> .
@@ -962,6 +1068,7 @@ georec:10175  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.34976334 39.58087974818854, 2.34977833 39.58043184818819, 2.349719430000001 39.579533708187476, 2.34994969 39.578995248187056, 2.35027052 39.578825928186916, 2.35126816 39.57861047818675)"^^geosparql:wktLiteral .
 
 georec:10145  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10145" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10145" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10145/geometry> .
@@ -971,6 +1078,7 @@ georec:10145  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.5756337600000014 39.5320199781497, 2.5757264200000005 39.53235463814998)"^^geosparql:wktLiteral .
 
 georec:10115  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10115" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10115" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10115/geometry> .
@@ -980,6 +1088,7 @@ georec:10115  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.4399485099999993 39.64437647823853, 2.439207290000001 39.6442259682384, 2.437525449999999 39.643751978238036)"^^geosparql:wktLiteral .
 
 georec:10091  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10091" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10091" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10091/geometry> .
@@ -989,6 +1098,7 @@ georec:10091  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.5845451400000004 39.533033308150515, 2.5855664499999995 39.53306054815053)"^^geosparql:wktLiteral .
 
 georec:10061  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10061" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10061" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10061/geometry> .
@@ -1002,11 +1112,13 @@ georec:10061  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.406665050000001 39.53104026814893, 2.406830200000001 39.531078708148954, 2.4069698899999996 39.53134643814917, 2.4068979400000003 39.53220798814986, 2.40662318 39.53309390815056)"^^geosparql:wktLiteral .
 
 georec:10157  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10157" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10157" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10157/geometry> .
 
 georec:10031  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10031" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10031" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10031/geometry> .
@@ -1020,6 +1132,7 @@ georec:10031  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.4677507599999995 39.509882298132005, 2.46749874 39.510240728132295, 2.4669029999999994 39.511300488133145)"^^geosparql:wktLiteral .
 
 georec:10127  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10127" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10127" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10127/geometry> .
@@ -1029,6 +1142,7 @@ georec:10127  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.32200769 39.581179228188766, 2.32235377 39.58064604818835, 2.3222407099999995 39.58038446818814)"^^geosparql:wktLiteral .
 
 georec:10001  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10001" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10001" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10001/geometry> .
@@ -1038,6 +1152,7 @@ georec:10001  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.33252519 39.5889101481949, 2.3323348999999998 39.588844018194834)"^^geosparql:wktLiteral .
 
 georec:10073  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10073" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10073" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10073/geometry> .
@@ -1051,11 +1166,13 @@ georec:10073  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.4661132500000007 39.52433277814356, 2.466213699999999 39.52393711814326, 2.4662848800000003 39.52314469814262, 2.4664571200000003 39.52283472814238, 2.4668529300000004 39.5226116781422, 2.4675276300000006 39.52254054814214)"^^geosparql:wktLiteral .
 
 georec:10169  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10169" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10169" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10169/geometry> .
 
 georec:10043  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10043" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10043" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10043/geometry> .
@@ -1069,11 +1186,13 @@ georec:10043  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.7330114499999993 39.46016088809203, 2.733608330000001 39.45979212809175)"^^geosparql:wktLiteral .
 
 georec:10139  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10139" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10139" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10139/geometry> .
 
 georec:10013  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10013" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10013" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10013/geometry> .
@@ -1083,11 +1202,13 @@ georec:10013  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.4317029700000004 39.52859712814697, 2.4317373 39.52806001814653, 2.4320517600000002 39.527799508146344)"^^geosparql:wktLiteral .
 
 georec:10109  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10109" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10109" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10109/geometry> .
 
 georec:10170  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10170" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10170" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10170/geometry> .
@@ -1097,6 +1218,7 @@ georec:10170  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.62848465 39.55716557816972, 2.6284087899999995 39.55727775816982)"^^geosparql:wktLiteral .
 
 georec:10085  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10085" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10085" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10085/geometry> .
@@ -1106,6 +1228,7 @@ georec:10085  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.4914266400000002 39.472168098101726, 2.49202725 39.47178331810141, 2.49291372 39.47162461810127)"^^geosparql:wktLiteral .
 
 georec:10140  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10140" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10140" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10140/geometry> .
@@ -1115,16 +1238,19 @@ georec:10140  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.350833319999999 39.56338693817466, 2.35168295 39.563430098174706, 2.351977090000001 39.5635280781748, 2.3523064899999993 39.563752828174955)"^^geosparql:wktLiteral .
 
 georec:10055  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10055" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10055" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10055/geometry> .
 
 georec:10110  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10110" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10110" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10110/geometry> .
 
 georec:10025  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10025" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10025" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10025/geometry> .
@@ -1138,6 +1264,7 @@ georec:10025  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.52321505 39.469995038099974, 2.5233922800000004 39.47046183810035)"^^geosparql:wktLiteral .
 
 georec:10097  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10097" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10097" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10097/geometry> .
@@ -1147,6 +1274,7 @@ georec:10097  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.3808343 39.54651572816126, 2.3809799799999998 39.54662474816136)"^^geosparql:wktLiteral .
 
 georec:10152  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10152" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10152" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10152/geometry> .
@@ -1156,6 +1284,7 @@ georec:10152  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.66889901 39.56236054817384, 2.66896413 39.562380838173866)"^^geosparql:wktLiteral .
 
 georec:10067  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10067" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10067" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10067/geometry> .
@@ -1165,11 +1294,13 @@ georec:10067  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.3660760099999996 39.53604470815292, 2.3659551 39.53578153815272, 2.3660051300000005 39.53542491815242)"^^geosparql:wktLiteral .
 
 georec:10122  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10122" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10122" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10122/geometry> .
 
 georec:10037  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10037" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10037" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10037/geometry> .
@@ -1187,6 +1318,7 @@ georec:10037  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.61862499 39.54552762816047, 2.6191895000000005 39.54514904816018, 2.61942829 39.545058038160086)"^^geosparql:wktLiteral .
 
 georec:10007  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10007" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10007" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10007/geometry> .
@@ -1196,11 +1328,13 @@ georec:10007  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.4631138599999995 39.4985286281229, 2.463664410000001 39.4982652681227)"^^geosparql:wktLiteral .
 
 georec:10164  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10164" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10164" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10164/geometry> .
 
 georec:10079  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10079" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10079" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10079/geometry> .
@@ -1214,11 +1348,13 @@ georec:10079  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.4595282399999996 39.50802029813052, 2.45967119 39.50776629813031)"^^geosparql:wktLiteral .
 
 georec:10134  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10134" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10134" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10134/geometry> .
 
 georec:10049  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10049" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10049" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10049/geometry> .
@@ -1232,16 +1368,19 @@ georec:10049  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.4226141199999995 39.632625238229316, 2.422449380000001 39.63171116822859, 2.42223172 39.63103610822807)"^^geosparql:wktLiteral .
 
 georec:10104  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10104" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10104" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10104/geometry> .
 
 georec:10019  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10019" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10019" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10019/geometry> .
 
 georec:10080  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10080" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10080" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10080/geometry> .
@@ -1251,6 +1390,7 @@ georec:10080  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.36828107 39.55050703816444, 2.368303140000001 39.550191888164186, 2.36858172 39.54940683816357)"^^geosparql:wktLiteral .
 
 georec:10050  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10050" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10050" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10050/geometry> .
@@ -1264,11 +1404,13 @@ georec:10050  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.9743671199999997 39.20022404787775, 2.974132790000001 39.1998169478774)"^^geosparql:wktLiteral .
 
 georec:10146  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10146" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10146" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10146/geometry> .
 
 georec:10020  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10020" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10020" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10020/geometry> .
@@ -1278,6 +1420,7 @@ georec:10020  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.32661014 39.59370991819868, 2.3269502500000003 39.593841608198794, 2.3276333799999995 39.59420617819906, 2.32860675 39.594652788199426, 2.32959852 39.5950005881997, 2.3311462799999996 39.59547125820007)"^^geosparql:wktLiteral .
 
 georec:10116  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10116" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10116" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10116/geometry> .
@@ -1287,6 +1430,7 @@ georec:10116  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.3079648899999996 39.57501009818388, 2.30785568 39.57445659818346)"^^geosparql:wktLiteral .
 
 georec:10092  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10092" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10092" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10092/geometry> .
@@ -1300,6 +1444,7 @@ georec:10092  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.4683694499999995 39.51110358813299, 2.4684088999999996 39.51107216813294)"^^geosparql:wktLiteral .
 
 georec:10062  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10062" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10062" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10062/geometry> .
@@ -1309,11 +1454,13 @@ georec:10062  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.32185284 39.580035978187865, 2.32053611 39.57921207818722, 2.31996649 39.5788131681869)"^^geosparql:wktLiteral .
 
 georec:10158  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10158" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10158" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10158/geometry> .
 
 georec:10032  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10032" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10032" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10032/geometry> .
@@ -1327,11 +1474,13 @@ georec:10032  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.3282757699999994 39.587540128193794, 2.32820011 39.58748423819375)"^^geosparql:wktLiteral .
 
 georec:10128  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10128" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10128" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10128/geometry> .
 
 georec:10002  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10002" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10002" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10002/geometry> .
@@ -1349,6 +1498,7 @@ georec:10002  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.5326503200000006 39.48453998811167, 2.5327809200000004 39.484724618111834)"^^geosparql:wktLiteral .
 
 georec:10074  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10074" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10074" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10074/geometry> .
@@ -1358,6 +1508,7 @@ georec:10074  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.6685714599999995 39.5604009181723, 2.6688797899999996 39.55999851817197)"^^geosparql:wktLiteral .
 
 georec:10044  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10044" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10044" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10044/geometry> .
@@ -1367,6 +1518,7 @@ georec:10044  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.3948939999999994 39.61766298821756, 2.3936589200000005 39.617333888217296, 2.3928710900000003 39.61715130821717, 2.3918476300000004 39.616962608217, 2.39154998 39.616963998216995, 2.3910336499999993 39.61716445821717, 2.3900389 39.617010268217044, 2.38954922 39.616703748216814, 2.38867043 39.61624512821646, 2.3875537500000004 39.61559426821592, 2.38679986 39.615124248215565, 2.3858366700000007 39.614320538214926, 2.3855047399999996 39.61422318821484)"^^geosparql:wktLiteral .
 
 georec:10014  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10014" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10014" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10014/geometry> .
@@ -1376,6 +1528,7 @@ georec:10014  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.52350674 39.470798268100616, 2.52366979 39.47120118810093, 2.5237617 39.47184036810146, 2.5235644400000004 39.47196859810157, 2.5232454 39.47198667810157, 2.5224049900000005 39.47182511810144, 2.5221209200000003 39.47183877810144)"^^geosparql:wktLiteral .
 
 georec:10171  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10171" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10171" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10171/geometry> .
@@ -1385,6 +1538,7 @@ georec:10171  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.47000241 39.51918958813946, 2.47042379 39.51912118813939)"^^geosparql:wktLiteral .
 
 georec:10086  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10086" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10086" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10086/geometry> .
@@ -1394,11 +1548,13 @@ georec:10086  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.9693633500000005 39.18486701786481, 2.9693343800000007 39.18456246786455)"^^geosparql:wktLiteral .
 
 georec:10141  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10141" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10141" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10141/geometry> .
 
 georec:10056  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10056" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10056" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10056/geometry> .
@@ -1408,6 +1564,7 @@ georec:10056  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.6374448899999994 39.568271538178536, 2.6362886499999996 39.56781182817819)"^^geosparql:wktLiteral .
 
 georec:10111  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10111" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10111" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10111/geometry> .
@@ -1417,6 +1574,7 @@ georec:10111  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.54688764 39.510958778132874, 2.5471221499999994 39.511377218133205, 2.5468744200000004 39.51163585813344, 2.5464768200000005 39.5118638581336, 2.54591848 39.51209217813377, 2.5452600500000004 39.51226633813391, 2.544558800000001 39.51238007813401, 2.5440215 39.51239814813402, 2.5435415199999993 39.51250228813411)"^^geosparql:wktLiteral .
 
 georec:10026  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10026" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10026" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10026/geometry> .
@@ -1430,6 +1588,7 @@ georec:10026  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.4385085800000006 39.53247465815007, 2.439136739999999 39.53226527814991, 2.4392411699999994 39.532402688150015)"^^geosparql:wktLiteral .
 
 georec:10098  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10098" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10098" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10098/geometry> .
@@ -1443,16 +1602,19 @@ georec:10098  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.629726070000001 39.558024158170404, 2.629852010000001 39.55748949816999)"^^geosparql:wktLiteral .
 
 georec:10153  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10153" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10153" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10153/geometry> .
 
 georec:10068  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10068" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10068" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10068/geometry> .
 
 georec:10123  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10123" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10123" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10123/geometry> .
@@ -1462,6 +1624,7 @@ georec:10123  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.7858455099999997 39.36529837801485, 2.78612202 39.3647452580144)"^^geosparql:wktLiteral .
 
 georec:10038  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10038" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10038" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10038/geometry> .
@@ -1471,6 +1634,7 @@ georec:10038  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.4054521500000003 39.52942550814764, 2.4057048999999995 39.52948912814769, 2.4060196299999994 39.529876068148)"^^geosparql:wktLiteral .
 
 georec:10008  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10008" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10008" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10008/geometry> .
@@ -1480,6 +1644,7 @@ georec:10008  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.3865697300000006 39.52115338814103, 2.3870785699999995 39.520932198140855, 2.3875593399999997 39.52097395814089, 2.3881873299999996 39.521237478141096, 2.3888386900000005 39.52145157814127)"^^geosparql:wktLiteral .
 
 georec:10165  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10165" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10165" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10165/geometry> .
@@ -1489,6 +1654,7 @@ georec:10165  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (3.47551339 39.70835163828835, 3.4753843 39.70844173828842, 3.4755494299999996 39.70854752828851)"^^geosparql:wktLiteral .
 
 georec:10135  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10135" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10135" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10135/geometry> .
@@ -1510,11 +1676,13 @@ georec:10135  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.3137570799999994 39.57451577818352, 2.31388297 39.574563448183525, 2.3139056 39.57457199818355)"^^geosparql:wktLiteral .
 
 georec:10105  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10105" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10105" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10105/geometry> .
 
 georec:10081  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10081" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10081" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10081/geometry> .
@@ -1532,6 +1700,7 @@ georec:10081  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.6362552400000006 39.567796538178186, 2.6352944399999996 39.567361928177824)"^^geosparql:wktLiteral .
 
 georec:10051  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10051" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10051" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10051/geometry> .
@@ -1541,11 +1710,13 @@ georec:10051  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.629050350000001 39.561384518173085, 2.629056780000001 39.561402568173094)"^^geosparql:wktLiteral .
 
 georec:10147  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10147" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10147" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10147/geometry> .
 
 georec:10021  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10021" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10021" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10021/geometry> .
@@ -1555,11 +1726,13 @@ georec:10021  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.5437187199999993 39.50453472812774, 2.5436590400000005 39.5047510181279, 2.5438218200000002 39.504938858128064, 2.54421786 39.50490001812803, 2.54530372 39.50459006812778)"^^geosparql:wktLiteral .
 
 georec:10117  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10117" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10117" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10117/geometry> .
 
 georec:10093  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10093" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10093" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10093/geometry> .
@@ -1569,6 +1742,7 @@ georec:10093  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.4679783099999995 39.65743254824872, 2.4665705300000003 39.656357558247905)"^^geosparql:wktLiteral .
 
 georec:10063  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10063" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10063" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10063/geometry> .
@@ -1582,11 +1756,13 @@ georec:10063  a                btn100:CurvaNivelMaestra ;
         geosparql:asWKT  "LINESTRING (2.6138913400000003 39.54900472816323, 2.6143679 39.54884088816309)"^^geosparql:wktLiteral .
 
 georec:10159  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10159" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10159" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10159/geometry> .
 
 georec:10033  a                btn100:CurvaNivelMaestra ;
+        rdfs:label             "10033" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "10033" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-maestra/10033/geometry> .

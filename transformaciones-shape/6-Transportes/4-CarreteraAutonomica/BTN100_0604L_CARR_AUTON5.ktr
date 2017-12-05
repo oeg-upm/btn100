@@ -329,7 +329,7 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <filename>D:\Proyectos\GeoLinkedData 2017\BTN100\Tema 6 - Transportes\6.4 - Carretera autonomica\BTN100_0604L_CARR_AUTON.shp</filename>
+    <filename>${Internal.Transformation.Filename.Directory}/BTN100_0604L_CARR_AUTON.shp</filename>
     <isfilenameinfield>N</isfilenameinfield>
     <filenamefield/>
     <limit>0</limit>
@@ -368,7 +368,7 @@
     <fileNameInField>N</fileNameInField>
     <fileNameField/>
     <file>
-      <name>D:\Proyectos\GeoLinkedData 2017\BTN100\Tema 6 - Transportes\6.4 - Carretera autonomica\BTN100_0604L_CARR_AUTON5</name>
+      <name>${Internal.Transformation.Filename.Directory}/BTN100_0604L_CARR_AUTON5</name>
       <is_command>N</is_command>
       <do_not_open_new_file_init>N</do_not_open_new_file_init>
       <extention>ttl</extention>

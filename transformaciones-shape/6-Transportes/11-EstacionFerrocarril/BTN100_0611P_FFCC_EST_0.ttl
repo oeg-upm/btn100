@@ -12,9 +12,10 @@
 @prefix dc:    <http://purl.org/dc/terms/> .
 
 georec:351  a                   btn100:EstacionDeSuministro ;
+        rdfs:label              "351" ;
         geoes:codigoDeEstacion  "70121" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> ;
         dc:created              "2012-09-19"^^xsd:date ;
         dc:identifier           "351" ;
         dc:replaces             "5703" ;
@@ -22,9 +23,10 @@ georec:351  a                   btn100:EstacionDeSuministro ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/estacion-suministro/351/geometry> .
 
 georec:1295  a                  btn100:EstacionDeSuministro ;
+        rdfs:label              "1295" ;
         geoes:codigoDeEstacion  "60121" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> ;
         dc:created              "2012-08-22"^^xsd:date ;
         dc:identifier           "1295" ;
         dc:replaces             "5703" ;

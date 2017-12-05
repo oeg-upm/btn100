@@ -16,9 +16,10 @@
         geosparql:asWKT  "POINT (-3.5506361099999997 39.44307946755116)"^^geosparql:wktLiteral .
 
 georec:311  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "311" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "711.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-05-07"^^xsd:date ;
         dc:identifier                   "311" ;
         dc:replaces                     "0.0" ;
@@ -30,9 +31,10 @@ georec:311  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-5.681477059999999 42.49817441937536)"^^geosparql:wktLiteral .
 
 georec:618  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "618" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "684.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-04-03"^^xsd:date ;
         dc:identifier                   "618" ;
         dc:replaces                     "0.0" ;
@@ -40,9 +42,10 @@ georec:618  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/618/geometry> .
 
 georec:594  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "594" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "328.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-05-17"^^xsd:date ;
         dc:identifier                   "594" ;
         dc:replaces                     "0.0" ;
@@ -58,9 +61,10 @@ georec:594  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-6.344102339999999 39.32906487745841)"^^geosparql:wktLiteral .
 
 georec:298  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "298" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "197.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-01-23"^^xsd:date ;
         dc:identifier                   "298" ;
         dc:replaces                     "0.0" ;
@@ -68,9 +72,10 @@ georec:298  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/298/geometry> .
 
 georec:172  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "172" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "256.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-09-30"^^xsd:date ;
         dc:identifier                   "172" ;
         dc:replaces                     "0.0" ;
@@ -82,9 +87,10 @@ georec:172  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-4.28986634 42.59310655941079)"^^geosparql:wktLiteral .
 
 georec:268  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "268" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "850.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-01-21"^^xsd:date ;
         dc:identifier                   "268" ;
         dc:replaces                     "0.0" ;
@@ -100,9 +106,10 @@ georec:268  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (1.5538963900000005 41.74639933904851)"^^geosparql:wktLiteral .
 
 georec:323  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "323" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "26.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-04-11"^^xsd:date ;
         dc:identifier                   "323" ;
         dc:replaces                     "0.0" ;
@@ -130,9 +137,10 @@ georec:323  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-6.837788620000001 38.8555871070553)"^^geosparql:wktLiteral .
 
 georec:631  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "631" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "823.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-07-18"^^xsd:date ;
         dc:identifier                   "631" ;
         dc:replaces                     "0.0" ;
@@ -144,9 +152,10 @@ georec:631  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-4.386345788066898 39.010879724299244)"^^geosparql:wktLiteral .
 
 georec:154  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "154" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "80.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-10-18"^^xsd:date ;
         dc:identifier                   "154" ;
         dc:replaces                     "0.0" ;
@@ -166,9 +175,10 @@ georec:154  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-2.1424601400000003 40.201453548124405)"^^geosparql:wktLiteral .
 
 georec:91  a                            btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "91" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "621.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-08-29"^^xsd:date ;
         dc:identifier                   "91" ;
         dc:replaces                     "0.0" ;
@@ -176,10 +186,11 @@ georec:91  a                            btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/91/geometry> .
 
 georec:305  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "305" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "749.0" ;
         geoes:icaoCode                  "LELA" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-02-03"^^xsd:date ;
         dc:identifier                   "305" ;
         dc:replaces                     "0.0" ;
@@ -191,9 +202,10 @@ georec:305  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-4.79144831 40.60457600839758)"^^geosparql:wktLiteral .
 
 georec:281  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "281" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "1113.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-05-08"^^xsd:date ;
         dc:identifier                   "281" ;
         dc:replaces                     "0.0" ;
@@ -205,9 +217,10 @@ georec:281  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-5.662435996997036 39.56118401495262)"^^geosparql:wktLiteral .
 
 georec:588  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "588" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "434.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2006-08-10"^^xsd:date ;
         dc:identifier                   "588" ;
         dc:replaces                     "25562.0" ;
@@ -219,9 +232,10 @@ georec:588  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (0.48196681 42.02185997917776)"^^geosparql:wktLiteral .
 
 georec:5  a                             btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "5" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "1133.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-04-21"^^xsd:date ;
         dc:identifier                   "5" ;
         dc:replaces                     "0.0" ;
@@ -241,9 +255,10 @@ georec:5  a                             btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-0.4724942099999999 38.44042514667849)"^^geosparql:wktLiteral .
 
 georec:221  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "221" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "712.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-02-04"^^xsd:date ;
         dc:identifier                   "221" ;
         dc:replaces                     "0.0" ;
@@ -255,9 +270,10 @@ georec:221  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-3.9998254999999996 43.400609059658414)"^^geosparql:wktLiteral .
 
 georec:528  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "528" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "171.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-12-27"^^xsd:date ;
         dc:identifier                   "528" ;
         dc:replaces                     "0.0" ;
@@ -273,9 +289,10 @@ georec:528  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-2.364687440936273 37.73542066808976)"^^geosparql:wktLiteral .
 
 georec:263  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "263" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "700.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-08-22"^^xsd:date ;
         dc:identifier                   "263" ;
         dc:replaces                     "0.0" ;
@@ -295,9 +312,10 @@ georec:263  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-8.76269189 43.10234492957818)"^^geosparql:wktLiteral .
 
 georec:203  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena>" ;
+        rdfs:label                      "203" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
         geoes:elevation                 "1124.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-06-20"^^xsd:date ;
         dc:identifier                   "203" ;
         dc:replaces                     "0.0" ;
@@ -305,10 +323,11 @@ georec:203  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/203/geometry> .
 
 georec:118  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "118" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "209.0" ;
         geoes:icaoCode                  "LEAT" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-04-26"^^xsd:date ;
         dc:identifier                   "118" ;
         dc:replaces                     "0.0" ;
@@ -316,9 +335,10 @@ georec:118  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/118/geometry> .
 
 georec:85  a                            btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "85" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "839.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-02-04"^^xsd:date ;
         dc:identifier                   "85" ;
         dc:replaces                     "0.0" ;
@@ -330,9 +350,10 @@ georec:85  a                            btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-3.594695350000001 40.660262638433544)"^^geosparql:wktLiteral .
 
 georec:486  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "486" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "719.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-05-09"^^xsd:date ;
         dc:identifier                   "486" ;
         dc:replaces                     "0.0" ;
@@ -344,9 +365,10 @@ georec:486  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (2.7019888799999996 39.6010870976769)"^^geosparql:wktLiteral .
 
 georec:456  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "456" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "55.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-05-02"^^xsd:date ;
         dc:identifier                   "456" ;
         dc:replaces                     "0.0" ;
@@ -370,10 +392,11 @@ georec:456  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-5.268987740000001 37.677224535930854)"^^geosparql:wktLiteral .
 
 georec:300  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "300" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "646.0" ;
         geoes:icaoCode                  "LECT" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-02-03"^^xsd:date ;
         dc:identifier                   "300" ;
         dc:replaces                     "0.0" ;
@@ -385,10 +408,11 @@ georec:300  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-4.027013565446916 40.2347779697354)"^^geosparql:wktLiteral .
 
 georec:215  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "215" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "964.0" ;
         geoes:icaoCode                  "LESS" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2011-03-03"^^xsd:date ;
         dc:identifier                   "215" ;
         dc:replaces                     "0.0" ;
@@ -408,9 +432,10 @@ georec:215  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-4.1372631 36.802177984990216)"^^geosparql:wktLiteral .
 
 georec:257  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "257" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "1170.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-02-01"^^xsd:date ;
         dc:identifier                   "257" ;
         dc:replaces                     "0.0" ;
@@ -418,9 +443,10 @@ georec:257  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/257/geometry> .
 
 georec:37  a                            btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "37" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "322.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-05-08"^^xsd:date ;
         dc:identifier                   "37" ;
         dc:replaces                     "0.0" ;
@@ -432,9 +458,10 @@ georec:37  a                            btn100:Aerodromo ;
         geosparql:asWKT  "POINT (3.1076400500000005 42.259551699280486)"^^geosparql:wktLiteral .
 
 georec:384  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "384" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "770.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-04-16"^^xsd:date ;
         dc:identifier                   "384" ;
         dc:replaces                     "0.0" ;
@@ -442,10 +469,11 @@ georec:384  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/384/geometry> .
 
 georec:299  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "299" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "693.0" ;
         geoes:icaoCode                  "LESE" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-02-03"^^xsd:date ;
         dc:identifier                   "299" ;
         dc:replaces                     "0.0" ;
@@ -457,9 +485,10 @@ georec:299  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-3.840407630000001 36.93030946513329)"^^geosparql:wktLiteral .
 
 georec:269  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "269" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "833.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-01-25"^^xsd:date ;
         dc:identifier                   "269" ;
         dc:replaces                     "0.0" ;
@@ -467,9 +496,10 @@ georec:269  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/269/geometry> .
 
 georec:324  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "324" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "45.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-04-11"^^xsd:date ;
         dc:identifier                   "324" ;
         dc:replaces                     "0.0" ;
@@ -485,10 +515,11 @@ georec:324  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-6.991208900000001 38.77799097698649)"^^geosparql:wktLiteral .
 
 georec:185  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "185" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "686.0" ;
         geoes:icaoCode                  "LECI" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-05-17"^^xsd:date ;
         dc:identifier                   "185" ;
         dc:replaces                     "0.0" ;
@@ -496,9 +527,10 @@ georec:185  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/185/geometry> .
 
 georec:240  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "240" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "282.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-03-12"^^xsd:date ;
         dc:identifier                   "240" ;
         dc:replaces                     "0.0" ;
@@ -510,9 +542,10 @@ georec:240  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-3.64033995 38.132600316385364)"^^geosparql:wktLiteral .
 
 georec:155  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "155" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "136.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-10-18"^^xsd:date ;
         dc:identifier                   "155" ;
         dc:replaces                     "0.0" ;
@@ -520,9 +553,10 @@ georec:155  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/155/geometry> .
 
 georec:421  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "421" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "109.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-11-14"^^xsd:date ;
         dc:identifier                   "421" ;
         dc:replaces                     "0.0" ;
@@ -538,9 +572,10 @@ georec:421  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-3.497265990000002 39.93592469793243)"^^geosparql:wktLiteral .
 
 georec:282  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "282" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "828.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-05-08"^^xsd:date ;
         dc:identifier                   "282" ;
         dc:replaces                     "0.0" ;
@@ -548,9 +583,10 @@ georec:282  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/282/geometry> .
 
 georec:589  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "589" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "25.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2006-08-10"^^xsd:date ;
         dc:identifier                   "589" ;
         dc:replaces                     "24511.0" ;
@@ -558,9 +594,10 @@ georec:589  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/589/geometry> .
 
 georec:6  a                             btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "6" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "1.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-04-21"^^xsd:date ;
         dc:identifier                   "6" ;
         dc:replaces                     "0.0" ;
@@ -576,9 +613,10 @@ georec:6  a                             btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-7.088155880000001 43.552577339694224)"^^geosparql:wktLiteral .
 
 georec:222  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "222" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "1218.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-02-22"^^xsd:date ;
         dc:identifier                   "222" ;
         dc:replaces                     "0.0" ;
@@ -594,10 +632,11 @@ georec:222  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-0.8507454899999998 41.788453599068916)"^^geosparql:wktLiteral .
 
 georec:107  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "107" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "925.0" ;
         geoes:icaoCode                  "LEJO" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-05-14"^^xsd:date ;
         dc:identifier                   "107" ;
         dc:replaces                     "0.0" ;
@@ -609,9 +648,10 @@ georec:107  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-3.5170639399999994 38.74507104695707)"^^geosparql:wktLiteral .
 
 georec:264  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "264" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "707.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-08-22"^^xsd:date ;
         dc:identifier                   "264" ;
         dc:replaces                     "67312.0" ;
@@ -619,10 +659,11 @@ georec:264  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/264/geometry> .
 
 georec:445  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "445" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "2.0" ;
         geoes:icaoCode                  "LETJ" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-11-29"^^xsd:date ;
         dc:identifier                   "445" ;
         dc:replaces                     "0.0" ;
@@ -638,9 +679,10 @@ georec:445  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-1.1135959899999999 38.89488266708983)"^^geosparql:wktLiteral .
 
 georec:626  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "626" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "625.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-03-05"^^xsd:date ;
         dc:identifier                   "626" ;
         dc:replaces                     "0.0" ;
@@ -656,10 +698,11 @@ georec:626  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-0.7786211200000003 38.15801798641001)"^^geosparql:wktLiteral .
 
 georec:487  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "487" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "42.0" ;
         geoes:icaoCode                  "LEJU" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-02-15"^^xsd:date ;
         dc:identifier                   "487" ;
         dc:replaces                     "0.0" ;
@@ -675,9 +718,10 @@ georec:487  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-0.1814076 39.74981210779223)"^^geosparql:wktLiteral .
 
 georec:276  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena>" ;
+        rdfs:label                      "276" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
         geoes:elevation                 "699.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-05-07"^^xsd:date ;
         dc:identifier                   "276" ;
         dc:replaces                     "0.0" ;
@@ -685,10 +729,11 @@ georec:276  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/276/geometry> .
 
 georec:150  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "150" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "65.0" ;
         geoes:icaoCode                  "LEJT" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-10-18"^^xsd:date ;
         dc:identifier                   "150" ;
         dc:replaces                     "0.0" ;
@@ -708,9 +753,10 @@ georec:150  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-3.7263044499999993 37.10502075532548)"^^geosparql:wktLiteral .
 
 georec:246  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "246" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "246.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-03-22"^^xsd:date ;
         dc:identifier                   "246" ;
         dc:replaces                     "0.0" ;
@@ -718,9 +764,10 @@ georec:246  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/246/geometry> .
 
 georec:638  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "638" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "0.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2014-06-17"^^xsd:date ;
         dc:identifier                   "638" ;
         dc:replaces                     "0.0" ;
@@ -732,9 +779,10 @@ georec:638  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-8.340271570000002 42.462409869361665)"^^geosparql:wktLiteral .
 
 georec:512  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "512" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "265.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-10-25"^^xsd:date ;
         dc:identifier                   "512" ;
         dc:replaces                     "0.0" ;
@@ -746,10 +794,11 @@ georec:512  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-2.874061810000001 42.47838058936781)"^^geosparql:wktLiteral .
 
 georec:301  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "301" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "575.0" ;
         geoes:icaoCode                  "LEPZ" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-02-03"^^xsd:date ;
         dc:identifier                   "301" ;
         dc:replaces                     "0.0" ;
@@ -765,9 +814,10 @@ georec:301  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-3.375476590000001 38.79164342699866)"^^geosparql:wktLiteral .
 
 georec:288  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "288" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "741.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-01-31"^^xsd:date ;
         dc:identifier                   "288" ;
         dc:replaces                     "0.0" ;
@@ -779,9 +829,10 @@ georec:288  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-3.734120639999999 41.114418698710885)"^^geosparql:wktLiteral .
 
 georec:469  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "469" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "104.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-06-04"^^xsd:date ;
         dc:identifier                   "469" ;
         dc:replaces                     "0.0" ;
@@ -789,9 +840,10 @@ georec:469  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/469/geometry> .
 
 georec:38  a                            btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "38" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "587.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-05-08"^^xsd:date ;
         dc:identifier                   "38" ;
         dc:replaces                     "0.0" ;
@@ -803,9 +855,10 @@ georec:38  a                            btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-4.024977819999999 40.436559898286426)"^^geosparql:wktLiteral .
 
 georec:470  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "470" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "123.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-10-31"^^xsd:date ;
         dc:identifier                   "470" ;
         dc:replaces                     "0.0" ;
@@ -817,9 +870,10 @@ georec:470  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-6.554681919999999 39.98448484796825)"^^geosparql:wktLiteral .
 
 georec:385  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "385" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "742.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-04-17"^^xsd:date ;
         dc:identifier                   "385" ;
         dc:replaces                     "0.0" ;
@@ -843,9 +897,10 @@ georec:385  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-4.251672129999999 43.147939339591304)"^^geosparql:wktLiteral .
 
 georec:325  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "325" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "491.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-10-30"^^xsd:date ;
         dc:identifier                   "325" ;
         dc:replaces                     "0.0" ;
@@ -857,9 +912,10 @@ georec:325  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-4.863108130000001 41.78471037906713)"^^geosparql:wktLiteral .
 
 georec:114  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "114" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "717.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-08-30"^^xsd:date ;
         dc:identifier                   "114" ;
         dc:replaces                     "0.0" ;
@@ -867,9 +923,10 @@ georec:114  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/114/geometry> .
 
 georec:506  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "506" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "15.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-05-04"^^xsd:date ;
         dc:identifier                   "506" ;
         dc:replaces                     "0.0" ;
@@ -881,9 +938,10 @@ georec:506  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-4.923058809999999 41.53100510893983)"^^geosparql:wktLiteral .
 
 georec:241  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "241" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "524.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-03-12"^^xsd:date ;
         dc:identifier                   "241" ;
         dc:replaces                     "0.0" ;
@@ -891,9 +949,10 @@ georec:241  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/241/geometry> .
 
 georec:156  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "156" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "60.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-10-18"^^xsd:date ;
         dc:identifier                   "156" ;
         dc:replaces                     "0.0" ;
@@ -905,9 +964,10 @@ georec:156  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (4.251794403369075 39.861709880648526)"^^geosparql:wktLiteral .
 
 georec:337  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "337" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "254.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-10-16"^^xsd:date ;
         dc:identifier                   "337" ;
         dc:replaces                     "0.0" ;
@@ -919,10 +979,11 @@ georec:337  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-9.00705608 42.98375964954258)"^^geosparql:wktLiteral .
 
 georec:603  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "603" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "681.0" ;
         geoes:icaoCode                  "LETN" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-02-18"^^xsd:date ;
         dc:identifier                   "603" ;
         dc:replaces                     "0.0" ;
@@ -938,9 +999,10 @@ georec:603  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-4.101314349999999 38.67498484689403)"^^geosparql:wktLiteral .
 
 georec:307  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "307" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "674.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-05-07"^^xsd:date ;
         dc:identifier                   "307" ;
         dc:replaces                     "0.0" ;
@@ -960,9 +1022,10 @@ georec:307  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-4.241229559999999 40.88875601857666)"^^geosparql:wktLiteral .
 
 georec:223  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "223" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "1379.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-06-20"^^xsd:date ;
         dc:identifier                   "223" ;
         dc:replaces                     "0.0" ;
@@ -970,9 +1033,10 @@ georec:223  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/223/geometry> .
 
 georec:615  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "615" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "659.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-04-03"^^xsd:date ;
         dc:identifier                   "615" ;
         dc:replaces                     "0.0" ;
@@ -984,9 +1048,10 @@ georec:615  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-4.68923704 37.9381607161943)"^^geosparql:wktLiteral .
 
 georec:380  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "380" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "989.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-11-21"^^xsd:date ;
         dc:identifier                   "380" ;
         dc:replaces                     "0.0" ;
@@ -998,11 +1063,12 @@ georec:380  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-5.825769300000001 43.43063809966577)"^^geosparql:wktLiteral .
 
 georec:531  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "531" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "7.0" ;
         geoes:iataCode                  "GMZ" ;
         geoes:icaoCode                  "GCLB" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-12-27"^^xsd:date ;
         dc:identifier                   "531" ;
         dc:replaces                     "0.0" ;
@@ -1014,9 +1080,10 @@ georec:531  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-2.988018510000001 41.10626548870617)"^^geosparql:wktLiteral .
 
 georec:446  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "446" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "75.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-02-22"^^xsd:date ;
         dc:identifier                   "446" ;
         dc:replaces                     "0.0" ;
@@ -1024,9 +1091,10 @@ georec:446  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/446/geometry> .
 
 georec:320  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "320" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "876.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-12-14"^^xsd:date ;
         dc:identifier                   "320" ;
         dc:replaces                     "0.0" ;
@@ -1034,9 +1102,10 @@ georec:320  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/320/geometry> .
 
 georec:235  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "235" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "410.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-11-03"^^xsd:date ;
         dc:identifier                   "235" ;
         dc:replaces                     "0.0" ;
@@ -1044,9 +1113,10 @@ georec:235  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/235/geometry> .
 
 georec:501  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "501" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "40.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-02-21"^^xsd:date ;
         dc:identifier                   "501" ;
         dc:replaces                     "0.0" ;
@@ -1066,9 +1136,10 @@ georec:501  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-1.6229268999999993 42.00828432917166)"^^geosparql:wktLiteral .
 
 georec:87  a                            btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "87" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "672.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-02-04"^^xsd:date ;
         dc:identifier                   "87" ;
         dc:replaces                     "0.0" ;
@@ -1080,10 +1151,11 @@ georec:87  a                            btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-4.34713977 42.69267510944653)"^^geosparql:wktLiteral .
 
 georec:277  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "277" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "684.0" ;
         geoes:icaoCode                  "LELM" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-05-08"^^xsd:date ;
         dc:identifier                   "277" ;
         dc:replaces                     "0.0" ;
@@ -1091,9 +1163,10 @@ georec:277  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/277/geometry> .
 
 georec:151  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "151" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "16.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-10-18"^^xsd:date ;
         dc:identifier                   "151" ;
         dc:replaces                     "0.0" ;
@@ -1105,9 +1178,10 @@ georec:151  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-4.5177505700000005 40.8951673985806)"^^geosparql:wktLiteral .
 
 georec:247  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "247" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "1117.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-08-14"^^xsd:date ;
         dc:identifier                   "247" ;
         dc:replaces                     "0.0" ;
@@ -1115,9 +1189,10 @@ georec:247  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/247/geometry> .
 
 georec:639  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "639" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "16.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2014-06-17"^^xsd:date ;
         dc:identifier                   "639" ;
         dc:replaces                     "0.0" ;
@@ -1125,9 +1200,10 @@ georec:639  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/639/geometry> .
 
 georec:513  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "513" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "542.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-10-25"^^xsd:date ;
         dc:identifier                   "513" ;
         dc:replaces                     "0.0" ;
@@ -1139,10 +1215,11 @@ georec:513  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-5.739029366156027 38.171452705394024)"^^geosparql:wktLiteral .
 
 georec:302  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "302" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "816.0" ;
         geoes:icaoCode                  "LEVI" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-02-03"^^xsd:date ;
         dc:identifier                   "302" ;
         dc:replaces                     "0.0" ;
@@ -1166,10 +1243,11 @@ georec:302  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-5.7257596500000005 37.327639845565436)"^^geosparql:wktLiteral .
 
 georec:289  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "289" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "203.0" ;
         geoes:icaoCode                  "LELH" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-07-18"^^xsd:date ;
         dc:identifier                   "289" ;
         dc:replaces                     "0.0" ;
@@ -1181,9 +1259,10 @@ georec:289  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (2.6158825973939317 42.22515398000663)"^^geosparql:wktLiteral .
 
 georec:39  a                            btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "39" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "3.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-05-08"^^xsd:date ;
         dc:identifier                   "39" ;
         dc:replaces                     "0.0" ;
@@ -1203,9 +1282,10 @@ georec:39  a                            btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-6.039332200000001 36.89617207509535)"^^geosparql:wktLiteral .
 
 georec:259  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "259" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "984.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-07-25"^^xsd:date ;
         dc:identifier                   "259" ;
         dc:replaces                     "0.0" ;
@@ -1213,9 +1293,10 @@ georec:259  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/259/geometry> .
 
 georec:133  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "133" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "673.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-08-23"^^xsd:date ;
         dc:identifier                   "133" ;
         dc:replaces                     "0.0" ;
@@ -1223,10 +1304,11 @@ georec:133  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/133/geometry> .
 
 georec:290  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "290" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "192.0" ;
         geoes:icaoCode                  "LEMP" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-07-18"^^xsd:date ;
         dc:identifier                   "290" ;
         dc:replaces                     "0.0" ;
@@ -1234,9 +1316,10 @@ georec:290  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/290/geometry> .
 
 georec:103  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/militar>" ;
+        rdfs:label                      "103" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/militar> ;
         geoes:elevation                 "321.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-01-25"^^xsd:date ;
         dc:identifier                   "103" ;
         dc:replaces                     "0.0" ;
@@ -1244,9 +1327,10 @@ georec:103  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/103/geometry> .
 
 georec:597  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "597" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "160.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-02-06"^^xsd:date ;
         dc:identifier                   "597" ;
         dc:replaces                     "0.0" ;
@@ -1258,9 +1342,10 @@ georec:597  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-4.7908308900000005 40.24607249815575)"^^geosparql:wktLiteral .
 
 georec:386  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "386" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "616.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-01-17"^^xsd:date ;
         dc:identifier                   "386" ;
         dc:replaces                     "35582.0" ;
@@ -1268,9 +1353,10 @@ georec:386  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/386/geometry> .
 
 georec:260  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "260" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "820.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-02-04"^^xsd:date ;
         dc:identifier                   "260" ;
         dc:replaces                     "0.0" ;
@@ -1286,9 +1372,10 @@ georec:260  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-7.463556349999998 43.11607194958216)"^^geosparql:wktLiteral .
 
 georec:326  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "326" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "545.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-10-30"^^xsd:date ;
         dc:identifier                   "326" ;
         dc:replaces                     "0.0" ;
@@ -1296,9 +1383,10 @@ georec:326  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/326/geometry> .
 
 georec:200  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "200" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "1126.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2007-03-12"^^xsd:date ;
         dc:identifier                   "200" ;
         dc:replaces                     "59924.0" ;
@@ -1306,9 +1394,10 @@ georec:200  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/200/geometry> .
 
 georec:507  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "507" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "47.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-05-04"^^xsd:date ;
         dc:identifier                   "507" ;
         dc:replaces                     "0.0" ;
@@ -1316,9 +1405,10 @@ georec:507  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/507/geometry> .
 
 georec:483  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "483" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "531.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-03-23"^^xsd:date ;
         dc:identifier                   "483" ;
         dc:replaces                     "0.0" ;
@@ -1326,9 +1416,10 @@ georec:483  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/483/geometry> .
 
 georec:272  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "272" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "1081.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-02-12"^^xsd:date ;
         dc:identifier                   "272" ;
         dc:replaces                     "0.0" ;
@@ -1336,10 +1427,11 @@ georec:272  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/272/geometry> .
 
 georec:187  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "187" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "749.0" ;
         geoes:icaoCode                  "LENA" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-05-17"^^xsd:date ;
         dc:identifier                   "187" ;
         dc:replaces                     "0.0" ;
@@ -1351,9 +1443,10 @@ georec:187  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-1.8307532902744927 37.19792296411152)"^^geosparql:wktLiteral .
 
 georec:242  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "242" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "306.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-03-12"^^xsd:date ;
         dc:identifier                   "242" ;
         dc:replaces                     "0.0" ;
@@ -1361,9 +1454,10 @@ georec:242  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/242/geometry> .
 
 georec:157  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "157" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "2.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-01-09"^^xsd:date ;
         dc:identifier                   "157" ;
         dc:replaces                     "0.0" ;
@@ -1383,9 +1477,10 @@ georec:157  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-6.563163640000001 37.25652755548941)"^^geosparql:wktLiteral .
 
 georec:338  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "338" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "314.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-03-07"^^xsd:date ;
         dc:identifier                   "338" ;
         dc:replaces                     "0.0" ;
@@ -1397,10 +1492,11 @@ georec:338  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-0.7597562100000003 38.68531621690336)"^^geosparql:wktLiteral .
 
 georec:199  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "199" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "949.0" ;
         geoes:icaoCode                  "LERM" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-02-16"^^xsd:date ;
         dc:identifier                   "199" ;
         dc:replaces                     "0.0" ;
@@ -1408,10 +1504,11 @@ georec:199  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/199/geometry> .
 
 georec:465  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/militar>" ;
+        rdfs:label                      "465" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/militar> ;
         geoes:elevation                 "1.0" ;
         geoes:icaoCode                  "LEPO" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-04-22"^^xsd:date ;
         dc:identifier                   "465" ;
         dc:replaces                     "0.0" ;
@@ -1423,9 +1520,10 @@ georec:465  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-0.3015076500000001 40.332480598215625)"^^geosparql:wktLiteral .
 
 georec:254  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "254" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "1031.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-09-03"^^xsd:date ;
         dc:identifier                   "254" ;
         dc:replaces                     "0.0" ;
@@ -1433,10 +1531,11 @@ georec:254  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/254/geometry> .
 
 georec:34  a                            btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "34" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "130.0" ;
         geoes:icaoCode                  "LEMU" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-02-16"^^xsd:date ;
         dc:identifier                   "34" ;
         dc:replaces                     "0.0" ;
@@ -1456,9 +1555,10 @@ georec:34  a                            btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-5.287356839999999 42.451003639357275)"^^geosparql:wktLiteral .
 
 georec:224  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "224" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "784.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-06-23"^^xsd:date ;
         dc:identifier                   "224" ;
         dc:replaces                     "0.0" ;
@@ -1466,9 +1566,10 @@ georec:224  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/224/geometry> .
 
 georec:616  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "616" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "421.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-04-03"^^xsd:date ;
         dc:identifier                   "616" ;
         dc:replaces                     "0.0" ;
@@ -1484,9 +1585,10 @@ georec:616  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-4.314052507498595 38.73120831163064)"^^geosparql:wktLiteral .
 
 georec:381  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "381" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "1056.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-11-22"^^xsd:date ;
         dc:identifier                   "381" ;
         dc:replaces                     "0.0" ;
@@ -1494,9 +1596,10 @@ georec:381  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/381/geometry> .
 
 georec:562  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "562" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "255.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-04-24"^^xsd:date ;
         dc:identifier                   "562" ;
         dc:replaces                     "0.0" ;
@@ -1508,9 +1611,10 @@ georec:562  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-3.4469667300000006 41.40832934887495)"^^geosparql:wktLiteral .
 
 georec:266  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "266" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "851.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-08-22"^^xsd:date ;
         dc:identifier                   "266" ;
         dc:replaces                     "0.0" ;
@@ -1522,9 +1626,10 @@ georec:266  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-1.2628255 39.13299190729496)"^^geosparql:wktLiteral .
 
 georec:236  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "236" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "368.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2007-04-12"^^xsd:date ;
         dc:identifier                   "236" ;
         dc:replaces                     "58635.0" ;
@@ -1536,9 +1641,10 @@ georec:236  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-3.9919512800000008 40.50000826832884)"^^geosparql:wktLiteral .
 
 georec:502  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/militar>" ;
+        rdfs:label                      "502" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/militar> ;
         geoes:elevation                 "5.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-04-04"^^xsd:date ;
         dc:identifier                   "502" ;
         dc:replaces                     "0.0" ;
@@ -1550,9 +1656,10 @@ georec:502  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-3.8002759599999996 37.90844003616469)"^^geosparql:wktLiteral .
 
 georec:88  a                            btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "88" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "638.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-02-04"^^xsd:date ;
         dc:identifier                   "88" ;
         dc:replaces                     "0.0" ;
@@ -1564,9 +1671,10 @@ georec:88  a                            btn100:Aerodromo ;
         geosparql:asWKT  "POINT (2.61159213 41.749959439050244)"^^geosparql:wktLiteral .
 
 georec:152  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "152" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "240.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-10-18"^^xsd:date ;
         dc:identifier                   "152" ;
         dc:replaces                     "0.0" ;
@@ -1574,10 +1682,11 @@ georec:152  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/152/geometry> .
 
 georec:459  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena>" ;
+        rdfs:label                      "459" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
         geoes:elevation                 "42.0" ;
         geoes:icaoCode                  "LESB" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2014-08-20"^^xsd:date ;
         dc:identifier                   "459" ;
         dc:replaces                     "0.0" ;
@@ -1589,9 +1698,10 @@ georec:459  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-2.1496360400000003 38.24187391649074)"^^geosparql:wktLiteral .
 
 georec:248  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "248" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "1014.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-08-14"^^xsd:date ;
         dc:identifier                   "248" ;
         dc:replaces                     "0.0" ;
@@ -1607,10 +1717,11 @@ georec:248  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-4.695768450000004 41.371418548855026)"^^geosparql:wktLiteral .
 
 georec:490  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "490" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "587.0" ;
         geoes:icaoCode                  "LEGC" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-02-15"^^xsd:date ;
         dc:identifier                   "490" ;
         dc:replaces                     "0.0" ;
@@ -1618,10 +1729,11 @@ georec:490  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/490/geometry> .
 
 georec:303  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "303" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "832.0" ;
         geoes:icaoCode                  "LEIZ" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-02-03"^^xsd:date ;
         dc:identifier                   "303" ;
         dc:replaces                     "0.0" ;
@@ -1637,9 +1749,10 @@ georec:303  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-5.3903551699999985 39.20636819735671)"^^geosparql:wktLiteral .
 
 georec:586  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "586" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "289.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-06-04"^^xsd:date ;
         dc:identifier                   "586" ;
         dc:replaces                     "0.0" ;
@@ -1655,10 +1768,11 @@ georec:586  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-13.983258569999403 28.391047152768845)"^^geosparql:wktLiteral .
 
 georec:134  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "134" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "1098.0" ;
         geoes:icaoCode                  "LECD" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-02-24"^^xsd:date ;
         dc:identifier                   "134" ;
         dc:replaces                     "21450.0" ;
@@ -1666,10 +1780,11 @@ georec:134  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/134/geometry> .
 
 georec:526  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena>" ;
+        rdfs:label                      "526" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
         geoes:elevation                 "787.0" ;
         geoes:icaoCode                  "LEBI" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-03-06"^^xsd:date ;
         dc:identifier                   "526" ;
         dc:replaces                     "0.0" ;
@@ -1677,9 +1792,10 @@ georec:526  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/526/geometry> .
 
 georec:315  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "315" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "862.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2006-07-27"^^xsd:date ;
         dc:identifier                   "315" ;
         dc:replaces                     "61220.0" ;
@@ -1695,9 +1811,10 @@ georec:315  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (1.8681219699999998 42.38609666933185)"^^geosparql:wktLiteral .
 
 georec:261  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "261" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "902.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-02-04"^^xsd:date ;
         dc:identifier                   "261" ;
         dc:replaces                     "0.0" ;
@@ -1705,10 +1822,11 @@ georec:261  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/261/geometry> .
 
 georec:176  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "176" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "718.0" ;
         geoes:icaoCode                  "LECF" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-12-21"^^xsd:date ;
         dc:identifier                   "176" ;
         dc:replaces                     "0.0" ;
@@ -1732,9 +1850,10 @@ georec:176  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-1.5258832028421079 38.61533343287909)"^^geosparql:wktLiteral .
 
 georec:83  a                            btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "83" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "626.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-02-04"^^xsd:date ;
         dc:identifier                   "83" ;
         dc:replaces                     "0.0" ;
@@ -1742,9 +1861,10 @@ georec:83  a                            btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/83/geometry> .
 
 georec:508  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "508" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "51.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-05-04"^^xsd:date ;
         dc:identifier                   "508" ;
         dc:replaces                     "0.0" ;
@@ -1756,9 +1876,10 @@ georec:508  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-5.601649789999998 39.851217247869194)"^^geosparql:wktLiteral .
 
 georec:484  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "484" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "153.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-04-16"^^xsd:date ;
         dc:identifier                   "484" ;
         dc:replaces                     "0.0" ;
@@ -1766,10 +1887,11 @@ georec:484  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/484/geometry> .
 
 georec:273  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "273" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "666.0" ;
         geoes:icaoCode                  "LEOT" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-01-26"^^xsd:date ;
         dc:identifier                   "273" ;
         dc:replaces                     "0.0" ;
@@ -1777,9 +1899,10 @@ georec:273  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/273/geometry> .
 
 georec:23  a                            btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "23" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "1003.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2011-12-27"^^xsd:date ;
         dc:identifier                   "23" ;
         dc:replaces                     "0.0" ;
@@ -1787,9 +1910,10 @@ georec:23  a                            btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/23/geometry> .
 
 georec:243  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "243" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "284.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-03-12"^^xsd:date ;
         dc:identifier                   "243" ;
         dc:replaces                     "0.0" ;
@@ -1805,9 +1929,10 @@ georec:243  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (1.6527191599999997 41.58431483896733)"^^geosparql:wktLiteral .
 
 georec:309  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "309" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "790.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-05-07"^^xsd:date ;
         dc:identifier                   "309" ;
         dc:replaces                     "0.0" ;
@@ -1815,9 +1940,10 @@ georec:309  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/309/geometry> .
 
 georec:9  a                             btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "9" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "713.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-02-22"^^xsd:date ;
         dc:identifier                   "9" ;
         dc:replaces                     "0.0" ;
@@ -1825,9 +1951,10 @@ georec:9  a                             btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/9/geometry> .
 
 georec:340  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "340" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "1057.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-12-28"^^xsd:date ;
         dc:identifier                   "340" ;
         dc:replaces                     "0.0" ;
@@ -1835,9 +1962,10 @@ georec:340  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/340/geometry> .
 
 georec:255  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "255" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "936.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-09-03"^^xsd:date ;
         dc:identifier                   "255" ;
         dc:replaces                     "0.0" ;
@@ -1849,9 +1977,10 @@ georec:255  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-3.24737473 40.865467348562426)"^^geosparql:wktLiteral .
 
 georec:617  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "617" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "731.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-04-03"^^xsd:date ;
         dc:identifier                   "617" ;
         dc:replaces                     "0.0" ;
@@ -1875,9 +2004,10 @@ georec:617  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (2.9903300555427856 42.03054197990463)"^^geosparql:wktLiteral .
 
 georec:171  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "171" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "329.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-04-04"^^xsd:date ;
         dc:identifier                   "171" ;
         dc:replaces                     "0.0" ;
@@ -1885,9 +2015,10 @@ georec:171  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/171/geometry> .
 
 georec:563  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "563" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "339.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2007-06-01"^^xsd:date ;
         dc:identifier                   "563" ;
         dc:replaces                     "0.0" ;
@@ -1895,9 +2026,10 @@ georec:563  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/563/geometry> .
 
 georec:267  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "267" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "739.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-12-27"^^xsd:date ;
         dc:identifier                   "267" ;
         dc:replaces                     "0.0" ;
@@ -1909,9 +2041,10 @@ georec:267  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (3.0511132130344416 42.14277943006659)"^^geosparql:wktLiteral .
 
 georec:448  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "448" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "25.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-01-04"^^xsd:date ;
         dc:identifier                   "448" ;
         dc:replaces                     "0.0" ;
@@ -1923,9 +2056,10 @@ georec:448  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-6.01505137 37.353007905592435)"^^geosparql:wktLiteral .
 
 georec:322  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "322" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "748.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-04-11"^^xsd:date ;
         dc:identifier                   "322" ;
         dc:replaces                     "0.0" ;
@@ -1937,9 +2071,10 @@ georec:322  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-6.920952340000002 37.36415451560427)"^^geosparql:wktLiteral .
 
 georec:629  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "629" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "700.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-07-18"^^xsd:date ;
         dc:identifier                   "629" ;
         dc:replaces                     "0.0" ;
@@ -1947,9 +2082,10 @@ georec:629  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/629/geometry> .
 
 georec:503  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "503" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "19.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-05-04"^^xsd:date ;
         dc:identifier                   "503" ;
         dc:replaces                     "0.0" ;
@@ -1957,9 +2093,10 @@ georec:503  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/503/geometry> .
 
 georec:418  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena>" ;
+        rdfs:label                      "418" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
         geoes:elevation                 "432.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-04-07"^^xsd:date ;
         dc:identifier                   "418" ;
         dc:replaces                     "0.0" ;
@@ -1971,9 +2108,10 @@ georec:418  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-3.4216456500000003 40.72558912847521)"^^geosparql:wktLiteral .
 
 georec:207  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "207" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "845.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-06-20"^^xsd:date ;
         dc:identifier                   "207" ;
         dc:replaces                     "0.0" ;
@@ -1989,9 +2127,10 @@ georec:207  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-4.712437740000002 41.46118343890316)"^^geosparql:wktLiteral .
 
 georec:279  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "279" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "1169.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-05-08"^^xsd:date ;
         dc:identifier                   "279" ;
         dc:replaces                     "0.0" ;
@@ -1999,9 +2138,10 @@ georec:279  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/279/geometry> .
 
 georec:630  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "630" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "721.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-07-18"^^xsd:date ;
         dc:identifier                   "630" ;
         dc:replaces                     "0.0" ;
@@ -2009,9 +2149,10 @@ georec:630  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/630/geometry> .
 
 georec:153  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "153" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "3.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-10-18"^^xsd:date ;
         dc:identifier                   "153" ;
         dc:replaces                     "0.0" ;
@@ -2023,9 +2164,10 @@ georec:153  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-1.0964686000000003 37.83346870608959)"^^geosparql:wktLiteral .
 
 georec:249  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "249" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "1114.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-08-14"^^xsd:date ;
         dc:identifier                   "249" ;
         dc:replaces                     "0.0" ;
@@ -2033,9 +2175,10 @@ georec:249  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/249/geometry> .
 
 georec:90  a                            btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "90" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "484.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-10-01"^^xsd:date ;
         dc:identifier                   "90" ;
         dc:replaces                     "0.0" ;
@@ -2043,9 +2186,10 @@ georec:90  a                            btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/90/geometry> .
 
 georec:195  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "195" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "286.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-03-30"^^xsd:date ;
         dc:identifier                   "195" ;
         dc:replaces                     "0.0" ;
@@ -2053,9 +2197,10 @@ georec:195  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/195/geometry> .
 
 georec:587  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "587" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "367.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-06-04"^^xsd:date ;
         dc:identifier                   "587" ;
         dc:replaces                     "0.0" ;
@@ -2067,10 +2212,11 @@ georec:587  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-4.883704559999998 39.223648227371136)"^^geosparql:wktLiteral .
 
 georec:461  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "461" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "57.0" ;
         geoes:icaoCode                  "LESL" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-02-20"^^xsd:date ;
         dc:identifier                   "461" ;
         dc:replaces                     "6085.0" ;
@@ -2086,10 +2232,11 @@ georec:461  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-1.8526007964483224 37.26100390424965)"^^geosparql:wktLiteral .
 
 georec:220  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "220" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "722.0" ;
         geoes:icaoCode                  "LEPI" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-02-04"^^xsd:date ;
         dc:identifier                   "220" ;
         dc:replaces                     "0.0" ;
@@ -2097,10 +2244,11 @@ georec:220  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/220/geometry> .
 
 georec:135  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "135" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "2.0" ;
         geoes:icaoCode                  "LEAP" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-02-24"^^xsd:date ;
         dc:identifier                   "135" ;
         dc:replaces                     "0.0" ;
@@ -2112,10 +2260,11 @@ georec:135  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-5.19777196 39.34550217747188)"^^geosparql:wktLiteral .
 
 georec:388  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "388" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "39.0" ;
         geoes:icaoCode                  "LEAX" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-01-17"^^xsd:date ;
         dc:identifier                   "388" ;
         dc:replaces                     "0.0" ;
@@ -2123,9 +2272,10 @@ georec:388  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/388/geometry> .
 
 georec:262  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "262" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "978.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-02-05"^^xsd:date ;
         dc:identifier                   "262" ;
         dc:replaces                     "0.0" ;
@@ -2149,9 +2299,10 @@ georec:262  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-1.4477320048327222 37.75317694375515)"^^geosparql:wktLiteral .
 
 georec:84  a                            btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "84" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "622.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-02-04"^^xsd:date ;
         dc:identifier                   "84" ;
         dc:replaces                     "0.0" ;
@@ -2159,9 +2310,10 @@ georec:84  a                            btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/84/geometry> .
 
 georec:509  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "509" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "243.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-10-25"^^xsd:date ;
         dc:identifier                   "509" ;
         dc:replaces                     "0.0" ;
@@ -2173,9 +2325,10 @@ georec:509  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-3.3205412599999993 39.71690106776697)"^^geosparql:wktLiteral .
 
 georec:485  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "485" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "130.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-03-23"^^xsd:date ;
         dc:identifier                   "485" ;
         dc:replaces                     "0.0" ;
@@ -2191,9 +2344,10 @@ georec:485  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-4.371677069999998 40.91219366859094)"^^geosparql:wktLiteral .
 
 georec:455  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "455" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "66.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-05-02"^^xsd:date ;
         dc:identifier                   "455" ;
         dc:replaces                     "0.0" ;
@@ -2205,10 +2359,11 @@ georec:455  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-2.9547696399999994 39.82704893785098)"^^geosparql:wktLiteral .
 
 georec:244  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "244" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "430.0" ;
         geoes:icaoCode                  "LEGU" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-03-12"^^xsd:date ;
         dc:identifier                   "244" ;
         dc:replaces                     "0.0" ;
@@ -2216,9 +2371,10 @@ georec:244  a                           btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/244/geometry> .
 
 georec:24  a                            btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "24" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "873.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2011-12-27"^^xsd:date ;
         dc:identifier                   "24" ;
         dc:replaces                     "0.0" ;
@@ -2226,9 +2382,10 @@ georec:24  a                            btn100:Aerodromo ;
         geosparql:hasGeometry           <https://datos.ign.es/recurso/aerodromo/24/geometry> .
 
 georec:510  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "510" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "232.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2012-10-25"^^xsd:date ;
         dc:identifier                   "510" ;
         dc:replaces                     "0.0" ;
@@ -2248,9 +2405,10 @@ georec:510  a                           btn100:Aerodromo ;
         geosparql:asWKT  "POINT (3.1535630100000005 42.00863661917182)"^^geosparql:wktLiteral .
 
 georec:256  a                           btn100:Aerodromo ;
-        geoes:competenciaAeroportuaria  "<https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado>" ;
+        rdfs:label                      "256" ;
+        geoes:competenciaAeroportuaria  <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         geoes:elevation                 "1001.0" ;
-        geoes:rutaTenT                  "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        geoes:rutaTenT                  <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         dc:created                      "2013-01-17"^^xsd:date ;
         dc:identifier                   "256" ;
         dc:replaces                     "0.0" ;

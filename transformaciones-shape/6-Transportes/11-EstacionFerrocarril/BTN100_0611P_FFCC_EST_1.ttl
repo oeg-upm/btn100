@@ -16,9 +16,10 @@
         geosparql:asWKT  "POINT (-0.03843644 41.84887880963162)"^^geosparql:wktLiteral .
 
 georec:1817  a                  btn100:Cargadero ;
+        rdfs:label              "1817" ;
         geoes:codigoDeEstacion  "55019" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-11-14"^^xsd:date ;
         dc:identifier           "1817" ;
         dc:replaces             "5703" ;
@@ -26,9 +27,10 @@ georec:1817  a                  btn100:Cargadero ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/cargadero/1817/geometry> .
 
 georec:1679  a                  btn100:Cargadero ;
+        rdfs:label              "1679" ;
         geoes:codigoDeEstacion  "50405" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-10-30"^^xsd:date ;
         dc:identifier           "1679" ;
         dc:replaces             "5703" ;
@@ -36,8 +38,9 @@ georec:1679  a                  btn100:Cargadero ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/cargadero/1679/geometry> .
 
 georec:1660  a                 btn100:Cargadero ;
-        geoes:rutaTenT         "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico    "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mercancia>" ;
+        rdfs:label             "1660" ;
+        geoes:rutaTenT         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico    <https://datos.ign.es/kos/transportes/tipo-de-trafico/mercancia> ;
         dc:created             "2012-12-14"^^xsd:date ;
         dc:identifier          "1660" ;
         dc:title               "Cargadero de Santander-Puerto" ;
@@ -48,9 +51,10 @@ georec:1660  a                 btn100:Cargadero ;
         geosparql:asWKT  "POINT (-6.08555472 36.72881785542253)"^^geosparql:wktLiteral .
 
 georec:726  a                   btn100:Cargadero ;
+        rdfs:label              "726" ;
         geoes:codigoDeEstacion  "73005" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-04-26"^^xsd:date ;
         dc:identifier           "726" ;
         dc:replaces             "5703" ;
@@ -66,9 +70,10 @@ georec:726  a                   btn100:Cargadero ;
         geosparql:asWKT  "POINT (-6.132113920000001 36.637697245318456)"^^geosparql:wktLiteral .
 
 georec:1811  a                  btn100:Cargadero ;
+        rdfs:label              "1811" ;
         geoes:codigoDeEstacion  "51206" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> ;
         dc:created              "2012-11-14"^^xsd:date ;
         dc:identifier           "1811" ;
         dc:replaces             "5703" ;
@@ -80,9 +85,10 @@ georec:1811  a                  btn100:Cargadero ;
         geosparql:asWKT  "POINT (-4.1167427000000005 38.01047491678721)"^^geosparql:wktLiteral .
 
 georec:1824  a                  btn100:Cargadero ;
+        rdfs:label              "1824" ;
         geoes:codigoDeEstacion  "55005" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-11-14"^^xsd:date ;
         dc:identifier           "1824" ;
         dc:replaces             "31999" ;
@@ -98,9 +104,10 @@ georec:1824  a                  btn100:Cargadero ;
         geosparql:asWKT  "POINT (0.1973986 41.91377883966223)"^^geosparql:wktLiteral .
 
 georec:1809  a                  btn100:Cargadero ;
+        rdfs:label              "1809" ;
         geoes:codigoDeEstacion  "51400" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-11-14"^^xsd:date ;
         dc:identifier           "1809" ;
         dc:replaces             "5703" ;
@@ -108,9 +115,10 @@ georec:1809  a                  btn100:Cargadero ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/cargadero/1809/geometry> .
 
 georec:1018  a                  btn100:Cargadero ;
+        rdfs:label              "1018" ;
         geoes:codigoDeEstacion  "78300" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> ;
         dc:created              "2012-05-17"^^xsd:date ;
         dc:identifier           "1018" ;
         dc:replaces             "22420" ;
@@ -130,9 +138,10 @@ georec:1018  a                  btn100:Cargadero ;
         geosparql:asWKT  "POINT (-6.185840599999999 36.53108874519559)"^^geosparql:wktLiteral .
 
 georec:733  a                   btn100:Cargadero ;
+        rdfs:label              "733" ;
         geoes:codigoDeEstacion  "78500" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-04-26"^^xsd:date ;
         dc:identifier           "733" ;
         dc:replaces             "23873" ;
@@ -140,9 +149,10 @@ georec:733  a                   btn100:Cargadero ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/cargadero/733/geometry> .
 
 georec:1680  a                  btn100:Cargadero ;
+        rdfs:label              "1680" ;
         geoes:codigoDeEstacion  "50404" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-10-30"^^xsd:date ;
         dc:identifier           "1680" ;
         dc:replaces             "34566" ;
@@ -154,9 +164,10 @@ georec:1680  a                  btn100:Cargadero ;
         geosparql:asWKT  "POINT (0.7225359613135054 41.62750592427284)"^^geosparql:wktLiteral .
 
 georec:1153  a                  btn100:Cargadero ;
+        rdfs:label              "1153" ;
         geoes:codigoDeEstacion  "70207" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> ;
         dc:created              "2012-02-16"^^xsd:date ;
         dc:identifier           "1153" ;
         dc:replaces             "5703" ;
@@ -164,9 +175,10 @@ georec:1153  a                  btn100:Cargadero ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/cargadero/1153/geometry> .
 
 georec:1486  a                  btn100:Cargadero ;
+        rdfs:label              "1486" ;
         geoes:codigoDeEstacion  "37210" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> ;
         dc:created              "2012-02-03"^^xsd:date ;
         dc:identifier           "1486" ;
         dc:replaces             "41749" ;
@@ -174,9 +186,10 @@ georec:1486  a                  btn100:Cargadero ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/cargadero/1486/geometry> .
 
 georec:1693  a                  btn100:Cargadero ;
+        rdfs:label              "1693" ;
         geoes:codigoDeEstacion  "56009" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-10-30"^^xsd:date ;
         dc:identifier           "1693" ;
         dc:replaces             "34578" ;
@@ -188,18 +201,20 @@ georec:1693  a                  btn100:Cargadero ;
         geosparql:asWKT  "POINT (0.8254706357829004 41.54385510015405)"^^geosparql:wktLiteral .
 
 georec:1012  a                  btn100:Cargadero ;
+        rdfs:label              "1012" ;
         geoes:codigoDeEstacion  "78202" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-05-17"^^xsd:date ;
         dc:identifier           "1012" ;
         dc:title                "Cargadero de Marcen-Poliñino" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/cargadero/1012/geometry> .
 
 georec:1678  a                  btn100:Cargadero ;
+        rdfs:label              "1678" ;
         geoes:codigoDeEstacion  "50406" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-10-30"^^xsd:date ;
         dc:identifier           "1678" ;
         dc:replaces             "34580" ;
@@ -211,9 +226,10 @@ georec:1678  a                  btn100:Cargadero ;
         geosparql:asWKT  "POINT (-7.586386430000001 43.10045094011339)"^^geosparql:wktLiteral .
 
 georec:1480  a                  btn100:Cargadero ;
+        rdfs:label              "1480" ;
         geoes:codigoDeEstacion  "37701" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> ;
         dc:created              "2012-02-03"^^xsd:date ;
         dc:identifier           "1480" ;
         dc:replaces             "41764" ;
@@ -225,9 +241,10 @@ georec:1480  a                  btn100:Cargadero ;
         geosparql:asWKT  "POINT (-3.5356117799999995 37.955573486732675)"^^geosparql:wktLiteral .
 
 georec:712  a                   btn100:Cargadero ;
+        rdfs:label              "712" ;
         geoes:codigoDeEstacion  "73003" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-04-26"^^xsd:date ;
         dc:identifier           "712" ;
         dc:replaces             "23865" ;
@@ -251,9 +268,10 @@ georec:712  a                   btn100:Cargadero ;
         geosparql:asWKT  "POINT (-3.8165698399999997 43.447572570205985)"^^geosparql:wktLiteral .
 
 georec:1810  a                  btn100:Cargadero ;
+        rdfs:label              "1810" ;
         geoes:codigoDeEstacion  "51301" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-11-14"^^xsd:date ;
         dc:identifier           "1810" ;
         dc:replaces             "5703" ;
@@ -273,9 +291,10 @@ georec:1810  a                  btn100:Cargadero ;
         geosparql:asWKT  "POINT (-0.5588117100000001 42.20471836979195)"^^geosparql:wktLiteral .
 
 georec:1004  a                  btn100:Cargadero ;
+        rdfs:label              "1004" ;
         geoes:codigoDeEstacion  "78302" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-05-17"^^xsd:date ;
         dc:identifier           "1004" ;
         dc:replaces             "22415" ;
@@ -283,9 +302,10 @@ georec:1004  a                  btn100:Cargadero ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/cargadero/1004/geometry> .
 
 georec:1698  a                  btn100:Cargadero ;
+        rdfs:label              "1698" ;
         geoes:codigoDeEstacion  "56005" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-10-30"^^xsd:date ;
         dc:identifier           "1698" ;
         dc:replaces             "35354" ;
@@ -293,9 +313,10 @@ georec:1698  a                  btn100:Cargadero ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/cargadero/1698/geometry> .
 
 georec:1808  a                  btn100:Cargadero ;
+        rdfs:label              "1808" ;
         geoes:codigoDeEstacion  "51415" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-11-14"^^xsd:date ;
         dc:identifier           "1808" ;
         dc:replaces             "5703" ;
@@ -307,9 +328,10 @@ georec:1808  a                  btn100:Cargadero ;
         geosparql:asWKT  "POINT (-4.951585979999999 38.12021787689514)"^^geosparql:wktLiteral .
 
 georec:1017  a                  btn100:Cargadero ;
+        rdfs:label              "1017" ;
         geoes:codigoDeEstacion  "78204" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-05-17"^^xsd:date ;
         dc:identifier           "1017" ;
         dc:title                "Cargadero de Tormillo-Lastanosa" ;
@@ -324,9 +346,10 @@ georec:1017  a                  btn100:Cargadero ;
         geosparql:asWKT  "POINT (-6.089394199999999 36.72442627541752)"^^geosparql:wktLiteral .
 
 georec:732  a                   btn100:Cargadero ;
+        rdfs:label              "732" ;
         geoes:codigoDeEstacion  "78408" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-04-26"^^xsd:date ;
         dc:identifier           "732" ;
         dc:replaces             "23890" ;
@@ -338,9 +361,10 @@ georec:732  a                   btn100:Cargadero ;
         geosparql:asWKT  "POINT (-3.55779994 38.13577363691033)"^^geosparql:wktLiteral .
 
 georec:1915  a                  btn100:Cargadero ;
+        rdfs:label              "1915" ;
         geoes:codigoDeEstacion  "00006" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> ;
         dc:created              "2006-07-24"^^xsd:date ;
         dc:identifier           "1915" ;
         dc:replaces             "33078" ;
@@ -352,9 +376,10 @@ georec:1915  a                  btn100:Cargadero ;
         geosparql:asWKT  "POINT (0.8149264599999998 41.78857747960262)"^^geosparql:wktLiteral .
 
 georec:717  a                   btn100:Cargadero ;
+        rdfs:label              "717" ;
         geoes:codigoDeEstacion  "78401" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-04-26"^^xsd:date ;
         dc:identifier           "717" ;
         dc:replaces             "23896" ;
@@ -370,9 +395,10 @@ georec:717  a                   btn100:Cargadero ;
         geosparql:asWKT  "POINT (-0.1707202 41.81757388961664)"^^geosparql:wktLiteral .
 
 georec:1815  a                  btn100:Cargadero ;
+        rdfs:label              "1815" ;
         geoes:codigoDeEstacion  "51204" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-11-14"^^xsd:date ;
         dc:identifier           "1815" ;
         dc:replaces             "5703" ;
@@ -388,9 +414,10 @@ georec:1815  a                  btn100:Cargadero ;
         geosparql:asWKT  "POINT (-4.231043329999999 38.00833288678509)"^^geosparql:wktLiteral .
 
 georec:711  a                   btn100:Cargadero ;
+        rdfs:label              "711" ;
         geoes:codigoDeEstacion  "73002" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-04-26"^^xsd:date ;
         dc:identifier           "711" ;
         dc:replaces             "5703" ;
@@ -398,9 +425,10 @@ georec:711  a                   btn100:Cargadero ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/cargadero/711/geometry> .
 
 georec:1009  a                  btn100:Cargadero ;
+        rdfs:label              "1009" ;
         geoes:codigoDeEstacion  "74207" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-05-17"^^xsd:date ;
         dc:identifier           "1009" ;
         dc:replaces             "22367" ;
@@ -408,9 +436,10 @@ georec:1009  a                  btn100:Cargadero ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/cargadero/1009/geometry> .
 
 georec:724  a                   btn100:Cargadero ;
+        rdfs:label              "724" ;
         geoes:codigoDeEstacion  "75105" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-04-26"^^xsd:date ;
         dc:identifier           "724" ;
         dc:replaces             "23867" ;
@@ -426,9 +455,10 @@ georec:724  a                   btn100:Cargadero ;
         geosparql:asWKT  "POINT (-5.7288318400000025 43.52956793022524)"^^geosparql:wktLiteral .
 
 georec:1477  a                  btn100:Cargadero ;
+        rdfs:label              "1477" ;
         geoes:codigoDeEstacion  "37702" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-02-03"^^xsd:date ;
         dc:identifier           "1477" ;
         dc:replaces             "5703" ;
@@ -436,9 +466,10 @@ georec:1477  a                  btn100:Cargadero ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/cargadero/1477/geometry> .
 
 georec:1822  a                  btn100:Cargadero ;
+        rdfs:label              "1822" ;
         geoes:codigoDeEstacion  "55015" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-11-14"^^xsd:date ;
         dc:identifier           "1822" ;
         dc:replaces             "5703" ;
@@ -446,9 +477,10 @@ georec:1822  a                  btn100:Cargadero ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/cargadero/1822/geometry> .
 
 georec:599  a                   btn100:Cargadero ;
+        rdfs:label              "599" ;
         geoes:codigoDeEstacion  "80008" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-05-28"^^xsd:date ;
         dc:identifier           "599" ;
         dc:replaces             "24947" ;
@@ -456,9 +488,10 @@ georec:599  a                   btn100:Cargadero ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/cargadero/599/geometry> .
 
 georec:1157  a                  btn100:Cargadero ;
+        rdfs:label              "1157" ;
         geoes:codigoDeEstacion  "70300" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-02-16"^^xsd:date ;
         dc:identifier           "1157" ;
         dc:replaces             "5703" ;
@@ -466,9 +499,10 @@ georec:1157  a                  btn100:Cargadero ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/cargadero/1157/geometry> .
 
 georec:1003  a                  btn100:Cargadero ;
+        rdfs:label              "1003" ;
         geoes:codigoDeEstacion  "78301" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> ;
         dc:created              "2012-05-17"^^xsd:date ;
         dc:identifier           "1003" ;
         dc:replaces             "22413" ;
@@ -484,9 +518,10 @@ georec:1003  a                  btn100:Cargadero ;
         geosparql:asWKT  "POINT (-5.434081599999999 36.424331775071316)"^^geosparql:wktLiteral .
 
 georec:1016  a                  btn100:Cargadero ;
+        rdfs:label              "1016" ;
         geoes:codigoDeEstacion  "74202" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-05-17"^^xsd:date ;
         dc:identifier           "1016" ;
         dc:title                "Cargadero de Plasencia del Monte" ;
@@ -497,9 +532,10 @@ georec:1016  a                  btn100:Cargadero ;
         geosparql:asWKT  "POINT (-2.786167858120549 41.00479820094281)"^^geosparql:wktLiteral .
 
 georec:1707  a                  btn100:Cargadero ;
+        rdfs:label              "1707" ;
         geoes:codigoDeEstacion  "50205" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-10-30"^^xsd:date ;
         dc:identifier           "1707" ;
         dc:replaces             "34556" ;
@@ -515,9 +551,10 @@ georec:1707  a                  btn100:Cargadero ;
         geosparql:asWKT  "POINT (-3.1385295299999996 40.831653169072965)"^^geosparql:wktLiteral .
 
 georec:1151  a                  btn100:Cargadero ;
+        rdfs:label              "1151" ;
         geoes:codigoDeEstacion  "70204" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-02-16"^^xsd:date ;
         dc:identifier           "1151" ;
         dc:replaces             "5703" ;
@@ -525,9 +562,10 @@ georec:1151  a                  btn100:Cargadero ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/cargadero/1151/geometry> .
 
 georec:1691  a                  btn100:Cargadero ;
+        rdfs:label              "1691" ;
         geoes:codigoDeEstacion  "50301" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-10-30"^^xsd:date ;
         dc:identifier           "1691" ;
         dc:replaces             "34561" ;
@@ -535,9 +573,10 @@ georec:1691  a                  btn100:Cargadero ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/cargadero/1691/geometry> .
 
 georec:716  a                   btn100:Cargadero ;
+        rdfs:label              "716" ;
         geoes:codigoDeEstacion  "A7300" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> ;
         dc:created              "2012-04-26"^^xsd:date ;
         dc:identifier           "716" ;
         dc:replaces             "5703" ;
@@ -545,9 +584,10 @@ georec:716  a                   btn100:Cargadero ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/cargadero/716/geometry> .
 
 georec:1801  a                  btn100:Cargadero ;
+        rdfs:label              "1801" ;
         geoes:codigoDeEstacion  "51406" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-11-14"^^xsd:date ;
         dc:identifier           "1801" ;
         dc:replaces             "32068" ;
@@ -563,9 +603,10 @@ georec:1801  a                  btn100:Cargadero ;
         geosparql:asWKT  "POINT (-5.122177 38.22944095700111)"^^geosparql:wktLiteral .
 
 georec:1814  a                  btn100:Cargadero ;
+        rdfs:label              "1814" ;
         geoes:codigoDeEstacion  "51204" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-11-14"^^xsd:date ;
         dc:identifier           "1814" ;
         dc:title                "Cargadero de El Cuervo" ;
@@ -576,9 +617,10 @@ georec:1814  a                  btn100:Cargadero ;
         geosparql:asWKT  "POINT (-3.7836382800000004 37.989299236766215)"^^geosparql:wktLiteral .
 
 georec:1149  a                  btn100:Cargadero ;
+        rdfs:label              "1149" ;
         geoes:codigoDeEstacion  "70202" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> ;
         dc:created              "2012-02-16"^^xsd:date ;
         dc:identifier           "1149" ;
         dc:replaces             "5703" ;
@@ -590,9 +632,10 @@ georec:1149  a                  btn100:Cargadero ;
         geosparql:asWKT  "POINT (-6.06648397 36.751333665448094)"^^geosparql:wktLiteral .
 
 georec:1701  a                  btn100:Cargadero ;
+        rdfs:label              "1701" ;
         geoes:codigoDeEstacion  "50209" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-10-30"^^xsd:date ;
         dc:identifier           "1701" ;
         dc:replaces             "34559" ;
@@ -600,9 +643,10 @@ georec:1701  a                  btn100:Cargadero ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/cargadero/1701/geometry> .
 
 georec:1689  a                  btn100:Cargadero ;
+        rdfs:label              "1689" ;
         geoes:codigoDeEstacion  "50302" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-10-30"^^xsd:date ;
         dc:identifier           "1689" ;
         dc:replaces             "34562" ;
@@ -626,9 +670,10 @@ georec:1689  a                  btn100:Cargadero ;
         geosparql:asWKT  "POINT (-5.34153224 38.3684892371339)"^^geosparql:wktLiteral .
 
 georec:708  a                   btn100:Cargadero ;
+        rdfs:label              "708" ;
         geoes:codigoDeEstacion  "73001" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-04-26"^^xsd:date ;
         dc:identifier           "708" ;
         dc:replaces             "5703" ;
@@ -636,9 +681,10 @@ georec:708  a                   btn100:Cargadero ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/cargadero/708/geometry> .
 
 georec:1030  a                  btn100:Cargadero ;
+        rdfs:label              "1030" ;
         geoes:codigoDeEstacion  "78203" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-05-17"^^xsd:date ;
         dc:identifier           "1030" ;
         dc:replaces             "22406" ;
@@ -646,9 +692,10 @@ georec:1030  a                  btn100:Cargadero ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/cargadero/1030/geometry> .
 
 georec:1156  a                  btn100:Cargadero ;
+        rdfs:label              "1156" ;
         geoes:codigoDeEstacion  "70210" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-02-16"^^xsd:date ;
         dc:identifier           "1156" ;
         dc:replaces             "5703" ;
@@ -656,9 +703,10 @@ georec:1156  a                  btn100:Cargadero ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/cargadero/1156/geometry> .
 
 georec:1696  a                  btn100:Cargadero ;
+        rdfs:label              "1696" ;
         geoes:codigoDeEstacion  "56002" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-10-30"^^xsd:date ;
         dc:identifier           "1696" ;
         dc:replaces             "34572" ;
@@ -666,9 +714,10 @@ georec:1696  a                  btn100:Cargadero ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/cargadero/1696/geometry> .
 
 georec:1806  a                  btn100:Cargadero ;
+        rdfs:label              "1806" ;
         geoes:codigoDeEstacion  "51401" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> ;
         dc:created              "2012-11-14"^^xsd:date ;
         dc:identifier           "1806" ;
         dc:replaces             "5703" ;
@@ -688,9 +737,10 @@ georec:1806  a                  btn100:Cargadero ;
         geosparql:asWKT  "POINT (0.3751205734150871 41.77893160938376)"^^geosparql:wktLiteral .
 
 georec:1028  a                  btn100:Cargadero ;
+        rdfs:label              "1028" ;
         geoes:codigoDeEstacion  "78303" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> ;
         dc:created              "2012-05-17"^^xsd:date ;
         dc:identifier           "1028" ;
         dc:replaces             "22416" ;
@@ -702,9 +752,10 @@ georec:1028  a                  btn100:Cargadero ;
         geosparql:asWKT  "POINT (-4.069083240000001 38.80936629753908)"^^geosparql:wktLiteral .
 
 georec:1706  a                  btn100:Cargadero ;
+        rdfs:label              "1706" ;
         geoes:codigoDeEstacion  "50204" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-10-30"^^xsd:date ;
         dc:identifier           "1706" ;
         dc:replaces             "34555" ;
@@ -720,17 +771,19 @@ georec:1706  a                  btn100:Cargadero ;
         geosparql:asWKT  "POINT (-4.147982500000001 38.67761363742055)"^^geosparql:wktLiteral .
 
 georec:1662  a                 btn100:Cargadero ;
-        geoes:rutaTenT         "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico    "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mercancia>" ;
+        rdfs:label             "1662" ;
+        geoes:rutaTenT         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico    <https://datos.ign.es/kos/transportes/tipo-de-trafico/mercancia> ;
         dc:created             "2012-12-14"^^xsd:date ;
         dc:identifier          "1662" ;
         dc:title               "Cargadero de Santander-Puerto" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/cargadero/1662/geometry> .
 
 georec:1926  a                  btn100:Cargadero ;
+        rdfs:label              "1926" ;
         geoes:codigoDeEstacion  "00007" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> ;
         dc:created              "2006-07-24"^^xsd:date ;
         dc:identifier           "1926" ;
         dc:replaces             "33102" ;
@@ -742,9 +795,10 @@ georec:1926  a                  btn100:Cargadero ;
         geosparql:asWKT  "POINT (-5.121279339999999 36.86226408557329)"^^geosparql:wktLiteral .
 
 georec:1813  a                  btn100:Cargadero ;
+        rdfs:label              "1813" ;
         geoes:codigoDeEstacion  "51304" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> ;
         dc:created              "2012-11-14"^^xsd:date ;
         dc:identifier           "1813" ;
         dc:replaces             "5703" ;
@@ -756,9 +810,10 @@ georec:1813  a                  btn100:Cargadero ;
         geosparql:asWKT  "POINT (-3.2827092200000005 37.89220573666926)"^^geosparql:wktLiteral .
 
 georec:1700  a                  btn100:Cargadero ;
+        rdfs:label              "1700" ;
         geoes:codigoDeEstacion  "56004" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-10-30"^^xsd:date ;
         dc:identifier           "1700" ;
         dc:replaces             "34574" ;
@@ -766,9 +821,10 @@ georec:1700  a                  btn100:Cargadero ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/cargadero/1700/geometry> .
 
 georec:1022  a                  btn100:Cargadero ;
+        rdfs:label              "1022" ;
         geoes:codigoDeEstacion  "74211" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-05-17"^^xsd:date ;
         dc:identifier           "1022" ;
         dc:replaces             "22403" ;
@@ -784,9 +840,10 @@ georec:1022  a                  btn100:Cargadero ;
         geosparql:asWKT  "POINT (-2.8428261000000297 40.95413283914799)"^^geosparql:wktLiteral .
 
 georec:1688  a                  btn100:Cargadero ;
+        rdfs:label              "1688" ;
         geoes:codigoDeEstacion  "50303" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-10-30"^^xsd:date ;
         dc:identifier           "1688" ;
         dc:replaces             "5703" ;
@@ -810,9 +867,10 @@ georec:1688  a                  btn100:Cargadero ;
         geosparql:asWKT  "POINT (-3.8169721499999993 43.445517220205474)"^^geosparql:wktLiteral .
 
 georec:1007  a                  btn100:Cargadero ;
+        rdfs:label              "1007" ;
         geoes:codigoDeEstacion  "74204" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-05-17"^^xsd:date ;
         dc:identifier           "1007" ;
         dc:replaces             "22368" ;
@@ -820,8 +878,9 @@ georec:1007  a                  btn100:Cargadero ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/cargadero/1007/geometry> .
 
 georec:1920  a                 btn100:Cargadero ;
-        geoes:rutaTenT         "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico    "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        rdfs:label             "1920" ;
+        geoes:rutaTenT         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico    <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created             "2006-07-24"^^xsd:date ;
         dc:identifier          "1920" ;
         dc:replaces            "33158" ;
@@ -837,9 +896,10 @@ georec:1920  a                 btn100:Cargadero ;
         geosparql:asWKT  "POINT (-5.308646429999999 38.31866590708658)"^^geosparql:wktLiteral .
 
 georec:1682  a                  btn100:Cargadero ;
+        rdfs:label              "1682" ;
         geoes:codigoDeEstacion  "50402" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-10-30"^^xsd:date ;
         dc:identifier           "1682" ;
         dc:replaces             "34564" ;
@@ -847,9 +907,10 @@ georec:1682  a                  btn100:Cargadero ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/cargadero/1682/geometry> .
 
 georec:1820  a                  btn100:Cargadero ;
+        rdfs:label              "1820" ;
         geoes:codigoDeEstacion  "55018" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-11-14"^^xsd:date ;
         dc:identifier           "1820" ;
         dc:title                "Cargadero de San Roque-La Línea" ;
@@ -860,9 +921,10 @@ georec:1820  a                  btn100:Cargadero ;
         geosparql:asWKT  "POINT (-5.460652684433886 36.17369495601468)"^^geosparql:wktLiteral .
 
 georec:707  a                   btn100:Cargadero ;
+        rdfs:label              "707" ;
         geoes:codigoDeEstacion  "78304" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-04-26"^^xsd:date ;
         dc:identifier           "707" ;
         dc:replaces             "23885" ;
@@ -870,9 +932,10 @@ georec:707  a                   btn100:Cargadero ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/cargadero/707/geometry> .
 
 georec:1155  a                  btn100:Cargadero ;
+        rdfs:label              "1155" ;
         geoes:codigoDeEstacion  "70209" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> ;
         dc:created              "2012-02-16"^^xsd:date ;
         dc:identifier           "1155" ;
         dc:replaces             "5703" ;
@@ -884,9 +947,10 @@ georec:1155  a                  btn100:Cargadero ;
         geosparql:asWKT  "POINT (-6.067953449999998 36.8346005255422)"^^geosparql:wktLiteral .
 
 georec:1695  a                  btn100:Cargadero ;
+        rdfs:label              "1695" ;
         geoes:codigoDeEstacion  "56009" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-10-30"^^xsd:date ;
         dc:identifier           "1695" ;
         dc:replaces             "34576" ;
@@ -914,8 +978,9 @@ georec:1695  a                  btn100:Cargadero ;
         geosparql:asWKT  "POINT (-3.3509270999999994 37.91353340669066)"^^geosparql:wktLiteral .
 
 georec:2433  a                 btn100:Cargadero ;
-        geoes:rutaTenT         "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico    "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mercancia>" ;
+        rdfs:label             "2433" ;
+        geoes:rutaTenT         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico    <https://datos.ign.es/kos/transportes/tipo-de-trafico/mercancia> ;
         dc:created             "2013-06-10"^^xsd:date ;
         dc:identifier          "2433" ;
         dc:title               "Cargadero de Fresno" ;
@@ -926,9 +991,10 @@ georec:2433  a                 btn100:Cargadero ;
         geosparql:asWKT  "POINT (-0.68254086 42.275178799821525)"^^geosparql:wktLiteral .
 
 georec:1705  a                  btn100:Cargadero ;
+        rdfs:label              "1705" ;
         geoes:codigoDeEstacion  "50206" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-10-30"^^xsd:date ;
         dc:identifier           "1705" ;
         dc:replaces             "34557" ;
@@ -940,9 +1006,10 @@ georec:1705  a                  btn100:Cargadero ;
         geosparql:asWKT  "POINT (0.2910376528617195 41.849736315821005)"^^geosparql:wktLiteral .
 
 georec:1925  a                  btn100:Cargadero ;
+        rdfs:label              "1925" ;
         geoes:codigoDeEstacion  "00004" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2006-07-24"^^xsd:date ;
         dc:identifier           "1925" ;
         dc:replaces             "33102" ;
@@ -950,17 +1017,19 @@ georec:1925  a                  btn100:Cargadero ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/cargadero/1925/geometry> .
 
 georec:1661  a                 btn100:Cargadero ;
-        geoes:rutaTenT         "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico    "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mercancia>" ;
+        rdfs:label             "1661" ;
+        geoes:rutaTenT         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico    <https://datos.ign.es/kos/transportes/tipo-de-trafico/mercancia> ;
         dc:created             "2012-12-14"^^xsd:date ;
         dc:identifier          "1661" ;
         dc:title               "Cargadero de Santander-Puerto" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/cargadero/1661/geometry> .
 
 georec:1812  a                  btn100:Cargadero ;
+        rdfs:label              "1812" ;
         geoes:codigoDeEstacion  "51207" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> ;
         dc:created              "2012-11-14"^^xsd:date ;
         dc:identifier           "1812" ;
         dc:replaces             "5703" ;
@@ -972,16 +1041,18 @@ georec:1812  a                  btn100:Cargadero ;
         geosparql:asWKT  "POINT (0.8773561628122821 41.521889167584334)"^^geosparql:wktLiteral .
 
 georec:1006  a                  btn100:Cargadero ;
+        rdfs:label              "1006" ;
         geoes:codigoDeEstacion  "78102" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-05-17"^^xsd:date ;
         dc:identifier           "1006" ;
         dc:title                "Cargadero de Almudévar" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/cargadero/1006/geometry> .
 
 georec:2218  a                 btn100:Cargadero ;
-        geoes:rutaTenT         "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
+        rdfs:label             "2218" ;
+        geoes:rutaTenT         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
         geoes:tipoDeTrafico    "00" ;
         dc:created             "2013-05-17"^^xsd:date ;
         dc:identifier          "2218" ;
@@ -989,9 +1060,10 @@ georec:2218  a                 btn100:Cargadero ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/cargadero/2218/geometry> .
 
 georec:706  a                   btn100:Cargadero ;
+        rdfs:label              "706" ;
         geoes:codigoDeEstacion  "78305" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> ;
         dc:created              "2012-04-26"^^xsd:date ;
         dc:identifier           "706" ;
         dc:title                "Cargadero de Raimat" ;
@@ -1002,9 +1074,10 @@ georec:706  a                   btn100:Cargadero ;
         geosparql:asWKT  "POINT (-3.187185263237639 37.71690716232527)"^^geosparql:wktLiteral .
 
 georec:1694  a                  btn100:Cargadero ;
+        rdfs:label              "1694" ;
         geoes:codigoDeEstacion  "56009" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-10-30"^^xsd:date ;
         dc:identifier           "1694" ;
         dc:replaces             "34577" ;
@@ -1012,9 +1085,10 @@ georec:1694  a                  btn100:Cargadero ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/cargadero/1694/geometry> .
 
 georec:1459  a                  btn100:Cargadero ;
+        rdfs:label              "1459" ;
         geoes:codigoDeEstacion  "37110" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-02-03"^^xsd:date ;
         dc:identifier           "1459" ;
         dc:replaces             "41978" ;

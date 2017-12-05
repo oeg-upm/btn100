@@ -12,6 +12,7 @@
 @prefix dc:    <http://purl.org/dc/terms/> .
 
 georec:7658  a                 btn100:DepresionMaestra ;
+        rdfs:label             "7658" ;
         geoes:cota             "500" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "7658" ;

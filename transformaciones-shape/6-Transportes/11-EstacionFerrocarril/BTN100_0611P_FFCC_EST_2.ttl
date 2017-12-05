@@ -12,9 +12,10 @@
 @prefix dc:    <http://purl.org/dc/terms/> .
 
 georec:540  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "540" ;
         geoes:codigoDeEstacion  "11508" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-04-27"^^xsd:date ;
         dc:identifier           "540" ;
         dc:replaces             "22142" ;
@@ -22,9 +23,10 @@ georec:540  a                   btn100:InstalacionFerroviaria ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/instalacion-ferroviaria/540/geometry> .
 
 georec:519  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "519" ;
         geoes:codigoDeEstacion  "11407" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-04-27"^^xsd:date ;
         dc:identifier           "519" ;
         dc:replaces             "22038" ;
@@ -36,9 +38,10 @@ georec:519  a                   btn100:InstalacionFerroviaria ;
         geosparql:asWKT  "POINT (2.1827360999999996 41.43186229942043)"^^geosparql:wktLiteral .
 
 georec:1521  a                  btn100:InstalacionFerroviaria ;
+        rdfs:label              "1521" ;
         geoes:codigoDeEstacion  "20106" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-09-26"^^xsd:date ;
         dc:identifier           "1521" ;
         dc:replaces             "59463" ;
@@ -62,9 +65,10 @@ georec:1521  a                  btn100:InstalacionFerroviaria ;
         geosparql:asWKT  "POINT (-6.251403477474587 42.63060911788764)"^^geosparql:wktLiteral .
 
 georec:911  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "911" ;
         geoes:codigoDeEstacion  "78802" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-04-18"^^xsd:date ;
         dc:identifier           "911" ;
         dc:replaces             "5703" ;
@@ -72,9 +76,10 @@ georec:911  a                   btn100:InstalacionFerroviaria ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/instalacion-ferroviaria/911/geometry> .
 
 georec:548  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "548" ;
         geoes:codigoDeEstacion  "11602" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-04-27"^^xsd:date ;
         dc:identifier           "548" ;
         dc:replaces             "22195" ;
@@ -82,9 +87,10 @@ georec:548  a                   btn100:InstalacionFerroviaria ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/instalacion-ferroviaria/548/geometry> .
 
 georec:1529  a                  btn100:InstalacionFerroviaria ;
+        rdfs:label              "1529" ;
         geoes:codigoDeEstacion  "20006" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-09-26"^^xsd:date ;
         dc:identifier           "1529" ;
         dc:replaces             "59477" ;
@@ -96,9 +102,10 @@ georec:1529  a                  btn100:InstalacionFerroviaria ;
         geosparql:asWKT  "POINT (-5.49752276 42.46089843989594)"^^geosparql:wktLiteral .
 
 georec:1508  a                  btn100:InstalacionFerroviaria ;
+        rdfs:label              "1508" ;
         geoes:codigoDeEstacion  "20201" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-09-26"^^xsd:date ;
         dc:identifier           "1508" ;
         dc:replaces             "59443" ;
@@ -106,9 +113,10 @@ georec:1508  a                  btn100:InstalacionFerroviaria ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/instalacion-ferroviaria/1508/geometry> .
 
 georec:435  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "435" ;
         geoes:codigoDeEstacion  "13505" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-05-22"^^xsd:date ;
         dc:identifier           "435" ;
         dc:replaces             "5703" ;
@@ -116,9 +124,10 @@ georec:435  a                   btn100:InstalacionFerroviaria ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/instalacion-ferroviaria/435/geometry> .
 
 georec:385  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "385" ;
         geoes:codigoDeEstacion  "11202" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> ;
         dc:created              "2012-06-01"^^xsd:date ;
         dc:identifier           "385" ;
         dc:title                "Estación de Ribavellosa/Ribavellosako Tren Geltokia" ;
@@ -145,9 +154,10 @@ georec:385  a                   btn100:InstalacionFerroviaria ;
         geosparql:asWKT  "POINT (1.7254106000000002 41.37080903938743)"^^geosparql:wktLiteral .
 
 georec:848  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "848" ;
         geoes:codigoDeEstacion  "XX003" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> ;
         dc:created              "2012-04-18"^^xsd:date ;
         dc:identifier           "848" ;
         dc:replaces             "5703" ;
@@ -163,9 +173,10 @@ georec:848  a                   btn100:InstalacionFerroviaria ;
         geosparql:asWKT  "POINT (2.2172523 42.10536443974904)"^^geosparql:wktLiteral .
 
 georec:443  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "443" ;
         geoes:codigoDeEstacion  "13401" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-05-22"^^xsd:date ;
         dc:identifier           "443" ;
         dc:replaces             "29885" ;
@@ -173,9 +184,10 @@ georec:443  a                   btn100:InstalacionFerroviaria ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/instalacion-ferroviaria/443/geometry> .
 
 georec:798  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "798" ;
         geoes:codigoDeEstacion  "77104" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-04-18"^^xsd:date ;
         dc:identifier           "798" ;
         dc:replaces             "19793" ;
@@ -195,18 +207,20 @@ georec:798  a                   btn100:InstalacionFerroviaria ;
         geosparql:asWKT  "POINT (-3.0300028799999157 43.30210194016935)"^^geosparql:wktLiteral .
 
 georec:393  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "393" ;
         geoes:codigoDeEstacion  "13005" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-06-01"^^xsd:date ;
         dc:identifier           "393" ;
         dc:title                "Estación del camino de Lezama/Lezamarenbideko Tren Geltokia" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/instalacion-ferroviaria/393/geometry> .
 
 georec:927  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "927" ;
         geoes:codigoDeEstacion  "79011" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-04-18"^^xsd:date ;
         dc:identifier           "927" ;
         dc:replaces             "5703" ;
@@ -214,9 +228,10 @@ georec:927  a                   btn100:InstalacionFerroviaria ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/instalacion-ferroviaria/927/geometry> .
 
 georec:543  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "543" ;
         geoes:codigoDeEstacion  "11514" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-04-27"^^xsd:date ;
         dc:identifier           "543" ;
         dc:replaces             "22158" ;
@@ -228,9 +243,10 @@ georec:543  a                   btn100:InstalacionFerroviaria ;
         geosparql:asWKT  "POINT (-5.7053267503648 42.984400380984106)"^^geosparql:wktLiteral .
 
 georec:522  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "522" ;
         geoes:codigoDeEstacion  "11500" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-04-27"^^xsd:date ;
         dc:identifier           "522" ;
         dc:replaces             "5703" ;
@@ -238,9 +254,10 @@ georec:522  a                   btn100:InstalacionFerroviaria ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/instalacion-ferroviaria/522/geometry> .
 
 georec:1524  a                  btn100:InstalacionFerroviaria ;
+        rdfs:label              "1524" ;
         geoes:codigoDeEstacion  "20104" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> ;
         dc:created              "2012-09-26"^^xsd:date ;
         dc:identifier           "1524" ;
         dc:replaces             "59468" ;
@@ -260,8 +277,9 @@ georec:1524  a                  btn100:InstalacionFerroviaria ;
         geosparql:asWKT  "POINT (-3.091566861125189 43.31535444967414)"^^geosparql:wktLiteral .
 
 georec:551  a                  btn100:InstalacionFerroviaria ;
-        geoes:rutaTenT         "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico    "<https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros>" ;
+        rdfs:label             "551" ;
+        geoes:rutaTenT         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico    <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> ;
         dc:created             "2012-04-20"^^xsd:date ;
         dc:identifier          "551" ;
         dc:title               "Estación de Errenteria/Galtzarabordako tren geltokia" ;
@@ -272,9 +290,10 @@ georec:551  a                  btn100:InstalacionFerroviaria ;
         geosparql:asWKT  "POINT (-6.06839351 42.55363707993122)"^^geosparql:wktLiteral .
 
 georec:509  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "509" ;
         geoes:codigoDeEstacion  "11305" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-04-27"^^xsd:date ;
         dc:identifier           "509" ;
         dc:replaces             "21952" ;
@@ -282,9 +301,10 @@ georec:509  a                   btn100:InstalacionFerroviaria ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/instalacion-ferroviaria/509/geometry> .
 
 georec:1532  a                  btn100:InstalacionFerroviaria ;
+        rdfs:label              "1532" ;
         geoes:codigoDeEstacion  "20004" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-09-26"^^xsd:date ;
         dc:identifier           "1532" ;
         dc:replaces             "60802" ;
@@ -292,9 +312,10 @@ georec:1532  a                  btn100:InstalacionFerroviaria ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/instalacion-ferroviaria/1532/geometry> .
 
 georec:1511  a                  btn100:InstalacionFerroviaria ;
+        rdfs:label              "1511" ;
         geoes:codigoDeEstacion  "20601" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> ;
         dc:created              "2012-09-26"^^xsd:date ;
         dc:identifier           "1511" ;
         dc:replaces             "59440" ;
@@ -310,9 +331,10 @@ georec:1511  a                  btn100:InstalacionFerroviaria ;
         geosparql:asWKT  "POINT (-1.96380759993968 43.27239323301637)"^^geosparql:wktLiteral .
 
 georec:388  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "388" ;
         geoes:codigoDeEstacion  "13001" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-06-01"^^xsd:date ;
         dc:identifier           "388" ;
         dc:title                "Estación de Pobes/Pobeseko Tren Geltokia" ;
@@ -323,9 +345,10 @@ georec:388  a                   btn100:InstalacionFerroviaria ;
         geosparql:asWKT  "POINT (-5.964411489999999 42.414619569877885)"^^geosparql:wktLiteral .
 
 georec:1561  a                  btn100:InstalacionFerroviaria ;
+        rdfs:label              "1561" ;
         geoes:codigoDeEstacion  "15012" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> ;
         dc:created              "2012-09-26"^^xsd:date ;
         dc:identifier           "1561" ;
         dc:replaces             "59523" ;
@@ -345,9 +368,10 @@ georec:1561  a                  btn100:InstalacionFerroviaria ;
         geosparql:asWKT  "POINT (2.1800491649928353 41.47018769898611)"^^geosparql:wktLiteral .
 
 georec:446  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "446" ;
         geoes:codigoDeEstacion  "13408" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> ;
         dc:created              "2012-05-22"^^xsd:date ;
         dc:identifier           "446" ;
         dc:replaces             "29874" ;
@@ -359,9 +383,10 @@ georec:446  a                   btn100:InstalacionFerroviaria ;
         geosparql:asWKT  "POINT (-2.9163334499999998 43.24229262015339)"^^geosparql:wktLiteral .
 
 georec:1548  a                  btn100:InstalacionFerroviaria ;
+        rdfs:label              "1548" ;
         geoes:codigoDeEstacion  "15103" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> ;
         dc:created              "2012-09-26"^^xsd:date ;
         dc:identifier           "1548" ;
         dc:replaces             "59492" ;
@@ -377,9 +402,10 @@ georec:1548  a                  btn100:InstalacionFerroviaria ;
         geosparql:asWKT  "POINT (2.549616363045199 41.577579947074035)"^^geosparql:wktLiteral .
 
 georec:1577  a                  btn100:InstalacionFerroviaria ;
+        rdfs:label              "1577" ;
         geoes:codigoDeEstacion  "15112" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-09-26"^^xsd:date ;
         dc:identifier           "1577" ;
         dc:replaces             "59488" ;
@@ -399,9 +425,10 @@ georec:1577  a                  btn100:InstalacionFerroviaria ;
         geosparql:asWKT  "POINT (-3.041189656695113 43.33570333750526)"^^geosparql:wktLiteral .
 
 georec:1514  a                  btn100:InstalacionFerroviaria ;
+        rdfs:label              "1514" ;
         geoes:codigoDeEstacion  "20113" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-09-26"^^xsd:date ;
         dc:identifier           "1514" ;
         dc:replaces             "59450" ;
@@ -413,9 +440,10 @@ georec:1514  a                  btn100:InstalacionFerroviaria ;
         geosparql:asWKT  "POINT (-2.915642714480958 42.992751499444395)"^^geosparql:wktLiteral .
 
 georec:804  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "804" ;
         geoes:codigoDeEstacion  "79601" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-04-18"^^xsd:date ;
         dc:identifier           "804" ;
         dc:replaces             "19933" ;
@@ -423,9 +451,10 @@ georec:804  a                   btn100:InstalacionFerroviaria ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/instalacion-ferroviaria/804/geometry> .
 
 georec:796  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "796" ;
         geoes:codigoDeEstacion  "79101" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-04-18"^^xsd:date ;
         dc:identifier           "796" ;
         dc:replaces             "19958" ;
@@ -437,18 +466,20 @@ georec:796  a                   btn100:InstalacionFerroviaria ;
         geosparql:asWKT  "POINT (1.660185990000267 41.31449090935649)"^^geosparql:wktLiteral .
 
 georec:391  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "391" ;
         geoes:codigoDeEstacion  "13003" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> ;
         dc:created              "2012-06-01"^^xsd:date ;
         dc:identifier           "391" ;
         dc:title                "Estación de Izarra/Izarrako Tren Geltokia" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/instalacion-ferroviaria/391/geometry> .
 
 georec:896  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "896" ;
         geoes:codigoDeEstacion  "72301" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-04-18"^^xsd:date ;
         dc:identifier           "896" ;
         dc:replaces             "19858" ;
@@ -456,9 +487,10 @@ georec:896  a                   btn100:InstalacionFerroviaria ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/instalacion-ferroviaria/896/geometry> .
 
 georec:1543  a                  btn100:InstalacionFerroviaria ;
+        rdfs:label              "1543" ;
         geoes:codigoDeEstacion  "20003" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-09-26"^^xsd:date ;
         dc:identifier           "1543" ;
         dc:replaces             "59482" ;
@@ -478,9 +510,10 @@ georec:1543  a                  btn100:InstalacionFerroviaria ;
         geosparql:asWKT  "POINT (-3.010199770024335 43.30419406438728)"^^geosparql:wktLiteral .
 
 georec:1522  a                  btn100:InstalacionFerroviaria ;
+        rdfs:label              "1522" ;
         geoes:codigoDeEstacion  "20108" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-09-26"^^xsd:date ;
         dc:identifier           "1522" ;
         dc:replaces             "59465" ;
@@ -512,9 +545,10 @@ georec:1522  a                  btn100:InstalacionFerroviaria ;
         geosparql:asWKT  "POINT (2.2690611902380624 42.000051458162396)"^^geosparql:wktLiteral .
 
 georec:933  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "933" ;
         geoes:codigoDeEstacion  "77005" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-04-18"^^xsd:date ;
         dc:identifier           "933" ;
         dc:replaces             "19961" ;
@@ -522,17 +556,19 @@ georec:933  a                   btn100:InstalacionFerroviaria ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/instalacion-ferroviaria/933/geometry> .
 
 georec:549  a                  btn100:InstalacionFerroviaria ;
-        geoes:rutaTenT         "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico    "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        rdfs:label             "549" ;
+        geoes:rutaTenT         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico    <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created             "2012-04-10"^^xsd:date ;
         dc:identifier          "549" ;
         dc:title               "Estación de Andoain/Andoaingo tren geltokia" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/instalacion-ferroviaria/549/geometry> .
 
 georec:1572  a                  btn100:InstalacionFerroviaria ;
+        rdfs:label              "1572" ;
         geoes:codigoDeEstacion  "15108" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-09-26"^^xsd:date ;
         dc:identifier           "1572" ;
         dc:replaces             "59485" ;
@@ -548,9 +584,10 @@ georec:1572  a                  btn100:InstalacionFerroviaria ;
         geosparql:asWKT  "POINT (-6.328353706795383 42.595518892643746)"^^geosparql:wktLiteral .
 
 georec:507  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "507" ;
         geoes:codigoDeEstacion  "11303" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-04-27"^^xsd:date ;
         dc:identifier           "507" ;
         dc:replaces             "5703" ;
@@ -566,9 +603,10 @@ georec:507  a                   btn100:InstalacionFerroviaria ;
         geosparql:asWKT  "POINT (-2.30670996 42.86924304004177)"^^geosparql:wktLiteral .
 
 georec:820  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "820" ;
         geoes:codigoDeEstacion  "77111" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-04-18"^^xsd:date ;
         dc:identifier           "820" ;
         dc:replaces             "19789" ;
@@ -592,9 +630,10 @@ georec:820  a                   btn100:InstalacionFerroviaria ;
         geosparql:asWKT  "POINT (2.1998831000001617 41.51047039946216)"^^geosparql:wktLiteral .
 
 georec:536  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "536" ;
         geoes:codigoDeEstacion  "11507" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-04-27"^^xsd:date ;
         dc:identifier           "536" ;
         dc:replaces             "22135" ;
@@ -602,9 +641,10 @@ georec:536  a                   btn100:InstalacionFerroviaria ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/instalacion-ferroviaria/536/geometry> .
 
 georec:1559  a                  btn100:InstalacionFerroviaria ;
+        rdfs:label              "1559" ;
         geoes:codigoDeEstacion  "15014" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> ;
         dc:created              "2012-09-26"^^xsd:date ;
         dc:identifier           "1559" ;
         dc:replaces             "60242" ;
@@ -620,9 +660,10 @@ georec:1559  a                  btn100:InstalacionFerroviaria ;
         geosparql:asWKT  "POINT (-7.988119960000002 42.35200502985294)"^^geosparql:wktLiteral .
 
 georec:2055  a                  btn100:InstalacionFerroviaria ;
+        rdfs:label              "2055" ;
         geoes:codigoDeEstacion  "31301" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2013-02-13"^^xsd:date ;
         dc:identifier           "2055" ;
         dc:replaces             "5703" ;
@@ -633,18 +674,20 @@ georec:2055  a                  btn100:InstalacionFerroviaria ;
         geosparql:asWKT  "POINT (2.6929371800000004 41.6221536295199)"^^geosparql:wktLiteral .
 
 georec:402  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "402" ;
         geoes:codigoDeEstacion  "11221" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> ;
         dc:created              "2012-06-01"^^xsd:date ;
         dc:identifier           "402" ;
         dc:title                "Estación de Jundiz/Jundizeko Tren Geltokia" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/instalacion-ferroviaria/402/geometry> .
 
 georec:394  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "394" ;
         geoes:codigoDeEstacion  "13004" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-06-01"^^xsd:date ;
         dc:identifier           "394" ;
         dc:title                "Estación de Inoso-Oiardo/Inoso-Oiardoko Tren Geltokia" ;
@@ -655,9 +698,10 @@ georec:394  a                   btn100:InstalacionFerroviaria ;
         geosparql:asWKT  "POINT (-6.769124690000002 42.569873399937286)"^^geosparql:wktLiteral .
 
 georec:1546  a                  btn100:InstalacionFerroviaria ;
+        rdfs:label              "1546" ;
         geoes:codigoDeEstacion  "15017" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-09-26"^^xsd:date ;
         dc:identifier           "1546" ;
         dc:replaces             "59498" ;
@@ -669,9 +713,10 @@ georec:1546  a                  btn100:InstalacionFerroviaria ;
         geosparql:asWKT  "POINT (-5.87592637 43.55445067023087)"^^geosparql:wktLiteral .
 
 georec:1504  a                  btn100:InstalacionFerroviaria ;
+        rdfs:label              "1504" ;
         geoes:codigoDeEstacion  "20205" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> ;
         dc:created              "2012-09-26"^^xsd:date ;
         dc:identifier           "1504" ;
         dc:replaces             "5703" ;
@@ -679,9 +724,10 @@ georec:1504  a                  btn100:InstalacionFerroviaria ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/instalacion-ferroviaria/1504/geometry> .
 
 georec:815  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "815" ;
         geoes:codigoDeEstacion  "77107" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> ;
         dc:created              "2012-04-18"^^xsd:date ;
         dc:identifier           "815" ;
         dc:replaces             "5703" ;
@@ -693,9 +739,10 @@ georec:815  a                   btn100:InstalacionFerroviaria ;
         geosparql:asWKT  "POINT (-2.0981102733577592 42.41112610102614)"^^geosparql:wktLiteral .
 
 georec:1575  a                  btn100:InstalacionFerroviaria ;
+        rdfs:label              "1575" ;
         geoes:codigoDeEstacion  "15113" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> ;
         dc:created              "2012-09-26"^^xsd:date ;
         dc:identifier           "1575" ;
         dc:replaces             "59483" ;
@@ -707,9 +754,10 @@ georec:1575  a                  btn100:InstalacionFerroviaria ;
         geosparql:asWKT  "POINT (-5.39145702 42.46015900989566)"^^geosparql:wktLiteral .
 
 georec:1533  a                  btn100:InstalacionFerroviaria ;
+        rdfs:label              "1533" ;
         geoes:codigoDeEstacion  "20103" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-09-26"^^xsd:date ;
         dc:identifier           "1533" ;
         dc:title                "Estación de Porqueros" ;
@@ -720,9 +768,10 @@ georec:1533  a                  btn100:InstalacionFerroviaria ;
         geosparql:asWKT  "POINT (1.9024356 41.25423620932292)"^^geosparql:wktLiteral .
 
 georec:823  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "823" ;
         geoes:codigoDeEstacion  "72203" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> ;
         dc:created              "2012-04-18"^^xsd:date ;
         dc:identifier           "823" ;
         dc:replaces             "19854" ;
@@ -730,16 +779,18 @@ georec:823  a                   btn100:InstalacionFerroviaria ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/instalacion-ferroviaria/823/geometry> .
 
 georec:2434  a                 btn100:InstalacionFerroviaria ;
-        geoes:rutaTenT         "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico    "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mercancia>" ;
+        rdfs:label             "2434" ;
+        geoes:rutaTenT         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico    <https://datos.ign.es/kos/transportes/tipo-de-trafico/mercancia> ;
         dc:created             "2013-06-06"^^xsd:date ;
         dc:identifier          "2434" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/instalacion-ferroviaria/2434/geometry> .
 
 georec:439  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "439" ;
         geoes:codigoDeEstacion  "13503" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-05-22"^^xsd:date ;
         dc:identifier           "439" ;
         dc:replaces             "5703" ;
@@ -751,18 +802,20 @@ georec:439  a                   btn100:InstalacionFerroviaria ;
         geosparql:asWKT  "POINT (2.6245977179191047 41.60163736934626)"^^geosparql:wktLiteral .
 
 georec:389  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "389" ;
         geoes:codigoDeEstacion  "13002" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-06-01"^^xsd:date ;
         dc:identifier           "389" ;
         dc:title                "Estación de Zuhatsu/Zuhatsuko Tren Geltokia" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/instalacion-ferroviaria/389/geometry> .
 
 georec:1520  a                  btn100:InstalacionFerroviaria ;
+        rdfs:label              "1520" ;
         geoes:codigoDeEstacion  "20109" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-09-26"^^xsd:date ;
         dc:identifier           "1520" ;
         dc:replaces             "59461" ;
@@ -770,9 +823,10 @@ georec:1520  a                  btn100:InstalacionFerroviaria ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/instalacion-ferroviaria/1520/geometry> .
 
 georec:810  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "810" ;
         geoes:codigoDeEstacion  "79604" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-04-18"^^xsd:date ;
         dc:identifier           "810" ;
         dc:replaces             "5703" ;
@@ -780,9 +834,10 @@ georec:810  a                   btn100:InstalacionFerroviaria ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/instalacion-ferroviaria/810/geometry> .
 
 georec:1470  a                  btn100:InstalacionFerroviaria ;
+        rdfs:label              "1470" ;
         geoes:codigoDeEstacion  "60404" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-02-03"^^xsd:date ;
         dc:identifier           "1470" ;
         dc:replaces             "41735" ;
@@ -794,9 +849,10 @@ georec:1470  a                  btn100:InstalacionFerroviaria ;
         geosparql:asWKT  "POINT (2.5806232187608735 41.58626726115845)"^^geosparql:wktLiteral .
 
 georec:426  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "426" ;
         geoes:codigoDeEstacion  "13114" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-05-22"^^xsd:date ;
         dc:identifier           "426" ;
         dc:replaces             "29893" ;
@@ -804,18 +860,20 @@ georec:426  a                   btn100:InstalacionFerroviaria ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/instalacion-ferroviaria/426/geometry> .
 
 georec:405  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "405" ;
         geoes:codigoDeEstacion  "11210" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-06-01"^^xsd:date ;
         dc:identifier           "405" ;
         dc:title                "Estación de Alegria-Dulantzi/Alegria-Dulantziko Tren Geltokia" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/instalacion-ferroviaria/405/geometry> .
 
 georec:547  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "547" ;
         geoes:codigoDeEstacion  "11600" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-04-27"^^xsd:date ;
         dc:identifier           "547" ;
         dc:replaces             "22187" ;
@@ -823,9 +881,10 @@ georec:547  a                   btn100:InstalacionFerroviaria ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/instalacion-ferroviaria/547/geometry> .
 
 georec:881  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "881" ;
         geoes:codigoDeEstacion  "78710" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> ;
         dc:created              "2012-04-18"^^xsd:date ;
         dc:identifier           "881" ;
         dc:replaces             "5703" ;
@@ -837,9 +896,10 @@ georec:881  a                   btn100:InstalacionFerroviaria ;
         geosparql:asWKT  "POINT (-6.282328398971403 42.61494337266533)"^^geosparql:wktLiteral .
 
 georec:818  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "818" ;
         geoes:codigoDeEstacion  "77110" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-04-18"^^xsd:date ;
         dc:identifier           "818" ;
         dc:replaces             "19790" ;
@@ -863,9 +923,10 @@ georec:818  a                   btn100:InstalacionFerroviaria ;
         geosparql:asWKT  "POINT (2.20599025 41.53665288947584)"^^geosparql:wktLiteral .
 
 georec:847  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "847" ;
         geoes:codigoDeEstacion  "71708" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-04-18"^^xsd:date ;
         dc:identifier           "847" ;
         dc:replaces             "5703" ;
@@ -877,9 +938,10 @@ georec:847  a                   btn100:InstalacionFerroviaria ;
         geosparql:asWKT  "POINT (-2.9939535058575113 43.308498976795335)"^^geosparql:wktLiteral .
 
 georec:442  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "442" ;
         geoes:codigoDeEstacion  "13501" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-05-22"^^xsd:date ;
         dc:identifier           "442" ;
         dc:replaces             "5703" ;
@@ -887,9 +949,10 @@ georec:442  a                   btn100:InstalacionFerroviaria ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/instalacion-ferroviaria/442/geometry> .
 
 georec:797  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "797" ;
         geoes:codigoDeEstacion  "79102" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-04-18"^^xsd:date ;
         dc:identifier           "797" ;
         dc:replaces             "19957" ;
@@ -913,18 +976,20 @@ georec:797  a                   btn100:InstalacionFerroviaria ;
         geosparql:asWKT  "POINT (2.35374914575441 41.636530374485474)"^^geosparql:wktLiteral .
 
 georec:392  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "392" ;
         geoes:codigoDeEstacion  "13006" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-06-01"^^xsd:date ;
         dc:identifier           "392" ;
         dc:title                "Estación de Artomaña/Artomañako Tren Geltokia" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/instalacion-ferroviaria/392/geometry> .
 
 georec:926  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "926" ;
         geoes:codigoDeEstacion  "79005" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-04-18"^^xsd:date ;
         dc:identifier           "926" ;
         dc:replaces             "19887" ;
@@ -936,9 +1001,10 @@ georec:926  a                   btn100:InstalacionFerroviaria ;
         geosparql:asWKT  "POINT (-2.1410140680560343 43.08583617288942)"^^geosparql:wktLiteral .
 
 georec:1544  a                  btn100:InstalacionFerroviaria ;
+        rdfs:label              "1544" ;
         geoes:codigoDeEstacion  "20002" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-09-26"^^xsd:date ;
         dc:identifier           "1544" ;
         dc:title                "Estación de Quintana-Raneros" ;
@@ -949,9 +1015,10 @@ georec:1544  a                  btn100:InstalacionFerroviaria ;
         geosparql:asWKT  "POINT (2.2603384999999996 42.05209413972544)"^^geosparql:wktLiteral .
 
 georec:1523  a                  btn100:InstalacionFerroviaria ;
+        rdfs:label              "1523" ;
         geoes:codigoDeEstacion  "20105" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-09-26"^^xsd:date ;
         dc:identifier           "1523" ;
         dc:title                "Estación de Folgoso" ;
@@ -966,18 +1033,20 @@ georec:1523  a                  btn100:InstalacionFerroviaria ;
         geosparql:asWKT  "POINT (2.0393675605343655 41.56752952880176)"^^geosparql:wktLiteral .
 
 georec:408  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "408" ;
         geoes:codigoDeEstacion  "11213" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> ;
         dc:created              "2012-06-01"^^xsd:date ;
         dc:identifier           "408" ;
         dc:title                "Estación de Araia/Araiako Tren Geltokia" ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/instalacion-ferroviaria/408/geometry> .
 
 georec:913  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "913" ;
         geoes:codigoDeEstacion  "78800" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-04-18"^^xsd:date ;
         dc:identifier           "913" ;
         dc:replaces             "5703" ;
@@ -989,9 +1058,10 @@ georec:913  a                   btn100:InstalacionFerroviaria ;
         geosparql:asWKT  "POINT (2.24740604 41.84188268962828)"^^geosparql:wktLiteral .
 
 georec:529  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "529" ;
         geoes:codigoDeEstacion  "11503" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-04-27"^^xsd:date ;
         dc:identifier           "529" ;
         dc:replaces             "22082" ;
@@ -1003,9 +1073,10 @@ georec:529  a                   btn100:InstalacionFerroviaria ;
         geosparql:asWKT  "POINT (-6.686111960000002 42.54395407992759)"^^geosparql:wktLiteral .
 
 georec:1510  a                  btn100:InstalacionFerroviaria ;
+        rdfs:label              "1510" ;
         geoes:codigoDeEstacion  "20603" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> ;
         dc:created              "2012-09-26"^^xsd:date ;
         dc:identifier           "1510" ;
         dc:replaces             "59437" ;
@@ -1013,9 +1084,10 @@ georec:1510  a                  btn100:InstalacionFerroviaria ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/instalacion-ferroviaria/1510/geometry> .
 
 georec:821  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "821" ;
         geoes:codigoDeEstacion  "77113" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-04-18"^^xsd:date ;
         dc:identifier           "821" ;
         dc:replaces             "19788" ;
@@ -1023,8 +1095,9 @@ georec:821  a                   btn100:InstalacionFerroviaria ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/instalacion-ferroviaria/821/geometry> .
 
 georec:2432  a                 btn100:InstalacionFerroviaria ;
-        geoes:rutaTenT         "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico    "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mercancia>" ;
+        rdfs:label             "2432" ;
+        geoes:rutaTenT         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico    <https://datos.ign.es/kos/transportes/tipo-de-trafico/mercancia> ;
         dc:created             "2013-05-30"^^xsd:date ;
         dc:identifier          "2432" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/instalacion-ferroviaria/2432/geometry> .
@@ -1042,9 +1115,10 @@ georec:2432  a                 btn100:InstalacionFerroviaria ;
         geosparql:asWKT  "POINT (-2.320105407836118 43.08678558839492)"^^geosparql:wktLiteral .
 
 georec:516  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "516" ;
         geoes:codigoDeEstacion  "11404" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-04-27"^^xsd:date ;
         dc:identifier           "516" ;
         dc:replaces             "22014" ;
@@ -1056,9 +1130,10 @@ georec:516  a                   btn100:InstalacionFerroviaria ;
         geosparql:asWKT  "POINT (-6.7939283600000016 42.524848239920416)"^^geosparql:wktLiteral .
 
 georec:850  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "850" ;
         geoes:codigoDeEstacion  "72205" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> ;
         dc:created              "2012-04-18"^^xsd:date ;
         dc:identifier           "850" ;
         dc:replaces             "19852" ;
@@ -1066,9 +1141,10 @@ georec:850  a                   btn100:InstalacionFerroviaria ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/instalacion-ferroviaria/850/geometry> .
 
 georec:808  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "808" ;
         geoes:codigoDeEstacion  "79602" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-04-18"^^xsd:date ;
         dc:identifier           "808" ;
         dc:replaces             "5703" ;
@@ -1076,9 +1152,10 @@ georec:808  a                   btn100:InstalacionFerroviaria ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/instalacion-ferroviaria/808/geometry> .
 
 georec:929  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "929" ;
         geoes:codigoDeEstacion  "77004" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> ;
         dc:created              "2012-04-18"^^xsd:date ;
         dc:identifier           "929" ;
         dc:replaces             "19962" ;
@@ -1086,9 +1163,10 @@ georec:929  a                   btn100:InstalacionFerroviaria ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/instalacion-ferroviaria/929/geometry> .
 
 georec:566  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "566" ;
         geoes:codigoDeEstacion  "81106" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-05-28"^^xsd:date ;
         dc:identifier           "566" ;
         dc:title                "Estación de Feculas-Navarra" ;
@@ -1099,9 +1177,10 @@ georec:566  a                   btn100:InstalacionFerroviaria ;
         geosparql:asWKT  "POINT (2.0482600000000004 41.382821939393956)"^^geosparql:wktLiteral .
 
 georec:1547  a                  btn100:InstalacionFerroviaria ;
+        rdfs:label              "1547" ;
         geoes:codigoDeEstacion  "15015" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-09-26"^^xsd:date ;
         dc:identifier           "1547" ;
         dc:replaces             "60237" ;
@@ -1109,9 +1188,10 @@ georec:1547  a                  btn100:InstalacionFerroviaria ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/instalacion-ferroviaria/1547/geometry> .
 
 georec:837  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "837" ;
         geoes:codigoDeEstacion  "71703" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> ;
         dc:created              "2012-04-18"^^xsd:date ;
         dc:identifier           "837" ;
         dc:replaces             "5703" ;
@@ -1123,9 +1203,10 @@ georec:837  a                   btn100:InstalacionFerroviaria ;
         geosparql:asWKT  "POINT (-5.207814999999999 42.42544805988213)"^^geosparql:wktLiteral .
 
 georec:958  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "958" ;
         geoes:codigoDeEstacion  "65411" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-08-21"^^xsd:date ;
         dc:identifier           "958" ;
         dc:replaces             "26142" ;
@@ -1137,9 +1218,10 @@ georec:958  a                   btn100:InstalacionFerroviaria ;
         geosparql:asWKT  "POINT (-5.820097987641278 42.476499690894954)"^^geosparql:wktLiteral .
 
 georec:511  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "511" ;
         geoes:codigoDeEstacion  "11400" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-04-27"^^xsd:date ;
         dc:identifier           "511" ;
         dc:replaces             "21965" ;
@@ -1147,9 +1229,10 @@ georec:511  a                   btn100:InstalacionFerroviaria ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/instalacion-ferroviaria/511/geometry> .
 
 georec:1534  a                  btn100:InstalacionFerroviaria ;
+        rdfs:label              "1534" ;
         geoes:codigoDeEstacion  "20102" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-09-26"^^xsd:date ;
         dc:identifier           "1534" ;
         dc:replaces             "59472" ;
@@ -1157,9 +1240,10 @@ georec:1534  a                  btn100:InstalacionFerroviaria ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/instalacion-ferroviaria/1534/geometry> .
 
 georec:1513  a                  btn100:InstalacionFerroviaria ;
+        rdfs:label              "1513" ;
         geoes:codigoDeEstacion  "30216" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> ;
         dc:created              "2012-09-26"^^xsd:date ;
         dc:identifier           "1513" ;
         dc:replaces             "61234" ;
@@ -1167,9 +1251,10 @@ georec:1513  a                  btn100:InstalacionFerroviaria ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/instalacion-ferroviaria/1513/geometry> .
 
 georec:803  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "803" ;
         geoes:codigoDeEstacion  "79600" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-04-18"^^xsd:date ;
         dc:identifier           "803" ;
         dc:replaces             "19932" ;
@@ -1177,9 +1262,10 @@ georec:803  a                   btn100:InstalacionFerroviaria ;
         geosparql:hasGeometry   <https://datos.ign.es/recurso/instalacion-ferroviaria/803/geometry> .
 
 georec:795  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label              "795" ;
         geoes:codigoDeEstacion  "77102" ;
-        geoes:rutaTenT          "<https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>" ;
-        geoes:tipoDeTrafico     "<https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto>" ;
+        geoes:rutaTenT          <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        geoes:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> ;
         dc:created              "2012-04-18"^^xsd:date ;
         dc:identifier           "795" ;
         dc:replaces             "19794" ;

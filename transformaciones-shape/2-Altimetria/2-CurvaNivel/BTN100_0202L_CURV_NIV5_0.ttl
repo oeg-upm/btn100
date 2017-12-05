@@ -12,6 +12,7 @@
 @prefix dc:    <http://purl.org/dc/terms/> .
 
 georec:58875  a                btn100:CurvaNivelInterpolada ;
+        rdfs:label             "58875" ;
         geoes:cota             "10" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "58875" ;
@@ -22,12 +23,14 @@ georec:58875  a                btn100:CurvaNivelInterpolada ;
         geosparql:asWKT  "LINESTRING (-0.9868383800000005 37.58687848635713, -0.9868351399999998 37.586818306357074)"^^geosparql:wktLiteral .
 
 georec:58878  a                btn100:CurvaNivelInterpolada ;
+        rdfs:label             "58878" ;
         geoes:cota             "10" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "58878" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-interpolada/58878/geometry> .
 
 georec:58873  a                btn100:CurvaNivelInterpolada ;
+        rdfs:label             "58873" ;
         geoes:cota             "10" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "58873" ;
@@ -42,6 +45,7 @@ georec:58873  a                btn100:CurvaNivelInterpolada ;
         geosparql:asWKT  "LINESTRING (-1.50093555 37.42896302619141, -1.50106826 37.429061716191505)"^^geosparql:wktLiteral .
 
 georec:58876  a                btn100:CurvaNivelInterpolada ;
+        rdfs:label             "58876" ;
         geoes:cota             "10" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "58876" ;
@@ -56,6 +60,7 @@ georec:58876  a                btn100:CurvaNivelInterpolada ;
         geosparql:asWKT  "LINESTRING (-0.9628162 37.564725866334065, -0.9627501499999996 37.56485504633417)"^^geosparql:wktLiteral .
 
 georec:58874  a                btn100:CurvaNivelInterpolada ;
+        rdfs:label             "58874" ;
         geoes:cota             "10" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "58874" ;
@@ -70,12 +75,14 @@ georec:58874  a                btn100:CurvaNivelInterpolada ;
         geosparql:asWKT  "LINESTRING (-1.5767568500000002 37.402743296163614, -1.5767696700000005 37.40279878616368)"^^geosparql:wktLiteral .
 
 georec:58872  a                btn100:CurvaNivelInterpolada ;
+        rdfs:label             "58872" ;
         geoes:cota             "10" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "58872" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/curva-nivel-interpolada/58872/geometry> .
 
 georec:58877  a                btn100:CurvaNivelInterpolada ;
+        rdfs:label             "58877" ;
         geoes:cota             "10" ;
         dc:created             "2013-01-07"^^xsd:date ;
         dc:identifier          "58877" ;

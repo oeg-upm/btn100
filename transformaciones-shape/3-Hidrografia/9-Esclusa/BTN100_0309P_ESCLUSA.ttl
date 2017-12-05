@@ -11,16 +11,19 @@
 @prefix dc:    <http://purl.org/dc/terms/> .
 
 georec:5  a                    btn100:Esclusa ;
+        rdfs:label             "5" ;
         dc:created             "2013-07-03"^^xsd:date ;
         dc:identifier          "5" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/esclusa/5/geometry> .
 
 georec:12  a                   btn100:Esclusa ;
+        rdfs:label             "12" ;
         dc:created             "2013-07-03"^^xsd:date ;
         dc:identifier          "12" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/esclusa/12/geometry> .
 
 georec:18  a                   btn100:Esclusa ;
+        rdfs:label             "18" ;
         dc:created             "2013-07-03"^^xsd:date ;
         dc:identifier          "18" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/esclusa/18/geometry> .
@@ -42,11 +45,13 @@ georec:18  a                   btn100:Esclusa ;
         geosparql:asWKT  "POINT (-4.524692009999684 41.92159742966586)"^^geosparql:wktLiteral .
 
 georec:11  a                   btn100:Esclusa ;
+        rdfs:label             "11" ;
         dc:created             "2013-07-03"^^xsd:date ;
         dc:identifier          "11" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/esclusa/11/geometry> .
 
 georec:17  a                   btn100:Esclusa ;
+        rdfs:label             "17" ;
         dc:created             "2013-07-03"^^xsd:date ;
         dc:identifier          "17" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/esclusa/17/geometry> .
@@ -60,16 +65,19 @@ georec:17  a                   btn100:Esclusa ;
         geosparql:asWKT  "POINT (-4.3067075899982825 42.638832089962506)"^^geosparql:wktLiteral .
 
 georec:9  a                    btn100:Esclusa ;
+        rdfs:label             "9" ;
         dc:created             "2013-07-03"^^xsd:date ;
         dc:identifier          "9" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/esclusa/9/geometry> .
 
 georec:10  a                   btn100:Esclusa ;
+        rdfs:label             "10" ;
         dc:created             "2013-07-03"^^xsd:date ;
         dc:identifier          "10" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/esclusa/10/geometry> .
 
 georec:16  a                   btn100:Esclusa ;
+        rdfs:label             "16" ;
         dc:created             "2013-07-03"^^xsd:date ;
         dc:identifier          "16" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/esclusa/16/geometry> .
@@ -87,11 +95,13 @@ georec:16  a                   btn100:Esclusa ;
         geosparql:asWKT  "POINT (-4.531292677319535 42.16548032461359)"^^geosparql:wktLiteral .
 
 georec:8  a                    btn100:Esclusa ;
+        rdfs:label             "8" ;
         dc:created             "2013-07-03"^^xsd:date ;
         dc:identifier          "8" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/esclusa/8/geometry> .
 
 georec:15  a                   btn100:Esclusa ;
+        rdfs:label             "15" ;
         dc:created             "2013-07-03"^^xsd:date ;
         dc:identifier          "15" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/esclusa/15/geometry> .
@@ -105,6 +115,7 @@ georec:15  a                   btn100:Esclusa ;
         geosparql:asWKT  "POINT (-4.297873147884434 42.54277908219773)"^^geosparql:wktLiteral .
 
 georec:7  a                    btn100:Esclusa ;
+        rdfs:label             "7" ;
         dc:created             "2013-07-03"^^xsd:date ;
         dc:identifier          "7" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/esclusa/7/geometry> .
@@ -114,6 +125,7 @@ georec:7  a                    btn100:Esclusa ;
         geosparql:asWKT  "POINT (-4.2725847899997245 42.5113319499153)"^^geosparql:wktLiteral .
 
 georec:14  a                   btn100:Esclusa ;
+        rdfs:label             "14" ;
         dc:created             "2013-07-03"^^xsd:date ;
         dc:identifier          "14" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/esclusa/14/geometry> .
@@ -123,11 +135,13 @@ georec:14  a                   btn100:Esclusa ;
         geosparql:asWKT  "POINT (-4.313826132337598 42.59406603106374)"^^geosparql:wktLiteral .
 
 georec:6  a                    btn100:Esclusa ;
+        rdfs:label             "6" ;
         dc:created             "2013-07-03"^^xsd:date ;
         dc:identifier          "6" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/esclusa/6/geometry> .
 
 georec:13  a                   btn100:Esclusa ;
+        rdfs:label             "13" ;
         dc:created             "2013-07-03"^^xsd:date ;
         dc:identifier          "13" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/esclusa/13/geometry> .

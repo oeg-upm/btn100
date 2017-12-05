@@ -12,6 +12,7 @@
 @prefix dc:    <http://purl.org/dc/terms/> .
 
 georec:153  a                     btn100:EstacionPermanenteGPS ;
+        rdfs:label                "153" ;
         geoes:altitudElipsoidal   "62.063" ;
         geoes:altitudOrtometrica  "0.0" ;
         geoes:codigo              "MALL" ;
@@ -30,6 +31,7 @@ georec:153  a                     btn100:EstacionPermanenteGPS ;
         geosparql:asWKT  "POINT (-2.8700078859999922 39.50320895512668)"^^geosparql:wktLiteral .
 
 georec:166  a                     btn100:EstacionPermanenteGPS ;
+        rdfs:label                "166" ;
         geoes:altitudElipsoidal   "970.254" ;
         geoes:altitudOrtometrica  "0.0" ;
         geoes:codigo              "LEON" ;
@@ -56,6 +58,7 @@ georec:166  a                     btn100:EstacionPermanenteGPS ;
         geosparql:asWKT  "POINT (-16.718524668999247 28.04716233065017)"^^geosparql:wktLiteral .
 
 georec:179  a                     btn100:EstacionPermanenteGPS ;
+        rdfs:label                "179" ;
         geoes:altitudElipsoidal   "956.187" ;
         geoes:altitudOrtometrica  "0.0" ;
         geoes:codigo              "TERU" ;
@@ -70,6 +73,7 @@ georec:179  a                     btn100:EstacionPermanenteGPS ;
         geo:long                  "-1.124301033" .
 
 georec:160  a                     btn100:EstacionPermanenteGPS ;
+        rdfs:label                "160" ;
         geoes:altitudElipsoidal   "49.938" ;
         geoes:altitudOrtometrica  "0.0" ;
         geoes:codigo              "TARI" ;
@@ -84,6 +88,7 @@ georec:160  a                     btn100:EstacionPermanenteGPS ;
         geo:long                  "-5.602620431" .
 
 georec:173  a                     btn100:EstacionPermanenteGPS ;
+        rdfs:label                "173" ;
         geoes:altitudElipsoidal   "99.287" ;
         geoes:altitudOrtometrica  "0.0" ;
         geoes:codigo              "CANT" ;
@@ -102,6 +107,7 @@ georec:173  a                     btn100:EstacionPermanenteGPS ;
         geosparql:asWKT  "POINT (-3.9639695499999865 39.67535109626273)"^^geosparql:wktLiteral .
 
 georec:145  a                     btn100:EstacionPermanenteGPS ;
+        rdfs:label                "145" ;
         geoes:altitudElipsoidal   "58.543" ;
         geoes:altitudOrtometrica  "0.0" ;
         geoes:codigo              "TN03" ;
@@ -120,6 +126,7 @@ georec:145  a                     btn100:EstacionPermanenteGPS ;
         geosparql:asWKT  "POINT (-7.544685519000654 42.99307958408111)"^^geosparql:wktLiteral .
 
 georec:186  a                     btn100:EstacionPermanenteGPS ;
+        rdfs:label                "186" ;
         geoes:altitudElipsoidal   "84.825" ;
         geoes:altitudOrtometrica  "0.0" ;
         geoes:codigo              "BCLN" ;
@@ -138,6 +145,7 @@ georec:186  a                     btn100:EstacionPermanenteGPS ;
         geosparql:asWKT  "POINT (-4.393532847001268 36.726112187419425)"^^geosparql:wktLiteral .
 
 georec:158  a                     btn100:EstacionPermanenteGPS ;
+        rdfs:label                "158" ;
         geoes:altitudElipsoidal   "587.445" ;
         geoes:altitudOrtometrica  "0.0" ;
         geoes:codigo              "ZFRA" ;
@@ -152,6 +160,7 @@ georec:158  a                     btn100:EstacionPermanenteGPS ;
         geo:long                  "-6.410042347" .
 
 georec:180  a                     btn100:EstacionPermanenteGPS ;
+        rdfs:label                "180" ;
         geoes:altitudElipsoidal   "77.592" ;
         geoes:altitudOrtometrica  "0.0" ;
         geoes:codigo              "VALE" ;
@@ -166,6 +175,7 @@ georec:180  a                     btn100:EstacionPermanenteGPS ;
         geo:long                  "-0.337650944" .
 
 georec:152  a                     btn100:EstacionPermanenteGPS ;
+        rdfs:label                "152" ;
         geoes:altitudElipsoidal   "51.787" ;
         geoes:altitudOrtometrica  "0.0" ;
         geoes:codigo              "TN01" ;
@@ -192,6 +202,7 @@ georec:152  a                     btn100:EstacionPermanenteGPS ;
         geosparql:asWKT  "POINT (-8.813071536000079 42.183977370783126)"^^geosparql:wktLiteral .
 
 georec:165  a                     btn100:EstacionPermanenteGPS ;
+        rdfs:label                "165" ;
         geoes:altitudElipsoidal   "476.611" ;
         geoes:altitudOrtometrica  "0.0" ;
         geoes:codigo              "LUGO" ;
@@ -210,6 +221,7 @@ georec:165  a                     btn100:EstacionPermanenteGPS ;
         geosparql:asWKT  "POINT (-16.550789263999206 28.41825309826386)"^^geosparql:wktLiteral .
 
 georec:178  a                     btn100:EstacionPermanenteGPS ;
+        rdfs:label                "178" ;
         geoes:altitudElipsoidal   "59.885" ;
         geoes:altitudOrtometrica  "0.0" ;
         geoes:codigo              "IBIZ" ;
@@ -228,6 +240,7 @@ georec:178  a                     btn100:EstacionPermanenteGPS ;
         geosparql:asWKT  "POINT (1.4489622190000138 38.91124534562925)"^^geosparql:wktLiteral .
 
 georec:172  a                     btn100:EstacionPermanenteGPS ;
+        rdfs:label                "172" ;
         geoes:altitudElipsoidal   "844.477" ;
         geoes:altitudOrtometrica  "0.0" ;
         geoes:codigo              "ARDU" ;
@@ -246,6 +259,7 @@ georec:172  a                     btn100:EstacionPermanenteGPS ;
         geosparql:asWKT  "POINT (-16.60685960999923 28.223447612941857)"^^geosparql:wktLiteral .
 
 georec:144  a                     btn100:EstacionPermanenteGPS ;
+        rdfs:label                "144" ;
         geoes:altitudElipsoidal   "2199.221" ;
         geoes:altitudOrtometrica  "0.0" ;
         geoes:codigo              "LPAL" ;
@@ -264,6 +278,7 @@ georec:144  a                     btn100:EstacionPermanenteGPS ;
         geosparql:asWKT  "POINT (-17.893829843999004 28.763870145834098)"^^geosparql:wktLiteral .
 
 georec:185  a                     btn100:EstacionPermanenteGPS ;
+        rdfs:label                "185" ;
         geoes:altitudElipsoidal   "181.803" ;
         geoes:altitudOrtometrica  "0.0" ;
         geoes:codigo              "FRAG" ;
@@ -278,6 +293,7 @@ georec:185  a                     btn100:EstacionPermanenteGPS ;
         geo:long                  "0.324157672" .
 
 georec:157  a                     btn100:EstacionPermanenteGPS ;
+        rdfs:label                "157" ;
         geoes:altitudElipsoidal   "81.86" ;
         geoes:altitudOrtometrica  "0.0" ;
         geoes:codigo              "HUEL" ;
@@ -296,6 +312,7 @@ georec:157  a                     btn100:EstacionPermanenteGPS ;
         geosparql:asWKT  "POINT (-5.495863564001345 40.94508121414253)"^^geosparql:wktLiteral .
 
 georec:151  a                     btn100:EstacionPermanenteGPS ;
+        rdfs:label                "151" ;
         geoes:altitudElipsoidal   "54.475" ;
         geoes:altitudOrtometrica  "0.0" ;
         geoes:codigo              "TN02" ;
@@ -318,6 +335,7 @@ georec:151  a                     btn100:EstacionPermanenteGPS ;
         geosparql:asWKT  "POINT (-5.30639355000095 35.89196954543389)"^^geosparql:wktLiteral .
 
 georec:164  a                     btn100:EstacionPermanenteGPS ;
+        rdfs:label                "164" ;
         geoes:altitudElipsoidal   "743.384" ;
         geoes:altitudOrtometrica  "0.0" ;
         geoes:codigo              "ALMO" ;
@@ -332,6 +350,7 @@ georec:164  a                     btn100:EstacionPermanenteGPS ;
         geo:long                  "-4.180254367" .
 
 georec:177  a                     btn100:EstacionPermanenteGPS ;
+        rdfs:label                "177" ;
         geoes:altitudElipsoidal   "60.356" ;
         geoes:altitudOrtometrica  "0.0" ;
         geoes:codigo              "ALAC" ;
@@ -346,6 +365,7 @@ georec:177  a                     btn100:EstacionPermanenteGPS ;
         geo:long                  "-0.481232511" .
 
 georec:149  a                     btn100:EstacionPermanenteGPS ;
+        rdfs:label                "149" ;
         geoes:altitudElipsoidal   "2509.824" ;
         geoes:altitudOrtometrica  "0.0" ;
         geoes:codigo              "TN05" ;
@@ -372,6 +392,7 @@ georec:149  a                     btn100:EstacionPermanenteGPS ;
         geosparql:asWKT  "POINT (-2.426097018999991 42.464240950897256)"^^geosparql:wktLiteral .
 
 georec:171  a                     btn100:EstacionPermanenteGPS ;
+        rdfs:label                "171" ;
         geoes:altitudElipsoidal   "972.778" ;
         geoes:altitudOrtometrica  "0.0" ;
         geoes:codigo              "YEBE" ;
@@ -386,6 +407,7 @@ georec:171  a                     btn100:EstacionPermanenteGPS ;
         geo:long                  "-3.088629161" .
 
 georec:143  a                     btn100:EstacionPermanenteGPS ;
+        rdfs:label                "143" ;
         geoes:altitudElipsoidal   "897.412" ;
         geoes:altitudOrtometrica  "0.0" ;
         geoes:codigo              "HI08" ;
@@ -400,6 +422,7 @@ georec:143  a                     btn100:EstacionPermanenteGPS ;
         geo:long                  "-17.978874391" .
 
 georec:184  a                     btn100:EstacionPermanenteGPS ;
+        rdfs:label                "184" ;
         geoes:altitudElipsoidal   "108.591" ;
         geoes:altitudOrtometrica  "0.0" ;
         geoes:codigo              "PENI" ;
@@ -414,6 +437,7 @@ georec:184  a                     btn100:EstacionPermanenteGPS ;
         geo:long                  "0.358922944" .
 
 georec:156  a                     btn100:EstacionPermanenteGPS ;
+        rdfs:label                "156" ;
         geoes:altitudElipsoidal   "88.851" ;
         geoes:altitudOrtometrica  "0.0" ;
         geoes:codigo              "MELI" ;
@@ -428,6 +452,7 @@ georec:156  a                     btn100:EstacionPermanenteGPS ;
         geo:long                  "-2.951655783" .
 
 georec:169  a                     btn100:EstacionPermanenteGPS ;
+        rdfs:label                "169" ;
         geoes:altitudElipsoidal   "766.92" ;
         geoes:altitudOrtometrica  "0.0" ;
         geoes:codigo              "IGNE" ;
@@ -462,6 +487,7 @@ georec:169  a                     btn100:EstacionPermanenteGPS ;
         geosparql:asWKT  "POINT (-3.088629160999992 40.52489772787589)"^^geosparql:wktLiteral .
 
 georec:150  a                     btn100:EstacionPermanenteGPS ;
+        rdfs:label                "150" ;
         geoes:altitudElipsoidal   "2417.483" ;
         geoes:altitudOrtometrica  "0.0" ;
         geoes:codigo              "IZAN" ;
@@ -480,6 +506,7 @@ georec:150  a                     btn100:EstacionPermanenteGPS ;
         geosparql:asWKT  "POINT (-17.97887439099917 27.709415243090824)"^^geosparql:wktLiteral .
 
 georec:163  a                     btn100:EstacionPermanenteGPS ;
+        rdfs:label                "163" ;
         geoes:altitudElipsoidal   "202.082" ;
         geoes:altitudOrtometrica  "0.0" ;
         geoes:codigo              "COBA" ;
@@ -494,6 +521,7 @@ georec:163  a                     btn100:EstacionPermanenteGPS ;
         geo:long                  "-4.721111094" .
 
 georec:176  a                     btn100:EstacionPermanenteGPS ;
+        rdfs:label                "176" ;
         geoes:altitudElipsoidal   "751.736" ;
         geoes:altitudOrtometrica  "0.0" ;
         geoes:codigo              "ALBA" ;
@@ -508,6 +536,7 @@ georec:176  a                     btn100:EstacionPermanenteGPS ;
         geo:long                  "-1.85640394" .
 
 georec:148  a                     btn100:EstacionPermanenteGPS ;
+        rdfs:label                "148" ;
         geoes:altitudElipsoidal   "1053.553" ;
         geoes:altitudOrtometrica  "0.0" ;
         geoes:codigo              "TN06" ;
@@ -530,6 +559,7 @@ georec:148  a                     btn100:EstacionPermanenteGPS ;
         geosparql:asWKT  "POINT (-5.602620431000881 36.00850804057589)"^^geosparql:wktLiteral .
 
 georec:170  a                     btn100:EstacionPermanenteGPS ;
+        rdfs:label                "170" ;
         geoes:altitudElipsoidal   "975.367" ;
         geoes:altitudOrtometrica  "0.0" ;
         geoes:codigo              "YEB1" ;
@@ -544,6 +574,7 @@ georec:170  a                     btn100:EstacionPermanenteGPS ;
         geo:long                  "-3.090197464" .
 
 georec:183  a                     btn100:EstacionPermanenteGPS ;
+        rdfs:label                "183" ;
         geoes:altitudElipsoidal   "738.94" ;
         geoes:altitudOrtometrica  "0.0" ;
         geoes:codigo              "JACA" ;
@@ -558,6 +589,7 @@ georec:183  a                     btn100:EstacionPermanenteGPS ;
         geo:long                  "-0.726527783" .
 
 georec:155  a                     btn100:EstacionPermanenteGPS ;
+        rdfs:label                "155" ;
         geoes:altitudElipsoidal   "66.918" ;
         geoes:altitudOrtometrica  "0.0" ;
         geoes:codigo              "ACOR" ;
@@ -572,6 +604,7 @@ georec:155  a                     btn100:EstacionPermanenteGPS ;
         geo:long                  "-8.398935414" .
 
 georec:168  a                     btn100:EstacionPermanenteGPS ;
+        rdfs:label                "168" ;
         geoes:altitudElipsoidal   "808.967" ;
         geoes:altitudOrtometrica  "0.0" ;
         geoes:codigo              "SONS" ;
@@ -610,6 +643,7 @@ georec:168  a                     btn100:EstacionPermanenteGPS ;
         geosparql:asWKT  "POINT (-16.499681966999226 28.30806502908176)"^^geosparql:wktLiteral .
 
 georec:162  a                     btn100:EstacionPermanenteGPS ;
+        rdfs:label                "162" ;
         geoes:altitudElipsoidal   "119.848" ;
         geoes:altitudOrtometrica  "0.0" ;
         geoes:codigo              "MALA" ;
@@ -624,6 +658,7 @@ georec:162  a                     btn100:EstacionPermanenteGPS ;
         geo:long                  "-4.393532847" .
 
 georec:175  a                     btn100:EstacionPermanenteGPS ;
+        rdfs:label                "175" ;
         geoes:altitudElipsoidal   "779.787" ;
         geoes:altitudOrtometrica  "0.0" ;
         geoes:codigo              "MOTA" ;
@@ -638,6 +673,7 @@ georec:175  a                     btn100:EstacionPermanenteGPS ;
         geo:long                  "-2.870007886" .
 
 georec:147  a                     btn100:EstacionPermanenteGPS ;
+        rdfs:label                "147" ;
         geoes:altitudElipsoidal   "2291.137" ;
         geoes:altitudOrtometrica  "0.0" ;
         geoes:codigo              "TN07" ;
@@ -668,6 +704,7 @@ georec:147  a                     btn100:EstacionPermanenteGPS ;
         geosparql:asWKT  "POINT (-3.0901974639999916 40.52377801387512)"^^geosparql:wktLiteral .
 
 georec:182  a                     btn100:EstacionPermanenteGPS ;
+        rdfs:label                "182" ;
         geoes:altitudElipsoidal   "296.112" ;
         geoes:altitudOrtometrica  "0.0" ;
         geoes:codigo              "ZARA" ;
@@ -682,6 +719,7 @@ georec:182  a                     btn100:EstacionPermanenteGPS ;
         geo:long                  "-0.882164603" .
 
 georec:154  a                     btn100:EstacionPermanenteGPS ;
+        rdfs:label                "154" ;
         geoes:altitudElipsoidal   "87.79" ;
         geoes:altitudOrtometrica  "0.0" ;
         geoes:codigo              "VIGO" ;
@@ -700,6 +738,7 @@ georec:154  a                     btn100:EstacionPermanenteGPS ;
         geosparql:asWKT  "POINT (-3.709523119999992 40.44583587582293)"^^geosparql:wktLiteral .
 
 georec:167  a                     btn100:EstacionPermanenteGPS ;
+        rdfs:label                "167" ;
         geoes:altitudElipsoidal   "854.969" ;
         geoes:altitudOrtometrica  "0.0" ;
         geoes:codigo              "SALA" ;
@@ -718,6 +757,7 @@ georec:167  a                     btn100:EstacionPermanenteGPS ;
         geosparql:asWKT  "POINT (-5.650975505001455 42.58840542094411)"^^geosparql:wktLiteral .
 
 georec:161  a                     btn100:EstacionPermanenteGPS ;
+        rdfs:label                "161" ;
         geoes:altitudElipsoidal   "52.475" ;
         geoes:altitudOrtometrica  "0.0" ;
         geoes:codigo              "CEU1" ;
@@ -732,6 +772,7 @@ georec:161  a                     btn100:EstacionPermanenteGPS ;
         geo:long                  "-5.30639355" .
 
 georec:174  a                     btn100:EstacionPermanenteGPS ;
+        rdfs:label                "174" ;
         geoes:altitudElipsoidal   "127.517" ;
         geoes:altitudOrtometrica  "0.0" ;
         geoes:codigo              "ALME" ;
@@ -750,6 +791,7 @@ georec:174  a                     btn100:EstacionPermanenteGPS ;
         geosparql:asWKT  "POINT (2.0041624110000105 41.40541595640619)"^^geosparql:wktLiteral .
 
 georec:146  a                     btn100:EstacionPermanenteGPS ;
+        rdfs:label                "146" ;
         geoes:altitudElipsoidal   "1468.143" ;
         geoes:altitudOrtometrica  "0.0" ;
         geoes:codigo              "TN04" ;
@@ -768,6 +810,7 @@ georec:146  a                     btn100:EstacionPermanenteGPS ;
         geosparql:asWKT  "POINT (-6.410042347000818 38.42601112918812)"^^geosparql:wktLiteral .
 
 georec:187  a                     btn100:EstacionPermanenteGPS ;
+        rdfs:label                "187" ;
         geoes:altitudElipsoidal   "112.718" ;
         geoes:altitudOrtometrica  "0.0" ;
         geoes:codigo              "GIRO" ;
@@ -790,6 +833,7 @@ georec:187  a                     btn100:EstacionPermanenteGPS ;
         geosparql:asWKT  "POINT (-8.398935414000276 43.36438082018541)"^^geosparql:wktLiteral .
 
 georec:159  a                     btn100:EstacionPermanenteGPS ;
+        rdfs:label                "159" ;
         geoes:altitudElipsoidal   "436.527" ;
         geoes:altitudOrtometrica  "0.0" ;
         geoes:codigo              "CACE" ;
@@ -808,6 +852,7 @@ georec:159  a                     btn100:EstacionPermanenteGPS ;
         geosparql:asWKT  "POINT (-16.241156746999234 28.4771826423612)"^^geosparql:wktLiteral .
 
 georec:181  a                     btn100:EstacionPermanenteGPS ;
+        rdfs:label                "181" ;
         geoes:altitudElipsoidal   "450.391" ;
         geoes:altitudOrtometrica  "0.0" ;
         geoes:codigo              "RIO1" ;
