@@ -4,28 +4,28 @@ Este repositorio contiene los trabajos que se han desarrollado para el Centro Na
 
 El repositorio está compuesto de los siguientes apartados:
 
-** Consultas (pendiente de actualizar) **
+**Consultas (pendiente de actualizar)**
 Contiene consultas de ejemplo para realizar en el SPARQL end-point de este proyecto.
 
-** ficheros-ktr **
+**ficheros-ktr**
 Ficheros con las transformaciones realizadas en GeoKettle para cada unos de los elementos disponibles en BTN100.
 
-** Informacion_BTN100 **
+**Informacion_BTN100**
 Docuemntos con descripción de la fuente de datos.
 
-** proceso-actualizacion **
+**proceso-actualizacion**
 Proceso desarrollado para automatizar el proceso de generación/actualización y publicación de los datos de manera periódica en las máquinas del CNIG.
 
-** transformaciones-shape **
+**transformaciones-shape**
 Contiene, para cada unos de los diferentes elementos que forman BTN100, el fichero shape, el(los) fichero(s) de transformación de GeoKettle y el resultado de la(s) transformación(es).
 
-** tripleGeopuglin **
+**tripleGeopuglin**
 Plugin desarrollado por el OEG (Ontology Engineering Group) para la generación de información semántica a partir de ficheros shape. Necesario para el proceso de actualización.
 
-** WFS **
+**WFS**
 Contiene los resultados de un proceso de generación de datos semánticos a partir de parte de los WFS publicados por el CNIG.
 
-** Licencia **
+**Licencia**
 
 El uso de los datos de BTN100 está regulado por la licencia de uso del Centro de descargas del CNIG (http://centrodedescargas.cnig.es/CentroDescargas/), se puede leer su contenido a continuación:
 
