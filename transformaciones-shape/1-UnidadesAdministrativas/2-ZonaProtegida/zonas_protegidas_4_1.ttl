@@ -11,14 +11,12 @@
 @prefix dc:    <http://purl.org/dc/terms/> .
 
 georec:2058  a                 btn100:ParqueNacional ;
-        rdfs:label             "2058" ;
         dc:created             "2013-07-08"^^xsd:date ;
         dc:identifier          "2058" ;
         dc:title               "Parque Nacional de Sierra Nevada" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/parque-nacional/2058/geometry> .
 
 georec:2117  a                 btn100:ParqueNacional ;
-        rdfs:label             "2117" ;
         dc:created             "2015-05-28"^^xsd:date ;
         dc:identifier          "2117" ;
         dc:title               "Parque Nacional de la Sierra de Guadarrama" ;
