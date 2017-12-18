@@ -65,10 +65,10 @@
            <schema_name/>
            </partitioning>
 		<attributename>ID</attributename>
-		<feature>EntidadVirtualAccidenteMaritimoOtros</feature>
+		<feature>EntidadVirtualAccidenteMaritimo</feature>
 		<ontologyns>https://datos.ign.es/def/</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/entidad-virtual-accidente-maritimo-otros/</resourcens>
+		<resourcens>https://datos.ign.es/recurso/entidad-virtual-accidente-maritimo/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -126,9 +126,9 @@
 		<column_shp>TIPO_0311</column_shp>
 		</columns>
 		<columns>
-		<column>producto</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<column>productoFuente</column>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>PRODUCTO</column_shp>
 		</columns>
@@ -159,10 +159,10 @@
            <schema_name/>
            </partitioning>
 		<attributename>ID</attributename>
-		<feature>EntidadVirtualAccidenteMaritimoBahia</feature>
+		<feature>EntidadVirtualBahia</feature>
 		<ontologyns>https://datos.ign.es/def/</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/entidad-virtual-accidente-maritimo-bahia/</resourcens>
+		<resourcens>https://datos.ign.es/recurso/entidad-virtual-bahia/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -220,9 +220,9 @@
 		<column_shp>TIPO_0311</column_shp>
 		</columns>
 		<columns>
-		<column>producto</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<column>productoFuente</column>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>PRODUCTO</column_shp>
 		</columns>
@@ -253,10 +253,10 @@
            <schema_name/>
            </partitioning>
 		<attributename>ID</attributename>
-		<feature>EntidadVirtualAccidenteMaritimoCosta</feature>
+		<feature>EntidadVirtualCosta</feature>
 		<ontologyns>https://datos.ign.es/def/</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/entidad-virtual-accidente-maritimo-costa/</resourcens>
+		<resourcens>https://datos.ign.es/recurso/entidad-virtual-costa/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -314,9 +314,9 @@
 		<column_shp>TIPO_0311</column_shp>
 		</columns>
 		<columns>
-		<column>producto</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<column>productoFuente</column>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>PRODUCTO</column_shp>
 		</columns>
@@ -347,10 +347,10 @@
            <schema_name/>
            </partitioning>
 		<attributename>ID</attributename>
-		<feature>EntidadVirtualAccidenteMaritimoDelta</feature>
+		<feature>EntidadVirtualDelta</feature>
 		<ontologyns>https://datos.ign.es/def/</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/entidad-virtual-accidente-maritimo-delta/</resourcens>
+		<resourcens>https://datos.ign.es/recurso/entidad-virtual-delta/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -408,9 +408,9 @@
 		<column_shp>TIPO_0311</column_shp>
 		</columns>
 		<columns>
-		<column>producto</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<column>productoFuente</column>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>PRODUCTO</column_shp>
 		</columns>
@@ -441,10 +441,10 @@
            <schema_name/>
            </partitioning>
 		<attributename>ID</attributename>
-		<feature>EntidadVirtualAccidenteMaritimoEnsenada</feature>
+		<feature>EntidadVirtualEnsenada</feature>
 		<ontologyns>https://datos.ign.es/def/</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/entidad-virtual-accidente-maritimo-ensenada/</resourcens>
+		<resourcens>https://datos.ign.es/recurso/entidad-virtual-ensenada/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -502,9 +502,9 @@
 		<column_shp>TIPO_0311</column_shp>
 		</columns>
 		<columns>
-		<column>producto</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<column>productoFuente</column>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>PRODUCTO</column_shp>
 		</columns>
@@ -535,10 +535,10 @@
            <schema_name/>
            </partitioning>
 		<attributename>ID</attributename>
-		<feature>EntidadVirtualAccidenteMaritimoEstrecho</feature>
+		<feature>EntidadVirtualEstrecho</feature>
 		<ontologyns>https://datos.ign.es/def/</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/entidad-virtual-accidente-maritimo-estrecho/</resourcens>
+		<resourcens>https://datos.ign.es/recurso/entidad-virtual-estrecho/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -596,9 +596,9 @@
 		<column_shp>TIPO_0311</column_shp>
 		</columns>
 		<columns>
-		<column>producto</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<column>productoFuente</column>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>PRODUCTO</column_shp>
 		</columns>
@@ -629,10 +629,10 @@
            <schema_name/>
            </partitioning>
 		<attributename>ID</attributename>
-		<feature>EntidadVirtualAccidenteMaritimoGolfo</feature>
+		<feature>EntidadVirtualGolfo</feature>
 		<ontologyns>https://datos.ign.es/def/</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/entidad-virtual-accidente-maritimo-golfo/</resourcens>
+		<resourcens>https://datos.ign.es/recurso/entidad-virtual-golfo/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -690,9 +690,9 @@
 		<column_shp>TIPO_0311</column_shp>
 		</columns>
 		<columns>
-		<column>producto</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<column>productoFuente</column>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>PRODUCTO</column_shp>
 		</columns>
@@ -723,10 +723,10 @@
            <schema_name/>
            </partitioning>
 		<attributename>ID</attributename>
-		<feature>EntidadVirtualAccidenteMaritimoRada</feature>
+		<feature>EntidadVirtualRada</feature>
 		<ontologyns>https://datos.ign.es/def/</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/entidad-virtual-accidente-maritimo-rada/</resourcens>
+		<resourcens>https://datos.ign.es/recurso/entidad-virtual-rada/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -784,9 +784,9 @@
 		<column_shp>TIPO_0311</column_shp>
 		</columns>
 		<columns>
-		<column>producto</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<column>productoFuente</column>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>PRODUCTO</column_shp>
 		</columns>

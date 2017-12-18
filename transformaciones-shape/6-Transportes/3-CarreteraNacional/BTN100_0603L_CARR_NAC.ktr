@@ -120,43 +120,43 @@
 		</columns>
 		<columns>
 		<column>calzada</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>CALZADA</column_shp>
 		</columns>
 		<columns>
 		<column>estadoDeUso</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>ESTADO</column_shp>
 		</columns>
 		<columns>
 		<column>tipoDeTramo</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>INTERNA</column_shp>
 		</columns>
 		<columns>
 		<column>tipoDeItinerario</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>ITIN_EUR</column_shp>
 		</columns>
 		<columns>
 		<column>situacionDeVia</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>SITUACION</column_shp>
 		</columns>
 		<columns>
-		<column>rutaTenT</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<column>rutaTEN-T</column>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>TEN_T</column_shp>
 		</columns>
@@ -255,7 +255,7 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <filename>${Internal.Transformation.Filename.Directory}/BTN100_0603L_CARR_NAC.shp</filename>
+    <filename>${Internal.Transformation.Filename.Directory}&#47;BTN100_0603L_CARR_NAC.shp</filename>
     <isfilenameinfield>N</isfilenameinfield>
     <filenamefield/>
     <limit>0</limit>
@@ -294,7 +294,7 @@
     <fileNameInField>N</fileNameInField>
     <fileNameField/>
     <file>
-      <name>${Internal.Transformation.Filename.Directory}/BTN100_0603L_CARR_NAC</name>
+      <name>${Internal.Transformation.Filename.Directory}&#47;BTN100_0603L_CARR_NAC</name>
       <is_command>N</is_command>
       <do_not_open_new_file_init>N</do_not_open_new_file_init>
       <extention>ttl</extention>
@@ -356,16 +356,16 @@ else{
     FECHA_ALTA = new Date(aux[1], aux[2]-1, aux[3]);
     FECHA_ALTA = date2str(FECHA_ALTA, &quot;yyyy-MM-dd&quot;);
 }
-var type =&quot;&lt;http:&#47;&#47;datos.cnig.es&#47;ontology&#47;Carretera&gt;&quot;;
+var type =&quot;&lt;https:&#47;&#47;datos.ign.es&#47;def&#47;Carretera&gt;&quot;;
 
 if(CALZADA == &quot;01&quot;){
-	CALZADA = &quot;&lt;http:&#47;&#47;datos.cnig.es&#47;kos&#47;transportes&#47;calzada&#47;convencional&gt;&quot;;
+	CALZADA = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;calzada&#47;convencional&gt;&quot;;
 }
 else if(CALZADA == &quot;02&quot;){
-	CALZADA = &quot;&lt;http:&#47;&#47;datos.cnig.es&#47;kos&#47;transportes&#47;calzada&#47;doble&gt;&quot;;
+	CALZADA = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;calzada&#47;doble&gt;&quot;;
 }
 else{
-	CALZADA = &quot;&lt;http:&#47;&#47;datos.cnig.es&#47;kos&#47;transportes&#47;calzada&#47;sentido-unico&gt;&quot;;
+	CALZADA = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;calzada&#47;sentido-unico&gt;&quot;;
 }
 
 
@@ -374,44 +374,44 @@ else{
 
 &#47;&#47;ESTADO
 if(ESTADO == &quot;01&quot;){
-	ESTADO = &apos;&lt;http:&#47;&#47;datos.cnig.es&#47;kos&#47;transportes&#47;estado-de-uso&#47;en-uso&gt;&apos;;
+	ESTADO = &apos;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;estado-de-uso&#47;en-uso&gt;&apos;;
 }
 else if(ESTADO == &quot;02&quot;){
-	ESTADO = &apos;&lt;http:&#47;&#47;datos.cnig.es&#47;kos&#47;transportes&#47;estado-de-uso&#47;en-construccion&gt;&apos;;
+	ESTADO = &apos;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;estado-de-uso&#47;en-construccion&gt;&apos;;
 }
 else{
-	ESTADO = &apos;&lt;http:&#47;&#47;datos.cnig.es&#47;kos&#47;transportes&#47;estado-de-uso&#47;abandonado&gt;&apos;;
+	ESTADO = &apos;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;estado-de-uso&#47;abandonado&gt;&apos;;
 }
 
 &#47;&#47; INTERNA
 
 if(INTERNA == &quot;01&quot;){
-	INTERNA = &quot;&lt;http:&#47;&#47;datos.cnig.es&#47;kos&#47;transportes&#47;tipo-de-tramo&#47;no-interno&gt;&quot;;
+	INTERNA = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;tipo-tramo&#47;no-interna&gt;&quot;;
 }
 else {
-	INTERNA = &quot;&lt;http:&#47;&#47;datos.cnig.es&#47;kos&#47;transportes&#47;tipo-de-tramo&#47;interno&gt;&quot;;
+	INTERNA = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;tipo-tramo&#47;interna&gt;&quot;;
 }
 
 
 
 &#47;&#47;ITINERARIO EUROPEO
 if(ITIN_EUR == &quot;01&quot;){
-	ITIN_EUR = &quot;&lt;http:&#47;&#47;datos.cnig.es&#47;kos&#47;transportes&#47;tipoDeItinerario&#47;itinerarioNoEuropeo&gt;&quot;;
+	ITIN_EUR = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;tipo-itinerario&#47;no-itinerario-europeo&gt;&quot;;
 }
 else{
-	ITIN_EUR = &quot;&lt;http:&#47;&#47;datos.cnig.es&#47;kos&#47;transportes&#47;tipoDeItinerario&#47;itinerarioEuropeo&gt;&quot;;
+	ITIN_EUR = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;tipo-itinerario&#47;itinerario-europeo&gt;&quot;;
 }
 
 
 &#47;&#47;SITUACION
 if(SITUACION == &quot;01&quot;){
-	SITUACION = &quot;&lt;http:&#47;&#47;datos.cnig.es&#47;kos&#47;transportes&#47;situacion-de-via&#47;superficial&gt;&quot;;
+	SITUACION = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;situacion-de-via&#47;superficial&gt;&quot;;
 }
 else if(SITUACION == &quot;02&quot;){
-	SITUACION = &quot;&lt;http:&#47;&#47;datos.cnig.es&#47;kos&#47;transportes&#47;situacion-de-via&#47;subterraneo&gt;&quot;;
+	SITUACION = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;situacion-de-via&#47;subterranea&gt;&quot;;
 }
 else if (SITUACION == &quot;03&quot;){
-	SITUACION = &quot;&lt;http:&#47;&#47;datos.cnig.es&#47;kos&#47;transportes&#47;situacion-de-via&#47;elevado&gt;&quot;;
+	SITUACION = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;situacion-de-via&#47;elevada&gt;&quot;;
 }
 else {
 	SITUACION = &quot;&quot;;
@@ -419,10 +419,10 @@ else {
 
 &#47;&#47;RUTA TEN-T
 if(TEN_T == &quot;01&quot;){
-	TEN_T  = &quot;&lt;http:&#47;&#47;datos.cnig.es&#47;kos&#47;transportes&#47;ruta-ten-t&#47;ruta-no-transeuropea&gt;&quot;;
+	TEN_T  = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;ruta-ten-t&#47;ruta-no-transeuropea&gt;&quot;;
 }
 else{
-	TEN_T  = &quot;&lt;http:&#47;&#47;datos.cnig.es&#47;kos&#47;transportes&#47;ruta-ten-t&#47;ruta-transeuropea&gt;&quot;;
+	TEN_T  = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;ruta-ten-t&#47;ruta-transeuropea&gt;&quot;;
 }
 
 </jsScript_script>

@@ -119,16 +119,16 @@
 		<column_shp>FECHA_ALTA</column_shp>
 		</columns>
 		<columns>
-		<column>ordenDeInteres</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<column>categoria</column>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>CATEG_0301</column_shp>
 		</columns>
 		<columns>
 		<column>codigoDeRio</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>COD_RIO</column_shp>
 		</columns>
@@ -325,19 +325,19 @@ else{
 }
 
 if( CATEG_0301 == &quot;01&quot;) {
-    CATEG_0301 = &quot;río de interés principal&quot;;
+    CATEG_0301 = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;hidrografia&#47;categoria-de-rio&#47;rio-principal&gt;&quot;;
 }
 else if( CATEG_0301 == &quot;02&quot;) {
-    CATEG_0301 = &quot;río de interés secundario&quot;;
+    CATEG_0301 = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;hidrografia&#47;categoria-de-rio&#47;rio-secundario&gt;&quot;;
 }
 else if( CATEG_0301 == &quot;03&quot;) {
-    CATEG_0301 = &quot;río de interés terceario&quot;;
+    CATEG_0301 = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;hidrografia&#47;categoria-de-rio&#47;rio-terciario&gt;&quot;;
 }
 else if( CATEG_0301 == &quot;04&quot;) {
-    CATEG_0301 = &quot;río de menor interés&quot;;
+    CATEG_0301 = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;hidrografia&#47;categoria-de-rio&#47;rio-menor-interes&gt;&quot;;
 }
 else {
-    CATEG_0301 = &quot;río de interés no definido&quot;;
+    CATEG_0301 = &quot;&quot;;
 }</jsScript_script>
       </jsScript>    </jsScripts>    <fields>      <field>        <name>FECHA_ALTA</name>
         <rename>FECHA_ALTA</rename>

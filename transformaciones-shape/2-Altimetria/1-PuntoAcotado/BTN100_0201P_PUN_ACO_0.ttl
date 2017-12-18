@@ -1,9 +1,8 @@
 @prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix sf:    <http://www.opengis.net/ont/sf#> .
-@prefix geoes: <http://geo.linkeddata.es/ontology#> .
-@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix btn100: <https://datos.ign.es/def/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl:   <http://www.w3.org/2002/07/owl#> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 @prefix georec: <https://datos.ign.es/recurso/collado/> .
@@ -16,20 +15,18 @@
         geosparql:asWKT  "POINT (-6.157280189999998 42.20613457979256)"^^geosparql:wktLiteral .
 
 georec:8236  a                 btn100:Collado ;
-        rdfs:label             "8236" ;
-        geoes:cota             "1053" ;
         dc:created             "2013-06-03"^^xsd:date ;
         dc:identifier          "8236" ;
         dc:title               "Portillo del Balcón" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/8236/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/8236/geometry> ;
+        btn100:cota            "1053" .
 
 georec:36651  a                btn100:Collado ;
-        rdfs:label             "36651" ;
-        geoes:cota             "935" ;
         dc:created             "2013-05-10"^^xsd:date ;
         dc:identifier          "36651" ;
         dc:title               "Los Veneiros" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36651/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36651/geometry> ;
+        btn100:cota            "935" .
 
 <https://datos.ign.es/recurso/collado/9268/geometry>
         a                sf:Point ;
@@ -40,33 +37,30 @@ georec:36651  a                btn100:Collado ;
         geosparql:asWKT  "POINT (-5.64223777 39.00934292771481)"^^geosparql:wktLiteral .
 
 georec:1482  a                 btn100:Collado ;
-        rdfs:label             "1482" ;
-        geoes:cota             "1021" ;
         dc:created             "2011-03-03"^^xsd:date ;
         dc:identifier          "1482" ;
         dc:replaces            "100" ;
         dc:title               "Collado de la Hita" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/1482/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/1482/geometry> ;
+        btn100:cota            "1021" .
 
 georec:36621  a                btn100:Collado ;
-        rdfs:label             "36621" ;
-        geoes:cota             "1054" ;
         dc:created             "2013-05-08"^^xsd:date ;
         dc:identifier          "36621" ;
         dc:title               "Chana del Piorno" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36621/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36621/geometry> ;
+        btn100:cota            "1054" .
 
 <https://datos.ign.es/recurso/collado/54005/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.73815514 39.964621088482446)"^^geosparql:wktLiteral .
 
 georec:24304  a                btn100:Collado ;
-        rdfs:label             "24304" ;
-        geoes:cota             "1233" ;
         dc:created             "2013-03-25"^^xsd:date ;
         dc:identifier          "24304" ;
         dc:title               "Collado de la Yegua" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/24304/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/24304/geometry> ;
+        btn100:cota            "1233" .
 
 <https://datos.ign.es/recurso/collado/37338/geometry>
         a                sf:Point ;
@@ -77,12 +71,11 @@ georec:24304  a                btn100:Collado ;
         geosparql:asWKT  "POINT (-0.36610546 39.047320027747595)"^^geosparql:wktLiteral .
 
 georec:14699  a                btn100:Collado ;
-        rdfs:label             "14699" ;
-        geoes:cota             "2002" ;
         dc:created             "2013-05-13"^^xsd:date ;
         dc:identifier          "14699" ;
         dc:title               "Collado de Sahún" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/14699/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/14699/geometry> ;
+        btn100:cota            "2002" .
 
 <https://datos.ign.es/recurso/collado/36679/geometry>
         a                sf:Point ;
@@ -97,78 +90,70 @@ georec:14699  a                btn100:Collado ;
         geosparql:asWKT  "POINT (-1.3464575200000002 43.04792928009782)"^^geosparql:wktLiteral .
 
 georec:37272  a                btn100:Collado ;
-        rdfs:label             "37272" ;
-        geoes:cota             "1066" ;
         dc:created             "2013-06-05"^^xsd:date ;
         dc:identifier          "37272" ;
         dc:title               "Collado de los Lobos" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/37272/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/37272/geometry> ;
+        btn100:cota            "1066" .
 
 georec:7670  a                 btn100:Collado ;
-        rdfs:label             "7670" ;
-        geoes:cota             "1103" ;
         dc:created             "2013-06-03"^^xsd:date ;
         dc:identifier          "7670" ;
         dc:title               "Portillo de Condado o de Madrid" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/7670/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/7670/geometry> ;
+        btn100:cota            "1103" .
 
 georec:36367  a                btn100:Collado ;
-        rdfs:label             "36367" ;
-        geoes:cota             "1021" ;
         dc:created             "2012-02-20"^^xsd:date ;
         dc:identifier          "36367" ;
         dc:title               "Canto de la Hoja GRande" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36367/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36367/geometry> ;
+        btn100:cota            "1021" .
 
 georec:36633  a                btn100:Collado ;
-        rdfs:label             "36633" ;
-        geoes:cota             "1125" ;
         dc:created             "2013-05-10"^^xsd:date ;
         dc:identifier          "36633" ;
         dc:title               "Los Llanos del Canto" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36633/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36633/geometry> ;
+        btn100:cota            "1125" .
 
 georec:1941  a                 btn100:Collado ;
-        rdfs:label             "1941" ;
-        geoes:cota             "598" ;
         dc:created             "2011-01-27"^^xsd:date ;
         dc:identifier          "1941" ;
         dc:replaces            "100" ;
         dc:title               "Collado del Aire" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/1941/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/1941/geometry> ;
+        btn100:cota            "598" .
 
 georec:37338  a                btn100:Collado ;
-        rdfs:label             "37338" ;
-        geoes:cota             "1099" ;
         dc:created             "2013-06-05"^^xsd:date ;
         dc:identifier          "37338" ;
         dc:title               "Portillo del Ocejo" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/37338/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/37338/geometry> ;
+        btn100:cota            "1099" .
 
 <https://datos.ign.es/recurso/collado/36367/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.22152567 42.6931529499819)"^^geosparql:wktLiteral .
 
 georec:39160  a                btn100:Collado ;
-        rdfs:label             "39160" ;
-        geoes:cota             "871" ;
         dc:created             "2013-06-13"^^xsd:date ;
         dc:identifier          "39160" ;
         dc:replaces            "200" ;
         dc:title               "Collado Rubio" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/39160/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/39160/geometry> ;
+        btn100:cota            "871" .
 
 <https://datos.ign.es/recurso/collado/1955/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.26873389 38.995279547702616)"^^geosparql:wktLiteral .
 
 georec:48509  a                btn100:Collado ;
-        rdfs:label             "48509" ;
-        geoes:cota             "318" ;
         dc:created             "2013-03-07"^^xsd:date ;
         dc:identifier          "48509" ;
         dc:title               "El Peñón" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/48509/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/48509/geometry> ;
+        btn100:cota            "318" .
 
 <https://datos.ign.es/recurso/collado/36572/geometry>
         a                sf:Point ;
@@ -183,12 +168,11 @@ georec:48509  a                btn100:Collado ;
         geosparql:asWKT  "POINT (-3.867728409999999 37.571716176341326)"^^geosparql:wktLiteral .
 
 georec:850  a                  btn100:Collado ;
-        rdfs:label             "850" ;
-        geoes:cota             "555" ;
         dc:created             "2013-05-16"^^xsd:date ;
         dc:identifier          "850" ;
         dc:title               "Collado de Ayódar" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/850/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/850/geometry> ;
+        btn100:cota            "555" .
 
 <https://datos.ign.es/recurso/collado/24286/geometry>
         a                sf:Point ;
@@ -199,67 +183,60 @@ georec:850  a                  btn100:Collado ;
         geosparql:asWKT  "POINT (-6.18243519 38.30443637707302)"^^geosparql:wktLiteral .
 
 georec:6409  a                 btn100:Collado ;
-        rdfs:label             "6409" ;
-        geoes:cota             "1309" ;
         dc:created             "2013-05-23"^^xsd:date ;
         dc:identifier          "6409" ;
         dc:title               "Paso Ancho" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/6409/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/6409/geometry> ;
+        btn100:cota            "1309" .
 
 georec:36645  a                btn100:Collado ;
-        rdfs:label             "36645" ;
-        geoes:cota             "777" ;
         dc:created             "2013-05-10"^^xsd:date ;
         dc:identifier          "36645" ;
         dc:title               "Los Álamos" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36645/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36645/geometry> ;
+        btn100:cota            "777" .
 
 georec:1295  a                 btn100:Collado ;
-        rdfs:label             "1295" ;
-        geoes:cota             "719" ;
         dc:created             "2011-02-15"^^xsd:date ;
         dc:identifier          "1295" ;
         dc:replaces            "100" ;
         dc:title               "Collado del Cerezo" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/1295/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/1295/geometry> ;
+        btn100:cota            "719" .
 
 georec:35222  a                btn100:Collado ;
-        rdfs:label             "35222" ;
-        geoes:cota             "924" ;
         dc:created             "2012-02-27"^^xsd:date ;
         dc:identifier          "35222" ;
         dc:title               "La Peña" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/35222/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/35222/geometry> ;
+        btn100:cota            "924" .
 
 <https://datos.ign.es/recurso/collado/1320/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.9415357300000001 39.20467779788148)"^^geosparql:wktLiteral .
 
 georec:22272  a                btn100:Collado ;
-        rdfs:label             "22272" ;
-        geoes:cota             "1024" ;
         dc:created             "2013-02-25"^^xsd:date ;
         dc:identifier          "22272" ;
         dc:title               "Collado Rubio" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/22272/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/22272/geometry> ;
+        btn100:cota            "1024" .
 
 georec:1320  a                 btn100:Collado ;
-        rdfs:label             "1320" ;
-        geoes:cota             "842" ;
         dc:created             "2011-02-15"^^xsd:date ;
         dc:identifier          "1320" ;
         dc:replaces            "300" ;
         dc:title               "Collado de las Carretas" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/1320/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/1320/geometry> ;
+        btn100:cota            "842" .
 
 georec:9147  a                 btn100:Collado ;
-        rdfs:label             "9147" ;
-        geoes:cota             "1642" ;
         dc:created             "2012-01-31"^^xsd:date ;
         dc:identifier          "9147" ;
         dc:replaces            "100" ;
         dc:title               "Collado" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/9147/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/9147/geometry> ;
+        btn100:cota            "1642" .
 
 <https://datos.ign.es/recurso/collado/55118/geometry>
         a                sf:Point ;
@@ -270,32 +247,29 @@ georec:9147  a                 btn100:Collado ;
         geosparql:asWKT  "POINT (-2.3589660599999993 37.96831434674536)"^^geosparql:wktLiteral .
 
 georec:40876  a                btn100:Collado ;
-        rdfs:label             "40876" ;
-        geoes:cota             "1387" ;
         dc:created             "2012-04-09"^^xsd:date ;
         dc:identifier          "40876" ;
         dc:title               "Collado de las Pablas" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/40876/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/40876/geometry> ;
+        btn100:cota            "1387" .
 
 <https://datos.ign.es/recurso/collado/36642/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.04925127 42.44644891989034)"^^geosparql:wktLiteral .
 
 georec:13592  a                btn100:Collado ;
-        rdfs:label             "13592" ;
-        geoes:cota             "2272" ;
         dc:created             "2013-05-14"^^xsd:date ;
         dc:identifier          "13592" ;
         dc:title               "Collada de Basibé o de Castanesa" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/13592/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/13592/geometry> ;
+        btn100:cota            "2272" .
 
 georec:36923  a                btn100:Collado ;
-        rdfs:label             "36923" ;
-        geoes:cota             "952" ;
         dc:created             "2013-06-05"^^xsd:date ;
         dc:identifier          "36923" ;
         dc:title               "Collado de la Carrizosa" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36923/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36923/geometry> ;
+        btn100:cota            "952" .
 
 <https://datos.ign.es/recurso/collado/35742/geometry>
         a                sf:Point ;
@@ -310,33 +284,30 @@ georec:36923  a                btn100:Collado ;
         geosparql:asWKT  "POINT (-0.6450960000000001 38.88091118760255)"^^geosparql:wktLiteral .
 
 georec:24286  a                btn100:Collado ;
-        rdfs:label             "24286" ;
-        geoes:cota             "1577" ;
         dc:created             "2013-03-25"^^xsd:date ;
         dc:identifier          "24286" ;
         dc:title               "Collado del Cerbunal" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/24286/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/24286/geometry> ;
+        btn100:cota            "1577" .
 
 <https://datos.ign.es/recurso/collado/850/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.34817453 39.97567486849064)"^^geosparql:wktLiteral .
 
 georec:1724  a                 btn100:Collado ;
-        rdfs:label             "1724" ;
-        geoes:cota             "799" ;
         dc:created             "2011-02-24"^^xsd:date ;
         dc:identifier          "1724" ;
         dc:replaces            "100" ;
         dc:title               "Collado de Cabezo Gordo" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/1724/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/1724/geometry> ;
+        btn100:cota            "799" .
 
 georec:18150  a                btn100:Collado ;
-        rdfs:label             "18150" ;
-        geoes:cota             "1857" ;
         dc:created             "2013-04-15"^^xsd:date ;
         dc:identifier          "18150" ;
         dc:title               "Collado de la Saltidera" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/18150/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/18150/geometry> ;
+        btn100:cota            "1857" .
 
 <https://datos.ign.es/recurso/collado/48505/geometry>
         a                sf:Point ;
@@ -347,79 +318,71 @@ georec:18150  a                btn100:Collado ;
         geosparql:asWKT  "POINT (-5.130902630000002 42.31869227983942)"^^geosparql:wktLiteral .
 
 georec:35668  a                btn100:Collado ;
-        rdfs:label             "35668" ;
-        geoes:cota             "1132" ;
         dc:created             "2013-05-08"^^xsd:date ;
         dc:identifier          "35668" ;
         dc:title               "Laperal" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/35668/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/35668/geometry> ;
+        btn100:cota            "1132" .
 
 <https://datos.ign.es/recurso/collado/43768/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.223161590000001 39.52857181814696)"^^geosparql:wktLiteral .
 
 georec:39546  a                btn100:Collado ;
-        rdfs:label             "39546" ;
-        geoes:cota             "1041" ;
         dc:created             "2013-06-13"^^xsd:date ;
         dc:identifier          "39546" ;
         dc:replaces            "200" ;
         dc:title               "Las Almohallas" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/39546/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/39546/geometry> ;
+        btn100:cota            "1041" .
 
 <https://datos.ign.es/recurso/collado/36665/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.004285649999998 42.59856431994785)"^^geosparql:wktLiteral .
 
 georec:48564  a                btn100:Collado ;
-        rdfs:label             "48564" ;
-        geoes:cota             "705" ;
         dc:created             "2013-03-07"^^xsd:date ;
         dc:identifier          "48564" ;
         dc:title               "Collado de la Viuda" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/48564/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/48564/geometry> ;
+        btn100:cota            "705" .
 
 georec:36639  a                btn100:Collado ;
-        rdfs:label             "36639" ;
-        geoes:cota             "806" ;
         dc:created             "2013-05-10"^^xsd:date ;
         dc:identifier          "36639" ;
         dc:title               "Valdecalvo" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36639/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36639/geometry> ;
+        btn100:cota            "806" .
 
 georec:39124  a                btn100:Collado ;
-        rdfs:label             "39124" ;
-        geoes:cota             "1249" ;
         dc:created             "2013-06-13"^^xsd:date ;
         dc:identifier          "39124" ;
         dc:replaces            "200" ;
         dc:title               "Collado García" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/39124/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/39124/geometry> ;
+        btn100:cota            "1249" .
 
 georec:814  a                  btn100:Collado ;
-        rdfs:label             "814" ;
-        geoes:cota             "529" ;
         dc:created             "2013-05-16"^^xsd:date ;
         dc:identifier          "814" ;
         dc:title               "Coll de la Palma" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/814/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/814/geometry> ;
+        btn100:cota            "529" .
 
 georec:1947  a                 btn100:Collado ;
-        rdfs:label             "1947" ;
-        geoes:cota             "574" ;
         dc:created             "2011-02-07"^^xsd:date ;
         dc:identifier          "1947" ;
         dc:replaces            "100" ;
         dc:title               "Collado de Los Barrancos" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/1947/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/1947/geometry> ;
+        btn100:cota            "574" .
 
 georec:2948  a                 btn100:Collado ;
-        rdfs:label             "2948" ;
-        geoes:cota             "731" ;
         dc:created             "2013-05-14"^^xsd:date ;
         dc:identifier          "2948" ;
         dc:title               "Collado de Xarpa" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/2948/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/2948/geometry> ;
+        btn100:cota            "731" .
 
 <https://datos.ign.es/recurso/collado/1482/geometry>
         a                sf:Point ;
@@ -438,42 +401,38 @@ georec:2948  a                 btn100:Collado ;
         geosparql:asWKT  "POINT (-3.3150012899999997 41.88461938964855)"^^geosparql:wktLiteral .
 
 georec:36640  a                btn100:Collado ;
-        rdfs:label             "36640" ;
-        geoes:cota             "809" ;
         dc:created             "2013-05-10"^^xsd:date ;
         dc:identifier          "36640" ;
         dc:title               "Santones" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36640/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36640/geometry> ;
+        btn100:cota            "809" .
 
 <https://datos.ign.es/recurso/collado/8198/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.265330279999998 42.671865389974364)"^^geosparql:wktLiteral .
 
 georec:2080  a                 btn100:Collado ;
-        rdfs:label             "2080" ;
-        geoes:cota             "612" ;
         dc:created             "2011-03-03"^^xsd:date ;
         dc:identifier          "2080" ;
         dc:replaces            "100" ;
         dc:title               "Collado Rojo" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/2080/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/2080/geometry> ;
+        btn100:cota            "612" .
 
 georec:168  a                  btn100:Collado ;
-        rdfs:label             "168" ;
-        geoes:cota             "935" ;
         dc:created             "2013-05-16"^^xsd:date ;
         dc:identifier          "168" ;
         dc:title               "El Clot de Carreres" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/168/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/168/geometry> ;
+        btn100:cota            "935" .
 
 georec:9268  a                 btn100:Collado ;
-        rdfs:label             "9268" ;
-        geoes:cota             "1363" ;
         dc:created             "2012-01-25"^^xsd:date ;
         dc:identifier          "9268" ;
         dc:replaces            "100" ;
         dc:title               "Collado de Tablado" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/9268/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/9268/geometry> ;
+        btn100:cota            "1363" .
 
 <https://datos.ign.es/recurso/collado/37335/geometry>
         a                sf:Point ;
@@ -484,12 +443,11 @@ georec:9268  a                 btn100:Collado ;
         geosparql:asWKT  "POINT (-0.3505567800000002 38.982818667691795)"^^geosparql:wktLiteral .
 
 georec:36652  a                btn100:Collado ;
-        rdfs:label             "36652" ;
-        geoes:cota             "1264" ;
         dc:created             "2013-05-10"^^xsd:date ;
         dc:identifier          "36652" ;
         dc:title               "Campanero Alto" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36652/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36652/geometry> ;
+        btn100:cota            "1264" .
 
 <https://datos.ign.es/recurso/collado/36633/geometry>
         a                sf:Point ;
@@ -500,12 +458,11 @@ georec:36652  a                btn100:Collado ;
         geosparql:asWKT  "POINT (-4.652073 39.543009128158474)"^^geosparql:wktLiteral .
 
 georec:13050  a                btn100:Collado ;
-        rdfs:label             "13050" ;
-        geoes:cota             "351" ;
         dc:created             "2013-05-10"^^xsd:date ;
         dc:identifier          "13050" ;
         dc:title               "Coll de Padellàs" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/13050/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/13050/geometry> ;
+        btn100:cota            "351" .
 
 <https://datos.ign.es/recurso/collado/1240/geometry>
         a                sf:Point ;
@@ -516,24 +473,22 @@ georec:13050  a                btn100:Collado ;
         geosparql:asWKT  "POINT (-4.28936116 43.05706711010056)"^^geosparql:wktLiteral .
 
 georec:699  a                  btn100:Collado ;
-        rdfs:label             "699" ;
-        geoes:cota             "1331" ;
         dc:created             "2013-05-16"^^xsd:date ;
         dc:identifier          "699" ;
         dc:title               "Collet del Curandero" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/699/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/699/geometry> ;
+        btn100:cota            "1331" .
 
 <https://datos.ign.es/recurso/collado/37346/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.756046560000002 43.09917333011301)"^^geosparql:wktLiteral .
 
 georec:8165  a                 btn100:Collado ;
-        rdfs:label             "8165" ;
-        geoes:cota             "1303" ;
         dc:created             "2013-06-03"^^xsd:date ;
         dc:identifier          "8165" ;
         dc:title               "Portillo de Bustihierro" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/8165/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/8165/geometry> ;
+        btn100:cota            "1303" .
 
 <https://datos.ign.es/recurso/collado/14268/geometry>
         a                sf:Point ;
@@ -556,71 +511,64 @@ georec:8165  a                 btn100:Collado ;
         geosparql:asWKT  "POINT (-1.0143986500000002 40.06293391855459)"^^geosparql:wktLiteral .
 
 georec:36646  a                btn100:Collado ;
-        rdfs:label             "36646" ;
-        geoes:cota             "782" ;
         dc:created             "2013-05-10"^^xsd:date ;
         dc:identifier          "36646" ;
         dc:title               "El Pedrerín" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36646/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36646/geometry> ;
+        btn100:cota            "782" .
 
 georec:25994  a                btn100:Collado ;
-        rdfs:label             "25994" ;
-        geoes:cota             "1772" ;
         dc:created             "2013-06-04"^^xsd:date ;
         dc:identifier          "25994" ;
         dc:title               "Collado de Picorbillo" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/25994/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/25994/geometry> ;
+        btn100:cota            "1772" .
 
 <https://datos.ign.es/recurso/collado/13592/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (0.5900596499999999 42.554463419931544)"^^geosparql:wktLiteral .
 
 georec:53646  a                btn100:Collado ;
-        rdfs:label             "53646" ;
-        geoes:cota             "1155" ;
         dc:created             "2011-09-12"^^xsd:date ;
         dc:identifier          "53646" ;
         dc:replaces            "200" ;
         dc:title               "Collado de la Becada" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/53646/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/53646/geometry> ;
+        btn100:cota            "1155" .
 
 georec:55130  a                btn100:Collado ;
-        rdfs:label             "55130" ;
-        geoes:cota             "825" ;
         dc:created             "2013-02-20"^^xsd:date ;
         dc:identifier          "55130" ;
         dc:title               "Collado de las Zorras" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/55130/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/55130/geometry> ;
+        btn100:cota            "825" .
 
 <https://datos.ign.es/recurso/collado/36931/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.597433540000001 43.26509070015955)"^^geosparql:wktLiteral .
 
 georec:1809  a                 btn100:Collado ;
-        rdfs:label             "1809" ;
-        geoes:cota             "344" ;
         dc:created             "2011-02-15"^^xsd:date ;
         dc:identifier          "1809" ;
         dc:replaces            "100" ;
         dc:title               "Collado de La Carbonera" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/1809/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/1809/geometry> ;
+        btn100:cota            "344" .
 
 georec:35742  a                btn100:Collado ;
-        rdfs:label             "35742" ;
-        geoes:cota             "1637" ;
         dc:created             "2012-02-20"^^xsd:date ;
         dc:identifier          "35742" ;
         dc:title               "Prado Redondo" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/35742/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/35742/geometry> ;
+        btn100:cota            "1637" .
 
 georec:1393  a                 btn100:Collado ;
-        rdfs:label             "1393" ;
-        geoes:cota             "851" ;
         dc:created             "2011-03-01"^^xsd:date ;
         dc:identifier          "1393" ;
         dc:replaces            "100" ;
         dc:title               "Collado Pozo Seco" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/1393/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/1393/geometry> ;
+        btn100:cota            "851" .
 
 <https://datos.ign.es/recurso/collado/14699/geometry>
         a                sf:Point ;
@@ -635,21 +583,19 @@ georec:1393  a                 btn100:Collado ;
         geosparql:asWKT  "POINT (-5.994253929999999 42.21590154979669)"^^geosparql:wktLiteral .
 
 georec:37322  a                btn100:Collado ;
-        rdfs:label             "37322" ;
-        geoes:cota             "577" ;
         dc:created             "2013-06-05"^^xsd:date ;
         dc:identifier          "37322" ;
         dc:title               "Collado de Montea" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/37322/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/37322/geometry> ;
+        btn100:cota            "577" .
 
 georec:1725  a                 btn100:Collado ;
-        rdfs:label             "1725" ;
-        geoes:cota             "731" ;
         dc:created             "2011-02-24"^^xsd:date ;
         dc:identifier          "1725" ;
         dc:replaces            "100" ;
         dc:title               "Collado del Estrecho de Ayelo" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/1725/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/1725/geometry> ;
+        btn100:cota            "731" .
 
 <https://datos.ign.es/recurso/collado/36650/geometry>
         a                sf:Point ;
@@ -660,36 +606,32 @@ georec:1725  a                 btn100:Collado ;
         geosparql:asWKT  "POINT (-2.5934295099999995 40.044789868541365)"^^geosparql:wktLiteral .
 
 georec:8214  a                 btn100:Collado ;
-        rdfs:label             "8214" ;
-        geoes:cota             "1209" ;
         dc:created             "2013-06-03"^^xsd:date ;
         dc:identifier          "8214" ;
         dc:title               "Collado el Cerro" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/8214/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/8214/geometry> ;
+        btn100:cota            "1209" .
 
 georec:35669  a                btn100:Collado ;
-        rdfs:label             "35669" ;
-        geoes:cota             "1125" ;
         dc:created             "2013-05-08"^^xsd:date ;
         dc:identifier          "35669" ;
         dc:title               "Las Lagunas" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/35669/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/35669/geometry> ;
+        btn100:cota            "1125" .
 
 georec:24312  a                btn100:Collado ;
-        rdfs:label             "24312" ;
-        geoes:cota             "812" ;
         dc:created             "2013-03-25"^^xsd:date ;
         dc:identifier          "24312" ;
         dc:title               "Collado de la Posadilla" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/24312/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/24312/geometry> ;
+        btn100:cota            "812" .
 
 georec:48565  a                btn100:Collado ;
-        rdfs:label             "48565" ;
-        geoes:cota             "728" ;
         dc:created             "2013-03-07"^^xsd:date ;
         dc:identifier          "48565" ;
         dc:title               "Collado de las Navas" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/48565/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/48565/geometry> ;
+        btn100:cota            "728" .
 
 <https://datos.ign.es/recurso/collado/37306/geometry>
         a                sf:Point ;
@@ -700,69 +642,62 @@ georec:48565  a                btn100:Collado ;
         geosparql:asWKT  "POINT (-6.30743196 38.469665607229025)"^^geosparql:wktLiteral .
 
 georec:6520  a                 btn100:Collado ;
-        rdfs:label             "6520" ;
-        geoes:cota             "682" ;
         dc:created             "2013-05-23"^^xsd:date ;
         dc:identifier          "6520" ;
         dc:title               "Portillo de los Degollados" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/6520/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/6520/geometry> ;
+        btn100:cota            "682" .
 
 <https://datos.ign.es/recurso/collado/36647/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.677887000000003 42.36036270985628)"^^geosparql:wktLiteral .
 
 georec:48505  a                btn100:Collado ;
-        rdfs:label             "48505" ;
-        geoes:cota             "405" ;
         dc:created             "2013-03-07"^^xsd:date ;
         dc:identifier          "48505" ;
         dc:title               "Morrón de Borreguero" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/48505/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/48505/geometry> ;
+        btn100:cota            "405" .
 
 georec:36641  a                btn100:Collado ;
-        rdfs:label             "36641" ;
-        geoes:cota             "813" ;
         dc:created             "2013-05-10"^^xsd:date ;
         dc:identifier          "36641" ;
         dc:title               "Páramo del Medio" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36641/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36641/geometry> ;
+        btn100:cota            "813" .
 
 georec:28413  a                btn100:Collado ;
-        rdfs:label             "28413" ;
-        geoes:cota             "785" ;
         dc:created             "2013-05-30"^^xsd:date ;
         dc:identifier          "28413" ;
         dc:title               "Collado del Cepo" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/28413/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/28413/geometry> ;
+        btn100:cota            "785" .
 
 georec:37346  a                btn100:Collado ;
-        rdfs:label             "37346" ;
-        geoes:cota             "1349" ;
         dc:created             "2013-06-05"^^xsd:date ;
         dc:identifier          "37346" ;
         dc:title               "Colladillo de Hollado" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/37346/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/37346/geometry> ;
+        btn100:cota            "1349" .
 
 <https://datos.ign.es/recurso/collado/13050/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (0.5489130600000001 41.11135248924122)"^^geosparql:wktLiteral .
 
 georec:9269  a                 btn100:Collado ;
-        rdfs:label             "9269" ;
-        geoes:cota             "1718" ;
         dc:created             "2012-01-25"^^xsd:date ;
         dc:identifier          "9269" ;
         dc:replaces            "300" ;
         dc:title               "Collado del Muerto" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/9269/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/9269/geometry> ;
+        btn100:cota            "1718" .
 
 georec:35229  a                btn100:Collado ;
-        rdfs:label             "35229" ;
-        geoes:cota             "828" ;
         dc:created             "2012-02-27"^^xsd:date ;
         dc:identifier          "35229" ;
         dc:title               "El Carrascal" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/35229/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/35229/geometry> ;
+        btn100:cota            "828" .
 
 <https://datos.ign.es/recurso/collado/39124/geometry>
         a                sf:Point ;
@@ -773,25 +708,23 @@ georec:35229  a                btn100:Collado ;
         geosparql:asWKT  "POINT (-1.5017739599999997 43.0605950601016)"^^geosparql:wktLiteral .
 
 georec:55136  a                btn100:Collado ;
-        rdfs:label             "55136" ;
-        geoes:cota             "1207" ;
         dc:created             "2013-02-20"^^xsd:date ;
         dc:identifier          "55136" ;
         dc:title               "Collado de Pasamontes" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/55136/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/55136/geometry> ;
+        btn100:cota            "1207" .
 
 <https://datos.ign.es/recurso/collado/25994/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.62536361 42.99536077008182)"^^geosparql:wktLiteral .
 
 georec:1991  a                 btn100:Collado ;
-        rdfs:label             "1991" ;
-        geoes:cota             "213" ;
         dc:created             "2011-02-07"^^xsd:date ;
         dc:identifier          "1991" ;
         dc:replaces            "100" ;
         dc:title               "Collado Los Collados" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/1991/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/1991/geometry> ;
+        btn100:cota            "213" .
 
 <https://datos.ign.es/recurso/collado/1393/geometry>
         a                sf:Point ;
@@ -802,94 +735,85 @@ georec:1991  a                 btn100:Collado ;
         geosparql:asWKT  "POINT (-0.7547598399999998 38.5149530872712)"^^geosparql:wktLiteral .
 
 georec:1695  a                 btn100:Collado ;
-        rdfs:label             "1695" ;
-        geoes:cota             "1062" ;
         dc:created             "2011-03-03"^^xsd:date ;
         dc:identifier          "1695" ;
         dc:replaces            "100" ;
         dc:title               "Collado de Silla" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/1695/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/1695/geometry> ;
+        btn100:cota            "1062" .
 
 <https://datos.ign.es/recurso/collado/38632/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.5693624099999997 38.456322177216535)"^^geosparql:wktLiteral .
 
 georec:869  a                  btn100:Collado ;
-        rdfs:label             "869" ;
-        geoes:cota             "734" ;
         dc:created             "2013-03-11"^^xsd:date ;
         dc:identifier          "869" ;
         dc:title               "Collado de Villacampo" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/869/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/869/geometry> ;
+        btn100:cota            "734" .
 
 <https://datos.ign.es/recurso/collado/8163/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.2985840900000007 42.88318173004632)"^^geosparql:wktLiteral .
 
 georec:6363  a                 btn100:Collado ;
-        rdfs:label             "6363" ;
-        geoes:cota             "1127" ;
         dc:created             "2013-05-23"^^xsd:date ;
         dc:identifier          "6363" ;
         dc:title               "Collado Sorotepo" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/6363/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/6363/geometry> ;
+        btn100:cota            "1127" .
 
 georec:24306  a                btn100:Collado ;
-        rdfs:label             "24306" ;
-        geoes:cota             "715" ;
         dc:created             "2013-03-25"^^xsd:date ;
         dc:identifier          "24306" ;
         dc:title               "Collado de la Madera" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/24306/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/24306/geometry> ;
+        btn100:cota            "715" .
 
 <https://datos.ign.es/recurso/collado/699/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (0.12298251 40.72116841900348)"^^geosparql:wktLiteral .
 
 georec:8154  a                 btn100:Collado ;
-        rdfs:label             "8154" ;
-        geoes:cota             "894" ;
         dc:created             "2013-05-30"^^xsd:date ;
         dc:identifier          "8154" ;
         dc:title               "Portillo de los Campos" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/8154/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/8154/geometry> ;
+        btn100:cota            "894" .
 
 georec:36665  a                btn100:Collado ;
-        rdfs:label             "36665" ;
-        geoes:cota             "1007" ;
         dc:created             "2013-05-10"^^xsd:date ;
         dc:identifier          "36665" ;
         dc:title               "La Gándara" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36665/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36665/geometry> ;
+        btn100:cota            "1007" .
 
 georec:55118  a                btn100:Collado ;
-        rdfs:label             "55118" ;
-        geoes:cota             "812" ;
         dc:created             "2013-02-20"^^xsd:date ;
         dc:identifier          "55118" ;
         dc:title               "Collado de Tembleque" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/55118/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/55118/geometry> ;
+        btn100:cota            "812" .
 
 georec:36931  a                btn100:Collado ;
-        rdfs:label             "36931" ;
-        geoes:cota             "1101" ;
         dc:created             "2013-06-05"^^xsd:date ;
         dc:identifier          "36931" ;
         dc:title               "Práu la Collá" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36931/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36931/geometry> ;
+        btn100:cota            "1101" .
 
 <https://datos.ign.es/recurso/collado/55089/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.667313369999998 39.548844278163116)"^^geosparql:wktLiteral .
 
 georec:53635  a                btn100:Collado ;
-        rdfs:label             "53635" ;
-        geoes:cota             "1276" ;
         dc:created             "2011-09-12"^^xsd:date ;
         dc:identifier          "53635" ;
         dc:replaces            "100" ;
         dc:title               "Collado de las Estacas" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/53635/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/53635/geometry> ;
+        btn100:cota            "1276" .
 
 <https://datos.ign.es/recurso/collado/37366/geometry>
         a                sf:Point ;
@@ -908,34 +832,31 @@ georec:53635  a                btn100:Collado ;
         geosparql:asWKT  "POINT (-5.226675899999999 42.269791749819284)"^^geosparql:wktLiteral .
 
 georec:54763  a                btn100:Collado ;
-        rdfs:label             "54763" ;
-        geoes:cota             "488" ;
         dc:created             "2011-11-22"^^xsd:date ;
         dc:identifier          "54763" ;
         dc:replaces            "100" ;
         dc:title               "Collado Soto de Tardío" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/54763/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/54763/geometry> ;
+        btn100:cota            "488" .
 
 georec:36647  a                btn100:Collado ;
-        rdfs:label             "36647" ;
-        geoes:cota             "813" ;
         dc:created             "2013-05-10"^^xsd:date ;
         dc:identifier          "36647" ;
         dc:title               "La Laguna" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36647/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36647/geometry> ;
+        btn100:cota            "813" .
 
 <https://datos.ign.es/recurso/collado/37059/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.8861027299999993 42.81455177002366)"^^geosparql:wktLiteral .
 
 georec:1955  a                 btn100:Collado ;
-        rdfs:label             "1955" ;
-        geoes:cota             "578" ;
         dc:created             "2011-01-27"^^xsd:date ;
         dc:identifier          "1955" ;
         dc:replaces            "100" ;
         dc:title               "Collado dels Caragols" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/1955/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/1955/geometry> ;
+        btn100:cota            "578" .
 
 <https://datos.ign.es/recurso/collado/28413/geometry>
         a                sf:Point ;
@@ -966,28 +887,25 @@ georec:1955  a                 btn100:Collado ;
         geosparql:asWKT  "POINT (-5.507793659999998 40.15723638862252)"^^geosparql:wktLiteral .
 
 georec:2504  a                 btn100:Collado ;
-        rdfs:label             "2504" ;
-        geoes:cota             "1116" ;
         dc:created             "2013-05-14"^^xsd:date ;
         dc:identifier          "2504" ;
         dc:title               "Collado de Silla" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/2504/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/2504/geometry> ;
+        btn100:cota            "1116" .
 
 georec:26007  a                btn100:Collado ;
-        rdfs:label             "26007" ;
-        geoes:cota             "1376" ;
         dc:created             "2013-06-04"^^xsd:date ;
         dc:identifier          "26007" ;
         dc:title               "Collado de las Heras" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/26007/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/26007/geometry> ;
+        btn100:cota            "1376" .
 
 georec:10742  a                btn100:Collado ;
-        rdfs:label             "10742" ;
-        geoes:cota             "666" ;
         dc:created             "2013-05-09"^^xsd:date ;
         dc:identifier          "10742" ;
         dc:title               "Coll del Grau" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/10742/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/10742/geometry> ;
+        btn100:cota            "666" .
 
 <https://datos.ign.es/recurso/collado/8154/geometry>
         a                sf:Point ;
@@ -1002,24 +920,22 @@ georec:10742  a                btn100:Collado ;
         geosparql:asWKT  "POINT (-0.49463729 38.73397422747152)"^^geosparql:wktLiteral .
 
 georec:38632  a                btn100:Collado ;
-        rdfs:label             "38632" ;
-        geoes:cota             "1514" ;
         dc:created             "2011-04-28"^^xsd:date ;
         dc:identifier          "38632" ;
         dc:title               "Collado de Piedra" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/38632/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/38632/geometry> ;
+        btn100:cota            "1514" .
 
 <https://datos.ign.es/recurso/collado/13052/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (0.8860835099999999 40.970917829158104)"^^geosparql:wktLiteral .
 
 georec:6496  a                 btn100:Collado ;
-        rdfs:label             "6496" ;
-        geoes:cota             "1048" ;
         dc:created             "2013-05-23"^^xsd:date ;
         dc:identifier          "6496" ;
         dc:title               "Oialegiko Lepoa" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/6496/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/6496/geometry> ;
+        btn100:cota            "1048" .
 
 <https://datos.ign.es/recurso/collado/8236/geometry>
         a                sf:Point ;
@@ -1030,12 +946,11 @@ georec:6496  a                 btn100:Collado ;
         geosparql:asWKT  "POINT (1.4328535600000003 41.388715089397145)"^^geosparql:wktLiteral .
 
 georec:37335  a                btn100:Collado ;
-        rdfs:label             "37335" ;
-        geoes:cota             "784" ;
         dc:created             "2013-06-05"^^xsd:date ;
         dc:identifier          "37335" ;
         dc:title               "Collado de Edillo" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/37335/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/37335/geometry> ;
+        btn100:cota            "784" .
 
 <https://datos.ign.es/recurso/collado/39546/geometry>
         a                sf:Point ;
@@ -1054,107 +969,96 @@ georec:37335  a                btn100:Collado ;
         geosparql:asWKT  "POINT (-5.430636050000001 39.47999228810802)"^^geosparql:wktLiteral .
 
 georec:22268  a                btn100:Collado ;
-        rdfs:label             "22268" ;
-        geoes:cota             "1318" ;
         dc:created             "2013-02-25"^^xsd:date ;
         dc:identifier          "22268" ;
         dc:title               "Collado Moreno" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/22268/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/22268/geometry> ;
+        btn100:cota            "1318" .
 
 <https://datos.ign.es/recurso/collado/48564/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.97239078 39.22867183790163)"^^geosparql:wktLiteral .
 
 georec:36642  a                btn100:Collado ;
-        rdfs:label             "36642" ;
-        geoes:cota             "838" ;
         dc:created             "2013-05-10"^^xsd:date ;
         dc:identifier          "36642" ;
         dc:title               "Cadilloso" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36642/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36642/geometry> ;
+        btn100:cota            "838" .
 
 georec:30858  a                btn100:Collado ;
-        rdfs:label             "30858" ;
-        geoes:cota             "1329" ;
         dc:created             "2013-05-23"^^xsd:date ;
         dc:identifier          "30858" ;
         dc:title               "Collado de las Crucetas" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/30858/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/30858/geometry> ;
+        btn100:cota            "1329" .
 
 georec:14703  a                btn100:Collado ;
-        rdfs:label             "14703" ;
-        geoes:cota             "1471" ;
         dc:created             "2013-05-13"^^xsd:date ;
         dc:identifier          "14703" ;
         dc:title               "Collado Cullibert" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/14703/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/14703/geometry> ;
+        btn100:cota            "1471" .
 
 <https://datos.ign.es/recurso/collado/8165/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.51059133 43.12483992012049)"^^geosparql:wktLiteral .
 
 georec:37528  a                btn100:Collado ;
-        rdfs:label             "37528" ;
-        geoes:cota             "1366" ;
         dc:created             "2012-03-29"^^xsd:date ;
         dc:identifier          "37528" ;
         dc:title               "Collado de la Morenica" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/37528/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/37528/geometry> ;
+        btn100:cota            "1366" .
 
 georec:29276  a                btn100:Collado ;
-        rdfs:label             "29276" ;
-        geoes:cota             "2009" ;
         dc:created             "2013-06-14"^^xsd:date ;
         dc:identifier          "29276" ;
         dc:replaces            "8505" ;
         dc:title               "Collado de la Centenera" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/29276/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/29276/geometry> ;
+        btn100:cota            "2009" .
 
 georec:14268  a                btn100:Collado ;
-        rdfs:label             "14268" ;
-        geoes:cota             "2862" ;
         dc:created             "2013-05-14"^^xsd:date ;
         dc:identifier          "14268" ;
         dc:title               "Collado de Eriste o de la Forqueta" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/14268/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/14268/geometry> ;
+        btn100:cota            "2862" .
 
 georec:35653  a                btn100:Collado ;
-        rdfs:label             "35653" ;
-        geoes:cota             "1456" ;
         dc:created             "2013-05-08"^^xsd:date ;
         dc:identifier          "35653" ;
         dc:title               "Collado de la Pernosa" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/35653/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/35653/geometry> ;
+        btn100:cota            "1456" .
 
 <https://datos.ign.es/recurso/collado/6409/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-1.10384768 42.64626917996521)"^^geosparql:wktLiteral .
 
 georec:53654  a                btn100:Collado ;
-        rdfs:label             "53654" ;
-        geoes:cota             "1331" ;
         dc:created             "2011-09-12"^^xsd:date ;
         dc:identifier          "53654" ;
         dc:replaces            "100" ;
         dc:title               "Collado de Castañuelo" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/53654/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/53654/geometry> ;
+        btn100:cota            "1331" .
 
 georec:2064  a                 btn100:Collado ;
-        rdfs:label             "2064" ;
-        geoes:cota             "774" ;
         dc:created             "2011-03-03"^^xsd:date ;
         dc:identifier          "2064" ;
         dc:replaces            "100" ;
         dc:title               "Collado de La Losa" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/2064/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/2064/geometry> ;
+        btn100:cota            "774" .
 
 georec:13052  a                btn100:Collado ;
-        rdfs:label             "13052" ;
-        geoes:cota             "138" ;
         dc:created             "2013-05-13"^^xsd:date ;
         dc:identifier          "13052" ;
         dc:title               "Coll de Balaguer" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/13052/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/13052/geometry> ;
+        btn100:cota            "138" .
 
 <https://datos.ign.es/recurso/collado/35653/geometry>
         a                sf:Point ;
@@ -1165,41 +1069,37 @@ georec:13052  a                btn100:Collado ;
         geosparql:asWKT  "POINT (-5.787430209999999 42.8871331900476)"^^geosparql:wktLiteral .
 
 georec:36666  a                btn100:Collado ;
-        rdfs:label             "36666" ;
-        geoes:cota             "1544" ;
         dc:created             "2013-05-10"^^xsd:date ;
         dc:identifier          "36666" ;
         dc:title               "El Cellerón" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36666/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36666/geometry> ;
+        btn100:cota            "1544" .
 
 <https://datos.ign.es/recurso/collado/3851/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.8094956000000004 42.26687813981807)"^^geosparql:wktLiteral .
 
 georec:21738  a                btn100:Collado ;
-        rdfs:label             "21738" ;
-        geoes:cota             "1826" ;
         dc:created             "2011-03-17"^^xsd:date ;
         dc:identifier          "21738" ;
         dc:title               "Collado Bajo" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/21738/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/21738/geometry> ;
+        btn100:cota            "1826" .
 
 georec:1944  a                 btn100:Collado ;
-        rdfs:label             "1944" ;
-        geoes:cota             "432" ;
         dc:created             "2011-02-07"^^xsd:date ;
         dc:identifier          "1944" ;
         dc:replaces            "100" ;
         dc:title               "Collado de Serafín" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/1944/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/1944/geometry> ;
+        btn100:cota            "432" .
 
 georec:53455  a                btn100:Collado ;
-        rdfs:label             "53455" ;
-        geoes:cota             "1037" ;
         dc:created             "2013-06-11"^^xsd:date ;
         dc:identifier          "53455" ;
         dc:title               "Collada del Tiro" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/53455/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/53455/geometry> ;
+        btn100:cota            "1037" .
 
 <https://datos.ign.es/recurso/collado/24306/geometry>
         a                sf:Point ;
@@ -1210,32 +1110,29 @@ georec:53455  a                btn100:Collado ;
         geosparql:asWKT  "POINT (-0.90627912 39.37257790802082)"^^geosparql:wktLiteral .
 
 georec:36648  a                btn100:Collado ;
-        rdfs:label             "36648" ;
-        geoes:cota             "873" ;
         dc:created             "2013-05-10"^^xsd:date ;
         dc:identifier          "36648" ;
         dc:title               "El Chano" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36648/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36648/geometry> ;
+        btn100:cota            "873" .
 
 georec:40994  a                btn100:Collado ;
-        rdfs:label             "40994" ;
-        geoes:cota             "1361" ;
         dc:created             "2013-05-07"^^xsd:date ;
         dc:identifier          "40994" ;
         dc:title               "Collado del Moralejo" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/40994/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/40994/geometry> ;
+        btn100:cota            "1361" .
 
 <https://datos.ign.es/recurso/collado/36646/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.795974209999999 42.27737074982243)"^^geosparql:wktLiteral .
 
 georec:48513  a                btn100:Collado ;
-        rdfs:label             "48513" ;
-        geoes:cota             "514" ;
         dc:created             "2013-03-07"^^xsd:date ;
         dc:identifier          "48513" ;
         dc:title               "La Negrona" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/48513/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/48513/geometry> ;
+        btn100:cota            "514" .
 
 <https://datos.ign.es/recurso/collado/22268/geometry>
         a                sf:Point ;
@@ -1246,12 +1143,11 @@ georec:48513  a                btn100:Collado ;
         geosparql:asWKT  "POINT (-5.06997333 42.371877409860915)"^^geosparql:wktLiteral .
 
 georec:55089  a                btn100:Collado ;
-        rdfs:label             "55089" ;
-        geoes:cota             "1134" ;
         dc:created             "2013-02-20"^^xsd:date ;
         dc:identifier          "55089" ;
         dc:title               "Collado de la Arañosa" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/55089/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/55089/geometry> ;
+        btn100:cota            "1134" .
 
 <https://datos.ign.es/recurso/collado/37272/geometry>
         a                sf:Point ;
@@ -1266,64 +1162,58 @@ georec:55089  a                btn100:Collado ;
         geosparql:asWKT  "POINT (-5.933059039999999 42.23985224980679)"^^geosparql:wktLiteral .
 
 georec:48525  a                btn100:Collado ;
-        rdfs:label             "48525" ;
-        geoes:cota             "611" ;
         dc:created             "2013-03-07"^^xsd:date ;
         dc:identifier          "48525" ;
         dc:title               "La Garrota" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/48525/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/48525/geometry> ;
+        btn100:cota            "611" .
 
 <https://datos.ign.es/recurso/collado/24312/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.467319299999999 39.61464865821518)"^^geosparql:wktLiteral .
 
 georec:55090  a                btn100:Collado ;
-        rdfs:label             "55090" ;
-        geoes:cota             "1192" ;
         dc:created             "2013-02-20"^^xsd:date ;
         dc:identifier          "55090" ;
         dc:title               "Collado de las Estacas" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/55090/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/55090/geometry> ;
+        btn100:cota            "1192" .
 
 <https://datos.ign.es/recurso/collado/1991/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.3301496799999999 39.13402238782177)"^^geosparql:wktLiteral .
 
 georec:37366  a                btn100:Collado ;
-        rdfs:label             "37366" ;
-        geoes:cota             "1103" ;
         dc:created             "2013-06-05"^^xsd:date ;
         dc:identifier          "37366" ;
         dc:title               "Collado de Brañalengua" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/37366/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/37366/geometry> ;
+        btn100:cota            "1103" .
 
 georec:27010  a                btn100:Collado ;
-        rdfs:label             "27010" ;
-        geoes:cota             "788" ;
         dc:created             "2013-06-10"^^xsd:date ;
         dc:identifier          "27010" ;
         dc:title               "Collado de Peñalba" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/27010/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/27010/geometry> ;
+        btn100:cota            "788" .
 
 georec:24290  a                btn100:Collado ;
-        rdfs:label             "24290" ;
-        geoes:cota             "349" ;
         dc:created             "2013-03-25"^^xsd:date ;
         dc:identifier          "24290" ;
         dc:title               "Collado de las Cansinas" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/24290/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/24290/geometry> ;
+        btn100:cota            "349" .
 
 <https://datos.ign.es/recurso/collado/53560/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.80914762 39.63449443823079)"^^geosparql:wktLiteral .
 
 georec:37306  a                btn100:Collado ;
-        rdfs:label             "37306" ;
-        geoes:cota             "1001" ;
         dc:created             "2013-06-05"^^xsd:date ;
         dc:identifier          "37306" ;
         dc:title               "Collado Pelea" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/37306/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/37306/geometry> ;
+        btn100:cota            "1001" .
 
 <https://datos.ign.es/recurso/collado/36652/geometry>
         a                sf:Point ;
@@ -1334,12 +1224,11 @@ georec:37306  a                btn100:Collado ;
         geosparql:asWKT  "POINT (-1.8085043 41.74132225957955)"^^geosparql:wktLiteral .
 
 georec:36643  a                btn100:Collado ;
-        rdfs:label             "36643" ;
-        geoes:cota             "972" ;
         dc:created             "2013-05-10"^^xsd:date ;
         dc:identifier          "36643" ;
         dc:title               "El Tremedal" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36643/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36643/geometry> ;
+        btn100:cota            "972" .
 
 <https://datos.ign.es/recurso/collado/26007/geometry>
         a                sf:Point ;
@@ -1358,20 +1247,18 @@ georec:36643  a                btn100:Collado ;
         geosparql:asWKT  "POINT (0.6786904500000001 42.55232533993073)"^^geosparql:wktLiteral .
 
 georec:30890  a                btn100:Collado ;
-        rdfs:label             "30890" ;
-        geoes:cota             "853" ;
         dc:created             "2013-05-23"^^xsd:date ;
         dc:identifier          "30890" ;
         dc:title               "Collado de la Vívora" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/30890/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/30890/geometry> ;
+        btn100:cota            "853" .
 
 georec:2922  a                 btn100:Collado ;
-        rdfs:label             "2922" ;
-        geoes:cota             "1011" ;
         dc:created             "2013-05-14"^^xsd:date ;
         dc:identifier          "2922" ;
         dc:title               "Collado de la Zapata" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/2922/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/2922/geometry> ;
+        btn100:cota            "1011" .
 
 <https://datos.ign.es/recurso/collado/10742/geometry>
         a                sf:Point ;
@@ -1382,44 +1269,40 @@ georec:2922  a                 btn100:Collado ;
         geosparql:asWKT  "POINT (-2.19676309 37.24392549599357)"^^geosparql:wktLiteral .
 
 georec:13041  a                btn100:Collado ;
-        rdfs:label             "13041" ;
-        geoes:cota             "446" ;
         dc:created             "2013-05-10"^^xsd:date ;
         dc:identifier          "13041" ;
         dc:title               "Lo Coll del Moro" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/13041/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/13041/geometry> ;
+        btn100:cota            "446" .
 
 georec:48519  a                btn100:Collado ;
-        rdfs:label             "48519" ;
-        geoes:cota             "315" ;
         dc:created             "2013-03-07"^^xsd:date ;
         dc:identifier          "48519" ;
         dc:title               "Risquillo" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/48519/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/48519/geometry> ;
+        btn100:cota            "315" .
 
 <https://datos.ign.es/recurso/collado/36637/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.34378085 42.34437677984984)"^^geosparql:wktLiteral .
 
 georec:39954  a                btn100:Collado ;
-        rdfs:label             "39954" ;
-        geoes:cota             "1011" ;
         dc:created             "2012-03-27"^^xsd:date ;
         dc:identifier          "39954" ;
         dc:title               "Collado de los Nabos" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/39954/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/39954/geometry> ;
+        btn100:cota            "1011" .
 
 <https://datos.ign.es/recurso/collado/6222/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-1.3911227199999998 42.50643388991344)"^^geosparql:wktLiteral .
 
 georec:860  a                  btn100:Collado ;
-        rdfs:label             "860" ;
-        geoes:cota             "734" ;
         dc:created             "2013-05-16"^^xsd:date ;
         dc:identifier          "860" ;
         dc:title               "Collado de Villacampo" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/860/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/860/geometry> ;
+        btn100:cota            "734" .
 
 <https://datos.ign.es/recurso/collado/2953/geometry>
         a                sf:Point ;
@@ -1442,12 +1325,11 @@ georec:860  a                  btn100:Collado ;
         geosparql:asWKT  "POINT (-4.55268069 43.275565420162344)"^^geosparql:wktLiteral .
 
 georec:24308  a                btn100:Collado ;
-        rdfs:label             "24308" ;
-        geoes:cota             "673" ;
         dc:created             "2013-03-25"^^xsd:date ;
         dc:identifier          "24308" ;
         dc:title               "Collado del Portijuelo" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/24308/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/24308/geometry> ;
+        btn100:cota            "673" .
 
 <https://datos.ign.es/recurso/collado/39954/geometry>
         a                sf:Point ;
@@ -1458,48 +1340,43 @@ georec:24308  a                btn100:Collado ;
         geosparql:asWKT  "POINT (-5.5063314 40.17051102863199)"^^geosparql:wktLiteral .
 
 georec:12782  a                btn100:Collado ;
-        rdfs:label             "12782" ;
-        geoes:cota             "709" ;
         dc:created             "2013-05-10"^^xsd:date ;
         dc:identifier          "12782" ;
         dc:title               "Coll de la Torre" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/12782/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/12782/geometry> ;
+        btn100:cota            "709" .
 
 georec:36637  a                btn100:Collado ;
-        rdfs:label             "36637" ;
-        geoes:cota             "826" ;
         dc:created             "2013-05-10"^^xsd:date ;
         dc:identifier          "36637" ;
         dc:title               "Truébano" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36637/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36637/geometry> ;
+        btn100:cota            "826" .
 
 <https://datos.ign.es/recurso/collado/2080/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.57857983 39.75231336832227)"^^geosparql:wktLiteral .
 
 georec:3851  a                 btn100:Collado ;
-        rdfs:label             "3851" ;
-        geoes:cota             "1225" ;
         dc:created             "2013-05-24"^^xsd:date ;
         dc:identifier          "3851" ;
         dc:title               "Collado Cervanco" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/3851/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/3851/geometry> ;
+        btn100:cota            "1225" .
 
 georec:8198  a                 btn100:Collado ;
-        rdfs:label             "8198" ;
-        geoes:cota             "996" ;
         dc:created             "2013-06-03"^^xsd:date ;
         dc:identifier          "8198" ;
         dc:title               "La Horca" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/8198/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/8198/geometry> ;
+        btn100:cota            "996" .
 
 georec:7644  a                 btn100:Collado ;
-        rdfs:label             "7644" ;
-        geoes:cota             "1349" ;
         dc:created             "2013-06-03"^^xsd:date ;
         dc:identifier          "7644" ;
         dc:title               "Colladillo de Hollado" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/7644/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/7644/geometry> ;
+        btn100:cota            "1349" .
 
 <https://datos.ign.es/recurso/collado/14703/geometry>
         a                sf:Point ;
@@ -1518,141 +1395,126 @@ georec:7644  a                 btn100:Collado ;
         geosparql:asWKT  "POINT (-4.90970093 42.489541649906975)"^^geosparql:wktLiteral .
 
 georec:36679  a                btn100:Collado ;
-        rdfs:label             "36679" ;
-        geoes:cota             "984" ;
         dc:created             "2013-05-10"^^xsd:date ;
         dc:identifier          "36679" ;
         dc:title               "El Cañón" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36679/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36679/geometry> ;
+        btn100:cota            "984" .
 
 georec:54005  a                btn100:Collado ;
-        rdfs:label             "54005" ;
-        geoes:cota             "372" ;
         dc:created             "2011-11-08"^^xsd:date ;
         dc:identifier          "54005" ;
         dc:replaces            "100" ;
         dc:title               "Collado La Hormiga" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/54005/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/54005/geometry> ;
+        btn100:cota            "372" .
 
 <https://datos.ign.es/recurso/collado/29276/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.860429100000003 40.32319207873919)"^^geosparql:wktLiteral .
 
 georec:14011  a                btn100:Collado ;
-        rdfs:label             "14011" ;
-        geoes:cota             "2183" ;
         dc:created             "2013-05-14"^^xsd:date ;
         dc:identifier          "14011" ;
         dc:title               "Collado de Salinas" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/14011/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/14011/geometry> ;
+        btn100:cota            "2183" .
 
 georec:6389  a                 btn100:Collado ;
-        rdfs:label             "6389" ;
-        geoes:cota             "1145" ;
         dc:created             "2013-05-23"^^xsd:date ;
         dc:identifier          "6389" ;
         dc:title               "Beraiko Lepoa" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/6389/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/6389/geometry> ;
+        btn100:cota            "1145" .
 
 georec:1957  a                 btn100:Collado ;
-        rdfs:label             "1957" ;
-        geoes:cota             "359" ;
         dc:created             "2011-02-07"^^xsd:date ;
         dc:identifier          "1957" ;
         dc:replaces            "100" ;
         dc:title               "Collado de La Rafaela" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/1957/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/1957/geometry> ;
+        btn100:cota            "359" .
 
 georec:14686  a                btn100:Collado ;
-        rdfs:label             "14686" ;
-        geoes:cota             "1964" ;
         dc:created             "2013-05-13"^^xsd:date ;
         dc:identifier          "14686" ;
         dc:title               "Collada de Petraficha" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/14686/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/14686/geometry> ;
+        btn100:cota            "1964" .
 
 <https://datos.ign.es/recurso/collado/6520/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-1.88412669 42.02718623971426)"^^geosparql:wktLiteral .
 
 georec:36680  a                btn100:Collado ;
-        rdfs:label             "36680" ;
-        geoes:cota             "1074" ;
         dc:created             "2013-05-10"^^xsd:date ;
         dc:identifier          "36680" ;
         dc:title               "La Matona" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36680/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36680/geometry> ;
+        btn100:cota            "1074" .
 
 georec:6359  a                 btn100:Collado ;
-        rdfs:label             "6359" ;
-        geoes:cota             "912" ;
         dc:created             "2013-05-23"^^xsd:date ;
         dc:identifier          "6359" ;
         dc:title               "Collado de Urkiaga" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/6359/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/6359/geometry> ;
+        btn100:cota            "912" .
 
 georec:1927  a                 btn100:Collado ;
-        rdfs:label             "1927" ;
-        geoes:cota             "836" ;
         dc:created             "2011-01-27"^^xsd:date ;
         dc:identifier          "1927" ;
         dc:replaces            "100" ;
         dc:title               "Collado del Fort" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/1927/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/1927/geometry> ;
+        btn100:cota            "836" .
 
 georec:2928  a                 btn100:Collado ;
-        rdfs:label             "2928" ;
-        geoes:cota             "849" ;
         dc:created             "2013-05-14"^^xsd:date ;
         dc:identifier          "2928" ;
         dc:title               "Collado del Caldero del Cochino" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/2928/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/2928/geometry> ;
+        btn100:cota            "849" .
 
 georec:36650  a                btn100:Collado ;
-        rdfs:label             "36650" ;
-        geoes:cota             "948" ;
         dc:created             "2013-05-10"^^xsd:date ;
         dc:identifier          "36650" ;
         dc:title               "Llamazal de Peñicas" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36650/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36650/geometry> ;
+        btn100:cota            "948" .
 
 <https://datos.ign.es/recurso/collado/48563/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.3098750500000005 39.189177047868434)"^^geosparql:wktLiteral .
 
 georec:1481  a                 btn100:Collado ;
-        rdfs:label             "1481" ;
-        geoes:cota             "866" ;
         dc:created             "2011-03-03"^^xsd:date ;
         dc:identifier          "1481" ;
         dc:replaces            "100" ;
         dc:title               "Collado de las Cruces" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/1481/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/1481/geometry> ;
+        btn100:cota            "866" .
 
 georec:24303  a                btn100:Collado ;
-        rdfs:label             "24303" ;
-        geoes:cota             "1477" ;
         dc:created             "2013-03-25"^^xsd:date ;
         dc:identifier          "24303" ;
         dc:title               "Collado de Alovera" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/24303/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/24303/geometry> ;
+        btn100:cota            "1477" .
 
 georec:37059  a                btn100:Collado ;
-        rdfs:label             "37059" ;
-        geoes:cota             "1136" ;
         dc:created             "2013-06-05"^^xsd:date ;
         dc:identifier          "37059" ;
         dc:title               "Portillo de Toma y Daca" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/37059/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/37059/geometry> ;
+        btn100:cota            "1136" .
 
 georec:1240  a                 btn100:Collado ;
-        rdfs:label             "1240" ;
-        geoes:cota             "601" ;
         dc:created             "2011-02-15"^^xsd:date ;
         dc:identifier          "1240" ;
         dc:replaces            "100" ;
         dc:title               "Collado del Lobo" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/1240/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/1240/geometry> ;
+        btn100:cota            "601" .
 
 <https://datos.ign.es/recurso/collado/14686/geometry>
         a                sf:Point ;
@@ -1675,36 +1537,33 @@ georec:1240  a                 btn100:Collado ;
         geosparql:asWKT  "POINT (-0.34196888 39.029554457732274)"^^geosparql:wktLiteral .
 
 georec:8163  a                 btn100:Collado ;
-        rdfs:label             "8163" ;
-        geoes:cota             "967" ;
         dc:created             "2013-05-30"^^xsd:date ;
         dc:identifier          "8163" ;
         dc:title               "Portillo de Cejuelo" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/8163/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/8163/geometry> ;
+        btn100:cota            "967" .
 
 <https://datos.ign.es/recurso/collado/53554/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.904834970000001 39.597792868201914)"^^geosparql:wktLiteral .
 
 georec:10756  a                btn100:Collado ;
-        rdfs:label             "10756" ;
-        geoes:cota             "1781" ;
         dc:created             "2013-05-10"^^xsd:date ;
         dc:identifier          "10756" ;
         dc:title               "Còth de Panèc" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/10756/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/10756/geometry> ;
+        btn100:cota            "1781" .
 
 <https://datos.ign.es/recurso/collado/1343/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.77009066 39.19597919787417)"^^geosparql:wktLiteral .
 
 georec:24261  a                btn100:Collado ;
-        rdfs:label             "24261" ;
-        geoes:cota             "1285" ;
         dc:created             "2013-03-22"^^xsd:date ;
         dc:identifier          "24261" ;
         dc:title               "Collada de la Zambrana" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/24261/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/24261/geometry> ;
+        btn100:cota            "1285" .
 
 <https://datos.ign.es/recurso/collado/30858/geometry>
         a                sf:Point ;
@@ -1719,12 +1578,11 @@ georec:24261  a                btn100:Collado ;
         geosparql:asWKT  "POINT (-1.0091916 38.501359107258565)"^^geosparql:wktLiteral .
 
 georec:2953  a                 btn100:Collado ;
-        rdfs:label             "2953" ;
-        geoes:cota             "494" ;
         dc:created             "2013-05-14"^^xsd:date ;
         dc:identifier          "2953" ;
         dc:title               "Coll de Novelda" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/2953/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/2953/geometry> ;
+        btn100:cota            "494" .
 
 <https://datos.ign.es/recurso/collado/21738/geometry>
         a                sf:Point ;
@@ -1743,21 +1601,19 @@ georec:2953  a                 btn100:Collado ;
         geosparql:asWKT  "POINT (-5.20054105 40.286239498713506)"^^geosparql:wktLiteral .
 
 georec:53560  a                btn100:Collado ;
-        rdfs:label             "53560" ;
-        geoes:cota             "948" ;
         dc:created             "2011-09-12"^^xsd:date ;
         dc:identifier          "53560" ;
         dc:replaces            "100" ;
         dc:title               "Collado de la Garganta" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/53560/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/53560/geometry> ;
+        btn100:cota            "948" .
 
 georec:43768  a                btn100:Collado ;
-        rdfs:label             "43768" ;
-        geoes:cota             "256" ;
         dc:created             "2013-06-11"^^xsd:date ;
         dc:identifier          "43768" ;
         dc:title               "Es Revellar" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/43768/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/43768/geometry> ;
+        btn100:cota            "256" .
 
 <https://datos.ign.es/recurso/collado/36645/geometry>
         a                sf:Point ;
@@ -1768,13 +1624,12 @@ georec:43768  a                btn100:Collado ;
         geosparql:asWKT  "POINT (-3.7558114399999996 43.09904528011299)"^^geosparql:wktLiteral .
 
 georec:36572  a                btn100:Collado ;
-        rdfs:label             "36572" ;
-        geoes:cota             "1687" ;
         dc:created             "2012-09-26"^^xsd:date ;
         dc:identifier          "36572" ;
         dc:replaces            "13527" ;
         dc:title               "Collado del Somo" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36572/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36572/geometry> ;
+        btn100:cota            "1687" .
 
 <https://datos.ign.es/recurso/collado/1295/geometry>
         a                sf:Point ;
@@ -1785,69 +1640,62 @@ georec:36572  a                btn100:Collado ;
         geosparql:asWKT  "POINT (-3.5284725400000005 42.77880325001159)"^^geosparql:wktLiteral .
 
 georec:48563  a                btn100:Collado ;
-        rdfs:label             "48563" ;
-        geoes:cota             "629" ;
         dc:created             "2013-03-07"^^xsd:date ;
         dc:identifier          "48563" ;
         dc:title               "Carrascal" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/48563/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/48563/geometry> ;
+        btn100:cota            "629" .
 
 <https://datos.ign.es/recurso/collado/36640/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.10593473 42.33824389984736)"^^geosparql:wktLiteral .
 
 georec:24310  a                btn100:Collado ;
-        rdfs:label             "24310" ;
-        geoes:cota             "1185" ;
         dc:created             "2013-03-25"^^xsd:date ;
         dc:identifier          "24310" ;
         dc:title               "Collado del Brezo" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/24310/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/24310/geometry> ;
+        btn100:cota            "1185" .
 
 georec:2193  a                 btn100:Collado ;
-        rdfs:label             "2193" ;
-        geoes:cota             "792" ;
         dc:created             "2013-03-11"^^xsd:date ;
         dc:identifier          "2193" ;
         dc:title               "Coll de l'Ombrieta" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/2193/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/2193/geometry> ;
+        btn100:cota            "792" .
 
 <https://datos.ign.es/recurso/collado/30890/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.00194448 38.813765407543016)"^^geosparql:wktLiteral .
 
 georec:28706  a                btn100:Collado ;
-        rdfs:label             "28706" ;
-        geoes:cota             "1774" ;
         dc:created             "2013-06-14"^^xsd:date ;
         dc:identifier          "28706" ;
         dc:title               "Collado del Pinillo" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/28706/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/28706/geometry> ;
+        btn100:cota            "1774" .
 
 georec:36638  a                btn100:Collado ;
-        rdfs:label             "36638" ;
-        geoes:cota             "805" ;
         dc:created             "2013-05-10"^^xsd:date ;
         dc:identifier          "36638" ;
         dc:title               "El Pico" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36638/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/36638/geometry> ;
+        btn100:cota            "805" .
 
 georec:1343  a                 btn100:Collado ;
-        rdfs:label             "1343" ;
-        geoes:cota             "499" ;
         dc:created             "2011-02-15"^^xsd:date ;
         dc:identifier          "1343" ;
         dc:replaces            "100" ;
         dc:title               "Collado de los Nabos" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/1343/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/1343/geometry> ;
+        btn100:cota            "499" .
 
 georec:6222  a                 btn100:Collado ;
-        rdfs:label             "6222" ;
-        geoes:cota             "793" ;
         dc:created             "2013-05-23"^^xsd:date ;
         dc:identifier          "6222" ;
         dc:title               "Portillo de Jarés" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/6222/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/6222/geometry> ;
+        btn100:cota            "793" .
 
 <https://datos.ign.es/recurso/collado/48565/geometry>
         a                sf:Point ;
@@ -1862,36 +1710,33 @@ georec:6222  a                 btn100:Collado ;
         geosparql:asWKT  "POINT (-0.8214945700000001 39.8083010883651)"^^geosparql:wktLiteral .
 
 georec:53554  a                btn100:Collado ;
-        rdfs:label             "53554" ;
-        geoes:cota             "944" ;
         dc:created             "2011-09-12"^^xsd:date ;
         dc:identifier          "53554" ;
         dc:replaces            "100" ;
         dc:title               "Collado de Los Pilones" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/53554/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/53554/geometry> ;
+        btn100:cota            "944" .
 
 <https://datos.ign.es/recurso/collado/54763/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.626422490000001 40.05521766854897)"^^geosparql:wktLiteral .
 
 georec:1355  a                 btn100:Collado ;
-        rdfs:label             "1355" ;
-        geoes:cota             "623" ;
         dc:created             "2011-02-21"^^xsd:date ;
         dc:identifier          "1355" ;
         dc:replaces            "100" ;
         dc:title               "Collado de Las Amoladeras" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/1355/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/1355/geometry> ;
+        btn100:cota            "623" .
 
 <https://datos.ign.es/recurso/collado/24308/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.504286930000001 39.45645713808905)"^^geosparql:wktLiteral .
 
 georec:37290  a                btn100:Collado ;
-        rdfs:label             "37290" ;
-        geoes:cota             "1701" ;
         dc:created             "2013-06-05"^^xsd:date ;
         dc:identifier          "37290" ;
         dc:title               "Collado de Rumaceo" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/37290/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/collado/37290/geometry> ;
+        btn100:cota            "1701" .
 
