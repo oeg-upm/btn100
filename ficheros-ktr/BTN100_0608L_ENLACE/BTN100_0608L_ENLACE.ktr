@@ -126,7 +126,7 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <filename>${Internal.Transformation.Filename.Directory}/BTN100_0608L_ENLACE.shp</filename>
+    <filename>${Internal.Transformation.Filename.Directory}&#47;BTN100_0608L_ENLACE.shp</filename>
     <isfilenameinfield>N</isfilenameinfield>
     <filenamefield/>
     <limit>0</limit>
@@ -165,7 +165,7 @@
     <fileNameInField>N</fileNameInField>
     <fileNameField/>
     <file>
-      <name>${Internal.Transformation.Filename.Directory}/BTN100_0608L_ENLACE</name>
+      <name>${Internal.Transformation.Filename.Directory}&#47;BTN100_0608L_ENLACE</name>
       <is_command>N</is_command>
       <do_not_open_new_file_init>N</do_not_open_new_file_init>
       <extention>ttl</extention>
@@ -293,15 +293,15 @@ else{
     <fields>
       <field>
         <source_value>01</source_value>
-        <target_value>&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;situacion-de-via&#47;superficial&gt;</target_value>
+        <target_value>&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;situacion-via&#47;superficial&gt;</target_value>
       </field>
       <field>
         <source_value>02</source_value>
-        <target_value>&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;situacion-de-via&#47;subterraneo&gt;</target_value>
+        <target_value>&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;situacion-via&#47;subterranea&gt;</target_value>
       </field>
       <field>
         <source_value>03</source_value>
-        <target_value>&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;situacion-de-via&#47;elevado&gt;</target_value>
+        <target_value>&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;situacion-via&#47;elevada&gt;</target_value>
       </field>
     </fields>
      <cluster_schema/>
@@ -378,15 +378,15 @@ else{
 		</columns>
 		<columns>
 		<column>estadoDeUso</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>ESTADO</column_shp>
 		</columns>
 		<columns>
 		<column>situacionDeVia</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>SITUACION</column_shp>
 		</columns>

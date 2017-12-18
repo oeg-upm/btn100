@@ -315,7 +315,7 @@ else{
       </field>
       <field>
         <source_value>03</source_value>
-        <target_value>&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;hidrografia&#47;categoria-de-rio&#47;rio-terceario&gt;</target_value>
+        <target_value>&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;hidrografia&#47;categoria-de-rio&#47;rio-terciario&gt;</target_value>
       </field>
       <field>
         <source_value>04</source_value>
@@ -372,10 +372,10 @@ else{
            <schema_name/>
            </partitioning>
 		<attributename>ID</attributename>
-		<feature>Rio</feature>
+		<feature>RioLineal</feature>
 		<ontologyns>https://datos.ign.es/def/</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/rio/</resourcens>
+		<resourcens>https://datos.ign.es/recurso/rio-lineal/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -427,15 +427,15 @@ else{
 		</columns>
 		<columns>
 		<column>categoria</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>CATEG_0301</column_shp>
 		</columns>
 		<columns>
 		<column>codigoDeRio</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>COD_RIO</column_shp>
 		</columns>
@@ -455,8 +455,8 @@ else{
 		</columns>
 		<columns>
 		<column>regimen</column>
-		<prefix/>
-		<uri/>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>REGIMEN</column_shp>
 		</columns>

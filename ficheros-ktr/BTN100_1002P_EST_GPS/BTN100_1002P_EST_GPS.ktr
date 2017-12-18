@@ -64,7 +64,7 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-		<attributename>identificador</attributename>
+		<attributename>ID</attributename>
 		<feature>EstacionPermanenteGPS</feature>
 		<ontologyns>https://datos.ign.es/def/</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
@@ -89,9 +89,9 @@
 		</columns>
 		<columns>
 		<column>identifier</column>
-		<prefix/>
-		<uri/>
-		<show>NO</show>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
 		<column_shp>ID</column_shp>
 		</columns>
 		<columns>
@@ -123,30 +123,30 @@
 		<column_shp>FECHA_ALTA</column_shp>
 		</columns>
 		<columns>
-		<column>codigo</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<column>codigoEstacionGPS</column>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>COD_1002</column_shp>
 		</columns>
 		<columns>
 		<column>huso</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>HUSO</column_shp>
 		</columns>
 		<columns>
 		<column>xETRS89</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>X_ETRS89</column_shp>
 		</columns>
 		<columns>
 		<column>yETRS89</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>Y_ETRS89</column_shp>
 		</columns>
@@ -166,15 +166,15 @@
 		</columns>
 		<columns>
 		<column>altitudOrtometrica</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>ALT_ORTOM</column_shp>
 		</columns>
 		<columns>
-		<column>altitudElipsoidal</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<column>alt</column>
+		<prefix>geo</prefix>
+		<uri>http:&#47;&#47;www.w3.org&#47;2003&#47;01&#47;geo&#47;wgs84_pos#</uri>
 		<show>YES</show>
 		<column_shp>ALT_ELIPS</column_shp>
 		</columns>
@@ -187,9 +187,9 @@
 		</columns>
 		<columns>
 		<column>identifier</column>
-		<prefix>dc</prefix>
-		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
-		<show>YES</show>
+		<prefix/>
+		<uri/>
+		<show>NO</show>
 		<column_shp>identificador</column_shp>
 		</columns>
 		</columns>

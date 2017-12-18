@@ -127,8 +127,8 @@
 		</columns>
 		<columns>
 		<column>situacionDeCauce</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>SITUACION</column_shp>
 		</columns>
@@ -228,8 +228,8 @@
 		</columns>
 		<columns>
 		<column>situacionDeCauce</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>SITUACION</column_shp>
 		</columns>
@@ -329,8 +329,8 @@
 		</columns>
 		<columns>
 		<column>situacionDeCauce</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>SITUACION</column_shp>
 		</columns>
@@ -377,11 +377,11 @@
       </field>
       <field>
         <source_value>02</source_value>
-        <target_value>&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;hidrografia&#47;situacion-de-cauce&#47;subterraneo&gt;</target_value>
+        <target_value>&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;hidrografia&#47;situacion-de-cauce&#47;subterranea&gt;</target_value>
       </field>
       <field>
         <source_value>03</source_value>
-        <target_value>&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;hidrografia&#47;situacion-de-cauce&#47;elevado&gt;</target_value>
+        <target_value>&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;hidrografia&#47;situacion-de-cauce&#47;elevada&gt;</target_value>
       </field>
     </fields>
      <cluster_schema/>

@@ -363,22 +363,22 @@ var type=&quot;&lt;http:&#47;&#47;geo.linkeddata.es&#47;ontology&#47;Diseminado&
 		</columns>
 		<columns>
 		<column>codigoINE</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>COD_INE</column_shp>
 		</columns>
 		<columns>
-		<column>poblacion</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<column>population</column>
+		<prefix>geonames</prefix>
+		<uri>http:&#47;&#47;www.geonames.org&#47;ontology#</uri>
 		<show>YES</show>
 		<column_shp>POBLACION</column_shp>
 		</columns>
 		<columns>
 		<column>esCapitalDe</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>CAPITAL</column_shp>
 		</columns>

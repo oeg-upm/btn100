@@ -3,314 +3,956 @@
  @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
  @prefix foaf: <http://xmlns.com/foaf/0.1/> .
  @prefix map4rdf: <http://code.google.com/p/map4rdf/wiki/ontology#> .
+ @prefix btn100: <https://datos.ign.es/def/> .
+ @prefix esadm: <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#> .
 
-_:rdfHidrographyFacet 
+_:rdfPoblacionesYConstruccionesFacet
 	a map4rdf:FacetGroup;
 	map4rdf:facetPredicate rdf:type;
-	rdfs:label "Hidrografía"@en;
-	rdfs:label "Hidrography"@es;
-        map4rdf:facet <http://geo.linkeddata.es/ontology/RioSuperficial>;
-	map4rdf:facet <http://geo.linkeddata.es/ontology/RioLineal>;
-	map4rdf:facet <http://geo.linkeddata.es/ontology/CauceArtificial>;
-	map4rdf:facet <http://geo.linkeddata.es/ontology/Laguna>;
-	map4rdf:facet <http://geo.linkeddata.es/ontology/Embalse>;
-	map4rdf:facet <http://geo.linkeddata.es/ontology/Rambla>;
-	map4rdf:facet <http://geo.linkeddata.es/ontology/Marisma>;
-	map4rdf:facet <http://geo.linkeddata.es/ontology/Salina>;
-	map4rdf:facet <http://geo.linkeddata.es/ontology/Albufera>;
-	map4rdf:facet <http://geo.linkeddata.es/ontology/Ria>;
-	map4rdf:facet <http://geo.linkeddata.es/ontology/IslaMaritima>;
-	map4rdf:facet <http://geo.linkeddata.es/ontology/IslaFluvial>;
-	map4rdf:facet <http://geo.linkeddata.es/ontology/Balsa>;
-	map4rdf:facet <http://geo.linkeddata.es/ontology/Estanque>;
-	map4rdf:facet <http://geo.linkeddata.es/ontology/Esclusa>;
-	map4rdf:facet <http://geo.linkeddata.es/ontology/AccidenteMaritimoPuntual>;
+	map4rdf:facetPredicate rdf:type;
+	rdfs:label "Poblaciones Y Construcciones"@es;
+	rdfs:label "Poblaciones Y Construcciones"@en;
+        map4rdf:facet btn100:PatrimonioDeLaHumanidad ;
+        map4rdf:facet btn100:ZonaMonumental ;
+        map4rdf:facet btn100:ZonaPortuaria ;
+        map4rdf:facet btn100:ExplotacionMinera ;
+        map4rdf:facet btn100:EstacionInvernal ;
+        map4rdf:facet btn100:ZonaRecreativa ;
+        map4rdf:facet btn100:DiseminadoSuperficial ;
+        map4rdf:facet btn100:EdificioSingular ;
+        map4rdf:facet btn100:Cueva ;
+        map4rdf:facet btn100:ZonaAeroportuaria ;
+        map4rdf:facet btn100:NucleoPoblacionalSuperficial ;
+        map4rdf:facet btn100:AreaDeServicio ;
+        map4rdf:facet btn100:Presa ;
+        map4rdf:facet btn100:LugarDeInteres ;
+        map4rdf:facet btn100:Albergue ;
+        map4rdf:facet btn100:Muralla ;
+        map4rdf:facet btn100:Balneario ;
+        map4rdf:facet btn100:DiseminadoPuntual ;
+        map4rdf:facet btn100:ParadorNacional ;
+        map4rdf:facet btn100:ZonaVerde ;
+        map4rdf:facet btn100:Universidad ;
+        map4rdf:facet btn100:SitioHistorico ;
+        map4rdf:facet btn100:ZonaIndustrial ;
+        map4rdf:facet btn100:ZonaDeportiva ;
+        map4rdf:facet btn100:ZonaDeUsoCaracteristico ;
+        map4rdf:facet btn100:Puente ;
+        map4rdf:facet btn100:ConjuntoHistorico ;
+        map4rdf:facet btn100:Gasolinera ;
+        map4rdf:facet btn100:EdificioReligioso ;
+        map4rdf:facet btn100:JardinHistorico ;
+        map4rdf:facet btn100:Castillo ;
+        map4rdf:facet btn100:ZonaArqueologica ;
+        map4rdf:facet btn100:Camping ;
+        map4rdf:facet btn100:ZonaUniversitaria ;
+        map4rdf:facet btn100:Mina ;
+        map4rdf:facet btn100:VistaPanoramica ;
+        map4rdf:facet btn100:ZonaMilitar ;
+        map4rdf:facet btn100:Cantera ;
+        map4rdf:facet btn100:Invernadero ;
+        map4rdf:facet btn100:InstalacionDeportiva ;
+        map4rdf:facet btn100:Hospital ;
+        map4rdf:facet btn100:ZonaFerroviaria ;
+        map4rdf:facet btn100:Cementerio ;
 .
 
-<http://geo.linkeddata.es/ontology/RioSuperficial>
-        rdfs:label "River"@es;
-        rdfs:label "Rio"@en;
+btn100:PatrimonioDeLaHumanidad
+	rdfs:label "Patrimonio De La Humanidad"@es;
+	rdfs:label "Patrimonio De La Humanidad"@en;
 .
 
-
-<http://geo.linkeddata.es/ontology/RioLineal>
-        rdfs:label "River"@es;
-        rdfs:label "Rio"@en;
+btn100:ZonaMonumental
+	rdfs:label "Zona Monumental"@es;
+	rdfs:label "Zona Monumental"@en;
 .
 
-
-<http://geo.linkeddata.es/ontology/CauceArtificial>
-        rdfs:label "CauceArtificial"@es;
-        rdfs:label "CauceArtificial"@en;
+btn100:ZonaPortuaria
+	rdfs:label "Zona Portuaria"@es;
+	rdfs:label "Zona Portuaria"@en;
 .
 
-
-<http://geo.linkeddata.es/ontology/Laguna>
-        rdfs:label "Laguna"@es;
-        rdfs:label "Laguna"@en;
+btn100:ExplotacionMinera
+	rdfs:label "Explotación minera"@es;
+	rdfs:label "Explotación minera"@en;
 .
 
-
-<http://geo.linkeddata.es/ontology/Embalse>
-        rdfs:label "Embalse"@es;
-        rdfs:label "Embalse"@en;
+btn100:EstacionInvernal
+	rdfs:label "Estación Invernal"@es;
+	rdfs:label "Estación Invernal"@en;
 .
 
-<http://geo.linkeddata.es/ontology/Rambla>
-        rdfs:label "Rambla"@es;
-        rdfs:label "Rambla"@en;
-.
-<http://geo.linkeddata.es/ontology/Marisma>
-        rdfs:label "Marisma"@es;
-        rdfs:label "Marisma"@en;
-.
-<http://geo.linkeddata.es/ontology/Albufera>
-        rdfs:label "Albufera"@es;
-        rdfs:label "Albufera"@en;
-.
-<http://geo.linkeddata.es/ontology/Salina>
-        rdfs:label "Salinaa"@es;
-        rdfs:label "Salina"@en;
+btn100:ZonaRecreativa
+	rdfs:label "Zona Recreativa"@es;
+	rdfs:label "Zona Recreativa"@en;
 .
 
-
-<http://geo.linkeddata.es/ontology/Ria>
-        rdfs:label "Ria"@es;
-        rdfs:label "Ria"@en;
+btn100:DiseminadoSuperficial
+	rdfs:label "Diseminado Superficial"@es;
+	rdfs:label "Diseminado Superficial"@en;
 .
 
-
-<http://geo.linkeddata.es/ontology/IslaMaritima>
-        rdfs:label "Isla marítima"@es;
-        rdfs:label "Isla marítima"@en;
+btn100:EdificioSingular
+	rdfs:label "Edificio Singular"@es;
+	rdfs:label "Edificio Singular"@en;
 .
 
-<http://geo.linkeddata.es/ontology/IslaFluvial>
-        rdfs:label "Isla fluvial"@es;
-        rdfs:label "Isla Fluvial"@en;
+btn100:Cueva
+	rdfs:label "Cueva"@es;
+	rdfs:label "Cueva"@en;
 .
 
-
-<http://geo.linkeddata.es/ontology/Balsa>
-        rdfs:label "Balsa"@es;
-        rdfs:label "Balsa"@en;
+btn100:ZonaAeroportuaria
+	rdfs:label "Zona Aeroportuaria"@es;
+	rdfs:label "Zona Aeroportuaria"@en;
 .
 
-<http://geo.linkeddata.es/ontology/Estanque>
-        rdfs:label "Estanque"@es;
-        rdfs:label "Estanque"@en;
+btn100:NucleoPoblacionalSuperficial
+	rdfs:label "Nucleo Poblacional Superficial"@es;
+	rdfs:label "Nucleo Poblacional Superficial"@en;
 .
 
-<http://geo.linkeddata.es/ontology/Esclusa>
-        rdfs:label "Esclusa"@es;
-        rdfs:label "Esclusa"@en;
+btn100:AreaDeServicio
+	rdfs:label "Área De Servicio"@es;
+	rdfs:label "Área De Servicio"@en;
 .
 
-
-<http://geo.linkeddata.es/ontology/AccidenteMaritimoPuntual>
-        rdfs:label "Accidente marítimo puntual"@es;
-        rdfs:label "Accidente marítimo puntual"@en;
+btn100:Presa
+	rdfs:label "Presa"@es;
+	rdfs:label "Presa"@en;
 .
 
-_:rdTransportesFacet 
+btn100:LugarDeInteres
+	rdfs:label "Lugar de interés"@es;
+	rdfs:label "Lugar de interés"@en;
+.
+
+btn100:Albergue
+	rdfs:label "Albergue"@es;
+	rdfs:label "Albergue"@en;
+.
+
+btn100:Muralla
+	rdfs:label "Muralla"@es;
+	rdfs:label "Muralla"@en;
+.
+
+btn100:Balneario
+	rdfs:label "Balneario"@es;
+	rdfs:label "Balneario"@en;
+.
+
+btn100:DiseminadoPuntual
+	rdfs:label "Diseminado Puntual"@es;
+	rdfs:label "Diseminado Puntual"@en;
+.
+
+btn100:ParadorNacional
+	rdfs:label "Parador Nacional"@es;
+	rdfs:label "Parador Nacional"@en;
+.
+
+btn100:ZonaVerde
+	rdfs:label "Zona Verde"@es;
+	rdfs:label "Zona Verde"@en;
+.
+
+btn100:Universidad
+	rdfs:label "Universidad"@es;
+	rdfs:label "Universidad"@en;
+.
+
+btn100:SitioHistorico
+	rdfs:label "Sitio Histórico"@es;
+	rdfs:label "Sitio Histórico"@en;
+.
+
+btn100:ZonaIndustrial
+	rdfs:label "Zona Industrial"@es;
+	rdfs:label "Zona Industrial"@en;
+.
+
+btn100:ZonaDeportiva
+	rdfs:label "Zona Deportiva"@es;
+	rdfs:label "Zona Deportiva"@en;
+.
+
+btn100:ZonaDeUsoCaracteristico
+	rdfs:label "Zona De Uso Característico"@es;
+	rdfs:label "Zona De Uso Característico"@en;
+.
+
+btn100:Puente
+	rdfs:label "Puente"@es;
+	rdfs:label "Puente"@en;
+.
+
+btn100:ConjuntoHistorico
+	rdfs:label "Conjunto Histórico-Artístico"@es;
+	rdfs:label "Conjunto Histórico-Artístico"@en;
+.
+
+btn100:Gasolinera
+	rdfs:label "Gasolinera"@es;
+	rdfs:label "Gasolinera"@en;
+.
+
+btn100:EdificioReligioso
+	rdfs:label "Edificio Religioso"@es;
+	rdfs:label "Edificio Religioso"@en;
+.
+
+btn100:JardinHistorico
+	rdfs:label "Jardín Histórico"@es;
+	rdfs:label "Jardín Histórico"@en;
+.
+
+btn100:Castillo
+	rdfs:label "Castillo"@es;
+	rdfs:label "Castillo"@en;
+.
+
+btn100:ZonaArqueologica
+	rdfs:label "Zona Arqueológica"@es;
+	rdfs:label "Zona Arqueológica"@en;
+.
+
+btn100:Camping
+	rdfs:label "Camping"@es;
+	rdfs:label "Camping"@en;
+.
+
+btn100:ZonaUniversitaria
+	rdfs:label "Zona Universitaria"@es;
+	rdfs:label "Zona Universitaria"@en;
+.
+
+btn100:Mina
+	rdfs:label "Mina"@es;
+	rdfs:label "Mina"@en;
+.
+
+btn100:VistaPanoramica
+	rdfs:label "Vista Panorámica"@es;
+	rdfs:label "Vista Panorámica"@en;
+.
+
+btn100:ZonaMilitar
+	rdfs:label "Zona Militar"@es;
+	rdfs:label "Zona Militar"@en;
+.
+
+btn100:Cantera
+	rdfs:label "Cantera"@es;
+	rdfs:label "Cantera"@en;
+.
+
+btn100:Invernadero
+	rdfs:label "Invernadero"@es;
+	rdfs:label "Invernadero"@en;
+.
+
+btn100:InstalacionDeportiva
+	rdfs:label "Instalación Deportiva"@es;
+	rdfs:label "Instalación Deportiva"@en;
+.
+
+btn100:Hospital
+	rdfs:label "Hospital"@es;
+	rdfs:label "Hospital"@en;
+.
+
+btn100:ZonaFerroviaria
+	rdfs:label "Zona Ferroviaria"@es;
+	rdfs:label "Zona Ferroviaria"@en;
+.
+
+btn100:Cementerio
+	rdfs:label "Cementerio"@es;
+	rdfs:label "Cementerio"@en;
+.
+
+_:rdfTransporteFacet
 	a map4rdf:FacetGroup;
 	map4rdf:facetPredicate rdf:type;
-	rdfs:label "Transports"@en;
-	rdfs:label "Transportes"@es;
-        map4rdf:facet <http://geo.linkeddata.es/ontology/Aeropuerto>;
-        map4rdf:facet <http://geo.linkeddata.es/ontology/Autovia>;
-        map4rdf:facet <http://geo.linkeddata.es/ontology/Autopista>;
-        map4rdf:facet <http://geo.linkeddata.es/ontology/CarreteraNacional>;
-        map4rdf:facet <http://geo.linkeddata.es/ontology/CarreteraAutonomica>;
-        map4rdf:facet <http://geo.linkeddata.es/ontology/Pista>;
-        map4rdf:facet <http://geo.linkeddata.es/ontology/Calle>;
-        map4rdf:facet <http://geo.linkeddata.es/ontology/Itinerario>;
-        map4rdf:facet <http://geo.linkeddata.es/ontology/ItinerarioDeViaVerde>;
-        map4rdf:facet <http://geo.linkeddata.es/ontology/ItinerarioDeCaminoDeSantiago>;
-        map4rdf:facet <http://geo.linkeddata.es/ontology/Enlace>;
-        map4rdf:facet <http://geo.linkeddata.es/ontology/Ferrocarril>;
-        map4rdf:facet <http://geo.linkeddata.es/ontology/FerrocarrilDeAltaVelocidad>;
-        map4rdf:facet <http://geo.linkeddata.es/ontology/FerrocarrilConvencional>;
-        map4rdf:facet <http://geo.linkeddata.es/ontology/EstacionDeFerrocarril>;
-        map4rdf:facet <http://geo.linkeddata.es/ontology/TransporteSuspendido>;
-        map4rdf:facet <http://geo.linkeddata.es/ontology/Puerto>;
-        map4rdf:facet <http://geo.linkeddata.es/ontology/Faro>;
-        map4rdf:facet <http://geo.linkeddata.es/ontology/PistaDeAterrizaje>;
-        map4rdf:facet <http://geo.linkeddata.es/ontology/PasoANivel>;
-.
-<http://geo.linkeddata.es/ontology/Aeropuerto>
-        rdfs:label "Aeropuerto"@es;
-        rdfs:label "Aeropuerto"@en;
-.
-
-<http://geo.linkeddata.es/ontology/Autovia>
-        rdfs:label "Autovía"@es;
-        rdfs:label "Autovía"@en;
-.
-<http://geo.linkeddata.es/ontology/Autopista>
-        rdfs:label "Autopista"@es;
-        rdfs:label "Autopista"@en;
-.
-<http://geo.linkeddata.es/ontology/CarreteraNacional>
-        rdfs:label "Carretera nacional"@es;
-        rdfs:label "Carretera nacional"@en;
+	map4rdf:facetPredicate rdf:type;
+	rdfs:label "Transporte"@es;
+	rdfs:label "Transporte"@en;
+        map4rdf:facet btn100:Autopista ;
+        map4rdf:facet btn100:Enlace ;
+        map4rdf:facet btn100:Puerto ;
+        map4rdf:facet btn100:Helipuerto ;
+        map4rdf:facet btn100:CarreteraAutonomica ;
+        map4rdf:facet btn100:Apeadero ;
+        map4rdf:facet btn100:EstacionDeSuministro ;
+        map4rdf:facet btn100:Telesilla ;
+        map4rdf:facet btn100:Pista ;
+        map4rdf:facet btn100:PistaDeAterrizaje ;
+        map4rdf:facet btn100:Telesqui ;
+        map4rdf:facet btn100:Aeropuerto ;
+		map4rdf:facet btn100:Aerodromo ;
+        map4rdf:facet btn100:Faro ;
+        map4rdf:facet btn100:PasoANivel ;
+        map4rdf:facet btn100:FerrocarrilDeAltaVelocidad ;
+        map4rdf:facet btn100:FerrocarrilConvencional ;
+        map4rdf:facet btn100:Calle ;
+        map4rdf:facet btn100:Teleferico ;
+        map4rdf:facet btn100:Cargadero ;
+        map4rdf:facet btn100:ItinerarioDeViaVerde ;
+        map4rdf:facet btn100:Apartadero ;
+        map4rdf:facet btn100:EstacionDeFerrocarril ;
+        map4rdf:facet btn100:InstalacionFerroviaria ;
+        map4rdf:facet btn100:ItinerarioDeCaminoDeSantiago ;
+        map4rdf:facet btn100:CarreteraNacional ;
 .
 
-<http://geo.linkeddata.es/ontology/CarreteraAutonomica>
-        rdfs:label "Carretera autonómica"@es;
-        rdfs:label "Carretera autonómica"@en;
+btn100:Autopista
+	rdfs:label "Autopista"@es;
+	rdfs:label "Autopista"@en;
 .
 
-<http://geo.linkeddata.es/ontology/Pista>
-        rdfs:label "Pista"@es;
-        rdfs:label "Pista"@en;
+btn100:Enlace
+	rdfs:label "Enlace"@es;
+	rdfs:label "Enlace"@en;
 .
-<http://geo.linkeddata.es/ontology/Calle>
-        rdfs:label "Calle"@es;
-        rdfs:label "Calle"@en;
+
+btn100:Puerto
+	rdfs:label "Puerto"@es;
+	rdfs:label "Puerto"@en;
 .
-<http://geo.linkeddata.es/ontology/Enlace>
-        rdfs:label "Enlace"@es;
-        rdfs:label "Enlace"@en;
+
+btn100:Helipuerto
+	rdfs:label "Helipuerto"@es;
+	rdfs:label "Helipuerto"@en;
 .
-_:rdfConduccionFacet 
+
+btn100:CarreteraAutonomica
+	rdfs:label "Carretera Autonómica"@es;
+	rdfs:label "Carretera Autonómica"@en;
+.
+
+btn100:Apeadero
+	rdfs:label "Apeadero"@es;
+	rdfs:label "Apeadero"@en;
+.
+
+btn100:EstacionDeSuministro
+	rdfs:label "Estación De Suministro"@es;
+	rdfs:label "Estación De Suministro"@en;
+.
+
+btn100:Telesilla
+	rdfs:label "Telesilla"@es;
+	rdfs:label "Telesilla"@en;
+.
+
+btn100:Pista
+	rdfs:label "Pista"@es;
+	rdfs:label "Pista"@en;
+.
+
+btn100:PistaDeAterrizaje
+	rdfs:label "Pista de aterrizaje"@es;
+	rdfs:label "Pista de aterrizaje"@en;
+.
+
+btn100:Telesqui
+	rdfs:label "Telesquí"@es;
+	rdfs:label "Telesquí"@en;
+.
+
+btn100:Aeropuerto
+	rdfs:label "Aeropuerto"@es;
+	rdfs:label "Aeropuerto"@en;
+.
+
+btn100:Aerodromo
+	rdfs:label "Aerodromo"@es;
+	rdfs:label "Aerodromo"@en;
+.
+
+btn100:Faro
+	rdfs:label "Faro"@es;
+	rdfs:label "Faro"@en;
+.
+
+btn100:PasoANivel
+	rdfs:label "Paso a Nivel"@es;
+	rdfs:label "Paso a Nivel"@en;
+.
+
+btn100:FerrocarrilDeAltaVelocidad
+	rdfs:label "Ferrocarril de Alta Velocidad"@es;
+	rdfs:label "Ferrocarril de Alta Velocidad"@en;
+.
+
+btn100:FerrocarrilConvencional
+	rdfs:label "Ferrocarril Convencional"@es;
+	rdfs:label "Ferrocarril Convencional"@en;
+.
+
+btn100:Calle
+	rdfs:label "Calle"@es;
+	rdfs:label "Calle"@en;
+.
+
+btn100:Teleferico
+	rdfs:label "Teleférico"@es;
+	rdfs:label "Teleférico"@en;
+.
+
+btn100:Cargadero
+	rdfs:label "Cargadero"@es;
+	rdfs:label "Cargadero"@en;
+.
+
+btn100:ItinerarioDeViaVerde
+	rdfs:label "Itinerario De Vía Verde"@es;
+	rdfs:label "Itinerario De Vía Verde"@en;
+.
+
+btn100:Apartadero
+	rdfs:label "Apartadero"@es;
+	rdfs:label "Apartadero"@en;
+.
+
+btn100:EstacionDeFerrocarril
+	rdfs:label "Estación de Ferrocarril"@es;
+	rdfs:label "Estación de Ferrocarril"@en;
+.
+
+btn100:InstalacionFerroviaria
+	rdfs:label "Instalación Ferroviaria"@es;
+	rdfs:label "Instalación Ferroviaria"@en;
+.
+
+btn100:ItinerarioDeCaminoDeSantiago
+	rdfs:label "Itinerario Del Camino De Santiago"@es;
+	rdfs:label "Itinerario Del Camino De Santiago"@en;
+.
+
+btn100:CarreteraNacional
+	rdfs:label "Carretera Nacional"@es;
+	rdfs:label "Carretera Nacional"@en;
+.
+
+_:rdfVerticesGeodesicosFacet
 	a map4rdf:FacetGroup;
 	map4rdf:facetPredicate rdf:type;
-	rdfs:label "spply net"@en;
-	rdfs:label "Conduccion y energía"@es;
-        map4rdf:facet <http://geo.linkeddata.es/ontology/ConduccionDeCombustible>;
-        map4rdf:facet <http://geo.linkeddata.es/ontology/LineaElectrica>;
-        map4rdf:facet <http://geo.linkeddata.es/ontology/CentralElectrica>;
-        map4rdf:facet <http://geo.linkeddata.es/ontology/SubestacionElectrica>;
-        map4rdf:facet <http://geo.linkeddata.es/ontology/EstacionDeTelecomunicaciones>;
-        map4rdf:facet <http://geo.linkeddata.es/ontology/DepositoDeCombustible>;
-        map4rdf:facet <http://geo.linkeddata.es/ontology/Deposito>;
-        map4rdf:facet <http://geo.linkeddata.es/ontology/EstacionDepuradora>;
+	map4rdf:facetPredicate rdf:type;
+	rdfs:label "Vertices Geodesicos"@es;
+	rdfs:label "Vertices Geodesicos"@en;
+        map4rdf:facet btn100:VerticeGeodesicoRegcan95 ;
+        map4rdf:facet btn100:VerticeGeodesicoDeOrdenInferior ;
+        map4rdf:facet btn100:EstacionPermanenteGPS ;
 .
 
+btn100:VerticeGeodesicoRegcan95
+	rdfs:label "Vértice Geodésico REGCAN 95"@es;
+	rdfs:label "Vértice Geodésico REGCAN 95"@en;
+.
 
+btn100:VerticeGeodesicoDeOrdenInferior
+	rdfs:label "Vértice Geodésico Orden Inferior"@es;
+	rdfs:label "Vértice Geodésico Orden Inferior"@en;
+.
 
+btn100:EstacionPermanenteGPS
+	rdfs:label "Estación Permanente GPS"@es;
+	rdfs:label "Estación Permanente GPS"@en;
+.
 
-_:rdfPuntosDeControlFacet 
+_:rdfAltimetriaFacet
 	a map4rdf:FacetGroup;
 	map4rdf:facetPredicate rdf:type;
-	rdfs:label "Puntos de control"@en;
-	rdfs:label "Puntos de control"@es;
-        map4rdf:facet <http://geo.linkeddata.es/ontology/VerticeGeodesicoRegente>;
-        map4rdf:facet <http://geo.linkeddata.es/ontology/VerticeGeodesicoRegcan95>;
-        map4rdf:facet <http://geo.linkeddata.es/ontology/EstacionPermanenteGPS>;
+	map4rdf:facetPredicate rdf:type;
+	rdfs:label "Altimetria"@es;
+	rdfs:label "Altimetria"@en;
+        map4rdf:facet btn100:EntidadVirtualParaje ;
+        map4rdf:facet btn100:Collado ;
+        map4rdf:facet btn100:EntidadVirtualComarcaRegion ;
+        map4rdf:facet btn100:CurvaNivelAltimetrica ;
+        map4rdf:facet btn100:EntidadVirtualMontana ;
+        map4rdf:facet btn100:CotaMunicipal ;
+        map4rdf:facet btn100:EntidadVirtualCordillera ;
+        map4rdf:facet btn100:Pico ;
+        map4rdf:facet btn100:EntidadVirtualSierra ;
+        map4rdf:facet btn100:Cerro ;
+        map4rdf:facet btn100:PuertoDeMontana ;
+        map4rdf:facet btn100:EntidadVirtualAccidenteOrografico ;
+        map4rdf:facet btn100:CurvaNivelBatimetrica ;
 .
 
-
-<http://geo.linkeddata.es/ontology/EstacionPermanenteGPS>
-        rdfs:label "Estación gps"@es;
-        rdfs:label "Estación gps"@en;
+btn100:EntidadVirtualParaje
+	rdfs:label "Paraje"@es;
+	rdfs:label "Paraje"@en;
 .
 
-<http://geo.linkeddata.es/ontology/VerticeGeodesicoRegente>
-        rdfs:label "Vertice Geodesico regente"@es;
-        rdfs:label "Vertice Geodesico regente"@en;
+btn100:Collado
+	rdfs:label "Collado"@es;
+	rdfs:label "Collado"@en;
 .
 
-
-<http://geo.linkeddata.es/ontology/VerticeGeodesicoRegcan95>
-        rdfs:label "Vertice Geodesico regcan95"@es;
-        rdfs:label "Vertice Geodesico regcan95"@en;
+btn100:EntidadVirtualComarcaRegion
+	rdfs:label "Comarca/Región"@es;
+	rdfs:label "Comarca/Región"@en;
 .
 
+btn100:CurvaNivelAltimetrica
+	rdfs:label "Curva de nivel batimétrica"@es;
+	rdfs:label "Curva de nivel batimétrica"@en;
+.
 
+btn100:EntidadVirtualMontana
+	rdfs:label "Montaña"@es;
+	rdfs:label "Montaña"@en;
+.
 
-_:rdfPoblacionesFacet 
+btn100:CotaMunicipal
+	rdfs:label "Cota Municipal"@es;
+	rdfs:label "Cota Municipal"@en;
+.
+
+btn100:EntidadVirtualCordillera
+	rdfs:label "Cordillera"@es;
+	rdfs:label "Cordillera"@en;
+.
+
+btn100:Pico
+	rdfs:label "Pico"@es;
+	rdfs:label "Pico"@en;
+.
+
+btn100:EntidadVirtualSierra
+	rdfs:label "Sierra"@es;
+	rdfs:label "Sierra"@en;
+.
+
+btn100:Cerro
+	rdfs:label "Cerro"@es;
+	rdfs:label "Cerro"@en;
+.
+
+btn100:PuertoDeMontana
+	rdfs:label "Puerto de Montaña"@es;
+	rdfs:label "Puerto de Montaña"@en;
+.
+
+btn100:EntidadVirtualAccidenteOrografico
+	rdfs:label "Accidente orográfico no definido"@es;
+	rdfs:label "Accidente orográfico no definido"@en;
+.
+
+btn100:CurvaNivelBatimetrica
+	rdfs:label "Curva de nivel batimétrica"@es;
+	rdfs:label "Curva de nivel batimétrica"@en;
+.
+
+_:rdfUnidadesAdministrativasFacet
 	a map4rdf:FacetGroup;
 	map4rdf:facetPredicate rdf:type;
-	rdfs:label "Poblaciones y construcciones"@en;
-	rdfs:label "Poblaciones y construcciones"@es;
-        map4rdf:facet <http://geo.linkeddata.es/ontology/NucleoPoblacionalSuperficial>;
-        map4rdf:facet <http://geo.linkeddata.es/ontology/NucleoPoblacionalPuntual>;
+	map4rdf:facetPredicate rdf:type;
+	rdfs:label "Unidades Administrativas"@es;
+	rdfs:label "Unidades Administrativas"@en;
+        map4rdf:facet esadm:Municipio ;
+        map4rdf:facet btn100:ParqueNacional ;
+        map4rdf:facet btn100:ComunidadJurisdiccional ;
+        map4rdf:facet btn100:ZonaEspecialProteccionAves ;
+        map4rdf:facet btn100:LugarImportanciaComunitaria ;
+        map4rdf:facet btn100:ZonaProtegida ;
+        map4rdf:facet esadm:Provincia ;
+        map4rdf:facet btn100:ParqueNatural ;
+        map4rdf:facet esadm:CiudadAutonoma ;
+        map4rdf:facet esadm:Pais ;
 .
 
-<http://geo.linkeddata.es/ontology/NucleoPoblacionalSuperficial>
-        rdfs:label "Nucleo Poblacional Superficial"@es;
-        rdfs:label "Nucleo Poblacional Superficial"@en;
+esadm:Municipio
+	rdfs:label "Municipio"@es;
+	rdfs:label "Municipio"@en;
 .
 
-<http://geo.linkeddata.es/ontology/NucleoPoblacionalPuntual>
-        rdfs:label "Nucleo Poblacional Puntual"@es;
-        rdfs:label "Nucleo Poblacional Puntual"@en;
+btn100:ParqueNacional
+	rdfs:label "Parque Nacional"@es;
+	rdfs:label "Parque Nacional"@en;
 .
 
+btn100:ComunidadJurisdiccional
+	rdfs:label "Comunidad Jurisdiccional"@es;
+	rdfs:label "Comunidad Jurisdiccional"@en;
+.
 
-_:rdfRelieveFacet 
+btn100:ZonaEspecialProteccionAves
+	rdfs:label "Zona especial de protección de aves"@es;
+	rdfs:label "Zona especial de protección de aves"@en;
+.
+
+btn100:LugarImportanciaComunitaria
+	rdfs:label "Lugar de importancia comunitaria"@es;
+	rdfs:label "Lugar de importancia comunitaria"@en;
+.
+
+btn100:ZonaProtegida
+	rdfs:label "Zona Protegida"@es;
+	rdfs:label "Zona Protegida"@en;
+.
+
+esadm:Provincia
+	rdfs:label "Provincia"@es;
+	rdfs:label "Provincia"@en;
+.
+
+btn100:ParqueNatural
+	rdfs:label "Parque Natural"@es;
+	rdfs:label "Parque Natural"@en;
+.
+
+esadm:CiudadAutonoma
+	rdfs:label "Ciudad Autónoma"@es;
+	rdfs:label "Ciudad Autónoma"@en;
+.
+
+esadm:Pais
+	rdfs:label "Nación"@es;
+	rdfs:label "Nación"@en;
+.
+
+_:rdfEnergiaYConduccionesFacet
 	a map4rdf:FacetGroup;
 	map4rdf:facetPredicate rdf:type;
-	rdfs:label "Relieve"@en;
-	rdfs:label "Relieve"@es;
-        map4rdf:facet <http://geo.linkeddata.es/ontology/PuntoAcotado>;
-        map4rdf:facet <http://geo.linkeddata.es/ontology/CurvaDeNivel>;
+	map4rdf:facetPredicate rdf:type;
+	rdfs:label "Energia Y Conducciones"@es;
+	rdfs:label "Energia Y Conducciones"@en;
+        map4rdf:facet btn100:EstacionTelefonica ;
+        map4rdf:facet btn100:CentralSolar ;
+        map4rdf:facet btn100:SubestacionElectrica ;
+        map4rdf:facet btn100:DepositoDeCombustible ;
+        map4rdf:facet btn100:LineaElectricaDeBajaTension ;
+        map4rdf:facet btn100:DepositoDeAgua ;
+        map4rdf:facet btn100:EstacionTelecomunicaciones ;
+        map4rdf:facet btn100:LineaElectricaDeAltaTension ;
+        map4rdf:facet btn100:CentralEolica ;
+        map4rdf:facet btn100:EstacionDeRadio ;
+        map4rdf:facet btn100:CentralTermica ;
+        map4rdf:facet btn100:EstacionDeTelevision ;
+        map4rdf:facet btn100:CentralElectrica ;
+        map4rdf:facet btn100:EstacionDepuradora ;
+        map4rdf:facet btn100:Gaseoducto ;
+        map4rdf:facet btn100:CentralHidraulica ;
+        map4rdf:facet btn100:CentralNuclear ;
+        map4rdf:facet btn100:Oleoducto ;
+        map4rdf:facet btn100:CentralCicloCombinado ;
 .
 
-
-<http://geo.linkeddata.es/ontology/PuntoAcotado>
-        rdfs:label "Punto Acotado"@es;
-        rdfs:label "Punto Acotado"@en;
+btn100:EstacionTelefonica
+	rdfs:label "Estación Telefónica"@es;
+	rdfs:label "Estación Telefónica"@en;
 .
 
-
-
-<http://geo.linkeddata.es/ontology/CurvaDeNivel>
-        rdfs:label "Curva De Nivel"@es;
-        rdfs:label "Curva De Nivel"@en;
+btn100:CentralSolar
+	rdfs:label "Central Solar"@es;
+	rdfs:label "Central Solar"@en;
 .
 
+btn100:SubestacionElectrica
+	rdfs:label "Subestacion Eléctrica"@es;
+	rdfs:label "Subestacion Eléctrica"@en;
+.
 
+btn100:DepositoDeCombustible
+	rdfs:label "Depósito de Combustible"@es;
+	rdfs:label "Depósito de Combustible"@en;
+.
 
+btn100:LineaElectricaDeBajaTension
+	rdfs:label "Linea Eléctrica De Baja Tensión"@es;
+	rdfs:label "Linea Eléctrica De Baja Tensión"@en;
+.
 
+btn100:DepositoDeAgua
+	rdfs:label "Depósito de Agua"@es;
+	rdfs:label "Depósito de Agua"@en;
+.
 
-_:rdfAdministracionFacet 
+btn100:EstacionTelecomunicaciones
+	rdfs:label "Estación De Telecomunicaciones"@es;
+	rdfs:label "Estación De Telecomunicaciones"@en;
+.
+
+btn100:LineaElectricaDeAltaTension
+	rdfs:label "Linea Eléctrica De Alta Tensión"@es;
+	rdfs:label "Linea Eléctrica De Alta Tensión"@en;
+.
+
+btn100:CentralEolica
+	rdfs:label "Central Eólica"@es;
+	rdfs:label "Central Eólica"@en;
+.
+
+btn100:EstacionDeRadio
+	rdfs:label "Estación de radio"@es;
+	rdfs:label "Estación de radio"@en;
+.
+
+btn100:CentralTermica
+	rdfs:label "Central Térmica"@es;
+	rdfs:label "Central Térmica"@en;
+.
+
+btn100:EstacionDeTelevision
+	rdfs:label "Estación de televisión"@es;
+	rdfs:label "Estación de televisión"@en;
+.
+
+btn100:CentralElectrica
+	rdfs:label "Central eléctrica"@es;
+	rdfs:label "Central eléctrica"@en;
+.
+
+btn100:EstacionDepuradora
+	rdfs:label "Estación Depuradora"@es;
+	rdfs:label "Estación Depuradora"@en;
+.
+
+btn100:Gaseoducto
+	rdfs:label "Gaseoducto"@es;
+	rdfs:label "Gaseoducto"@en;
+.
+
+btn100:CentralHidraulica
+	rdfs:label "Central Hidráulica"@es;
+	rdfs:label "Central Hidráulica"@en;
+.
+
+btn100:CentralNuclear
+	rdfs:label "Central Nuclear"@es;
+	rdfs:label "Central Nuclear"@en;
+.
+
+btn100:Oleoducto
+	rdfs:label "Oleoducto"@es;
+	rdfs:label "Oleoducto"@en;
+.
+
+btn100:CentralCicloCombinado
+	rdfs:label "Central Ciclo Combinado"@es;
+	rdfs:label "Central Ciclo Combinado"@en;
+.
+
+_:rdfHidrografiaFacet
 	a map4rdf:FacetGroup;
 	map4rdf:facetPredicate rdf:type;
-	rdfs:label "Unidades administrativas"@en;
-	rdfs:label "Unidades administrativas"@es;
-        map4rdf:facet <http://geo.linkeddata.es/ontology/Nacion>;
-        map4rdf:facet <http://geo.linkeddata.es/ontology/ComunidadAutonoma>;
-        map4rdf:facet <http://geo.linkeddata.es/ontology/CiudadAutonoma>;
-        map4rdf:facet <http://geo.linkeddata.es/ontology/Provincia>;
-        map4rdf:facet <http://geo.linkeddata.es/ontology/Municipio>;
-        map4rdf:facet <http://geo.linkeddata.es/ontology/ComunidadJurisdiccional>;
+	map4rdf:facetPredicate rdf:type;
+	rdfs:label "Hidrografia"@es;
+	rdfs:label "Hidrografia"@en;
+        map4rdf:facet btn100:Canyo ;
+        map4rdf:facet btn100:AccidenteMaritimoPuntual ;
+        map4rdf:facet btn100:Penon ;
+        map4rdf:facet btn100:Esclusa ;
+        map4rdf:facet btn100:EntidadVirtualAccidenteMaritimoBahia ;
+        map4rdf:facet btn100:Punta ;
+        map4rdf:facet btn100:Rambla ;
+        map4rdf:facet btn100:Ria ;
+        map4rdf:facet btn100:CanalTrasvase ;
+        map4rdf:facet btn100:RioSuperficial ;
+		map4rdf:facet btn100:RioLineal ;
+        map4rdf:facet btn100:EntidadVirtualAccidenteMaritimoDelta ;
+        map4rdf:facet btn100:Albufera ;
+        map4rdf:facet btn100:Estanque ;
+        map4rdf:facet btn100:EntidadVirtualOceano ;
+        map4rdf:facet btn100:Humedal ;
+        map4rdf:facet btn100:EntidadVirtualAccidenteMaritimoEnsenada ;
+        map4rdf:facet btn100:Embalse ;
+        map4rdf:facet btn100:IslaFluvial ;
+        map4rdf:facet btn100:Playa ;
+        map4rdf:facet btn100:Marisma ;
+        map4rdf:facet btn100:CanalMenor ;
+        map4rdf:facet btn100:Cabo ;
+        map4rdf:facet btn100:EntidadVirtualAccidenteMaritimoEstrecho ;
+        map4rdf:facet btn100:CanalMayor ;
+        map4rdf:facet btn100:Balsa ;
+        map4rdf:facet btn100:EntidadVirtualAccidenteMaritimo ;
+        map4rdf:facet btn100:EntidadVirtualAccidenteMaritimoGolfo ;
+        map4rdf:facet btn100:IslaMaritima ;
+        map4rdf:facet btn100:EntidadVirtualAccidenteMaritimoRada ;
+        map4rdf:facet btn100:EntidadVirtualAccidenteMaritimoCosta ;
+        map4rdf:facet btn100:Cala ;
+        map4rdf:facet btn100:EntidadVirtualMar ;
+        map4rdf:facet btn100:Laguna ;
+        map4rdf:facet btn100:Salina ;
 .
 
-
-<http://geo.linkeddata.es/ontology/Nacion>
-        rdfs:label "Nación"@es;
-        rdfs:label "Nación"@en;
+btn100:Canyo
+	rdfs:label "Caño"@es;
+	rdfs:label "Caño"@en;
 .
 
-
-<http://geo.linkeddata.es/ontology/ComunidadAutonoma>
-        rdfs:label "Comunidad autónoma"@es;
-        rdfs:label "Comunidad autónoma"@en;
+btn100:AccidenteMaritimoPuntual
+	rdfs:label "Accidente marítimo puntual"@es;
+	rdfs:label "Accidente marítimo puntual"@en;
 .
 
-
-<http://geo.linkeddata.es/ontology/CiudadAutonoma>
-        rdfs:label "Ciudad Autónoma"@es;
-        rdfs:label "Ciudad Autónoma"@en;
+btn100:Penon
+	rdfs:label "Peñon"@es;
+	rdfs:label "Peñon"@en;
 .
 
-
-<http://geo.linkeddata.es/ontology/Provincia>
-        rdfs:label "Provincia"@es;
-        rdfs:label "Provincia"@en;
+btn100:Esclusa
+	rdfs:label "Esclusa"@es;
+	rdfs:label "Esclusa"@en;
 .
 
-
-<http://geo.linkeddata.es/ontology/Municipio>
-        rdfs:label "Municipio"@es;
-        rdfs:label "Municipio"@en;
+btn100:EntidadVirtualAccidenteMaritimoBahia
+	rdfs:label "Bahía"@es;
+	rdfs:label "Bahía"@en;
 .
 
-<http://geo.linkeddata.es/ontology/ComunidadJurisdiccional>
-        rdfs:label "Comunidad Jurisdiccional"@es;
-        rdfs:label "Comunidad Jurisdiccional"@en;
+btn100:Punta
+	rdfs:label "Punta"@es;
+	rdfs:label "Punta"@en;
+.
+
+btn100:Rambla
+	rdfs:label "Rambla"@es;
+	rdfs:label "Rambla"@en;
+.
+
+btn100:Ria
+	rdfs:label "Ría"@es;
+	rdfs:label "Ría"@en;
+.
+
+btn100:CanalTrasvase
+	rdfs:label "Canal Trasvase"@es;
+	rdfs:label "Canal Trasvase"@en;
+.
+
+btn100:RioSuperficial
+	rdfs:label "Río Superficial"@es;
+	rdfs:label "Río Superficial"@en;
+.
+
+btn100:RioLineal
+	rdfs:label "Río lineal"@es;
+	rdfs:label "Río lineal"@en;
+.
+
+btn100:EntidadVirtualAccidenteMaritimoDelta
+	rdfs:label "Delta"@es;
+	rdfs:label "Delta"@en;
+.
+
+btn100:Albufera
+	rdfs:label "Albufera"@es;
+	rdfs:label "Albufera"@en;
+.
+
+btn100:Estanque
+	rdfs:label "Estanque"@es;
+	rdfs:label "Estanque"@en;
+.
+
+btn100:EntidadVirtualOceano
+	rdfs:label "Océano"@es;
+	rdfs:label "Océano"@en;
+.
+
+btn100:Humedal
+	rdfs:label "Humedal"@es;
+	rdfs:label "Humedal"@en;
+.
+
+btn100:EntidadVirtualAccidenteMaritimoEnsenada
+	rdfs:label "Ensenada"@es;
+	rdfs:label "Ensenada"@en;
+.
+
+btn100:Embalse
+	rdfs:label "Embalse"@es;
+	rdfs:label "Embalse"@en;
+.
+
+btn100:IslaFluvial
+	rdfs:label "Isla Fluvial"@es;
+	rdfs:label "Isla Fluvial"@en;
+.
+
+btn100:Playa
+	rdfs:label "Playa"@es;
+	rdfs:label "Playa"@en;
+.
+
+btn100:Marisma
+	rdfs:label "Marisma"@es;
+	rdfs:label "Marisma"@en;
+.
+
+btn100:CanalMenor
+	rdfs:label "Canal Menor"@es;
+	rdfs:label "Canal Menor"@en;
+.
+
+btn100:Cabo
+	rdfs:label "Cabo"@es;
+	rdfs:label "Cabo"@en;
+.
+
+btn100:EntidadVirtualAccidenteMaritimoEstrecho
+	rdfs:label "Estrecho"@es;
+	rdfs:label "Estrecho"@en;
+.
+
+btn100:CanalMayor
+	rdfs:label "Canal Mayor"@es;
+	rdfs:label "Canal Mayor"@en;
+.
+
+btn100:Balsa
+	rdfs:label "Balsa"@es;
+	rdfs:label "Balsa"@en;
+.
+
+btn100:EntidadVirtualAccidenteMaritimo
+	rdfs:label "Entidad virtual accidente marítimo"@es;
+	rdfs:label "Entidad virtual accidente marítimo"@en;
+.
+
+btn100:EntidadVirtualAccidenteMaritimoGolfo
+	rdfs:label "Golfo"@es;
+	rdfs:label "Golfo"@en;
+.
+
+btn100:IslaMaritima
+	rdfs:label "Isla Marítima"@es;
+	rdfs:label "Isla Marítima"@en;
+.
+
+btn100:EntidadVirtualAccidenteMaritimoRada
+	rdfs:label "Rada"@es;
+	rdfs:label "Rada"@en;
+.
+
+btn100:EntidadVirtualAccidenteMaritimoCosta
+	rdfs:label "Costa"@es;
+	rdfs:label "Costa"@en;
+.
+
+btn100:Cala
+	rdfs:label "Cala"@es;
+	rdfs:label "Cala"@en;
+.
+
+btn100:EntidadVirtualMar
+	rdfs:label "Mar"@es;
+	rdfs:label "Mar"@en;
+.
+
+btn100:Laguna
+	rdfs:label "Laguna"@es;
+	rdfs:label "Laguna"@en;
+.
+
+btn100:Salina
+	rdfs:label "Salina"@es;
+	rdfs:label "Salina"@en;
 .
 

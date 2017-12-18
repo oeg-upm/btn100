@@ -231,13 +231,13 @@ else{
 
 &#47;&#47;SITUACION
 if(SITUACION == &quot;01&quot;){
-	SITUACION = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;situacion-de-via&#47;superficial&gt;&quot;;
+	SITUACION = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;situacion-via&#47;superficial&gt;&quot;;
 }
 else if(SITUACION == &quot;02&quot;){
-	SITUACION = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;situacion-de-via&#47;subterraneo&gt;&quot;;
+	SITUACION = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;situacion-via&#47;subterranea&gt;&quot;;
 }
 else if (SITUACION == &quot;03&quot;){
-	SITUACION = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;situacion-de-via&#47;elevado&gt;&quot;;
+	SITUACION = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;situacion-via&#47;elevada&gt;&quot;;
 }
 else {
 	SITUACION = &quot;&quot;;
@@ -314,7 +314,7 @@ else if(TRAFICO == &quot;02&quot;){
 	TRAFICO = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;tipo-de-trafico&#47;viajeros&gt;&quot;
 }
 else if(TRAFICO == &quot;03&quot;){
-	TRAFICO = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;tipo-de-trafico&#47;mercancías&gt;&quot;
+	TRAFICO = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;tipo-de-trafico&#47;mercancias&gt;&quot;
 }
 else{
 	TRAFICO = &quot;&quot;
@@ -394,10 +394,10 @@ var type = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;ontology&#47;Ferrocarril&g
            <schema_name/>
            </partitioning>
 		<attributename>ID</attributename>
-		<feature>ViaDeFerrocarrilConvencional</feature>
+		<feature>FerrocarrilConvencional</feature>
 		<ontologyns>https://datos.ign.es/def/</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/via-ferrocarril-convencional/</resourcens>
+		<resourcens>https://datos.ign.es/recurso/ferrocarril-convencional/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -449,57 +449,57 @@ var type = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;ontology&#47;Ferrocarril&g
 		</columns>
 		<columns>
 		<column>anchoDeVia</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>ANCHO_VIA</column_shp>
 		</columns>
 		<columns>
 		<column>codigoDeVia</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>COD_VIA</column_shp>
 		</columns>
 		<columns>
 		<column>electrificacion</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>ELECTRIFIC</column_shp>
 		</columns>
 		<columns>
 		<column>estadoDeUso</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>ESTADO</column_shp>
 		</columns>
 		<columns>
 		<column>numeroDeVias</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>NUM_VIAS</column_shp>
 		</columns>
 		<columns>
 		<column>situacionDevia</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>SITUACION</column_shp>
 		</columns>
 		<columns>
-		<column>rutaTent</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<column>rutaTEN-T</column>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>TEN_T</column_shp>
 		</columns>
 		<columns>
 		<column>tipoDeTrafico</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>TRAFICO</column_shp>
 		</columns>

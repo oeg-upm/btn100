@@ -65,10 +65,10 @@
            <schema_name/>
            </partitioning>
 		<attributename>ID</attributename>
-		<feature>Morfologia</feature>
+		<feature>AccidenteMaritimoPuntual</feature>
 		<ontologyns>https://datos.ign.es/def/</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/morfologia/</resourcens>
+		<resourcens>https://datos.ign.es/recurso/accidente-maritimo-puntual/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -126,9 +126,9 @@
 		<column_shp>TIPO_0310</column_shp>
 		</columns>
 		<columns>
-		<column>producto</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<column>productoFuente</column>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>PRODUCTO</column_shp>
 		</columns>
@@ -220,9 +220,9 @@
 		<column_shp>TIPO_0310</column_shp>
 		</columns>
 		<columns>
-		<column>producto</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<column>productoFuente</column>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>PRODUCTO</column_shp>
 		</columns>
@@ -314,9 +314,9 @@
 		<column_shp>TIPO_0310</column_shp>
 		</columns>
 		<columns>
-		<column>producto</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<column>productoFuente</column>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>PRODUCTO</column_shp>
 		</columns>
@@ -408,9 +408,9 @@
 		<column_shp>TIPO_0310</column_shp>
 		</columns>
 		<columns>
-		<column>producto</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<column>productoFuente</column>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>PRODUCTO</column_shp>
 		</columns>
@@ -502,9 +502,9 @@
 		<column_shp>TIPO_0310</column_shp>
 		</columns>
 		<columns>
-		<column>producto</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<column>productoFuente</column>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>PRODUCTO</column_shp>
 		</columns>
@@ -596,9 +596,9 @@
 		<column_shp>TIPO_0310</column_shp>
 		</columns>
 		<columns>
-		<column>producto</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<column>productoFuente</column>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>PRODUCTO</column_shp>
 		</columns>
@@ -831,13 +831,13 @@ else{
 
 &#47;&#47;here we match the product type
 if(PRODUCTO == &quot;01&quot;){
-	PRODUCTO = &quot;MP200&quot;
+	PRODUCTO = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;accidente-orografico&#47;producto-fuente&#47;mp&gt;&quot;
 }
 else if (PRODUCTO == &quot;02&quot;){
-	PRODUCTO = &quot;SERIES C&quot;
+	PRODUCTO = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;accidente-orografico&#47;producto-fuente&#47;serie-c&gt;&quot;
 }
 else {
-	PRODUCTO = &quot;MP200 y SERIE C&quot;
+	PRODUCTO = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;accidente-orografico&#47;producto-fuente&#47;mp-serie-c&gt;&quot;
 }
 </jsScript_script>
       </jsScript>    </jsScripts>    <fields>      <field>        <name>FECHA_ALTA</name>

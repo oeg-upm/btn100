@@ -294,7 +294,7 @@ identificador =  ID
            <method>none</method>
            <schema_name/>
            </partitioning>
-		<attributename>identificador</attributename>
+		<attributename>ID</attributename>
 		<feature>VerticeGeodesicoRegcan95</feature>
 		<ontologyns>https://datos.ign.es/def/</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
@@ -357,29 +357,29 @@ identificador =  ID
 		</columns>
 		<columns>
 		<column>numero</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>NUMERO</column_shp>
 		</columns>
 		<columns>
 		<column>huso</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>HUSO</column_shp>
 		</columns>
 		<columns>
 		<column>xETRS89</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>X_ETRS89</column_shp>
 		</columns>
 		<columns>
 		<column>yETRS89</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>Y_ETRS89</column_shp>
 		</columns>
@@ -399,15 +399,15 @@ identificador =  ID
 		</columns>
 		<columns>
 		<column>altitudOrtometrica</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>ALT_ORTOM</column_shp>
 		</columns>
 		<columns>
-		<column>altitudElipsoidal</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<column>alt</column>
+		<prefix>geo</prefix>
+		<uri>http:&#47;&#47;www.w3.org&#47;2003&#47;01&#47;geo&#47;wgs84_pos#</uri>
 		<show>YES</show>
 		<column_shp>ALT_ELIPS</column_shp>
 		</columns>
@@ -444,7 +444,7 @@ identificador =  ID
            <method>none</method>
            <schema_name/>
            </partitioning>
-		<attributename>identificador</attributename>
+		<attributename>ID</attributename>
 		<feature>VerticeGeodesicoDeOrdenInferior</feature>
 		<ontologyns>https://datos.ign.es/def/</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
@@ -464,7 +464,7 @@ identificador =  ID
 		<column_shp>the_geom</column_shp>
 		</columns>
 		<columns>
-		<column>ID</column>
+		<column>identifier</column>
 		<prefix>dc</prefix>
 		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
 		<show>YES</show>
@@ -507,29 +507,29 @@ identificador =  ID
 		</columns>
 		<columns>
 		<column>numero</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>NUMERO</column_shp>
 		</columns>
 		<columns>
 		<column>huso</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>HUSO</column_shp>
 		</columns>
 		<columns>
 		<column>xETRS89</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>X_ETRS89</column_shp>
 		</columns>
 		<columns>
 		<column>yETRS89</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>Y_ETRS89</column_shp>
 		</columns>
@@ -549,15 +549,15 @@ identificador =  ID
 		</columns>
 		<columns>
 		<column>altitudOrtometrica</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>ALT_ORTOM</column_shp>
 		</columns>
 		<columns>
-		<column>altitudElipsoidal</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<column>alt</column>
+		<prefix>geo</prefix>
+		<uri>http:&#47;&#47;www.w3.org&#47;2003&#47;01&#47;geo&#47;wgs84_pos#</uri>
 		<show>YES</show>
 		<column_shp>ALT_ELIPS</column_shp>
 		</columns>
@@ -594,9 +594,9 @@ identificador =  ID
            <method>none</method>
            <schema_name/>
            </partitioning>
-		<attributename>identificador</attributename>
+		<attributename>ID</attributename>
 		<feature>VerticeGeodesicoRegente</feature>
-		<ontologyns>https://datos.ign.es/ontology/</ontologyns>
+		<ontologyns>https://datos.ign.es/def/</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
 		<resourcens>https://datos.ign.es/recurso/vertice-geodesico-regente/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
@@ -614,7 +614,7 @@ identificador =  ID
 		<column_shp>the_geom</column_shp>
 		</columns>
 		<columns>
-		<column>ID</column>
+		<column>identifier</column>
 		<prefix>dc</prefix>
 		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
 		<show>YES</show>
@@ -657,28 +657,28 @@ identificador =  ID
 		</columns>
 		<columns>
 		<column>numero</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>NUMERO</column_shp>
 		</columns>
 		<columns>
 		<column>huso</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>HUSO</column_shp>
 		</columns>
 		<columns>
 		<column>xETRS89</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>X_ETRS89</column_shp>
 		</columns>
 		<columns>
 		<column>yETRS89</column>
-		<prefix>geoes</prefix>
+		<prefix>btn100</prefix>
 		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
 		<show>YES</show>
 		<column_shp>Y_ETRS89</column_shp>
@@ -699,15 +699,15 @@ identificador =  ID
 		</columns>
 		<columns>
 		<column>altitudOrtometrica</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>ALT_ORTOM</column_shp>
 		</columns>
 		<columns>
-		<column>altitudElipsoidal</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<column>alt</column>
+		<prefix>geo</prefix>
+		<uri>http:&#47;&#47;www.w3.org&#47;2003&#47;01&#47;geo&#47;wgs84_pos#</uri>
 		<show>YES</show>
 		<column_shp>ALT_ELIPS</column_shp>
 		</columns>

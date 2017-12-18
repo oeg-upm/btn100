@@ -53,9 +53,9 @@
   <notepads>
   </notepads>
   <order>
-  <hop> <from>01 Generica</from><to>Salida Fichero de Texto</to><enabled>Y</enabled> </hop>  <hop> <from>SRS Transformation</from><to>Switch &#47; Case</to><enabled>Y</enabled> </hop>  <hop> <from>Selecciona&#47;Renombra valores</from><to>SRS Transformation</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>01 Generica</to><enabled>Y</enabled> </hop>  <hop> <from>Valor Java Script Modificado</from><to>Selecciona&#47;Renombra valores</to><enabled>Y</enabled> </hop>  <hop> <from>Filtrar filas 2</from><to>Dummy Plugin 2</to><enabled>Y</enabled> </hop>  <hop> <from>Shapefile File Input</from><to>Filtrar filas 2</to><enabled>Y</enabled> </hop>  <hop> <from>Filtrar filas 2</from><to>Valor Java Script Modificado</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>Dummy Plugin 2 2</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>02 Maestra</to><enabled>Y</enabled> </hop>  <hop> <from>02 Maestra</from><to>Salida Fichero de Texto</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>03 Depresion Generica</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>04 Depresion Maestra</to><enabled>Y</enabled> </hop>  <hop> <from>03 Depresion Generica</from><to>Salida Fichero de Texto</to><enabled>Y</enabled> </hop>  <hop> <from>04 Depresion Maestra</from><to>Salida Fichero de Texto</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>05 Interpolada</to><enabled>Y</enabled> </hop>  <hop> <from>05 Interpolada</from><to>Salida Fichero de Texto</to><enabled>Y</enabled> </hop>  </order>
+  <hop> <from>01 Altimetrica</from><to>Salida Fichero de Texto</to><enabled>Y</enabled> </hop>  <hop> <from>SRS Transformation</from><to>Switch &#47; Case</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>01 Altimetrica</to><enabled>Y</enabled> </hop>  <hop> <from>Valor Java Script Modificado</from><to>Selecciona&#47;Renombra valores</to><enabled>Y</enabled> </hop>  <hop> <from>Filtrar filas 2</from><to>Dummy Plugin 2</to><enabled>Y</enabled> </hop>  <hop> <from>Shapefile File Input</from><to>Filtrar filas 2</to><enabled>Y</enabled> </hop>  <hop> <from>Filtrar filas 2</from><to>Valor Java Script Modificado</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>Dummy Plugin 2 2</to><enabled>Y</enabled> </hop>  <hop> <from>Switch &#47; Case</from><to>02 Batimetrica</to><enabled>Y</enabled> </hop>  <hop> <from>02 Batimetrica</from><to>Salida Fichero de Texto</to><enabled>Y</enabled> </hop>  <hop> <from>Selecciona&#47;Renombra valores</from><to>Mapeo de Valores</to><enabled>Y</enabled> </hop>  <hop> <from>Mapeo de Valores</from><to>SRS Transformation</to><enabled>Y</enabled> </hop>  </order>
   <step>
-    <name>01 Generica</name>
+    <name>01 Altimetrica</name>
     <type>tripleGEO</type>
     <description/>
     <distribute>Y</distribute>
@@ -65,10 +65,10 @@
            <schema_name/>
            </partitioning>
 		<attributename>ID</attributename>
-		<feature>CurvaNivelGenerica</feature>
+		<feature>CurvaNivelAltimetrica</feature>
 		<ontologyns>https://datos.ign.es/def/</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/curva-nivel-generica/</resourcens>
+		<resourcens>https://datos.ign.es/recurso/curva-nivel-altimetrica/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -126,116 +126,16 @@
 		<column_shp>TIPO_0202</column_shp>
 		</columns>
 		<columns>
-		<column>CATEG_0202</column>
-		<prefix/>
-		<uri/>
-		<show>NO</show>
+		<column>categoriaCurvaDeNivel</column>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
+		<show>YES</show>
 		<column_shp>CATEG_0202</column_shp>
 		</columns>
 		<columns>
 		<column>cota</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
-		<show>YES</show>
-		<column_shp>COTA</column_shp>
-		</columns>
-		<columns>
-		<column>type</column>
-		<prefix>rdf</prefix>
-		<uri>http:&#47;&#47;www.w3.org&#47;1999&#47;02&#47;22-rdf-syntax-ns#</uri><show>NO</show>
-		<column_shp>rdf_type</column_shp>
-		</columns>
-		</columns>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>742</xloc>
-      <yloc>183</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>02 Maestra</name>
-    <type>tripleGEO</type>
-    <description/>
-    <distribute>Y</distribute>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-		<attributename>ID</attributename>
-		<feature>CurvaNivelMaestra</feature>
-		<ontologyns>https://datos.ign.es/def/</ontologyns>
-		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/curva-nivel-maestra/</resourcens>
-		<resourcensprefix>georec</resourcensprefix>
-		<language>null</language>
-		<pathcsv>null</pathcsv>
-		<uuidsactive>false</uuidsactive>
-		<fields>
-		</fields>
-		<columns>
-		<columns>
-		<column>the_geom</column>
-		<prefix>n&#47;a</prefix>
-		<uri/>
-		<show>YES</show>
-		<column_shp>the_geom</column_shp>
-		</columns>
-		<columns>
-		<column>identifier</column>
-		<prefix>dc</prefix>
-		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
-		<show>YES</show>
-		<column_shp>ID</column_shp>
-		</columns>
-		<columns>
-		<column>ID_BD</column>
-		<prefix/>
-		<uri/>
-		<show>NO</show>
-		<column_shp>ID_BD</column_shp>
-		</columns>
-		<columns>
-		<column>ID_CODIGO</column>
-		<prefix/>
-		<uri/>
-		<show>NO</show>
-		<column_shp>ID_CODIGO</column_shp>
-		</columns>
-		<columns>
-		<column>replaces</column>
-		<prefix>dc</prefix>
-		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
-		<show>YES</show>
-		<column_shp>ID_MOD</column_shp>
-		</columns>
-		<columns>
-		<column>created</column>
-		<prefix>dc</prefix>
-		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
-		<show>YES</show>
-		<column_shp>FECHA_ALTA</column_shp>
-		</columns>
-		<columns>
-		<column>TIPO_0202</column>
-		<prefix/>
-		<uri/>
-		<show>NO</show>
-		<column_shp>TIPO_0202</column_shp>
-		</columns>
-		<columns>
-		<column>CATEG_0202</column>
-		<prefix/>
-		<uri/>
-		<show>NO</show>
-		<column_shp>CATEG_0202</column_shp>
-		</columns>
-		<columns>
-		<column>cota</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>COTA</column_shp>
 		</columns>
@@ -249,14 +149,14 @@
 		</columns>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>742</xloc>
-      <yloc>265</yloc>
+      <xloc>964</xloc>
+      <yloc>185</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
 
   <step>
-    <name>03 Depresion Generica</name>
+    <name>02 Batimetrica</name>
     <type>tripleGEO</type>
     <description/>
     <distribute>Y</distribute>
@@ -266,10 +166,10 @@
            <schema_name/>
            </partitioning>
 		<attributename>ID</attributename>
-		<feature>DepresionGenerica</feature>
+		<feature>CurvaNivelBatimetrica</feature>
 		<ontologyns>https://datos.ign.es/def/</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/depresion/</resourcens>
+		<resourcens>https://datos.ign.es/recurso/curva-nivel-batimetrica/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -327,216 +227,16 @@
 		<column_shp>TIPO_0202</column_shp>
 		</columns>
 		<columns>
-		<column>CATEG_0202</column>
-		<prefix/>
-		<uri/>
-		<show>NO</show>
+		<column>categoriaCurvaDeNivel</column>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
+		<show>YES</show>
 		<column_shp>CATEG_0202</column_shp>
 		</columns>
 		<columns>
 		<column>cota</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
-		<show>YES</show>
-		<column_shp>COTA</column_shp>
-		</columns>
-		<columns>
-		<column>type</column>
-		<prefix>rdf</prefix>
-		<uri>http:&#47;&#47;www.w3.org&#47;1999&#47;02&#47;22-rdf-syntax-ns#</uri><show>NO</show>
-		<column_shp>rdf_type</column_shp>
-		</columns>
-		</columns>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>746</xloc>
-      <yloc>355</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>04 Depresion Maestra</name>
-    <type>tripleGEO</type>
-    <description/>
-    <distribute>Y</distribute>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-		<attributename>ID</attributename>
-		<feature>DepresionMaestra</feature>
-		<ontologyns>https://datos.ign.es/def/</ontologyns>
-		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/depresion-maestra/</resourcens>
-		<resourcensprefix>georec</resourcensprefix>
-		<language>null</language>
-		<pathcsv>null</pathcsv>
-		<uuidsactive>false</uuidsactive>
-		<fields>
-		</fields>
-		<columns>
-		<columns>
-		<column>the_geom</column>
-		<prefix>n&#47;a</prefix>
-		<uri/>
-		<show>YES</show>
-		<column_shp>the_geom</column_shp>
-		</columns>
-		<columns>
-		<column>identifier</column>
-		<prefix>dc</prefix>
-		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
-		<show>YES</show>
-		<column_shp>ID</column_shp>
-		</columns>
-		<columns>
-		<column>ID_BD</column>
-		<prefix/>
-		<uri/>
-		<show>NO</show>
-		<column_shp>ID_BD</column_shp>
-		</columns>
-		<columns>
-		<column>ID_CODIGO</column>
-		<prefix/>
-		<uri/>
-		<show>NO</show>
-		<column_shp>ID_CODIGO</column_shp>
-		</columns>
-		<columns>
-		<column>replaces</column>
-		<prefix>dc</prefix>
-		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
-		<show>YES</show>
-		<column_shp>ID_MOD</column_shp>
-		</columns>
-		<columns>
-		<column>created</column>
-		<prefix>dc</prefix>
-		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
-		<show>YES</show>
-		<column_shp>FECHA_ALTA</column_shp>
-		</columns>
-		<columns>
-		<column>TIPO_0202</column>
-		<prefix/>
-		<uri/>
-		<show>NO</show>
-		<column_shp>TIPO_0202</column_shp>
-		</columns>
-		<columns>
-		<column>CATEG_0202</column>
-		<prefix/>
-		<uri/>
-		<show>NO</show>
-		<column_shp>CATEG_0202</column_shp>
-		</columns>
-		<columns>
-		<column>cota</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
-		<show>YES</show>
-		<column_shp>COTA</column_shp>
-		</columns>
-		<columns>
-		<column>type</column>
-		<prefix>rdf</prefix>
-		<uri>http:&#47;&#47;www.w3.org&#47;1999&#47;02&#47;22-rdf-syntax-ns#</uri><show>NO</show>
-		<column_shp>rdf_type</column_shp>
-		</columns>
-		</columns>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>745</xloc>
-      <yloc>435</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>05 Interpolada</name>
-    <type>tripleGEO</type>
-    <description/>
-    <distribute>Y</distribute>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-		<attributename>ID</attributename>
-		<feature>CurvaNivelInterpolada</feature>
-		<ontologyns>https://datos.ign.es/def/</ontologyns>
-		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/curva-nivel-interpolada/</resourcens>
-		<resourcensprefix>georec</resourcensprefix>
-		<language>null</language>
-		<pathcsv>null</pathcsv>
-		<uuidsactive>false</uuidsactive>
-		<fields>
-		</fields>
-		<columns>
-		<columns>
-		<column>the_geom</column>
-		<prefix>n&#47;a</prefix>
-		<uri/>
-		<show>YES</show>
-		<column_shp>the_geom</column_shp>
-		</columns>
-		<columns>
-		<column>identifier</column>
-		<prefix>dc</prefix>
-		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
-		<show>YES</show>
-		<column_shp>ID</column_shp>
-		</columns>
-		<columns>
-		<column>ID_BD</column>
-		<prefix/>
-		<uri/>
-		<show>NO</show>
-		<column_shp>ID_BD</column_shp>
-		</columns>
-		<columns>
-		<column>ID_CODIGO</column>
-		<prefix/>
-		<uri/>
-		<show>NO</show>
-		<column_shp>ID_CODIGO</column_shp>
-		</columns>
-		<columns>
-		<column>replaces</column>
-		<prefix>dc</prefix>
-		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
-		<show>YES</show>
-		<column_shp>ID_MOD</column_shp>
-		</columns>
-		<columns>
-		<column>created</column>
-		<prefix>dc</prefix>
-		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
-		<show>YES</show>
-		<column_shp>FECHA_ALTA</column_shp>
-		</columns>
-		<columns>
-		<column>TIPO_0202</column>
-		<prefix/>
-		<uri/>
-		<show>NO</show>
-		<column_shp>TIPO_0202</column_shp>
-		</columns>
-		<columns>
-		<column>CATEG_0202</column>
-		<prefix/>
-		<uri/>
-		<show>NO</show>
-		<column_shp>CATEG_0202</column_shp>
-		</columns>
-		<columns>
-		<column>cota</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>COTA</column_shp>
 		</columns>
@@ -550,8 +250,8 @@
 		</columns>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>745</xloc>
-      <yloc>532</yloc>
+      <xloc>974</xloc>
+      <yloc>474</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -590,8 +290,8 @@
 <value><name>valuename</name><type>Number</type><text>123.456</text><length>12</length><precision>4</precision><isnull>N</isnull><mask>#.#;-#.#</mask></value>      </values>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>520</xloc>
-      <yloc>476</yloc>
+      <xloc>742</xloc>
+      <yloc>478</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -615,17 +315,22 @@
   <condition>
    <negated>N</negated>
    <operator>AND</operator>
-   <leftvalue>ID</leftvalue>
-   <function>&gt;=</function>
-   <rightvalue/>
-   <value><name>constant</name><type>Integer</type><text>110000</text><length>-1</length><precision>0</precision><isnull>N</isnull><mask>#;-#</mask></value>   </condition>
-  <condition>
-   <negated>N</negated>
-   <operator>AND</operator>
-   <leftvalue>ID</leftvalue>
-   <function>&lt;</function>
-   <rightvalue/>
-   <value><name>constant</name><type>Integer</type><text>120000</text><length>-1</length><precision>0</precision><isnull>N</isnull><mask>#;-#</mask></value>   </condition>
+   <conditions>
+    <condition>
+     <negated>N</negated>
+     <leftvalue>ID</leftvalue>
+     <function>&gt;=</function>
+     <rightvalue/>
+     <value><name>constant</name><type>Integer</type><text>110000</text><length>-1</length><precision>0</precision><isnull>N</isnull><mask>#;-#</mask></value>     </condition>
+    <condition>
+     <negated>N</negated>
+     <operator>AND</operator>
+     <leftvalue>ID</leftvalue>
+     <function>&lt;</function>
+     <rightvalue/>
+     <value><name>constant</name><type>Integer</type><text>120000</text><length>-1</length><precision>0</precision><isnull>N</isnull><mask>#;-#</mask></value>     </condition>
+    </conditions>
+   </condition>
   </conditions>
  </condition>
     </compare>
@@ -633,6 +338,49 @@
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
       <xloc>83</xloc>
       <yloc>201</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Mapeo de Valores</name>
+    <type>ValueMapper</type>
+    <description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <field_to_use>CATEG_0202</field_to_use>
+    <target_field/>
+    <non_match_default/>
+    <fields>
+      <field>
+        <source_value>01</source_value>
+        <target_value>&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;altimetria&#47;categoria-curva-nivel&#47;generica&gt;</target_value>
+      </field>
+      <field>
+        <source_value>02</source_value>
+        <target_value>&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;altimetria&#47;categoria-curva-nivel&#47;maestra&gt;</target_value>
+      </field>
+      <field>
+        <source_value>03</source_value>
+        <target_value>&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;altimetria&#47;categoria-curva-nivel&#47;depresion-generica&gt;</target_value>
+      </field>
+      <field>
+        <source_value>04</source_value>
+        <target_value>&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;altimetria&#47;categoria-curva-nivel&#47;depresion-maestra&gt;</target_value>
+      </field>
+      <field>
+        <source_value>05</source_value>
+        <target_value>&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;altimetria&#47;categoria-curva-nivel&#47;interpolada&gt;</target_value>
+      </field>
+    </fields>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>394</xloc>
+      <yloc>336</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -664,8 +412,8 @@
     </target_srs>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>380</xloc>
-      <yloc>336</yloc>
+      <xloc>572</xloc>
+      <yloc>338</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -724,8 +472,8 @@
     </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>1035</xloc>
-      <yloc>336</yloc>
+      <xloc>1257</xloc>
+      <yloc>338</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -780,8 +528,8 @@
     <accept_stepname/>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>85</xloc>
-      <yloc>75</yloc>
+      <xloc>83</xloc>
+      <yloc>77</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -796,7 +544,7 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-<fieldname>CATEG_0202</fieldname>
+<fieldname>TIPO_0202</fieldname>
 <use_contains>N</use_contains>
 <case_value_type>String</case_value_type>
 <case_value_format/>
@@ -804,19 +552,13 @@
 <case_value_group/>
 <default_target_step>Dummy Plugin 2 2</default_target_step>
 <cases><case><value>01</value>
-<target_step>01 Generica</target_step>
+<target_step>01 Altimetrica</target_step>
 </case><case><value>02</value>
-<target_step>02 Maestra</target_step>
-</case><case><value>03</value>
-<target_step>03 Depresion Generica</target_step>
-</case><case><value>04</value>
-<target_step>04 Depresion Maestra</target_step>
-</case><case><value>05</value>
-<target_step>05 Interpolada</target_step>
+<target_step>02 Batimetrica</target_step>
 </case></cases>     <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>520</xloc>
-      <yloc>336</yloc>
+      <xloc>742</xloc>
+      <yloc>338</yloc>
       <draw>Y</draw>
       </GUI>
     </step>

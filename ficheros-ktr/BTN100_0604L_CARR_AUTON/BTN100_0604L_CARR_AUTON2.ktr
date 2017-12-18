@@ -119,58 +119,58 @@
 		<column_shp>FECHA_ALTA</column_shp>
 		</columns>
 		<columns>
-		<column>estado</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<column>estadoDeUso</column>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>ESTADO</column_shp>
 		</columns>
 		<columns>
-		<column>tipoDeCalzada</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<column>calzada</column>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>CALZADA</column_shp>
 		</columns>
 		<columns>
 		<column>ordenDeImportancia</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>CATEG_0604</column_shp>
 		</columns>
 		<columns>
 		<column>competencia</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>COMPE</column_shp>
 		</columns>
 		<columns>
 		<column>tipoDeTramo</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>INTERNA</column_shp>
 		</columns>
 		<columns>
-		<column>itinerarioEuropeo</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<column>tipoDeItinerario</column>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>ITIN_EUR</column_shp>
 		</columns>
 		<columns>
-		<column>situacion</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<column>situacionDeVia</column>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>SITUACION</column_shp>
 		</columns>
 		<columns>
 		<column>rutaTEN-T</column>
-		<prefix>geoes</prefix>
-		<uri>http:&#47;&#47;geo.linkeddata.es&#47;ontology#</uri>
+		<prefix>btn100</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
 		<show>YES</show>
 		<column_shp>TEN_T</column_shp>
 		</columns>
@@ -329,7 +329,7 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <filename>${Internal.Transformation.Filename.Directory}/BTN100_0604L_CARR_AUTON.shp</filename>
+    <filename>${Internal.Transformation.Filename.Directory}&#47;BTN100_0604L_CARR_AUTON.shp</filename>
     <isfilenameinfield>N</isfilenameinfield>
     <filenamefield/>
     <limit>0</limit>
@@ -368,7 +368,7 @@
     <fileNameInField>N</fileNameInField>
     <fileNameField/>
     <file>
-      <name>${Internal.Transformation.Filename.Directory}/BTN100_0604L_CARR_AUTON2</name>
+      <name>${Internal.Transformation.Filename.Directory}&#47;BTN100_0604L_CARR_AUTON2</name>
       <is_command>N</is_command>
       <do_not_open_new_file_init>N</do_not_open_new_file_init>
       <extention>ttl</extention>
@@ -458,16 +458,16 @@ else{
 
 &#47;&#47;CATEG_0604
 if(CATEG_0604 == &quot;01&quot;){
-	CATEG_0604 = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;categoria-importancia&#47;primer-orden&gt;&quot;;
+	CATEG_0604 = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;categoria-interes&#47;primer-orden&gt;&quot;;
 }
 else if(CATEG_0604 == &quot;02&quot;){
-	CATEG_0604 = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;categoria-importancia&#47;segundo-orden&gt;&quot;;
+	CATEG_0604 = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;categoria-interes&#47;segundo-orden&gt;&quot;;
 }
 else if(CATEG_0604 == &quot;03&quot;){
-	CATEG_0604 = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;categoria-importancia&#47;tercer-orden&gt;&quot;;
+	CATEG_0604 = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;categoria-interes&#47;tercer-orden&gt;&quot;;
 }
 else{
-	CATEG_0604 = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;categoria-importancia&#47;no-definido&gt;&quot;;
+	CATEG_0604 = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;categoria-interes&#47;no-definido&gt;&quot;;
 }
 
 &#47;&#47;COMPE
@@ -488,29 +488,29 @@ else{
 &#47;&#47; INTERNA
 
 if(INTERNA == &quot;01&quot;){
-	INTERNA = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;tipo-de-tramo&#47;no-interno&gt;&quot;;
+	INTERNA = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;tipo-tramo&#47;no-interna&gt;&quot;;
 }
 else {
-	INTERNA = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;tipo-de-tramo&#47;interno&gt;&quot;;
+	INTERNA = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;tipo-tramo&#47;interna&gt;&quot;;
 }
 
 &#47;&#47;ITINERARIO EUROPEO
 if(ITIN_EUR == &quot;01&quot;){
-	ITIN_EUR = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;tipoDeItinerario&#47;itinerarioNoEuropeo&gt;&quot;;
+	ITIN_EUR = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;tipo-itinerario&#47;no-itinerario-europeo&gt;&quot;;
 }
 else{
-	ITIN_EUR = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;tipoDeItinerario&#47;itinerarioEuropeo&gt;&quot;;
+	ITIN_EUR = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;tipoDeItinerario&#47;itinerario-europeo&gt;&quot;;
 }
 
 &#47;&#47;SITUACION
 if(SITUACION == &quot;01&quot;){
-	SITUACION = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;situacion-de-via&#47;superficial&gt;&quot;;
+	SITUACION = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;situacion-via&#47;superficial&gt;&quot;;
 }
 else if(SITUACION == &quot;02&quot;){
-	SITUACION = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;situacion-de-via&#47;subterraneo&gt;&quot;;
+	SITUACION = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;situacion-via&#47;subterranea&gt;&quot;;
 }
 else if (SITUACION == &quot;03&quot;){
-	SITUACION = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;situacion-de-via&#47;elevado&gt;&quot;;
+	SITUACION = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;situacion-via&#47;elevada&gt;&quot;;
 }
 else {
 	SITUACION = &quot;&quot;;
