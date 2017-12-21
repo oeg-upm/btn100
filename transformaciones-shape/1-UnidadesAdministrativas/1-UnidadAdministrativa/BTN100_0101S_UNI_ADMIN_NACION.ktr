@@ -64,11 +64,11 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-		<attributename>ID</attributename>
+		<attributename>identificador</attributename>
 		<feature>Pais</feature>
 		<ontologyns>http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#</ontologyns>
 		<ontologynsprefix>esadm</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/nacion/</resourcens>
+		<resourcens>https://datos.ign.es/recurso/btn100/nacion/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -87,7 +87,7 @@
 		<column>identifier</column>
 		<prefix>dc</prefix>
 		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
-		<show>YES</show>
+		<show>NO</show>
 		<column_shp>ID</column_shp>
 		</columns>
 		<columns>
@@ -119,9 +119,9 @@
 		<column_shp>FECHA_ALTA</column_shp>
 		</columns>
 		<columns>
-		<column>hasCode</column>
-		<prefix>geopolitical</prefix>
-		<uri>http:&#47;&#47;aims.fao.org&#47;aos&#47;geopolitical.owl#</uri>
+		<column>codigoINE</column>
+		<prefix>esadm</prefix>
+		<uri>http:&#47;&#47;vocab.linkeddata.es&#47;datosabiertos&#47;def&#47;sector-publico&#47;territorio#</uri>
 		<show>YES</show>
 		<column_shp>COD_0101</column_shp>
 		</columns>
@@ -140,11 +140,11 @@
 		<column_shp>ETIQUETA</column_shp>
 		</columns>
 		<columns>
-		<column>type</column>
-		<prefix>rdf</prefix>
-		<uri>http:&#47;&#47;www.w3.org&#47;1999&#47;02&#47;22-rdf-syntax-ns#</uri>
-		<show>NO</show>
-		<column_shp>type</column_shp>
+		<column>identifier</column>
+		<prefix>dc</prefix>
+		<uri>http:&#47;&#47;purl.org&#47;dc&#47;terms&#47;</uri>
+		<show>YES</show>
+		<column_shp>identificador</column_shp>
 		</columns>
 		</columns>
      <cluster_schema/>
@@ -377,15 +377,19 @@ else{
     FECHA_ALTA = date2str(FECHA_ALTA, &quot;yyyy-MM-dd&quot;);
 }
 
-&#47;&#47;var type = &quot;&lt;http:&#47;&#47;datos.cnig.es&#47;def&#47;UnidadAdministrativa&gt;&quot;</jsScript_script>
+var etiq = ETIQUETA.toLowerCase().replace(&apos; &apos;,&apos;-&apos;);
+etiq = etiq.replace(&#47;\s&#47;g, &apos;-&apos;).replace(&apos;á&apos;, &apos;a&apos;).replace(&apos;Á&apos;, &apos;A&apos;).replace(&apos;é&apos;, &apos;e&apos;).replace(&apos;É&apos;, &apos;E&apos;).replace(&apos;í&apos;, &apos;i&apos;)
+.replace(&apos;Í&apos;, &apos;I&apos;).replace(&apos;ó&apos;, &apos;o&apos;).replace(&apos;Ó&apos;, &apos;O&apos;).replace(&apos;ú&apos;, &apos;u&apos;).replace(&apos;Ú&apos;, &apos;U&apos;).replace(&apos;ñ&apos;, &apos;n&apos;);
+etiq = etiq.replace(&apos;,&apos;,&apos;&apos;).replace(&apos;;&apos;,&apos;&apos;).replace(&apos;.&apos;,&apos;&apos;);
+identificador =  etiq</jsScript_script>
       </jsScript>    </jsScripts>    <fields>      <field>        <name>FECHA_ALTA</name>
         <rename>FECHA_ALTA</rename>
         <type>String</type>
         <length>-1</length>
         <precision>-1</precision>
         <replace>Y</replace>
-      </field>      <field>        <name>type</name>
-        <rename>type</rename>
+      </field>      <field>        <name>identificador</name>
+        <rename>identificador</rename>
         <type>String</type>
         <length>-1</length>
         <precision>-1</precision>

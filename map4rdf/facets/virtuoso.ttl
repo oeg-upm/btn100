@@ -3,8 +3,9 @@
  @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
  @prefix foaf: <http://xmlns.com/foaf/0.1/> .
  @prefix map4rdf: <http://code.google.com/p/map4rdf/wiki/ontology#> .
- @prefix btn100: <https://datos.ign.es/def/> .
+ @prefix btn100: <https://datos.ign.es/def/btn100#> .
  @prefix esadm: <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#> .
+ @prefix escjr: <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#> .
 
 _:rdfPoblacionesYConstruccionesFacet
 	a map4rdf:FacetGroup;
@@ -295,7 +296,7 @@ _:rdfTransporteFacet
         map4rdf:facet btn100:PasoANivel ;
         map4rdf:facet btn100:FerrocarrilDeAltaVelocidad ;
         map4rdf:facet btn100:FerrocarrilConvencional ;
-        map4rdf:facet btn100:Calle ;
+        map4rdf:facet escjr:Via ;
         map4rdf:facet btn100:Teleferico ;
         map4rdf:facet btn100:Cargadero ;
         map4rdf:facet btn100:ItinerarioDeViaVerde ;
@@ -391,7 +392,7 @@ btn100:FerrocarrilConvencional
 	rdfs:label "Ferrocarril Convencional"@en;
 .
 
-btn100:Calle
+escjr:Via
 	rdfs:label "Calle"@es;
 	rdfs:label "Calle"@en;
 .
@@ -468,22 +469,22 @@ _:rdfAltimetriaFacet
 	map4rdf:facetPredicate rdf:type;
 	rdfs:label "Altimetria"@es;
 	rdfs:label "Altimetria"@en;
-        map4rdf:facet btn100:EntidadVirtualParaje ;
+        map4rdf:facet btn100:Paraje ;
         map4rdf:facet btn100:Collado ;
-        map4rdf:facet btn100:EntidadVirtualComarcaRegion ;
+        map4rdf:facet btn100:ComarcaRegion ;
         map4rdf:facet btn100:CurvaNivelAltimetrica ;
-        map4rdf:facet btn100:EntidadVirtualMontana ;
+        map4rdf:facet btn100:Montana ;
         map4rdf:facet btn100:CotaMunicipal ;
-        map4rdf:facet btn100:EntidadVirtualCordillera ;
+        map4rdf:facet btn100:Cordillera ;
         map4rdf:facet btn100:Pico ;
-        map4rdf:facet btn100:EntidadVirtualSierra ;
+        map4rdf:facet btn100:Sierra ;
         map4rdf:facet btn100:Cerro ;
         map4rdf:facet btn100:PuertoDeMontana ;
         map4rdf:facet btn100:EntidadVirtualAccidenteOrografico ;
         map4rdf:facet btn100:CurvaNivelBatimetrica ;
 .
 
-btn100:EntidadVirtualParaje
+btn100:Paraje
 	rdfs:label "Paraje"@es;
 	rdfs:label "Paraje"@en;
 .
@@ -493,7 +494,7 @@ btn100:Collado
 	rdfs:label "Collado"@en;
 .
 
-btn100:EntidadVirtualComarcaRegion
+btn100:ComarcaRegion
 	rdfs:label "Comarca/Región"@es;
 	rdfs:label "Comarca/Región"@en;
 .
@@ -503,7 +504,7 @@ btn100:CurvaNivelAltimetrica
 	rdfs:label "Curva de nivel batimétrica"@en;
 .
 
-btn100:EntidadVirtualMontana
+btn100:Montana
 	rdfs:label "Montaña"@es;
 	rdfs:label "Montaña"@en;
 .
@@ -513,7 +514,7 @@ btn100:CotaMunicipal
 	rdfs:label "Cota Municipal"@en;
 .
 
-btn100:EntidadVirtualCordillera
+btn100:Cordillera
 	rdfs:label "Cordillera"@es;
 	rdfs:label "Cordillera"@en;
 .
@@ -523,7 +524,7 @@ btn100:Pico
 	rdfs:label "Pico"@en;
 .
 
-btn100:EntidadVirtualSierra
+btn100:Sierra
 	rdfs:label "Sierra"@es;
 	rdfs:label "Sierra"@en;
 .
@@ -556,7 +557,7 @@ _:rdfUnidadesAdministrativasFacet
 	rdfs:label "Unidades Administrativas"@en;
         map4rdf:facet esadm:Municipio ;
         map4rdf:facet btn100:ParqueNacional ;
-        map4rdf:facet btn100:ComunidadJurisdiccional ;
+        map4rdf:facet esadm:ComunidadJurisdiccional ;
         map4rdf:facet btn100:ZonaEspecialProteccionAves ;
         map4rdf:facet btn100:LugarImportanciaComunitaria ;
         map4rdf:facet btn100:ZonaProtegida ;
@@ -576,7 +577,7 @@ btn100:ParqueNacional
 	rdfs:label "Parque Nacional"@en;
 .
 
-btn100:ComunidadJurisdiccional
+esadm:ComunidadJurisdiccional
 	rdfs:label "Comunidad Jurisdiccional"@es;
 	rdfs:label "Comunidad Jurisdiccional"@en;
 .

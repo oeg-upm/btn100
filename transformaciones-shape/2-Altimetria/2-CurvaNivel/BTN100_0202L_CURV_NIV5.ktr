@@ -66,9 +66,9 @@
            </partitioning>
 		<attributename>ID</attributename>
 		<feature>CurvaNivelAltimetrica</feature>
-		<ontologyns>https://datos.ign.es/def/</ontologyns>
+		<ontologyns>https://datos.ign.es/def/btn100#</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/curva-nivel-altimetrica/</resourcens>
+		<resourcens>https://datos.ign.es/recurso/btn100/curva-nivel-altimetrica/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -128,14 +128,14 @@
 		<columns>
 		<column>categoriaCurvaDeNivel</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>CATEG_0202</column_shp>
 		</columns>
 		<columns>
 		<column>cota</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>COTA</column_shp>
 		</columns>
@@ -167,9 +167,9 @@
            </partitioning>
 		<attributename>ID</attributename>
 		<feature>CurvaNivelBatimetrica</feature>
-		<ontologyns>https://datos.ign.es/def/</ontologyns>
+		<ontologyns>https://datos.ign.es/def/btn100#</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/curva-nivel-batimetrica/</resourcens>
+		<resourcens>https://datos.ign.es/recurso/btn100/curva-nivel-batimetrica/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -229,14 +229,14 @@
 		<columns>
 		<column>categoriaCurvaDeNivel</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>CATEG_0202</column_shp>
 		</columns>
 		<columns>
 		<column>cota</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>COTA</column_shp>
 		</columns>

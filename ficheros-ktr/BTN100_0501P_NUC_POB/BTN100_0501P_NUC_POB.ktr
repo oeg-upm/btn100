@@ -70,27 +70,27 @@
     <fields>
       <field>
         <source_value>1111</source_value>
-        <target_value>&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;poblaciones-construcciones&#47;tipo-de-capital&#47;nacion&gt;</target_value>
+        <target_value>&lt;http:&#47;&#47;vocab.linkeddata.es&#47;datosabiertos&#47;kos&#47;sector-publico&#47;territorio&#47;tipo-capital&#47;nacion&gt;</target_value>
       </field>
       <field>
         <source_value>0111</source_value>
-        <target_value>&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;poblaciones-construcciones&#47;tipo-de-capital&#47;comunidad-autonoma&gt;</target_value>
+        <target_value>&lt;http:&#47;&#47;vocab.linkeddata.es&#47;datosabiertos&#47;kos&#47;sector-publico&#47;territorio&#47;tipo-capital&#47;comunidad-autonoma&gt;</target_value>
       </field>
       <field>
         <source_value>0101</source_value>
-        <target_value>&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;poblaciones-construcciones&#47;tipo-de-capital&#47;comunidad-autonoma-no-de-provincia&gt;</target_value>
+        <target_value>&lt;http:&#47;&#47;vocab.linkeddata.es&#47;datosabiertos&#47;kos&#47;sector-publico&#47;territorio&#47;tipo-capital&#47;comunidad-autonoma-no-de-provincia&gt;</target_value>
       </field>
       <field>
         <source_value>0011</source_value>
-        <target_value>&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;poblaciones-construcciones&#47;tipo-de-capital&#47;provincia&gt;</target_value>
+        <target_value>&lt;http:&#47;&#47;vocab.linkeddata.es&#47;datosabiertos&#47;kos&#47;sector-publico&#47;territorio&#47;tipo-capital&#47;provincia&gt;</target_value>
       </field>
       <field>
         <source_value>0001</source_value>
-        <target_value>&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;poblaciones-construcciones&#47;tipo-de-capital&#47;municipio&gt;</target_value>
+        <target_value>&lt;http:&#47;&#47;vocab.linkeddata.es&#47;datosabiertos&#47;kos&#47;sector-publico&#47;territorio&#47;tipo-capital&#47;municipio&gt;</target_value>
       </field>
       <field>
         <source_value>0000</source_value>
-        <target_value>&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;poblaciones-construcciones&#47;tipo-de-capital&#47;no-capital&gt;</target_value>
+        <target_value>&lt;http:&#47;&#47;vocab.linkeddata.es&#47;datosabiertos&#47;kos&#47;sector-publico&#47;territorio&#47;tipo-capital&#47;no-capital&gt;</target_value>
       </field>
     </fields>
      <cluster_schema/>
@@ -113,9 +113,9 @@
            </partitioning>
 		<attributename>ID</attributename>
 		<feature>NucleoPoblacionPuntual</feature>
-		<ontologyns>https://datos.ign.es/def/</ontologyns>
+		<ontologyns>https://datos.ign.es/def/btn100#</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/nucleo-poblacion-puntual/</resourcens>
+		<resourcens>https://datos.ign.es/recurso/btn100/nucleo-poblacion-puntual/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -167,8 +167,8 @@
 		</columns>
 		<columns>
 		<column>codigoINE</column>
-		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
+		<prefix>esadm</prefix>
+		<uri>http:&#47;&#47;vocab.linkeddata.es&#47;datosabiertos&#47;def&#47;sector-publico&#47;territorio#</uri>
 		<show>YES</show>
 		<column_shp>COD_INE</column_shp>
 		</columns>
@@ -181,8 +181,8 @@
 		</columns>
 		<columns>
 		<column>esCapitalDe</column>
-		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
+		<prefix>esadm</prefix>
+		<uri>http:&#47;&#47;vocab.linkeddata.es&#47;datosabiertos&#47;def&#47;sector-publico&#47;territorio#</uri>
 		<show>YES</show>
 		<column_shp>CAPITAL</column_shp>
 		</columns>

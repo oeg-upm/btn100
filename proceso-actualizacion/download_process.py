@@ -7,13 +7,8 @@
 #-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=#
     LICENCE INFORMATION:
 
-    El Centro de Descargas (CdD) es un sitio web del Centro Nacional de Información Geográfica (CNIG) desde donde se pueden descargar gratuitamente ficheros digitales de carácter geográfico generados por la Dirección General del Instituto Geográfico Nacional (IGN), siempre y cuando esos ficheros sean accesibles y reutilizables según lo establecido en la Orden FOM/2807/2015 (https://www.boe.es/boe/dias/2015/12/26/pdfs/BOE-A-2015-14129.pdf), de 18 de diciembre (BOE de 26 de diciembre 2015), por la que se aprueba la política de difusión pública de la información geográfica generada por el IGN.
+    Esta obra está bajo un Licencia Creative Commons Atribución 4.0 Internacional (http://creativecommons.org/licenses/by/4.0/).
 
-    El Centro de Descargas, bajo el correspondiente acuerdo, también pone a disposición de los usuarios información geográfica propiedad de otros organismos de la Administración.
-
-    En caso de requerir datos geográficos digitales no publicados en el CdD, puede solicitarse el servicio, grabación y envío mediante solicitud a través del buzón de correo electrónico consulta@cnig.es . En caso de ser viable, dicho servicio devengará, con carácter general, unos costes de preparación de datos, puesta en soporte y manipulación, como recoge la citada Orden FOM/2807/2015 y bajo un baremo que, con carácter de precio público, está amparado normativamente en la correspondiente resolución de precios públicos.
-
-    Para cualquier cuestión sobre el funcionamiento del CdD podrá ponerse en contacto con el CNIG a través de la dirección de correo electrónico centrodescargasconsultas@cnig.es.
 #-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=#
 
 """
@@ -63,6 +58,7 @@ work_dir = config.get('BASEDIRS', 'workDir')
 geokettle_dir = config.get('BASEDIRS', 'geokettle')
 github_dir = config.get('BASEDIRS', 'githubDir')
 virtuoso_dir = config.get('BASEDIRS', 'virtuosoDir')
+sameas_dir = config.get('BASEDIRS', 'sameAsDir')
 
 # VIRTUOSO DATA
 userVirt = config.get('VIRTUOSO', 'user')
@@ -235,6 +231,16 @@ for id in to_be_updated:
 
     logger.info('Terminado el procesamiento de--->'+str(id))
     print('Terminado el procesamiento de--->'+str(id))
+
+# sameAs files are loaded after the loading process
+os.chdir(virtuoso_dir)
+logger.info('Empezamos la carga de los ficheros sameAs')
+status = subprocess.getstatusoutput('bin/isql -S '+isqlPort+' -U '+userVirt+' -P '+passVirt+' verbose=on banner=off prompt=off echo=ON errors=stdout exec="DELETE FROM RDF_QUAD WHERE G = DB.DBA.RDF_MAKE_IID_OF_QNAME (\'' + graph_id +'sameas\'); DELETE FROM DB.DBA.LOAD_LIST as d WHERE d.ll_graph=\'' + graph_id + 'sameas\'"')
+logger.info("DeleteGraphSameAs-->"+str(status))
+
+#/opt/virtuoso-7/default/bin/isql -S "$1" -U dba verbose=on banner=off prompt=off echo=ON errors=stdout exec="ld_dir_all(('$2'), '*.ttl', '$3'); rdf_loader_run(); checkpoint;"
+status = subprocess.getstatusoutput('bin/isql -S '+isqlPort+' -U '+userVirt+' -P '+passVirt+' verbose=on banner=off prompt=off echo=ON errors=stdout exec="ld_dir_all((\''+sameas_dir+'\'), \'*.ttl\', \'' + graph_id + 'sameas\'); rdf_loader_run(); checkpoint;"')
+logger.info("LoadFolderSameAs-->"+str(status))
 
 # if there are ids to be updated, commit to GitHub repository is made
 if (ids_updated.__sizeof__()>0):

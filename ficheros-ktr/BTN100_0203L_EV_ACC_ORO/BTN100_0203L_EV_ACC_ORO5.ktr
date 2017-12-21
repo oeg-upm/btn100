@@ -65,10 +65,10 @@
            <schema_name/>
            </partitioning>
 		<attributename>ID</attributename>
-		<feature>EntidadVirtualParaje</feature>
-		<ontologyns>https://datos.ign.es/def/</ontologyns>
+		<feature>Paraje</feature>
+		<ontologyns>https://datos.ign.es/def/btn100#</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/entidad-virtual-paraje/</resourcens>
+		<resourcens>https://datos.ign.es/recurso/btn100/paraje/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -128,14 +128,14 @@
 		<columns>
 		<column>categoriaInteres</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>CATEG_0203</column_shp>
 		</columns>
 		<columns>
 		<column>productoFuente</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>PRODUCTO</column_shp>
 		</columns>

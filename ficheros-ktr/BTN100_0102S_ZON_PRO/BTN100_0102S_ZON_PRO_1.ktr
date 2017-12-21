@@ -66,9 +66,9 @@
            </partitioning>
 		<attributename>ID</attributename>
 		<feature>ZonaProtegida</feature>
-		<ontologyns>https://datos.ign.es/def/</ontologyns>
+		<ontologyns>https://datos.ign.es/def/btn100#</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/zona-protegida/</resourcens>
+		<resourcens>https://datos.ign.es/recurso/btn100/zona-protegida/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -160,9 +160,9 @@
            </partitioning>
 		<attributename>ID</attributename>
 		<feature>ParqueNacional</feature>
-		<ontologyns>https://datos.ign.es/def/</ontologyns>
+		<ontologyns>https://datos.ign.es/def/btn100#</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/parque-nacional/</resourcens>
+		<resourcens>https://datos.ign.es/recurso/btn100/parque-nacional/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -254,9 +254,9 @@
            </partitioning>
 		<attributename>ID</attributename>
 		<feature>ParqueNatural</feature>
-		<ontologyns>https://datos.ign.es/def/</ontologyns>
+		<ontologyns>https://datos.ign.es/def/btn100#</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/parque-natural/</resourcens>
+		<resourcens>https://datos.ign.es/recurso/btn100/parque-natural/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -348,9 +348,9 @@
            </partitioning>
 		<attributename>ID</attributename>
 		<feature>LugarImportanciaComunitaria</feature>
-		<ontologyns>https://datos.ign.es/def/</ontologyns>
+		<ontologyns>https://datos.ign.es/def/btn100#</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/lugar-importancia-comunitaria/</resourcens>
+		<resourcens>https://datos.ign.es/recurso/btn100/lugar-importancia-comunitaria/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -441,10 +441,10 @@
            <schema_name/>
            </partitioning>
 		<attributename>ID</attributename>
-		<feature>Zepa</feature>
-		<ontologyns>https://datos.ign.es/def/</ontologyns>
+		<feature>ZonaEspecialProteccionAves</feature>
+		<ontologyns>https://datos.ign.es/def/btn100#</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/zepa/</resourcens>
+		<resourcens>https://datos.ign.es/recurso/btn100/zepa/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
