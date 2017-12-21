@@ -66,9 +66,9 @@
            </partitioning>
 		<attributename>ID</attributename>
 		<feature>EntidadVirtualAccidenteMaritimo</feature>
-		<ontologyns>https://datos.ign.es/def/</ontologyns>
+		<ontologyns>https://datos.ign.es/def/btn100#</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/entidad-virtual-accidente-maritimo/</resourcens>
+		<resourcens>https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -128,7 +128,7 @@
 		<columns>
 		<column>productoFuente</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>PRODUCTO</column_shp>
 		</columns>
@@ -159,10 +159,10 @@
            <schema_name/>
            </partitioning>
 		<attributename>ID</attributename>
-		<feature>EntidadVirtualBahia</feature>
-		<ontologyns>https://datos.ign.es/def/</ontologyns>
+		<feature>Bahia</feature>
+		<ontologyns>https://datos.ign.es/def/btn100#</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/entidad-virtual-bahia/</resourcens>
+		<resourcens>https://datos.ign.es/recurso/btn100/bahia/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -222,7 +222,7 @@
 		<columns>
 		<column>productoFuente</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>PRODUCTO</column_shp>
 		</columns>
@@ -253,10 +253,10 @@
            <schema_name/>
            </partitioning>
 		<attributename>ID</attributename>
-		<feature>EntidadVirtualCosta</feature>
-		<ontologyns>https://datos.ign.es/def/</ontologyns>
+		<feature>Costa</feature>
+		<ontologyns>https://datos.ign.es/def/btn100#</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/entidad-virtual-costa/</resourcens>
+		<resourcens>https://datos.ign.es/recurso/btn100/costa/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -316,7 +316,7 @@
 		<columns>
 		<column>productoFuente</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>PRODUCTO</column_shp>
 		</columns>
@@ -347,10 +347,10 @@
            <schema_name/>
            </partitioning>
 		<attributename>ID</attributename>
-		<feature>EntidadVirtualDelta</feature>
-		<ontologyns>https://datos.ign.es/def/</ontologyns>
+		<feature>Delta</feature>
+		<ontologyns>https://datos.ign.es/def/btn100#</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/entidad-virtual-delta/</resourcens>
+		<resourcens>https://datos.ign.es/recurso/btn100/delta/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -410,7 +410,7 @@
 		<columns>
 		<column>productoFuente</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>PRODUCTO</column_shp>
 		</columns>
@@ -441,10 +441,10 @@
            <schema_name/>
            </partitioning>
 		<attributename>ID</attributename>
-		<feature>EntidadVirtualEnsenada</feature>
-		<ontologyns>https://datos.ign.es/def/</ontologyns>
+		<feature>Ensenada</feature>
+		<ontologyns>https://datos.ign.es/def/btn100#</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/entidad-virtual-ensenada/</resourcens>
+		<resourcens>https://datos.ign.es/recurso/btn100/ensenada/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -504,7 +504,7 @@
 		<columns>
 		<column>productoFuente</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>PRODUCTO</column_shp>
 		</columns>
@@ -535,10 +535,10 @@
            <schema_name/>
            </partitioning>
 		<attributename>ID</attributename>
-		<feature>EntidadVirtualEstrecho</feature>
-		<ontologyns>https://datos.ign.es/def/</ontologyns>
+		<feature>Estrecho</feature>
+		<ontologyns>https://datos.ign.es/def/btn100#</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/entidad-virtual-estrecho/</resourcens>
+		<resourcens>https://datos.ign.es/recurso/btn100/estrecho/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -598,7 +598,7 @@
 		<columns>
 		<column>productoFuente</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>PRODUCTO</column_shp>
 		</columns>
@@ -629,10 +629,10 @@
            <schema_name/>
            </partitioning>
 		<attributename>ID</attributename>
-		<feature>EntidadVirtualGolfo</feature>
-		<ontologyns>https://datos.ign.es/def/</ontologyns>
+		<feature>Golfo</feature>
+		<ontologyns>https://datos.ign.es/def/btn100#</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/entidad-virtual-golfo/</resourcens>
+		<resourcens>https://datos.ign.es/recurso/btn100/golfo/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -692,7 +692,7 @@
 		<columns>
 		<column>productoFuente</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>PRODUCTO</column_shp>
 		</columns>
@@ -723,10 +723,10 @@
            <schema_name/>
            </partitioning>
 		<attributename>ID</attributename>
-		<feature>EntidadVirtualRada</feature>
-		<ontologyns>https://datos.ign.es/def/</ontologyns>
+		<feature>Rada</feature>
+		<ontologyns>https://datos.ign.es/def/btn100#</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/entidad-virtual-rada/</resourcens>
+		<resourcens>https://datos.ign.es/recurso/btn100/rada/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -786,7 +786,7 @@
 		<columns>
 		<column>productoFuente</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>PRODUCTO</column_shp>
 		</columns>
@@ -842,15 +842,15 @@
     <fields>
       <field>
         <source_value>01</source_value>
-        <target_value>&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;accidente-orografico&#47;producto-fuente&#47;mp&gt;</target_value>
+        <target_value>&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;producto-fuente&#47;mp&gt;</target_value>
       </field>
       <field>
         <source_value>02</source_value>
-        <target_value>&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;accidente-orografico&#47;producto-fuente&#47;serie-c&gt;</target_value>
+        <target_value>&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;producto-fuente&#47;serie-c&gt;</target_value>
       </field>
       <field>
         <source_value>03</source_value>
-        <target_value>&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;accidente-orografico&#47;producto-fuente&#47;mp-serie-c&gt;</target_value>
+        <target_value>&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;producto-fuente&#47;mp-serie-c&gt;</target_value>
       </field>
     </fields>
      <cluster_schema/>

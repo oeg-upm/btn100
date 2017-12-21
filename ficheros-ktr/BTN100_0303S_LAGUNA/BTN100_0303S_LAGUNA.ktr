@@ -287,9 +287,9 @@ else{
            </partitioning>
 		<attributename>ID</attributename>
 		<feature>Laguna</feature>
-		<ontologyns>https://datos.ign.es/def/</ontologyns>
+		<ontologyns>https://datos.ign.es/def/bnt100#</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/laguna/</resourcens>
+		<resourcens>https://datos.ign.es/recurso/btn100/laguna/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -342,7 +342,7 @@ else{
 		<columns>
 		<column>regimen</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>REGIMEN</column_shp>
 		</columns>

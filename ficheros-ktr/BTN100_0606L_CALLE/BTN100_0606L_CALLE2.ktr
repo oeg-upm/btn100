@@ -174,7 +174,7 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <filename>${Internal.Transformation.Filename.Directory}/BTN100_0606L_CALLE.shp</filename>
+    <filename>${Internal.Transformation.Filename.Directory}&#47;BTN100_0606L_CALLE.shp</filename>
     <isfilenameinfield>N</isfilenameinfield>
     <filenamefield/>
     <limit>0</limit>
@@ -213,7 +213,7 @@
     <fileNameInField>N</fileNameInField>
     <fileNameField/>
     <file>
-      <name>${Internal.Transformation.Filename.Directory}/BTN100_0606L_CALLE2</name>
+      <name>${Internal.Transformation.Filename.Directory}&#47;BTN100_0606L_CALLE2</name>
       <is_command>N</is_command>
       <do_not_open_new_file_init>N</do_not_open_new_file_init>
       <extention>ttl</extention>
@@ -275,17 +275,30 @@ else{
     FECHA_ALTA = new Date(aux[1], aux[2]-1, aux[3]);
     &#47;&#47;FECHA_ALTA = date2str(FECHA_ALTA, &quot;yyyy-MM-dd&quot;);
 }
-</jsScript_script>
+
+var TIPO_VIA =&quot;&lt;http:&#47;&#47;vocab.linkeddata.es&#47;datosabiertos&#47;kos&#47;urbanismo-infraestructuras&#47;tipo-via&#47;CALLE&gt;&quot;</jsScript_script>
       </jsScript>    </jsScripts>    <fields>      <field>        <name>FECHA_ALTA</name>
         <rename>FECHA_ALTA</rename>
         <type>Date</type>
         <length>-1</length>
         <precision>-1</precision>
         <replace>Y</replace>
+      </field>      <field>        <name>aux</name>
+        <rename>aux</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
+      </field>      <field>        <name>TIPO_VIA</name>
+        <rename>TIPO_VIA</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
       </field>    </fields>     <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>167</xloc>
-      <yloc>149</yloc>
+      <xloc>165</xloc>
+      <yloc>148</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -301,10 +314,10 @@ else{
            <schema_name/>
            </partitioning>
 		<attributename>ID</attributename>
-		<feature>Calle</feature>
-		<ontologyns>https://datos.ign.es/def/</ontologyns>
-		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/calle/</resourcens>
+		<feature>Via</feature>
+		<ontologyns>http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#</ontologyns>
+		<ontologynsprefix>escjr</ontologynsprefix>
+		<resourcens>https://datos.ign.es/recurso/btn100/calle/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -354,11 +367,25 @@ else{
 		<show>YES</show>
 		<column_shp>FECHA_ALTA</column_shp>
 		</columns>
+		<columns>
+		<column>aux</column>
+		<prefix/>
+		<uri/>
+		<show>NO</show>
+		<column_shp>aux</column_shp>
+		</columns>
+		<columns>
+		<column>tipoVia</column>
+		<prefix>escjr</prefix>
+		<uri>http:&#47;&#47;vocab.linkeddata.es&#47;datosabiertos&#47;def&#47;urbanismo-infraestructuras&#47;callejero#</uri>
+		<show>YES</show>
+		<column_shp>TIPO_VIA</column_shp>
+		</columns>
 		</columns>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>545</xloc>
-      <yloc>258</yloc>
+      <xloc>543</xloc>
+      <yloc>256</yloc>
       <draw>Y</draw>
       </GUI>
     </step>

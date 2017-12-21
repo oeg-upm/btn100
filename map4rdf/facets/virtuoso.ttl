@@ -749,35 +749,35 @@ _:rdfHidrografiaFacet
         map4rdf:facet btn100:AccidenteMaritimoPuntual ;
         map4rdf:facet btn100:Penon ;
         map4rdf:facet btn100:Esclusa ;
-        map4rdf:facet btn100:EntidadVirtualAccidenteMaritimoBahia ;
+        map4rdf:facet btn100:Bahia ;
         map4rdf:facet btn100:Punta ;
         map4rdf:facet btn100:Rambla ;
         map4rdf:facet btn100:Ria ;
         map4rdf:facet btn100:CanalTrasvase ;
         map4rdf:facet btn100:RioSuperficial ;
 		map4rdf:facet btn100:RioLineal ;
-        map4rdf:facet btn100:EntidadVirtualAccidenteMaritimoDelta ;
+        map4rdf:facet btn100:Delta ;
         map4rdf:facet btn100:Albufera ;
         map4rdf:facet btn100:Estanque ;
-        map4rdf:facet btn100:EntidadVirtualOceano ;
+        map4rdf:facet btn100:Oceano ;
         map4rdf:facet btn100:Humedal ;
-        map4rdf:facet btn100:EntidadVirtualAccidenteMaritimoEnsenada ;
+        map4rdf:facet btn100:Ensenada ;
         map4rdf:facet btn100:Embalse ;
         map4rdf:facet btn100:IslaFluvial ;
         map4rdf:facet btn100:Playa ;
         map4rdf:facet btn100:Marisma ;
         map4rdf:facet btn100:CanalMenor ;
         map4rdf:facet btn100:Cabo ;
-        map4rdf:facet btn100:EntidadVirtualAccidenteMaritimoEstrecho ;
+        map4rdf:facet btn100:Estrecho ;
         map4rdf:facet btn100:CanalMayor ;
         map4rdf:facet btn100:Balsa ;
         map4rdf:facet btn100:EntidadVirtualAccidenteMaritimo ;
-        map4rdf:facet btn100:EntidadVirtualAccidenteMaritimoGolfo ;
+        map4rdf:facet btn100:Golfo ;
         map4rdf:facet btn100:IslaMaritima ;
-        map4rdf:facet btn100:EntidadVirtualAccidenteMaritimoRada ;
-        map4rdf:facet btn100:EntidadVirtualAccidenteMaritimoCosta ;
+        map4rdf:facet btn100:Rada ;
+        map4rdf:facet btn100:Costa ;
         map4rdf:facet btn100:Cala ;
-        map4rdf:facet btn100:EntidadVirtualMar ;
+        map4rdf:facet btn100:Mar ;
         map4rdf:facet btn100:Laguna ;
         map4rdf:facet btn100:Salina ;
 .
@@ -802,7 +802,7 @@ btn100:Esclusa
 	rdfs:label "Esclusa"@en;
 .
 
-btn100:EntidadVirtualAccidenteMaritimoBahia
+btn100:Bahia
 	rdfs:label "Bahía"@es;
 	rdfs:label "Bahía"@en;
 .
@@ -837,7 +837,7 @@ btn100:RioLineal
 	rdfs:label "Río lineal"@en;
 .
 
-btn100:EntidadVirtualAccidenteMaritimoDelta
+btn100:Delta
 	rdfs:label "Delta"@es;
 	rdfs:label "Delta"@en;
 .
@@ -852,7 +852,7 @@ btn100:Estanque
 	rdfs:label "Estanque"@en;
 .
 
-btn100:EntidadVirtualOceano
+btn100:Oceano
 	rdfs:label "Océano"@es;
 	rdfs:label "Océano"@en;
 .
@@ -862,7 +862,7 @@ btn100:Humedal
 	rdfs:label "Humedal"@en;
 .
 
-btn100:EntidadVirtualAccidenteMaritimoEnsenada
+btn100:Ensenada
 	rdfs:label "Ensenada"@es;
 	rdfs:label "Ensenada"@en;
 .
@@ -897,7 +897,7 @@ btn100:Cabo
 	rdfs:label "Cabo"@en;
 .
 
-btn100:EntidadVirtualAccidenteMaritimoEstrecho
+btn100:Estrecho
 	rdfs:label "Estrecho"@es;
 	rdfs:label "Estrecho"@en;
 .
@@ -917,7 +917,7 @@ btn100:EntidadVirtualAccidenteMaritimo
 	rdfs:label "Entidad virtual accidente marítimo"@en;
 .
 
-btn100:EntidadVirtualAccidenteMaritimoGolfo
+btn100:Golfo
 	rdfs:label "Golfo"@es;
 	rdfs:label "Golfo"@en;
 .
@@ -927,12 +927,12 @@ btn100:IslaMaritima
 	rdfs:label "Isla Marítima"@en;
 .
 
-btn100:EntidadVirtualAccidenteMaritimoRada
+btn100:Rada
 	rdfs:label "Rada"@es;
 	rdfs:label "Rada"@en;
 .
 
-btn100:EntidadVirtualAccidenteMaritimoCosta
+btn100:Costa
 	rdfs:label "Costa"@es;
 	rdfs:label "Costa"@en;
 .
@@ -942,7 +942,7 @@ btn100:Cala
 	rdfs:label "Cala"@en;
 .
 
-btn100:EntidadVirtualMar
+btn100:Mar
 	rdfs:label "Mar"@es;
 	rdfs:label "Mar"@en;
 .

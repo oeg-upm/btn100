@@ -66,9 +66,9 @@
            </partitioning>
 		<attributename>ID</attributename>
 		<feature>ConduccionDeCombustible</feature>
-		<ontologyns>https://datos.ign.es/def/</ontologyns>
+		<ontologyns>https://datos.ign.es/def/btn100#</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/conduccion-combustible/</resourcens>
+		<resourcens>https://datos.ign.es/recurso/btn100/conduccion-combustible/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -121,7 +121,7 @@
 		<columns>
 		<column>situacionDeVia</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>SITUACION</column_shp>
 		</columns>
@@ -153,9 +153,9 @@
            </partitioning>
 		<attributename>ID</attributename>
 		<feature>Gaseoducto</feature>
-		<ontologyns>https://datos.ign.es/def/</ontologyns>
+		<ontologyns>https://datos.ign.es/def/btn100#</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/gaseoducto/</resourcens>
+		<resourcens>https://datos.ign.es/recurso/btn100/gaseoducto/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -208,7 +208,7 @@
 		<columns>
 		<column>situacionDeVia</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>SITUACION</column_shp>
 		</columns>
@@ -240,9 +240,9 @@
            </partitioning>
 		<attributename>ID</attributename>
 		<feature>Oleoducto</feature>
-		<ontologyns>https://datos.ign.es/def/</ontologyns>
+		<ontologyns>https://datos.ign.es/def/btn100#</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/oleoducto/</resourcens>
+		<resourcens>https://datos.ign.es/recurso/btn100/oleoducto/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -295,7 +295,7 @@
 		<columns>
 		<column>situacionDeVia</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>SITUACION</column_shp>
 		</columns>
