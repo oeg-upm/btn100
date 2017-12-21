@@ -55,6 +55,66 @@
   <order>
   <hop> <from>Valor Java Script Modificado</from><to>Selecciona&#47;Renombra valores</to><enabled>Y</enabled> </hop>  <hop> <from>Selecciona&#47;Renombra valores</from><to>SRS Transformation</to><enabled>Y</enabled> </hop>  <hop> <from>SRS Transformation</from><to>tripleGEO</to><enabled>Y</enabled> </hop>  <hop> <from>tripleGEO</from><to>Text file output</to><enabled>Y</enabled> </hop>  <hop> <from>Filtrar filas</from><to>Dummy Plugin</to><enabled>Y</enabled> </hop>  <hop> <from>Shapefile File Input</from><to>Filtrar filas</to><enabled>Y</enabled> </hop>  <hop> <from>Filtrar filas</from><to>Valor Java Script Modificado</to><enabled>Y</enabled> </hop>  </order>
   <step>
+    <name>Dummy Plugin</name>
+    <type>DummyPlugin</type>
+    <description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <values>
+<value><name>valuename</name><type>Number</type><text>123.456</text><length>12</length><precision>4</precision><isnull>N</isnull><mask>#.#;-#.#</mask></value>      </values>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>300</xloc>
+      <yloc>223</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Filtrar filas</name>
+    <type>FilterRows</type>
+    <description/>
+    <distribute>N</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+<send_true_to>Valor Java Script Modificado</send_true_to>
+<send_false_to>Dummy Plugin</send_false_to>
+    <compare>
+<condition>
+ <negated>N</negated>
+ <conditions>
+  <condition>
+   <negated>N</negated>
+   <leftvalue>ID</leftvalue>
+   <function>&gt;</function>
+   <rightvalue/>
+   <value><name>constant</name><type>Integer</type><text>50000</text><length>-1</length><precision>0</precision><isnull>N</isnull><mask>#;-#</mask></value>   </condition>
+  <condition>
+   <negated>N</negated>
+   <operator>AND</operator>
+   <leftvalue>ID</leftvalue>
+   <function>&lt;=</function>
+   <rightvalue/>
+   <value><name>constant</name><type>Integer</type><text>75000</text><length>-1</length><precision>0</precision><isnull>N</isnull><mask>#;-#</mask></value>   </condition>
+  </conditions>
+ </condition>
+    </compare>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>140</xloc>
+      <yloc>223</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
     <name>SRS Transformation</name>
     <type>SRSTransformation</type>
     <description/>
@@ -126,7 +186,7 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <filename>${Internal.Transformation.Filename.Directory}/BTN100_0605L_PISTA.shp</filename>
+    <filename>${Internal.Transformation.Filename.Directory}&#47;BTN100_0605L_PISTA.shp</filename>
     <isfilenameinfield>N</isfilenameinfield>
     <filenamefield/>
     <limit>0</limit>
@@ -165,7 +225,7 @@
     <fileNameInField>N</fileNameInField>
     <fileNameField/>
     <file>
-      <name>${Internal.Transformation.Filename.Directory}/BTN100_0605L_PISTA3</name>
+      <name>${Internal.Transformation.Filename.Directory}&#47;BTN100_0605L_PISTA3</name>
       <is_command>N</is_command>
       <do_not_open_new_file_init>N</do_not_open_new_file_init>
       <extention>ttl</extention>
@@ -254,9 +314,9 @@ else{
            </partitioning>
 		<attributename>ID</attributename>
 		<feature>Pista</feature>
-		<ontologyns>https://datos.ign.es/def/</ontologyns>
+		<ontologyns>https://datos.ign.es/def/btn100#</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/pista/</resourcens>
+		<resourcens>https://datos.ign.es/recurso/btn100/pista/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -311,66 +371,6 @@ else{
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
       <xloc>509</xloc>
       <yloc>507</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Dummy Plugin</name>
-    <type>DummyPlugin</type>
-    <description/>
-    <distribute>Y</distribute>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <values>
-<value><name>valuename</name><type>Number</type><text>123.456</text><length>12</length><precision>4</precision><isnull>N</isnull><mask>#.#;-#.#</mask></value>      </values>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>300</xloc>
-      <yloc>223</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Filtrar filas</name>
-    <type>FilterRows</type>
-    <description/>
-    <distribute>N</distribute>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-<send_true_to>Valor Java Script Modificado</send_true_to>
-<send_false_to>Dummy Plugin</send_false_to>
-    <compare>
-<condition>
- <negated>N</negated>
- <conditions>
-  <condition>
-   <negated>N</negated>
-   <leftvalue>ID</leftvalue>
-   <function>&gt;</function>
-   <rightvalue/>
-   <value><name>constant</name><type>Integer</type><text>50000</text><length>-1</length><precision>0</precision><isnull>N</isnull><mask>#;-#</mask></value>   </condition>
-  <condition>
-   <negated>N</negated>
-   <operator>AND</operator>
-   <leftvalue>ID</leftvalue>
-   <function>&lt;=</function>
-   <rightvalue/>
-   <value><name>constant</name><type>Integer</type><text>75000</text><length>-1</length><precision>0</precision><isnull>N</isnull><mask>#;-#</mask></value>   </condition>
-  </conditions>
- </condition>
-    </compare>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>140</xloc>
-      <yloc>223</yloc>
       <draw>Y</draw>
       </GUI>
     </step>

@@ -66,9 +66,9 @@
            </partitioning>
 		<attributename>ID</attributename>
 		<feature>EstacionPermanenteGPS</feature>
-		<ontologyns>https://datos.ign.es/def/</ontologyns>
+		<ontologyns>https://datos.ign.es/def/btn100#</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/estacion-permanente-gps/</resourcens>
+		<resourcens>https://datos.ign.es/recurso/btn100/estacion-permanente-gps/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -125,28 +125,28 @@
 		<columns>
 		<column>codigoEstacionGPS</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>COD_1002</column_shp>
 		</columns>
 		<columns>
 		<column>huso</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>HUSO</column_shp>
 		</columns>
 		<columns>
 		<column>xETRS89</column>
-		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
+		<prefix>geo_core</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;geo_core#</uri>
 		<show>YES</show>
 		<column_shp>X_ETRS89</column_shp>
 		</columns>
 		<columns>
 		<column>yETRS89</column>
-		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
+		<prefix>geo_core</prefix>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;geo_core#</uri>
 		<show>YES</show>
 		<column_shp>Y_ETRS89</column_shp>
 		</columns>
@@ -167,7 +167,7 @@
 		<columns>
 		<column>altitudOrtometrica</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>ALT_ORTOM</column_shp>
 		</columns>

@@ -351,9 +351,9 @@ else{
            </partitioning>
 		<attributename>ID</attributename>
 		<feature>Puerto</feature>
-		<ontologyns>https://datos.ign.es/def/</ontologyns>
+		<ontologyns>https://datos.ign.es/def/btn100#</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/puerto/</resourcens>
+		<resourcens>https://datos.ign.es/recurso/btn100/puerto/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -406,21 +406,21 @@ else{
 		<columns>
 		<column>estadoDeUso</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>ESTADO</column_shp>
 		</columns>
 		<columns>
 		<column>competenciaPortuaria</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>COMPE_0613</column_shp>
 		</columns>
 		<columns>
 		<column>unloCode</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>UN_LOCODE</column_shp>
 		</columns>
@@ -434,7 +434,7 @@ else{
 		<columns>
 		<column>rutaTEN-T</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;</uri>
+		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>TEN_T</column_shp>
 		</columns>

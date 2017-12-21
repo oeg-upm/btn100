@@ -1,144 +1,67 @@
 @prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix sf:    <http://www.opengis.net/ont/sf#> .
-@prefix btn100: <https://datos.ign.es/def/> .
+@prefix btn100: <https://datos.ign.es/def/btn100#> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl:   <http://www.w3.org/2002/07/owl#> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
-@prefix georec: <https://datos.ign.es/recurso/entidad-virtual-golfo/> .
+@prefix georec: <https://datos.ign.es/recurso/btn100/estrecho/> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
 @prefix dc:    <http://purl.org/dc/terms/> .
 
-<https://datos.ign.es/recurso/entidad-virtual-golfo/231/geometry>
+georec:226  a                  btn100:Estrecho ;
+        dc:created             "2013-03-20"^^xsd:date ;
+        dc:identifier          "226" ;
+        dc:title               "El Río" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estrecho/226/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/estrecho/367/geometry>
         a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-18.058741649999998 27.780504972208593, -18.03294598 27.786127402217904, -18.01406269 27.797467342236683)"^^geosparql:wktLiteral .
+        geosparql:asWKT  "LINESTRING (-5.37843914 35.920368974468616, -5.336439810000001 35.92119407446962)"^^geosparql:wktLiteral .
 
-georec:33  a                   btn100:EntidadVirtualGolfo ;
-        dc:created             "2011-03-25"^^xsd:date ;
-        dc:identifier          "33" ;
-        dc:title               "GOLF DE ROSES" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/entidad-virtual-golfo/33/geometry> ;
-        btn100:productoFuente  <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c> .
+georec:367  a                  btn100:Estrecho ;
+        dc:created             "2013-06-17"^^xsd:date ;
+        dc:identifier          "367" ;
+        dc:title               "ESTRECHO DE GIBRALTAR" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estrecho/367/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
 
-georec:48  a                   btn100:EntidadVirtualGolfo ;
-        dc:created             "2011-03-16"^^xsd:date ;
-        dc:identifier          "48" ;
-        dc:title               "GOLF DE SANT JORDI" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/entidad-virtual-golfo/48/geometry> ;
-        btn100:productoFuente  <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c> .
+georec:255  a                  btn100:Estrecho ;
+        dc:created             "2013-03-05"^^xsd:date ;
+        dc:identifier          "255" ;
+        dc:title               "Estrecho de Rande" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estrecho/255/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
 
-georec:32  a                   btn100:EntidadVirtualGolfo ;
-        dc:created             "2011-03-25"^^xsd:date ;
-        dc:identifier          "32" ;
-        dc:title               "Golf de la Morisca" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/entidad-virtual-golfo/32/geometry> ;
-        btn100:productoFuente  <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
-
-georec:329  a                  btn100:EntidadVirtualGolfo ;
-        dc:created             "2010-08-25"^^xsd:date ;
-        dc:identifier          "329" ;
-        dc:title               "GOLFO DA MASMA" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/entidad-virtual-golfo/329/geometry> ;
-        btn100:productoFuente  <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
-
-<https://datos.ign.es/recurso/entidad-virtual-golfo/329/geometry>
+<https://datos.ign.es/recurso/btn100/estrecho/180/geometry>
         a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-7.274800889999999 43.654986640252716, -7.24631113 43.63365876024819, -7.209582600000001 43.61440901024407, -7.128210339999999 43.59727985024035)"^^geosparql:wktLiteral .
+        geosparql:asWKT  "LINESTRING (2.33386117 39.58321649819038, 2.34665138 39.602087008205295)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/entidad-virtual-golfo/32/geometry>
+georec:180  a                  btn100:Estrecho ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "180" ;
+        dc:title               "Es Freu" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estrecho/180/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/estrecho/226/geometry>
         a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (3.20378259 42.077027409736544, 3.247290340000001 42.07673923973641)"^^geosparql:wktLiteral .
+        geosparql:asWKT  "LINESTRING (-13.517461889999998 29.210375174567957, -13.46336132 29.251875424635976)"^^geosparql:wktLiteral .
 
-georec:18  a                   btn100:EntidadVirtualGolfo ;
-        dc:created             "2012-06-05"^^xsd:date ;
-        dc:identifier          "18" ;
-        dc:title               "Golfo de Vizcaya" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/entidad-virtual-golfo/18/geometry> ;
-        btn100:productoFuente  <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
+georec:161  a                  btn100:Estrecho ;
+        dc:created             "2012-11-14"^^xsd:date ;
+        dc:identifier          "161" ;
+        dc:title               "ESTRECHO DE GIBRALTAR" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estrecho/161/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
 
-<https://datos.ign.es/recurso/entidad-virtual-golfo/10/geometry>
+<https://datos.ign.es/recurso/btn100/estrecho/255/geometry>
         a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.42248025 38.192213376965135, -0.4058456500000001 38.212309716984585, -0.3890110000000001 38.231734327003295, -0.3743346300000002 38.24943229702034, -0.3570683200000001 38.27015187704022, -0.3251256299999999 38.303389527072014, -0.30656435 38.32367744709137, -0.26944177 38.35562012712171, -0.24872219 38.37202312713723, -0.2284342700000001 38.3858361771503, -0.20944133 38.40051254716413, -0.18742677 38.41648388717918, -0.16541222 38.43116025719297, -0.14382933 38.446268277207125, -0.12224644 38.461807967221695)"^^geosparql:wktLiteral .
+        geosparql:asWKT  "LINESTRING (-8.702828729999998 42.265876829817664, -8.66511171 42.286258289826094)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/entidad-virtual-golfo/18/geometry>
+<https://datos.ign.es/recurso/btn100/estrecho/161/geometry>
         a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-3.0961050600000015 43.47740454021309, -2.8238486000000003 43.47888274021346)"^^geosparql:wktLiteral .
-
-georec:11  a                   btn100:EntidadVirtualGolfo ;
-        dc:created             "2012-02-16"^^xsd:date ;
-        dc:identifier          "11" ;
-        dc:title               "Golfo de Santa Pola" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/entidad-virtual-golfo/11/geometry> ;
-        btn100:productoFuente  <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
-
-georec:138  a                  btn100:EntidadVirtualGolfo ;
-        dc:created             "2013-06-13"^^xsd:date ;
-        dc:identifier          "138" ;
-        dc:title               "GOLFO DE ALMERÍA" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/entidad-virtual-golfo/138/geometry> ;
-        btn100:productoFuente  <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
-
-georec:231  a                  btn100:EntidadVirtualGolfo ;
-        dc:created             "2013-02-19"^^xsd:date ;
-        dc:identifier          "231" ;
-        dc:title               "El Golfo" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/entidad-virtual-golfo/231/geometry> ;
-        btn100:productoFuente  <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c> .
-
-georec:20  a                   btn100:EntidadVirtualGolfo ;
-        dc:created             "2012-04-27"^^xsd:date ;
-        dc:identifier          "20" ;
-        dc:title               "Golfo de Vizcaya" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/entidad-virtual-golfo/20/geometry> ;
-        btn100:productoFuente  <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
-
-<https://datos.ign.es/recurso/entidad-virtual-golfo/48/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (0.7289675500000001 40.80025181905339, 0.8160029100000004 40.8004084290535)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/entidad-virtual-golfo/165/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-7.246956299999998 37.141971605882894, -7.200037180000001 37.13873906587937, -7.1606666400000005 37.133382245873506, -7.121366979999999 37.12923652586899, -7.0826045099999995 37.12076488585973, -6.900528859999998 37.080893455816025, -6.860889899999999 37.0693089658033, -6.701988930000002 36.99769060572429, -6.675515570000001 36.972132185695926, -6.650586739999999 36.94651980566747, -6.63019503 36.91953584563737, -6.609760440000001 36.89132214560585)"^^geosparql:wktLiteral .
-
-georec:10  a                   btn100:EntidadVirtualGolfo ;
-        dc:created             "2012-02-16"^^xsd:date ;
-        dc:identifier          "10" ;
-        dc:title               "Golfo de Alicante" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/entidad-virtual-golfo/10/geometry> ;
-        btn100:productoFuente  <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
-
-<https://datos.ign.es/recurso/entidad-virtual-golfo/20/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-1.9620468000000006 43.366648320185995, -1.7713245200000003 43.43954647020405, -1.7269649699999996 43.46335117020975, -1.6157245199999999 43.53109244022556)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/entidad-virtual-golfo/11/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.5626588199999998 38.004534566781324, -0.5632905300000001 38.0144098167911, -0.5625099399999997 38.02349714680009, -0.5622334599999997 38.03183628680832, -0.56141469 38.04206071681842, -0.5599022000000002 38.05871900683482, -0.5571773499999999 38.06852443684448, -0.55525923 38.08289829685858, -0.55303759 38.091955436867494, -0.5508026900000002 38.101391556876706, -0.5486051800000001 38.10969046688485, -0.5463563599999999 38.119505476894425, -0.5396353699999997 38.13377844690837, -0.5359318400000002 38.14394200691828, -0.53133109 38.15219003692631, -0.5276509600000001 38.161595156935455)"^^geosparql:wktLiteral .
-
-georec:165  a                  btn100:EntidadVirtualGolfo ;
-        dc:created             "2010-09-20"^^xsd:date ;
-        dc:identifier          "165" ;
-        dc:title               "GOLFO DE CÁDIZ" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/entidad-virtual-golfo/165/geometry> ;
-        btn100:productoFuente  <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
-
-<https://datos.ign.es/recurso/entidad-virtual-golfo/138/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-2.489805880000001 36.761165515459254, -2.3507345000000006 36.75991549545783)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/entidad-virtual-golfo/68/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-1.3538826199999998 37.48846073625418, -1.1981143499999996 37.48834365625406)"^^geosparql:wktLiteral .
-
-georec:68  a                   btn100:EntidadVirtualGolfo ;
-        dc:created             "2010-10-27"^^xsd:date ;
-        dc:identifier          "68" ;
-        dc:title               "GOLFO DE MAZARRÓN" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/entidad-virtual-golfo/68/geometry> ;
-        btn100:productoFuente  <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
-
-<https://datos.ign.es/recurso/entidad-virtual-golfo/33/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (3.152668030000001 42.19322725978707, 3.190390460000001 42.19257755978677)"^^geosparql:wktLiteral .
+        geosparql:asWKT  "LINESTRING (-5.620905470000001 35.94127362449414, -5.6075283 35.94234423449544, -5.598465239999999 35.94351476449686, -5.585572279999999 35.94476721449839, -5.57555742 35.94615130450008, -5.564590999999998 35.94774967450202, -5.553390970000001 35.949546794504215, -5.54290852 35.95132766450639, -5.5176762099999985 35.9563397545125, -5.50172852 35.95959506451648, -5.4739175000000015 35.96659954452499, -5.465603769999999 35.968913284527794, -5.456337740000003 35.97144074453089, -5.44398806 35.97500426453521, -5.434493029999999 35.97792427453877, -5.42572169 35.981023694542536, -5.416452819999999 35.9835481645456, -5.407218810000001 35.98723990455009, -5.39654087 35.99076502455436)"^^geosparql:wktLiteral .
 

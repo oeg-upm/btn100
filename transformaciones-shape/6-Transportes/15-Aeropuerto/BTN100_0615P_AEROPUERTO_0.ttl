@@ -1,241 +1,25 @@
 @prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix sf:    <http://www.opengis.net/ont/sf#> .
-@prefix btn100: <https://datos.ign.es/def/> .
+@prefix btn100: <https://datos.ign.es/def/btn100#> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl:   <http://www.w3.org/2002/07/owl#> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
-@prefix georec: <https://datos.ign.es/recurso/aeropuerto/> .
+@prefix georec: <https://datos.ign.es/recurso/btn100/aeropuerto/> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
 @prefix dc:    <http://purl.org/dc/terms/> .
 
-georec:196  a                  btn100:Aeropuerto ;
-        dc:created             "2012-03-14"^^xsd:date ;
-        dc:identifier          "196" ;
-        dc:replaces            "0.0" ;
-        dc:title               "Base Aérea de Zaragoza" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/196/geometry> ;
-        btn100:altitud         "252.0" ;
-        btn100:codigoIATA      "ZAZ" ;
-        btn100:codigoICAO      "LEZG" ;
-        btn100:competenciaAeroportuaria
-                <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/militar> ;
-        btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
-
-<https://datos.ign.es/recurso/aeropuerto/274/geometry>
-        a                sf:Point ;
-        geosparql:asWKT  "POINT (-1.8559175799999992 38.95077518713861)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/aeropuerto/194/geometry>
-        a                sf:Point ;
-        geosparql:asWKT  "POINT (-1.02933666 41.66845822900992)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/aeropuerto/321/geometry>
-        a                sf:Point ;
-        geosparql:asWKT  "POINT (-3.82252366 43.42680776966483)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/aeropuerto/41/geometry>
-        a                sf:Point ;
-        geosparql:asWKT  "POINT (-3.7785131100000027 40.36939576824091)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/aeropuerto/10/geometry>
-        a                sf:Point ;
-        geosparql:asWKT  "POINT (-0.4760266100000001 39.48714541758655)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/aeropuerto/108/geometry>
-        a                sf:Point ;
-        geosparql:asWKT  "POINT (-3.613702009999999 42.36046314932162)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/aeropuerto/489/geometry>
-        a                sf:Point ;
-        geosparql:asWKT  "POINT (-5.6081151 37.17393645540036)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/aeropuerto/458/geometry>
+<https://datos.ign.es/recurso/btn100/aeropuerto/458/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.719340950000003 39.55301914763899)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/aeropuerto/102/geometry>
-        a                sf:Point ;
-        geosparql:asWKT  "POINT (-1.6463081999999996 42.769813309473186)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/aeropuerto/98/geometry>
-        a                sf:Point ;
-        geosparql:asWKT  "POINT (-1.7913315900000004 43.35625242964732)"^^geosparql:wktLiteral .
-
-georec:341  a                  btn100:Aeropuerto ;
-        dc:created             "2012-12-28"^^xsd:date ;
-        dc:identifier          "341" ;
-        dc:replaces            "0.0" ;
-        dc:title               "Aeropuerto de Armilla" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/341/geometry> ;
-        btn100:altitud         "680.0" ;
-        btn100:codigoICAO      "LEGA" ;
-        btn100:competenciaAeroportuaria
-                <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/militar> ;
-        btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
-
-<https://datos.ign.es/recurso/aeropuerto/291/geometry>
-        a                sf:Point ;
-        geosparql:asWKT  "POINT (-1.2276612299999998 37.9553571262114)"^^geosparql:wktLiteral .
-
-georec:119  a                  btn100:Aeropuerto ;
-        dc:created             "2012-04-26"^^xsd:date ;
-        dc:identifier          "119" ;
-        dc:replaces            "0.0" ;
-        dc:title               "Aeroport de Lleida" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/119/geometry> ;
-        btn100:altitud         "353.0" ;
-        btn100:codigoIATA      "ILD" ;
-        btn100:codigoICAO      "LEDA" ;
-        btn100:competenciaAeroportuaria
-                <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
-        btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
-
-<https://datos.ign.es/recurso/aeropuerto/92/geometry>
-        a                sf:Point ;
-        geosparql:asWKT  "POINT (-2.7325300499999994 42.88234806951056)"^^geosparql:wktLiteral .
-
-georec:41  a                   btn100:Aeropuerto ;
-        dc:created             "2012-09-19"^^xsd:date ;
-        dc:identifier          "41" ;
-        dc:replaces            "0.0" ;
-        dc:title               "Aeropuerto de Madrid-Cuatro Vientos" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/41/geometry> ;
-        btn100:altitud         "687.0" ;
-        btn100:codigoIATA      "MCV" ;
-        btn100:codigoICAO      "LECU" ;
-        btn100:competenciaAeroportuaria
-                <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
-        btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
-
-<https://datos.ign.es/recurso/aeropuerto/341/geometry>
-        a                sf:Point ;
-        geosparql:asWKT  "POINT (-3.634167120000002 37.13701293536033)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/aeropuerto/159/geometry>
-        a                sf:Point ;
-        geosparql:asWKT  "POINT (2.1041563500000007 41.51984681893401)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/aeropuerto/33/geometry>
-        a                sf:Point ;
-        geosparql:asWKT  "POINT (-0.5573655599999999 38.28715834653399)"^^geosparql:wktLiteral .
-
-georec:420  a                  btn100:Aeropuerto ;
-        dc:created             "2014-08-21"^^xsd:date ;
-        dc:identifier          "420" ;
-        dc:replaces            "0.0" ;
-        dc:title               "Aeropuerto de Jerez" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/420/geometry> ;
-        btn100:altitud         "26.0" ;
-        btn100:codigoIATA      "XRY" ;
-        btn100:codigoICAO      "LEJR" ;
-        btn100:competenciaAeroportuaria
-                <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
-        btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-transeuropea> .
-
-georec:546  a                  btn100:Aeropuerto ;
-        dc:created             "2013-01-30"^^xsd:date ;
-        dc:identifier          "546" ;
-        dc:replaces            "0.0" ;
-        dc:title               "Aeropuerto de La Palma" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/546/geometry> ;
-        btn100:altitud         "24.0" ;
-        btn100:codigoIATA      "SPC" ;
-        btn100:codigoICAO      "GCLA" ;
-        btn100:competenciaAeroportuaria
-                <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
-        btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
-
-georec:33  a                   btn100:Aeropuerto ;
-        dc:created             "2014-08-21"^^xsd:date ;
-        dc:identifier          "33" ;
-        dc:replaces            "0.0" ;
-        dc:title               "Aeroport d'Alacant" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/33/geometry> ;
-        btn100:altitud         "28.0" ;
-        btn100:codigoIATA      "ALC" ;
-        btn100:codigoICAO      "LEAL" ;
-        btn100:competenciaAeroportuaria
-                <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
-        btn100:rutaTENT-T      "03" .
-
-<https://datos.ign.es/recurso/aeropuerto/548/geometry>
-        a                sf:Point ;
-        geosparql:asWKT  "POINT (-16.344766609714952 28.48820892581215)"^^geosparql:wktLiteral .
-
-georec:387  a                  btn100:Aeropuerto ;
-        dc:created             "2014-08-21"^^xsd:date ;
-        dc:identifier          "387" ;
-        dc:replaces            "0.0" ;
-        dc:title               "Aeropuerto de Málaga" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/387/geometry> ;
-        btn100:altitud         "12.0" ;
-        btn100:codigoIATA      "AGP" ;
-        btn100:codigoICAO      "LEMG" ;
-        btn100:competenciaAeroportuaria
-                <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
-        btn100:rutaTENT-T      "03" .
-
-<https://datos.ign.es/recurso/aeropuerto/545/geometry>
-        a                sf:Point ;
-        geosparql:asWKT  "POINT (-17.21209337 28.031807282178384)"^^geosparql:wktLiteral .
-
-georec:274  a                  btn100:Aeropuerto ;
-        dc:created             "2012-01-26"^^xsd:date ;
-        dc:identifier          "274" ;
-        dc:replaces            "0.0" ;
-        dc:title               "Aeropuerto de Albacete" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/274/geometry> ;
-        btn100:altitud         "700.0" ;
-        btn100:codigoIATA      "ABC" ;
-        btn100:codigoICAO      "LEAB" ;
-        btn100:competenciaAeroportuaria
-                <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
-        btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
-
-<https://datos.ign.es/recurso/aeropuerto/511/geometry>
-        a                sf:Point ;
-        geosparql:asWKT  "POINT (-6.82133291 38.8931241870883)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/aeropuerto/196/geometry>
-        a                sf:Point ;
-        geosparql:asWKT  "POINT (-1.06813951 41.67756932901449)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/aeropuerto/270/geometry>
-        a                sf:Point ;
-        geosparql:asWKT  "POINT (-5.50088253 40.940379918608)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/aeropuerto/43/geometry>
-        a                sf:Point ;
-        geosparql:asWKT  "POINT (-3.4453072500000004 40.49115444832295)"^^geosparql:wktLiteral .
-
-georec:40  a                   btn100:Aeropuerto ;
-        dc:created             "2012-09-19"^^xsd:date ;
-        dc:identifier          "40" ;
-        dc:replaces            "0.0" ;
-        dc:title               "Aeropuerto de Base Aérea de Getafe" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/40/geometry> ;
-        btn100:altitud         "616.0" ;
-        btn100:codigoICAO      "LEGT" ;
-        btn100:competenciaAeroportuaria
-                <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/militar> ;
-        btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
-
-<https://datos.ign.es/recurso/aeropuerto/40/geometry>
-        a                sf:Point ;
-        geosparql:asWKT  "POINT (-3.7235986900000024 40.29422147818923)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/aeropuerto/596/geometry>
-        a                sf:Point ;
-        geosparql:asWKT  "POINT (-6.031672790000003 43.562312249696404)"^^geosparql:wktLiteral .
 
 georec:159  a                  btn100:Aeropuerto ;
         dc:created             "2012-04-18"^^xsd:date ;
         dc:identifier          "159" ;
         dc:replaces            "0.0" ;
         dc:title               "Aeroport de Sabadell" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/159/geometry> ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/159/geometry> ;
         btn100:altitud         "142.0" ;
         btn100:codigoIATA      "QSA" ;
         btn100:codigoICAO      "LELL" ;
@@ -243,20 +27,25 @@ georec:159  a                  btn100:Aeropuerto ;
                 <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
-<https://datos.ign.es/recurso/aeropuerto/132/geometry>
-        a                sf:Point ;
-        geosparql:asWKT  "POINT (1.4109116800000006 42.34137021931395)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/aeropuerto/488/geometry>
-        a                sf:Point ;
-        geosparql:asWKT  "POINT (-5.903010979999998 37.420772025664164)"^^geosparql:wktLiteral .
+georec:98  a                   btn100:Aeropuerto ;
+        dc:created             "2014-08-21"^^xsd:date ;
+        dc:identifier          "98" ;
+        dc:replaces            "0.0" ;
+        dc:title               "Aeropuerto de San Sebastián/Donostiako Aireportua" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/98/geometry> ;
+        btn100:altitud         "3.0" ;
+        btn100:codigoIATA      "EAS" ;
+        btn100:codigoICAO      "LESO" ;
+        btn100:competenciaAeroportuaria
+                <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-transeuropea> .
 
 georec:545  a                  btn100:Aeropuerto ;
         dc:created             "2013-01-30"^^xsd:date ;
         dc:identifier          "545" ;
         dc:replaces            "0.0" ;
         dc:title               "Aeropuerto de La Gomera" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/545/geometry> ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/545/geometry> ;
         btn100:altitud         "218.0" ;
         btn100:codigoIATA      "GMZ" ;
         btn100:codigoICAO      "GCGM" ;
@@ -264,16 +53,12 @@ georec:545  a                  btn100:Aeropuerto ;
                 <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
-<https://datos.ign.es/recurso/aeropuerto/457/geometry>
-        a                sf:Point ;
-        geosparql:asWKT  "POINT (1.3633371299992865 38.871064627068904)"^^geosparql:wktLiteral .
-
 georec:460  a                  btn100:Aeropuerto ;
         dc:created             "2014-08-20"^^xsd:date ;
         dc:identifier          "460" ;
         dc:replaces            "0.0" ;
         dc:title               "Aeroport de Menorca" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/460/geometry> ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/460/geometry> ;
         btn100:altitud         "84.0" ;
         btn100:codigoIATA      "MAH" ;
         btn100:codigoICAO      "LEMH" ;
@@ -281,12 +66,33 @@ georec:460  a                  btn100:Aeropuerto ;
                 <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-transeuropea> .
 
+georec:10  a                   btn100:Aeropuerto ;
+        dc:created             "2014-08-21"^^xsd:date ;
+        dc:identifier          "10" ;
+        dc:replaces            "0.0" ;
+        dc:title               "Aeroport de Manises" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/10/geometry> ;
+        btn100:altitud         "57.0" ;
+        btn100:codigoIATA      "VLC" ;
+        btn100:codigoICAO      "LEVC" ;
+        btn100:competenciaAeroportuaria
+                <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        btn100:rutaTENT-T      "03" .
+
+<https://datos.ign.es/recurso/btn100/aeropuerto/291/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.2276612299999998 37.9553571262114)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/aeropuerto/186/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.31811579 42.07651165920211)"^^geosparql:wktLiteral .
+
 georec:611  a                  btn100:Aeropuerto ;
         dc:created             "2014-08-21"^^xsd:date ;
         dc:identifier          "611" ;
         dc:replaces            "0.0" ;
         dc:title               "Aeropuerto de Melilla" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/611/geometry> ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/611/geometry> ;
         btn100:altitud         "50.0" ;
         btn100:codigoIATA      "MLN" ;
         btn100:codigoICAO      "GEML" ;
@@ -299,7 +105,7 @@ georec:181  a                  btn100:Aeropuerto ;
         dc:identifier          "181" ;
         dc:replaces            "0.0" ;
         dc:title               "Aeroport de Reus" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/181/geometry> ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/181/geometry> ;
         btn100:altitud         "76.0" ;
         btn100:codigoIATA      "REU" ;
         btn100:codigoICAO      "LERS" ;
@@ -307,16 +113,25 @@ georec:181  a                  btn100:Aeropuerto ;
                 <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-transeuropea> .
 
-<https://datos.ign.es/recurso/aeropuerto/420/geometry>
-        a                sf:Point ;
-        geosparql:asWKT  "POINT (-6.06509943 36.74782042492895)"^^geosparql:wktLiteral .
+georec:92  a                   btn100:Aeropuerto ;
+        dc:created             "2014-08-21"^^xsd:date ;
+        dc:identifier          "92" ;
+        dc:replaces            "0.0" ;
+        dc:title               "Aeropuerto de Foronda/Forondako Aireportua" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/92/geometry> ;
+        btn100:altitud         "506.0" ;
+        btn100:codigoIATA      "VIT" ;
+        btn100:codigoICAO      "LEVT" ;
+        btn100:competenciaAeroportuaria
+                <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-transeuropea> .
 
 georec:458  a                  btn100:Aeropuerto ;
         dc:created             "2014-08-21"^^xsd:date ;
         dc:identifier          "458" ;
         dc:replaces            "0.0" ;
         dc:title               "Aeroport de Son San Joan" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/458/geometry> ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/458/geometry> ;
         btn100:altitud         "3.0" ;
         btn100:codigoIATA      "PMI" ;
         btn100:codigoICAO      "LEPA" ;
@@ -329,7 +144,7 @@ georec:194  a                  btn100:Aeropuerto ;
         dc:identifier          "194" ;
         dc:replaces            "0.0" ;
         dc:title               "Aeropuerto de Zaragoza" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/194/geometry> ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/194/geometry> ;
         btn100:altitud         "249.0" ;
         btn100:codigoIATA      "ZAZ" ;
         btn100:codigoICAO      "LEZG" ;
@@ -337,20 +152,12 @@ georec:194  a                  btn100:Aeropuerto ;
                 <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-transeuropea> .
 
-<https://datos.ign.es/recurso/aeropuerto/186/geometry>
-        a                sf:Point ;
-        geosparql:asWKT  "POINT (-0.31811579 42.07651165920211)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/aeropuerto/158/geometry>
-        a                sf:Point ;
-        geosparql:asWKT  "POINT (2.0822122700000003 41.295540418813445)"^^geosparql:wktLiteral .
-
 georec:304  a                  btn100:Aeropuerto ;
         dc:created             "2012-02-03"^^xsd:date ;
         dc:identifier          "304" ;
         dc:replaces            "0.0" ;
         dc:title               "Aeropuerto Central de Ciudad Real" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/304/geometry> ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/304/geometry> ;
         btn100:altitud         "622.0" ;
         btn100:codigoIATA      "CQM" ;
         btn100:codigoICAO      "LERL" ;
@@ -363,7 +170,7 @@ georec:511  a                  btn100:Aeropuerto ;
         dc:identifier          "511" ;
         dc:replaces            "0.0" ;
         dc:title               "Aeropuerto de Badajoz" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/511/geometry> ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/511/geometry> ;
         btn100:altitud         "180.0" ;
         btn100:codigoIATA      "BJZ" ;
         btn100:codigoICAO      "LEBZ" ;
@@ -376,7 +183,7 @@ georec:637  a                  btn100:Aeropuerto ;
         dc:identifier          "637" ;
         dc:replaces            "0.0" ;
         dc:title               "Aeropuerto de Almería-LEAM" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/637/geometry> ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/637/geometry> ;
         btn100:altitud         "21.0" ;
         btn100:codigoIATA      "LEI" ;
         btn100:codigoICAO      "LEAM" ;
@@ -384,40 +191,69 @@ georec:637  a                  btn100:Aeropuerto ;
                 <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-transeuropea> .
 
-<https://datos.ign.es/recurso/aeropuerto/527/geometry>
-        a                sf:Point ;
-        geosparql:asWKT  "POINT (-15.391823240000004 27.93625279202117)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/aeropuerto/447/geometry>
+<https://datos.ign.es/recurso/btn100/aeropuerto/447/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.348740295866103 36.15100116111586)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/aeropuerto/419/geometry>
+<https://datos.ign.es/recurso/btn100/aeropuerto/10/geometry>
         a                sf:Point ;
-        geosparql:asWKT  "POINT (-6.348925619999998 36.64025933480682)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/aeropuerto/471/geometry>
-        a                sf:Point ;
-        geosparql:asWKT  "POINT (-4.846463310000001 37.845465876101656)"^^geosparql:wktLiteral .
+        geosparql:asWKT  "POINT (-0.4760266100000001 39.48714541758655)"^^geosparql:wktLiteral .
 
 georec:132  a                  btn100:Aeropuerto ;
         dc:created             "2012-04-24"^^xsd:date ;
         dc:identifier          "132" ;
         dc:replaces            "0.0" ;
         dc:title               "Aeroport de la Seu d'Urgell i Andorra" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/132/geometry> ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/132/geometry> ;
         btn100:altitud         "802.0" ;
         btn100:codigoICAO      "LESU" ;
         btn100:competenciaAeroportuaria
                 <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
+georec:7  a                    btn100:Aeropuerto ;
+        dc:created             "2015-05-20"^^xsd:date ;
+        dc:identifier          "7" ;
+        dc:replaces            "0.0" ;
+        dc:title               "Aeroport de Vinaròs" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/7/geometry> ;
+        btn100:altitud         "115.0" ;
+        btn100:codigoICAO      "LEVN" ;
+        btn100:competenciaAeroportuaria
+                <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
+        btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
+
+georec:43  a                   btn100:Aeropuerto ;
+        dc:created             "2012-09-19"^^xsd:date ;
+        dc:identifier          "43" ;
+        dc:replaces            "0.0" ;
+        dc:title               "Aeropuerto de Madrid-Torrejón" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/43/geometry> ;
+        btn100:altitud         "602.0" ;
+        btn100:codigoIATA      "TOJ" ;
+        btn100:codigoICAO      "LETO" ;
+        btn100:competenciaAeroportuaria
+                <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
+
+<https://datos.ign.es/recurso/btn100/aeropuerto/98/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.7913315900000004 43.35625242964732)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/aeropuerto/548/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-16.344766609714952 28.48820892581215)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/aeropuerto/572/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.381809490000004 43.30249811963349)"^^geosparql:wktLiteral .
+
 georec:186  a                  btn100:Aeropuerto ;
         dc:created             "2012-05-17"^^xsd:date ;
         dc:identifier          "186" ;
         dc:replaces            "0.0" ;
         dc:title               "Aeropuerto de Huesca-Pirineos" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/186/geometry> ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/186/geometry> ;
         btn100:altitud         "531.0" ;
         btn100:codigoIATA      "HSK" ;
         btn100:codigoICAO      "LEHC" ;
@@ -425,12 +261,16 @@ georec:186  a                  btn100:Aeropuerto ;
                 <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
+<https://datos.ign.es/recurso/btn100/aeropuerto/387/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.49318879 36.674576304845914)"^^geosparql:wktLiteral .
+
 georec:158  a                  btn100:Aeropuerto ;
         dc:created             "2014-08-21"^^xsd:date ;
         dc:identifier          "158" ;
         dc:replaces            "0.0" ;
         dc:title               "Aeroport de Barcelona" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/158/geometry> ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/158/geometry> ;
         btn100:altitud         "2.0" ;
         btn100:codigoIATA      "BCN" ;
         btn100:codigoICAO      "LEBL" ;
@@ -438,20 +278,20 @@ georec:158  a                  btn100:Aeropuerto ;
                 <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
         btn100:rutaTENT-T      "03" .
 
-<https://datos.ign.es/recurso/aeropuerto/547/geometry>
+<https://datos.ign.es/recurso/btn100/aeropuerto/33/geometry>
         a                sf:Point ;
-        geosparql:asWKT  "POINT (-16.578576120000005 28.04778424220466)"^^geosparql:wktLiteral .
+        geosparql:asWKT  "POINT (-0.5573655599999999 38.28715834653399)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/aeropuerto/572/geometry>
+<https://datos.ign.es/recurso/btn100/aeropuerto/511/geometry>
         a                sf:Point ;
-        geosparql:asWKT  "POINT (-8.381809490000004 43.30249811963349)"^^geosparql:wktLiteral .
+        geosparql:asWKT  "POINT (-6.82133291 38.8931241870883)"^^geosparql:wktLiteral .
 
 georec:572  a                  btn100:Aeropuerto ;
         dc:created             "2014-08-21"^^xsd:date ;
         dc:identifier          "572" ;
         dc:replaces            "0.0" ;
         dc:title               "Aeropuerto de A Coruña" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/572/geometry> ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/572/geometry> ;
         btn100:altitud         "95.0" ;
         btn100:codigoIATA      "LCG" ;
         btn100:codigoICAO      "LECO" ;
@@ -459,16 +299,12 @@ georec:572  a                  btn100:Aeropuerto ;
                 <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-transeuropea> .
 
-<https://datos.ign.es/recurso/aeropuerto/544/geometry>
-        a                sf:Point ;
-        geosparql:asWKT  "POINT (-17.885233399999997 27.814077851820123)"^^geosparql:wktLiteral .
-
 georec:544  a                  btn100:Aeropuerto ;
         dc:created             "2013-01-30"^^xsd:date ;
         dc:identifier          "544" ;
         dc:replaces            "0.0" ;
         dc:title               "Aeropuerto de El Hierro" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/544/geometry> ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/544/geometry> ;
         btn100:altitud         "29.0" ;
         btn100:codigoIATA      "VDE" ;
         btn100:codigoICAO      "GCHI" ;
@@ -476,16 +312,20 @@ georec:544  a                  btn100:Aeropuerto ;
                 <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
-<https://datos.ign.es/recurso/aeropuerto/387/geometry>
+<https://datos.ign.es/recurso/btn100/aeropuerto/196/geometry>
         a                sf:Point ;
-        geosparql:asWKT  "POINT (-4.49318879 36.674576304845914)"^^geosparql:wktLiteral .
+        geosparql:asWKT  "POINT (-1.06813951 41.67756932901449)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/aeropuerto/270/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.50088253 40.940379918608)"^^geosparql:wktLiteral .
 
 georec:265  a                  btn100:Aeropuerto ;
         dc:created             "2014-08-21"^^xsd:date ;
         dc:identifier          "265" ;
         dc:replaces            "0.0" ;
         dc:title               "Aeropuerto de Valladolid" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/265/geometry> ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/265/geometry> ;
         btn100:altitud         "844.0" ;
         btn100:codigoIATA      "VLL" ;
         btn100:codigoICAO      "LEVD" ;
@@ -498,7 +338,7 @@ georec:529  a                  btn100:Aeropuerto ;
         dc:identifier          "529" ;
         dc:replaces            "0.0" ;
         dc:title               "Aeropuerto de Fuerteventura" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/529/geometry> ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/529/geometry> ;
         btn100:altitud         "23.0" ;
         btn100:codigoIATA      "FUE" ;
         btn100:codigoICAO      "GCFV" ;
@@ -506,29 +346,16 @@ georec:529  a                  btn100:Aeropuerto ;
                 <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
-georec:4  a                    btn100:Aeropuerto ;
-        dc:created             "2012-02-15"^^xsd:date ;
-        dc:identifier          "4" ;
-        dc:replaces            "0.0" ;
-        dc:title               "Aeropuerto de Castellón" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/4/geometry> ;
-        btn100:altitud         "345.0" ;
-        btn100:codigoIATA      "CDT" ;
-        btn100:codigoICAO      "LECS" ;
-        btn100:competenciaAeroportuaria
-                <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
-        btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
-
-<https://datos.ign.es/recurso/aeropuerto/42/geometry>
+<https://datos.ign.es/recurso/btn100/aeropuerto/611/geometry>
         a                sf:Point ;
-        geosparql:asWKT  "POINT (-3.5634429200000013 40.49417094832496)"^^geosparql:wktLiteral .
+        geosparql:asWKT  "POINT (-2.95682004 35.28012706315941)"^^geosparql:wktLiteral .
 
 georec:457  a                  btn100:Aeropuerto ;
         dc:created             "2014-08-21"^^xsd:date ;
         dc:identifier          "457" ;
         dc:replaces            "0.0" ;
         dc:title               "Aeroport des Codolar" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/457/geometry> ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/457/geometry> ;
         btn100:altitud         "7.0" ;
         btn100:codigoIATA      "IBZ" ;
         btn100:codigoICAO      "LEIB" ;
@@ -536,16 +363,37 @@ georec:457  a                  btn100:Aeropuerto ;
                 <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-transeuropea> .
 
-<https://datos.ign.es/recurso/aeropuerto/611/geometry>
+<https://datos.ign.es/recurso/btn100/aeropuerto/457/geometry>
         a                sf:Point ;
-        geosparql:asWKT  "POINT (-2.95682004 35.28012706315941)"^^geosparql:wktLiteral .
+        geosparql:asWKT  "POINT (1.3633371299992865 38.871064627068904)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/aeropuerto/296/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.13203072 37.804197966060066)"^^geosparql:wktLiteral .
+
+georec:89  a                   btn100:Aeropuerto ;
+        dc:created             "2012-05-09"^^xsd:date ;
+        dc:identifier          "89" ;
+        dc:replaces            "0.0" ;
+        dc:title               "Aeropuerto de Logroño-Agoncillo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/89/geometry> ;
+        btn100:altitud         "350.0" ;
+        btn100:codigoIATA      "RJL" ;
+        btn100:codigoICAO      "LERJ" ;
+        btn100:competenciaAeroportuaria
+                <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
+
+<https://datos.ign.es/recurso/btn100/aeropuerto/420/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.06509943 36.74782042492895)"^^geosparql:wktLiteral .
 
 georec:564  a                  btn100:Aeropuerto ;
         dc:created             "2014-08-21"^^xsd:date ;
         dc:identifier          "564" ;
         dc:replaces            "0.0" ;
         dc:title               "Aeropuerto de Vigo" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/564/geometry> ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/564/geometry> ;
         btn100:altitud         "252.0" ;
         btn100:codigoIATA      "VGO" ;
         btn100:codigoICAO      "LEVX" ;
@@ -553,58 +401,45 @@ georec:564  a                  btn100:Aeropuerto ;
                 <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-transeuropea> .
 
-<https://datos.ign.es/recurso/aeropuerto/96/geometry>
+<https://datos.ign.es/recurso/btn100/aeropuerto/158/geometry>
         a                sf:Point ;
-        geosparql:asWKT  "POINT (-2.903596450000023 43.30086988963308)"^^geosparql:wktLiteral .
+        geosparql:asWKT  "POINT (2.0822122700000003 41.295540418813445)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/aeropuerto/296/geometry>
-        a                sf:Point ;
-        geosparql:asWKT  "POINT (-1.13203072 37.804197966060066)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/aeropuerto/342/geometry>
-        a                sf:Point ;
-        geosparql:asWKT  "POINT (-3.7770882900000005 37.18483190541215)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/aeropuerto/265/geometry>
-        a                sf:Point ;
-        geosparql:asWKT  "POINT (-4.843968160000001 41.705676059028455)"^^geosparql:wktLiteral .
-
-georec:98  a                   btn100:Aeropuerto ;
+georec:42  a                   btn100:Aeropuerto ;
         dc:created             "2014-08-21"^^xsd:date ;
-        dc:identifier          "98" ;
+        dc:identifier          "42" ;
         dc:replaces            "0.0" ;
-        dc:title               "Aeropuerto de San Sebastián/Donostiako Aireportua" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/98/geometry> ;
-        btn100:altitud         "3.0" ;
-        btn100:codigoIATA      "EAS" ;
-        btn100:codigoICAO      "LESO" ;
-        btn100:competenciaAeroportuaria
-                <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
-        btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-transeuropea> .
-
-<https://datos.ign.es/recurso/aeropuerto/637/geometry>
-        a                sf:Point ;
-        geosparql:asWKT  "POINT (-2.3700969400000007 36.84393695464702)"^^geosparql:wktLiteral .
-
-georec:10  a                   btn100:Aeropuerto ;
-        dc:created             "2014-08-21"^^xsd:date ;
-        dc:identifier          "10" ;
-        dc:replaces            "0.0" ;
-        dc:title               "Aeroport de Manises" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/10/geometry> ;
-        btn100:altitud         "57.0" ;
-        btn100:codigoIATA      "VLC" ;
-        btn100:codigoICAO      "LEVC" ;
+        dc:title               "Aeropuerto de Adolfo Suárez Madrid-Barajas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/42/geometry> ;
+        btn100:altitud         "595.0" ;
+        btn100:codigoIATA      "MAD" ;
+        btn100:codigoICAO      "LEMD" ;
         btn100:competenciaAeroportuaria
                 <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
         btn100:rutaTENT-T      "03" .
+
+<https://datos.ign.es/recurso/btn100/aeropuerto/527/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-15.391823240000004 27.93625279202117)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/aeropuerto/43/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.4453072500000004 40.49115444832295)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/aeropuerto/419/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.348925619999998 36.64025933480682)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/aeropuerto/471/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.846463310000001 37.845465876101656)"^^geosparql:wktLiteral .
 
 georec:530  a                  btn100:Aeropuerto ;
         dc:created             "2012-12-27"^^xsd:date ;
         dc:identifier          "530" ;
         dc:replaces            "0.0" ;
         dc:title               "Aeropuerto de Lanzarote" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/530/geometry> ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/530/geometry> ;
         btn100:altitud         "19.0" ;
         btn100:codigoIATA      "ACE" ;
         btn100:codigoICAO      "GCRR" ;
@@ -612,12 +447,29 @@ georec:530  a                  btn100:Aeropuerto ;
                 <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
+georec:96  a                   btn100:Aeropuerto ;
+        dc:created             "2014-08-21"^^xsd:date ;
+        dc:identifier          "96" ;
+        dc:replaces            "0.0" ;
+        dc:title               "Aeropuerto de Bilbao/Bilbaoko Aireportua" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/96/geometry> ;
+        btn100:altitud         "44.0" ;
+        btn100:codigoIATA      "BIO" ;
+        btn100:codigoICAO      "LEBB" ;
+        btn100:competenciaAeroportuaria
+                <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        btn100:rutaTENT-T      "03" .
+
+<https://datos.ign.es/recurso/btn100/aeropuerto/40/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.7235986900000024 40.29422147818923)"^^geosparql:wktLiteral .
+
 georec:571  a                  btn100:Aeropuerto ;
         dc:created             "2014-08-21"^^xsd:date ;
         dc:identifier          "571" ;
         dc:replaces            "0.0" ;
         dc:title               "Aeropuerto de Santiago de Compostela" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/571/geometry> ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/571/geometry> ;
         btn100:altitud         "363.0" ;
         btn100:codigoIATA      "SCQ" ;
         btn100:codigoICAO      "LEST" ;
@@ -630,39 +482,18 @@ georec:198  a                  btn100:Aeropuerto ;
         dc:identifier          "198" ;
         dc:replaces            "0.0" ;
         dc:title               "Aeropuerto de Teruel - Caudé" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/198/geometry> ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/198/geometry> ;
         btn100:altitud         "1019.0" ;
         btn100:competenciaAeroportuaria
                 <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
-
-georec:92  a                   btn100:Aeropuerto ;
-        dc:created             "2014-08-21"^^xsd:date ;
-        dc:identifier          "92" ;
-        dc:replaces            "0.0" ;
-        dc:title               "Aeropuerto de Foronda/Forondako Aireportua" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/92/geometry> ;
-        btn100:altitud         "506.0" ;
-        btn100:codigoIATA      "VIT" ;
-        btn100:codigoICAO      "LEVT" ;
-        btn100:competenciaAeroportuaria
-                <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
-        btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-transeuropea> .
-
-<https://datos.ign.es/recurso/aeropuerto/89/geometry>
-        a                sf:Point ;
-        geosparql:asWKT  "POINT (-2.31732618 42.455928409359174)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/aeropuerto/7/geometry>
-        a                sf:Point ;
-        geosparql:asWKT  "POINT (0.3901127800000001 40.519726748341924)"^^geosparql:wktLiteral .
 
 georec:292  a                  btn100:Aeropuerto ;
         dc:created             "2014-08-21"^^xsd:date ;
         dc:identifier          "292" ;
         dc:replaces            "0.0" ;
         dc:title               "Aeropuerto de Murcia-San Javier" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/292/geometry> ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/292/geometry> ;
         btn100:altitud         "4.0" ;
         btn100:codigoIATA      "MJV" ;
         btn100:codigoICAO      "LELC" ;
@@ -670,16 +501,12 @@ georec:292  a                  btn100:Aeropuerto ;
                 <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-transeuropea> .
 
-<https://datos.ign.es/recurso/aeropuerto/4/geometry>
-        a                sf:Point ;
-        geosparql:asWKT  "POINT (0.071647 40.21314938813265)"^^geosparql:wktLiteral .
-
 georec:471  a                  btn100:Aeropuerto ;
         dc:created             "2006-07-24"^^xsd:date ;
         dc:identifier          "471" ;
         dc:replaces            "33193.0" ;
         dc:title               "Aeropuerto de Córdoba" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/471/geometry> ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/471/geometry> ;
         btn100:altitud         "91.0" ;
         btn100:codigoIATA      "ODB" ;
         btn100:codigoICAO      "LEBA" ;
@@ -687,24 +514,28 @@ georec:471  a                  btn100:Aeropuerto ;
                 <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
-<https://datos.ign.es/recurso/aeropuerto/304/geometry>
+<https://datos.ign.es/recurso/btn100/aeropuerto/547/geometry>
         a                sf:Point ;
-        geosparql:asWKT  "POINT (-3.9911031100000005 38.86761772706588)"^^geosparql:wktLiteral .
+        geosparql:asWKT  "POINT (-16.578576120000005 28.04778424220466)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/aeropuerto/119/geometry>
-        a                sf:Point ;
-        geosparql:asWKT  "POINT (0.5362081700000001 41.73075437904082)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/aeropuerto/571/geometry>
+<https://datos.ign.es/recurso/btn100/aeropuerto/571/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-8.420047690000002 42.89937712951605)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/aeropuerto/544/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-17.885233399999997 27.814077851820123)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/aeropuerto/460/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.2245450799999995 39.86339501787835)"^^geosparql:wktLiteral .
 
 georec:108  a                  btn100:Aeropuerto ;
         dc:created             "2014-08-21"^^xsd:date ;
         dc:identifier          "108" ;
         dc:replaces            "0.0" ;
         dc:title               "Aeropuerto de Burgos" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/108/geometry> ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/108/geometry> ;
         btn100:altitud         "898.0" ;
         btn100:codigoIATA      "RGS" ;
         btn100:codigoICAO      "LEBG" ;
@@ -712,16 +543,16 @@ georec:108  a                  btn100:Aeropuerto ;
                 <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-transeuropea> .
 
-<https://datos.ign.es/recurso/aeropuerto/460/geometry>
+<https://datos.ign.es/recurso/btn100/aeropuerto/198/geometry>
         a                sf:Point ;
-        geosparql:asWKT  "POINT (4.2245450799999995 39.86339501787835)"^^geosparql:wktLiteral .
+        geosparql:asWKT  "POINT (-1.2231941000000002 40.41389515827113)"^^geosparql:wktLiteral .
 
 georec:149  a                  btn100:Aeropuerto ;
         dc:created             "2014-08-20"^^xsd:date ;
         dc:identifier          "149" ;
         dc:replaces            "0.0" ;
         dc:title               "Aeropuerto de Girona-Costa Brava" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/149/geometry> ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/149/geometry> ;
         btn100:altitud         "130.0" ;
         btn100:codigoIATA      "GRO" ;
         btn100:codigoICAO      "LEGE" ;
@@ -729,29 +560,16 @@ georec:149  a                  btn100:Aeropuerto ;
                 <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-transeuropea> .
 
-georec:43  a                   btn100:Aeropuerto ;
-        dc:created             "2012-09-19"^^xsd:date ;
-        dc:identifier          "43" ;
-        dc:replaces            "0.0" ;
-        dc:title               "Aeropuerto de Madrid-Torrejón" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/43/geometry> ;
-        btn100:altitud         "602.0" ;
-        btn100:codigoIATA      "TOJ" ;
-        btn100:codigoICAO      "LETO" ;
-        btn100:competenciaAeroportuaria
-                <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
-        btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
-
-<https://datos.ign.es/recurso/aeropuerto/198/geometry>
+<https://datos.ign.es/recurso/btn100/aeropuerto/564/geometry>
         a                sf:Point ;
-        geosparql:asWKT  "POINT (-1.2231941000000002 40.41389515827113)"^^geosparql:wktLiteral .
+        geosparql:asWKT  "POINT (-8.633284360000001 42.22481166926599)"^^geosparql:wktLiteral .
 
 georec:548  a                  btn100:Aeropuerto ;
         dc:created             "2013-01-30"^^xsd:date ;
         dc:identifier          "548" ;
         dc:replaces            "0.0" ;
         dc:title               "Aeropuerto de Tenerife Norte" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/548/geometry> ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/548/geometry> ;
         btn100:altitud         "622.0" ;
         btn100:codigoIATA      "TFN" ;
         btn100:codigoICAO      "GCXO" ;
@@ -764,7 +582,7 @@ georec:102  a                  btn100:Aeropuerto ;
         dc:identifier          "102" ;
         dc:replaces            "0.0" ;
         dc:title               "Aeropuerto de Noáin" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/102/geometry> ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/102/geometry> ;
         btn100:altitud         "454.0" ;
         btn100:codigoIATA      "PNA" ;
         btn100:codigoICAO      "LEPP" ;
@@ -772,16 +590,29 @@ georec:102  a                  btn100:Aeropuerto ;
                 <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-transeuropea> .
 
-<https://datos.ign.es/recurso/aeropuerto/564/geometry>
+georec:41  a                   btn100:Aeropuerto ;
+        dc:created             "2012-09-19"^^xsd:date ;
+        dc:identifier          "41" ;
+        dc:replaces            "0.0" ;
+        dc:title               "Aeropuerto de Madrid-Cuatro Vientos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/41/geometry> ;
+        btn100:altitud         "687.0" ;
+        btn100:codigoIATA      "MCV" ;
+        btn100:codigoICAO      "LECU" ;
+        btn100:competenciaAeroportuaria
+                <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
+
+<https://datos.ign.es/recurso/btn100/aeropuerto/530/geometry>
         a                sf:Point ;
-        geosparql:asWKT  "POINT (-8.633284360000001 42.22481166926599)"^^geosparql:wktLiteral .
+        geosparql:asWKT  "POINT (-13.608439599999999 28.952019793688045)"^^geosparql:wktLiteral .
 
 georec:115  a                  btn100:Aeropuerto ;
         dc:created             "2012-08-08"^^xsd:date ;
         dc:identifier          "115" ;
         dc:replaces            "0.0" ;
         dc:title               "Aeropuerto de Garray" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/115/geometry> ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/115/geometry> ;
         btn100:altitud         "1021.0" ;
         btn100:codigoICAO      "LEGY" ;
         btn100:competenciaAeroportuaria
@@ -793,7 +624,7 @@ georec:489  a                  btn100:Aeropuerto ;
         dc:identifier          "489" ;
         dc:replaces            "0.0" ;
         dc:title               "Base Aérea de Morón de la Frontera" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/489/geometry> ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/489/geometry> ;
         btn100:altitud         "85.0" ;
         btn100:codigoIATA      "OZP" ;
         btn100:codigoICAO      "LEMO" ;
@@ -801,36 +632,48 @@ georec:489  a                  btn100:Aeropuerto ;
                 <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/militar> ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
-<https://datos.ign.es/recurso/aeropuerto/530/geometry>
-        a                sf:Point ;
-        geosparql:asWKT  "POINT (-13.608439599999999 28.952019793688045)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/aeropuerto/292/geometry>
+<https://datos.ign.es/recurso/btn100/aeropuerto/292/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.8109775000000001 37.77845321603401)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/aeropuerto/314/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.657938040000003 42.59164883941027)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/aeropuerto/342/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.7770882900000005 37.18483190541215)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/aeropuerto/265/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.843968160000001 41.705676059028455)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/aeropuerto/181/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.1530720800000003 41.14653556872942)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/aeropuerto/637/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.3700969400000007 36.84393695464702)"^^geosparql:wktLiteral .
 
 georec:291  a                  btn100:Aeropuerto ;
         dc:created             "2012-07-18"^^xsd:date ;
         dc:identifier          "291" ;
         dc:replaces            "0.0" ;
         dc:title               "Base Aérea de Alcantarilla" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/291/geometry> ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/291/geometry> ;
         btn100:altitud         "68.0" ;
         btn100:codigoICAO      "LERI" ;
         btn100:competenciaAeroportuaria
                 <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/militar> ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
-<https://datos.ign.es/recurso/aeropuerto/314/geometry>
-        a                sf:Point ;
-        geosparql:asWKT  "POINT (-5.657938040000003 42.59164883941027)"^^geosparql:wktLiteral .
-
 georec:527  a                  btn100:Aeropuerto ;
         dc:created             "2012-12-27"^^xsd:date ;
         dc:identifier          "527" ;
         dc:replaces            "0.0" ;
         dc:title               "Aeropuerto de Gran Canaria" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/527/geometry> ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/527/geometry> ;
         btn100:altitud         "30.0" ;
         btn100:codigoIATA      "LPA" ;
         btn100:codigoICAO      "GCLP" ;
@@ -838,12 +681,16 @@ georec:527  a                  btn100:Aeropuerto ;
                 <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
+<https://datos.ign.es/recurso/btn100/aeropuerto/529/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-13.86749057999941 28.448364292862934)"^^geosparql:wktLiteral .
+
 georec:596  a                  btn100:Aeropuerto ;
         dc:created             "2014-08-21"^^xsd:date ;
         dc:identifier          "596" ;
         dc:replaces            "0.0" ;
         dc:title               "Aeropuerto de Asturias" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/596/geometry> ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/596/geometry> ;
         btn100:altitud         "126.0" ;
         btn100:codigoIATA      "OVD" ;
         btn100:codigoICAO      "LEAS" ;
@@ -851,33 +698,29 @@ georec:596  a                  btn100:Aeropuerto ;
                 <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-transeuropea> .
 
-<https://datos.ign.es/recurso/aeropuerto/181/geometry>
+<https://datos.ign.es/recurso/btn100/aeropuerto/42/geometry>
         a                sf:Point ;
-        geosparql:asWKT  "POINT (1.1530720800000003 41.14653556872942)"^^geosparql:wktLiteral .
+        geosparql:asWKT  "POINT (-3.5634429200000013 40.49417094832496)"^^geosparql:wktLiteral .
 
-georec:89  a                   btn100:Aeropuerto ;
-        dc:created             "2012-05-09"^^xsd:date ;
-        dc:identifier          "89" ;
+georec:33  a                   btn100:Aeropuerto ;
+        dc:created             "2014-08-21"^^xsd:date ;
+        dc:identifier          "33" ;
         dc:replaces            "0.0" ;
-        dc:title               "Aeropuerto de Logroño-Agoncillo" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/89/geometry> ;
-        btn100:altitud         "350.0" ;
-        btn100:codigoIATA      "RJL" ;
-        btn100:codigoICAO      "LERJ" ;
+        dc:title               "Aeroport d'Alacant" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/33/geometry> ;
+        btn100:altitud         "28.0" ;
+        btn100:codigoIATA      "ALC" ;
+        btn100:codigoICAO      "LEAL" ;
         btn100:competenciaAeroportuaria
                 <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
-        btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
-
-<https://datos.ign.es/recurso/aeropuerto/529/geometry>
-        a                sf:Point ;
-        geosparql:asWKT  "POINT (-13.86749057999941 28.448364292862934)"^^geosparql:wktLiteral .
+        btn100:rutaTENT-T      "03" .
 
 georec:342  a                  btn100:Aeropuerto ;
         dc:created             "2014-08-21"^^xsd:date ;
         dc:identifier          "342" ;
         dc:replaces            "0.0" ;
         dc:title               "Aeropuerto de Federico García Lorca" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/342/geometry> ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/342/geometry> ;
         btn100:altitud         "570.0" ;
         btn100:codigoIATA      "GRX" ;
         btn100:codigoICAO      "LEGR" ;
@@ -890,7 +733,7 @@ georec:314  a                  btn100:Aeropuerto ;
         dc:identifier          "314" ;
         dc:replaces            "0.0" ;
         dc:title               "Aeropuerto de León" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/314/geometry> ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/314/geometry> ;
         btn100:altitud         "920.0" ;
         btn100:codigoIATA      "LEN" ;
         btn100:codigoICAO      "LELN" ;
@@ -898,25 +741,20 @@ georec:314  a                  btn100:Aeropuerto ;
                 <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-transeuropea> .
 
-georec:42  a                   btn100:Aeropuerto ;
-        dc:created             "2014-08-21"^^xsd:date ;
-        dc:identifier          "42" ;
-        dc:replaces            "0.0" ;
-        dc:title               "Aeropuerto de Adolfo Suárez Madrid-Barajas" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/42/geometry> ;
-        btn100:altitud         "595.0" ;
-        btn100:codigoIATA      "MAD" ;
-        btn100:codigoICAO      "LEMD" ;
-        btn100:competenciaAeroportuaria
-                <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
-        btn100:rutaTENT-T      "03" .
+<https://datos.ign.es/recurso/btn100/aeropuerto/304/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.9911031100000005 38.86761772706588)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/aeropuerto/119/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.5362081700000001 41.73075437904082)"^^geosparql:wktLiteral .
 
 georec:270  a                  btn100:Aeropuerto ;
         dc:created             "2014-08-21"^^xsd:date ;
         dc:identifier          "270" ;
         dc:replaces            "0.0" ;
         dc:title               "Aeropuerto de Salamanca" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/270/geometry> ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/270/geometry> ;
         btn100:altitud         "791.0" ;
         btn100:codigoIATA      "SLM" ;
         btn100:codigoICAO      "LESA" ;
@@ -924,16 +762,20 @@ georec:270  a                  btn100:Aeropuerto ;
                 <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-transeuropea> .
 
-<https://datos.ign.es/recurso/aeropuerto/149/geometry>
+<https://datos.ign.es/recurso/btn100/aeropuerto/96/geometry>
         a                sf:Point ;
-        geosparql:asWKT  "POINT (2.76441553 41.90388823912374)"^^geosparql:wktLiteral .
+        geosparql:asWKT  "POINT (-2.903596450000023 43.30086988963308)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/aeropuerto/546/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-17.752131770000002 28.62117564314644)"^^geosparql:wktLiteral .
 
 georec:547  a                  btn100:Aeropuerto ;
         dc:created             "2013-01-30"^^xsd:date ;
         dc:identifier          "547" ;
         dc:replaces            "0.0" ;
         dc:title               "Aeropuerto de Tenerife Sur" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/547/geometry> ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/547/geometry> ;
         btn100:altitud         "73.0" ;
         btn100:codigoIATA      "TFS" ;
         btn100:codigoICAO      "GCTS" ;
@@ -941,29 +783,37 @@ georec:547  a                  btn100:Aeropuerto ;
                 <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
-georec:96  a                   btn100:Aeropuerto ;
-        dc:created             "2014-08-21"^^xsd:date ;
-        dc:identifier          "96" ;
+georec:40  a                   btn100:Aeropuerto ;
+        dc:created             "2012-09-19"^^xsd:date ;
+        dc:identifier          "40" ;
         dc:replaces            "0.0" ;
-        dc:title               "Aeropuerto de Bilbao/Bilbaoko Aireportua" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/96/geometry> ;
-        btn100:altitud         "44.0" ;
-        btn100:codigoIATA      "BIO" ;
-        btn100:codigoICAO      "LEBB" ;
+        dc:title               "Aeropuerto de Base Aérea de Getafe" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/40/geometry> ;
+        btn100:altitud         "616.0" ;
+        btn100:codigoICAO      "LEGT" ;
+        btn100:competenciaAeroportuaria
+                <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/militar> ;
+        btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
+
+georec:4  a                    btn100:Aeropuerto ;
+        dc:created             "2012-02-15"^^xsd:date ;
+        dc:identifier          "4" ;
+        dc:replaces            "0.0" ;
+        dc:title               "Aeropuerto de Castellón" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/4/geometry> ;
+        btn100:altitud         "345.0" ;
+        btn100:codigoIATA      "CDT" ;
+        btn100:codigoICAO      "LECS" ;
         btn100:competenciaAeroportuaria
                 <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
-        btn100:rutaTENT-T      "03" .
-
-<https://datos.ign.es/recurso/aeropuerto/115/geometry>
-        a                sf:Point ;
-        geosparql:asWKT  "POINT (-2.47259876 41.820389709084296)"^^geosparql:wktLiteral .
+        btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:296  a                  btn100:Aeropuerto ;
         dc:created             "2012-03-07"^^xsd:date ;
         dc:identifier          "296" ;
         dc:replaces            "0.0" ;
         dc:title               "Aeropuerto de Murcia" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/296/geometry> ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/296/geometry> ;
         btn100:altitud         "197.0" ;
         btn100:codigoIATA      "RMU" ;
         btn100:codigoICAO      "LEMI" ;
@@ -971,28 +821,20 @@ georec:296  a                  btn100:Aeropuerto ;
                 <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
-<https://datos.ign.es/recurso/aeropuerto/546/geometry>
+<https://datos.ign.es/recurso/btn100/aeropuerto/194/geometry>
         a                sf:Point ;
-        geosparql:asWKT  "POINT (-17.752131770000002 28.62117564314644)"^^geosparql:wktLiteral .
+        geosparql:asWKT  "POINT (-1.02933666 41.66845822900992)"^^geosparql:wktLiteral .
 
-georec:7  a                    btn100:Aeropuerto ;
-        dc:created             "2015-05-20"^^xsd:date ;
-        dc:identifier          "7" ;
-        dc:replaces            "0.0" ;
-        dc:title               "Aeroport de Vinaròs" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/7/geometry> ;
-        btn100:altitud         "115.0" ;
-        btn100:codigoICAO      "LEVN" ;
-        btn100:competenciaAeroportuaria
-                <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
-        btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
+<https://datos.ign.es/recurso/btn100/aeropuerto/7/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.3901127800000001 40.519726748341924)"^^geosparql:wktLiteral .
 
 georec:321  a                  btn100:Aeropuerto ;
         dc:created             "2014-08-21"^^xsd:date ;
         dc:identifier          "321" ;
         dc:replaces            "0.0" ;
         dc:title               "Aeropuerto de Santander" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/321/geometry> ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/321/geometry> ;
         btn100:altitud         "3.0" ;
         btn100:codigoIATA      "SDR" ;
         btn100:codigoICAO      "LEXJ" ;
@@ -1005,7 +847,7 @@ georec:447  a                  btn100:Aeropuerto ;
         dc:identifier          "447" ;
         dc:replaces            "0.0" ;
         dc:title               "Aeropuerto de Gibraltar" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/447/geometry> ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/447/geometry> ;
         btn100:altitud         "2.0" ;
         btn100:codigoIATA      "GIB" ;
         btn100:codigoICAO      "LXGB" ;
@@ -1013,28 +855,186 @@ georec:447  a                  btn100:Aeropuerto ;
                 <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
+<https://datos.ign.es/recurso/btn100/aeropuerto/4/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.071647 40.21314938813265)"^^geosparql:wktLiteral .
+
 georec:419  a                  btn100:Aeropuerto ;
         dc:created             "2012-11-14"^^xsd:date ;
         dc:identifier          "419" ;
         dc:replaces            "0.0" ;
         dc:title               "Aeropuerto de la Base Naval de Rota" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/419/geometry> ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/419/geometry> ;
         btn100:altitud         "28.0" ;
         btn100:codigoICAO      "LERT" ;
         btn100:competenciaAeroportuaria
                 <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/militar> ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
+<https://datos.ign.es/recurso/btn100/aeropuerto/321/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.82252366 43.42680776966483)"^^geosparql:wktLiteral .
+
 georec:488  a                  btn100:Aeropuerto ;
         dc:created             "2014-08-21"^^xsd:date ;
         dc:identifier          "488" ;
         dc:replaces            "0.0" ;
         dc:title               "Aeropuerto de Sevilla" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/aeropuerto/488/geometry> ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/488/geometry> ;
         btn100:altitud         "24.0" ;
         btn100:codigoIATA      "SVQ" ;
         btn100:codigoICAO      "LEZL" ;
         btn100:competenciaAeroportuaria
                 <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
         btn100:rutaTENT-T      "03" .
+
+georec:196  a                  btn100:Aeropuerto ;
+        dc:created             "2012-03-14"^^xsd:date ;
+        dc:identifier          "196" ;
+        dc:replaces            "0.0" ;
+        dc:title               "Base Aérea de Zaragoza" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/196/geometry> ;
+        btn100:altitud         "252.0" ;
+        btn100:codigoIATA      "ZAZ" ;
+        btn100:codigoICAO      "LEZG" ;
+        btn100:competenciaAeroportuaria
+                <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/militar> ;
+        btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
+
+<https://datos.ign.es/recurso/btn100/aeropuerto/108/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.613702009999999 42.36046314932162)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/aeropuerto/489/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.6081151 37.17393645540036)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/aeropuerto/89/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.31732618 42.455928409359174)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/aeropuerto/102/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.6463081999999996 42.769813309473186)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/aeropuerto/341/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.634167120000002 37.13701293536033)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/aeropuerto/159/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.1041563500000007 41.51984681893401)"^^geosparql:wktLiteral .
+
+georec:341  a                  btn100:Aeropuerto ;
+        dc:created             "2012-12-28"^^xsd:date ;
+        dc:identifier          "341" ;
+        dc:replaces            "0.0" ;
+        dc:title               "Aeropuerto de Armilla" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/341/geometry> ;
+        btn100:altitud         "680.0" ;
+        btn100:codigoICAO      "LEGA" ;
+        btn100:competenciaAeroportuaria
+                <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/militar> ;
+        btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
+
+georec:119  a                  btn100:Aeropuerto ;
+        dc:created             "2012-04-26"^^xsd:date ;
+        dc:identifier          "119" ;
+        dc:replaces            "0.0" ;
+        dc:title               "Aeroport de Lleida" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/119/geometry> ;
+        btn100:altitud         "353.0" ;
+        btn100:codigoIATA      "ILD" ;
+        btn100:codigoICAO      "LEDA" ;
+        btn100:competenciaAeroportuaria
+                <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/privado> ;
+        btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
+
+georec:420  a                  btn100:Aeropuerto ;
+        dc:created             "2014-08-21"^^xsd:date ;
+        dc:identifier          "420" ;
+        dc:replaces            "0.0" ;
+        dc:title               "Aeropuerto de Jerez" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/420/geometry> ;
+        btn100:altitud         "26.0" ;
+        btn100:codigoIATA      "XRY" ;
+        btn100:codigoICAO      "LEJR" ;
+        btn100:competenciaAeroportuaria
+                <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-transeuropea> .
+
+georec:546  a                  btn100:Aeropuerto ;
+        dc:created             "2013-01-30"^^xsd:date ;
+        dc:identifier          "546" ;
+        dc:replaces            "0.0" ;
+        dc:title               "Aeropuerto de La Palma" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/546/geometry> ;
+        btn100:altitud         "24.0" ;
+        btn100:codigoIATA      "SPC" ;
+        btn100:codigoICAO      "GCLA" ;
+        btn100:competenciaAeroportuaria
+                <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
+
+<https://datos.ign.es/recurso/btn100/aeropuerto/41/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.7785131100000027 40.36939576824091)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/aeropuerto/149/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.76441553 41.90388823912374)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/aeropuerto/115/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.47259876 41.820389709084296)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/aeropuerto/545/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-17.21209337 28.031807282178384)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/aeropuerto/92/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.7325300499999994 42.88234806951056)"^^geosparql:wktLiteral .
+
+georec:387  a                  btn100:Aeropuerto ;
+        dc:created             "2014-08-21"^^xsd:date ;
+        dc:identifier          "387" ;
+        dc:replaces            "0.0" ;
+        dc:title               "Aeropuerto de Málaga" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/387/geometry> ;
+        btn100:altitud         "12.0" ;
+        btn100:codigoIATA      "AGP" ;
+        btn100:codigoICAO      "LEMG" ;
+        btn100:competenciaAeroportuaria
+                <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        btn100:rutaTENT-T      "03" .
+
+georec:274  a                  btn100:Aeropuerto ;
+        dc:created             "2012-01-26"^^xsd:date ;
+        dc:identifier          "274" ;
+        dc:replaces            "0.0" ;
+        dc:title               "Aeropuerto de Albacete" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/aeropuerto/274/geometry> ;
+        btn100:altitud         "700.0" ;
+        btn100:codigoIATA      "ABC" ;
+        btn100:codigoICAO      "LEAB" ;
+        btn100:competenciaAeroportuaria
+                <https://datos.ign.es/kos/transportes/competencia-aeroportuaria/aena> ;
+        btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
+
+<https://datos.ign.es/recurso/btn100/aeropuerto/274/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.8559175799999992 38.95077518713861)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/aeropuerto/596/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.031672790000003 43.562312249696404)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/aeropuerto/488/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.903010979999998 37.420772025664164)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/aeropuerto/132/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.4109116800000006 42.34137021931395)"^^geosparql:wktLiteral .
 

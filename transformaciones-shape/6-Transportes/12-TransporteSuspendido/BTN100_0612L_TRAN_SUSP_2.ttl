@@ -1,692 +1,624 @@
 @prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix sf:    <http://www.opengis.net/ont/sf#> .
-@prefix btn100: <https://datos.ign.es/def/> .
+@prefix btn100: <https://datos.ign.es/def/btn100#> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl:   <http://www.w3.org/2002/07/owl#> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
-@prefix georec: <https://datos.ign.es/recurso/telesilla/> .
+@prefix georec: <https://datos.ign.es/recurso/btn100/telesilla/> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
 @prefix dc:    <http://purl.org/dc/terms/> .
 
-<https://datos.ign.es/recurso/telesilla/14/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.53382836 42.78646985001421, -0.53502864 42.77638626001079)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/telesilla/11/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.41473447 42.79664597001763, -0.4150237499999999 42.79241152001621)"^^geosparql:wktLiteral .
-
-georec:60  a                   btn100:Telesilla ;
-        rdfs:label             "60" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "60" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/60/geometry> .
-
-georec:32  a                   btn100:Telesilla ;
-        rdfs:label             "32" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "32" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/32/geometry> .
-
-georec:9  a                    btn100:Telesilla ;
-        rdfs:label             "9" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "9" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/9/geometry> .
-
-georec:45  a                   btn100:Telesilla ;
-        rdfs:label             "45" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "45" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/45/geometry> .
-
-<https://datos.ign.es/recurso/telesilla/68/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.3716436699999999 42.77474784001021, -0.3708552500000001 42.768306210008014)"^^geosparql:wktLiteral .
-
-georec:17  a                   btn100:Telesilla ;
-        rdfs:label             "17" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "17" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/17/geometry> .
-
-<https://datos.ign.es/recurso/telesilla/65/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.5305270700000001 42.78637756001417, -0.5343752400000003 42.77569508001054)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/telesilla/37/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (0.55312855 42.554905799931696, 0.5681476400000001 42.559249169933324)"^^geosparql:wktLiteral .
-
-georec:58  a                   btn100:Telesilla ;
-        rdfs:label             "58" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "58" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/58/geometry> .
-
-<https://datos.ign.es/recurso/telesilla/62/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.5563181999999998 42.77160202000915, -0.5422661200000001 42.770279050008696)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/telesilla/31/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.5155716299999998 42.80463724002034, -0.5103680299999999 42.805840120020754)"^^geosparql:wktLiteral .
-
 georec:3  a                    btn100:Telesilla ;
-        rdfs:label             "3" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "3" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/3/geometry> .
-
-georec:11  a                   btn100:Telesilla ;
-        rdfs:label             "11" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "11" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/11/geometry> .
-
-georec:52  a                   btn100:Telesilla ;
-        rdfs:label             "52" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "52" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/52/geometry> .
-
-georec:24  a                   btn100:Telesilla ;
-        rdfs:label             "24" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "24" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/24/geometry> .
-
-<https://datos.ign.es/recurso/telesilla/7/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-3.3892312399999995 37.07674662581148, -3.3735923500000005 37.064690465798215)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/telesilla/4/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (0.5443934199999998 42.56578912993575, 0.54249471 42.55553721993194)"^^geosparql:wktLiteral .
-
-georec:65  a                   btn100:Telesilla ;
-        rdfs:label             "65" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "65" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/65/geometry> .
-
-<https://datos.ign.es/recurso/telesilla/54/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-6.413049589999999 42.993785870081325, -6.413408270000001 42.993599120081285, -6.41800671 42.99120473008053)"^^geosparql:wktLiteral .
-
-georec:37  a                   btn100:Telesilla ;
-        rdfs:label             "37" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "37" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/37/geometry> .
-
-<https://datos.ign.es/recurso/telesilla/27/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.5397653000000001 42.78571680001396, -0.5436325099999999 42.783492710013185)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/telesilla/51/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.49708414 42.80200737001946, -0.49523547 42.79842394001823)"^^geosparql:wktLiteral .
-
-georec:31  a                   btn100:Telesilla ;
-        rdfs:label             "31" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "31" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/31/geometry> .
-
-georec:8  a                    btn100:Telesilla ;
-        rdfs:label             "8" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "8" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/8/geometry> .
-
-<https://datos.ign.es/recurso/telesilla/71/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.4152719599999998 42.79783893001804, -0.43746572 42.7941635900168)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/telesilla/47/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-3.3930190400000004 37.05883354579179, -3.368489770000001 37.05490818578746)"^^geosparql:wktLiteral .
-
-georec:44  a                   btn100:Telesilla ;
-        rdfs:label             "44" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "44" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/44/geometry> .
-
-<https://datos.ign.es/recurso/telesilla/19/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (0.5419608899999999 42.56697643993619, 0.54131374 42.5729138799384, 0.5407896100000004 42.58674439994352, 0.5448439000000003 42.574042149938805, 0.5437788700000001 42.566317899935946)"^^geosparql:wktLiteral .
-
-georec:16  a                   btn100:Telesilla ;
-        rdfs:label             "16" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "16" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/16/geometry> .
-
-<https://datos.ign.es/recurso/telesilla/44/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-4.397360870000002 43.03563089009412, -4.39058657 43.038488800094974, -4.39024029 43.038649390095024)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/telesilla/16/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-3.9781356000000003 40.797513269051684, -3.9732802799999996 40.80077373905372)"^^geosparql:wktLiteral .
-
-georec:57  a                   btn100:Telesilla ;
-        rdfs:label             "57" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "57" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/57/geometry> .
-
-<https://datos.ign.es/recurso/telesilla/41/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-3.3869106800000006 37.07129621580549, -3.3731131000000008 37.0628548057962)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/telesilla/13/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.5346895 42.77635388001076, -0.53082935 42.786483680014214)"^^geosparql:wktLiteral .
-
-georec:29  a                   btn100:Telesilla ;
-        rdfs:label             "29" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "29" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/29/geometry> .
-
-<https://datos.ign.es/recurso/telesilla/10/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.3936856200000001 42.75210827000248, -0.39192179 42.7542806500032, -0.3865480600000001 42.75763494000436, -0.3858827 42.75815708000455, -0.3852173300000002 42.758679210004715, -0.3826696700000001 42.76111800000556)"^^geosparql:wktLiteral .
-
-georec:10  a                   btn100:Telesilla ;
-        rdfs:label             "10" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "10" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/10/geometry> .
-
-georec:51  a                   btn100:Telesilla ;
-        rdfs:label             "51" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "51" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/51/geometry> .
-
-<https://datos.ign.es/recurso/telesilla/67/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.3726086800000001 42.77483798001024, -0.3764084 42.77608070001066, -0.3827393000000002 42.764902490006854, -0.38412112 42.762462050006015)"^^geosparql:wktLiteral .
-
-georec:23  a                   btn100:Telesilla ;
-        rdfs:label             "23" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "23" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/23/geometry> .
-
-<https://datos.ign.es/recurso/telesilla/64/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.27765682 42.71273399998879, -0.2801581 42.72115281999173)"^^geosparql:wktLiteral .
-
-georec:64  a                   btn100:Telesilla ;
-        rdfs:label             "64" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "64" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/64/geometry> .
-
-<https://datos.ign.es/recurso/telesilla/61/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-3.9749391699999994 40.80381743905562, -3.97085703 40.80422748905588, -3.9723493199999997 40.79592692905068)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/telesilla/33/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.2753557500000001 42.70226184998512, -0.2632329700000001 42.6959603599829)"^^geosparql:wktLiteral .
-
-georec:36  a                   btn100:Telesilla ;
-        rdfs:label             "36" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "36" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/36/geometry> .
-
-<https://datos.ign.es/recurso/telesilla/30/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.5337814999999999 42.775496540010465, -0.54272075 42.77047620000876, -0.54481902 42.772378010009405)"^^geosparql:wktLiteral .
-
-georec:49  a                   btn100:Telesilla ;
-        rdfs:label             "49" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "49" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/49/geometry> .
-
-georec:71  a                   btn100:Telesilla ;
-        rdfs:label             "71" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "71" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/71/geometry> .
-
-georec:30  a                   btn100:Telesilla ;
-        rdfs:label             "30" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "30" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/30/geometry> .
-
-<https://datos.ign.es/recurso/telesilla/57/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-3.3985694999999994 37.09316419582951, -3.3877958000000006 37.07194643580621)"^^geosparql:wktLiteral .
-
-georec:7  a                    btn100:Telesilla ;
-        rdfs:label             "7" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "7" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/7/geometry> .
-
-<https://datos.ign.es/recurso/telesilla/3/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-3.4058452900000002 37.08328588581867, -3.3934737799999994 37.067217055801)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/telesilla/29/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.4221987799999999 42.78551171001386, -0.4106687900000001 42.78138912001246)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/telesilla/50/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-4.394054410000001 43.032872710093294, -4.389496789999999 43.03675468009445)"^^geosparql:wktLiteral .
-
-georec:43  a                   btn100:Telesilla ;
-        rdfs:label             "43" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "43" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/43/geometry> .
-
-<https://datos.ign.es/recurso/telesilla/26/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.2775099600000001 42.711589079988386, -0.2759747100000001 42.70315921998543)"^^geosparql:wktLiteral .
-
-georec:15  a                   btn100:Telesilla ;
-        rdfs:label             "15" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "15" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/15/geometry> .
-
-<https://datos.ign.es/recurso/telesilla/23/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-4.373880549999999 43.037745260094766, -4.390245550000001 43.041390660095864, -4.40088118 43.0421821200961)"^^geosparql:wktLiteral .
-
-georec:56  a                   btn100:Telesilla ;
-        rdfs:label             "56" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "56" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/56/geometry> .
-
-<https://datos.ign.es/recurso/telesilla/20/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.5447003199999999 42.782130230012704, -0.5446429 42.777078900011006, -0.54464074 42.77688838001094, -0.5452942800000001 42.77286319000957)"^^geosparql:wktLiteral .
-
-georec:28  a                   btn100:Telesilla ;
-        rdfs:label             "28" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "28" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/28/geometry> .
-
-georec:69  a                   btn100:Telesilla ;
-        rdfs:label             "69" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "69" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/69/geometry> .
-
-<https://datos.ign.es/recurso/telesilla/49/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-3.3857731900000005 37.06724235580102, -3.36902854 37.05693210578969)"^^geosparql:wktLiteral .
-
-georec:50  a                   btn100:Telesilla ;
-        rdfs:label             "50" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "50" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/50/geometry> .
-
-<https://datos.ign.es/recurso/telesilla/46/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.4101757999999999 42.75705345000417, -0.3948412600000001 42.762941700006195)"^^geosparql:wktLiteral .
-
-georec:22  a                   btn100:Telesilla ;
-        rdfs:label             "22" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "22" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/22/geometry> .
-
-<https://datos.ign.es/recurso/telesilla/43/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-4.4023810999999995 43.037929410094804, -4.391476320000001 43.04045799009557)"^^geosparql:wktLiteral .
-
-georec:63  a                   btn100:Telesilla ;
-        rdfs:label             "63" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "63" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/63/geometry> .
-
-<https://datos.ign.es/recurso/telesilla/40/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-4.386454420000001 43.02957637009229, -4.380162129999999 43.03365031009353)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/telesilla/12/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.5361789 42.78602097001404, -0.5359598600000002 42.784129560013405)"^^geosparql:wktLiteral .
-
-georec:35  a                   btn100:Telesilla ;
-        rdfs:label             "35" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "35" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/35/geometry> .
-
-georec:48  a                   btn100:Telesilla ;
-        rdfs:label             "48" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "48" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/48/geometry> .
-
-<https://datos.ign.es/recurso/telesilla/66/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.4229335300000001 42.78573782001397, -0.4153832400000001 42.79679367001769)"^^geosparql:wktLiteral .
-
-georec:70  a                   btn100:Telesilla ;
-        rdfs:label             "70" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "70" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/70/geometry> .
-
-<https://datos.ign.es/recurso/telesilla/39/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-3.9630166499999997 40.7913362390478, -3.9717101500000007 40.797656329051776)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/telesilla/63/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.38610296 42.761507490005684, -0.3919610900000001 42.76313686000626)"^^geosparql:wktLiteral .
-
-georec:6  a                    btn100:Telesilla ;
-        rdfs:label             "6" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "6" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/6/geometry> .
-
-<https://datos.ign.es/recurso/telesilla/36/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.4972911999999999 42.8045426100203, -0.4950212999999998 42.79985440001872, -0.49497537 42.79975952001869, -0.4940932199999998 42.79862669001832)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/telesilla/60/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (0.5437788700000001 42.566317899935946, 0.55259236 42.5615924399342, 0.5677572200000001 42.56185970993429)"^^geosparql:wktLiteral .
-
-georec:42  a                   btn100:Telesilla ;
-        rdfs:label             "42" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "42" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/42/geometry> .
-
-georec:14  a                   btn100:Telesilla ;
-        rdfs:label             "14" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "14" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/14/geometry> .
-
-georec:55  a                   btn100:Telesilla ;
-        rdfs:label             "55" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "55" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/55/geometry> .
-
-georec:27  a                   btn100:Telesilla ;
-        rdfs:label             "27" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "27" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/27/geometry> .
-
-georec:68  a                   btn100:Telesilla ;
-        rdfs:label             "68" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "68" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/68/geometry> .
-
-<https://datos.ign.es/recurso/telesilla/9/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.5387678799999999 42.78567378001394, -0.5385920600000002 42.78353489001321)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/telesilla/59/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (0.5437788700000001 42.566317899935946, 0.5402719399999999 42.56333560993484)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/telesilla/6/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.53768826 42.78599756001403, -0.5372768299999998 42.78376536001329)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/telesilla/56/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.50408287 42.8093048300219, -0.50470646 42.80166777001934, -0.5048743 42.79388677001669)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/telesilla/28/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.5564517899999999 42.77114494000899, -0.5462268099999998 42.76893312000822, -0.54347011 42.77023676000868)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/telesilla/53/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.4983912499999999 42.80788503002141, -0.49392935 42.80240512001959, -0.48984648 42.79911569001848)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/telesilla/25/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.5302224 42.786270600014134, -0.5304338700000001 42.78394433001335)"^^geosparql:wktLiteral .
-
-georec:21  a                   btn100:Telesilla ;
-        rdfs:label             "21" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "21" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/21/geometry> .
-
-<https://datos.ign.es/recurso/telesilla/22/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.2642991299999999 42.69045514998096, -0.2635766500000001 42.69585740998287)"^^geosparql:wktLiteral .
-
-georec:62  a                   btn100:Telesilla ;
-        rdfs:label             "62" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "62" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/62/geometry> .
-
-georec:47  a                   btn100:Telesilla ;
-        rdfs:label             "47" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "47" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/47/geometry> .
-
-georec:19  a                   btn100:Telesilla ;
-        rdfs:label             "19" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "19" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/19/geometry> .
-
-<https://datos.ign.es/recurso/telesilla/45/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.5029799699999999 42.80238924001957, -0.49976338 42.80801310002147)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/telesilla/70/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-6.411935780000001 42.99250327008093, -6.41220332 42.992118200080824, -6.414998139999999 42.988095370079584)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/telesilla/18/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.54470293 42.783738810013276, -0.54320115 42.78239304001282, -0.54175277 42.781095040012374)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/telesilla/42/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-3.9753264200000005 40.788470109046, -3.97341927 40.79636956905095)"^^geosparql:wktLiteral .
-
-georec:5  a                    btn100:Telesilla ;
-        rdfs:label             "5" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "5" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/5/geometry> .
-
-<https://datos.ign.es/recurso/telesilla/15/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.5092393700000001 42.80845188002162, -0.5059380799999998 42.80232721001954)"^^geosparql:wktLiteral .
-
-georec:41  a                   btn100:Telesilla ;
-        rdfs:label             "41" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "41" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/41/geometry> .
-
-georec:13  a                   btn100:Telesilla ;
-        rdfs:label             "13" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "13" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/13/geometry> .
-
-georec:54  a                   btn100:Telesilla ;
-        rdfs:label             "54" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "54" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/54/geometry> .
-
-georec:26  a                   btn100:Telesilla ;
-        rdfs:label             "26" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "26" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/26/geometry> .
-
-georec:67  a                   btn100:Telesilla ;
-        rdfs:label             "67" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "67" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/67/geometry> .
-
-georec:39  a                   btn100:Telesilla ;
-        rdfs:label             "39" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "39" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/39/geometry> .
-
-<https://datos.ign.es/recurso/telesilla/69/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.5460363800000001 42.76848613000808, -0.54284973 42.770138270008644)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/telesilla/38/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-3.971987959999998 40.7906841990474, -3.97290827 40.797405899051604)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/telesilla/35/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.3887864400000001 42.7528031800027, -0.3771171499999999 42.763671270006434)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/telesilla/32/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-3.96312848 40.799074169052666, -3.970582730000001 40.802760969054965)"^^geosparql:wktLiteral .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/3/geometry> .
 
 georec:20  a                   btn100:Telesilla ;
-        rdfs:label             "20" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "20" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/20/geometry> .
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/20/geometry> .
 
-georec:61  a                   btn100:Telesilla ;
-        rdfs:label             "61" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "61" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/61/geometry> .
-
-georec:33  a                   btn100:Telesilla ;
-        rdfs:label             "33" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "33" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/33/geometry> .
-
-georec:46  a                   btn100:Telesilla ;
-        rdfs:label             "46" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "46" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/46/geometry> .
-
-<https://datos.ign.es/recurso/telesilla/8/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-4.375415940000001 43.03625824009429, -4.395037959999999 43.03914288009518)"^^geosparql:wktLiteral .
-
-georec:18  a                   btn100:Telesilla ;
-        rdfs:label             "18" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "18" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/18/geometry> .
-
-<https://datos.ign.es/recurso/telesilla/58/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.5036578099999999 42.80177135001937, -0.4989121600000001 42.8018448800194)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/telesilla/5/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.5054255399999998 42.80944812002196, -0.50501425 42.80230018001956, -0.5047964900000003 42.798487800018286)"^^geosparql:wktLiteral .
-
-georec:59  a                   btn100:Telesilla ;
-        rdfs:label             "59" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "59" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/59/geometry> .
-
-<https://datos.ign.es/recurso/telesilla/55/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.5040928600000001 42.80975256002207, -0.4913184 42.81455995002368)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/telesilla/52/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (0.5703626999999999 42.559223039933315, 0.5897028100000001 42.55007093992991)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/telesilla/24/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.2721521700000001 42.69365909998209, -0.26377614 42.696049639982924)"^^geosparql:wktLiteral .
-
-<https://datos.ign.es/recurso/telesilla/21/geometry>
-        a                sf:LineString ;
-        geosparql:asWKT  "LINESTRING (-0.5449267999999999 42.782617680012905, -0.54320115 42.78239304001282)"^^geosparql:wktLiteral .
-
-georec:4  a                    btn100:Telesilla ;
-        rdfs:label             "4" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "4" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/4/geometry> .
-
-georec:40  a                   btn100:Telesilla ;
-        rdfs:label             "40" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "40" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/40/geometry> .
-
-georec:12  a                   btn100:Telesilla ;
-        rdfs:label             "12" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "12" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/12/geometry> .
-
-georec:53  a                   btn100:Telesilla ;
-        rdfs:label             "53" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "53" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/53/geometry> .
-
-georec:25  a                   btn100:Telesilla ;
-        rdfs:label             "25" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "25" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/25/geometry> .
-
-georec:66  a                   btn100:Telesilla ;
-        rdfs:label             "66" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "66" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/66/geometry> .
-
-georec:38  a                   btn100:Telesilla ;
-        rdfs:label             "38" ;
-        dc:created             "2013-07-01"^^xsd:date ;
-        dc:identifier          "38" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/telesilla/38/geometry> .
-
-<https://datos.ign.es/recurso/telesilla/48/geometry>
+<https://datos.ign.es/recurso/btn100/telesilla/48/geometry>
         a                sf:LineString ;
         geosparql:asWKT  "LINESTRING (0.5350077599999999 42.558589959933094, 0.54131374 42.5729138799384)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/telesilla/17/geometry>
+georec:61  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "61" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/61/geometry> .
+
+<https://datos.ign.es/recurso/btn100/telesilla/41/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.3869106800000006 37.07129621580549, -3.3731131000000008 37.0628548057962)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/telesilla/17/geometry>
         a                sf:LineString ;
         geosparql:asWKT  "LINESTRING (-0.2745580599999999 42.702902099985344, -0.27720874 42.711549999988385)"^^geosparql:wktLiteral .
+
+georec:33  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "33" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/33/geometry> .
+
+<https://datos.ign.es/recurso/btn100/telesilla/14/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.53382836 42.78646985001421, -0.53502864 42.77638626001079)"^^geosparql:wktLiteral .
+
+georec:46  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "46" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/46/geometry> .
+
+georec:18  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "18" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/18/geometry> .
+
+georec:59  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "59" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/59/geometry> .
+
+<https://datos.ign.es/recurso/btn100/telesilla/68/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.3716436699999999 42.77474784001021, -0.3708552500000001 42.768306210008014)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/telesilla/65/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.5305270700000001 42.78637756001417, -0.5343752400000003 42.77569508001054)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/telesilla/37/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (0.55312855 42.554905799931696, 0.5681476400000001 42.559249169933324)"^^geosparql:wktLiteral .
+
+georec:40  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "40" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/40/geometry> .
+
+georec:12  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "12" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/12/geometry> .
+
+georec:53  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "53" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/53/geometry> .
+
+<https://datos.ign.es/recurso/btn100/telesilla/31/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.5155716299999998 42.80463724002034, -0.5103680299999999 42.805840120020754)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/telesilla/7/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.3892312399999995 37.07674662581148, -3.3735923500000005 37.064690465798215)"^^geosparql:wktLiteral .
+
+georec:8  a                    btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "8" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/8/geometry> .
+
+georec:25  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "25" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/25/geometry> .
+
+georec:66  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "66" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/66/geometry> .
+
+georec:38  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "38" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/38/geometry> .
+
+<https://datos.ign.es/recurso/btn100/telesilla/57/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.3985694999999994 37.09316419582951, -3.3877958000000006 37.07194643580621)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/telesilla/54/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-6.413049589999999 42.993785870081325, -6.413408270000001 42.993599120081285, -6.41800671 42.99120473008053)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/telesilla/27/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.5397653000000001 42.78571680001396, -0.5436325099999999 42.783492710013185)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/telesilla/51/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.49708414 42.80200737001946, -0.49523547 42.79842394001823)"^^geosparql:wktLiteral .
+
+georec:60  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "60" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/60/geometry> .
+
+georec:32  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "32" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/32/geometry> .
+
+<https://datos.ign.es/recurso/btn100/telesilla/20/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.5447003199999999 42.782130230012704, -0.5446429 42.777078900011006, -0.54464074 42.77688838001094, -0.5452942800000001 42.77286319000957)"^^geosparql:wktLiteral .
+
+georec:45  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "45" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/45/geometry> .
+
+georec:17  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "17" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/17/geometry> .
+
+georec:58  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "58" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/58/geometry> .
+
+<https://datos.ign.es/recurso/btn100/telesilla/47/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.3930190400000004 37.05883354579179, -3.368489770000001 37.05490818578746)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/telesilla/19/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (0.5419608899999999 42.56697643993619, 0.54131374 42.5729138799384, 0.5407896100000004 42.58674439994352, 0.5448439000000003 42.574042149938805, 0.5437788700000001 42.566317899935946)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/telesilla/71/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.4152719599999998 42.79783893001804, -0.43746572 42.7941635900168)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/telesilla/44/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-4.397360870000002 43.03563089009412, -4.39058657 43.038488800094974, -4.39024029 43.038649390095024)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/telesilla/16/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.9781356000000003 40.797513269051684, -3.9732802799999996 40.80077373905372)"^^geosparql:wktLiteral .
+
+georec:11  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "11" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/11/geometry> .
+
+<https://datos.ign.es/recurso/btn100/telesilla/13/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.5346895 42.77635388001076, -0.53082935 42.786483680014214)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/telesilla/10/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.3936856200000001 42.75210827000248, -0.39192179 42.7542806500032, -0.3865480600000001 42.75763494000436, -0.3858827 42.75815708000455, -0.3852173300000002 42.758679210004715, -0.3826696700000001 42.76111800000556)"^^geosparql:wktLiteral .
+
+georec:52  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "52" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/52/geometry> .
+
+georec:7  a                    btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "7" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/7/geometry> .
+
+georec:24  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "24" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/24/geometry> .
+
+georec:65  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "65" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/65/geometry> .
+
+georec:37  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "37" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/37/geometry> .
+
+<https://datos.ign.es/recurso/btn100/telesilla/67/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.3726086800000001 42.77483798001024, -0.3764084 42.77608070001066, -0.3827393000000002 42.764902490006854, -0.38412112 42.762462050006015)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/telesilla/64/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.27765682 42.71273399998879, -0.2801581 42.72115281999173)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/telesilla/36/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.4972911999999999 42.8045426100203, -0.4950212999999998 42.79985440001872, -0.49497537 42.79975952001869, -0.4940932199999998 42.79862669001832)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/telesilla/61/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.9749391699999994 40.80381743905562, -3.97085703 40.80422748905588, -3.9723493199999997 40.79592692905068)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/telesilla/33/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.2753557500000001 42.70226184998512, -0.2632329700000001 42.6959603599829)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/telesilla/9/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.5387678799999999 42.78567378001394, -0.5385920600000002 42.78353489001321)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/telesilla/30/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.5337814999999999 42.775496540010465, -0.54272075 42.77047620000876, -0.54481902 42.772378010009405)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/telesilla/6/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.53768826 42.78599756001403, -0.5372768299999998 42.78376536001329)"^^geosparql:wktLiteral .
+
+georec:31  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "31" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/31/geometry> .
+
+<https://datos.ign.es/recurso/btn100/telesilla/3/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.4058452900000002 37.08328588581867, -3.3934737799999994 37.067217055801)"^^geosparql:wktLiteral .
+
+georec:44  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "44" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/44/geometry> .
+
+georec:16  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "16" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/16/geometry> .
+
+georec:57  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "57" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/57/geometry> .
+
+georec:29  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "29" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/29/geometry> .
+
+<https://datos.ign.es/recurso/btn100/telesilla/29/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.4221987799999999 42.78551171001386, -0.4106687900000001 42.78138912001246)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/telesilla/53/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.4983912499999999 42.80788503002141, -0.49392935 42.80240512001959, -0.48984648 42.79911569001848)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/telesilla/26/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.2775099600000001 42.711589079988386, -0.2759747100000001 42.70315921998543)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/telesilla/50/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-4.394054410000001 43.032872710093294, -4.389496789999999 43.03675468009445)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/telesilla/23/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-4.373880549999999 43.037745260094766, -4.390245550000001 43.041390660095864, -4.40088118 43.0421821200961)"^^geosparql:wktLiteral .
+
+georec:10  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "10" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/10/geometry> .
+
+georec:51  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "51" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/51/geometry> .
+
+georec:6  a                    btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "6" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/6/geometry> .
+
+georec:23  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "23" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/23/geometry> .
+
+georec:64  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "64" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/64/geometry> .
+
+georec:36  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "36" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/36/geometry> .
+
+<https://datos.ign.es/recurso/btn100/telesilla/49/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.3857731900000005 37.06724235580102, -3.36902854 37.05693210578969)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/telesilla/46/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.4101757999999999 42.75705345000417, -0.3948412600000001 42.762941700006195)"^^geosparql:wktLiteral .
+
+georec:49  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "49" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/49/geometry> .
+
+<https://datos.ign.es/recurso/btn100/telesilla/43/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-4.4023810999999995 43.037929410094804, -4.391476320000001 43.04045799009557)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/telesilla/15/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.5092393700000001 42.80845188002162, -0.5059380799999998 42.80232721001954)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/telesilla/40/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-4.386454420000001 43.02957637009229, -4.380162129999999 43.03365031009353)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/telesilla/12/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.5361789 42.78602097001404, -0.5359598600000002 42.784129560013405)"^^geosparql:wktLiteral .
+
+georec:30  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "30" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/30/geometry> .
+
+georec:71  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "71" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/71/geometry> .
+
+georec:43  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "43" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/43/geometry> .
+
+georec:15  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "15" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/15/geometry> .
+
+<https://datos.ign.es/recurso/btn100/telesilla/66/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.4229335300000001 42.78573782001397, -0.4153832400000001 42.79679367001769)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/telesilla/63/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.38610296 42.761507490005684, -0.3919610900000001 42.76313686000626)"^^geosparql:wktLiteral .
+
+georec:56  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "56" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/56/geometry> .
+
+<https://datos.ign.es/recurso/btn100/telesilla/39/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.9630166499999997 40.7913362390478, -3.9717101500000007 40.797656329051776)"^^geosparql:wktLiteral .
+
+georec:28  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "28" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/28/geometry> .
+
+georec:69  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "69" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/69/geometry> .
+
+<https://datos.ign.es/recurso/btn100/telesilla/60/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (0.5437788700000001 42.566317899935946, 0.55259236 42.5615924399342, 0.5677572200000001 42.56185970993429)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/telesilla/32/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.96312848 40.799074169052666, -3.970582730000001 40.802760969054965)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/telesilla/8/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-4.375415940000001 43.03625824009429, -4.395037959999999 43.03914288009518)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/telesilla/5/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.5054255399999998 42.80944812002196, -0.50501425 42.80230018001956, -0.5047964900000003 42.798487800018286)"^^geosparql:wktLiteral .
+
+georec:50  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "50" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/50/geometry> .
+
+georec:5  a                    btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "5" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/5/geometry> .
+
+georec:22  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "22" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/22/geometry> .
+
+georec:63  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "63" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/63/geometry> .
+
+<https://datos.ign.es/recurso/btn100/telesilla/59/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (0.5437788700000001 42.566317899935946, 0.5402719399999999 42.56333560993484)"^^geosparql:wktLiteral .
+
+georec:35  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "35" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/35/geometry> .
+
+<https://datos.ign.es/recurso/btn100/telesilla/56/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.50408287 42.8093048300219, -0.50470646 42.80166777001934, -0.5048743 42.79388677001669)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/telesilla/28/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.5564517899999999 42.77114494000899, -0.5462268099999998 42.76893312000822, -0.54347011 42.77023676000868)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/telesilla/25/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.5302224 42.786270600014134, -0.5304338700000001 42.78394433001335)"^^geosparql:wktLiteral .
+
+georec:48  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "48" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/48/geometry> .
+
+<https://datos.ign.es/recurso/btn100/telesilla/22/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.2642991299999999 42.69045514998096, -0.2635766500000001 42.69585740998287)"^^geosparql:wktLiteral .
+
+georec:70  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "70" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/70/geometry> .
+
+georec:42  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "42" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/42/geometry> .
+
+georec:14  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "14" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/14/geometry> .
+
+<https://datos.ign.es/recurso/btn100/telesilla/70/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-6.411935780000001 42.99250327008093, -6.41220332 42.992118200080824, -6.414998139999999 42.988095370079584)"^^geosparql:wktLiteral .
+
+georec:55  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "55" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/55/geometry> .
+
+<https://datos.ign.es/recurso/btn100/telesilla/45/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.5029799699999999 42.80238924001957, -0.49976338 42.80801310002147)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/telesilla/42/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.9753264200000005 40.788470109046, -3.97341927 40.79636956905095)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/telesilla/18/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.54470293 42.783738810013276, -0.54320115 42.78239304001282, -0.54175277 42.781095040012374)"^^geosparql:wktLiteral .
+
+georec:27  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "27" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/27/geometry> .
+
+<https://datos.ign.es/recurso/btn100/telesilla/11/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.41473447 42.79664597001763, -0.4150237499999999 42.79241152001621)"^^geosparql:wktLiteral .
+
+georec:68  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "68" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/68/geometry> .
+
+georec:4  a                    btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "4" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/4/geometry> .
+
+georec:21  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "21" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/21/geometry> .
+
+<https://datos.ign.es/recurso/btn100/telesilla/69/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.5460363800000001 42.76848613000808, -0.54284973 42.770138270008644)"^^geosparql:wktLiteral .
+
+georec:62  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "62" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/62/geometry> .
+
+<https://datos.ign.es/recurso/btn100/telesilla/38/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.971987959999998 40.7906841990474, -3.97290827 40.797405899051604)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/telesilla/62/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.5563181999999998 42.77160202000915, -0.5422661200000001 42.770279050008696)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/telesilla/35/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.3887864400000001 42.7528031800027, -0.3771171499999999 42.763671270006434)"^^geosparql:wktLiteral .
+
+georec:47  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "47" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/47/geometry> .
+
+<https://datos.ign.es/recurso/btn100/telesilla/4/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (0.5443934199999998 42.56578912993575, 0.54249471 42.55553721993194)"^^geosparql:wktLiteral .
+
+georec:19  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "19" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/19/geometry> .
+
+<https://datos.ign.es/recurso/btn100/telesilla/58/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.5036578099999999 42.80177135001937, -0.4989121600000001 42.8018448800194)"^^geosparql:wktLiteral .
+
+georec:41  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "41" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/41/geometry> .
+
+<https://datos.ign.es/recurso/btn100/telesilla/55/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.5040928600000001 42.80975256002207, -0.4913184 42.81455995002368)"^^geosparql:wktLiteral .
+
+georec:13  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "13" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/13/geometry> .
+
+georec:54  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "54" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/54/geometry> .
+
+<https://datos.ign.es/recurso/btn100/telesilla/52/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (0.5703626999999999 42.559223039933315, 0.5897028100000001 42.55007093992991)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/telesilla/24/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.2721521700000001 42.69365909998209, -0.26377614 42.696049639982924)"^^geosparql:wktLiteral .
+
+georec:26  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "26" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/26/geometry> .
+
+georec:9  a                    btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "9" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/9/geometry> .
+
+<https://datos.ign.es/recurso/btn100/telesilla/21/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.5449267999999999 42.782617680012905, -0.54320115 42.78239304001282)"^^geosparql:wktLiteral .
+
+georec:67  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "67" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/67/geometry> .
+
+georec:39  a                   btn100:Telesilla ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "39" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesilla/39/geometry> .
 

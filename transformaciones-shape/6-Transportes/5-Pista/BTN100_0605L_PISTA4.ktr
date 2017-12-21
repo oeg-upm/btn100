@@ -174,7 +174,7 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <filename>${Internal.Transformation.Filename.Directory}/BTN100_0605L_PISTA.shp</filename>
+    <filename>${Internal.Transformation.Filename.Directory}&#47;BTN100_0605L_PISTA.shp</filename>
     <isfilenameinfield>N</isfilenameinfield>
     <filenamefield/>
     <limit>0</limit>
@@ -213,7 +213,7 @@
     <fileNameInField>N</fileNameInField>
     <fileNameField/>
     <file>
-      <name>${Internal.Transformation.Filename.Directory}/BTN100_0605L_PISTA4</name>
+      <name>${Internal.Transformation.Filename.Directory}&#47;BTN100_0605L_PISTA4</name>
       <is_command>N</is_command>
       <do_not_open_new_file_init>N</do_not_open_new_file_init>
       <extention>ttl</extention>
@@ -302,9 +302,9 @@ else{
            </partitioning>
 		<attributename>ID</attributename>
 		<feature>Pista</feature>
-		<ontologyns>https://datos.ign.es/def/</ontologyns>
+		<ontologyns>https://datos.ign.es/def/btn100#</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/pista/</resourcens>
+		<resourcens>https://datos.ign.es/recurso/btn100/pista/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
