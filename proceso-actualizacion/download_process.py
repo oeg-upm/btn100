@@ -66,6 +66,7 @@ passVirt = config.get('VIRTUOSO', 'password')
 isqlPort = config.get('VIRTUOSO', 'isqlPort')
 
 # GITHUB DATA
+update = config.get('GITHUB', 'update')
 user_git = config.get('GITHUB', 'user_git')
 pass_git = config.get('GITHUB', 'pass_git')
 git_rep = config.get('GITHUB', 'git_rep')
@@ -98,9 +99,10 @@ def download_extract(url, name):
 
 logger.info("================================= START PROCESS =================================")
 os.chdir(github_dir)
-res = subprocess.getoutput('git pull -v --progress  "origin" ')
-logger.info('Actualizamos el directorio GIT-->'+str(res))
-print('pullres-->'+str(res))
+if (update == 'Y'):
+    res = subprocess.getoutput('git pull -v --progress  "origin" ')
+    logger.info('Actualizamos el directorio GIT-->'+str(res))
+    print('pullres-->'+str(res))
 
 logger.info("Procesamos las siguientes URLs:"+str(urls))
 print("Procesamos las siguientes URLs:"+str(urls))
@@ -243,7 +245,7 @@ status = subprocess.getstatusoutput('bin/isql -S '+isqlPort+' -U '+userVirt+' -P
 logger.info("LoadFolderSameAs-->"+str(status))
 
 # if there are ids to be updated, commit to GitHub repository is made
-if (ids_updated.__sizeof__()>0):
+if ids_updated.__sizeof__()>0 and update == 'Y':
     logger.info("Actualizados los siguientes elementos:"+str(ids_updated))
     print("Actualizados los siguientes elementos:"+str(ids_updated))
     os.chdir(github_dir)
