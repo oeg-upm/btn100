@@ -59,6 +59,7 @@ geokettle_dir = config.get('BASEDIRS', 'geokettle')
 github_dir = config.get('BASEDIRS', 'githubDir')
 virtuoso_dir = config.get('BASEDIRS', 'virtuosoDir')
 sameas_dir = config.get('BASEDIRS', 'sameAsDir')
+vocabs_dir = config.get('BASEDIRS', 'vocabsDir')
 
 # VIRTUOSO DATA
 userVirt = config.get('VIRTUOSO', 'user')
@@ -141,7 +142,7 @@ print("Procesamos los siguientes elementos-->" + str(ids))
 
 # function to decided if an id has to be processed
 def must_be_updated(f1, f2):
-    if not os.path.exists(f2) or filecmp.cmp(f1, f2, False):
+    if not os.path.exists(f2) or not filecmp.cmp(f1, f2, False):
         return True
     else:
         return False
@@ -184,7 +185,6 @@ def extract_ktr(folder):
 
 
 os.chdir(geokettle_dir)
-print(os.listdir(geokettle_dir))
 ids_updated = []
 for id in to_be_updated:
 
@@ -198,7 +198,7 @@ for id in to_be_updated:
         print('outputGK['+ktr+']-->'+str(output[0]))
         to_update = to_update or output[0]
 
-    if (not to_update):
+    if not to_update:
         ids_updated.append(id)
         # Update Virtuoso information
         os.chdir(virtuoso_dir)
@@ -244,8 +244,18 @@ logger.info("DeleteGraphSameAs-->"+str(status))
 status = subprocess.getstatusoutput('bin/isql -S '+isqlPort+' -U '+userVirt+' -P '+passVirt+' verbose=on banner=off prompt=off echo=ON errors=stdout exec="ld_dir_all((\''+sameas_dir+'\'), \'*.ttl\', \'' + graph_id + 'sameas\'); rdf_loader_run(); checkpoint;"')
 logger.info("LoadFolderSameAs-->"+str(status))
 
+# vocabs files are loaded after the loading process
+os.chdir(virtuoso_dir)
+logger.info('Empezamos la carga de los vocabularios')
+status = subprocess.getstatusoutput('bin/isql -S '+isqlPort+' -U '+userVirt+' -P '+passVirt+' verbose=on banner=off prompt=off echo=ON errors=stdout exec="DELETE FROM RDF_QUAD WHERE G = DB.DBA.RDF_MAKE_IID_OF_QNAME (\'' + graph_id +'vocabs\'); DELETE FROM DB.DBA.LOAD_LIST as d WHERE d.ll_graph=\'' + graph_id + 'vocabs\'"')
+logger.info("DeleteGraphVocabs-->"+str(status))
+
+#/opt/virtuoso-7/default/bin/isql -S "$1" -U dba verbose=on banner=off prompt=off echo=ON errors=stdout exec="ld_dir_all(('$2'), '*.ttl', '$3'); rdf_loader_run(); checkpoint;"
+status = subprocess.getstatusoutput('bin/isql -S '+isqlPort+' -U '+userVirt+' -P '+passVirt+' verbose=on banner=off prompt=off echo=ON errors=stdout exec="ld_dir_all((\''+vocabs_dir+'\'), \'*.owl\', \'' + graph_id + 'vocabs\'); rdf_loader_run(); checkpoint;"')
+logger.info("LoadFolderVocabs-->"+str(status))
+
 # if there are ids to be updated, commit to GitHub repository is made
-if ids_updated.__sizeof__()>0 and update == 'Y':
+if ids_updated.__sizeof__() > 0 and update == 'Y':
     logger.info("Actualizados los siguientes elementos:"+str(ids_updated))
     print("Actualizados los siguientes elementos:"+str(ids_updated))
     os.chdir(github_dir)
