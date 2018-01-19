@@ -1,139 +1,267 @@
 # CONSULTAS
 
-### Obtener los albergues 1km a la redonda de los itinerarios
-    prefix geoes: <http://geo.linkeddata.es>
-    prefix geosparql: <http://www.opengis.net/ont/geosparql#>
-    SELECT DISTINCT ?pname ?aname
-    WHERE {
-      ?albergue rdf:type geoes:Albergue.
-      ?albergue dc:title ?aname.
-      ?albergue geosparql:hasGeometry ?ageo .
-      ?ageo geosparql:asWKT ?apos .
-      ?s rdf:type geoes:ItinerarioDeCaminoDeSantiago.
-      ?s dc:title ?pname.
-      ?s geosparql:hasGeometry ?pgeo .
-      ?pgeo geosparql:asWKT ?w .
-      FILTER (bif:st_intersects (?apos, ?w, 1))
-    }
-    ORDER BY ASC(?pname)
-### Obtener las comunidades autónomas donde están situados los aeropuertos
-      SELECT ?comunidad ?aeropuerto
-      WHERE {
-        ?c rdf:type geoes:ComunidadAutonoma.
-        ?c dc:title ?comunidad.
-        ?c geosparql:hasGeometry ?cgeo.
-        ?cgeo geosparql:asWKT ?cpos.
-        ?a rdf:type geoes:Aeropuerto.
-        ?a dc:title ?aeropuerto.
-        ?a geosparql:hasGeometry ?ageo.
-        ?ageo geosparql:asWKT ?apos.
-        FILTER (bif:st_within(?cpos,?apos)).
-      }
-      ORDER BY DESC(?comunidad)
+### ¿Cuáles son los municipios de la provincia ?
 
-### Obtener los puntos de interés que estén a 5km a la redonda de sol
+PREFIX esadm: <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#>
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX dc: <http://purl.org/dc/terms/>
 
-      SELECT DISTINCT (bif:st_distance(bif:st point(-3.7035, 40.4169), ?ca_pos)) as ?distance
-      ?title
-      WHERE {
-        ?ca rdf:type geoes:LugarDeInteres.
-        ?ca dc:title ?title .
-        ?ca geosparql:hasGeometry ?ca_geo .
-        ?ca geo geosparql:asWKT ?ca_pos .
-        FILTER (bif:st_intersects (bif:st_point(-3.7035, 40.4169), ?ca_pos, 5)) .
-      }
-      ORDER BY ASC(?distance)
+SELECT DISTINCT ?codigoMunicipio ?nombreMunicipio 
+WHERE {
+  ?provincia a esadm:Provincia .
+  ?provincia dc:title "Las Palmas" .
+  ?provincia dc:title ?nombreProvincia .
+  ?provincia geosparql:hasGeometry ?geoProv .
+  ?geoProv geosparql:asWKT ?geoProvLocali .
 
-### Obtener el número de playas por provincia
+  ?municipio a esadm:Municipio .
+  ?municipio dc:title ?nombreMunicipio .
+  ?municipio dc:identifier ?codigoMunicipio .
+  ?municipio geosparql:hasGeometry ?geoMuni .
+  ?geoMuni geosparql:asWKT ?geoMuniLocali .
+  FILTER (bif:st_within(?geoMuniLocali, ?geoProvLocali)) .  
 
-      SELECT DISTINCT count(*) as ?count ?pname
-
-      WHERE {
-        ?provincia rdf:type geoes:Provincia.
-        ?provincia dc:title ?pname.
-        ?provincia geosparql:hasGeometry ?pgeo .
-        ?pgeo geosparql:asWKT ?ppos .
-        ?playa rdf:type geoes:Playa.
-        ?playa dc:title ?plname .
-        ?playa geosparql:hasGeometry ?plgeo .
-        ?plgeo geosparql:asWKT ?plpos .
-        FILTER (bif:st_within(?ppos, ?plpos)) .
-      }
-      GROUP BY ?pname
-      ORDER BY DESC(?count)
+} ORDER BY ASC(?nombreMunicipio) 
 
 
-### Provincia con el mayor número de playas
 
-      SELECT DISTINCT MAX (?count) as ?playas ?pname
-      WHERE {
-        FILTER(?count >= 93)
-        {
-        SELECT DISTINCT count(*) as ?count ?pname
-          WHERE {
-            ?provincia rdf:type geoes:Provincia.
-            ?provincia dc:title ?pname.
-            ?provincia geosparql:hasGeometry ?pgeo .
-            ?pgeo geosparql:asWKT ?ppos .
-            ?playa rdf:type geoes:Playa.
-            ?playa dc:title ?plname .
-            ?playa geosparql:hasGeometry ?plgeo .
-            ?plgeo geosparql:asWKT ?plpos .
-            FILTER (bif:st_within(?ppos, ?plpos)) .
-          }
-        }
-      }
+### Lugares de interés a 1km a la redonda del Núcleo de Población "Las Rozas de Madrid"
 
-### Obtener una descripción más detallada de un aeropuerto en dbpedia
+PREFIX dc: <http://purl.org/dc/terms/>
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX btn100:<https://datos.ign.es/def/btn100#>
 
-      prefix dbpedia: <http://dbpedia.org/resource/>
-      prefix dbpedia-owl: <http://dbpedia.org/ontology/>
-      SELECT *
-      WHERE {
-        ?myairport rdf:type geoes:Aeropuerto.
-        ?myairport owl:sameAs ?dbpedia_airport.
-        filter (regex(str(?dbpedia_airport), "ˆ(http://dbpedia.org/resource/)([a-z]| |-)+$", "i")).
-        SERVICE <http://dbpedia.org/sparql> {
-          ?dbpedia_airport rdfs:comment ?comment.
-          FILTER langMatches(lang(?comment), "es").
-        }
-      }
+SELECT DISTINCT ?nombre ?geoLugarLocali  WHERE{
+?nucleo a btn100:NucleoPoblacionSuperficial .
+?nucleo dc:title "Las Rozas de Madrid" .
+?nucleo geosparql:hasGeometry ?geoNucleo .
+?geoNucleo geosparql:asWKT ?geoNucleoLocali .
 
+?lugar a btn100:LugarDeInteres .
+?lugar dc:title ?nombre .
+?lugar geosparql:hasGeometry ?geoLugar .
+?geoLugar geosparql:asWKT ?geoLugarLocali .
 
-### obtener la provincia con mas playas en españa
+FILTER (bif:st_intersects(?geoLugarLocali,?geoNucleoLocali,1))
 
-      SELECT distinct MAX (?count) ?pname WHERE{
-          FILTER(?count >= 93)
-          {
-            SELECT distinct count(*) as ?count ?pname
-             where{
-               ?provincia rdf:type geoes:Provincia.
-               ?provincia dc:title ?pname.
-               ?provincia geosparql:hasGeometry ?pgeo .
-               ?pgeo geosparql:asWKT ?ppos .
+}ORDER by (?nombre)
 
-               ?playa rdf:type geoes:Playa.
-               ?playa dc:title ?plname .
-               ?playa geosparql:hasGeometry ?plgeo .
-               ?plgeo geosparql:asWKT ?plpos .
-               FILTER (bif:st_within(?ppos, ?plpos)) .
-             }
-        }
-      }
+### ¿Qué rios (lineales) cruzan el Parque Nacional de Sierra Nevada?
+
+PREFIX dc: <http://purl.org/dc/terms/>
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX btn100:<https://datos.ign.es/def/btn100#>
+
+SELECT DISTINCT ?nombre WHERE{
+?parque a btn100:ParqueNacional .
+?parque dc:title "Parque Nacional de Sierra Nevada" .
+?parque geosparql:hasGeometry ?geoParque .
+?geoParque geosparql:asWKT ?geoParqueLocali .
+
+?rio a btn100:RioLineal .
+?rio dc:title ?nombre .
+?rio geosparql:hasGeometry ?geoRio .
+?geoRio geosparql:asWKT ?geoRioLocali .
+
+FILTER (bif:st_within(?geoRioLocali,?geoParqueLocali))
+
+} ORDER by (?nombre)
+
+### ¿Cual es la altitud del Pico Tibidabo?
+
+PREFIX btn100: <https://datos.ign.es/def/btn100#>
+PREFIX dc: <http://purl.org/dc/terms/>
+
+SELECT DISTINCT ?nombre ?cota WHERE{
+?pico a btn100:Pico .
+?pico dc:title "Pico Tibidabo" .
+?pico dc:title ?nombre .
+?pico btn100:cota ?cota .
+}
 
 
-### obterner los puntos de interes que esten a 5 km a la redonda del aeropuerto de Madrid.
+### ¿Cual es el pico de mayor altitud de España?
 
-      SELECT distinct ?title (bif:st_distance(?lpos, ?ca_pos))  as ?distance where{
-        ?l rdf:type geoes:Aeropuerto.
-        ?l dc:title "Aeropuerto de Adolfo Suárez Madrid-Barajas"@es .
-        ?l geosparql:hasGeometry ?lgeo .
-        ?lgeo geosparql:asWKT ?lpos .
+PREFIX btn100: <https://datos.ign.es/def/btn100#>
+PREFIX dc: <http://purl.org/dc/terms/>
 
-        ?ca rdf:type geoes:LugarDeInteres.
-        ?ca dc:title ?title .
-        ?ca geosparql:hasGeometry ?ca_geo .
-        ?ca_geo geosparql:asWKT ?ca_pos .
+SELECT DISTINCT ?nombre ?cota WHERE {
+?pico a btn100:Pico .
+?pico dc:title ?nombre .
+?pico btn100:cota ?cota .
+} ORDER by DESC (xsd:integer(?cota)) LIMIT 1
 
-        FILTER (bif:st_intersects (?lpos, ?ca_pos, 5)) .
-      }
+
+
+### ¿Cual es el pico de mayor altitud de la Provincia de Madrid?
+
+PREFIX esadm: <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#>
+PREFIX btn100: <https://datos.ign.es/def/btn100#>
+PREFIX dc: <http://purl.org/dc/terms/>
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+
+SELECT DISTINCT ?nombre ?cota WHERE {
+  ?provincia a esadm:Provincia .
+  ?provincia dc:title "Madrid" .
+  ?provincia dc:identifier ?codigoprovincia .
+  ?provincia geosparql:hasGeometry ?geoProvincia .
+  ?geoProvincia geosparql:asWKT ?geoProvinciaLocali .
+
+  ?pico a btn100:Pico .
+  ?pico dc:title ?nombre .
+  ?pico btn100:cota ?cota .
+  ?pico geosparql:hasGeometry ?geoPico .
+  ?geoPico geosparql:asWKT ?geoPicoLocali .
+  FILTER (bif:st_within(?geoPicoLocali, ?geoProvinciaLocali)) . 
+} ORDER BY DESC(xsd:integer(?cota)) LIMIT 1
+
+
+### ¿Donde (nombre de municipio) están los aeropuertos en la Comunidad de Madrid?
+
+PREFIX esadm: <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#>
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX dc: <http://purl.org/dc/terms/>
+PREFIX btn100: <https://datos.ign.es/def/btn100#>
+
+SELECT DISTINCT ?codigoMunicipio ?nombreMunicipio ?nombreAeropuerto
+WHERE {
+ ?ccaa a esadm:ComunidadAutonoma .
+ ?ccaa dc:title "Comunidad de Madrid" .
+ ?ccaa geosparql:hasGeometry ?geoCCAA .
+ ?geoCCAA geosparql:asWKT ?geoCCAALocali .
+
+ ?municipio a esadm:Municipio .
+ ?municipio dc:title ?nombreMunicipio .
+ ?municipio dc:identifier ?codigoMunicipio .
+ ?municipio geosparql:hasGeometry ?geoMuni .
+ ?geoMuni geosparql:asWKT ?geoMuniLocali .
+
+ FILTER (bif:st_intersects(?geoMuniLocali, ?geoCCAALocali))
+
+?aeropuerto a btn100:Aeropuerto .
+?aeropuerto dc:title ?nombreAeropuerto .
+?aeropuerto geosparql:hasGeometry ?geoAero .
+?geoAero geosparql:asWKT ?geoAeroLocali .
+
+FILTER (bif:st_intersects(?geoAeroLocali, ?geoMuniLocali))
+
+} ORDER BY ASC(?nombreMunicipio)
+
+
+### ¿Por cuáles CCAA discurre el río Tajo?
+
+PREFIX btn100: <https://datos.ign.es/def/btn100#>
+PREFIX dc: <http://purl.org/dc/terms/>
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX esadm: <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#>
+
+SELECT DISTINCT ?nombreCCAA WHERE {
+?ccaa a esadm:ComunidadAutonoma .
+?ccaa dc:title ?nombreCCAA .
+?ccaa geosparql:hasGeometry ?geoCCAA .
+?geoCCAA geosparql:asWKT ?geoCCAALocali .
+
+?rio a btn100:RioLineal .
+?rio dc:title "Río Tajo" .
+?rio geosparql:hasGeometry ?geoRio .
+?geoRio geosparql:asWKT ?geoRioLocali .
+
+FILTER (bif:st_intersects(?geoRioLocali, ?geoCCAALocali))
+} ORDER BY (?nombreCCAA)
+
+
+### Municipios por los que pasa el Camino de Santiago "Catalán"
+
+PREFIX esadm: <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#>
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX dc: <http://purl.org/dc/terms/>
+PREFIX btn100: <https://datos.ign.es/def/btn100#>
+
+SELECT DISTINCT ?nombreMunicipio
+WHERE {
+
+ ?camino a btn100:ItinerarioDeCaminoDeSantiago .
+ ?camino dc:title "Camino Catalán" .
+ ?camino geosparql:hasGeometry ?geoCamino .
+ ?geoCamino geosparql:asWKT ?geoCaminoLocali .
+
+ ?municipio a esadm:Municipio .
+ ?municipio dc:title ?nombreMunicipio .
+ ?municipio geosparql:hasGeometry ?geoMuni .
+ ?geoMuni geosparql:asWKT ?geoMuniLocali .
+ FILTER (bif:st_intersects(?geoCaminoLocali, ?geoMuniLocali))
+
+} ORDER BY (?nombreMunicipio)
+
+
+
+### ¿Cuáles son las playas de la Provincia de Valencia?
+
+PREFIX esadm: <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#>
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX dc: <http://purl.org/dc/terms/>
+PREFIX btn100: <https://datos.ign.es/def/btn100#>
+
+SELECT DISTINCT ?nombrePlaya ?geoPlayaLocali
+WHERE {
+  ?provincia a esadm:Provincia .
+  ?provincia dc:title "Barcelona" .
+  ?provincia geosparql:hasGeometry ?geoProv .
+  ?geoProv geosparql:asWKT ?geoProvLocali .
+
+  ?playa a btn100:Playa .
+  ?playa dc:title ?nombrePlaya .
+  ?playa geosparql:hasGeometry ?geoPlaya .
+  ?geoPlaya geosparql:asWKT ?geoPlayaLocali .
+  FILTER (bif:st_intersects(?geoPlayaLocali, ?geoProvLocali))
+} ORDER BY (?nombrePlaya)
+
+### ¿Qué líneas eléctricas atraviesan el municipio de Madrid?
+
+PREFIX esadm: <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#>
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX dc: <http://purl.org/dc/terms/>
+PREFIX btn100: <https://datos.ign.es/def/btn100#>
+
+SELECT DISTINCT ?codigoLinea ?geoLineaLocali
+WHERE {
+
+ ?municipio a esadm:Municipio .
+ ?municipio dc:title "Madrid" .
+ ?municipio geosparql:hasGeometry ?geoMuni .
+ ?geoMuni geosparql:asWKT ?geoMuniLocali .
+
+ ?linea a btn100:LineaElectricaDeBajaTension .
+ ?linea dc:identifier ?codigoLinea .
+ ?linea geosparql:hasGeometry ?geoLinea .
+ ?geoLinea geosparql:asWKT ?geoLineaLocali .
+
+ FILTER (bif:st_intersects(?geoLineaLocali, ?geoMuniLocali))
+
+} ORDER BY (?codigoLinea)
+
+
+### ¿Qué vértices geodésicos hay en el municipio de Barcelona?
+
+PREFIX esadm: <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#>
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX dc: <http://purl.org/dc/terms/>
+PREFIX btn100: <https://datos.ign.es/def/btn100#>
+
+SELECT DISTINCT ?codigoVertice ?nombreVertice 
+WHERE {
+
+ ?municipio a esadm:Municipio .
+ ?municipio dc:title "Barcelona" .
+ ?municipio geosparql:hasGeometry ?geoMuni .
+ ?geoMuni geosparql:asWKT ?geoMuniLocali .
+
+ ?vertice a btn100:VerticeGeodesicoDeOrdenInferior .
+ ?vertice dc:identifier ?codigoVertice .
+ ?vertice dc:title ?nombreVertice .
+ ?linea geosparql:hasGeometry ?geoVertice .
+ ?geoVertice geosparql:asWKT ?geoVerticeLocali .
+
+ FILTER (bif:st_intersects(?geoVerticeLocali, ?geoMuniLocali))
+
+} ORDER BY (?nombreVertice)
