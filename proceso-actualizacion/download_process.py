@@ -251,7 +251,7 @@ status = subprocess.getstatusoutput('bin/isql -S '+isqlPort+' -U '+userVirt+' -P
 logger.info("DeleteGraphVocabs-->"+str(status))
 
 #/opt/virtuoso-7/default/bin/isql -S "$1" -U dba verbose=on banner=off prompt=off echo=ON errors=stdout exec="ld_dir_all(('$2'), '*.ttl', '$3'); rdf_loader_run(); checkpoint;"
-status = subprocess.getstatusoutput('bin/isql -S '+isqlPort+' -U '+userVirt+' -P '+passVirt+' verbose=on banner=off prompt=off echo=ON errors=stdout exec="ld_dir_all((\''+vocabs_dir+'\'), \'*.owl\', \'' + graph_id + 'vocabs\'); rdf_loader_run(); checkpoint;"')
+status = subprocess.getstatusoutput('bin/isql -S '+isqlPort+' -U '+userVirt+' -P '+passVirt+' verbose=on banner=off prompt=off echo=ON errors=stdout exec="ld_dir_all((\''+vocabs_dir+'\'), \'*.ttl\', \'' + graph_id + 'vocabs\'); rdf_loader_run(); checkpoint;"')
 logger.info("LoadFolderVocabs-->"+str(status))
 
 # if there are ids to be updated, commit to GitHub repository is made
