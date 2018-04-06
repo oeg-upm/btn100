@@ -15,6 +15,7 @@
         geosparql:asWKT  "LINESTRING (-15.772608729999996 27.850450062324448, -15.733747750000003 27.886757142384578)"^^geosparql:wktLiteral .
 
 georec:406  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "406" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "406" ;
         dc:title                   "Peña del Trillo" ;
@@ -35,6 +36,7 @@ georec:406  a                      btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-2.82009198 42.61542487995402, -2.80912899 42.615589779954085)"^^geosparql:wktLiteral .
 
 georec:478  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "478" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "478" ;
         dc:title                   "Alto Campanavea" ;
@@ -55,6 +57,7 @@ georec:478  a                      btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-2.95147518 43.07601226010621, -2.9382552199999994 43.0760058901062)"^^geosparql:wktLiteral .
 
 georec:418  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "418" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "418" ;
         dc:title                   "Alto de Arrizabalpe" ;
@@ -63,6 +66,7 @@ georec:418  a                      btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
 
 georec:1555  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "1555" ;
         dc:created                 "2013-04-22"^^xsd:date ;
         dc:identifier              "1555" ;
         dc:title                   "Parc del Foix" ;
@@ -71,6 +75,7 @@ georec:1555  a                     btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
 
 georec:394  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "394" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "394" ;
         dc:title                   "Alto de Garonela" ;
@@ -79,6 +84,7 @@ georec:394  a                      btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
 
 georec:857  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "857" ;
         dc:created                 "2012-06-07"^^xsd:date ;
         dc:identifier              "857" ;
         dc:title                   "Montes de Bidasoa" ;
@@ -95,6 +101,7 @@ georec:857  a                      btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-6.01086388 39.81793073837241, -5.87718865 39.818308078372695)"^^geosparql:wktLiteral .
 
 georec:3865  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "3865" ;
         dc:created                 "2013-01-22"^^xsd:date ;
         dc:identifier              "3865" ;
         dc:title                   "Paraje Natural Estero de Domingo Rubio" ;
@@ -103,6 +110,7 @@ georec:3865  a                     btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
 
 georec:4389  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "4389" ;
         dc:created                 "2013-02-19"^^xsd:date ;
         dc:identifier              "4389" ;
         dc:title                   "Valle Gran Rey" ;
@@ -119,6 +127,7 @@ georec:4389  a                     btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-3.0229765900000003 42.83618388003088, -3.00893089 42.83585768003078)"^^geosparql:wktLiteral .
 
 georec:4921  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "4921" ;
         dc:created                 "2014-06-17"^^xsd:date ;
         dc:identifier              "4921" ;
         dc:title                   "Raña de los Lobos" ;
@@ -135,6 +144,7 @@ georec:4921  a                     btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-1.5658593999999997 43.023521190090456, -1.53939449 43.0234204100904)"^^geosparql:wktLiteral .
 
 georec:461  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "461" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "461" ;
         dc:title                   "Monte la Tala" ;
@@ -147,6 +157,7 @@ georec:461  a                      btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-8.751858680000002 42.293256879828974, -8.717597290000002 42.34125457984858)"^^geosparql:wktLiteral .
 
 georec:42  a                       btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "42" ;
         dc:created                 "2012-01-18"^^xsd:date ;
         dc:identifier              "42" ;
         dc:title                   "PARQUE NATURAL SERRA D´ESPADÀ" ;
@@ -155,6 +166,7 @@ georec:42  a                       btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
 
 georec:3877  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "3877" ;
         dc:created                 "2013-01-22"^^xsd:date ;
         dc:identifier              "3877" ;
         dc:title                   "Marisma de Doñana" ;
@@ -163,6 +175,7 @@ georec:3877  a                     btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
 
 georec:401  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "401" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "401" ;
         dc:title                   "Goico Mendi" ;
@@ -179,6 +192,7 @@ georec:401  a                      btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-4.9806050399999995 43.1353033601235, -4.934494240000001 43.13010403012203, -4.883410810000001 43.12753456012126)"^^geosparql:wktLiteral .
 
 georec:1549  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "1549" ;
         dc:created                 "2012-03-27"^^xsd:date ;
         dc:identifier              "1549" ;
         dc:title                   "PARC NATURAL DEL MONTSENY" ;
@@ -199,6 +213,7 @@ georec:1549  a                     btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-5.3620726 43.05125169009881, -5.334285139999999 43.05201280009904, -5.312450049999999 43.05207502009905, -5.290088090000002 43.05195296009903, -5.26796475 43.051249840098826, -5.240393320000001 43.050839920098696)"^^geosparql:wktLiteral .
 
 georec:443  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "443" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "443" ;
         dc:title                   "Peña Rubia" ;
@@ -211,6 +226,7 @@ georec:443  a                      btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (2.472903809999999 41.6388992895284, 2.5632077 41.68491170955157)"^^geosparql:wktLiteral .
 
 georec:413  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "413" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "413" ;
         dc:title                   "Alto de Mugariluse" ;
@@ -219,6 +235,7 @@ georec:413  a                      btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
 
 georec:1550  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "1550" ;
         dc:created                 "2012-03-27"^^xsd:date ;
         dc:identifier              "1550" ;
         dc:title                   "PARC NATURAL DE MONTNEGRE-GORREDOR" ;
@@ -227,6 +244,7 @@ georec:1550  a                     btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
 
 georec:1942  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "1942" ;
         dc:created                 "2012-06-07"^^xsd:date ;
         dc:identifier              "1942" ;
         dc:title                   "Monte de la Sarda" ;
@@ -235,6 +253,7 @@ georec:1942  a                     btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
 
 georec:2943  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "2943" ;
         dc:created                 "2012-09-29"^^xsd:date ;
         dc:identifier              "2943" ;
         dc:title                   "Pradera de Espinas" ;
@@ -243,6 +262,7 @@ georec:2943  a                     btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
 
 georec:455  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "455" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "455" ;
         dc:title                   "Monte los Revillos" ;
@@ -251,6 +271,7 @@ georec:455  a                      btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
 
 georec:4408  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "4408" ;
         dc:created                 "2013-02-19"^^xsd:date ;
         dc:identifier              "4408" ;
         dc:title                   "Valle de Güimar" ;
@@ -263,6 +284,7 @@ georec:4408  a                     btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-2.5643563000000014 37.282921366035595, -2.5603136199999996 37.294094196047595, -2.5502182500000004 37.30587967606024)"^^geosparql:wktLiteral .
 
 georec:948  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "948" ;
         dc:created                 "2011-03-14"^^xsd:date ;
         dc:identifier              "948" ;
         dc:title                   "Espacio Natural" ;
@@ -271,6 +293,7 @@ georec:948  a                      btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
 
 georec:4384  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "4384" ;
         dc:created                 "2013-03-27"^^xsd:date ;
         dc:identifier              "4384" ;
         dc:title                   "Lomo de Veneguera" ;
@@ -279,6 +302,7 @@ georec:4384  a                     btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
 
 georec:425  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "425" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "425" ;
         dc:title                   "Analamendi" ;
@@ -315,6 +339,7 @@ georec:425  a                      btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-3.03128803 42.896729450050714, -3.0165557400000003 42.896732530050706)"^^geosparql:wktLiteral .
 
 georec:1502  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "1502" ;
         dc:created                 "2012-03-26"^^xsd:date ;
         dc:identifier              "1502" ;
         dc:title                   "PARC NATURAL DE LA MUNTANYA DE MONTSERRAT" ;
@@ -323,6 +348,7 @@ georec:1502  a                     btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
 
 georec:467  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "467" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "467" ;
         dc:title                   "Alto de Santa Águeda" ;
@@ -335,6 +361,7 @@ georec:467  a                      btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-2.78477528 42.94959214006756, -2.77133102 42.95024706006776)"^^geosparql:wktLiteral .
 
 georec:3872  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "3872" ;
         dc:created                 "2013-01-22"^^xsd:date ;
         dc:identifier              "3872" ;
         dc:title                   "Reserva Natural Laguna del Portil" ;
@@ -351,6 +378,7 @@ georec:3872  a                     btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-2.82091982 43.068112400103836, -2.810351360000001 43.06816275010386)"^^geosparql:wktLiteral .
 
 georec:437  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "437" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "437" ;
         dc:title                   "Peña Caída" ;
@@ -359,6 +387,7 @@ georec:437  a                      btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
 
 georec:2183  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "2183" ;
         dc:created                 "2013-02-25"^^xsd:date ;
         dc:identifier              "2183" ;
         dc:title                   "Loma de la Cruz de Hierro" ;
@@ -367,6 +396,7 @@ georec:2183  a                     btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
 
 georec:48  a                       btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "48" ;
         dc:created                 "2012-02-15"^^xsd:date ;
         dc:identifier              "48" ;
         dc:title                   "Lomas de la Muela" ;
@@ -383,6 +413,7 @@ georec:48  a                       btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-9.16772105 43.14068901012505, -9.170300199999998 43.13348822012298)"^^geosparql:wktLiteral .
 
 georec:479  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "479" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "479" ;
         dc:title                   "Peña del Silo" ;
@@ -391,6 +422,7 @@ georec:479  a                      btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
 
 georec:1037  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "1037" ;
         dc:created                 "2013-02-22"^^xsd:date ;
         dc:identifier              "1037" ;
         dc:title                   "Cuerda de Villalpardo" ;
@@ -403,6 +435,7 @@ georec:1037  a                     btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (3.0265550800000005 39.898956178433565, 3.07314036 39.89873791843339)"^^geosparql:wktLiteral .
 
 georec:4970  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "4970" ;
         dc:identifier              "4970" ;
         dc:title                   "Paraje Natural Marismas de Isla Cristina" ;
         geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-orografico/4970/geometry> ;
@@ -418,6 +451,7 @@ georec:4970  a                     btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-2.9890907099999997 42.824536000027, -2.96902935 42.82436826002696)"^^geosparql:wktLiteral .
 
 georec:419  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "419" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "419" ;
         dc:title                   "Alto de Ultzama" ;
@@ -426,6 +460,7 @@ georec:419  a                      btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
 
 georec:480  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "480" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "480" ;
         dc:title                   "Pico de Izarza" ;
@@ -434,6 +469,7 @@ georec:480  a                      btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
 
 georec:395  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "395" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "395" ;
         dc:title                   "Alto de Zavalla" ;
@@ -466,6 +502,7 @@ georec:395  a                      btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-17.33865417000001 28.12328640277615, -17.297214760000003 28.12391907277721)"^^geosparql:wktLiteral .
 
 georec:858  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "858" ;
         dc:created                 "2012-06-07"^^xsd:date ;
         dc:identifier              "858" ;
         dc:title                   "PARQUE NATURAL SEÑORÍO DE BÉRNITZ" ;
@@ -474,6 +511,7 @@ georec:858  a                      btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
 
 georec:420  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "420" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "420" ;
         dc:title                   "Peña Olano" ;
@@ -482,6 +520,7 @@ georec:420  a                      btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
 
 georec:3082  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "3082" ;
         dc:created                 "2012-12-17"^^xsd:date ;
         dc:identifier              "3082" ;
         dc:title                   "PARQUE NACIONAL DE LOS PICOS DE EUROPA" ;
@@ -490,6 +529,7 @@ georec:3082  a                     btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
 
 georec:2388  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "2388" ;
         dc:created                 "2012-07-26"^^xsd:date ;
         dc:identifier              "2388" ;
         dc:title                   "PARQUE NATURAL FUENTES CARRIONAS Y FUENTE COBRE" ;
@@ -498,6 +538,7 @@ georec:2388  a                     btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c> .
 
 georec:3866  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "3866" ;
         dc:created                 "2013-01-22"^^xsd:date ;
         dc:identifier              "3866" ;
         dc:title                   "Zona de protección de la Carretera Comarcal" ;
@@ -506,6 +547,7 @@ georec:3866  a                     btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
 
 georec:124  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "124" ;
         dc:created                 "2012-01-19"^^xsd:date ;
         dc:identifier              "124" ;
         dc:title                   "Parque Natural de La Albufera" ;
@@ -514,6 +556,7 @@ georec:124  a                      btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c> .
 
 georec:4741  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "4741" ;
         dc:created                 "2013-01-29"^^xsd:date ;
         dc:identifier              "4741" ;
         dc:title                   "Islas Las Mouchas" ;
@@ -530,6 +573,7 @@ georec:4741  a                     btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-1.6535688900000007 43.19164975013946, -1.6082329899999996 43.19023613013906)"^^geosparql:wktLiteral .
 
 georec:462  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "462" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "462" ;
         dc:title                   "Alto Hornillo" ;
@@ -546,6 +590,7 @@ georec:462  a                      btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-9.18878093 43.09539241011191, -9.19074932 43.10199137011383)"^^geosparql:wktLiteral .
 
 georec:432  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "432" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "432" ;
         dc:title                   "Mendicorocha" ;
@@ -558,6 +603,7 @@ georec:432  a                      btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-3.027620740000001 42.75154968000228, -3.0087071500000016 42.751693470002316)"^^geosparql:wktLiteral .
 
 georec:3878  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "3878" ;
         dc:created                 "2013-01-22"^^xsd:date ;
         dc:identifier              "3878" ;
         dc:title                   "Marismas del Guadalquivir" ;
@@ -570,6 +616,7 @@ georec:3878  a                     btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-2.2436597799999998 41.08442826922551, -2.1907528699999994 41.062335559212514)"^^geosparql:wktLiteral .
 
 georec:402  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "402" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "402" ;
         dc:title                   "Pico Elordo" ;
@@ -582,6 +629,7 @@ georec:402  a                      btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-2.2914901800000007 42.88550411004708, -2.271147090000001 42.88522373004698)"^^geosparql:wktLiteral .
 
 georec:474  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "474" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "474" ;
         dc:title                   "Alto de Olazar" ;
@@ -598,6 +646,7 @@ georec:474  a                      btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (0.2752302600000001 40.31529885873372, 0.34348596 40.3152793087337)"^^geosparql:wktLiteral .
 
 georec:444  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "444" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "444" ;
         dc:title                   "Monte Morales" ;
@@ -618,6 +667,7 @@ georec:444  a                      btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-6.467324270000001 37.09815536583497, -6.449114699999999 37.0619386757952, -6.439556420000001 37.03363429576401)"^^geosparql:wktLiteral .
 
 georec:414  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "414" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "414" ;
         dc:title                   "Burgamendi" ;
@@ -626,6 +676,7 @@ georec:414  a                      btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c> .
 
 georec:2944  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "2944" ;
         dc:created                 "2012-09-29"^^xsd:date ;
         dc:identifier              "2944" ;
         dc:title                   "Sierra Delgada" ;
@@ -638,6 +689,7 @@ georec:2944  a                     btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-1.9959517000000004 40.295964168720296, -1.7945336700000003 40.295831078720205)"^^geosparql:wktLiteral .
 
 georec:390  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "390" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "390" ;
         dc:title                   "Alto de los Caminos Blancos" ;
@@ -646,6 +698,7 @@ georec:390  a                      btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
 
 georec:3468  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "3468" ;
         dc:created                 "2013-06-13"^^xsd:date ;
         dc:identifier              "3468" ;
         dc:title                   "Loma de la Zarza" ;
@@ -662,6 +715,7 @@ georec:3468  a                     btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-2.1511365 37.42127550618325, -2.118564580000001 37.412392416173866, -2.08663171 37.40401382616495)"^^geosparql:wktLiteral .
 
 georec:1828  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "1828" ;
         dc:created                 "2013-06-13"^^xsd:date ;
         dc:identifier              "1828" ;
         dc:title                   "Loma de la Capellanía" ;
@@ -682,6 +736,7 @@ georec:1828  a                     btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-3.0981929800000003 42.87369808004322, -3.0842412700000006 42.87370919004323)"^^geosparql:wktLiteral .
 
 georec:456  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "456" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "456" ;
         dc:title                   "Alto Lagunos" ;
@@ -690,6 +745,7 @@ georec:456  a                      btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
 
 georec:4385  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "4385" ;
         dc:created                 "2013-03-27"^^xsd:date ;
         dc:identifier              "4385" ;
         dc:title                   "Lomo de Taurito" ;
@@ -702,6 +758,7 @@ georec:4385  a                     btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-3.0128773200000003 43.13462546012331, -2.997018140000001 43.134413030123234)"^^geosparql:wktLiteral .
 
 georec:4832  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "4832" ;
         dc:created                 "2012-03-19"^^xsd:date ;
         dc:identifier              "4832" ;
         dc:title                   "Loma de los Lobos" ;
@@ -710,6 +767,7 @@ georec:4832  a                     btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
 
 georec:1925  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "1925" ;
         dc:created                 "2012-06-06"^^xsd:date ;
         dc:identifier              "1925" ;
         dc:title                   "Alto Gállego" ;
@@ -718,6 +776,7 @@ georec:1925  a                     btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
 
 georec:4410  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "4410" ;
         dc:created                 "2013-03-08"^^xsd:date ;
         dc:identifier              "4410" ;
         dc:title                   "Macizo de Anaga" ;
@@ -726,6 +785,7 @@ georec:4410  a                     btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
 
 georec:1503  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "1503" ;
         dc:created                 "2013-04-19"^^xsd:date ;
         dc:identifier              "1503" ;
         dc:title                   "PARC NATURAL DE SANT LLORENÇ DEL MUNT I L'OBAC" ;
@@ -734,6 +794,7 @@ georec:1503  a                     btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
 
 georec:468  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "468" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "468" ;
         dc:title                   "Monte Santa Cruz" ;
@@ -742,6 +803,7 @@ georec:468  a                      btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
 
 georec:3873  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "3873" ;
         dc:created                 "2013-01-22"^^xsd:date ;
         dc:identifier              "3873" ;
         dc:title                   "Parque Nacional Coto de Doñana" ;
@@ -754,6 +816,7 @@ georec:3873  a                     btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-2.515773339999999 42.69638811998304, -2.4963783500000005 42.69696209998324)"^^geosparql:wktLiteral .
 
 georec:438  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "438" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "438" ;
         dc:title                   "Alto de Gazteluberri" ;
@@ -770,6 +833,7 @@ georec:438  a                      btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-3.1342208600000006 42.83331816002995, -3.11660891 42.83333745002994)"^^geosparql:wktLiteral .
 
 georec:408  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "408" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "408" ;
         dc:title                   "Peña de San Tirso" ;
@@ -786,6 +850,7 @@ georec:408  a                      btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-5.082688890000001 42.95574977006949, -5.017086920000001 42.95570208006948, -4.953480569999999 42.95558269006944, -4.878815400000001 42.95316406006869)"^^geosparql:wktLiteral .
 
 georec:4729  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "4729" ;
         dc:created                 "2010-09-30"^^xsd:date ;
         dc:identifier              "4729" ;
         dc:title                   "Desfiladero de la Hermida" ;
@@ -806,6 +871,7 @@ georec:4729  a                     btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-3.13583318 43.10689202011526, -3.1208836199999994 43.106999310115306)"^^geosparql:wktLiteral .
 
 georec:4886  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "4886" ;
         dc:created                 "2014-06-17"^^xsd:date ;
         dc:identifier              "4886" ;
         dc:title                   "Espacio Natural Sierra de la Demanda" ;
@@ -830,6 +896,7 @@ georec:4886  a                     btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-1.5283490100000003 43.246673140154584, -1.4984611200000002 43.24735857015477)"^^geosparql:wktLiteral .
 
 georec:396  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "396" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "396" ;
         dc:title                   "Alto de Panabarra" ;
@@ -850,6 +917,7 @@ georec:396  a                      btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-6.67884802 37.09563474583221, -6.620907429999999 37.08964674582564, -6.561178220000002 37.08185470581708)"^^geosparql:wktLiteral .
 
 georec:4404  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "4404" ;
         dc:created                 "2013-03-08"^^xsd:date ;
         dc:identifier              "4404" ;
         dc:title                   "Macizo de Teno" ;
@@ -866,6 +934,7 @@ georec:4404  a                     btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (0.05884554 42.684806929978954, 0.06431781 42.68802111998009, 0.07099922 42.69008240998081, 0.0778785 42.69101777998115, 0.0851988 42.69063395998102, 0.09122754 42.68972446998069, 0.09599242 42.68884885998038)"^^geosparql:wktLiteral .
 
 georec:859  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "859" ;
         dc:created                 "2012-06-07"^^xsd:date ;
         dc:identifier              "859" ;
         dc:title                   "Monte Otsondo" ;
@@ -878,6 +947,7 @@ georec:859  a                      btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-2.2880999000000006 42.800280880018875, -2.2731091700000006 42.800426660018935)"^^geosparql:wktLiteral .
 
 georec:421  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "421" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "421" ;
         dc:title                   "Peña de Egino" ;
@@ -886,6 +956,7 @@ georec:421  a                      btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
 
 georec:3294  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "3294" ;
         dc:created                 "2013-06-13"^^xsd:date ;
         dc:identifier              "3294" ;
         dc:replaces                "100" ;
@@ -899,6 +970,7 @@ georec:3294  a                     btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-2.13951479 37.44788834621142, -2.08705349 37.4349091161977)"^^geosparql:wktLiteral .
 
 georec:3083  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "3083" ;
         dc:created                 "2012-12-17"^^xsd:date ;
         dc:identifier              "3083" ;
         dc:title                   "PARQUE NATURAL MACIZO DE PEÑA CABARGA" ;
@@ -911,6 +983,7 @@ georec:3083  a                     btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-3.6671690800000007 43.20098760014207, -3.5818069500000003 43.202414450142456)"^^geosparql:wktLiteral .
 
 georec:3867  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "3867" ;
         dc:created                 "2013-01-22"^^xsd:date ;
         dc:identifier              "3867" ;
         dc:title                   "Paraje Natural Marismas del Odiel" ;
@@ -919,6 +992,7 @@ georec:3867  a                     btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
 
 georec:4742  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "4742" ;
         dc:created                 "2013-01-29"^^xsd:date ;
         dc:identifier              "4742" ;
         dc:title                   "Islas Los Perceberos" ;
@@ -931,6 +1005,7 @@ georec:4742  a                     btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-3.0897853300000007 42.78413753001341, -3.0766427 42.78431116001345)"^^geosparql:wktLiteral .
 
 georec:2359  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "2359" ;
         dc:created                 "2012-11-06"^^xsd:date ;
         dc:identifier              "2359" ;
         dc:title                   "PARQUE NACIONAL DE MONFRAGÜE" ;
@@ -939,6 +1014,7 @@ georec:2359  a                     btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c> .
 
 georec:860  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "860" ;
         dc:created                 "2012-06-07"^^xsd:date ;
         dc:identifier              "860" ;
         dc:title                   "Monte Anchastegui" ;
@@ -947,6 +1023,7 @@ georec:860  a                      btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
 
 georec:463  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "463" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "463" ;
         dc:title                   "Alto El Otero" ;
@@ -955,6 +1032,7 @@ georec:463  a                      btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
 
 georec:433  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "433" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "433" ;
         dc:title                   "Alto de San Cristóbal" ;
@@ -963,6 +1041,7 @@ georec:433  a                      btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
 
 georec:3879  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "3879" ;
         dc:created                 "2013-01-22"^^xsd:date ;
         dc:identifier              "3879" ;
         dc:title                   "Marismas de Hinojos" ;
@@ -979,6 +1058,7 @@ georec:3879  a                     btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-2.2836733699999994 42.92852712006088, -2.2680566900000003 42.92858340006091)"^^geosparql:wktLiteral .
 
 georec:403  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "403" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "403" ;
         dc:title                   "Alto de Astaez" ;
@@ -999,6 +1079,7 @@ georec:403  a                      btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-3.068982500000001 42.86003725003875, -3.0550343700000004 42.86061490003895)"^^geosparql:wktLiteral .
 
 georec:475  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "475" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "475" ;
         dc:title                   "Alto de Bardarán" ;
@@ -1007,6 +1088,7 @@ georec:475  a                      btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
 
 georec:3880  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "3880" ;
         dc:created                 "2013-05-27"^^xsd:date ;
         dc:identifier              "3880" ;
         dc:title                   "Reserva Biológica de Doñana (CSIC)" ;
@@ -1015,6 +1097,7 @@ georec:3880  a                     btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
 
 georec:445  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "445" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "445" ;
         dc:title                   "Peña Los Castros" ;
@@ -1027,6 +1110,7 @@ georec:445  a                      btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-2.96977518 43.02442681009074, -2.9567608400000003 43.0239950700906)"^^geosparql:wktLiteral .
 
 georec:56  a                       btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "56" ;
         dc:created                 "2012-02-15"^^xsd:date ;
         dc:identifier              "56" ;
         dc:title                   "PARQUE NATURAL DEL PRAT DE CABANES - TORREBLANCA" ;
@@ -1035,6 +1119,7 @@ georec:56  a                       btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
 
 georec:2945  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "2945" ;
         dc:created                 "2012-09-29"^^xsd:date ;
         dc:identifier              "2945" ;
         dc:title                   "El Regañón" ;
@@ -1043,6 +1128,7 @@ georec:2945  a                     btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
 
 georec:1829  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "1829" ;
         dc:created                 "2013-06-13"^^xsd:date ;
         dc:identifier              "1829" ;
         dc:title                   "Loma de los Camarotes" ;
@@ -1055,6 +1141,7 @@ georec:1829  a                     btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-2.9195437 42.851379220035916, -2.9074870500000003 42.851092880035814)"^^geosparql:wktLiteral .
 
 georec:457  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "457" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "457" ;
         dc:title                   "Alto de los Mojones" ;
@@ -1063,6 +1150,7 @@ georec:457  a                      btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
 
 georec:4386  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "4386" ;
         dc:created                 "2013-03-27"^^xsd:date ;
         dc:identifier              "4386" ;
         dc:title                   "Lomo de Tauro Alto" ;
@@ -1083,6 +1171,7 @@ georec:4386  a                     btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-4.978117939999661 39.44535115808006, -4.964087979999664 39.44481284807964, -4.948093049999665 39.44559940808026, -4.935440219999667 39.44658689808106, -4.924781129999672 39.447281298081634, -4.9225750499996686 39.44753220808183, -4.916797299999672 39.44818936808237)"^^geosparql:wktLiteral .
 
 georec:427  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "427" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "427" ;
         dc:title                   "Peña Hueca" ;
@@ -1095,6 +1184,7 @@ georec:427  a                      btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-2.4433505600000003 42.80094640001909, -2.429672829999999 42.801331190019226)"^^geosparql:wktLiteral .
 
 georec:2957  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "2957" ;
         dc:created                 "2012-09-29"^^xsd:date ;
         dc:identifier              "2957" ;
         dc:title                   "Reserva Nacional de Mampodre" ;
@@ -1103,6 +1193,7 @@ georec:2957  a                     btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c> .
 
 georec:1830  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "1830" ;
         dc:created                 "2013-06-13"^^xsd:date ;
         dc:identifier              "1830" ;
         dc:title                   "El Espolón" ;
@@ -1111,6 +1202,7 @@ georec:1830  a                     btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
 
 georec:1353  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "1353" ;
         dc:created                 "2012-03-20"^^xsd:date ;
         dc:identifier              "1353" ;
         dc:title                   "Valle de Ribas" ;
@@ -1123,6 +1215,7 @@ georec:1353  a                     btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-6.500391370000001 37.009652635737524, -6.44391397 37.008993255736776)"^^geosparql:wktLiteral .
 
 georec:4833  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "4833" ;
         dc:created                 "2012-03-19"^^xsd:date ;
         dc:identifier              "4833" ;
         dc:title                   "Loma de los Sacristanes" ;
@@ -1131,6 +1224,7 @@ georec:4833  a                     btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
 
 georec:1926  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "1926" ;
         dc:created                 "2012-06-06"^^xsd:date ;
         dc:identifier              "1926" ;
         dc:title                   "Hola de Huesca" ;
@@ -1143,6 +1237,7 @@ georec:1926  a                     btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-3.1651929500000002 43.02671468009141, -3.14703991 43.02655053009137)"^^geosparql:wktLiteral .
 
 georec:866  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "866" ;
         dc:created                 "2012-06-07"^^xsd:date ;
         dc:identifier              "866" ;
         dc:title                   "PARQUE NATURAL BÁRDENAS REALES" ;
@@ -1151,6 +1246,7 @@ georec:866  a                      btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c> .
 
 georec:469  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "469" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "469" ;
         dc:title                   "Monte de Tulla" ;
@@ -1159,6 +1255,7 @@ georec:469  a                      btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
 
 georec:3874  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "3874" ;
         dc:created                 "2013-01-22"^^xsd:date ;
         dc:identifier              "3874" ;
         dc:title                   "Parque Natural del Entorno de Doñana" ;
@@ -1167,6 +1264,7 @@ georec:3874  a                     btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
 
 georec:921  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "921" ;
         dc:created                 "2011-03-14"^^xsd:date ;
         dc:identifier              "921" ;
         dc:title                   "Espacio Natural La Yecla" ;
@@ -1175,6 +1273,7 @@ georec:921  a                      btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
 
 georec:439  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "439" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "439" ;
         dc:title                   "Alto Corona" ;
@@ -1183,6 +1282,7 @@ georec:439  a                      btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
 
 georec:1968  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "1968" ;
         dc:created                 "2013-05-13"^^xsd:date ;
         dc:identifier              "1968" ;
         dc:title                   "Garganta de Escuaín" ;
@@ -1191,6 +1291,7 @@ georec:1968  a                     btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
 
 georec:2969  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "2969" ;
         dc:created                 "2012-09-29"^^xsd:date ;
         dc:identifier              "2969" ;
         dc:title                   "Parque Nacional de los Picos de Europa" ;
@@ -1207,6 +1308,7 @@ georec:2969  a                     btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-15.78280595 27.876560452367695, -15.750324109999998 27.919042502438042)"^^geosparql:wktLiteral .
 
 georec:409  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "409" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "409" ;
         dc:title                   "Peña del Castillo" ;
@@ -1231,6 +1333,7 @@ georec:409  a                      btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-2.2530750699999995 42.84666335003434, -2.237448589999999 42.8465603500343)"^^geosparql:wktLiteral .
 
 georec:440  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "440" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "440" ;
         dc:title                   "Monte Manzanal" ;
@@ -1239,6 +1342,7 @@ georec:440  a                      btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
 
 georec:2970  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "2970" ;
         dc:created                 "2012-09-29"^^xsd:date ;
         dc:identifier              "2970" ;
         dc:title                   "Valdeón" ;
@@ -1251,6 +1355,7 @@ georec:2970  a                     btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-2.84781337 42.644678939964614, -2.8300559599999997 42.64479646996467)"^^geosparql:wktLiteral .
 
 georec:3886  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "3886" ;
         dc:created                 "2013-06-11"^^xsd:date ;
         dc:identifier              "3886" ;
         dc:title                   "Vall d'Axartell" ;
@@ -1259,6 +1364,7 @@ georec:3886  a                     btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c> .
 
 georec:410  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "410" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "410" ;
         dc:title                   "Peña Roja" ;
@@ -1275,6 +1381,7 @@ georec:410  a                      btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (0.18992848 40.31290952873206, 0.19805501 40.328857738743096)"^^geosparql:wktLiteral .
 
 georec:397  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "397" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "397" ;
         dc:title                   "Monte el Duengo" ;
@@ -1287,6 +1394,7 @@ georec:397  a                      btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (0.11414925 42.61285900995308, 0.1415865 42.59150253994527, 0.15895655 42.57264147993829)"^^geosparql:wktLiteral .
 
 georec:2222  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "2222" ;
         dc:created                 "2012-02-24"^^xsd:date ;
         dc:identifier              "2222" ;
         dc:title                   "RESERVA NACIONAL DE CAZA" ;
@@ -1307,6 +1415,7 @@ georec:2222  a                     btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-6.291920170000002 43.57519217023548, -6.28785661 43.57534533023551)"^^geosparql:wktLiteral .
 
 georec:4381  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "4381" ;
         dc:created                 "2013-03-27"^^xsd:date ;
         dc:identifier              "4381" ;
         dc:title                   "PENÍNSULA DE JANDÍA" ;
@@ -1319,6 +1428,7 @@ georec:4381  a                     btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-3.1321277799999994 42.79262871001629, -3.1120766800000004 42.792650090016295)"^^geosparql:wktLiteral .
 
 georec:422  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "422" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "422" ;
         dc:title                   "Alto de Ataun" ;
@@ -1339,6 +1449,7 @@ georec:422  a                      btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-3.4334682200000004 41.93225303967085, -3.3849252600000015 41.93287916967113)"^^geosparql:wktLiteral .
 
 georec:3084  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "3084" ;
         dc:created                 "2012-12-17"^^xsd:date ;
         dc:identifier              "3084" ;
         dc:title                   "PARQUE NATURAL DE LAS MARISMAS DE SANTOÑA" ;
@@ -1347,6 +1458,7 @@ georec:3084  a                     btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
 
 georec:3868  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "3868" ;
         dc:created                 "2013-01-22"^^xsd:date ;
         dc:identifier              "3868" ;
         dc:title                   "Reserva Natural Isla de Enmedio" ;
@@ -1355,6 +1467,7 @@ georec:3868  a                     btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
 
 georec:4743  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "4743" ;
         dc:created                 "2013-01-29"^^xsd:date ;
         dc:identifier              "4743" ;
         dc:title                   "Islas Las Chugaronas" ;
@@ -1371,6 +1484,7 @@ georec:4743  a                     btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (1.6946673400000003 42.26694110981811, 1.805406660000001 42.26784462981847)"^^geosparql:wktLiteral .
 
 georec:861  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "861" ;
         dc:created                 "2012-06-07"^^xsd:date ;
         dc:identifier              "861" ;
         dc:title                   "Monte Ococa" ;
@@ -1387,6 +1501,7 @@ georec:861  a                      btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-1.4342299699999999 43.193159540139874, -1.4043865599999998 43.19310509013988)"^^geosparql:wktLiteral .
 
 georec:464  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "464" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "464" ;
         dc:title                   "Monte Lago" ;
@@ -1399,6 +1514,7 @@ georec:464  a                      btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-3.1560872000000004 42.88180506004587, -3.1418752999999997 42.881823550045866)"^^geosparql:wktLiteral .
 
 georec:434  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "434" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "434" ;
         dc:title                   "Alto del Mojón" ;
@@ -1407,6 +1523,7 @@ georec:434  a                      btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
 
 georec:2964  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "2964" ;
         dc:created                 "2012-09-29"^^xsd:date ;
         dc:identifier              "2964" ;
         dc:title                   "Reserva Nacional de Mampodre" ;
@@ -1415,6 +1532,7 @@ georec:2964  a                     btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c> .
 
 georec:404  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "404" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "404" ;
         dc:title                   "Alto Pagasaun" ;
@@ -1423,6 +1541,7 @@ georec:404  a                      btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
 
 georec:873  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "873" ;
         dc:created                 "2011-03-14"^^xsd:date ;
         dc:identifier              "873" ;
         dc:title                   "Monumento Natural Ojo de Guareña" ;
@@ -1431,6 +1550,7 @@ georec:873  a                      btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
 
 georec:476  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "476" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "476" ;
         dc:title                   "Alto del Vedado" ;
@@ -1443,6 +1563,7 @@ georec:476  a                      btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (2.1307429 42.11695573975412, 2.1929762500000005 42.11635821975386)"^^geosparql:wktLiteral .
 
 georec:446  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "446" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "446" ;
         dc:title                   "Risco Malo" ;
@@ -1455,6 +1576,7 @@ georec:446  a                      btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-2.5184945199999995 42.74802155000105, -2.503321530000001 42.748614350001255)"^^geosparql:wktLiteral .
 
 georec:57  a                       btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "57" ;
         dc:created                 "2012-02-15"^^xsd:date ;
         dc:identifier              "57" ;
         dc:title                   "Montes de Murs" ;
@@ -1467,6 +1589,7 @@ georec:57  a                       btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-3.7026078399999993 43.05435822009973, -3.5574657299999997 43.058328620100944)"^^geosparql:wktLiteral .
 
 georec:416  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "416" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "416" ;
         dc:title                   "Alto de Milpirivil" ;
@@ -1483,6 +1606,7 @@ georec:416  a                      btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-2.965860820000001 42.96285831007173, -2.94697263 42.963231170071836)"^^geosparql:wktLiteral .
 
 georec:392  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "392" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "392" ;
         dc:title                   "Monte Paquete" ;
@@ -1511,6 +1635,7 @@ georec:392  a                      btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-2.6490536199999997 42.590301359944824, -2.6422648 42.59074681994499)"^^geosparql:wktLiteral .
 
 georec:3290  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "3290" ;
         dc:created                 "2013-06-13"^^xsd:date ;
         dc:identifier              "3290" ;
         dc:replaces                "100" ;
@@ -1520,6 +1645,7 @@ georec:3290  a                     btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
 
 georec:458  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "458" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "458" ;
         dc:title                   "Alto de San Juan del Olmo" ;
@@ -1536,6 +1662,7 @@ georec:458  a                      btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-6.45247291 36.95118497567265, -6.429631509999999 36.952358025673966, -6.401662379999999 36.95265303567429)"^^geosparql:wktLiteral .
 
 georec:559  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "559" ;
         dc:created                 "2013-06-04"^^xsd:date ;
         dc:identifier              "559" ;
         dc:title                   "Macizo de Itxina" ;
@@ -1544,6 +1671,7 @@ georec:559  a                      btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
 
 georec:3863  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "3863" ;
         dc:created                 "2013-01-22"^^xsd:date ;
         dc:identifier              "3863" ;
         dc:title                   "Parque Natural de Doñana" ;
@@ -1552,6 +1680,7 @@ georec:3863  a                     btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
 
 georec:4472  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "4472" ;
         dc:created                 "2013-06-14"^^xsd:date ;
         dc:identifier              "4472" ;
         dc:title                   "PENÍNSULA DO MORRAZO" ;
@@ -1564,6 +1693,7 @@ georec:4472  a                     btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-15.730346970000001 27.828335652287823, -15.706815319999999 27.860160792340533)"^^geosparql:wktLiteral .
 
 georec:428  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "428" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "428" ;
         dc:title                   "Alto de Yermanda" ;
@@ -1572,6 +1702,7 @@ georec:428  a                      btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
 
 georec:4834  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "4834" ;
         dc:created                 "2012-03-19"^^xsd:date ;
         dc:identifier              "4834" ;
         dc:title                   "Loma de Jaeña" ;
@@ -1584,6 +1715,7 @@ georec:4834  a                     btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-1.6322356799999997 43.16679207013249, -1.5542123899999998 43.1676224401327)"^^geosparql:wktLiteral .
 
 georec:1535  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "1535" ;
         dc:created                 "2012-03-27"^^xsd:date ;
         dc:identifier              "1535" ;
         dc:title                   "Reserva Natural Parcial Merlès-Lluçanés" ;
@@ -1600,6 +1732,7 @@ georec:1535  a                     btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-0.71300649 42.01322963970798, -0.6881577600000002 42.01429517970843, -0.65415298 42.017253229709766)"^^geosparql:wktLiteral .
 
 georec:560  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "560" ;
         dc:created                 "2013-06-04"^^xsd:date ;
         dc:identifier              "560" ;
         dc:title                   "Alto de Barazar" ;
@@ -1608,6 +1741,7 @@ georec:560  a                      btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
 
 georec:3875  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "3875" ;
         dc:created                 "2013-01-22"^^xsd:date ;
         dc:identifier              "3875" ;
         dc:title                   "Reserva Biótica Ayuntamiento de Hinojos" ;
@@ -1620,6 +1754,7 @@ georec:3875  a                     btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-2.31903844 42.77635670001076, -2.30344947 42.77658189001084)"^^geosparql:wktLiteral .
 
 georec:3272  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "3272" ;
         dc:created                 "2013-06-13"^^xsd:date ;
         dc:identifier              "3272" ;
         dc:replaces                "100" ;
@@ -1633,6 +1768,7 @@ georec:3272  a                     btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-5.90030105 43.13907483012459, -5.88526731 43.119175990118855, -5.880225720000001 43.09754895011254)"^^geosparql:wktLiteral .
 
 georec:1909  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "1909" ;
         dc:created                 "2013-06-14"^^xsd:date ;
         dc:identifier              "1909" ;
         dc:title                   "Ensenada de Basa" ;
@@ -1641,6 +1777,7 @@ georec:1909  a                     btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
 
 georec:441  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "441" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "441" ;
         dc:title                   "Peña Lisa" ;
@@ -1649,6 +1786,7 @@ georec:441  a                      btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
 
 georec:2971  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "2971" ;
         dc:created                 "2012-09-29"^^xsd:date ;
         dc:identifier              "2971" ;
         dc:title                   "Reserva Nacional de Caza de Riaño" ;
@@ -1661,6 +1799,7 @@ georec:2971  a                     btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-5.013406999999999 40.51952206887231, -4.8919023400000015 40.52468353887571, -4.712707429999999 40.54418251888865, -4.537408490000001 40.58277436891406)"^^geosparql:wktLiteral .
 
 georec:411  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "411" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "411" ;
         dc:title                   "Peña del Cuervo" ;
@@ -1685,6 +1824,7 @@ georec:411  a                      btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (1.7271467499999997 41.5823412094995, 1.8550872100000007 41.58416224950046)"^^geosparql:wktLiteral .
 
 georec:398  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "398" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "398" ;
         dc:title                   "Peñas del Arco" ;
@@ -1701,6 +1841,7 @@ georec:398  a                      btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-2.51077614 42.95751841007005, -2.4955488599999995 42.95757658007007)"^^geosparql:wktLiteral .
 
 georec:850  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "850" ;
         dc:created                 "2012-06-07"^^xsd:date ;
         dc:identifier              "850" ;
         dc:title                   "PARQUE NATURAL DE URBASA Y ANDÍA" ;
@@ -1709,6 +1850,7 @@ georec:850  a                      btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
 
 georec:453  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "453" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "453" ;
         dc:title                   "Alto de los Caminos" ;
@@ -1717,6 +1859,7 @@ georec:453  a                      btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
 
 georec:4406  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "4406" ;
         dc:created                 "2013-02-19"^^xsd:date ;
         dc:identifier              "4406" ;
         dc:title                   "Valle de la Orotava" ;
@@ -1729,6 +1872,7 @@ georec:4406  a                     btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-16.88829069 28.333178573123277, -16.866471550000004 28.333355133123572)"^^geosparql:wktLiteral .
 
 georec:4382  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "4382" ;
         dc:created                 "2013-03-27"^^xsd:date ;
         dc:identifier              "4382" ;
         dc:title                   "Morro de los Pinos" ;
@@ -1737,6 +1881,7 @@ georec:4382  a                     btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
 
 georec:2476  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "2476" ;
         dc:created                 "2013-06-14"^^xsd:date ;
         dc:identifier              "2476" ;
         dc:title                   "Circo de Gredos" ;
@@ -1745,6 +1890,7 @@ georec:2476  a                     btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c> .
 
 georec:3869  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "3869" ;
         dc:created                 "2013-01-22"^^xsd:date ;
         dc:identifier              "3869" ;
         dc:title                   "Paraje Natural Marismas del Río Piedras y Flecha del Rompido" ;
@@ -1753,6 +1899,7 @@ georec:3869  a                     btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
 
 georec:4744  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "4744" ;
         dc:created                 "2013-01-29"^^xsd:date ;
         dc:identifier              "4744" ;
         dc:title                   "Islas Las Combiechas" ;
@@ -1761,6 +1908,7 @@ georec:4744  a                     btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
 
 georec:862  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "862" ;
         dc:created                 "2012-06-07"^^xsd:date ;
         dc:identifier              "862" ;
         dc:title                   "Monte Arxabal" ;
@@ -1769,6 +1917,7 @@ georec:862  a                      btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
 
 georec:465  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "465" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "465" ;
         dc:title                   "Monte los Montilobes" ;
@@ -1781,6 +1930,7 @@ georec:465  a                      btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-2.9387852200000006 42.75041028000187, -2.92140014 42.75054046000192)"^^geosparql:wktLiteral .
 
 georec:3870  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "3870" ;
         dc:created                 "2013-01-22"^^xsd:date ;
         dc:identifier              "3870" ;
         dc:title                   "Reserva Natural Marismas del Burro" ;
@@ -1793,6 +1943,7 @@ georec:3870  a                     btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (0.05468192 42.5532937399311, 0.06184952 42.55011501992991, 0.06851205 42.54694938992875, 0.07096051 42.54539011992813, 0.07287708 42.543284959927334, 0.07378497 42.54120684992657, 0.07343214 42.53916259992582, 0.07308849 42.537304789925095, 0.07424842 42.535219919924316, 0.07592164 42.53330794992359, 0.07898818 42.52893134992194, 0.08402498 42.52356808991991)"^^geosparql:wktLiteral .
 
 georec:4660  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "4660" ;
         dc:created                 "2010-09-22"^^xsd:date ;
         dc:identifier              "4660" ;
         dc:title                   "Cordal de Lena" ;
@@ -1809,6 +1960,7 @@ georec:4660  a                     btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-2.4753648399999997 42.88771501004777, -2.45611917 42.88762520004776)"^^geosparql:wktLiteral .
 
 georec:405  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "405" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "405" ;
         dc:title                   "Monte Cabrera" ;
@@ -1817,6 +1969,7 @@ georec:405  a                      btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
 
 georec:1723  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "1723" ;
         dc:created                 "2011-03-04"^^xsd:date ;
         dc:identifier              "1723" ;
         dc:title                   "Cañón de Añisclo" ;
@@ -1825,6 +1978,7 @@ georec:1723  a                     btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
 
 georec:477  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "477" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "477" ;
         dc:title                   "Alto de las Procesiones" ;
@@ -1837,6 +1991,7 @@ georec:477  a                      btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-3.0730457400000013 43.131858150122504, -3.051865260000001 43.13125536012235)"^^geosparql:wktLiteral .
 
 georec:447  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "447" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "447" ;
         dc:title                   "Monte El Cerrado" ;
@@ -1849,6 +2004,7 @@ georec:447  a                      btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-16.304681319999997 28.54068403346603, -16.22952212 28.52356391343777, -16.175131140000005 28.544794903472823)"^^geosparql:wktLiteral .
 
 georec:1499  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "1499" ;
         dc:created                 "2012-03-26"^^xsd:date ;
         dc:identifier              "1499" ;
         dc:title                   "PARC NATURAL DEL GARRAF" ;
@@ -1857,6 +2013,7 @@ georec:1499  a                     btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
 
 georec:417  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "417" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "417" ;
         dc:title                   "Peña Aratz" ;
@@ -1865,6 +2022,7 @@ georec:417  a                      btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c> .
 
 georec:1554  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "1554" ;
         dc:created                 "2013-04-19"^^xsd:date ;
         dc:identifier              "1554" ;
         dc:title                   "Parc Comarcal Montesquiu" ;
@@ -1877,6 +2035,7 @@ georec:1554  a                     btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-2.64578054 42.78014594001207, -2.6227350799999996 42.77973503001192)"^^geosparql:wktLiteral .
 
 georec:393  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "393" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "393" ;
         dc:title                   "Alto de la Vela" ;
@@ -1885,6 +2044,7 @@ georec:393  a                      btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
 
 georec:1343  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "1343" ;
         dc:created                 "2012-03-20"^^xsd:date ;
         dc:identifier              "1343" ;
         dc:title                   "Valle de Ribas" ;
@@ -1917,6 +2077,7 @@ georec:1343  a                     btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-5.360842890000001 42.9823154200778, -5.333086459999999 42.983075510078024, -5.3112757900000025 42.98313693007805, -5.288938849999999 42.983014070078, -5.266840310000001 42.982310150077794, -5.239299739999998 42.98189925007767)"^^geosparql:wktLiteral .
 
 georec:459  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "459" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "459" ;
         dc:title                   "Alto de la Mota" ;
@@ -1929,6 +2090,7 @@ georec:459  a                      btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-2.8923425299999996 43.03437660009373, -2.8766097199999994 43.03458925009381)"^^geosparql:wktLiteral .
 
 georec:2471  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "2471" ;
         dc:created                 "2012-11-14"^^xsd:date ;
         dc:identifier              "2471" ;
         dc:title                   "Parameras de Ávila" ;
@@ -1937,6 +2099,7 @@ georec:2471  a                     btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
 
 georec:3080  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "3080" ;
         dc:created                 "2012-12-17"^^xsd:date ;
         dc:identifier              "3080" ;
         dc:title                   "PARQUE NATURAL COLLADOS DE ANSÓN" ;
@@ -1945,6 +2108,7 @@ georec:3080  a                     btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
 
 georec:3864  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "3864" ;
         dc:created                 "2013-01-22"^^xsd:date ;
         dc:identifier              "3864" ;
         dc:title                   "Zona de protección del Arroyo de la Rocina" ;
@@ -1965,6 +2129,7 @@ georec:3864  a                     btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-2.2241755799999994 42.83516385003055, -2.0635175699999997 42.83547283003063)"^^geosparql:wktLiteral .
 
 georec:429  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "429" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "429" ;
         dc:title                   "La Peña Ancha" ;
@@ -1977,6 +2142,7 @@ georec:429  a                      btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-2.5020827900000002 42.68038242997738, -2.4809087899999995 42.68111044997765)"^^geosparql:wktLiteral .
 
 georec:460  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "460" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "460" ;
         dc:title                   "Peña del Mazo" ;
@@ -1985,6 +2151,7 @@ georec:460  a                      btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
 
 georec:430  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "430" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "430" ;
         dc:title                   "Calamendi" ;
@@ -1997,6 +2164,7 @@ georec:430  a                      btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-6.344653040000001 43.560865770232304, -6.340630499999999 43.56098351023232)"^^geosparql:wktLiteral .
 
 georec:3876  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "3876" ;
         dc:created                 "2013-01-22"^^xsd:date ;
         dc:identifier              "3876" ;
         dc:title                   "Parque Natural de Doñana" ;
@@ -2009,6 +2177,7 @@ georec:3876  a                     btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-3.004246010000001 42.79172037001598, -2.985754780000001 42.79122732001581)"^^geosparql:wktLiteral .
 
 georec:41  a                       btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "41" ;
         dc:created                 "2012-01-18"^^xsd:date ;
         dc:identifier              "41" ;
         dc:title                   "PARQUE NATURAL SIERRA D´IRTA" ;
@@ -2021,6 +2190,7 @@ georec:41  a                       btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-4.670051779999999 42.950340040067786, -4.50102239 42.95026221006779)"^^geosparql:wktLiteral .
 
 georec:400  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "400" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "400" ;
         dc:title                   "Pico de Mostacha" ;
@@ -2033,6 +2203,7 @@ georec:400  a                      btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-6.34947239 43.026007220091195, -6.341483780000002 43.020796890089635, -6.334590799999999 43.014716470087755, -6.328133350000001 43.00611028008512)"^^geosparql:wktLiteral .
 
 georec:472  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "472" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "472" ;
         dc:title                   "Alto de Sisaitén" ;
@@ -2045,6 +2216,7 @@ georec:472  a                      btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-6.999306150000001 37.29668865605038, -6.967595239999999 37.29467844604822, -6.93620593 37.29388063604736)"^^geosparql:wktLiteral .
 
 georec:1790  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "1790" ;
         dc:created                 "2011-03-04"^^xsd:date ;
         dc:identifier              "1790" ;
         dc:title                   "Circo de Pineta" ;
@@ -2065,6 +2237,7 @@ georec:1790  a                     btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-3.16309598 42.893957150049786, -3.1537913499999997 42.89378000004975)"^^geosparql:wktLiteral .
 
 georec:442  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "442" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "442" ;
         dc:title                   "Monte Rodil" ;
@@ -2081,6 +2254,7 @@ georec:442  a                      btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-3.4001872700000004 42.76585766000718, -3.3531516900000007 42.76669197000744)"^^geosparql:wktLiteral .
 
 georec:4497  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "4497" ;
         dc:created                 "2013-06-14"^^xsd:date ;
         dc:identifier              "4497" ;
         dc:title                   "Ensenada de Merexo" ;
@@ -2089,6 +2263,7 @@ georec:4497  a                     btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
 
 georec:3466  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "3466" ;
         dc:created                 "2013-06-13"^^xsd:date ;
         dc:identifier              "3466" ;
         dc:title                   "Loma de las Minillas" ;
@@ -2097,6 +2272,7 @@ georec:3466  a                     btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
 
 georec:116  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "116" ;
         dc:created                 "2012-01-19"^^xsd:date ;
         dc:identifier              "116" ;
         dc:title                   "Parque natural Sierra Calderona" ;
@@ -2113,6 +2289,7 @@ georec:116  a                      btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-2.85073203 42.98834310007965, -2.825684369999999 42.989158920079916)"^^geosparql:wktLiteral .
 
 georec:399  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "399" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "399" ;
         dc:title                   "Pico del Babio" ;
@@ -2125,6 +2302,7 @@ georec:399  a                      btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-2.24486657 42.939176640064275, -2.2328354 42.93883656006416)"^^geosparql:wktLiteral .
 
 georec:454  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "454" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "454" ;
         dc:title                   "Monte las Encinillas" ;
@@ -2149,6 +2327,7 @@ georec:454  a                      btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (1.81358342 41.27451572933427, 1.92199713 41.274633739334334)"^^geosparql:wktLiteral .
 
 georec:4383  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "4383" ;
         dc:created                 "2013-03-27"^^xsd:date ;
         dc:identifier              "4383" ;
         dc:title                   "Loma de la Degollada Honda" ;
@@ -2161,6 +2340,7 @@ georec:4383  a                     btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-2.9943768299999993 42.77154587000912, -2.980807990000001 42.77210758000932)"^^geosparql:wktLiteral .
 
 georec:424  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "424" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "424" ;
         dc:title                   "Altos de Heredia" ;
@@ -2169,6 +2349,7 @@ georec:424  a                      btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
 
 georec:4745  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "4745" ;
         dc:created                 "2013-01-30"^^xsd:date ;
         dc:identifier              "4745" ;
         dc:title                   "Islas Sarnosas" ;
@@ -2177,6 +2358,7 @@ georec:4745  a                     btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
 
 georec:1531  a                     btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "1531" ;
         dc:created                 "2012-03-27"^^xsd:date ;
         dc:identifier              "1531" ;
         dc:title                   "PARC NATURAL DEL CADÍ-MOIXERÓ" ;
@@ -2193,6 +2375,7 @@ georec:1531  a                     btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-5.01462851 39.7033919382845, -5.021871010000001 39.669179038257916)"^^geosparql:wktLiteral .
 
 georec:863  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "863" ;
         dc:created                 "2012-06-07"^^xsd:date ;
         dc:identifier              "863" ;
         dc:title                   "Monte Erreguerena" ;
@@ -2201,6 +2384,7 @@ georec:863  a                      btn100:EntidadVirtualAccidenteOrografico ;
         btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
 
 georec:466  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "466" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "466" ;
         dc:title                   "Alto de San Andrés" ;
@@ -2225,6 +2409,7 @@ georec:466  a                      btn100:EntidadVirtualAccidenteOrografico ;
         geosparql:asWKT  "LINESTRING (-6.414319099999998 37.0009729057279, -6.40254068 37.02223811575143, -6.384780379999999 37.04487466577642)"^^geosparql:wktLiteral .
 
 georec:436  a                      btn100:EntidadVirtualAccidenteOrografico ;
+        rdfs:label                 "436" ;
         dc:created                 "2012-04-30"^^xsd:date ;
         dc:identifier              "436" ;
         dc:title                   "Alto del Bellecu" ;

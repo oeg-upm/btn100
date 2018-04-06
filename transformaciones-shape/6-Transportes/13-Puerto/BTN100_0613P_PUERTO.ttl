@@ -19,6 +19,7 @@
         geosparql:asWKT  "POINT (-3.4181916399999994 43.418581540198936)"^^geosparql:wktLiteral .
 
 georec:279  a                        btn100:Puerto ;
+        rdfs:label                   "279" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "279" ;
         dc:title                     "Puerto de Corcoesto" ;
@@ -28,6 +29,7 @@ georec:279  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:153  a                        btn100:Puerto ;
+        rdfs:label                   "153" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "153" ;
         dc:title                     "Puerto Deportivo El Rompido" ;
@@ -49,6 +51,7 @@ georec:153  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-8.071471700000002 43.656253140252964)"^^geosparql:wktLiteral .
 
 georec:249  a                        btn100:Puerto ;
+        rdfs:label                   "249" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "249" ;
         dc:title                     "Puerto de Vilaxoán" ;
@@ -62,6 +65,7 @@ georec:249  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-17.1076219999999 28.085792534691606)"^^geosparql:wktLiteral .
 
 georec:123  a                        btn100:Puerto ;
+        rdfs:label                   "123" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "123" ;
         dc:title                     "Puerto de Estepona" ;
@@ -71,6 +75,7 @@ georec:123  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:304  a                        btn100:Puerto ;
+        rdfs:label                   "304" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "304" ;
         dc:title                     "Puerto de Luarca" ;
@@ -80,6 +85,7 @@ georec:304  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:219  a                        btn100:Puerto ;
+        rdfs:label                   "219" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "219" ;
         dc:title                     "Puerto de Los Cristianos" ;
@@ -90,6 +96,7 @@ georec:219  a                        btn100:Puerto ;
         btn100:unloCode              "LCR" .
 
 georec:280  a                        btn100:Puerto ;
+        rdfs:label                   "280" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "280" ;
         dc:title                     "Puerto de Noia" ;
@@ -107,6 +114,7 @@ georec:280  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (0.1330214970307007 40.07564473714726)"^^geosparql:wktLiteral .
 
 georec:195  a                        btn100:Puerto ;
+        rdfs:label                   "195" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "195" ;
         dc:title                     "Puerto de Arinaga" ;
@@ -116,6 +124,7 @@ georec:195  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:43  a                         btn100:Puerto ;
+        rdfs:label                   "43" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "43" ;
         dc:title                     "Puerto de Elantxobe/Elantxobeko Portua" ;
@@ -129,6 +138,7 @@ georec:43  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (-13.673715840000005 28.920495174091947)"^^geosparql:wktLiteral .
 
 georec:250  a                        btn100:Puerto ;
+        rdfs:label                   "250" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "250" ;
         dc:title                     "Puerto de Catoira" ;
@@ -146,6 +156,7 @@ georec:250  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (2.629390700000004 39.55414733816733)"^^geosparql:wktLiteral .
 
 georec:165  a                        btn100:Puerto ;
+        rdfs:label                   "165" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "165" ;
         dc:title                     "Port de Valdemossa" ;
@@ -163,6 +174,7 @@ georec:165  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-9.1380521 42.804156040020175)"^^geosparql:wktLiteral .
 
 georec:13  a                         btn100:Puerto ;
+        rdfs:label                   "13" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "13" ;
         dc:title                     "Club Náutico Port Sa Playa" ;
@@ -176,6 +188,7 @@ georec:13  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (-15.710927589999967 27.78303854221279)"^^geosparql:wktLiteral .
 
 georec:220  a                        btn100:Puerto ;
+        rdfs:label                   "220" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "220" ;
         dc:title                     "Puerto de Santa Cruz de Tenerife" ;
@@ -186,6 +199,7 @@ georec:220  a                        btn100:Puerto ;
         btn100:unloCode              "SCT" .
 
 georec:6  a                          btn100:Puerto ;
+        rdfs:label                   "6" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "6" ;
         dc:title                     "Club Náutico Oropesa del Mar" ;
@@ -199,6 +213,7 @@ georec:6  a                          btn100:Puerto ;
         geosparql:asWKT  "POINT (2.3845834000001065 39.54791713816237)"^^geosparql:wktLiteral .
 
 georec:135  a                        btn100:Puerto ;
+        rdfs:label                   "135" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "135" ;
         dc:title                     "Puerto de Sherry" ;
@@ -217,6 +232,7 @@ georec:135  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-2.5614505300000605 36.816066345521314)"^^geosparql:wktLiteral .
 
 georec:85  a                         btn100:Puerto ;
+        rdfs:label                   "85" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "85" ;
         dc:title                     "Port de L'Ampolla" ;
@@ -226,6 +242,7 @@ georec:85  a                         btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:316  a                        btn100:Puerto ;
+        rdfs:label                   "316" ;
         dc:created                   "2014-08-22"^^xsd:date ;
         dc:identifier                "316" ;
         dc:title                     "Puerto de Ceuta" ;
@@ -240,6 +257,7 @@ georec:316  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-0.3856516699999999 38.431993117193755)"^^geosparql:wktLiteral .
 
 georec:292  a                        btn100:Puerto ;
+        rdfs:label                   "292" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "292" ;
         dc:title                     "Puerto de Doniños" ;
@@ -249,6 +267,7 @@ georec:292  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:105  a                        btn100:Puerto ;
+        rdfs:label                   "105" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "105" ;
         dc:title                     "Puerto de Laredo" ;
@@ -266,6 +285,7 @@ georec:105  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (1.924674900000213 41.25983173932604)"^^geosparql:wktLiteral .
 
 georec:55  a                         btn100:Puerto ;
+        rdfs:label                   "55" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "55" ;
         dc:title                     "Puerto de Orio/Orioko Portua" ;
@@ -279,6 +299,7 @@ georec:55  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (-7.343999439999999 43.65580591025289)"^^geosparql:wktLiteral .
 
 georec:262  a                        btn100:Puerto ;
+        rdfs:label                   "262" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "262" ;
         dc:title                     "Puerto de A Coruña" ;
@@ -293,6 +314,7 @@ georec:262  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-8.991113099999998 42.559009639933244)"^^geosparql:wktLiteral .
 
 georec:177  a                        btn100:Puerto ;
+        rdfs:label                   "177" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "177" ;
         dc:title                     "Port de Manacor" ;
@@ -302,6 +324,7 @@ georec:177  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:25  a                         btn100:Puerto ;
+        rdfs:label                   "25" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "25" ;
         dc:title                     "Port de San Antonio" ;
@@ -311,6 +334,7 @@ georec:25  a                         btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:232  a                        btn100:Puerto ;
+        rdfs:label                   "232" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "232" ;
         dc:title                     "Puerto de Marín y Ría de Pontevedra" ;
@@ -325,6 +349,7 @@ georec:232  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-8.821607900000002 42.64918233996625)"^^geosparql:wktLiteral .
 
 georec:147  a                        btn100:Puerto ;
+        rdfs:label                   "147" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "147" ;
         dc:title                     "Puerto Deportivo de Chipiona" ;
@@ -338,6 +363,7 @@ georec:147  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-17.198399210000627 28.026381662615776)"^^geosparql:wktLiteral .
 
 georec:97  a                         btn100:Puerto ;
+        rdfs:label                   "97" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "97" ;
         dc:title                     "Port dels Alfacs" ;
@@ -348,6 +374,7 @@ georec:97  a                         btn100:Puerto ;
         btn100:unloCode              "SRC" .
 
 georec:202  a                        btn100:Puerto ;
+        rdfs:label                   "202" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "202" ;
         dc:title                     "Puerto de Morro Jable" ;
@@ -357,6 +384,7 @@ georec:202  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:117  a                        btn100:Puerto ;
+        rdfs:label                   "117" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "117" ;
         dc:title                     "Puerto Deportivo de Roquetas de Mar" ;
@@ -370,6 +398,7 @@ georec:117  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-5.377476499998748 36.17364173477472)"^^geosparql:wktLiteral .
 
 georec:67  a                         btn100:Puerto ;
+        rdfs:label                   "67" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "67" ;
         dc:title                     "Port de l'Estartit" ;
@@ -387,6 +416,7 @@ georec:67  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (-13.547788500000086 28.957956524153538)"^^geosparql:wktLiteral .
 
 georec:274  a                        btn100:Puerto ;
+        rdfs:label                   "274" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "274" ;
         dc:title                     "Puerto de Cee" ;
@@ -400,6 +430,7 @@ georec:274  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-4.0676256 36.74868593544509)"^^geosparql:wktLiteral .
 
 georec:189  a                        btn100:Puerto ;
+        rdfs:label                   "189" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "189" ;
         dc:title                     "Port de Palmanova" ;
@@ -413,6 +444,7 @@ georec:189  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (2.587316502337334 39.71809628182707)"^^geosparql:wktLiteral .
 
 georec:37  a                         btn100:Puerto ;
+        rdfs:label                   "37" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "37" ;
         dc:title                     "Dársena El Portet de L'Olla" ;
@@ -430,6 +462,7 @@ georec:37  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (-0.5387671000007656 38.18781453696088)"^^geosparql:wktLiteral .
 
 georec:244  a                        btn100:Puerto ;
+        rdfs:label                   "244" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "244" ;
         dc:title                     "Puerto de Porto de Meloxo" ;
@@ -439,6 +472,7 @@ georec:244  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:159  a                        btn100:Puerto ;
+        rdfs:label                   "159" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "159" ;
         dc:title                     "Port de Palma de Mallorca" ;
@@ -465,6 +499,7 @@ georec:159  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-4.417551499999804 36.70909513540006)"^^geosparql:wktLiteral .
 
 georec:214  a                        btn100:Puerto ;
+        rdfs:label                   "214" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "214" ;
         dc:title                     "Puerto de los Mármoles" ;
@@ -478,6 +513,7 @@ georec:214  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-9.1828257 43.12716154012114)"^^geosparql:wktLiteral .
 
 georec:129  a                        btn100:Puerto ;
+        rdfs:label                   "129" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "129" ;
         dc:title                     "Puerto de Marina la Bajadilla" ;
@@ -491,6 +527,7 @@ georec:129  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-15.369300989999985 27.98993852255544)"^^geosparql:wktLiteral .
 
 georec:190  a                        btn100:Puerto ;
+        rdfs:label                   "190" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "190" ;
         dc:title                     "Club Nàutic s'Estanyol" ;
@@ -500,6 +537,7 @@ georec:190  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:79  a                         btn100:Puerto ;
+        rdfs:label                   "79" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "79" ;
         dc:title                     "Port de Badalona" ;
@@ -509,6 +547,7 @@ georec:79  a                         btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:286  a                        btn100:Puerto ;
+        rdfs:label                   "286" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "286" ;
         dc:title                     "Puerto de Mugardos" ;
@@ -518,6 +557,7 @@ georec:286  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:160  a                        btn100:Puerto ;
+        rdfs:label                   "160" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "160" ;
         dc:title                     "Port d'Alcúdia" ;
@@ -532,6 +572,7 @@ georec:160  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-8.78598012 42.25842069981454)"^^geosparql:wktLiteral .
 
 georec:49  a                         btn100:Puerto ;
+        rdfs:label                   "49" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "49" ;
         dc:title                     "Puerto de Mutriku/Mutrikuko Portua" ;
@@ -545,6 +586,7 @@ georec:49  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (-13.855101920000118 28.392254933220883)"^^geosparql:wktLiteral .
 
 georec:256  a                        btn100:Puerto ;
+        rdfs:label                   "256" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "256" ;
         dc:title                     "Puerto de Cesantes" ;
@@ -558,6 +600,7 @@ georec:256  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (0.5312620500000002 40.552418158894085)"^^geosparql:wktLiteral .
 
 georec:130  a                        btn100:Puerto ;
+        rdfs:label                   "130" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "130" ;
         dc:title                     "Puerto Deportivo de Marbella" ;
@@ -571,6 +614,7 @@ georec:130  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-0.4865977000003939 38.33509013710222)"^^geosparql:wktLiteral .
 
 georec:19  a                         btn100:Puerto ;
+        rdfs:label                   "19" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "19" ;
         dc:title                     "Port d'Alacant" ;
@@ -581,6 +625,7 @@ georec:19  a                         btn100:Puerto ;
         btn100:unloCode              "ALC" .
 
 georec:80  a                         btn100:Puerto ;
+        rdfs:label                   "80" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "80" ;
         dc:title                     "Port esportiu de la Ginesta" ;
@@ -590,6 +635,7 @@ georec:80  a                         btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:311  a                        btn100:Puerto ;
+        rdfs:label                   "311" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "311" ;
         dc:title                     "Puerto de Luanco" ;
@@ -603,6 +649,7 @@ georec:311  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-16.321882230000487 28.401243253235773)"^^geosparql:wktLiteral .
 
 georec:226  a                        btn100:Puerto ;
+        rdfs:label                   "226" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "226" ;
         dc:title                     "Puerto Colón" ;
@@ -612,6 +659,7 @@ georec:226  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:100  a                        btn100:Puerto ;
+        rdfs:label                   "100" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "100" ;
         dc:title                     "Puerto de Escombreras" ;
@@ -634,6 +682,7 @@ georec:100  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-3.031347825952214 43.333760687214514)"^^geosparql:wktLiteral .
 
 georec:50  a                         btn100:Puerto ;
+        rdfs:label                   "50" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "50" ;
         dc:title                     "Puerto de Zumaia/Zumaiako Portua" ;
@@ -651,6 +700,7 @@ georec:50  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (-0.2746082000119877 39.27832027794322)"^^geosparql:wktLiteral .
 
 georec:298  a                        btn100:Puerto ;
+        rdfs:label                   "298" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "298" ;
         dc:title                     "Puerto de Burela" ;
@@ -661,6 +711,7 @@ georec:298  a                        btn100:Puerto ;
         btn100:unloCode              "BRL" .
 
 georec:172  a                        btn100:Puerto ;
+        rdfs:label                   "172" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "172" ;
         dc:title                     "Port de Ciutadella" ;
@@ -671,6 +722,7 @@ georec:172  a                        btn100:Puerto ;
         btn100:unloCode              "QIU" .
 
 georec:20  a                         btn100:Puerto ;
+        rdfs:label                   "20" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "20" ;
         dc:title                     "Port de Santa Pola" ;
@@ -692,6 +744,7 @@ georec:20  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (-8.886475399999998 42.61507873995387)"^^geosparql:wktLiteral .
 
 georec:268  a                        btn100:Puerto ;
+        rdfs:label                   "268" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "268" ;
         dc:title                     "Puerto de Xobre" ;
@@ -709,6 +762,7 @@ georec:268  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-1.5787521400000004 37.404233356165186)"^^geosparql:wktLiteral .
 
 georec:142  a                        btn100:Puerto ;
+        rdfs:label                   "142" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "142" ;
         dc:title                     "Puerto de Juan Sebastián Elcano" ;
@@ -722,6 +776,7 @@ georec:142  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-8.70637187 42.428918089883496)"^^geosparql:wktLiteral .
 
 georec:92  a                         btn100:Puerto ;
+        rdfs:label                   "92" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "92" ;
         dc:title                     "Port Esportiu de Salou" ;
@@ -731,6 +786,7 @@ georec:92  a                         btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:323  a                        btn100:Puerto ;
+        rdfs:label                   "323" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "323" ;
         dc:title                     "Puerto de Naos" ;
@@ -744,6 +800,7 @@ georec:323  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-7.67778108 43.73892311026979)"^^geosparql:wktLiteral .
 
 georec:112  a                        btn100:Puerto ;
+        rdfs:label                   "112" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "112" ;
         dc:title                     "Puerto Deportivo de Adra" ;
@@ -758,6 +815,7 @@ georec:112  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-8.261870300000002 43.4761855402128)"^^geosparql:wktLiteral .
 
 georec:62  a                         btn100:Puerto ;
+        rdfs:label                   "62" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "62" ;
         dc:title                     "Port de Llançà" ;
@@ -771,6 +829,7 @@ georec:62  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (-15.415665499999962 28.14484352281183)"^^geosparql:wktLiteral .
 
 georec:208  a                        btn100:Puerto ;
+        rdfs:label                   "208" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "208" ;
         dc:title                     "Puerto de Caleta de Sebo" ;
@@ -784,6 +843,7 @@ georec:208  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-0.7574755600000002 37.8207446265972)"^^geosparql:wktLiteral .
 
 georec:184  a                        btn100:Puerto ;
+        rdfs:label                   "184" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "184" ;
         dc:title                     "Club Nàutic S'Arenal" ;
@@ -797,6 +857,7 @@ georec:184  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (1.7323385836546366 41.21518537203827)"^^geosparql:wktLiteral .
 
 georec:32  a                         btn100:Puerto ;
+        rdfs:label                   "32" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "32" ;
         dc:title                     "Club Náutico Alicante Costa Blanca" ;
@@ -818,6 +879,7 @@ georec:32  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (2.476768950000091 39.48777980811428)"^^geosparql:wktLiteral .
 
 georec:154  a                        btn100:Puerto ;
+        rdfs:label                   "154" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "154" ;
         dc:title                     "Puerto de Punta Umbría" ;
@@ -839,6 +901,7 @@ georec:154  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (0.03401445 38.63505428738179)"^^geosparql:wktLiteral .
 
 georec:124  a                        btn100:Puerto ;
+        rdfs:label                   "124" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "124" ;
         dc:title                     "Puerto José Banús" ;
@@ -852,6 +915,7 @@ georec:124  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (2.6944917700000532 39.54741566816197)"^^geosparql:wktLiteral .
 
 georec:74  a                         btn100:Puerto ;
+        rdfs:label                   "74" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "74" ;
         dc:title                     "Port de Masnou" ;
@@ -862,6 +926,7 @@ georec:74  a                         btn100:Puerto ;
         btn100:unloCode              "MSN" .
 
 georec:305  a                        btn100:Puerto ;
+        rdfs:label                   "305" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "305" ;
         dc:title                     "Puerto de Llanes" ;
@@ -883,6 +948,7 @@ georec:305  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-1.766931170000177 37.25194735600223)"^^geosparql:wktLiteral .
 
 georec:281  a                        btn100:Puerto ;
+        rdfs:label                   "281" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "281" ;
         dc:title                     "Puerto de Malpica de Bergantiños" ;
@@ -896,6 +962,7 @@ georec:281  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-8.8580018 42.64807683996585)"^^geosparql:wktLiteral .
 
 georec:196  a                        btn100:Puerto ;
+        rdfs:label                   "196" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "196" ;
         dc:title                     "Puerto de Arrecife de Lanzarote" ;
@@ -906,6 +973,7 @@ georec:196  a                        btn100:Puerto ;
         btn100:unloCode              "ACE" .
 
 georec:44  a                         btn100:Puerto ;
+        rdfs:label                   "44" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "44" ;
         dc:title                     "Puerto de Mundaka/Mundakako Portua" ;
@@ -915,6 +983,7 @@ georec:44  a                         btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:251  a                        btn100:Puerto ;
+        rdfs:label                   "251" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "251" ;
         dc:title                     "Puerto de Vilagarcía de Arousa" ;
@@ -929,6 +998,7 @@ georec:251  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-7.460064499999999 43.712786240264556)"^^geosparql:wktLiteral .
 
 georec:166  a                        btn100:Puerto ;
+        rdfs:label                   "166" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "166" ;
         dc:title                     "Port de Sóller" ;
@@ -938,6 +1008,7 @@ georec:166  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:14  a                         btn100:Puerto ;
+        rdfs:label                   "14" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "14" ;
         dc:title                     "Club Náutico El Perelló" ;
@@ -951,6 +1022,7 @@ georec:14  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (-16.736323109999915 28.07743887270027)"^^geosparql:wktLiteral .
 
 georec:221  a                        btn100:Puerto ;
+        rdfs:label                   "221" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "221" ;
         dc:title                     "Puerto de La Restinga" ;
@@ -960,6 +1032,7 @@ georec:221  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:7  a                          btn100:Puerto ;
+        rdfs:label                   "7" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "7" ;
         dc:title                     "Puerto Deportivo" ;
@@ -969,6 +1042,7 @@ georec:7  a                          btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:136  a                        btn100:Puerto ;
+        rdfs:label                   "136" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "136" ;
         dc:title                     "Puerto Deportivo Astaroth" ;
@@ -987,6 +1061,7 @@ georec:136  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-8.91939371 42.456999979894455)"^^geosparql:wktLiteral .
 
 georec:317  a                        btn100:Puerto ;
+        rdfs:label                   "317" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "317" ;
         dc:title                     "Puerto de Melilla" ;
@@ -997,6 +1072,7 @@ georec:317  a                        btn100:Puerto ;
         btn100:unloCode              "MLN" .
 
 georec:86  a                         btn100:Puerto ;
+        rdfs:label                   "86" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "86" ;
         dc:title                     "Port de Calafat" ;
@@ -1010,6 +1086,7 @@ georec:86  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (-1.9162482100002491 43.322940320174816)"^^geosparql:wktLiteral .
 
 georec:293  a                        btn100:Puerto ;
+        rdfs:label                   "293" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "293" ;
         dc:title                     "Puerto de Rianxo" ;
@@ -1023,6 +1100,7 @@ georec:293  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-17.979708179999868 27.639612871975174)"^^geosparql:wktLiteral .
 
 georec:106  a                        btn100:Puerto ;
+        rdfs:label                   "106" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "106" ;
         dc:title                     "Puerto de Santander" ;
@@ -1037,6 +1115,7 @@ georec:106  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (3.159324599999861 39.76521219833215)"^^geosparql:wktLiteral .
 
 georec:56  a                         btn100:Puerto ;
+        rdfs:label                   "56" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "56" ;
         dc:title                     "Club Nàutic Sant Feliú de Guixols" ;
@@ -1059,6 +1138,7 @@ georec:56  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (2.3121862700001388 41.47637652944416)"^^geosparql:wktLiteral .
 
 georec:263  a                        btn100:Puerto ;
+        rdfs:label                   "263" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "263" ;
         dc:title                     "Puerto de Ferrol" ;
@@ -1069,6 +1149,7 @@ georec:263  a                        btn100:Puerto ;
         btn100:unloCode              "FRO" .
 
 georec:178  a                        btn100:Puerto ;
+        rdfs:label                   "178" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "178" ;
         dc:title                     "Port Esportiu de Cala Bona" ;
@@ -1078,6 +1159,7 @@ georec:178  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:26  a                         btn100:Puerto ;
+        rdfs:label                   "26" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "26" ;
         dc:title                     "Port Pesquerel Raçó" ;
@@ -1099,6 +1181,7 @@ georec:26  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (-4.952928000000001 36.48707883514452)"^^geosparql:wktLiteral .
 
 georec:233  a                        btn100:Puerto ;
+        rdfs:label                   "233" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "233" ;
         dc:title                     "Puerto de A Guarda" ;
@@ -1112,6 +1195,7 @@ georec:233  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-7.029967100000011 43.52950871022521)"^^geosparql:wktLiteral .
 
 georec:148  a                        btn100:Puerto ;
+        rdfs:label                   "148" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "148" ;
         dc:title                     "Puerto del Gallo" ;
@@ -1129,6 +1213,7 @@ georec:148  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-8.7896017 42.588129239944024)"^^geosparql:wktLiteral .
 
 georec:98  a                         btn100:Puerto ;
+        rdfs:label                   "98" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "98" ;
         dc:title                     "Club Náutico de Coma-Ruga" ;
@@ -1138,6 +1223,7 @@ georec:98  a                         btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:203  a                        btn100:Puerto ;
+        rdfs:label                   "203" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "203" ;
         dc:title                     "Puerto de Gran Tarajal" ;
@@ -1151,6 +1237,7 @@ georec:203  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-6.832766 37.13133863587128)"^^geosparql:wktLiteral .
 
 georec:118  a                        btn100:Puerto ;
+        rdfs:label                   "118" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "118" ;
         dc:title                     "Puerto de Carboneras. Puerto Pesquero" ;
@@ -1164,6 +1251,7 @@ georec:118  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-9.057523699999999 42.77502834001031)"^^geosparql:wktLiteral .
 
 georec:68  a                         btn100:Puerto ;
+        rdfs:label                   "68" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "68" ;
         dc:title                     "Port de Vilanova i la Geltrú" ;
@@ -1178,6 +1266,7 @@ georec:68  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (-13.816286630000066 28.857904373988898)"^^geosparql:wktLiteral .
 
 georec:275  a                        btn100:Puerto ;
+        rdfs:label                   "275" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "275" ;
         dc:title                     "Puerto de Muros" ;
@@ -1188,6 +1277,7 @@ georec:275  a                        btn100:Puerto ;
         btn100:unloCode              "MRS" .
 
 georec:38  a                         btn100:Puerto ;
+        rdfs:label                   "38" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "38" ;
         dc:title                     "Puerto Deportivo Marina Nou  Fontana" ;
@@ -1201,6 +1291,7 @@ georec:38  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (3.1485384000000005 42.1185155397548)"^^geosparql:wktLiteral .
 
 georec:245  a                        btn100:Puerto ;
+        rdfs:label                   "245" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "245" ;
         dc:title                     "Puerto de Grove" ;
@@ -1219,6 +1310,7 @@ georec:245  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (3.391995689999663 39.61375052821443)"^^geosparql:wktLiteral .
 
 georec:300  a                        btn100:Puerto ;
+        rdfs:label                   "300" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "300" ;
         dc:title                     "Puerto de O Vicedo" ;
@@ -1236,6 +1328,7 @@ georec:300  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-6.428778839996821 36.74584523544195)"^^geosparql:wktLiteral .
 
 georec:215  a                        btn100:Puerto ;
+        rdfs:label                   "215" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "215" ;
         dc:title                     "Puerto de Las Palmas de Gran Canaria" ;
@@ -1246,6 +1339,7 @@ georec:215  a                        btn100:Puerto ;
         btn100:unloCode              "LPA" .
 
 georec:191  a                        btn100:Puerto ;
+        rdfs:label                   "191" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "191" ;
         dc:title                     "Port de Portocolom" ;
@@ -1259,6 +1353,7 @@ georec:191  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (3.8342212723426328 39.92912185999192)"^^geosparql:wktLiteral .
 
 georec:287  a                        btn100:Puerto ;
+        rdfs:label                   "287" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "287" ;
         dc:title                     "Puerto de Cedeira" ;
@@ -1281,6 +1376,7 @@ georec:287  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-1.5733717999999999 37.407457636168616)"^^geosparql:wktLiteral .
 
 georec:161  a                        btn100:Puerto ;
+        rdfs:label                   "161" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "161" ;
         dc:title                     "Port de Mahón" ;
@@ -1299,6 +1395,7 @@ georec:161  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-16.379934939999934 28.287912493048445)"^^geosparql:wktLiteral .
 
 georec:2  a                          btn100:Puerto ;
+        rdfs:label                   "2" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "2" ;
         dc:title                     "Puerto de Peñíscola" ;
@@ -1308,6 +1405,7 @@ georec:2  a                          btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:257  a                        btn100:Puerto ;
+        rdfs:label                   "257" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "257" ;
         dc:title                     "Puerto de Arcade" ;
@@ -1317,6 +1415,7 @@ georec:257  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:131  a                        btn100:Puerto ;
+        rdfs:label                   "131" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "131" ;
         dc:title                     "Puerto Deportivo de Cabo Pino" ;
@@ -1334,6 +1433,7 @@ georec:131  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-8.238030690000002 43.46345381020978)"^^geosparql:wktLiteral .
 
 georec:81  a                         btn100:Puerto ;
+        rdfs:label                   "81" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "81" ;
         dc:title                     "Port de Premià de Mar" ;
@@ -1343,6 +1443,7 @@ georec:81  a                         btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:312  a                        btn100:Puerto ;
+        rdfs:label                   "312" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "312" ;
         dc:title                     "Puerto de Lastres" ;
@@ -1360,6 +1461,7 @@ georec:312  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-8.736442289999998 42.27477244982135)"^^geosparql:wktLiteral .
 
 georec:227  a                        btn100:Puerto ;
+        rdfs:label                   "227" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "227" ;
         dc:title                     "Puerto Deportivo Marina San Miguel" ;
@@ -1369,6 +1471,7 @@ georec:227  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:101  a                        btn100:Puerto ;
+        rdfs:label                   "101" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "101" ;
         dc:title                     "Puerto de Cartagena" ;
@@ -1379,6 +1482,7 @@ georec:101  a                        btn100:Puerto ;
         btn100:unloCode              "CAR" .
 
 georec:51  a                         btn100:Puerto ;
+        rdfs:label                   "51" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "51" ;
         dc:title                     "Puerto de Hondarribi/Hondarribiko Portua" ;
@@ -1404,6 +1508,7 @@ georec:51  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (-8.805655300000002 43.32279314017475)"^^geosparql:wktLiteral .
 
 georec:299  a                        btn100:Puerto ;
+        rdfs:label                   "299" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "299" ;
         dc:title                     "Puerto de Ribadeo" ;
@@ -1418,6 +1523,7 @@ georec:299  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-13.863559909999378 28.740847663796146)"^^geosparql:wktLiteral .
 
 georec:173  a                        btn100:Puerto ;
+        rdfs:label                   "173" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "173" ;
         dc:title                     "Puerto de Cala'n Bosch" ;
@@ -1427,6 +1533,7 @@ georec:173  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:21  a                         btn100:Puerto ;
+        rdfs:label                   "21" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "21" ;
         dc:title                     "Port de Torrevieja" ;
@@ -1449,6 +1556,7 @@ georec:21  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (3.1674158299999644 42.42507085988197)"^^geosparql:wktLiteral .
 
 georec:269  a                        btn100:Puerto ;
+        rdfs:label                   "269" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "269" ;
         dc:title                     "Puerto de San Martin" ;
@@ -1458,6 +1566,7 @@ georec:269  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:143  a                        btn100:Puerto ;
+        rdfs:label                   "143" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "143" ;
         dc:title                     "Puerto de Conil" ;
@@ -1467,6 +1576,7 @@ georec:143  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:93  a                         btn100:Puerto ;
+        rdfs:label                   "93" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "93" ;
         dc:title                     "Port de Tarragona" ;
@@ -1489,6 +1599,7 @@ georec:93  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (-2.1026831600001232 36.762853395461164)"^^geosparql:wktLiteral .
 
 georec:113  a                        btn100:Puerto ;
+        rdfs:label                   "113" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "113" ;
         dc:title                     "Puerto Deportivo de Villaricos" ;
@@ -1502,6 +1613,7 @@ georec:113  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-0.7589993999999999 37.867058536644)"^^geosparql:wktLiteral .
 
 georec:63  a                         btn100:Puerto ;
+        rdfs:label                   "63" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "63" ;
         dc:title                     "Port de Blanes" ;
@@ -1512,6 +1624,7 @@ georec:63  a                         btn100:Puerto ;
         btn100:unloCode              "BLA" .
 
 georec:209  a                        btn100:Puerto ;
+        rdfs:label                   "209" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "209" ;
         dc:title                     "Puerto de Taliarte" ;
@@ -1521,6 +1634,7 @@ georec:209  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:270  a                        btn100:Puerto ;
+        rdfs:label                   "270" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "270" ;
         dc:title                     "Puerto de Lira" ;
@@ -1534,6 +1648,7 @@ georec:270  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-5.930676409547711 36.18640691113837)"^^geosparql:wktLiteral .
 
 georec:185  a                        btn100:Puerto ;
+        rdfs:label                   "185" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "185" ;
         dc:title                     "Port d'Andratx" ;
@@ -1543,6 +1658,7 @@ georec:185  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:33  a                         btn100:Puerto ;
+        rdfs:label                   "33" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "33" ;
         dc:title                     "Club Náutico Les Basetes" ;
@@ -1560,6 +1676,7 @@ georec:33  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (-9.0193024 42.52114233991902)"^^geosparql:wktLiteral .
 
 georec:240  a                        btn100:Puerto ;
+        rdfs:label                   "240" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "240" ;
         dc:title                     "Puerto de Teis" ;
@@ -1569,6 +1686,7 @@ georec:240  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:155  a                        btn100:Puerto ;
+        rdfs:label                   "155" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "155" ;
         dc:title                     "Muelle de Canóas de Punta Umbría" ;
@@ -1582,6 +1700,7 @@ georec:155  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-8.334309400000002 43.458523570208605)"^^geosparql:wktLiteral .
 
 georec:210  a                        btn100:Puerto ;
+        rdfs:label                   "210" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "210" ;
         dc:title                     "Puerto de la Aldea" ;
@@ -1595,6 +1714,7 @@ georec:210  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-17.943543289999837 28.643282083635278)"^^geosparql:wktLiteral .
 
 georec:125  a                        btn100:Puerto ;
+        rdfs:label                   "125" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "125" ;
         dc:title                     "Puerto Deportivo de Fuengirola" ;
@@ -1608,6 +1728,7 @@ georec:125  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (2.95333601000001 39.36184264801202)"^^geosparql:wktLiteral .
 
 georec:75  a                         btn100:Puerto ;
+        rdfs:label                   "75" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "75" ;
         dc:title                     "Port de El Portinyol" ;
@@ -1617,6 +1738,7 @@ georec:75  a                         btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:306  a                        btn100:Puerto ;
+        rdfs:label                   "306" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "306" ;
         dc:title                     "Puerto de Cudillero" ;
@@ -1634,6 +1756,7 @@ georec:306  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-5.354175603125266 36.15859904498313)"^^geosparql:wktLiteral .
 
 georec:282  a                        btn100:Puerto ;
+        rdfs:label                   "282" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "282" ;
         dc:title                     "Puerto de Bahiuca" ;
@@ -1643,6 +1766,7 @@ georec:282  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:197  a                        btn100:Puerto ;
+        rdfs:label                   "197" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "197" ;
         dc:title                     "Puerto del Rosario-Fuerteventura" ;
@@ -1653,6 +1777,7 @@ georec:197  a                        btn100:Puerto ;
         btn100:unloCode              "FUE" .
 
 georec:45  a                         btn100:Puerto ;
+        rdfs:label                   "45" ;
         dc:created                   "2014-08-22"^^xsd:date ;
         dc:identifier                "45" ;
         dc:title                     "Puerto de Bilbao/Bilbaoko Portua" ;
@@ -1667,6 +1792,7 @@ georec:45  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (-15.40515636999998 27.848768322321668)"^^geosparql:wktLiteral .
 
 georec:252  a                        btn100:Puerto ;
+        rdfs:label                   "252" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "252" ;
         dc:title                     "Puerto Deportivo de Pedras Negras" ;
@@ -1688,6 +1814,7 @@ georec:252  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-4.748051299999999 43.421388640199616)"^^geosparql:wktLiteral .
 
 georec:167  a                        btn100:Puerto ;
+        rdfs:label                   "167" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "167" ;
         dc:title                     "Puerto Deportivo Ca'n Picafort" ;
@@ -1697,6 +1824,7 @@ georec:167  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:15  a                         btn100:Puerto ;
+        rdfs:label                   "15" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "15" ;
         dc:title                     "Puerto de Oliva" ;
@@ -1706,6 +1834,7 @@ georec:15  a                         btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:222  a                        btn100:Puerto ;
+        rdfs:label                   "222" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "222" ;
         dc:title                     "Puerto de Vueltas" ;
@@ -1715,6 +1844,7 @@ georec:222  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:8  a                          btn100:Puerto ;
+        rdfs:label                   "8" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "8" ;
         dc:title                     "Puerto de Valencia" ;
@@ -1729,6 +1859,7 @@ georec:8  a                          btn100:Puerto ;
         geosparql:asWKT  "POINT (2.9180967000000018 39.35997123801049)"^^geosparql:wktLiteral .
 
 georec:137  a                        btn100:Puerto ;
+        rdfs:label                   "137" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "137" ;
         dc:title                     "Puerto de la Base Aeronaval de Rota" ;
@@ -1742,6 +1873,7 @@ georec:137  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-3.4112632 36.70288963539301)"^^geosparql:wktLiteral .
 
 georec:87  a                         btn100:Puerto ;
+        rdfs:label                   "87" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "87" ;
         dc:title                     "Port de L`Hospitalet de L´Infant" ;
@@ -1751,6 +1883,7 @@ georec:87  a                         btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:294  a                        btn100:Puerto ;
+        rdfs:label                   "294" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "294" ;
         dc:title                     "Puerto de La Puebla de Caramiñal" ;
@@ -1768,6 +1901,7 @@ georec:294  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-0.3253092000004568 39.44965503808354)"^^geosparql:wktLiteral .
 
 georec:107  a                        btn100:Puerto ;
+        rdfs:label                   "107" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "107" ;
         dc:title                     "Puerto de Castro-Urdiales" ;
@@ -1778,6 +1912,7 @@ georec:107  a                        btn100:Puerto ;
         btn100:unloCode              "CUR" .
 
 georec:57  a                         btn100:Puerto ;
+        rdfs:label                   "57" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "57" ;
         dc:title                     "Port de Palamós" ;
@@ -1787,6 +1922,7 @@ georec:57  a                         btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:264  a                        btn100:Puerto ;
+        rdfs:label                   "264" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "264" ;
         dc:title                     "Puerto de Cariño" ;
@@ -1800,6 +1936,7 @@ georec:264  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-9.1347099 42.897438840050924)"^^geosparql:wktLiteral .
 
 georec:179  a                        btn100:Puerto ;
+        rdfs:label                   "179" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "179" ;
         dc:title                     "Port de Cala Ratjada" ;
@@ -1813,6 +1950,7 @@ georec:179  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-14.024454338716287 28.208166200525195)"^^geosparql:wktLiteral .
 
 georec:27  a                         btn100:Puerto ;
+        rdfs:label                   "27" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "27" ;
         dc:title                     "Puerto Deportivo de Campomanes" ;
@@ -1830,6 +1968,7 @@ georec:27  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (-6.961900708653155 37.25939257957874)"^^geosparql:wktLiteral .
 
 georec:234  a                        btn100:Puerto ;
+        rdfs:label                   "234" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "234" ;
         dc:title                     "Puerto de Baiona" ;
@@ -1839,6 +1978,7 @@ georec:234  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:149  a                        btn100:Puerto ;
+        rdfs:label                   "149" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "149" ;
         dc:title                     "Puerto de Huelva" ;
@@ -1857,6 +1997,7 @@ georec:149  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-1.8980242600003105 36.99182412571776)"^^geosparql:wktLiteral .
 
 georec:99  a                         btn100:Puerto ;
+        rdfs:label                   "99" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "99" ;
         dc:title                     "Puerto Deportivo Marina de Las Salinas" ;
@@ -1866,6 +2007,7 @@ georec:99  a                         btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:204  a                        btn100:Puerto ;
+        rdfs:label                   "204" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "204" ;
         dc:title                     "Puerto Deportivo del Castillo" ;
@@ -1887,6 +2029,7 @@ georec:204  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-5.335775869999387 36.17980324478216)"^^geosparql:wktLiteral .
 
 georec:119  a                        btn100:Puerto ;
+        rdfs:label                   "119" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "119" ;
         dc:title                     "Puerto de Motril" ;
@@ -1905,6 +2048,7 @@ georec:119  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-3.821021699999618 43.4496882402065)"^^geosparql:wktLiteral .
 
 georec:180  a                        btn100:Puerto ;
+        rdfs:label                   "180" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "180" ;
         dc:title                     "Club Náutico de Es Portixol" ;
@@ -1918,6 +2062,7 @@ georec:180  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-0.3202474000004609 39.51057373813256)"^^geosparql:wktLiteral .
 
 georec:69  a                         btn100:Puerto ;
+        rdfs:label                   "69" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "69" ;
         dc:title                     "Port de Sitges" ;
@@ -1927,6 +2072,7 @@ georec:69  a                         btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:276  a                        btn100:Puerto ;
+        rdfs:label                   "276" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "276" ;
         dc:title                     "Puerto de Muxía" ;
@@ -1936,6 +2082,7 @@ georec:276  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:150  a                        btn100:Puerto ;
+        rdfs:label                   "150" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "150" ;
         dc:title                     "Puerto de Mazagón" ;
@@ -1953,6 +2100,7 @@ georec:150  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (3.275254999999763 39.73705100831053)"^^geosparql:wktLiteral .
 
 georec:39  a                         btn100:Puerto ;
+        rdfs:label                   "39" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "39" ;
         dc:title                     "Port de Xàbia" ;
@@ -1975,6 +2123,7 @@ georec:39  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (-8.6142704 42.340320039848194)"^^geosparql:wktLiteral .
 
 georec:246  a                        btn100:Puerto ;
+        rdfs:label                   "246" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "246" ;
         dc:title                     "Puerto de A Illa de Arousa" ;
@@ -1984,6 +2133,7 @@ georec:246  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:120  a                        btn100:Puerto ;
+        rdfs:label                   "120" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "120" ;
         dc:title                     "Puerto Deportivo Marina del Este" ;
@@ -1993,6 +2143,7 @@ georec:120  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:70  a                         btn100:Puerto ;
+        rdfs:label                   "70" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "70" ;
         dc:title                     "Port de Valcarca" ;
@@ -2002,6 +2153,7 @@ georec:70  a                         btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:301  a                        btn100:Puerto ;
+        rdfs:label                   "301" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "301" ;
         dc:title                     "Puerto de Gijón" ;
@@ -2012,6 +2164,7 @@ georec:301  a                        btn100:Puerto ;
         btn100:unloCode              "GIJ" .
 
 georec:216  a                        btn100:Puerto ;
+        rdfs:label                   "216" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "216" ;
         dc:title                     "Puerto de La Estaca" ;
@@ -2030,6 +2183,7 @@ georec:216  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-13.526661620000334 28.971816044176272)"^^geosparql:wktLiteral .
 
 georec:192  a                        btn100:Puerto ;
+        rdfs:label                   "192" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "192" ;
         dc:title                     "Puerto Deportivo Marina de Cala d'Or" ;
@@ -2039,6 +2193,7 @@ georec:192  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:40  a                         btn100:Puerto ;
+        rdfs:label                   "40" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "40" ;
         dc:title                     "Puerto de Bermeo/Bermeoko Portua" ;
@@ -2052,6 +2207,7 @@ georec:40  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (-15.765308805866823 27.81729210221312)"^^geosparql:wktLiteral .
 
 georec:288  a                        btn100:Puerto ;
+        rdfs:label                   "288" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "288" ;
         dc:title                     "Puerto de Ortigueira" ;
@@ -2073,6 +2229,7 @@ georec:288  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-8.684326679999996 42.26078188981553)"^^geosparql:wktLiteral .
 
 georec:162  a                        btn100:Puerto ;
+        rdfs:label                   "162" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "162" ;
         dc:title                     "Port de Eivissa" ;
@@ -2083,6 +2240,7 @@ georec:162  a                        btn100:Puerto ;
         btn100:unloCode              "IBZ" .
 
 georec:10  a                         btn100:Puerto ;
+        rdfs:label                   "10" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "10" ;
         dc:title                     "Puerto Industrial de Sagunto/Sagunt" ;
@@ -2097,6 +2255,7 @@ georec:10  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (0.4049176 40.35742533876278)"^^geosparql:wktLiteral .
 
 georec:258  a                        btn100:Puerto ;
+        rdfs:label                   "258" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "258" ;
         dc:title                     "Puerto de Combarro" ;
@@ -2106,6 +2265,7 @@ georec:258  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:3  a                          btn100:Puerto ;
+        rdfs:label                   "3" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "3" ;
         dc:title                     "Puerto de Vinaròs" ;
@@ -2124,6 +2284,7 @@ georec:3  a                          btn100:Puerto ;
         geosparql:asWKT  "POINT (1.233177008201603 41.102155267945896)"^^geosparql:wktLiteral .
 
 georec:132  a                        btn100:Puerto ;
+        rdfs:label                   "132" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "132" ;
         dc:title                     "Puerto de Algeciras" ;
@@ -2138,6 +2299,7 @@ georec:132  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (0.1368182 38.68720443742926)"^^geosparql:wktLiteral .
 
 georec:82  a                         btn100:Puerto ;
+        rdfs:label                   "82" ;
         dc:created                   "2014-08-22"^^xsd:date ;
         dc:identifier                "82" ;
         dc:title                     "Port de Barcelona" ;
@@ -2148,6 +2310,7 @@ georec:82  a                         btn100:Puerto ;
         btn100:unloCode              "BCN" .
 
 georec:313  a                        btn100:Puerto ;
+        rdfs:label                   "313" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "313" ;
         dc:title                     "Puerto de Vega" ;
@@ -2157,6 +2320,7 @@ georec:313  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:228  a                        btn100:Puerto ;
+        rdfs:label                   "228" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "228" ;
         dc:title                     "Puerto del Acantilado de los Gigantes" ;
@@ -2166,6 +2330,7 @@ georec:228  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:102  a                        btn100:Puerto ;
+        rdfs:label                   "102" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "102" ;
         dc:title                     "Puerto de Águilas" ;
@@ -2184,6 +2349,7 @@ georec:102  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-5.36553888999969 36.144082004739396)"^^geosparql:wktLiteral .
 
 georec:52  a                         btn100:Puerto ;
+        rdfs:label                   "52" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "52" ;
         dc:title                     "Puerto Nuevo de Hondarribia/Hondarribiko Portu Berria" ;
@@ -2209,6 +2375,7 @@ georec:52  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (-8.7206125 42.28302393982476)"^^geosparql:wktLiteral .
 
 georec:174  a                        btn100:Puerto ;
+        rdfs:label                   "174" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "174" ;
         dc:title                     "Port de Fornells" ;
@@ -2218,6 +2385,7 @@ georec:174  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:22  a                         btn100:Puerto ;
+        rdfs:label                   "22" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "22" ;
         dc:title                     "Port de Torre de la Horadada" ;
@@ -2232,6 +2400,7 @@ georec:22  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (-8.9373138 42.6062978399507)"^^geosparql:wktLiteral .
 
 georec:144  a                        btn100:Puerto ;
+        rdfs:label                   "144" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "144" ;
         dc:title                     "Puerto de La Atunara" ;
@@ -2245,6 +2414,7 @@ georec:144  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-8.233769599999999 43.480432750213815)"^^geosparql:wktLiteral .
 
 georec:94  a                         btn100:Puerto ;
+        rdfs:label                   "94" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "94" ;
         dc:title                     "Port de Torredembarra" ;
@@ -2258,6 +2428,7 @@ georec:94  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (2.22892907 41.41374263941069)"^^geosparql:wktLiteral .
 
 georec:114  a                        btn100:Puerto ;
+        rdfs:label                   "114" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "114" ;
         dc:title                     "Puerto Deportivo de Garrucha" ;
@@ -2276,6 +2447,7 @@ georec:114  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-1.8998991200003106 36.97555329569969)"^^geosparql:wktLiteral .
 
 georec:64  a                         btn100:Puerto ;
+        rdfs:label                   "64" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "64" ;
         dc:title                     "Club Náutic Llafranc" ;
@@ -2289,6 +2461,7 @@ georec:64  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (-16.23504260999994 28.48660036337673)"^^geosparql:wktLiteral .
 
 georec:271  a                        btn100:Puerto ;
+        rdfs:label                   "271" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "271" ;
         dc:title                     "Puerto de Fisterra" ;
@@ -2306,6 +2479,7 @@ georec:271  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-6.077253529999999 43.57037772023441)"^^geosparql:wktLiteral .
 
 georec:186  a                        btn100:Puerto ;
+        rdfs:label                   "186" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "186" ;
         dc:title                     "Port Esportiu de Santa Ponça" ;
@@ -2319,6 +2493,7 @@ georec:186  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-6.25361479999638 36.578897235250686)"^^geosparql:wktLiteral .
 
 georec:34  a                         btn100:Puerto ;
+        rdfs:label                   "34" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "34" ;
         dc:title                     "Astilleros de Santa Pola" ;
@@ -2328,6 +2503,7 @@ georec:34  a                         btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:241  a                        btn100:Puerto ;
+        rdfs:label                   "241" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "241" ;
         dc:title                     "Puerto de Chapela" ;
@@ -2341,6 +2517,7 @@ georec:241  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (3.223457099999813 39.36909313801794)"^^geosparql:wktLiteral .
 
 georec:156  a                        btn100:Puerto ;
+        rdfs:label                   "156" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "156" ;
         dc:title                     "Muelle del Club Naútico de Punta Umbría" ;
@@ -2362,6 +2539,7 @@ georec:156  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-0.01827975 38.624713447372336)"^^geosparql:wktLiteral .
 
 georec:211  a                        btn100:Puerto ;
+        rdfs:label                   "211" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "211" ;
         dc:title                     "Puerto de las Nieves" ;
@@ -2375,6 +2553,7 @@ georec:211  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-8.83075184 42.56389007993505)"^^geosparql:wktLiteral .
 
 georec:126  a                        btn100:Puerto ;
+        rdfs:label                   "126" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "126" ;
         dc:title                     "Puerto Deportivo de Benalmádena" ;
@@ -2384,6 +2563,7 @@ georec:126  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:76  a                         btn100:Puerto ;
+        rdfs:label                   "76" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "76" ;
         dc:title                     "Port de Garraf" ;
@@ -2393,6 +2573,7 @@ georec:76  a                         btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:307  a                        btn100:Puerto ;
+        rdfs:label                   "307" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "307" ;
         dc:title                     "Puerto de San Esteban de Pravia" ;
@@ -2403,6 +2584,7 @@ georec:307  a                        btn100:Puerto ;
         btn100:unloCode              "SEO" .
 
 georec:283  a                        btn100:Puerto ;
+        rdfs:label                   "283" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "283" ;
         dc:title                     "Puerto de Sada" ;
@@ -2417,6 +2599,7 @@ georec:283  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-9.18474 42.946018240066444)"^^geosparql:wktLiteral .
 
 georec:198  a                        btn100:Puerto ;
+        rdfs:label                   "198" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "198" ;
         dc:title                     "Puerto de Mogán" ;
@@ -2430,6 +2613,7 @@ georec:198  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-13.834566540000163 28.859851703992117)"^^geosparql:wktLiteral .
 
 georec:46  a                         btn100:Puerto ;
+        rdfs:label                   "46" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "46" ;
         dc:title                     "Puerto de Algorta/Algortako Portua" ;
@@ -2444,6 +2628,7 @@ georec:46  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (2.5417989999998416 39.52480093814396)"^^geosparql:wktLiteral .
 
 georec:253  a                        btn100:Puerto ;
+        rdfs:label                   "253" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "253" ;
         dc:title                     "Puerto de Sanxenxo" ;
@@ -2457,6 +2642,7 @@ georec:253  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (3.1340779999999744 41.846956139630706)"^^geosparql:wktLiteral .
 
 georec:168  a                        btn100:Puerto ;
+        rdfs:label                   "168" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "168" ;
         dc:title                     "Port de Campos" ;
@@ -2474,6 +2660,7 @@ georec:168  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-0.0019058014133485 38.6303594929308)"^^geosparql:wktLiteral .
 
 georec:223  a                        btn100:Puerto ;
+        rdfs:label                   "223" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "223" ;
         dc:title                     "Puerto de Tazacorte" ;
@@ -2484,6 +2671,7 @@ georec:223  a                        btn100:Puerto ;
         btn100:unloCode              "TAZ" .
 
 georec:9  a                          btn100:Puerto ;
+        rdfs:label                   "9" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "9" ;
         dc:title                     "Puerto de Gandía" ;
@@ -2498,6 +2686,7 @@ georec:9  a                          btn100:Puerto ;
         geosparql:asWKT  "POINT (-15.625367399999854 27.746995492153076)"^^geosparql:wktLiteral .
 
 georec:138  a                        btn100:Puerto ;
+        rdfs:label                   "138" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "138" ;
         dc:title                     "Puerto de La Línea de la Concepción" ;
@@ -2519,6 +2708,7 @@ georec:138  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-0.0949987100004761 38.932019137647465)"^^geosparql:wktLiteral .
 
 georec:88  a                         btn100:Puerto ;
+        rdfs:label                   "88" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "88" ;
         dc:title                     "Port de Les Cases d'Alcanar" ;
@@ -2528,6 +2718,7 @@ georec:88  a                         btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:319  a                        btn100:Puerto ;
+        rdfs:label                   "319" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "319" ;
         dc:title                     "Port del Balís" ;
@@ -2541,6 +2732,7 @@ georec:319  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-2.2016921000000003 43.30610028017042)"^^geosparql:wktLiteral .
 
 georec:295  a                        btn100:Puerto ;
+        rdfs:label                   "295" ;
         dc:created                   "2014-08-22"^^xsd:date ;
         dc:identifier                "295" ;
         dc:title                     "Puerto de San Cibrao" ;
@@ -2551,6 +2743,7 @@ georec:295  a                        btn100:Puerto ;
         btn100:unloCode              "SCI" .
 
 georec:108  a                        btn100:Puerto ;
+        rdfs:label                   "108" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "108" ;
         dc:title                     "Puerto de Santoña" ;
@@ -2564,6 +2757,7 @@ georec:108  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (3.835693889999851 40.00169686850978)"^^geosparql:wktLiteral .
 
 georec:58  a                         btn100:Puerto ;
+        rdfs:label                   "58" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "58" ;
         dc:title                     "Port Marina de Palamós" ;
@@ -2593,6 +2787,7 @@ georec:58  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (-8.799607199999999 42.333935159845616)"^^geosparql:wktLiteral .
 
 georec:265  a                        btn100:Puerto ;
+        rdfs:label                   "265" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "265" ;
         dc:title                     "Puerto de Noal" ;
@@ -2610,6 +2805,7 @@ georec:265  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-16.842666480000098 28.246275542979607)"^^geosparql:wktLiteral .
 
 georec:28  a                         btn100:Puerto ;
+        rdfs:label                   "28" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "28" ;
         dc:title                     "Port de Villajoyosa" ;
@@ -2619,6 +2815,7 @@ georec:28  a                         btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:235  a                        btn100:Puerto ;
+        rdfs:label                   "235" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "235" ;
         dc:title                     "Puerto de Cangas" ;
@@ -2636,6 +2833,7 @@ georec:235  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-8.78496986 42.32759997984304)"^^geosparql:wktLiteral .
 
 georec:205  a                        btn100:Puerto ;
+        rdfs:label                   "205" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "205" ;
         dc:title                     "Puerto de Playa Blanca" ;
@@ -2645,6 +2843,7 @@ georec:205  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:181  a                        btn100:Puerto ;
+        rdfs:label                   "181" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "181" ;
         dc:title                     "Escuela Nacional de Vela Calanova" ;
@@ -2670,6 +2869,7 @@ georec:181  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-7.40605552514621 37.21107321751533)"^^geosparql:wktLiteral .
 
 georec:151  a                        btn100:Puerto ;
+        rdfs:label                   "151" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "151" ;
         dc:title                     "Puerto de Isla Cristina" ;
@@ -2687,6 +2887,7 @@ georec:151  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-4.514532699999999 36.59683063527151)"^^geosparql:wktLiteral .
 
 georec:121  a                        btn100:Puerto ;
+        rdfs:label                   "121" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "121" ;
         dc:title                     "Puerto de Calahonda" ;
@@ -2700,6 +2901,7 @@ georec:121  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (2.714840999999903 39.53377933815109)"^^geosparql:wktLiteral .
 
 georec:302  a                        btn100:Puerto ;
+        rdfs:label                   "302" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "302" ;
         dc:title                     "Puerto de Avilés" ;
@@ -2710,6 +2912,7 @@ georec:302  a                        btn100:Puerto ;
         btn100:unloCode              "AVS" .
 
 georec:71  a                         btn100:Puerto ;
+        rdfs:label                   "71" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "71" ;
         dc:title                     "Port Olímpic" ;
@@ -2727,6 +2930,7 @@ georec:71  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (-7.339851153696221 37.18625694493058)"^^geosparql:wktLiteral .
 
 georec:217  a                        btn100:Puerto ;
+        rdfs:label                   "217" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "217" ;
         dc:title                     "Puerto de Santa Cruz de la Palma" ;
@@ -2741,6 +2945,7 @@ georec:217  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-0.6849134999999998 37.97532099675232)"^^geosparql:wktLiteral .
 
 georec:193  a                        btn100:Puerto ;
+        rdfs:label                   "193" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "193" ;
         dc:title                     "Porto Petro" ;
@@ -2750,6 +2955,7 @@ georec:193  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:41  a                         btn100:Puerto ;
+        rdfs:label                   "41" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "41" ;
         dc:title                     "Puerto de Ondarroa/Ondarroako Portua" ;
@@ -2763,6 +2969,7 @@ georec:41  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (-13.502205300000087 29.229762154599722)"^^geosparql:wktLiteral .
 
 georec:289  a                        btn100:Puerto ;
+        rdfs:label                   "289" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "289" ;
         dc:title                     "Puerto de Castro" ;
@@ -2772,6 +2979,7 @@ georec:289  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:163  a                        btn100:Puerto ;
+        rdfs:label                   "163" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "163" ;
         dc:title                     "Port de la Savina" ;
@@ -2786,6 +2994,7 @@ georec:163  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-9.004310760000001 42.726727789993674)"^^geosparql:wktLiteral .
 
 georec:11  a                         btn100:Puerto ;
+        rdfs:label                   "11" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "11" ;
         dc:title                     "Puerto Siles (Canet de Berenguer)" ;
@@ -2799,6 +3008,7 @@ georec:11  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (-8.849524280000002 42.12089324975583)"^^geosparql:wktLiteral .
 
 georec:4  a                          btn100:Puerto ;
+        rdfs:label                   "4" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "4" ;
         dc:title                     "Puerto Burriana Nova" ;
@@ -2809,6 +3019,7 @@ georec:4  a                          btn100:Puerto ;
         btn100:unloCode              "BRX" .
 
 georec:259  a                        btn100:Puerto ;
+        rdfs:label                   "259" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "259" ;
         dc:title                     "Puerto de Beluso" ;
@@ -2818,6 +3029,7 @@ georec:259  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:133  a                        btn100:Puerto ;
+        rdfs:label                   "133" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "133" ;
         dc:title                     "Puerto de Tarifa" ;
@@ -2840,6 +3052,7 @@ georec:133  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-17.33294317999979 28.08139557270681)"^^geosparql:wktLiteral .
 
 georec:314  a                        btn100:Puerto ;
+        rdfs:label                   "314" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "314" ;
         dc:title                     "Puerto de Tazones" ;
@@ -2857,6 +3070,7 @@ georec:314  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-8.817342099999998 42.51170643991544)"^^geosparql:wktLiteral .
 
 georec:229  a                        btn100:Puerto ;
+        rdfs:label                   "229" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "229" ;
         dc:title                     "Puerto Deportivo de Güimar" ;
@@ -2866,6 +3080,7 @@ georec:229  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:290  a                        btn100:Puerto ;
+        rdfs:label                   "290" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "290" ;
         dc:title                     "Puerto de Sabardes" ;
@@ -2875,6 +3090,7 @@ georec:290  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:103  a                        btn100:Puerto ;
+        rdfs:label                   "103" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "103" ;
         dc:title                     "Puerto Deportivo Juan Montiel" ;
@@ -2892,6 +3108,7 @@ georec:103  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (2.5581596000000904 41.57924203949792)"^^geosparql:wktLiteral .
 
 georec:53  a                         btn100:Puerto ;
+        rdfs:label                   "53" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "53" ;
         dc:title                     "Puerto de Getaria/Getariako Portua" ;
@@ -2905,6 +3122,7 @@ georec:53  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (-2.697760199999999 43.40771414019625)"^^geosparql:wktLiteral .
 
 georec:260  a                        btn100:Puerto ;
+        rdfs:label                   "260" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "260" ;
         dc:title                     "Puerto de Cambados" ;
@@ -2915,6 +3133,7 @@ georec:260  a                        btn100:Puerto ;
         btn100:unloCode              "CBD" .
 
 georec:175  a                        btn100:Puerto ;
+        rdfs:label                   "175" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "175" ;
         dc:title                     "Port de Pollença" ;
@@ -2924,6 +3143,7 @@ georec:175  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:23  a                         btn100:Puerto ;
+        rdfs:label                   "23" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "23" ;
         dc:title                     "Port de El Campello" ;
@@ -2941,6 +3161,7 @@ georec:23  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (-6.5341895 43.54796404022939)"^^geosparql:wktLiteral .
 
 georec:230  a                        btn100:Puerto ;
+        rdfs:label                   "230" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "230" ;
         dc:title                     "Puerto de Radazul" ;
@@ -2958,6 +3179,7 @@ georec:230  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-7.85524488 43.68284327025851)"^^geosparql:wktLiteral .
 
 georec:145  a                        btn100:Puerto ;
+        rdfs:label                   "145" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "145" ;
         dc:title                     "Puerto del Puerto de Santa María" ;
@@ -2971,6 +3193,7 @@ georec:145  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-16.719671509999923 28.048575642652498)"^^geosparql:wktLiteral .
 
 georec:95  a                         btn100:Puerto ;
+        rdfs:label                   "95" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "95" ;
         dc:title                     "Port de El Roc de Sant Gaietà" ;
@@ -2980,6 +3203,7 @@ georec:95  a                         btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:200  a                        btn100:Puerto ;
+        rdfs:label                   "200" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "200" ;
         dc:title                     "Puerto de Pasito Blanco" ;
@@ -2993,6 +3217,7 @@ georec:200  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-3.7264228999999003 36.7251041354183)"^^geosparql:wktLiteral .
 
 georec:115  a                        btn100:Puerto ;
+        rdfs:label                   "115" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "115" ;
         dc:title                     "Puerto Deportivo de San José" ;
@@ -3006,6 +3231,7 @@ georec:115  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-8.862780400000002 42.49684343990979)"^^geosparql:wktLiteral .
 
 georec:65  a                         btn100:Puerto ;
+        rdfs:label                   "65" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "65" ;
         dc:title                     "Port de Portbou" ;
@@ -3019,6 +3245,7 @@ georec:65  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (0.2871279000004961 40.250637438688614)"^^geosparql:wktLiteral .
 
 georec:272  a                        btn100:Puerto ;
+        rdfs:label                   "272" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "272" ;
         dc:title                     "Puerto de O Pindo" ;
@@ -3032,6 +3259,7 @@ georec:272  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (1.5259488500005798 41.17806311927972)"^^geosparql:wktLiteral .
 
 georec:187  a                        btn100:Puerto ;
+        rdfs:label                   "187" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "187" ;
         dc:title                     "Port Adriano" ;
@@ -3041,6 +3269,7 @@ georec:187  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:35  a                         btn100:Puerto ;
+        rdfs:label                   "35" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "35" ;
         dc:title                     "Puerto Deportivo Marina de las Dunas" ;
@@ -3058,6 +3287,7 @@ georec:35  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (-9.262041 42.906612840053874)"^^geosparql:wktLiteral .
 
 georec:242  a                        btn100:Puerto ;
+        rdfs:label                   "242" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "242" ;
         dc:title                     "Puerto de Rande" ;
@@ -3071,6 +3301,7 @@ georec:242  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-14.358950279999815 28.048712012652718)"^^geosparql:wktLiteral .
 
 georec:157  a                        btn100:Puerto ;
+        rdfs:label                   "157" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "157" ;
         dc:title                     "Puerto Deportivo de Ayamonte" ;
@@ -3097,6 +3328,7 @@ georec:157  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-2.6066473200001083 36.75662860545413)"^^geosparql:wktLiteral .
 
 georec:212  a                        btn100:Puerto ;
+        rdfs:label                   "212" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "212" ;
         dc:title                     "Puerto de Corralejo" ;
@@ -3107,6 +3339,7 @@ georec:212  a                        btn100:Puerto ;
         btn100:unloCode              "QFU" .
 
 georec:127  a                        btn100:Puerto ;
+        rdfs:label                   "127" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "127" ;
         dc:title                     "Puerto de Caleta de Vélez" ;
@@ -3120,6 +3353,7 @@ georec:127  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (4.130334349999798 40.054963918548786)"^^geosparql:wktLiteral .
 
 georec:308  a                        btn100:Puerto ;
+        rdfs:label                   "308" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "308" ;
         dc:title                     "Puerto de Figueras" ;
@@ -3141,6 +3375,7 @@ georec:308  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-7.03696903 43.53900196022737)"^^geosparql:wktLiteral .
 
 georec:284  a                        btn100:Puerto ;
+        rdfs:label                   "284" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "284" ;
         dc:title                     "Puerto de A Graña" ;
@@ -3154,6 +3389,7 @@ georec:284  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-0.2816685000014066 39.562639238174114)"^^geosparql:wktLiteral .
 
 georec:199  a                        btn100:Puerto ;
+        rdfs:label                   "199" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "199" ;
         dc:title                     "Puerto de Arguineguín" ;
@@ -3164,6 +3400,7 @@ georec:199  a                        btn100:Puerto ;
         btn100:unloCode              "ARI" .
 
 georec:254  a                        btn100:Puerto ;
+        rdfs:label                   "254" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "254" ;
         dc:title                     "Puerto de Bueu" ;
@@ -3177,6 +3414,7 @@ georec:254  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-5.762009639999999 43.590577040238884)"^^geosparql:wktLiteral .
 
 georec:169  a                        btn100:Puerto ;
+        rdfs:label                   "169" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "169" ;
         dc:title                     "Club Nàutic Sa Ràpita" ;
@@ -3190,6 +3428,7 @@ georec:169  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-0.9502079200000003 37.56811528633758)"^^geosparql:wktLiteral .
 
 georec:17  a                         btn100:Puerto ;
+        rdfs:label                   "17" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "17" ;
         dc:title                     "Port de Dénia" ;
@@ -3208,6 +3447,7 @@ georec:17  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (-16.658890109999852 28.00689444258347)"^^geosparql:wktLiteral .
 
 georec:224  a                        btn100:Puerto ;
+        rdfs:label                   "224" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "224" ;
         dc:title                     "Puerto de Playa de Santiago" ;
@@ -3217,6 +3457,7 @@ georec:224  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:139  a                        btn100:Puerto ;
+        rdfs:label                   "139" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "139" ;
         dc:title                     "Puerto de Campamento" ;
@@ -3230,6 +3471,7 @@ georec:139  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-8.497837440000001 43.34765441018117)"^^geosparql:wktLiteral .
 
 georec:89  a                         btn100:Puerto ;
+        rdfs:label                   "89" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "89" ;
         dc:title                     "Port de l'Ametlla de Mar" ;
@@ -3239,6 +3481,7 @@ georec:89  a                         btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:296  a                        btn100:Puerto ;
+        rdfs:label                   "296" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "296" ;
         dc:title                     "Puerto de Foz" ;
@@ -3252,6 +3495,7 @@ georec:296  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-8.774490499999974 42.596588039947136)"^^geosparql:wktLiteral .
 
 georec:109  a                        btn100:Puerto ;
+        rdfs:label                   "109" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "109" ;
         dc:title                     "Puerto de Carboneras. Cargadero de Carbón y de Cemento." ;
@@ -3261,6 +3505,7 @@ georec:109  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-transeuropea> .
 
 georec:170  a                        btn100:Puerto ;
+        rdfs:label                   "170" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "170" ;
         dc:title                     "Club Nàutic Colònia de Sant Pere" ;
@@ -3274,6 +3519,7 @@ georec:170  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-13.856411810000065 28.498793153396868)"^^geosparql:wktLiteral .
 
 georec:59  a                         btn100:Puerto ;
+        rdfs:label                   "59" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "59" ;
         dc:title                     "Port de la Clota" ;
@@ -3291,6 +3537,7 @@ georec:59  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (-4.3449708 36.7149037354067)"^^geosparql:wktLiteral .
 
 georec:266  a                        btn100:Puerto ;
+        rdfs:label                   "266" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "266" ;
         dc:title                     "Puerto de Arguiño" ;
@@ -3304,6 +3551,7 @@ georec:266  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-0.6416540000052532 38.11056903688569)"^^geosparql:wktLiteral .
 
 georec:140  a                        btn100:Puerto ;
+        rdfs:label                   "140" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "140" ;
         dc:title                     "Puerto Deportivo de Sotogrande" ;
@@ -3313,6 +3561,7 @@ georec:140  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:29  a                         btn100:Puerto ;
+        rdfs:label                   "29" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "29" ;
         dc:title                     "Port de Benidorm" ;
@@ -3323,6 +3572,7 @@ georec:29  a                         btn100:Puerto ;
         btn100:unloCode              "BEM" .
 
 georec:90  a                         btn100:Puerto ;
+        rdfs:label                   "90" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "90" ;
         dc:title                     "Club Nàutic Sant Jordi d'Alfama" ;
@@ -3340,6 +3590,7 @@ georec:90  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (-6.965798859999435 37.19217877593756)"^^geosparql:wktLiteral .
 
 georec:236  a                        btn100:Puerto ;
+        rdfs:label                   "236" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "236" ;
         dc:title                     "Puerto de Portonovo" ;
@@ -3349,6 +3600,7 @@ georec:236  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:110  a                        btn100:Puerto ;
+        rdfs:label                   "110" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "110" ;
         dc:title                     "Puerto Deportivo de Almerimar" ;
@@ -3370,6 +3622,7 @@ georec:110  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-9.004156000000002 43.22282364014808)"^^geosparql:wktLiteral .
 
 georec:60  a                         btn100:Puerto ;
+        rdfs:label                   "60" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "60" ;
         dc:title                     "Port de Roses" ;
@@ -3379,6 +3632,7 @@ georec:60  a                         btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:206  a                        btn100:Puerto ;
+        rdfs:label                   "206" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "206" ;
         dc:title                     "Puerto Deportivo Marina Rubicón" ;
@@ -3396,6 +3650,7 @@ georec:206  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-2.4836730000001515 36.83298903554036)"^^geosparql:wktLiteral .
 
 georec:182  a                        btn100:Puerto ;
+        rdfs:label                   "182" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "182" ;
         dc:title                     "Club Náutico de Cala Gamba" ;
@@ -3405,6 +3660,7 @@ georec:182  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:30  a                         btn100:Puerto ;
+        rdfs:label                   "30" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "30" ;
         dc:title                     "Port Esportiu Mar i Muntanya" ;
@@ -3418,6 +3674,7 @@ georec:30  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (-8.8222135 42.39443323986989)"^^geosparql:wktLiteral .
 
 georec:278  a                        btn100:Puerto ;
+        rdfs:label                   "278" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "278" ;
         dc:title                     "Puerto de Camariñas" ;
@@ -3427,6 +3684,7 @@ georec:278  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:152  a                        btn100:Puerto ;
+        rdfs:label                   "152" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "152" ;
         dc:title                     "Puerto Deportivo Marina Isla Canela" ;
@@ -3444,6 +3702,7 @@ georec:152  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-8.393477750000004 43.361755400184755)"^^geosparql:wktLiteral .
 
 georec:248  a                        btn100:Puerto ;
+        rdfs:label                   "248" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "248" ;
         dc:title                     "Puerto de Vilanova de Arousa" ;
@@ -3453,6 +3712,7 @@ georec:248  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:122  a                        btn100:Puerto ;
+        rdfs:label                   "122" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "122" ;
         dc:title                     "Puerto de Málaga" ;
@@ -3463,6 +3723,7 @@ georec:122  a                        btn100:Puerto ;
         btn100:unloCode              "AGP" .
 
 georec:303  a                        btn100:Puerto ;
+        rdfs:label                   "303" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "303" ;
         dc:title                     "Puerto de Castropol" ;
@@ -3473,6 +3734,7 @@ georec:303  a                        btn100:Puerto ;
         btn100:unloCode              "CSO" .
 
 georec:72  a                         btn100:Puerto ;
+        rdfs:label                   "72" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "72" ;
         dc:title                     "Port de Mataró" ;
@@ -3486,6 +3748,7 @@ georec:72  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (3.332272949999716 39.537922188154376)"^^geosparql:wktLiteral .
 
 georec:218  a                        btn100:Puerto ;
+        rdfs:label                   "218" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "218" ;
         dc:title                     "Puerto de San Sebastian de la Gomera" ;
@@ -3504,6 +3767,7 @@ georec:218  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-3.4633388000000007 43.441627240204525)"^^geosparql:wktLiteral .
 
 georec:194  a                        btn100:Puerto ;
+        rdfs:label                   "194" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "194" ;
         dc:title                     "Puerto de Sevilla" ;
@@ -3514,6 +3778,7 @@ georec:194  a                        btn100:Puerto ;
         btn100:unloCode              "SVQ" .
 
 georec:42  a                         btn100:Puerto ;
+        rdfs:label                   "42" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "42" ;
         dc:title                     "Puerto de Lekeitio/Lekeitioko Portua" ;
@@ -3532,6 +3797,7 @@ georec:42  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (-6.2776884645100415 36.5315526550878)"^^geosparql:wktLiteral .
 
 georec:164  a                        btn100:Puerto ;
+        rdfs:label                   "164" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "164" ;
         dc:title                     "Port de Santa Eulalia del Río" ;
@@ -3542,6 +3808,7 @@ georec:164  a                        btn100:Puerto ;
         btn100:unloCode              "STE" .
 
 georec:12  a                         btn100:Puerto ;
+        rdfs:label                   "12" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "12" ;
         dc:title                     "Puerto de la Pobla de Farnals" ;
@@ -3551,6 +3818,7 @@ georec:12  a                         btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:5  a                          btn100:Puerto ;
+        rdfs:label                   "5" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "5" ;
         dc:title                     "Puerto de Castellón de la Plana" ;
@@ -3561,6 +3829,7 @@ georec:5  a                          btn100:Puerto ;
         btn100:unloCode              "CAS" .
 
 georec:134  a                        btn100:Puerto ;
+        rdfs:label                   "134" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "134" ;
         dc:title                     "Puerto de Cádiz" ;
@@ -3579,6 +3848,7 @@ georec:134  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-5.696577000010736 43.55487054023092)"^^geosparql:wktLiteral .
 
 georec:84  a                         btn100:Puerto ;
+        rdfs:label                   "84" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "84" ;
         dc:title                     "Cargadero de Alcanar" ;
@@ -3592,6 +3862,7 @@ georec:84  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (-0.16058068 38.99353063770109)"^^geosparql:wktLiteral .
 
 georec:291  a                        btn100:Puerto ;
+        rdfs:label                   "291" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "291" ;
         dc:title                     "Puerto de Goians" ;
@@ -3605,6 +3876,7 @@ georec:291  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-17.90055099999987 27.78577252221731)"^^geosparql:wktLiteral .
 
 georec:104  a                        btn100:Puerto ;
+        rdfs:label                   "104" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "104" ;
         dc:title                     "Club Náutico de Águilas" ;
@@ -3614,6 +3886,7 @@ georec:104  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:54  a                         btn100:Puerto ;
+        rdfs:label                   "54" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "54" ;
         dc:title                     "Puerto de San Sebastián/Donostiako Portua" ;
@@ -3640,6 +3913,7 @@ georec:54  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (-0.0736990692964074 39.86328065319838)"^^geosparql:wktLiteral .
 
 georec:176  a                        btn100:Puerto ;
+        rdfs:label                   "176" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "176" ;
         dc:title                     "Puerto Deportivo El Cocodrilo de Bonaire" ;
@@ -3649,6 +3923,7 @@ georec:176  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:24  a                         btn100:Puerto ;
+        rdfs:label                   "24" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "24" ;
         dc:title                     "Club Náutico Moraira" ;
@@ -3674,6 +3949,7 @@ georec:24  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (-3.5293832 36.722009935414775)"^^geosparql:wktLiteral .
 
 georec:231  a                        btn100:Puerto ;
+        rdfs:label                   "231" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "231" ;
         dc:title                     "Puerto de Vigo" ;
@@ -3684,6 +3960,7 @@ georec:231  a                        btn100:Puerto ;
         btn100:unloCode              "VGO" .
 
 georec:146  a                        btn100:Puerto ;
+        rdfs:label                   "146" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "146" ;
         dc:title                     "Puerto de Bonanza" ;
@@ -3697,6 +3974,7 @@ georec:146  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (0.07030657 38.63904517738544)"^^geosparql:wktLiteral .
 
 georec:96  a                         btn100:Puerto ;
+        rdfs:label                   "96" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "96" ;
         dc:title                     "Port de Segur Calafell" ;
@@ -3706,6 +3984,7 @@ georec:96  a                         btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:201  a                        btn100:Puerto ;
+        rdfs:label                   "201" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "201" ;
         dc:title                     "Puerto Deportivo Puerto Rico" ;
@@ -3719,6 +3998,7 @@ georec:201  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-6.223881459999561 36.592742595266806)"^^geosparql:wktLiteral .
 
 georec:116  a                        btn100:Puerto ;
+        rdfs:label                   "116" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "116" ;
         dc:title                     "Puerto Deportivo de Aguadulce" ;
@@ -3736,6 +4016,7 @@ georec:116  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-1.8193490700003376 37.18419494592886)"^^geosparql:wktLiteral .
 
 georec:66  a                         btn100:Puerto ;
+        rdfs:label                   "66" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "66" ;
         dc:title                     "Club Nàutic Sant Miguel de Colera" ;
@@ -3745,6 +4026,7 @@ georec:66  a                         btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:273  a                        btn100:Puerto ;
+        rdfs:label                   "273" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "273" ;
         dc:title                     "Puerto de Corcubión" ;
@@ -3763,6 +4045,7 @@ georec:273  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-5.266313999999474 43.515838640222064)"^^geosparql:wktLiteral .
 
 georec:188  a                        btn100:Puerto ;
+        rdfs:label                   "188" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "188" ;
         dc:title                     "Port Portals" ;
@@ -3776,6 +4059,7 @@ georec:188  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-5.276488469999396 36.28992012491315)"^^geosparql:wktLiteral .
 
 georec:36  a                         btn100:Puerto ;
+        rdfs:label                   "36" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "36" ;
         dc:title                     "Puerto Deportivo Miguel Caballero" ;
@@ -3789,6 +4073,7 @@ georec:36  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (-7.256559499999998 43.566045540233446)"^^geosparql:wktLiteral .
 
 georec:243  a                        btn100:Puerto ;
+        rdfs:label                   "243" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "243" ;
         dc:title                     "Puerto de Redondela" ;
@@ -3802,6 +4087,7 @@ georec:243  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-16.61056367000008 28.020721022606413)"^^geosparql:wktLiteral .
 
 georec:158  a                        btn100:Puerto ;
+        rdfs:label                   "158" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "158" ;
         dc:title                     "Puerto Pesquero de Ayamonte" ;
@@ -3812,6 +4098,7 @@ georec:158  a                        btn100:Puerto ;
         btn100:unloCode              "AYA" .
 
 georec:213  a                        btn100:Puerto ;
+        rdfs:label                   "213" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "213" ;
         dc:title                     "Puerto del Carmen" ;
@@ -3825,6 +4112,7 @@ georec:213  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-8.805152239999998 42.39765265987116)"^^geosparql:wktLiteral .
 
 georec:128  a                        btn100:Puerto ;
+        rdfs:label                   "128" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "128" ;
         dc:title                     "Puerto Deportivo El Candado" ;
@@ -3838,6 +4126,7 @@ georec:128  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-15.683788099999648 27.7568735821694)"^^geosparql:wktLiteral .
 
 georec:78  a                         btn100:Puerto ;
+        rdfs:label                   "78" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "78" ;
         dc:title                     "Port de Sant Adrià de Besòs" ;
@@ -3847,6 +4136,7 @@ georec:78  a                         btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:309  a                        btn100:Puerto ;
+        rdfs:label                   "309" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "309" ;
         dc:title                     "Puerto de Ribadesella" ;
@@ -3861,6 +4151,7 @@ georec:309  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (2.998303420000005 39.315409687973776)"^^geosparql:wktLiteral .
 
 georec:285  a                        btn100:Puerto ;
+        rdfs:label                   "285" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "285" ;
         dc:title                     "Puerto de Ares" ;
@@ -3882,6 +4173,7 @@ georec:285  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-15.819250099999762 28.005569752581305)"^^geosparql:wktLiteral .
 
 georec:48  a                         btn100:Puerto ;
+        rdfs:label                   "48" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "48" ;
         dc:title                     "Puerto de Pasaia/Pasaiako Portua" ;
@@ -3896,6 +4188,7 @@ georec:48  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (-5.993079359999567 37.34199738609891)"^^geosparql:wktLiteral .
 
 georec:255  a                        btn100:Puerto ;
+        rdfs:label                   "255" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "255" ;
         dc:title                     "Puerto de Moaña" ;
@@ -3914,6 +4207,7 @@ georec:255  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-4.618415200000001 36.54089523520695)"^^geosparql:wktLiteral .
 
 georec:18  a                         btn100:Puerto ;
+        rdfs:label                   "18" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "18" ;
         dc:title                     "Club Náutico de Altea" ;
@@ -3927,6 +4221,7 @@ georec:18  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (-0.4391326100000001 38.36161717712739)"^^geosparql:wktLiteral .
 
 georec:310  a                        btn100:Puerto ;
+        rdfs:label                   "310" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "310" ;
         dc:title                     "Puerto de Candás" ;
@@ -3936,6 +4231,7 @@ georec:310  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:225  a                        btn100:Puerto ;
+        rdfs:label                   "225" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "225" ;
         dc:title                     "Puerto Deportivo de Las Galletas" ;
@@ -3957,6 +4253,7 @@ georec:225  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-9.215419000000002 43.10637754011512)"^^geosparql:wktLiteral .
 
 georec:297  a                        btn100:Puerto ;
+        rdfs:label                   "297" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "297" ;
         dc:title                     "Puerto de Viveiro" ;
@@ -3971,6 +4268,7 @@ georec:297  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-13.70434884 28.916788754085765)"^^geosparql:wktLiteral .
 
 georec:171  a                        btn100:Puerto ;
+        rdfs:label                   "171" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "171" ;
         dc:title                     "Port de Sant Antoni" ;
@@ -3984,6 +4282,7 @@ georec:171  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-7.8668588 43.73761224026952)"^^geosparql:wktLiteral .
 
 georec:267  a                        btn100:Puerto ;
+        rdfs:label                   "267" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "267" ;
         dc:title                     "Puerto de Santa Uxía de Ribeira" ;
@@ -3993,6 +4292,7 @@ georec:267  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:141  a                        btn100:Puerto ;
+        rdfs:label                   "141" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "141" ;
         dc:title                     "Puerto de Barbate" ;
@@ -4006,6 +4306,7 @@ georec:141  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-8.876215399999998 41.90040863965599)"^^geosparql:wktLiteral .
 
 georec:322  a                        btn100:Puerto ;
+        rdfs:label                   "322" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "322" ;
         dc:title                     "Puerto de Gibraltar" ;
@@ -4015,6 +4316,7 @@ georec:322  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:91  a                         btn100:Puerto ;
+        rdfs:label                   "91" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "91" ;
         dc:title                     "Port de Cambrils" ;
@@ -4033,6 +4335,7 @@ georec:91  a                         btn100:Puerto ;
         geosparql:asWKT  "POINT (-8.945117550000003 42.793532520016605)"^^geosparql:wktLiteral .
 
 georec:237  a                        btn100:Puerto ;
+        rdfs:label                   "237" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "237" ;
         dc:title                     "Puerto de Meira" ;
@@ -4046,6 +4349,7 @@ georec:237  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (0.8506600377974852 40.928842880690176)"^^geosparql:wktLiteral .
 
 georec:111  a                        btn100:Puerto ;
+        rdfs:label                   "111" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "111" ;
         dc:title                     "Puerto de Almería" ;
@@ -4060,6 +4364,7 @@ georec:111  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (0.1150464999994964 38.840195037566524)"^^geosparql:wktLiteral .
 
 georec:61  a                         btn100:Puerto ;
+        rdfs:label                   "61" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "61" ;
         dc:title                     "Port del Port de la Selva" ;
@@ -4069,6 +4374,7 @@ georec:61  a                         btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:207  a                        btn100:Puerto ;
+        rdfs:label                   "207" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "207" ;
         dc:title                     "Puerto Calero" ;
@@ -4082,6 +4388,7 @@ georec:207  a                        btn100:Puerto ;
         geosparql:asWKT  "POINT (-6.355139730000362 36.61690265529458)"^^geosparql:wktLiteral .
 
 georec:183  a                        btn100:Puerto ;
+        rdfs:label                   "183" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "183" ;
         dc:title                     "Port de Can Pastilla" ;
@@ -4091,6 +4398,7 @@ georec:183  a                        btn100:Puerto ;
         btn100:rutaTEN-T             <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:31  a                         btn100:Puerto ;
+        rdfs:label                   "31" ;
         dc:created                   "2014-08-20"^^xsd:date ;
         dc:identifier                "31" ;
         dc:title                     "Port de Cabo Roig" ;

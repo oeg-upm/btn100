@@ -19,6 +19,7 @@
         geosparql:asWKT  "POINT (-3.30444088 42.19534800978796)"^^geosparql:wktLiteral .
 
 georec:2011  a                 btn100:EstacionInvernal ;
+        rdfs:label             "2011" ;
         dc:created             "2010-10-27"^^xsd:date ;
         dc:identifier          "2011" ;
         dc:replaces            "24056" ;
@@ -34,6 +35,7 @@ georec:2011  a                 btn100:EstacionInvernal ;
         geosparql:asWKT  "POINT (-3.97085703 40.80422748905588)"^^geosparql:wktLiteral .
 
 georec:2009  a                 btn100:EstacionInvernal ;
+        rdfs:label             "2009" ;
         dc:created             "2012-04-26"^^xsd:date ;
         dc:identifier          "2009" ;
         dc:replaces            "24011" ;
@@ -41,6 +43,7 @@ georec:2009  a                 btn100:EstacionInvernal ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/2009/geometry> .
 
 georec:7926  a                 btn100:EstacionInvernal ;
+        rdfs:label             "7926" ;
         dc:created             "2006-08-10"^^xsd:date ;
         dc:identifier          "7926" ;
         dc:replaces            "55208" ;
@@ -52,6 +55,7 @@ georec:7926  a                 btn100:EstacionInvernal ;
         geosparql:asWKT  "POINT (-6.41195903 42.99286074008105)"^^geosparql:wktLiteral .
 
 georec:649  a                  btn100:EstacionInvernal ;
+        rdfs:label             "649" ;
         dc:created             "2012-09-19"^^xsd:date ;
         dc:identifier          "649" ;
         dc:replaces            "45216" ;
@@ -59,6 +63,7 @@ georec:649  a                  btn100:EstacionInvernal ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/649/geometry> .
 
 georec:1209  a                 btn100:EstacionInvernal ;
+        rdfs:label             "1209" ;
         dc:created             "2012-05-09"^^xsd:date ;
         dc:identifier          "1209" ;
         dc:replaces            "46186" ;
@@ -82,12 +87,14 @@ georec:1209  a                 btn100:EstacionInvernal ;
         geosparql:asWKT  "POINT (1.9370849800000005 42.33697514984684)"^^geosparql:wktLiteral .
 
 georec:4176  a                 btn100:EstacionInvernal ;
+        rdfs:label             "4176" ;
         dc:created             "2012-04-02"^^xsd:date ;
         dc:identifier          "4176" ;
         dc:title               "Estación Invernal de Valdelinares" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/4176/geometry> .
 
 georec:1715  a                 btn100:EstacionInvernal ;
+        rdfs:label             "1715" ;
         dc:created             "2012-05-14"^^xsd:date ;
         dc:identifier          "1715" ;
         dc:replaces            "55146" ;
@@ -95,6 +102,7 @@ georec:1715  a                 btn100:EstacionInvernal ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/1715/geometry> .
 
 georec:2010  a                 btn100:EstacionInvernal ;
+        rdfs:label             "2010" ;
         dc:created             "2012-04-26"^^xsd:date ;
         dc:identifier          "2010" ;
         dc:replaces            "24004" ;
@@ -110,6 +118,7 @@ georec:2010  a                 btn100:EstacionInvernal ;
         geosparql:asWKT  "POINT (-5.775762329999999 42.97778823007636)"^^geosparql:wktLiteral .
 
 georec:5953  a                 btn100:EstacionInvernal ;
+        rdfs:label             "5953" ;
         dc:created             "2006-07-27"^^xsd:date ;
         dc:identifier          "5953" ;
         dc:replaces            "57252" ;
@@ -117,6 +126,7 @@ georec:5953  a                 btn100:EstacionInvernal ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/5953/geometry> .
 
 georec:3847  a                 btn100:EstacionInvernal ;
+        rdfs:label             "3847" ;
         dc:created             "2012-05-17"^^xsd:date ;
         dc:identifier          "3847" ;
         dc:replaces            "23361" ;
@@ -128,6 +138,7 @@ georec:3847  a                 btn100:EstacionInvernal ;
         geosparql:asWKT  "POINT (0.5411879 42.587971989943966)"^^geosparql:wktLiteral .
 
 georec:650  a                  btn100:EstacionInvernal ;
+        rdfs:label             "650" ;
         dc:created             "2006-07-26"^^xsd:date ;
         dc:identifier          "650" ;
         dc:replaces            "45218" ;
@@ -135,6 +146,7 @@ georec:650  a                  btn100:EstacionInvernal ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/650/geometry> .
 
 georec:2008  a                 btn100:EstacionInvernal ;
+        rdfs:label             "2008" ;
         dc:created             "2012-04-26"^^xsd:date ;
         dc:identifier          "2008" ;
         dc:replaces            "23947" ;
@@ -142,12 +154,14 @@ georec:2008  a                 btn100:EstacionInvernal ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/2008/geometry> .
 
 georec:648  a                  btn100:EstacionInvernal ;
+        rdfs:label             "648" ;
         dc:created             "2008-03-19"^^xsd:date ;
         dc:identifier          "648" ;
         dc:title               "Estación Invernal de Navacerrada" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/648/geometry> .
 
 georec:6475  a                 btn100:EstacionInvernal ;
+        rdfs:label             "6475" ;
         dc:created             "2012-12-28"^^xsd:date ;
         dc:identifier          "6475" ;
         dc:replaces            "36426" ;
@@ -155,12 +169,14 @@ georec:6475  a                 btn100:EstacionInvernal ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/6475/geometry> .
 
 georec:1942  a                 btn100:EstacionInvernal ;
+        rdfs:label             "1942" ;
         dc:created             "2012-05-31"^^xsd:date ;
         dc:identifier          "1942" ;
         dc:title               "Estación de esquí de Lunada" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/1942/geometry> .
 
 georec:6667  a                 btn100:EstacionInvernal ;
+        rdfs:label             "6667" ;
         dc:created             "2012-12-05"^^xsd:date ;
         dc:identifier          "6667" ;
         dc:title               "Estación Invernal de Sierra Nevada" ;
@@ -171,6 +187,7 @@ georec:6667  a                 btn100:EstacionInvernal ;
         geosparql:asWKT  "POINT (-4.007418900000002 40.78777563904558)"^^geosparql:wktLiteral .
 
 georec:5779  a                 btn100:EstacionInvernal ;
+        rdfs:label             "5779" ;
         dc:created             "2010-07-24"^^xsd:date ;
         dc:identifier          "5779" ;
         dc:title               "Estación Invernal de Leitariegos" ;
@@ -185,6 +202,7 @@ georec:5779  a                 btn100:EstacionInvernal ;
         geosparql:asWKT  "POINT (0.5698290599999999 42.55937439993335)"^^geosparql:wktLiteral .
 
 georec:3641  a                 btn100:EstacionInvernal ;
+        rdfs:label             "3641" ;
         dc:created             "2012-05-17"^^xsd:date ;
         dc:identifier          "3641" ;
         dc:replaces            "23360" ;
@@ -200,6 +218,7 @@ georec:3641  a                 btn100:EstacionInvernal ;
         geosparql:asWKT  "POINT (1.28704963 42.41762848987906)"^^geosparql:wktLiteral .
 
 georec:5952  a                 btn100:EstacionInvernal ;
+        rdfs:label             "5952" ;
         dc:created             "2013-05-12"^^xsd:date ;
         dc:identifier          "5952" ;
         dc:title               "Estación Invernal de Leitariegos" ;
@@ -218,6 +237,7 @@ georec:5952  a                 btn100:EstacionInvernal ;
         geosparql:asWKT  "POINT (0.8706497300000002 42.478127509902606)"^^geosparql:wktLiteral .
 
 georec:2014  a                 btn100:EstacionInvernal ;
+        rdfs:label             "2014" ;
         dc:created             "2010-10-30"^^xsd:date ;
         dc:identifier          "2014" ;
         dc:replaces            "23979" ;
@@ -233,6 +253,7 @@ georec:2014  a                 btn100:EstacionInvernal ;
         geosparql:asWKT  "POINT (-2.9687945600000005 42.25473063981302)"^^geosparql:wktLiteral .
 
 georec:4159  a                 btn100:EstacionInvernal ;
+        rdfs:label             "4159" ;
         dc:created             "2012-04-02"^^xsd:date ;
         dc:identifier          "4159" ;
         dc:replaces            "30109" ;
@@ -244,6 +265,7 @@ georec:4159  a                 btn100:EstacionInvernal ;
         geosparql:asWKT  "POINT (-4.357310810000001 43.0342786300937)"^^geosparql:wktLiteral .
 
 georec:3632  a                 btn100:EstacionInvernal ;
+        rdfs:label             "3632" ;
         dc:created             "2012-05-17"^^xsd:date ;
         dc:identifier          "3632" ;
         dc:replaces            "23363" ;
@@ -255,6 +277,7 @@ georec:3632  a                 btn100:EstacionInvernal ;
         geosparql:asWKT  "POINT (1.2118584399999999 42.42833090988328)"^^geosparql:wktLiteral .
 
 georec:2320  a                 btn100:EstacionInvernal ;
+        rdfs:label             "2320" ;
         dc:created             "2006-07-14"^^xsd:date ;
         dc:identifier          "2320" ;
         dc:replaces            "20916" ;
@@ -266,6 +289,7 @@ georec:2320  a                 btn100:EstacionInvernal ;
         geosparql:asWKT  "POINT (-3.655149810000001 43.16521960013202)"^^geosparql:wktLiteral .
 
 georec:2305  a                 btn100:EstacionInvernal ;
+        rdfs:label             "2305" ;
         dc:created             "2012-02-24"^^xsd:date ;
         dc:identifier          "2305" ;
         dc:replaces            "20895" ;
@@ -273,6 +297,7 @@ georec:2305  a                 btn100:EstacionInvernal ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/2305/geometry> .
 
 georec:5777  a                 btn100:EstacionInvernal ;
+        rdfs:label             "5777" ;
         dc:created             "2006-07-27"^^xsd:date ;
         dc:identifier          "5777" ;
         dc:replaces            "60927" ;
@@ -280,6 +305,7 @@ georec:5777  a                 btn100:EstacionInvernal ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/5777/geometry> .
 
 georec:2013  a                 btn100:EstacionInvernal ;
+        rdfs:label             "2013" ;
         dc:created             "2012-04-26"^^xsd:date ;
         dc:identifier          "2013" ;
         dc:replaces            "23923" ;
@@ -291,6 +317,7 @@ georec:2013  a                 btn100:EstacionInvernal ;
         geosparql:asWKT  "POINT (-0.50651312 42.8101910200222)"^^geosparql:wktLiteral .
 
 georec:4851  a                 btn100:EstacionInvernal ;
+        rdfs:label             "4851" ;
         dc:created             "2006-07-26"^^xsd:date ;
         dc:identifier          "4851" ;
         dc:replaces            "48263" ;
@@ -310,6 +337,7 @@ georec:4851  a                 btn100:EstacionInvernal ;
         geosparql:asWKT  "POINT (2.1538582999999996 42.397496889871114)"^^geosparql:wktLiteral .
 
 georec:2018  a                 btn100:EstacionInvernal ;
+        rdfs:label             "2018" ;
         dc:created             "2012-04-26"^^xsd:date ;
         dc:identifier          "2018" ;
         dc:replaces            "24148" ;
@@ -321,6 +349,7 @@ georec:2018  a                 btn100:EstacionInvernal ;
         geosparql:asWKT  "POINT (-3.4737009799999994 41.191966439287654)"^^geosparql:wktLiteral .
 
 georec:3629  a                 btn100:EstacionInvernal ;
+        rdfs:label             "3629" ;
         dc:created             "2012-05-17"^^xsd:date ;
         dc:identifier          "3629" ;
         dc:replaces            "23364" ;
@@ -328,6 +357,7 @@ georec:3629  a                 btn100:EstacionInvernal ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/3629/geometry> .
 
 georec:2304  a                 btn100:EstacionInvernal ;
+        rdfs:label             "2304" ;
         dc:created             "2012-02-24"^^xsd:date ;
         dc:identifier          "2304" ;
         dc:replaces            "20892" ;
@@ -339,6 +369,7 @@ georec:2304  a                 btn100:EstacionInvernal ;
         geosparql:asWKT  "POINT (-3.40023892 37.09493893583145)"^^geosparql:wktLiteral .
 
 georec:2012  a                 btn100:EstacionInvernal ;
+        rdfs:label             "2012" ;
         dc:created             "2012-04-26"^^xsd:date ;
         dc:identifier          "2012" ;
         dc:replaces            "24081" ;
@@ -346,6 +377,7 @@ georec:2012  a                 btn100:EstacionInvernal ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/2012/geometry> .
 
 georec:4549  a                 btn100:EstacionInvernal ;
+        rdfs:label             "4549" ;
         dc:created             "2010-07-04"^^xsd:date ;
         dc:identifier          "4549" ;
         dc:replaces            "48323" ;
@@ -361,6 +393,7 @@ georec:4549  a                 btn100:EstacionInvernal ;
         geosparql:asWKT  "POINT (0.9343395300000003 42.699309249984076)"^^geosparql:wktLiteral .
 
 georec:3843  a                 btn100:EstacionInvernal ;
+        rdfs:label             "3843" ;
         dc:created             "2012-05-17"^^xsd:date ;
         dc:identifier          "3843" ;
         dc:replaces            "23360" ;
@@ -372,6 +405,7 @@ georec:3843  a                 btn100:EstacionInvernal ;
         geosparql:asWKT  "POINT (-0.2766812599999999 42.712267559988625)"^^geosparql:wktLiteral .
 
 georec:2311  a                 btn100:EstacionInvernal ;
+        rdfs:label             "2311" ;
         dc:created             "2012-02-24"^^xsd:date ;
         dc:identifier          "2311" ;
         dc:replaces            "21782" ;
@@ -379,6 +413,7 @@ georec:2311  a                 btn100:EstacionInvernal ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/2311/geometry> .
 
 georec:9754  a                 btn100:EstacionInvernal ;
+        rdfs:label             "9754" ;
         dc:created             "2006-07-27"^^xsd:date ;
         dc:identifier          "9754" ;
         dc:replaces            "53320" ;
@@ -394,6 +429,7 @@ georec:9754  a                 btn100:EstacionInvernal ;
         geosparql:asWKT  "POINT (-0.38412112 42.762462050006015)"^^geosparql:wktLiteral .
 
 georec:5947  a                 btn100:EstacionInvernal ;
+        rdfs:label             "5947" ;
         dc:created             "2012-09-29"^^xsd:date ;
         dc:identifier          "5947" ;
         dc:title               "Estación invernal de San Isidro" ;
@@ -404,6 +440,7 @@ georec:5947  a                 btn100:EstacionInvernal ;
         geosparql:asWKT  "POINT (-1.0178941200000002 40.115305938592456)"^^geosparql:wktLiteral .
 
 georec:3630  a                 btn100:EstacionInvernal ;
+        rdfs:label             "3630" ;
         dc:created             "2012-05-17"^^xsd:date ;
         dc:identifier          "3630" ;
         dc:replaces            "23362" ;
@@ -411,6 +448,7 @@ georec:3630  a                 btn100:EstacionInvernal ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/3630/geometry> .
 
 georec:2017  a                 btn100:EstacionInvernal ;
+        rdfs:label             "2017" ;
         dc:created             "2012-04-26"^^xsd:date ;
         dc:identifier          "2017" ;
         dc:replaces            "24127" ;

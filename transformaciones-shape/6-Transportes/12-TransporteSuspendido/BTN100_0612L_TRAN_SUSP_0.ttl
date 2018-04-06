@@ -11,6 +11,7 @@
 @prefix dc:    <http://purl.org/dc/terms/> .
 
 georec:2  a                    btn100:Teleferico ;
+        rdfs:label             "2" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "2" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/teleferico/2/geometry> .

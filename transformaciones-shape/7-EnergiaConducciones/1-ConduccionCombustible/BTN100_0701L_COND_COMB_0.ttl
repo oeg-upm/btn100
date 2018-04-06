@@ -11,6 +11,7 @@
 @prefix dc:    <http://purl.org/dc/terms/> .
 
 georec:3  a                    btn100:ConduccionDeCombustible ;
+        rdfs:label             "3" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "3" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/conduccion-combustible/3/geometry> ;
@@ -41,12 +42,14 @@ georec:3  a                    btn100:ConduccionDeCombustible ;
         geosparql:asWKT  "LINESTRING (-5.8990675800000005 43.55683323023139, -5.89776904 43.556454480231324, -5.89514824 43.55569000023114, -5.8950339499999975 43.555656730231135, -5.894912639999999 43.55567108023113, -5.89479104 43.555683710231136, -5.89466903 43.55569462023115, -5.894546740000002 43.55570381023113, -5.894509109999999 43.55570603023112, -5.89442429 43.55571119023115, -5.894301560000002 43.55571695023116, -5.894178799999998 43.555720900231144, -5.894055869999999 43.55572314023113, -5.893932920000001 43.55572358023117, -5.89381005 43.55572240023114, -5.893687139999999 43.55571942023116, -5.891834019999999 43.555601120231124, -5.890803569999999 43.55553535023113, -5.88506631 43.55515988023103, -5.881712990000002 43.55493018023098, -5.878700500000002 43.55469087023092, -5.874188700000001 43.55429684023083, -5.874045370000001 43.554341890230845, -5.8738956500000015 43.55435481023084, -5.873746880000001 43.55437325023084, -5.8735995700000005 43.55439704023085, -5.8734541 43.55442601023085, -5.8733108199999995 43.55446035023086, -5.873170009999998 43.55449971023088, -5.873032029999998 43.55454410023088, -5.8728972599999985 43.55459354023089, -5.872766079999999 43.554647660230906, -5.872638749999999 43.554706470230926, -5.8725154999999996 43.55476991023094, -5.872030530000001 43.555101100231006, -5.871932190000001 43.55509237023101, -5.871780730000002 43.555079040231)"^^geosparql:wktLiteral .
 
 georec:85  a                   btn100:ConduccionDeCombustible ;
+        rdfs:label             "85" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "85" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/conduccion-combustible/85/geometry> ;
         btn100:situacionDeVia  <https://datos.ign.es/kos/transportes/situacion-via/superficial> .
 
 georec:101  a                  btn100:ConduccionDeCombustible ;
+        rdfs:label             "101" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "101" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/conduccion-combustible/101/geometry> ;
@@ -57,6 +60,7 @@ georec:101  a                  btn100:ConduccionDeCombustible ;
         geosparql:asWKT  "LINESTRING (-5.85162024 43.53023758022538, -5.85113517 43.53026707022537)"^^geosparql:wktLiteral .
 
 georec:98  a                   btn100:ConduccionDeCombustible ;
+        rdfs:label             "98" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "98" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/conduccion-combustible/98/geometry> ;
@@ -71,24 +75,28 @@ georec:98  a                   btn100:ConduccionDeCombustible ;
         geosparql:asWKT  "LINESTRING (-5.830135080000001 43.54119403022787, -5.831503970000003 43.54188337022802, -5.831588150000001 43.541788460228, -5.832740690000003 43.54234017022815, -5.833006480000002 43.54207445022807, -5.83303604 43.54204491022807)"^^geosparql:wktLiteral .
 
 georec:8  a                    btn100:ConduccionDeCombustible ;
+        rdfs:label             "8" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "8" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/conduccion-combustible/8/geometry> ;
         btn100:situacionDeVia  <https://datos.ign.es/kos/transportes/situacion-via/subterranea> .
 
 georec:10  a                   btn100:ConduccionDeCombustible ;
+        rdfs:label             "10" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "10" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/conduccion-combustible/10/geometry> ;
         btn100:situacionDeVia  <https://datos.ign.es/kos/transportes/situacion-via/subterranea> .
 
 georec:92  a                   btn100:ConduccionDeCombustible ;
+        rdfs:label             "92" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "92" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/conduccion-combustible/92/geometry> ;
         btn100:situacionDeVia  <https://datos.ign.es/kos/transportes/situacion-via/superficial> .
 
 georec:2  a                    btn100:ConduccionDeCombustible ;
+        rdfs:label             "2" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "2" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/conduccion-combustible/2/geometry> ;
@@ -103,12 +111,14 @@ georec:2  a                    btn100:ConduccionDeCombustible ;
         geosparql:asWKT  "LINESTRING (-5.86313785 43.55263740023045, -5.863126890000002 43.55259101023044, -5.863086970000001 43.552422710230395, -5.8630849399999985 43.5524142902304, -5.862605619999999 43.552371320230414, -5.86226159 43.552340530230396, -5.861458779999999 43.55220035023036, -5.861156259999999 43.55214747023036, -5.860219240000002 43.55198396023032, -5.8601313600000005 43.552086250230325, -5.860071670000001 43.55215565023033, -5.85998524 43.55258490023045, -5.85986229 43.55339769023061, -5.85987644 43.55371356023069, -5.85970474 43.55404710023077, -5.859694819999999 43.554066360230756, -5.859665669999999 43.5541365102308, -5.859392070000002 43.55479416023094, -5.8592955799999995 43.55502614023097, -5.8592685499999995 43.555091120231005, -5.859265859999999 43.555097620231, -5.859224139999999 43.555197670231024, -5.85916372 43.55534304023105, -5.859142359999999 43.55539431023108, -5.859105300000001 43.555483330231105, -5.8590715200000005 43.55558540023112)"^^geosparql:wktLiteral .
 
 georec:84  a                   btn100:ConduccionDeCombustible ;
+        rdfs:label             "84" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "84" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/conduccion-combustible/84/geometry> ;
         btn100:situacionDeVia  <https://datos.ign.es/kos/transportes/situacion-via/superficial> .
 
 georec:100  a                  btn100:ConduccionDeCombustible ;
+        rdfs:label             "100" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "100" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/conduccion-combustible/100/geometry> ;
@@ -123,6 +133,7 @@ georec:100  a                  btn100:ConduccionDeCombustible ;
         geosparql:asWKT  "LINESTRING (-2.97297815 43.266946000160026, -2.9752843800000015 43.26680115016, -2.9770935 43.26650633015993, -2.98037816 43.26535182015962)"^^geosparql:wktLiteral .
 
 georec:97  a                   btn100:ConduccionDeCombustible ;
+        rdfs:label             "97" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "97" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/conduccion-combustible/97/geometry> ;
@@ -141,6 +152,7 @@ georec:97  a                   btn100:ConduccionDeCombustible ;
         geosparql:asWKT  "LINESTRING (-0.67205538 41.483784709448074, -0.6720165100000001 41.483823189448096, -0.6717493000000001 41.48408742944825, -0.67142013 41.48441291944841, -0.67042005 41.485207919448825, -0.66993833 41.48558885944903, -0.6695417300000001 41.48600700944926, -0.6690488000000001 41.48712758944985, -0.66901438 41.48720578944989, -0.6687141199999997 41.48772594945015, -0.66838604 41.48829399945047, -0.66833257 41.48840206945053, -0.66824257 41.48858370945063, -0.66812145 41.48882793945075, -0.66786103 41.48936925945104, -0.66710388 41.490460879451604, -0.6666707099999997 41.49097913945188, -0.66653974 41.491233799452004, -0.66658371 41.49163393945223, -0.6666160899999998 41.49192982945238, -0.6666344000000001 41.492097179452465, -0.6667193999999999 41.49259218945276, -0.6668819800000001 41.49380586945338, -0.6670120199999999 41.49477813945387, -0.6670351599999997 41.49495116945397, -0.6670572999999999 41.49523865945413, -0.6663257599999999 41.496895679454994, -0.6657770400000002 41.49812102945565, -0.6655717100000003 41.4986112194559)"^^geosparql:wktLiteral .
 
 georec:7  a                    btn100:ConduccionDeCombustible ;
+        rdfs:label             "7" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "7" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/conduccion-combustible/7/geometry> ;
@@ -159,12 +171,14 @@ georec:7  a                    btn100:ConduccionDeCombustible ;
         geosparql:asWKT  "LINESTRING (-5.894569649999998 43.55983370023207, -5.891154430000001 43.558960730231874, -5.8897591700000005 43.55860420023179, -5.882685109999999 43.55802852023165, -5.88092045 43.55779280023158, -5.878466019999999 43.55729295023149, -5.87627861 43.55674624023137, -5.875661029999998 43.55657521023133, -5.872769650000001 43.55632447023126, -5.872729920000001 43.55618806023125, -5.87213529 43.55614306023124, -5.87108784 43.55606386023122, -5.87053859 43.556022340231216, -5.87051423 43.55596675023119, -5.870467509999998 43.55586013023117, -5.87041889 43.55574968023117, -5.87038567 43.555674040231125, -5.870512260000002 43.55499396023099)"^^geosparql:wktLiteral .
 
 georec:91  a                   btn100:ConduccionDeCombustible ;
+        rdfs:label             "91" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "91" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/conduccion-combustible/91/geometry> ;
         btn100:situacionDeVia  <https://datos.ign.es/kos/transportes/situacion-via/superficial> .
 
 georec:76  a                   btn100:ConduccionDeCombustible ;
+        rdfs:label             "76" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "76" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/conduccion-combustible/76/geometry> ;
@@ -179,18 +193,21 @@ georec:76  a                   btn100:ConduccionDeCombustible ;
         geosparql:asWKT  "LINESTRING (-5.7309749399999985 43.5255642002243, -5.73101124 43.525537850224296, -5.73114927 43.525437760224285, -5.73146801 43.525670360224325, -5.7315755 43.525748910224344, -5.731873130000001 43.5259662602244, -5.73376334 43.524582730224076, -5.73404912 43.524373490224036, -5.735451529999998 43.523346900223785, -5.737059999999999 43.522169320223526, -5.738007820000001 43.52147548022338, -5.73787108 43.52137665022333, -5.73664254 43.520489960223145, -5.73607975 43.520083600223046, -5.735012030000001 43.519312780222876, -5.73499489 43.51930050022286, -5.734719529999999 43.51910181022283, -5.734954720000001 43.51892907022277, -5.736273980000001 43.51796010022257, -5.73636798 43.517891050222545, -5.73981735 43.515357390221965, -5.7396473 43.515224880221936, -5.73963487 43.51521528022194)"^^geosparql:wktLiteral .
 
 georec:89  a                   btn100:ConduccionDeCombustible ;
+        rdfs:label             "89" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "89" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/conduccion-combustible/89/geometry> ;
         btn100:situacionDeVia  <https://datos.ign.es/kos/transportes/situacion-via/superficial> .
 
 georec:105  a                  btn100:ConduccionDeCombustible ;
+        rdfs:label             "105" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "105" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/conduccion-combustible/105/geometry> ;
         btn100:situacionDeVia  <https://datos.ign.es/kos/transportes/situacion-via/superficial> .
 
 georec:14  a                   btn100:ConduccionDeCombustible ;
+        rdfs:label             "14" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "14" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/conduccion-combustible/14/geometry> ;
@@ -201,6 +218,7 @@ georec:14  a                   btn100:ConduccionDeCombustible ;
         geosparql:asWKT  "LINESTRING (-5.852842750000001 43.528962760225106, -5.8527873700000015 43.528205850224914, -5.8531109699999995 43.5281930002249, -5.853089960000001 43.52779223022481, -5.853057490000001 43.527172150224665, -5.8530415 43.526867140224596)"^^geosparql:wktLiteral .
 
 georec:83  a                   btn100:ConduccionDeCombustible ;
+        rdfs:label             "83" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "83" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/conduccion-combustible/83/geometry> ;
@@ -215,6 +233,7 @@ georec:83  a                   btn100:ConduccionDeCombustible ;
         geosparql:asWKT  "LINESTRING (2.77101605 41.67532197954676, 2.7719621099999996 41.675737199546965, 2.7720143700000004 41.67566911954694, 2.77266209 41.674767349546485, 2.772750549999999 41.674754009546476, 2.7727716 41.67471198954645, 2.77277475 41.67470595954646, 2.7728231400000003 41.67464345954641, 2.7728646600000006 41.674590129546395, 2.7729219799999996 41.67451637954635, 2.773324370000001 41.674331719546274, 2.7741146799999994 41.673935609546064, 2.774620450000001 41.673421219545816)"^^geosparql:wktLiteral .
 
 georec:96  a                   btn100:ConduccionDeCombustible ;
+        rdfs:label             "96" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "96" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/conduccion-combustible/96/geometry> ;
@@ -225,12 +244,14 @@ georec:96  a                   btn100:ConduccionDeCombustible ;
         geosparql:asWKT  "LINESTRING (-5.7315755 43.525748910224344, -5.73024719 43.52671200022458, -5.72909938 43.5259690702244, -5.72909327 43.525965170224396, -5.72880775 43.525955960224394, -5.728547279999998 43.52594768022437)"^^geosparql:wktLiteral .
 
 georec:6  a                    btn100:ConduccionDeCombustible ;
+        rdfs:label             "6" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "6" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/conduccion-combustible/6/geometry> ;
         btn100:situacionDeVia  <https://datos.ign.es/kos/transportes/situacion-via/subterranea> .
 
 georec:90  a                   btn100:ConduccionDeCombustible ;
+        rdfs:label             "90" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "90" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/conduccion-combustible/90/geometry> ;
@@ -241,6 +262,7 @@ georec:90  a                   btn100:ConduccionDeCombustible ;
         geosparql:asWKT  "LINESTRING (-5.862162400000002 43.552272080230374, -5.863369179999999 43.5523638402304, -5.863393079999999 43.552449490230416, -5.863414690000001 43.55252697023044, -5.8649032299999995 43.55264257023045, -5.865579619999997 43.55269039023048, -5.865857440000001 43.55268271023045, -5.866521620000001 43.55266285023046, -5.869037540000001 43.552892740230504, -5.870496840000001 43.55302610023054, -5.870598670000001 43.553117840230556, -5.871413779999999 43.55385298023074, -5.8713068900000005 43.55438720023084, -5.871190720000001 43.55504550023102)"^^geosparql:wktLiteral .
 
 georec:75  a                   btn100:ConduccionDeCombustible ;
+        rdfs:label             "75" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "75" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/conduccion-combustible/75/geometry> ;
@@ -255,6 +277,7 @@ georec:75  a                   btn100:ConduccionDeCombustible ;
         geosparql:asWKT  "LINESTRING (-5.818099850000002 43.422810790199954, -5.81287649 43.42272899019994)"^^geosparql:wktLiteral .
 
 georec:19  a                   btn100:ConduccionDeCombustible ;
+        rdfs:label             "19" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "19" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/conduccion-combustible/19/geometry> ;
@@ -265,12 +288,14 @@ georec:19  a                   btn100:ConduccionDeCombustible ;
         geosparql:asWKT  "LINESTRING (-5.821286280000001 43.46659037021053, -5.822028 43.46372056020987, -5.824484109999998 43.46063111020911, -5.82608767 43.46088101020917)"^^geosparql:wktLiteral .
 
 georec:88  a                   btn100:ConduccionDeCombustible ;
+        rdfs:label             "88" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "88" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/conduccion-combustible/88/geometry> ;
         btn100:situacionDeVia  <https://datos.ign.es/kos/transportes/situacion-via/superficial> .
 
 georec:104  a                  btn100:ConduccionDeCombustible ;
+        rdfs:label             "104" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "104" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/conduccion-combustible/104/geometry> ;
@@ -285,6 +310,7 @@ georec:104  a                  btn100:ConduccionDeCombustible ;
         geosparql:asWKT  "LINESTRING (-5.736273980000001 43.51796010022257, -5.735146440000001 43.51717344022237)"^^geosparql:wktLiteral .
 
 georec:13  a                   btn100:ConduccionDeCombustible ;
+        rdfs:label             "13" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "13" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/conduccion-combustible/13/geometry> ;
@@ -295,18 +321,21 @@ georec:13  a                   btn100:ConduccionDeCombustible ;
         geosparql:asWKT  "LINESTRING (-5.832173310000001 43.53994127022759, -5.831940659999999 43.54018779022764, -5.831874110000001 43.54019899022765, -5.831419290000002 43.53995384022759, -5.830854689999999 43.54013160022762, -5.83037086 43.54066265022774, -5.8298086200000006 43.54127964022788, -5.82970043 43.54139838022791, -5.82961697 43.54149003022793, -5.83137234 43.54239471022815, -5.831822630000001 43.54254553022819, -5.83397757 43.543621060228425, -5.834611229999999 43.543849150228446, -5.83532175 43.54392408022847, -5.838210549999999 43.54350741022839, -5.838832949999998 43.54349807022841, -5.839348670000001 43.5435653902284, -5.840807029999998 43.5440297302285, -5.84207328 43.544433020228595, -5.842973139999998 43.54484623022869, -5.843930419999999 43.54547183022882, -5.84408448 43.54553156022884, -5.84471477 43.545776250228904, -5.8448841400000004 43.54601900022895, -5.84624925 43.54707948022921, -5.847022350000001 43.54743864022927, -5.847546399999998 43.54768200022934, -5.84844963 43.54810174022942, -5.84905024 43.548298890229475, -5.84981168 43.54854892022955, -5.85212311 43.54890288022963, -5.852334210000001 43.549152860229675, -5.85258006 43.54944421022974, -5.8536475400000025 43.55070902023004, -5.853649369999999 43.55071123023003, -5.853580400000001 43.550957130230074, -5.85349394 43.55126541023014, -5.853481210000002 43.55131048023016, -5.8534621399999995 43.55137848023016, -5.853450600000002 43.551419740230195, -5.853348439999998 43.55178351023024, -5.853360689999999 43.55214524023035, -5.8535226899999975 43.55261866023045, -5.853655549999998 43.55300736023054, -5.8537757799999985 43.5533591902306, -5.853862650000002 43.55336620023063, -5.854166650000002 43.55339074023062, -5.85430805 43.55340223023062, -5.854333199999999 43.55340427023063, -5.854402220000001 43.55340995023063, -5.854467979999999 43.553504590230666, -5.8546995299999995 43.553567870230665, -5.854741069999999 43.55365680023068, -5.855135879999999 43.55363967023066, -5.855219660000001 43.553787560230695, -5.855325260000001 43.55389689023073, -5.855514129999999 43.55401661023076, -5.85584672 43.5541435402308, -5.855965330000001 43.554167150230796, -5.85769461 43.55431261023084, -5.857750229999997 43.55387630023073, -5.85970474 43.55404710023077, -5.860543219999999 43.55412048023078, -5.860638619999999 43.5541381302308, -5.86376617 43.55441736023085, -5.865552219999998 43.55456903023088, -5.86999375 43.55494950023098, -5.870512260000002 43.55499396023099, -5.871166339999999 43.555050060231, -5.871190720000001 43.55504550023102, -5.87125671 43.55503336023099, -5.871780730000002 43.555079040231, -5.87181246 43.55517400023102, -5.8718511499999995 43.55528994023104, -5.871880279999999 43.55537762023107, -5.8720482800000005 43.55588192023118, -5.87213529 43.55614306023124)"^^geosparql:wktLiteral .
 
 georec:82  a                   btn100:ConduccionDeCombustible ;
+        rdfs:label             "82" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "82" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/conduccion-combustible/82/geometry> ;
         btn100:situacionDeVia  <https://datos.ign.es/kos/transportes/situacion-via/superficial> .
 
 georec:95  a                   btn100:ConduccionDeCombustible ;
+        rdfs:label             "95" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "95" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/conduccion-combustible/95/geometry> ;
         btn100:situacionDeVia  <https://datos.ign.es/kos/transportes/situacion-via/superficial> .
 
 georec:5  a                    btn100:ConduccionDeCombustible ;
+        rdfs:label             "5" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "5" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/conduccion-combustible/5/geometry> ;
@@ -325,30 +354,35 @@ georec:5  a                    btn100:ConduccionDeCombustible ;
         geosparql:asWKT  "LINESTRING (-5.853089960000001 43.52779223022481, -5.853862880000001 43.52776644022481, -5.8538092 43.52709296022465)"^^geosparql:wktLiteral .
 
 georec:74  a                   btn100:ConduccionDeCombustible ;
+        rdfs:label             "74" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "74" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/conduccion-combustible/74/geometry> ;
         btn100:situacionDeVia  <https://datos.ign.es/kos/transportes/situacion-via/elevada> .
 
 georec:18  a                   btn100:ConduccionDeCombustible ;
+        rdfs:label             "18" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "18" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/conduccion-combustible/18/geometry> ;
         btn100:situacionDeVia  <https://datos.ign.es/kos/transportes/situacion-via/subterranea> .
 
 georec:87  a                   btn100:ConduccionDeCombustible ;
+        rdfs:label             "87" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "87" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/conduccion-combustible/87/geometry> ;
         btn100:situacionDeVia  <https://datos.ign.es/kos/transportes/situacion-via/superficial> .
 
 georec:103  a                  btn100:ConduccionDeCombustible ;
+        rdfs:label             "103" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "103" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/conduccion-combustible/103/geometry> ;
         btn100:situacionDeVia  <https://datos.ign.es/kos/transportes/situacion-via/superficial> .
 
 georec:12  a                   btn100:ConduccionDeCombustible ;
+        rdfs:label             "12" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "12" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/conduccion-combustible/12/geometry> ;
@@ -363,6 +397,7 @@ georec:12  a                   btn100:ConduccionDeCombustible ;
         geosparql:asWKT  "LINESTRING (-2.971593759999999 43.26703293016008, -2.972471650000001 43.266977810160036)"^^geosparql:wktLiteral .
 
 georec:81  a                   btn100:ConduccionDeCombustible ;
+        rdfs:label             "81" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "81" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/conduccion-combustible/81/geometry> ;
@@ -377,6 +412,7 @@ georec:81  a                   btn100:ConduccionDeCombustible ;
         geosparql:asWKT  "LINESTRING (-3.9525331000000015 39.01801138772231, -3.9479891899999986 39.013956407718794, -3.947921269999999 39.01389577771873, -3.947887840000001 39.01386594771871, -3.94777959 39.01376932771864, -3.94604735 39.01222322771731, -3.943825669999999 39.01024023771558, -3.9435370499999993 39.00998259771536, -3.943470209999999 39.009922927715294)"^^geosparql:wktLiteral .
 
 georec:94  a                   btn100:ConduccionDeCombustible ;
+        rdfs:label             "94" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "94" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/conduccion-combustible/94/geometry> ;
@@ -395,12 +431,14 @@ georec:94  a                   btn100:ConduccionDeCombustible ;
         geosparql:asWKT  "LINESTRING (-5.85163307 43.53085095022552, -5.85162024 43.53023758022538, -5.85161425 43.52995322022531, -5.851784169999999 43.52994825022533, -5.852780470000001 43.52991951022533, -5.8528858800000005 43.529916510225306, -5.852846320000001 43.52904109022511, -5.852842750000001 43.528962760225106, -5.854166650000002 43.528913700225075, -5.854301569999999 43.528908770225065, -5.8550388799999995 43.52889126022508, -5.856409290000001 43.52885876022507, -5.857182020000001 43.528840590225045, -5.857331310000001 43.528837130225064, -5.85735201 43.52883653022507, -5.863797329999999 43.52866885022502, -5.864828760000001 43.52864197022501, -5.86483197 43.52876379022505, -5.864859820000001 43.5298664002253, -5.864980639999999 43.529863060225296, -5.86505945 43.52986099022528)"^^geosparql:wktLiteral .
 
 georec:4  a                    btn100:ConduccionDeCombustible ;
+        rdfs:label             "4" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "4" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/conduccion-combustible/4/geometry> ;
         btn100:situacionDeVia  <https://datos.ign.es/kos/transportes/situacion-via/subterranea> .
 
 georec:79  a                   btn100:ConduccionDeCombustible ;
+        rdfs:label             "79" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "79" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/conduccion-combustible/79/geometry> ;
@@ -419,30 +457,35 @@ georec:79  a                   btn100:ConduccionDeCombustible ;
         geosparql:asWKT  "LINESTRING (-5.906749639999999 43.559471660231985, -5.90686913 43.560392540232186, -5.905071620000001 43.56049033023222, -5.9050590900000035 43.560367540232185, -5.90431741 43.56040750023221, -5.904231309999998 43.559560730232, -5.904219030000001 43.559440470231976, -5.90421323 43.55938440023196, -5.903370679999999 43.55943620023197, -5.900808459999999 43.55959386023204, -5.900723509999999 43.55953645023201, -5.90053511 43.55824240023169, -5.900467149999999 43.55777670023161, -5.90006581 43.55779047023161, -5.89999291 43.55721362023149, -5.899980200000001 43.557113790231455, -5.8993364 43.557030140231426, -5.899304850000001 43.556826970231384, -5.899177450000001 43.55600969023119, -5.900160400000002 43.55596173023121, -5.900228499999999 43.55637171023128)"^^geosparql:wktLiteral .
 
 georec:17  a                   btn100:ConduccionDeCombustible ;
+        rdfs:label             "17" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "17" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/conduccion-combustible/17/geometry> ;
         btn100:situacionDeVia  <https://datos.ign.es/kos/transportes/situacion-via/subterranea> .
 
 georec:86  a                   btn100:ConduccionDeCombustible ;
+        rdfs:label             "86" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "86" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/conduccion-combustible/86/geometry> ;
         btn100:situacionDeVia  <https://datos.ign.es/kos/transportes/situacion-via/superficial> .
 
 georec:102  a                  btn100:ConduccionDeCombustible ;
+        rdfs:label             "102" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "102" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/conduccion-combustible/102/geometry> ;
         btn100:situacionDeVia  <https://datos.ign.es/kos/transportes/situacion-via/superficial> .
 
 georec:99  a                   btn100:ConduccionDeCombustible ;
+        rdfs:label             "99" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "99" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/conduccion-combustible/99/geometry> ;
         btn100:situacionDeVia  <https://datos.ign.es/kos/transportes/situacion-via/superficial> .
 
 georec:9  a                    btn100:ConduccionDeCombustible ;
+        rdfs:label             "9" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "9" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/conduccion-combustible/9/geometry> ;
@@ -453,18 +496,21 @@ georec:9  a                    btn100:ConduccionDeCombustible ;
         geosparql:asWKT  "LINESTRING (-5.727649339999998 43.526656470224566, -5.72771345 43.52547131022426, -5.727237959999999 43.525469430224284, -5.727164160000002 43.52638497022449)"^^geosparql:wktLiteral .
 
 georec:11  a                   btn100:ConduccionDeCombustible ;
+        rdfs:label             "11" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "11" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/conduccion-combustible/11/geometry> ;
         btn100:situacionDeVia  <https://datos.ign.es/kos/transportes/situacion-via/subterranea> .
 
 georec:80  a                   btn100:ConduccionDeCombustible ;
+        rdfs:label             "80" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "80" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/conduccion-combustible/80/geometry> ;
         btn100:situacionDeVia  <https://datos.ign.es/kos/transportes/situacion-via/superficial> .
 
 georec:93  a                   btn100:ConduccionDeCombustible ;
+        rdfs:label             "93" ;
         dc:created             "2013-07-01"^^xsd:date ;
         dc:identifier          "93" ;
         geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/conduccion-combustible/93/geometry> ;

@@ -11,6 +11,7 @@
 @prefix dc:    <http://purl.org/dc/terms/> .
 
 georec:267  a                  btn100:Aerodromo ;
+        rdfs:label             "267" ;
         dc:created             "2012-12-27"^^xsd:date ;
         dc:identifier          "267" ;
         dc:replaces            "0.0" ;
@@ -30,6 +31,7 @@ georec:267  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-3.64033995 38.132600316385364)"^^geosparql:wktLiteral .
 
 georec:448  a                  btn100:Aerodromo ;
+        rdfs:label             "448" ;
         dc:created             "2013-01-04"^^xsd:date ;
         dc:identifier          "448" ;
         dc:replaces            "0.0" ;
@@ -41,6 +43,7 @@ georec:448  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:322  a                  btn100:Aerodromo ;
+        rdfs:label             "322" ;
         dc:created             "2013-04-11"^^xsd:date ;
         dc:identifier          "322" ;
         dc:replaces            "0.0" ;
@@ -52,6 +55,7 @@ georec:322  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:629  a                  btn100:Aerodromo ;
+        rdfs:label             "629" ;
         dc:created             "2012-07-18"^^xsd:date ;
         dc:identifier          "629" ;
         dc:replaces            "0.0" ;
@@ -67,6 +71,7 @@ georec:629  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (2.1008351999999997 41.58217777896623)"^^geosparql:wktLiteral .
 
 georec:503  a                  btn100:Aerodromo ;
+        rdfs:label             "503" ;
         dc:created             "2013-05-04"^^xsd:date ;
         dc:identifier          "503" ;
         dc:replaces            "0.0" ;
@@ -78,6 +83,7 @@ georec:503  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:418  a                  btn100:Aerodromo ;
+        rdfs:label             "418" ;
         dc:created             "2013-04-07"^^xsd:date ;
         dc:identifier          "418" ;
         dc:replaces            "0.0" ;
@@ -89,6 +95,7 @@ georec:418  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:207  a                  btn100:Aerodromo ;
+        rdfs:label             "207" ;
         dc:created             "2012-06-20"^^xsd:date ;
         dc:identifier          "207" ;
         dc:replaces            "0.0" ;
@@ -108,6 +115,7 @@ georec:207  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-2.48896461 42.4006218693376)"^^geosparql:wktLiteral .
 
 georec:279  a                  btn100:Aerodromo ;
+        rdfs:label             "279" ;
         dc:created             "2012-05-08"^^xsd:date ;
         dc:identifier          "279" ;
         dc:replaces            "0.0" ;
@@ -119,6 +127,7 @@ georec:279  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:630  a                  btn100:Aerodromo ;
+        rdfs:label             "630" ;
         dc:created             "2012-07-18"^^xsd:date ;
         dc:identifier          "630" ;
         dc:replaces            "0.0" ;
@@ -134,6 +143,7 @@ georec:630  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-4.5177505700000005 40.8951673985806)"^^geosparql:wktLiteral .
 
 georec:153  a                  btn100:Aerodromo ;
+        rdfs:label             "153" ;
         dc:created             "2012-10-18"^^xsd:date ;
         dc:identifier          "153" ;
         dc:replaces            "0.0" ;
@@ -153,6 +163,7 @@ georec:153  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-7.088155880000001 43.552577339694224)"^^geosparql:wktLiteral .
 
 georec:249  a                  btn100:Aerodromo ;
+        rdfs:label             "249" ;
         dc:created             "2012-08-14"^^xsd:date ;
         dc:identifier          "249" ;
         dc:replaces            "0.0" ;
@@ -184,6 +195,7 @@ georec:249  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-3.9919512800000008 40.50000826832884)"^^geosparql:wktLiteral .
 
 georec:195  a                  btn100:Aerodromo ;
+        rdfs:label             "195" ;
         dc:created             "2012-03-30"^^xsd:date ;
         dc:identifier          "195" ;
         dc:replaces            "0.0" ;
@@ -195,6 +207,7 @@ georec:195  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:587  a                  btn100:Aerodromo ;
+        rdfs:label             "587" ;
         dc:created             "2013-06-04"^^xsd:date ;
         dc:identifier          "587" ;
         dc:replaces            "0.0" ;
@@ -206,6 +219,7 @@ georec:587  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:83  a                   btn100:Aerodromo ;
+        rdfs:label             "83" ;
         dc:created             "2013-02-04"^^xsd:date ;
         dc:identifier          "83" ;
         dc:replaces            "0.0" ;
@@ -217,6 +231,7 @@ georec:83  a                   btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:461  a                  btn100:Aerodromo ;
+        rdfs:label             "461" ;
         dc:created             "2013-02-20"^^xsd:date ;
         dc:identifier          "461" ;
         dc:replaces            "6085.0" ;
@@ -241,6 +256,7 @@ georec:461  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-6.158557107343753 37.29543562902158)"^^geosparql:wktLiteral .
 
 georec:220  a                  btn100:Aerodromo ;
+        rdfs:label             "220" ;
         dc:created             "2012-02-04"^^xsd:date ;
         dc:identifier          "220" ;
         dc:replaces            "0.0" ;
@@ -261,6 +277,7 @@ georec:220  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-4.562353450000001 37.099710465319696)"^^geosparql:wktLiteral .
 
 georec:135  a                  btn100:Aerodromo ;
+        rdfs:label             "135" ;
         dc:created             "2012-02-24"^^xsd:date ;
         dc:identifier          "135" ;
         dc:replaces            "0.0" ;
@@ -273,6 +290,7 @@ georec:135  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:23  a                   btn100:Aerodromo ;
+        rdfs:label             "23" ;
         dc:created             "2011-12-27"^^xsd:date ;
         dc:identifier          "23" ;
         dc:replaces            "0.0" ;
@@ -284,6 +302,7 @@ georec:23  a                   btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:388  a                  btn100:Aerodromo ;
+        rdfs:label             "388" ;
         dc:created             "2013-01-17"^^xsd:date ;
         dc:identifier          "388" ;
         dc:replaces            "0.0" ;
@@ -296,6 +315,7 @@ georec:388  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:262  a                  btn100:Aerodromo ;
+        rdfs:label             "262" ;
         dc:created             "2013-02-05"^^xsd:date ;
         dc:identifier          "262" ;
         dc:replaces            "0.0" ;
@@ -323,6 +343,7 @@ georec:262  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-8.340271570000002 42.462409869361665)"^^geosparql:wktLiteral .
 
 georec:6  a                    btn100:Aerodromo ;
+        rdfs:label             "6" ;
         dc:created             "2012-04-21"^^xsd:date ;
         dc:identifier          "6" ;
         dc:replaces            "0.0" ;
@@ -334,6 +355,7 @@ georec:6  a                    btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:509  a                  btn100:Aerodromo ;
+        rdfs:label             "509" ;
         dc:created             "2012-10-25"^^xsd:date ;
         dc:identifier          "509" ;
         dc:replaces            "0.0" ;
@@ -345,6 +367,7 @@ georec:509  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:485  a                  btn100:Aerodromo ;
+        rdfs:label             "485" ;
         dc:created             "2013-03-23"^^xsd:date ;
         dc:identifier          "485" ;
         dc:replaces            "0.0" ;
@@ -368,6 +391,7 @@ georec:485  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-5.8355602100000015 41.96098405915014)"^^geosparql:wktLiteral .
 
 georec:455  a                  btn100:Aerodromo ;
+        rdfs:label             "455" ;
         dc:created             "2013-05-02"^^xsd:date ;
         dc:identifier          "455" ;
         dc:replaces            "0.0" ;
@@ -379,6 +403,7 @@ georec:455  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:244  a                  btn100:Aerodromo ;
+        rdfs:label             "244" ;
         dc:created             "2013-03-12"^^xsd:date ;
         dc:identifier          "244" ;
         dc:replaces            "0.0" ;
@@ -395,6 +420,7 @@ georec:244  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-6.563163640000001 37.25652755548941)"^^geosparql:wktLiteral .
 
 georec:510  a                  btn100:Aerodromo ;
+        rdfs:label             "510" ;
         dc:created             "2012-10-25"^^xsd:date ;
         dc:identifier          "510" ;
         dc:replaces            "0.0" ;
@@ -414,6 +440,7 @@ georec:510  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-6.05334774 37.544468415793744)"^^geosparql:wktLiteral .
 
 georec:256  a                  btn100:Aerodromo ;
+        rdfs:label             "256" ;
         dc:created             "2013-01-17"^^xsd:date ;
         dc:identifier          "256" ;
         dc:replaces            "0.0" ;
@@ -429,6 +456,7 @@ georec:256  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-8.774242690000001 42.061640869195536)"^^geosparql:wktLiteral .
 
 georec:311  a                  btn100:Aerodromo ;
+        rdfs:label             "311" ;
         dc:created             "2012-05-07"^^xsd:date ;
         dc:identifier          "311" ;
         dc:replaces            "0.0" ;
@@ -448,6 +476,7 @@ georec:311  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-4.251672129999999 43.147939339591304)"^^geosparql:wktLiteral .
 
 georec:618  a                  btn100:Aerodromo ;
+        rdfs:label             "618" ;
         dc:created             "2012-04-03"^^xsd:date ;
         dc:identifier          "618" ;
         dc:replaces            "0.0" ;
@@ -463,6 +492,7 @@ georec:618  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-4.863108130000001 41.78471037906713)"^^geosparql:wktLiteral .
 
 georec:594  a                  btn100:Aerodromo ;
+        rdfs:label             "594" ;
         dc:created             "2013-05-17"^^xsd:date ;
         dc:identifier          "594" ;
         dc:replaces            "0.0" ;
@@ -474,6 +504,7 @@ georec:594  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:90  a                   btn100:Aerodromo ;
+        rdfs:label             "90" ;
         dc:created             "2012-10-01"^^xsd:date ;
         dc:identifier          "90" ;
         dc:replaces            "0.0" ;
@@ -485,6 +516,7 @@ georec:90  a                   btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:298  a                  btn100:Aerodromo ;
+        rdfs:label             "298" ;
         dc:created             "2013-01-23"^^xsd:date ;
         dc:identifier          "298" ;
         dc:replaces            "0.0" ;
@@ -496,6 +528,7 @@ georec:298  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:172  a                  btn100:Aerodromo ;
+        rdfs:label             "172" ;
         dc:created             "2012-09-30"^^xsd:date ;
         dc:identifier          "172" ;
         dc:replaces            "0.0" ;
@@ -507,6 +540,7 @@ georec:172  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:268  a                  btn100:Aerodromo ;
+        rdfs:label             "268" ;
         dc:created             "2013-01-21"^^xsd:date ;
         dc:identifier          "268" ;
         dc:replaces            "0.0" ;
@@ -522,6 +556,7 @@ georec:268  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (4.251794403369075 39.861709880648526)"^^geosparql:wktLiteral .
 
 georec:323  a                  btn100:Aerodromo ;
+        rdfs:label             "323" ;
         dc:created             "2013-04-11"^^xsd:date ;
         dc:identifier          "323" ;
         dc:replaces            "0.0" ;
@@ -541,6 +576,7 @@ georec:323  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-4.101314349999999 38.67498484689403)"^^geosparql:wktLiteral .
 
 georec:631  a                  btn100:Aerodromo ;
+        rdfs:label             "631" ;
         dc:created             "2012-07-18"^^xsd:date ;
         dc:identifier          "631" ;
         dc:replaces            "0.0" ;
@@ -556,6 +592,7 @@ georec:631  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-2.1496360400000003 38.24187391649074)"^^geosparql:wktLiteral .
 
 georec:154  a                  btn100:Aerodromo ;
+        rdfs:label             "154" ;
         dc:created             "2012-10-18"^^xsd:date ;
         dc:identifier          "154" ;
         dc:replaces            "0.0" ;
@@ -579,6 +616,7 @@ georec:154  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-5.3903551699999985 39.20636819735671)"^^geosparql:wktLiteral .
 
 georec:305  a                  btn100:Aerodromo ;
+        rdfs:label             "305" ;
         dc:created             "2012-02-03"^^xsd:date ;
         dc:identifier          "305" ;
         dc:replaces            "0.0" ;
@@ -591,6 +629,7 @@ georec:305  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:281  a                  btn100:Aerodromo ;
+        rdfs:label             "281" ;
         dc:created             "2012-05-08"^^xsd:date ;
         dc:identifier          "281" ;
         dc:replaces            "0.0" ;
@@ -602,6 +641,7 @@ georec:281  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:588  a                  btn100:Aerodromo ;
+        rdfs:label             "588" ;
         dc:created             "2006-08-10"^^xsd:date ;
         dc:identifier          "588" ;
         dc:replaces            "25562.0" ;
@@ -613,6 +653,7 @@ georec:588  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:84  a                   btn100:Aerodromo ;
+        rdfs:label             "84" ;
         dc:created             "2013-02-04"^^xsd:date ;
         dc:identifier          "84" ;
         dc:replaces            "0.0" ;
@@ -636,6 +677,7 @@ georec:84  a                   btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-13.983258569999403 28.391047152768845)"^^geosparql:wktLiteral .
 
 georec:221  a                  btn100:Aerodromo ;
+        rdfs:label             "221" ;
         dc:created             "2012-02-04"^^xsd:date ;
         dc:identifier          "221" ;
         dc:replaces            "0.0" ;
@@ -647,6 +689,7 @@ georec:221  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:528  a                  btn100:Aerodromo ;
+        rdfs:label             "528" ;
         dc:created             "2012-12-27"^^xsd:date ;
         dc:identifier          "528" ;
         dc:replaces            "0.0" ;
@@ -658,6 +701,7 @@ georec:528  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:24  a                   btn100:Aerodromo ;
+        rdfs:label             "24" ;
         dc:created             "2011-12-27"^^xsd:date ;
         dc:identifier          "24" ;
         dc:replaces            "0.0" ;
@@ -685,6 +729,7 @@ georec:24  a                   btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-4.34713977 42.69267510944653)"^^geosparql:wktLiteral .
 
 georec:263  a                  btn100:Aerodromo ;
+        rdfs:label             "263" ;
         dc:created             "2012-08-22"^^xsd:date ;
         dc:identifier          "263" ;
         dc:replaces            "0.0" ;
@@ -696,6 +741,7 @@ georec:263  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:203  a                  btn100:Aerodromo ;
+        rdfs:label             "203" ;
         dc:created             "2012-06-20"^^xsd:date ;
         dc:identifier          "203" ;
         dc:replaces            "0.0" ;
@@ -711,6 +757,7 @@ georec:203  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-5.601649789999998 39.851217247869194)"^^geosparql:wktLiteral .
 
 georec:118  a                  btn100:Aerodromo ;
+        rdfs:label             "118" ;
         dc:created             "2012-04-26"^^xsd:date ;
         dc:identifier          "118" ;
         dc:replaces            "0.0" ;
@@ -727,6 +774,7 @@ georec:118  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (3.1788623000000005 42.03020935918151)"^^geosparql:wktLiteral .
 
 georec:486  a                  btn100:Aerodromo ;
+        rdfs:label             "486" ;
         dc:created             "2013-05-09"^^xsd:date ;
         dc:identifier          "486" ;
         dc:replaces            "0.0" ;
@@ -742,6 +790,7 @@ georec:486  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-5.7257596500000005 37.327639845565436)"^^geosparql:wktLiteral .
 
 georec:456  a                  btn100:Aerodromo ;
+        rdfs:label             "456" ;
         dc:created             "2013-05-02"^^xsd:date ;
         dc:identifier          "456" ;
         dc:replaces            "0.0" ;
@@ -765,6 +814,7 @@ georec:456  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-3.1495535400000008 42.95330764953315)"^^geosparql:wktLiteral .
 
 georec:300  a                  btn100:Aerodromo ;
+        rdfs:label             "300" ;
         dc:created             "2012-02-03"^^xsd:date ;
         dc:identifier          "300" ;
         dc:replaces            "0.0" ;
@@ -777,6 +827,7 @@ georec:300  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:215  a                  btn100:Aerodromo ;
+        rdfs:label             "215" ;
         dc:created             "2011-03-03"^^xsd:date ;
         dc:identifier          "215" ;
         dc:replaces            "0.0" ;
@@ -793,6 +844,7 @@ georec:215  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-4.7908308900000005 40.24607249815575)"^^geosparql:wktLiteral .
 
 georec:257  a                  btn100:Aerodromo ;
+        rdfs:label             "257" ;
         dc:created             "2013-02-01"^^xsd:date ;
         dc:identifier          "257" ;
         dc:replaces            "0.0" ;
@@ -816,6 +868,7 @@ georec:257  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-4.386687329999999 38.52697806675881)"^^geosparql:wktLiteral .
 
 georec:91  a                   btn100:Aerodromo ;
+        rdfs:label             "91" ;
         dc:created             "2012-08-29"^^xsd:date ;
         dc:identifier          "91" ;
         dc:replaces            "0.0" ;
@@ -827,6 +880,7 @@ georec:91  a                   btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:384  a                  btn100:Aerodromo ;
+        rdfs:label             "384" ;
         dc:created             "2013-04-16"^^xsd:date ;
         dc:identifier          "384" ;
         dc:replaces            "0.0" ;
@@ -838,6 +892,7 @@ georec:384  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:299  a                  btn100:Aerodromo ;
+        rdfs:label             "299" ;
         dc:created             "2012-02-03"^^xsd:date ;
         dc:identifier          "299" ;
         dc:replaces            "0.0" ;
@@ -858,6 +913,7 @@ georec:299  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (3.0511132130344416 42.14277943006659)"^^geosparql:wktLiteral .
 
 georec:269  a                  btn100:Aerodromo ;
+        rdfs:label             "269" ;
         dc:created             "2013-01-25"^^xsd:date ;
         dc:identifier          "269" ;
         dc:replaces            "0.0" ;
@@ -877,6 +933,7 @@ georec:269  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-2.0843141900000006 39.0383485272143)"^^geosparql:wktLiteral .
 
 georec:324  a                  btn100:Aerodromo ;
+        rdfs:label             "324" ;
         dc:created             "2013-04-11"^^xsd:date ;
         dc:identifier          "324" ;
         dc:replaces            "0.0" ;
@@ -892,6 +949,7 @@ georec:324  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-3.4216456500000003 40.72558912847521)"^^geosparql:wktLiteral .
 
 georec:185  a                  btn100:Aerodromo ;
+        rdfs:label             "185" ;
         dc:created             "2012-05-17"^^xsd:date ;
         dc:identifier          "185" ;
         dc:replaces            "0.0" ;
@@ -904,6 +962,7 @@ georec:185  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:240  a                  btn100:Aerodromo ;
+        rdfs:label             "240" ;
         dc:created             "2013-03-12"^^xsd:date ;
         dc:identifier          "240" ;
         dc:replaces            "0.0" ;
@@ -915,6 +974,7 @@ georec:240  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:155  a                  btn100:Aerodromo ;
+        rdfs:label             "155" ;
         dc:created             "2012-10-18"^^xsd:date ;
         dc:identifier          "155" ;
         dc:replaces            "0.0" ;
@@ -926,6 +986,7 @@ georec:155  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:421  a                  btn100:Aerodromo ;
+        rdfs:label             "421" ;
         dc:created             "2012-11-14"^^xsd:date ;
         dc:identifier          "421" ;
         dc:replaces            "0.0" ;
@@ -949,6 +1010,7 @@ georec:421  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-5.287356839999999 42.451003639357275)"^^geosparql:wktLiteral .
 
 georec:282  a                  btn100:Aerodromo ;
+        rdfs:label             "282" ;
         dc:created             "2012-05-08"^^xsd:date ;
         dc:identifier          "282" ;
         dc:replaces            "0.0" ;
@@ -960,6 +1022,7 @@ georec:282  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:85  a                   btn100:Aerodromo ;
+        rdfs:label             "85" ;
         dc:created             "2013-02-04"^^xsd:date ;
         dc:identifier          "85" ;
         dc:replaces            "0.0" ;
@@ -971,6 +1034,7 @@ georec:85  a                   btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:589  a                  btn100:Aerodromo ;
+        rdfs:label             "589" ;
         dc:created             "2006-08-10"^^xsd:date ;
         dc:identifier          "589" ;
         dc:replaces            "24511.0" ;
@@ -990,6 +1054,7 @@ georec:589  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-3.4469667300000006 41.40832934887495)"^^geosparql:wktLiteral .
 
 georec:222  a                  btn100:Aerodromo ;
+        rdfs:label             "222" ;
         dc:created             "2012-02-22"^^xsd:date ;
         dc:identifier          "222" ;
         dc:replaces            "0.0" ;
@@ -1009,6 +1074,7 @@ georec:222  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-3.8002759599999996 37.90844003616469)"^^geosparql:wktLiteral .
 
 georec:107  a                  btn100:Aerodromo ;
+        rdfs:label             "107" ;
         dc:created             "2012-05-14"^^xsd:date ;
         dc:identifier          "107" ;
         dc:replaces            "0.0" ;
@@ -1033,6 +1099,7 @@ georec:107  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-2.94696441 38.271443966519)"^^geosparql:wktLiteral .
 
 georec:264  a                  btn100:Aerodromo ;
+        rdfs:label             "264" ;
         dc:created             "2012-08-22"^^xsd:date ;
         dc:identifier          "264" ;
         dc:replaces            "67312.0" ;
@@ -1048,6 +1115,7 @@ georec:264  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (2.61159213 41.749959439050244)"^^geosparql:wktLiteral .
 
 georec:445  a                  btn100:Aerodromo ;
+        rdfs:label             "445" ;
         dc:created             "2012-11-29"^^xsd:date ;
         dc:identifier          "445" ;
         dc:replaces            "0.0" ;
@@ -1064,6 +1132,7 @@ georec:445  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-16.40085396 28.329077352667053)"^^geosparql:wktLiteral .
 
 georec:626  a                  btn100:Aerodromo ;
+        rdfs:label             "626" ;
         dc:created             "2012-03-05"^^xsd:date ;
         dc:identifier          "626" ;
         dc:replaces            "0.0" ;
@@ -1083,6 +1152,7 @@ georec:626  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-15.509890403069235 27.781524216820515)"^^geosparql:wktLiteral .
 
 georec:37  a                   btn100:Aerodromo ;
+        rdfs:label             "37" ;
         dc:created             "2012-05-08"^^xsd:date ;
         dc:identifier          "37" ;
         dc:replaces            "0.0" ;
@@ -1102,6 +1172,7 @@ georec:37  a                   btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-3.3205412599999993 39.71690106776697)"^^geosparql:wktLiteral .
 
 georec:487  a                  btn100:Aerodromo ;
+        rdfs:label             "487" ;
         dc:created             "2013-02-15"^^xsd:date ;
         dc:identifier          "487" ;
         dc:replaces            "0.0" ;
@@ -1114,6 +1185,7 @@ georec:487  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:276  a                  btn100:Aerodromo ;
+        rdfs:label             "276" ;
         dc:created             "2012-05-07"^^xsd:date ;
         dc:identifier          "276" ;
         dc:replaces            "0.0" ;
@@ -1125,6 +1197,7 @@ georec:276  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:150  a                  btn100:Aerodromo ;
+        rdfs:label             "150" ;
         dc:created             "2012-10-18"^^xsd:date ;
         dc:identifier          "150" ;
         dc:replaces            "0.0" ;
@@ -1141,6 +1214,7 @@ georec:150  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-2.9547696399999994 39.82704893785098)"^^geosparql:wktLiteral .
 
 georec:246  a                  btn100:Aerodromo ;
+        rdfs:label             "246" ;
         dc:created             "2013-03-22"^^xsd:date ;
         dc:identifier          "246" ;
         dc:replaces            "0.0" ;
@@ -1152,6 +1226,7 @@ georec:246  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:638  a                  btn100:Aerodromo ;
+        rdfs:label             "638" ;
         dc:created             "2014-06-17"^^xsd:date ;
         dc:identifier          "638" ;
         dc:replaces            "0.0" ;
@@ -1163,6 +1238,7 @@ georec:638  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:512  a                  btn100:Aerodromo ;
+        rdfs:label             "512" ;
         dc:created             "2012-10-25"^^xsd:date ;
         dc:identifier          "512" ;
         dc:replaces            "0.0" ;
@@ -1174,6 +1250,7 @@ georec:512  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:301  a                  btn100:Aerodromo ;
+        rdfs:label             "301" ;
         dc:created             "2012-02-03"^^xsd:date ;
         dc:identifier          "301" ;
         dc:replaces            "0.0" ;
@@ -1190,6 +1267,7 @@ georec:301  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-4.024977819999999 40.436559898286426)"^^geosparql:wktLiteral .
 
 georec:288  a                  btn100:Aerodromo ;
+        rdfs:label             "288" ;
         dc:created             "2013-01-31"^^xsd:date ;
         dc:identifier          "288" ;
         dc:replaces            "0.0" ;
@@ -1205,6 +1283,7 @@ georec:288  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-3.594695350000001 40.660262638433544)"^^geosparql:wktLiteral .
 
 georec:469  a                  btn100:Aerodromo ;
+        rdfs:label             "469" ;
         dc:created             "2013-06-04"^^xsd:date ;
         dc:identifier          "469" ;
         dc:replaces            "0.0" ;
@@ -1232,6 +1311,7 @@ georec:469  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-1.5258832028421079 38.61533343287909)"^^geosparql:wktLiteral .
 
 georec:470  a                  btn100:Aerodromo ;
+        rdfs:label             "470" ;
         dc:created             "2012-10-31"^^xsd:date ;
         dc:identifier          "470" ;
         dc:replaces            "0.0" ;
@@ -1243,6 +1323,7 @@ georec:470  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:385  a                  btn100:Aerodromo ;
+        rdfs:label             "385" ;
         dc:created             "2013-04-17"^^xsd:date ;
         dc:identifier          "385" ;
         dc:replaces            "0.0" ;
@@ -1262,6 +1343,7 @@ georec:385  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (1.5538963900000005 41.74639933904851)"^^geosparql:wktLiteral .
 
 georec:325  a                  btn100:Aerodromo ;
+        rdfs:label             "325" ;
         dc:created             "2012-10-30"^^xsd:date ;
         dc:identifier          "325" ;
         dc:replaces            "0.0" ;
@@ -1273,6 +1355,7 @@ georec:325  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:114  a                  btn100:Aerodromo ;
+        rdfs:label             "114" ;
         dc:created             "2012-08-30"^^xsd:date ;
         dc:identifier          "114" ;
         dc:replaces            "0.0" ;
@@ -1284,6 +1367,7 @@ georec:114  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:506  a                  btn100:Aerodromo ;
+        rdfs:label             "506" ;
         dc:created             "2013-05-04"^^xsd:date ;
         dc:identifier          "506" ;
         dc:replaces            "0.0" ;
@@ -1303,6 +1387,7 @@ georec:506  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (1.6527191599999997 41.58431483896733)"^^geosparql:wktLiteral .
 
 georec:241  a                  btn100:Aerodromo ;
+        rdfs:label             "241" ;
         dc:created             "2013-03-12"^^xsd:date ;
         dc:identifier          "241" ;
         dc:replaces            "0.0" ;
@@ -1314,6 +1399,7 @@ georec:241  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:156  a                  btn100:Aerodromo ;
+        rdfs:label             "156" ;
         dc:created             "2012-10-18"^^xsd:date ;
         dc:identifier          "156" ;
         dc:replaces            "0.0" ;
@@ -1329,6 +1415,7 @@ georec:156  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-2.1424601400000003 40.201453548124405)"^^geosparql:wktLiteral .
 
 georec:337  a                  btn100:Aerodromo ;
+        rdfs:label             "337" ;
         dc:created             "2012-10-16"^^xsd:date ;
         dc:identifier          "337" ;
         dc:replaces            "0.0" ;
@@ -1344,6 +1431,7 @@ georec:337  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-3.24737473 40.865467348562426)"^^geosparql:wktLiteral .
 
 georec:603  a                  btn100:Aerodromo ;
+        rdfs:label             "603" ;
         dc:created             "2013-02-18"^^xsd:date ;
         dc:identifier          "603" ;
         dc:replaces            "0.0" ;
@@ -1364,6 +1452,7 @@ georec:603  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-4.467040919999999 39.64309066770976)"^^geosparql:wktLiteral .
 
 georec:307  a                  btn100:Aerodromo ;
+        rdfs:label             "307" ;
         dc:created             "2012-05-07"^^xsd:date ;
         dc:identifier          "307" ;
         dc:replaces            "0.0" ;
@@ -1391,6 +1480,7 @@ georec:307  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-6.01505137 37.353007905592435)"^^geosparql:wktLiteral .
 
 georec:223  a                  btn100:Aerodromo ;
+        rdfs:label             "223" ;
         dc:created             "2012-06-20"^^xsd:date ;
         dc:identifier          "223" ;
         dc:replaces            "0.0" ;
@@ -1402,6 +1492,7 @@ georec:223  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:615  a                  btn100:Aerodromo ;
+        rdfs:label             "615" ;
         dc:created             "2012-04-03"^^xsd:date ;
         dc:identifier          "615" ;
         dc:replaces            "0.0" ;
@@ -1417,6 +1508,7 @@ georec:615  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-6.920952340000002 37.36415451560427)"^^geosparql:wktLiteral .
 
 georec:380  a                  btn100:Aerodromo ;
+        rdfs:label             "380" ;
         dc:created             "2012-11-21"^^xsd:date ;
         dc:identifier          "380" ;
         dc:replaces            "0.0" ;
@@ -1436,6 +1528,7 @@ georec:380  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-4.712437740000002 41.46118343890316)"^^geosparql:wktLiteral .
 
 georec:531  a                  btn100:Aerodromo ;
+        rdfs:label             "531" ;
         dc:created             "2012-12-27"^^xsd:date ;
         dc:identifier          "531" ;
         dc:replaces            "0.0" ;
@@ -1453,6 +1546,7 @@ georec:531  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-1.0964686000000003 37.83346870608959)"^^geosparql:wktLiteral .
 
 georec:446  a                  btn100:Aerodromo ;
+        rdfs:label             "446" ;
         dc:created             "2013-02-22"^^xsd:date ;
         dc:identifier          "446" ;
         dc:replaces            "0.0" ;
@@ -1468,6 +1562,7 @@ georec:446  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-8.76269189 43.10234492957818)"^^geosparql:wktLiteral .
 
 georec:320  a                  btn100:Aerodromo ;
+        rdfs:label             "320" ;
         dc:created             "2012-12-14"^^xsd:date ;
         dc:identifier          "320" ;
         dc:replaces            "0.0" ;
@@ -1483,6 +1578,7 @@ georec:320  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-2.4618328000000003 39.33894238746652)"^^geosparql:wktLiteral .
 
 georec:235  a                  btn100:Aerodromo ;
+        rdfs:label             "235" ;
         dc:created             "2012-11-03"^^xsd:date ;
         dc:identifier          "235" ;
         dc:replaces            "0.0" ;
@@ -1494,6 +1590,7 @@ georec:235  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:501  a                  btn100:Aerodromo ;
+        rdfs:label             "501" ;
         dc:created             "2013-02-21"^^xsd:date ;
         dc:identifier          "501" ;
         dc:replaces            "0.0" ;
@@ -1505,6 +1602,7 @@ georec:501  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:38  a                   btn100:Aerodromo ;
+        rdfs:label             "38" ;
         dc:created             "2012-05-08"^^xsd:date ;
         dc:identifier          "38" ;
         dc:replaces            "0.0" ;
@@ -1516,6 +1614,7 @@ georec:38  a                   btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:9  a                    btn100:Aerodromo ;
+        rdfs:label             "9" ;
         dc:created             "2012-02-22"^^xsd:date ;
         dc:identifier          "9" ;
         dc:replaces            "0.0" ;
@@ -1543,6 +1642,7 @@ georec:9  a                    btn100:Aerodromo ;
         geosparql:asWKT  "POINT (2.7019888799999996 39.6010870976769)"^^geosparql:wktLiteral .
 
 georec:151  a                  btn100:Aerodromo ;
+        rdfs:label             "151" ;
         dc:created             "2012-10-18"^^xsd:date ;
         dc:identifier          "151" ;
         dc:replaces            "0.0" ;
@@ -1554,6 +1654,7 @@ georec:151  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:277  a                  btn100:Aerodromo ;
+        rdfs:label             "277" ;
         dc:created             "2012-05-08"^^xsd:date ;
         dc:identifier          "277" ;
         dc:replaces            "0.0" ;
@@ -1574,6 +1675,7 @@ georec:277  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-1.8526007964483224 37.26100390424965)"^^geosparql:wktLiteral .
 
 georec:639  a                  btn100:Aerodromo ;
+        rdfs:label             "639" ;
         dc:created             "2014-06-17"^^xsd:date ;
         dc:identifier          "639" ;
         dc:replaces            "0.0" ;
@@ -1585,6 +1687,7 @@ georec:639  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:247  a                  btn100:Aerodromo ;
+        rdfs:label             "247" ;
         dc:created             "2012-08-14"^^xsd:date ;
         dc:identifier          "247" ;
         dc:replaces            "0.0" ;
@@ -1600,6 +1703,7 @@ georec:247  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-5.268987740000001 37.677224535930854)"^^geosparql:wktLiteral .
 
 georec:513  a                  btn100:Aerodromo ;
+        rdfs:label             "513" ;
         dc:created             "2012-10-25"^^xsd:date ;
         dc:identifier          "513" ;
         dc:replaces            "0.0" ;
@@ -1615,6 +1719,7 @@ georec:513  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-4.027013565446916 40.2347779697354)"^^geosparql:wktLiteral .
 
 georec:302  a                  btn100:Aerodromo ;
+        rdfs:label             "302" ;
         dc:created             "2012-02-03"^^xsd:date ;
         dc:identifier          "302" ;
         dc:replaces            "0.0" ;
@@ -1631,6 +1736,7 @@ georec:302  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-5.19777196 39.34550217747188)"^^geosparql:wktLiteral .
 
 georec:289  a                  btn100:Aerodromo ;
+        rdfs:label             "289" ;
         dc:created             "2012-07-18"^^xsd:date ;
         dc:identifier          "289" ;
         dc:replaces            "0.0" ;
@@ -1647,6 +1753,7 @@ georec:289  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-0.7786211200000003 38.15801798641001)"^^geosparql:wktLiteral .
 
 georec:259  a                  btn100:Aerodromo ;
+        rdfs:label             "259" ;
         dc:created             "2012-07-25"^^xsd:date ;
         dc:identifier          "259" ;
         dc:replaces            "0.0" ;
@@ -1658,6 +1765,7 @@ georec:259  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:133  a                  btn100:Aerodromo ;
+        rdfs:label             "133" ;
         dc:created             "2012-08-23"^^xsd:date ;
         dc:identifier          "133" ;
         dc:replaces            "0.0" ;
@@ -1669,6 +1777,7 @@ georec:133  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:103  a                  btn100:Aerodromo ;
+        rdfs:label             "103" ;
         dc:created             "2012-01-25"^^xsd:date ;
         dc:identifier          "103" ;
         dc:replaces            "0.0" ;
@@ -1684,6 +1793,7 @@ georec:103  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-1.4477320048327222 37.75317694375515)"^^geosparql:wktLiteral .
 
 georec:290  a                  btn100:Aerodromo ;
+        rdfs:label             "290" ;
         dc:created             "2012-07-18"^^xsd:date ;
         dc:identifier          "290" ;
         dc:replaces            "0.0" ;
@@ -1696,6 +1806,7 @@ georec:290  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:597  a                  btn100:Aerodromo ;
+        rdfs:label             "597" ;
         dc:created             "2013-02-06"^^xsd:date ;
         dc:identifier          "597" ;
         dc:replaces            "0.0" ;
@@ -1715,6 +1826,7 @@ georec:597  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-2.874061810000001 42.47838058936781)"^^geosparql:wktLiteral .
 
 georec:386  a                  btn100:Aerodromo ;
+        rdfs:label             "386" ;
         dc:created             "2013-01-17"^^xsd:date ;
         dc:identifier          "386" ;
         dc:replaces            "35582.0" ;
@@ -1726,6 +1838,7 @@ georec:386  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:260  a                  btn100:Aerodromo ;
+        rdfs:label             "260" ;
         dc:created             "2013-02-04"^^xsd:date ;
         dc:identifier          "260" ;
         dc:replaces            "0.0" ;
@@ -1749,6 +1862,7 @@ georec:260  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-2.2704193600000004 38.5014293767352)"^^geosparql:wktLiteral .
 
 georec:326  a                  btn100:Aerodromo ;
+        rdfs:label             "326" ;
         dc:created             "2012-10-30"^^xsd:date ;
         dc:identifier          "326" ;
         dc:replaces            "0.0" ;
@@ -1760,6 +1874,7 @@ georec:326  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:200  a                  btn100:Aerodromo ;
+        rdfs:label             "200" ;
         dc:created             "2007-03-12"^^xsd:date ;
         dc:identifier          "200" ;
         dc:replaces            "59924.0" ;
@@ -1771,6 +1886,7 @@ georec:200  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:507  a                  btn100:Aerodromo ;
+        rdfs:label             "507" ;
         dc:created             "2013-05-04"^^xsd:date ;
         dc:identifier          "507" ;
         dc:replaces            "0.0" ;
@@ -1786,6 +1902,7 @@ georec:507  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-3.7656791599999995 38.03762781629261)"^^geosparql:wktLiteral .
 
 georec:483  a                  btn100:Aerodromo ;
+        rdfs:label             "483" ;
         dc:created             "2013-03-23"^^xsd:date ;
         dc:identifier          "483" ;
         dc:replaces            "0.0" ;
@@ -1797,6 +1914,7 @@ georec:483  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:272  a                  btn100:Aerodromo ;
+        rdfs:label             "272" ;
         dc:created             "2013-02-12"^^xsd:date ;
         dc:identifier          "272" ;
         dc:replaces            "0.0" ;
@@ -1808,6 +1926,7 @@ georec:272  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:187  a                  btn100:Aerodromo ;
+        rdfs:label             "187" ;
         dc:created             "2012-05-17"^^xsd:date ;
         dc:identifier          "187" ;
         dc:replaces            "0.0" ;
@@ -1824,6 +1943,7 @@ georec:187  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (3.1535630100000005 42.00863661917182)"^^geosparql:wktLiteral .
 
 georec:242  a                  btn100:Aerodromo ;
+        rdfs:label             "242" ;
         dc:created             "2013-03-12"^^xsd:date ;
         dc:identifier          "242" ;
         dc:replaces            "0.0" ;
@@ -1835,6 +1955,7 @@ georec:242  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:157  a                  btn100:Aerodromo ;
+        rdfs:label             "157" ;
         dc:created             "2013-01-09"^^xsd:date ;
         dc:identifier          "157" ;
         dc:replaces            "0.0" ;
@@ -1850,6 +1971,7 @@ georec:157  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-3.5506361099999997 39.44307946755116)"^^geosparql:wktLiteral .
 
 georec:338  a                  btn100:Aerodromo ;
+        rdfs:label             "338" ;
         dc:created             "2013-03-07"^^xsd:date ;
         dc:identifier          "338" ;
         dc:replaces            "0.0" ;
@@ -1877,6 +1999,7 @@ georec:338  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-6.344102339999999 39.32906487745841)"^^geosparql:wktLiteral .
 
 georec:199  a                  btn100:Aerodromo ;
+        rdfs:label             "199" ;
         dc:created             "2012-02-16"^^xsd:date ;
         dc:identifier          "199" ;
         dc:replaces            "0.0" ;
@@ -1889,6 +2012,7 @@ georec:199  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:87  a                   btn100:Aerodromo ;
+        rdfs:label             "87" ;
         dc:created             "2013-02-04"^^xsd:date ;
         dc:identifier          "87" ;
         dc:replaces            "0.0" ;
@@ -1900,6 +2024,7 @@ georec:87  a                   btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:465  a                  btn100:Aerodromo ;
+        rdfs:label             "465" ;
         dc:created             "2013-04-22"^^xsd:date ;
         dc:identifier          "465" ;
         dc:replaces            "0.0" ;
@@ -1916,6 +2041,7 @@ georec:465  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-4.28986634 42.59310655941079)"^^geosparql:wktLiteral .
 
 georec:254  a                  btn100:Aerodromo ;
+        rdfs:label             "254" ;
         dc:created             "2012-09-03"^^xsd:date ;
         dc:identifier          "254" ;
         dc:replaces            "0.0" ;
@@ -1927,6 +2053,7 @@ georec:254  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:224  a                  btn100:Aerodromo ;
+        rdfs:label             "224" ;
         dc:created             "2012-06-23"^^xsd:date ;
         dc:identifier          "224" ;
         dc:replaces            "0.0" ;
@@ -1942,6 +2069,7 @@ georec:224  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-3.73146486 42.13433552922739)"^^geosparql:wktLiteral .
 
 georec:616  a                  btn100:Aerodromo ;
+        rdfs:label             "616" ;
         dc:created             "2012-04-03"^^xsd:date ;
         dc:identifier          "616" ;
         dc:replaces            "0.0" ;
@@ -1953,6 +2081,7 @@ georec:616  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:381  a                  btn100:Aerodromo ;
+        rdfs:label             "381" ;
         dc:created             "2012-11-22"^^xsd:date ;
         dc:identifier          "381" ;
         dc:replaces            "0.0" ;
@@ -1976,6 +2105,7 @@ georec:381  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-1.2975039500000003 37.74992487600506)"^^geosparql:wktLiteral .
 
 georec:562  a                  btn100:Aerodromo ;
+        rdfs:label             "562" ;
         dc:created             "2013-04-24"^^xsd:date ;
         dc:identifier          "562" ;
         dc:replaces            "0.0" ;
@@ -1987,6 +2117,7 @@ georec:562  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:266  a                  btn100:Aerodromo ;
+        rdfs:label             "266" ;
         dc:created             "2012-08-22"^^xsd:date ;
         dc:identifier          "266" ;
         dc:replaces            "0.0" ;
@@ -2014,6 +2145,7 @@ georec:266  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-5.676290590000002 39.96248522795205)"^^geosparql:wktLiteral .
 
 georec:236  a                  btn100:Aerodromo ;
+        rdfs:label             "236" ;
         dc:created             "2007-04-12"^^xsd:date ;
         dc:identifier          "236" ;
         dc:replaces            "58635.0" ;
@@ -2025,6 +2157,7 @@ georec:236  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:502  a                  btn100:Aerodromo ;
+        rdfs:label             "502" ;
         dc:created             "2013-04-04"^^xsd:date ;
         dc:identifier          "502" ;
         dc:replaces            "0.0" ;
@@ -2036,6 +2169,7 @@ georec:502  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:39  a                   btn100:Aerodromo ;
+        rdfs:label             "39" ;
         dc:created             "2012-05-08"^^xsd:date ;
         dc:identifier          "39" ;
         dc:replaces            "0.0" ;
@@ -2063,6 +2197,7 @@ georec:39  a                   btn100:Aerodromo ;
         geosparql:asWKT  "POINT (0.6509056500000001 41.548648778948966)"^^geosparql:wktLiteral .
 
 georec:152  a                  btn100:Aerodromo ;
+        rdfs:label             "152" ;
         dc:created             "2012-10-18"^^xsd:date ;
         dc:identifier          "152" ;
         dc:replaces            "0.0" ;
@@ -2074,6 +2209,7 @@ georec:152  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:459  a                  btn100:Aerodromo ;
+        rdfs:label             "459" ;
         dc:created             "2014-08-20"^^xsd:date ;
         dc:identifier          "459" ;
         dc:replaces            "0.0" ;
@@ -2086,6 +2222,7 @@ georec:459  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:248  a                  btn100:Aerodromo ;
+        rdfs:label             "248" ;
         dc:created             "2012-08-14"^^xsd:date ;
         dc:identifier          "248" ;
         dc:replaces            "0.0" ;
@@ -2097,6 +2234,7 @@ georec:248  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:303  a                  btn100:Aerodromo ;
+        rdfs:label             "303" ;
         dc:created             "2012-02-03"^^xsd:date ;
         dc:identifier          "303" ;
         dc:replaces            "0.0" ;
@@ -2113,6 +2251,7 @@ georec:303  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-5.0532863159763135 42.14704601728303)"^^geosparql:wktLiteral .
 
 georec:490  a                  btn100:Aerodromo ;
+        rdfs:label             "490" ;
         dc:created             "2013-02-15"^^xsd:date ;
         dc:identifier          "490" ;
         dc:replaces            "0.0" ;
@@ -2133,6 +2272,7 @@ georec:490  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-3.375476590000001 38.79164342699866)"^^geosparql:wktLiteral .
 
 georec:586  a                  btn100:Aerodromo ;
+        rdfs:label             "586" ;
         dc:created             "2013-06-04"^^xsd:date ;
         dc:identifier          "586" ;
         dc:replaces            "0.0" ;
@@ -2152,6 +2292,7 @@ georec:586  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-6.378195 43.33412656964167)"^^geosparql:wktLiteral .
 
 georec:134  a                  btn100:Aerodromo ;
+        rdfs:label             "134" ;
         dc:created             "2012-02-24"^^xsd:date ;
         dc:identifier          "134" ;
         dc:replaces            "21450.0" ;
@@ -2164,6 +2305,7 @@ georec:134  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:526  a                  btn100:Aerodromo ;
+        rdfs:label             "526" ;
         dc:created             "2013-03-06"^^xsd:date ;
         dc:identifier          "526" ;
         dc:replaces            "0.0" ;
@@ -2176,6 +2318,7 @@ georec:526  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:315  a                  btn100:Aerodromo ;
+        rdfs:label             "315" ;
         dc:created             "2006-07-27"^^xsd:date ;
         dc:identifier          "315" ;
         dc:replaces            "61220.0" ;
@@ -2191,6 +2334,7 @@ georec:315  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (2.884952662250833 42.23226470685935)"^^geosparql:wktLiteral .
 
 georec:261  a                  btn100:Aerodromo ;
+        rdfs:label             "261" ;
         dc:created             "2013-02-04"^^xsd:date ;
         dc:identifier          "261" ;
         dc:replaces            "0.0" ;
@@ -2202,6 +2346,7 @@ georec:261  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:176  a                  btn100:Aerodromo ;
+        rdfs:label             "176" ;
         dc:created             "2012-12-21"^^xsd:date ;
         dc:identifier          "176" ;
         dc:replaces            "0.0" ;
@@ -2222,6 +2367,7 @@ georec:176  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-5.799615429999999 37.15175720537635)"^^geosparql:wktLiteral .
 
 georec:34  a                   btn100:Aerodromo ;
+        rdfs:label             "34" ;
         dc:created             "2012-02-16"^^xsd:date ;
         dc:identifier          "34" ;
         dc:replaces            "0.0" ;
@@ -2238,6 +2384,7 @@ georec:34  a                   btn100:Aerodromo ;
         geosparql:asWKT  "POINT (2.82127204 41.9978036391669)"^^geosparql:wktLiteral .
 
 georec:5  a                    btn100:Aerodromo ;
+        rdfs:label             "5" ;
         dc:created             "2012-04-21"^^xsd:date ;
         dc:identifier          "5" ;
         dc:replaces            "0.0" ;
@@ -2249,6 +2396,7 @@ georec:5  a                    btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:508  a                  btn100:Aerodromo ;
+        rdfs:label             "508" ;
         dc:created             "2013-05-04"^^xsd:date ;
         dc:identifier          "508" ;
         dc:replaces            "0.0" ;
@@ -2260,6 +2408,7 @@ georec:508  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:484  a                  btn100:Aerodromo ;
+        rdfs:label             "484" ;
         dc:created             "2013-04-16"^^xsd:date ;
         dc:identifier          "484" ;
         dc:replaces            "0.0" ;
@@ -2275,6 +2424,7 @@ georec:484  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-4.923058809999999 41.53100510893983)"^^geosparql:wktLiteral .
 
 georec:273  a                  btn100:Aerodromo ;
+        rdfs:label             "273" ;
         dc:created             "2012-01-26"^^xsd:date ;
         dc:identifier          "273" ;
         dc:replaces            "0.0" ;
@@ -2291,6 +2441,7 @@ georec:273  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-4.1372631 36.802177984990216)"^^geosparql:wktLiteral .
 
 georec:243  a                  btn100:Aerodromo ;
+        rdfs:label             "243" ;
         dc:created             "2013-03-12"^^xsd:date ;
         dc:identifier          "243" ;
         dc:replaces            "0.0" ;
@@ -2310,6 +2461,7 @@ georec:243  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (3.1076400500000005 42.259551699280486)"^^geosparql:wktLiteral .
 
 georec:309  a                  btn100:Aerodromo ;
+        rdfs:label             "309" ;
         dc:created             "2012-05-07"^^xsd:date ;
         dc:identifier          "309" ;
         dc:replaces            "0.0" ;
@@ -2333,6 +2485,7 @@ georec:309  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-3.424758431276265 38.505888807574536)"^^geosparql:wktLiteral .
 
 georec:88  a                   btn100:Aerodromo ;
+        rdfs:label             "88" ;
         dc:created             "2013-02-04"^^xsd:date ;
         dc:identifier          "88" ;
         dc:replaces            "0.0" ;
@@ -2344,6 +2497,7 @@ georec:88  a                   btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:340  a                  btn100:Aerodromo ;
+        rdfs:label             "340" ;
         dc:created             "2012-12-28"^^xsd:date ;
         dc:identifier          "340" ;
         dc:replaces            "0.0" ;
@@ -2355,6 +2509,7 @@ georec:340  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:255  a                  btn100:Aerodromo ;
+        rdfs:label             "255" ;
         dc:created             "2012-09-03"^^xsd:date ;
         dc:identifier          "255" ;
         dc:replaces            "0.0" ;
@@ -2370,6 +2525,7 @@ georec:255  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-4.68923704 37.9381607161943)"^^geosparql:wktLiteral .
 
 georec:617  a                  btn100:Aerodromo ;
+        rdfs:label             "617" ;
         dc:created             "2012-04-03"^^xsd:date ;
         dc:identifier          "617" ;
         dc:replaces            "0.0" ;
@@ -2389,6 +2545,7 @@ georec:617  a                  btn100:Aerodromo ;
         geosparql:asWKT  "POINT (-6.991208900000001 38.77799097698649)"^^geosparql:wktLiteral .
 
 georec:171  a                  btn100:Aerodromo ;
+        rdfs:label             "171" ;
         dc:created             "2012-04-04"^^xsd:date ;
         dc:identifier          "171" ;
         dc:replaces            "0.0" ;
@@ -2400,6 +2557,7 @@ georec:171  a                  btn100:Aerodromo ;
         btn100:rutaTENT-T      <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> .
 
 georec:563  a                  btn100:Aerodromo ;
+        rdfs:label             "563" ;
         dc:created             "2007-06-01"^^xsd:date ;
         dc:identifier          "563" ;
         dc:replaces            "0.0" ;

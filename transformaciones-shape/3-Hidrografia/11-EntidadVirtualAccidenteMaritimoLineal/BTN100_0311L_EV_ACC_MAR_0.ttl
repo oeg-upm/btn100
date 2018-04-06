@@ -15,6 +15,7 @@
         geosparql:asWKT  "LINESTRING (4.27085422 39.80782229836475, 4.27654781 39.808253108365065, 4.2796144 39.80882226836549)"^^geosparql:wktLiteral .
 
 georec:171  a                  btn100:Costa ;
+        rdfs:label             "171" ;
         dc:created             "2013-03-17"^^xsd:date ;
         dc:identifier          "171" ;
         dc:title               "Costa de Son Ganxo" ;
@@ -26,6 +27,7 @@ georec:171  a                  btn100:Costa ;
         geosparql:asWKT  "LINESTRING (-17.854864199999998 28.834636193950615, -17.832079180000004 28.8620178539957)"^^geosparql:wktLiteral .
 
 georec:8  a                    btn100:Costa ;
+        rdfs:label             "8" ;
         dc:created             "2012-01-18"^^xsd:date ;
         dc:identifier          "8" ;
         dc:title               "Costa Blanca" ;
@@ -37,6 +39,7 @@ georec:8  a                    btn100:Costa ;
         geosparql:asWKT  "LINESTRING (-0.09283406 38.9596261376716, -0.04211308 38.95855280767066)"^^geosparql:wktLiteral .
 
 georec:239  a                  btn100:Costa ;
+        rdfs:label             "239" ;
         dc:created             "2013-03-07"^^xsd:date ;
         dc:identifier          "239" ;
         dc:title               "Costa de Franceses" ;
