@@ -231,13 +231,13 @@ else{
 
 &#47;&#47;SITUACION
 if(SITUACION == &quot;01&quot;){
-	SITUACION = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;situacion-via&#47;superficial&gt;&quot;;
+	SITUACION = &quot;&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;transportes&#47;situacion-via&#47;superficial&gt;&quot;;
 }
 else if(SITUACION == &quot;02&quot;){
-	SITUACION = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;situacion-via&#47;subterranea&gt;&quot;;
+	SITUACION = &quot;&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;transportes&#47;situacion-via&#47;subterranea&gt;&quot;;
 }
 else if (SITUACION == &quot;03&quot;){
-	SITUACION = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;situacion-via&#47;elevada&gt;&quot;;
+	SITUACION = &quot;&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;transportes&#47;situacion-via&#47;elevada&gt;&quot;;
 }
 else {
 	SITUACION = &quot;&quot;;
@@ -245,26 +245,26 @@ else {
 
 &#47;&#47;RUTA TEN-T
 if(TEN_T == &quot;01&quot;){
-	TEN_T  = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;ruta-ten-t&#47;ruta-no-transeuropea&gt;&quot;;
+	TEN_T  = &quot;&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;transportes&#47;ruta-ten-t&#47;ruta-no-transeuropea&gt;&quot;;
 }
 else{
-	TEN_T  = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;ruta-ten-t&#47;ruta-transeuropea&gt;&quot;;
+	TEN_T  = &quot;&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;transportes&#47;ruta-ten-t&#47;ruta-transeuropea&gt;&quot;;
 }
 
 
 
 &#47;&#47;ANCHO DE VIA
 if(ANCHO_VIA == &quot;01&quot;){
-	ANCHO_VIA = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;ancho-de-via&#47;iberico&gt;&quot;
+	ANCHO_VIA = &quot;&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;transportes&#47;ancho-de-via&#47;iberico&gt;&quot;
 }
 else if(ANCHO_VIA == &quot;02&quot;){
-	ANCHO_VIA = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;ancho-de-via&#47;internacional&gt;&quot;
+	ANCHO_VIA = &quot;&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;transportes&#47;ancho-de-via&#47;internacional&gt;&quot;
 }	
 else if(ANCHO_VIA == &quot;03&quot;){
-	ANCHO_VIA = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;ancho-de-via&#47;mixto&gt;&quot;
+	ANCHO_VIA = &quot;&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;transportes&#47;ancho-de-via&#47;mixto&gt;&quot;
 }
 else if(ANCHO_VIA == &quot;04&quot;){
-	ANCHO_VIA = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;ancho-de-via&#47;métrico&gt;&quot;
+	ANCHO_VIA = &quot;&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;transportes&#47;ancho-de-via&#47;métrico&gt;&quot;
 }
 else{
 	ANCHO_VIA = &quot;&quot;
@@ -272,10 +272,10 @@ else{
 
 &#47;&#47;ELECTRIFIC
 if(ELECTRIFIC == &quot;01&quot;){
-	ELECTRIFIC = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;electrificacion&#47;electrificado&gt;&quot;
+	ELECTRIFIC = &quot;&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;transportes&#47;electrificacion&#47;electrificado&gt;&quot;
 }
 else if(ELECTRIFIC == &quot;02&quot;){
-	ELECTRIFIC = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;electrificacion&#47;no-electrificado&gt;&quot;
+	ELECTRIFIC = &quot;&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;transportes&#47;electrificacion&#47;no-electrificado&gt;&quot;
 }
 else{
 	ELECTRIFIC = &quot;&quot;
@@ -284,23 +284,23 @@ else{
 
 &#47;&#47;ESTADO
 if(ESTADO == &quot;01&quot;){
-	ESTADO = &apos;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;estado-de-uso&#47;en-uso&gt;&apos;;
+	ESTADO = &apos;&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;transportes&#47;estado-de-uso&#47;en-uso&gt;&apos;;
 }
 else if(ESTADO == &quot;02&quot;){
-	ESTADO = &apos;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;estado-de-uso&#47;en-construccion&gt;&apos;;
+	ESTADO = &apos;&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;transportes&#47;estado-de-uso&#47;en-construccion&gt;&apos;;
 }
 else{
-	ESTADO = &apos;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;estado-de-uso&#47;abandonado&gt;&apos;;
+	ESTADO = &apos;&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;transportes&#47;estado-de-uso&#47;abandonado&gt;&apos;;
 }
 
 
 
 &#47;&#47;NUM_VIAS
 if(NUM_VIAS == &quot;01&quot;){
-	NUM_VIAS = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;numero-de-vias&#47;unica&gt;&quot;
+	NUM_VIAS = &quot;&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;transportes&#47;numero-de-vias&#47;unica&gt;&quot;
 }
 else if(NUM_VIAS == &quot;02&quot;){
-	NUM_VIAS = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;numero-de-vias&#47;doble&gt;&quot;
+	NUM_VIAS = &quot;&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;transportes&#47;numero-de-vias&#47;doble&gt;&quot;
 }
 else{
 	NUM_VIAS = &quot;&quot;
@@ -308,19 +308,19 @@ else{
 
 
 if(TRAFICO == &quot;01&quot;){
-	TRAFICO = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;tipo-de-trafico&#47;mixto&gt;&quot;
+	TRAFICO = &quot;&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;transportes&#47;tipo-de-trafico&#47;mixto&gt;&quot;
 }
 else if(TRAFICO == &quot;02&quot;){
-	TRAFICO = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;tipo-de-trafico&#47;viajeros&gt;&quot;
+	TRAFICO = &quot;&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;transportes&#47;tipo-de-trafico&#47;viajeros&gt;&quot;
 }
 else if(TRAFICO == &quot;03&quot;){
-	TRAFICO = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;tipo-de-trafico&#47;mercancias&gt;&quot;
+	TRAFICO = &quot;&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;transportes&#47;tipo-de-trafico&#47;mercancias&gt;&quot;
 }
 else{
 	TRAFICO = &quot;&quot;
 }
 
-var type = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;ontology&#47;Ferrocarril&gt;&quot;</jsScript_script>
+var type = &quot;&lt;http:&#47;&#47;geo.linkeddata.es&#47;ontology&#47;Ferrocarril&gt;&quot;</jsScript_script>
       </jsScript>    </jsScripts>    <fields>      <field>        <name>FECHA_ALTA</name>
         <rename>FECHA_ALTA</rename>
         <type>String</type>
@@ -395,9 +395,9 @@ var type = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;ontology&#47;Ferrocarril&g
            </partitioning>
 		<attributename>ID</attributename>
 		<feature>FerrocarrilConvencional</feature>
-		<ontologyns>https://datos.ign.es/def/btn100#</ontologyns>
+		<ontologyns>http://geo.linkeddata.es/def/btn100#</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/btn100/ferrocarril-convencional/</resourcens>
+		<resourcens>http://geo.linkeddata.es/recurso/btn100/ferrocarril-convencional/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -450,56 +450,56 @@ var type = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;ontology&#47;Ferrocarril&g
 		<columns>
 		<column>anchoDeVia</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>ANCHO_VIA</column_shp>
 		</columns>
 		<columns>
 		<column>codigoDeVia</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>COD_VIA</column_shp>
 		</columns>
 		<columns>
 		<column>electrificacion</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>ELECTRIFIC</column_shp>
 		</columns>
 		<columns>
 		<column>estadoDeUso</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>ESTADO</column_shp>
 		</columns>
 		<columns>
 		<column>numeroDeVias</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>NUM_VIAS</column_shp>
 		</columns>
 		<columns>
 		<column>situacionDevia</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>SITUACION</column_shp>
 		</columns>
 		<columns>
 		<column>rutaTEN-T</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>TEN_T</column_shp>
 		</columns>
 		<columns>
 		<column>tipoDeTrafico</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>TRAFICO</column_shp>
 		</columns>

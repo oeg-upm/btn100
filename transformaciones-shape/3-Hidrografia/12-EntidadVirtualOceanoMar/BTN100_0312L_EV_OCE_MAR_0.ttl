@@ -1,11 +1,11 @@
 @prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix sf:    <http://www.opengis.net/ont/sf#> .
-@prefix btn100: <https://datos.ign.es/def/btn100#> .
+@prefix btn100: <http://geo.linkeddata.es/def/btn100#> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl:   <http://www.w3.org/2002/07/owl#> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
-@prefix georec: <https://datos.ign.es/recurso/btn100/mar/> .
+@prefix georec: <http://geo.linkeddata.es/recurso/btn100/mar/> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
 @prefix dc:    <http://purl.org/dc/terms/> .
@@ -15,10 +15,10 @@ georec:14  a                   btn100:Mar ;
         dc:created             "2013-01-17"^^xsd:date ;
         dc:identifier          "14" ;
         dc:title               "MAR MEDITERRÁNEO" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/mar/14/geometry> ;
-        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/mar/14/geometry> ;
+        btn100:productoFuente  <http://geo.linkeddata.es/kos/producto-fuente/mp-serie-c> .
 
-<https://datos.ign.es/recurso/btn100/mar/17/geometry>
+<http://geo.linkeddata.es/recurso/btn100/mar/17/geometry>
         a                sf:LineString ;
         geosparql:asWKT  "LINESTRING (-7.451897889999997 36.86025745557102, -6.66115901 36.86397836557521)"^^geosparql:wktLiteral .
 
@@ -27,14 +27,14 @@ georec:27  a                   btn100:Mar ;
         dc:created             "2013-02-06"^^xsd:date ;
         dc:identifier          "27" ;
         dc:title               "MAR CANTÁBRICO" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/mar/27/geometry> ;
-        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/mar/27/geometry> ;
+        btn100:productoFuente  <http://geo.linkeddata.es/kos/producto-fuente/mp-serie-c> .
 
-<https://datos.ign.es/recurso/btn100/mar/14/geometry>
+<http://geo.linkeddata.es/recurso/btn100/mar/14/geometry>
         a                sf:LineString ;
         geosparql:asWKT  "LINESTRING (-5.07874008 36.269881574889396, -4.952359680000001 36.31627431494432, -4.61083713 36.43448499508319, -4.44138477 36.48681788514421, -4.27771058 36.53393172519888, -4.10409031 36.5818984152543, -3.9922584399999996 36.61140859528828)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/mar/11/geometry>
+<http://geo.linkeddata.es/recurso/btn100/mar/11/geometry>
         a                sf:LineString ;
         geosparql:asWKT  "LINESTRING (-4.365791980000001 43.51406284022164, -4.048667900000001 43.517411610222446)"^^geosparql:wktLiteral .
 
@@ -43,25 +43,25 @@ georec:6  a                    btn100:Mar ;
         dc:created             "2012-02-29"^^xsd:date ;
         dc:identifier          "6" ;
         dc:title               "Mar Mediterráneo" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/mar/6/geometry> ;
-        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/mar/6/geometry> ;
+        btn100:productoFuente  <http://geo.linkeddata.es/kos/producto-fuente/mp> .
 
 georec:21  a                   btn100:Mar ;
         rdfs:label             "21" ;
         dc:created             "2013-01-11"^^xsd:date ;
         dc:identifier          "21" ;
         dc:title               "OCÉANO ATLÁNTICO" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/mar/21/geometry> ;
-        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/mar/21/geometry> ;
+        btn100:productoFuente  <http://geo.linkeddata.es/kos/producto-fuente/mp-serie-c> .
 
 georec:34  a                   btn100:Mar ;
         rdfs:label             "34" ;
         dc:identifier          "34" ;
         dc:title               "OCÉANO ATLÁNTICO" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/mar/34/geometry> ;
-        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/mar/34/geometry> ;
+        btn100:productoFuente  <http://geo.linkeddata.es/kos/producto-fuente/mp> .
 
-<https://datos.ign.es/recurso/btn100/mar/34/geometry>
+<http://geo.linkeddata.es/recurso/btn100/mar/34/geometry>
         a                sf:LineString ;
         geosparql:asWKT  "LINESTRING (-18.111200729999997 27.971358402524668, -17.403235589999994 28.54781497347779, -17.036778589999997 28.760306223828202)"^^geosparql:wktLiteral .
 
@@ -70,18 +70,18 @@ georec:19  a                   btn100:Mar ;
         dc:created             "2013-03-17"^^xsd:date ;
         dc:identifier          "19" ;
         dc:title               "Mar Mediterráneo" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/mar/19/geometry> ;
-        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/mar/19/geometry> ;
+        btn100:productoFuente  <http://geo.linkeddata.es/kos/producto-fuente/mp-serie-c> .
 
-<https://datos.ign.es/recurso/btn100/mar/9/geometry>
+<http://geo.linkeddata.es/recurso/btn100/mar/9/geometry>
         a                sf:LineString ;
         geosparql:asWKT  "LINESTRING (-1.46936453 37.33781955609444, -1.4115132199999998 37.336858446093416, -1.3653083900000005 37.337220496093806, -1.2126037700000003 37.3459187561031, -1.1640401700000003 37.35112421610867, -1.1169457999999997 37.35692797611485, -1.0728047799999993 37.36355428612191, -1.0313731099999999 37.37080408612963, -0.9814148099999997 37.38067025614013, -0.9366773000000002 37.39001144615008, -0.8928843100000001 37.4007404961615, -0.8515528799999998 37.4118945161733, -0.80768437 37.424374936186545, -0.7627606200000002 37.43840523620139, -0.7202946099999998 37.45286222621668)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/mar/6/geometry>
+<http://geo.linkeddata.es/recurso/btn100/mar/6/geometry>
         a                sf:LineString ;
         geosparql:asWKT  "LINESTRING (3.143806390000001 41.683927609551084, 3.1744730300000006 41.71168200956489, 3.203317020000001 41.74151607957964, 3.229400470000001 41.7706533695939, 3.2564334700000006 41.79908755960772, 3.2807153200000005 41.83030159962275, 3.3059504000000004 41.86150779963762, 3.3302836399999998 41.89340574965268, 3.3527763800000003 41.92460912966727, 3.3752951900000014 41.95650272968204)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/mar/3/geometry>
+<http://geo.linkeddata.es/recurso/btn100/mar/3/geometry>
         a                sf:LineString ;
         geosparql:asWKT  "LINESTRING (-0.4170025800000001 37.851976506628766, -0.3792240499999999 37.892106426669194, -0.34911435 37.93087928670802, -0.2250331500000001 38.06086085683694, -0.18905762 38.098509666873895, -0.15057217 38.134485196909054, -0.11459664 38.16544088693919, -0.07945775 38.19806985697082, -0.04097229 38.23153546700312, 0.00085972 38.26416443703448, 0.04101845 38.29595676706492, 0.08285046 38.326075817093646, 0.12551911 38.3528483071191, 0.17153433 38.38045743714521, 0.2208961 38.40890319717205)"^^geosparql:wktLiteral .
 
@@ -90,14 +90,14 @@ georec:13  a                   btn100:Mar ;
         dc:created             "2012-12-28"^^xsd:date ;
         dc:identifier          "13" ;
         dc:title               "MAR MEDITERRÁNEO" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/mar/13/geometry> ;
-        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/mar/13/geometry> ;
+        btn100:productoFuente  <http://geo.linkeddata.es/kos/producto-fuente/mp-serie-c> .
 
-<https://datos.ign.es/recurso/btn100/mar/27/geometry>
+<http://geo.linkeddata.es/recurso/btn100/mar/27/geometry>
         a                sf:LineString ;
         geosparql:asWKT  "LINESTRING (-6.50607286 43.69199771026037, -5.754822880000001 43.74204990027041, -5.408823840000002 43.72593686026721, -4.9886817400000005 43.68799529025954)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/mar/24/geometry>
+<http://geo.linkeddata.es/recurso/btn100/mar/24/geometry>
         a                sf:LineString ;
         geosparql:asWKT  "LINESTRING (-9.140982410000001 43.38625931019093, -8.760041159999998 43.55471293023092, -8.2711231 43.8115241002837)"^^geosparql:wktLiteral .
 
@@ -106,26 +106,26 @@ georec:26  a                   btn100:Mar ;
         dc:created             "2010-08-25"^^xsd:date ;
         dc:identifier          "26" ;
         dc:title               "MAR CANTÁBRICO" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/mar/26/geometry> ;
-        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/mar/26/geometry> ;
+        btn100:productoFuente  <http://geo.linkeddata.es/kos/producto-fuente/mp> .
 
 georec:5  a                    btn100:Mar ;
         rdfs:label             "5" ;
         dc:created             "2012-04-27"^^xsd:date ;
         dc:identifier          "5" ;
         dc:title               "MAR CANTÁBRICO" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/mar/5/geometry> ;
-        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/mar/5/geometry> ;
+        btn100:productoFuente  <http://geo.linkeddata.es/kos/producto-fuente/mp> .
 
 georec:20  a                   btn100:Mar ;
         rdfs:label             "20" ;
         dc:created             "2013-03-17"^^xsd:date ;
         dc:identifier          "20" ;
         dc:title               "Mar Mediterráneo" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/mar/20/geometry> ;
-        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/mar/20/geometry> ;
+        btn100:productoFuente  <http://geo.linkeddata.es/kos/producto-fuente/mp-serie-c> .
 
-<https://datos.ign.es/recurso/btn100/mar/16/geometry>
+<http://geo.linkeddata.es/recurso/btn100/mar/16/geometry>
         a                sf:LineString ;
         geosparql:asWKT  "LINESTRING (-6.41618705 36.23848917485212, -6.39471701 36.213760544822684, -6.373402560000001 36.192328574797116, -6.353480620000001 36.17140431477211, -6.334131340000001 36.14770597474374, -6.31296767 36.12901249472131, -6.25313065 36.07776681465965, -6.230762309999999 36.061844994640445, -6.202237239999998 36.044430734619404, -6.1773111100000015 36.03187229460422, -6.146951179999999 36.01890035458849, -6.118697959999999 36.0075184545747, -6.092527359999999 35.99717783456215, -6.0622148 35.984733394547035, -6.031953480000001 35.97338165453325)"^^geosparql:wktLiteral .
 
@@ -133,14 +133,14 @@ georec:33  a                   btn100:Mar ;
         rdfs:label             "33" ;
         dc:identifier          "33" ;
         dc:title               "OCÉANO ATLÁNTICO" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/mar/33/geometry> ;
-        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/mar/33/geometry> ;
+        btn100:productoFuente  <http://geo.linkeddata.es/kos/producto-fuente/mp> .
 
-<https://datos.ign.es/recurso/btn100/mar/13/geometry>
+<http://geo.linkeddata.es/recurso/btn100/mar/13/geometry>
         a                sf:LineString ;
         geosparql:asWKT  "LINESTRING (-4.194106309999999 36.62842538530783, -2.33804041 36.62635029530546)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/mar/10/geometry>
+<http://geo.linkeddata.es/recurso/btn100/mar/10/geometry>
         a                sf:LineString ;
         geosparql:asWKT  "LINESTRING (-0.84766786 37.71878717649335, -0.7910520799999999 37.718005726492535)"^^geosparql:wktLiteral .
 
@@ -149,34 +149,34 @@ georec:18  a                   btn100:Mar ;
         dc:created             "2013-03-17"^^xsd:date ;
         dc:identifier          "18" ;
         dc:title               "Mar Mediterráneo" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/mar/18/geometry> ;
-        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/mar/18/geometry> ;
+        btn100:productoFuente  <http://geo.linkeddata.es/kos/producto-fuente/mp-serie-c> .
 
 georec:12  a                   btn100:Mar ;
         rdfs:label             "12" ;
         dc:created             "2013-06-13"^^xsd:date ;
         dc:identifier          "12" ;
         dc:title               "MAR MEDITERRÁNEO" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/mar/12/geometry> ;
-        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/mar/12/geometry> ;
+        btn100:productoFuente  <http://geo.linkeddata.es/kos/producto-fuente/mp> .
 
 georec:25  a                   btn100:Mar ;
         rdfs:label             "25" ;
         dc:created             "2010-08-25"^^xsd:date ;
         dc:identifier          "25" ;
         dc:title               "OCÉANO ATLÁNTICO" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/mar/25/geometry> ;
-        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/mar/25/geometry> ;
+        btn100:productoFuente  <http://geo.linkeddata.es/kos/producto-fuente/mp> .
 
-<https://datos.ign.es/recurso/btn100/mar/8/geometry>
+<http://geo.linkeddata.es/recurso/btn100/mar/8/geometry>
         a                sf:LineString ;
         geosparql:asWKT  "LINESTRING (0.92155351 40.57136644890655, 1.2099510100000002 40.750550429022134, 1.5512887700000004 41.03795874919813)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/mar/5/geometry>
+<http://geo.linkeddata.es/recurso/btn100/mar/5/geometry>
         a                sf:LineString ;
         geosparql:asWKT  "LINESTRING (-3.05765912 43.499736140218324, -1.86150733 43.4970044802177)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/mar/2/geometry>
+<http://geo.linkeddata.es/recurso/btn100/mar/2/geometry>
         a                sf:LineString ;
         geosparql:asWKT  "LINESTRING (-0.25204826 39.32256944797971, 0.05444847 39.315893057974165)"^^geosparql:wktLiteral .
 
@@ -185,18 +185,18 @@ georec:4  a                    btn100:Mar ;
         dc:created             "2012-06-05"^^xsd:date ;
         dc:identifier          "4" ;
         dc:title               "Mar Cantábrico" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/mar/4/geometry> ;
-        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/mar/4/geometry> ;
+        btn100:productoFuente  <http://geo.linkeddata.es/kos/producto-fuente/mp-serie-c> .
 
-<https://datos.ign.es/recurso/btn100/mar/29/geometry>
+<http://geo.linkeddata.es/recurso/btn100/mar/29/geometry>
         a                sf:LineString ;
         geosparql:asWKT  "LINESTRING (-2.9257757099999995 35.30863664370276, -2.921838100000001 35.30226376369458, -2.916979229999999 35.290090183678984, -2.914438679999999 35.27991476366593)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/mar/26/geometry>
+<http://geo.linkeddata.es/recurso/btn100/mar/26/geometry>
         a                sf:LineString ;
         geosparql:asWKT  "LINESTRING (-7.337476189999999 43.751785450272294, -7.12787703 43.75088209027212, -6.806653410000001 43.751923530272336)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/mar/20/geometry>
+<http://geo.linkeddata.es/recurso/btn100/mar/20/geometry>
         a                sf:LineString ;
         geosparql:asWKT  "LINESTRING (0.58621275 38.58263936733375, 0.7417157200000001 38.49421692725192, 0.9449519000000001 38.38451296714904)"^^geosparql:wktLiteral .
 
@@ -205,10 +205,10 @@ georec:17  a                   btn100:Mar ;
         dc:created             "2010-09-20"^^xsd:date ;
         dc:identifier          "17" ;
         dc:title               "OCEANO ATLANTICO" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/mar/17/geometry> ;
-        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/mar/17/geometry> ;
+        btn100:productoFuente  <http://geo.linkeddata.es/kos/producto-fuente/mp> .
 
-<https://datos.ign.es/recurso/btn100/mar/19/geometry>
+<http://geo.linkeddata.es/recurso/btn100/mar/19/geometry>
         a                sf:LineString ;
         geosparql:asWKT  "LINESTRING (1.911968289999999 39.25707604792536, 2.06737395 39.16689355784963, 2.270572310000001 39.0548929277541)"^^geosparql:wktLiteral .
 
@@ -217,42 +217,42 @@ georec:11  a                   btn100:Mar ;
         dc:created             "2012-12-15"^^xsd:date ;
         dc:identifier          "11" ;
         dc:title               "MAR CANTÁBRICO" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/mar/11/geometry> ;
-        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/mar/11/geometry> ;
+        btn100:productoFuente  <http://geo.linkeddata.es/kos/producto-fuente/mp-serie-c> .
 
 georec:9  a                    btn100:Mar ;
         rdfs:label             "9" ;
         dc:created             "2010-10-27"^^xsd:date ;
         dc:identifier          "9" ;
         dc:title               "MAR MEDITERRÁNEO" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/mar/9/geometry> ;
-        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/mar/9/geometry> ;
+        btn100:productoFuente  <http://geo.linkeddata.es/kos/producto-fuente/mp> .
 
 georec:24  a                   btn100:Mar ;
         rdfs:label             "24" ;
         dc:created             "2010-08-12"^^xsd:date ;
         dc:identifier          "24" ;
         dc:title               "OCÉANO ATLÁNTICO" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/mar/24/geometry> ;
-        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/mar/24/geometry> ;
+        btn100:productoFuente  <http://geo.linkeddata.es/kos/producto-fuente/mp> .
 
 georec:3  a                    btn100:Mar ;
         rdfs:label             "3" ;
         dc:created             "2012-02-16"^^xsd:date ;
         dc:identifier          "3" ;
         dc:title               "Mar Mediterráneo" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/mar/3/geometry> ;
-        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/mar/3/geometry> ;
+        btn100:productoFuente  <http://geo.linkeddata.es/kos/producto-fuente/mp> .
 
-<https://datos.ign.es/recurso/btn100/mar/33/geometry>
+<http://geo.linkeddata.es/recurso/btn100/mar/33/geometry>
         a                sf:LineString ;
         geosparql:asWKT  "LINESTRING (-17.036778589999997 28.760306223828202, -16.490655180000005 28.894528494049187, -16.195045429999997 28.934016104114146)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/mar/7/geometry>
+<http://geo.linkeddata.es/recurso/btn100/mar/7/geometry>
         a                sf:LineString ;
         geosparql:asWKT  "LINESTRING (2.2097088099999995 41.21076185929837, 2.5497611800000004 41.439883779424726)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/mar/4/geometry>
+<http://geo.linkeddata.es/recurso/btn100/mar/4/geometry>
         a                sf:LineString ;
         geosparql:asWKT  "LINESTRING (-3.03732445 43.509329730220564, -2.58954583 43.50859911022041, -2.417792899999999 43.50678499021999)"^^geosparql:wktLiteral .
 
@@ -261,22 +261,22 @@ georec:16  a                   btn100:Mar ;
         dc:created             "2010-09-29"^^xsd:date ;
         dc:identifier          "16" ;
         dc:title               "OCEANO ATLANTICO" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/mar/16/geometry> ;
-        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/mar/16/geometry> ;
+        btn100:productoFuente  <http://geo.linkeddata.es/kos/producto-fuente/mp> .
 
 georec:29  a                   btn100:Mar ;
         rdfs:label             "29" ;
         dc:created             "2013-06-17"^^xsd:date ;
         dc:identifier          "29" ;
         dc:title               "MAR MEDITERRÁNEO" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/mar/29/geometry> ;
-        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/mar/29/geometry> ;
+        btn100:productoFuente  <http://geo.linkeddata.es/kos/producto-fuente/mp-serie-c> .
 
-<https://datos.ign.es/recurso/btn100/mar/25/geometry>
+<http://geo.linkeddata.es/recurso/btn100/mar/25/geometry>
         a                sf:LineString ;
         geosparql:asWKT  "LINESTRING (-8.097520629999998 43.81048499028351, -7.833209960000004 43.8092754302833, -7.652501019999999 43.81679203028467)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/mar/22/geometry>
+<http://geo.linkeddata.es/recurso/btn100/mar/22/geometry>
         a                sf:LineString ;
         geosparql:asWKT  "LINESTRING (-15.52038362 28.637755493626184, -14.26546392 28.639336443628807)"^^geosparql:wktLiteral .
 
@@ -285,18 +285,18 @@ georec:10  a                   btn100:Mar ;
         dc:created             "2012-08-06"^^xsd:date ;
         dc:identifier          "10" ;
         dc:title               "MAR MENOR" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/mar/10/geometry> ;
-        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/mar/10/geometry> ;
+        btn100:productoFuente  <http://geo.linkeddata.es/kos/producto-fuente/mp-serie-c> .
 
 georec:8  a                    btn100:Mar ;
         rdfs:label             "8" ;
         dc:created             "2012-03-27"^^xsd:date ;
         dc:identifier          "8" ;
         dc:title               "MAR MEDITERRÁNEO" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/mar/8/geometry> ;
-        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/mar/8/geometry> ;
+        btn100:productoFuente  <http://geo.linkeddata.es/kos/producto-fuente/mp-serie-c> .
 
-<https://datos.ign.es/recurso/btn100/mar/18/geometry>
+<http://geo.linkeddata.es/recurso/btn100/mar/18/geometry>
         a                sf:LineString ;
         geosparql:asWKT  "LINESTRING (3.5911757400000015 39.894617438430316, 3.7458090699999986 39.80220424836045, 3.948122619999999 39.687291098272006)"^^geosparql:wktLiteral .
 
@@ -305,14 +305,14 @@ georec:2  a                    btn100:Mar ;
         dc:created             "2012-01-18"^^xsd:date ;
         dc:identifier          "2" ;
         dc:title               "Mar Mediterráneo" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/mar/2/geometry> ;
-        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/mar/2/geometry> ;
+        btn100:productoFuente  <http://geo.linkeddata.es/kos/producto-fuente/serie-c> .
 
-<https://datos.ign.es/recurso/btn100/mar/15/geometry>
+<http://geo.linkeddata.es/recurso/btn100/mar/15/geometry>
         a                sf:LineString ;
         geosparql:asWKT  "LINESTRING (-5.312456910000001 35.97845247453941, -5.2841243 36.00103432456684, -5.2567105 36.023592384594195, -5.204982059999998 36.0807926546633, -5.157154099999998 36.146260704742, -5.127603929999999 36.19694728480263, -5.10172724 36.24604234486109, -5.077675920000001 36.29434025491838, -5.054694779999999 36.34869468498254)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/mar/12/geometry>
+<http://geo.linkeddata.es/recurso/btn100/mar/12/geometry>
         a                sf:LineString ;
         geosparql:asWKT  "LINESTRING (-1.96498074 36.76926792546842, -1.822399859999999 36.87526793558785, -1.6864735799999995 37.01153973573959, -1.5820215900000003 37.24066609599006)"^^geosparql:wktLiteral .
 
@@ -321,38 +321,38 @@ georec:15  a                   btn100:Mar ;
         dc:created             "2010-09-29"^^xsd:date ;
         dc:identifier          "15" ;
         dc:title               "MAR MEDITERRANEO" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/mar/15/geometry> ;
-        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/mar/15/geometry> ;
+        btn100:productoFuente  <http://geo.linkeddata.es/kos/producto-fuente/mp> .
 
 georec:28  a                   btn100:Mar ;
         rdfs:label             "28" ;
         dc:created             "2013-06-17"^^xsd:date ;
         dc:identifier          "28" ;
         dc:title               "MAR MEDITERRÁNEO" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/mar/28/geometry> ;
-        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/mar/28/geometry> ;
+        btn100:productoFuente  <http://geo.linkeddata.es/kos/producto-fuente/mp-serie-c> .
 
 georec:7  a                    btn100:Mar ;
         rdfs:label             "7" ;
         dc:created             "2011-03-22"^^xsd:date ;
         dc:identifier          "7" ;
         dc:title               "MAR MEDITERRÁNEO" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/mar/7/geometry> ;
-        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/mar/7/geometry> ;
+        btn100:productoFuente  <http://geo.linkeddata.es/kos/producto-fuente/mp-serie-c> .
 
 georec:22  a                   btn100:Mar ;
         rdfs:label             "22" ;
         dc:created             "2013-03-27"^^xsd:date ;
         dc:identifier          "22" ;
         dc:title               "OCÉANO ATLÁNTICO" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/mar/22/geometry> ;
-        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/mar/22/geometry> ;
+        btn100:productoFuente  <http://geo.linkeddata.es/kos/producto-fuente/mp> .
 
-<https://datos.ign.es/recurso/btn100/mar/28/geometry>
+<http://geo.linkeddata.es/recurso/btn100/mar/28/geometry>
         a                sf:LineString ;
         geosparql:asWKT  "LINESTRING (-5.33819489 35.91575297446297, -5.289105760000001 35.916791014464245)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/mar/21/geometry>
+<http://geo.linkeddata.es/recurso/btn100/mar/21/geometry>
         a                sf:LineString ;
         geosparql:asWKT  "LINESTRING (-15.173510040000004 27.402314841582008, -14.114159780000003 27.60801530192283, -12.98968562 28.14775937281664)"^^geosparql:wktLiteral .
 

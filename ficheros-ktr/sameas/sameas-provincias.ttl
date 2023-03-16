@@ -1,5 +1,5 @@
  @prefix owl: <http://www.w3.org/2002/07/owl#> .
- @prefix georec: <https://datos.ign.es/recurso/btn100/provincia/> .
+ @prefix georec: <http://geo.linkeddata.es/recurso/btn100/provincia/> .
 
 georec:a-coruna  owl:sameAs  <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/A-Coruna>;
 			owl:sameAs  <http://es.dbpedia.org/resource/Provincia_de_La_Coruña>.
@@ -43,7 +43,7 @@ georec:cantabria  owl:sameAs  <http://datos.gob.es/recurso/sector-publico/territ
 georec:castello-castellon  owl:sameAs  <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Castellon>;
 			owl:sameAs  <http://es.dbpedia.org/resource/Provincia_de_Castellón>.
 
-<https://datos.ign.es/recurso/btn100/ciudad-autonoma/ciudad-autonoma-de-ceuta>  owl:sameAs  <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Ceuta>;
+<http://geo.linkeddata.es/recurso/btn100/ciudad-autonoma/ciudad-autonoma-de-ceuta>  owl:sameAs  <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Ceuta>;
 			owl:sameAs  <http://es.dbpedia.org/recurso/Ceuta>.
 
 georec:ciudad-real  owl:sameAs  <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Ciudad-Real>;
@@ -100,7 +100,7 @@ georec:madrid  owl:sameAs  <http://datos.gob.es/recurso/sector-publico/territori
 georec:malaga  owl:sameAs  <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Malaga>;
 			owl:sameAs  <http://es.dbpedia.org/resource/Provincia_de_Málaga>.
 
-<https://datos.ign.es/recurso/btn100/ciudad-autonoma/ciudad-autonoma-de-melilla>  owl:sameAs  <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Melilla>;
+<http://geo.linkeddata.es/recurso/btn100/ciudad-autonoma/ciudad-autonoma-de-melilla>  owl:sameAs  <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Melilla>;
 			owl:sameAs  <http://es.dbpedia.org/recurso/Melilla>.
 
 georec:murcia  owl:sameAs  <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Murcia>;

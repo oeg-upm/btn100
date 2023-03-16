@@ -29,7 +29,7 @@
 
       PREFIX dc: <http://purl.org/dc/terms/>
       PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
-      PREFIX btn100:<https://datos.ign.es/def/btn100#>
+      PREFIX btn100:<http://geo.linkeddata.es/def/btn100#>
 
       SELECT DISTINCT ?nombre ?geoLugarLocali WHERE {
         ?nucleo a btn100:NucleoPoblacionSuperficial .
@@ -50,7 +50,7 @@
 
       PREFIX dc: <http://purl.org/dc/terms/>
       PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
-      PREFIX btn100:<https://datos.ign.es/def/btn100#>
+      PREFIX btn100:<http://geo.linkeddata.es/def/btn100#>
 
       SELECT DISTINCT ?nombre WHERE {
         ?parque a btn100:ParqueNacional .
@@ -69,7 +69,7 @@
 
 ### ¿Cual es la altitud del Pico Tibidabo?
 
-      PREFIX btn100: <https://datos.ign.es/def/btn100#>
+      PREFIX btn100: <http://geo.linkeddata.es/def/btn100#>
       PREFIX dc: <http://purl.org/dc/terms/>
 
       SELECT DISTINCT ?nombre ?cota WHERE {
@@ -82,7 +82,7 @@
 
 ### ¿Cual es el pico de mayor altitud de España?
 
-      PREFIX btn100: <https://datos.ign.es/def/btn100#>
+      PREFIX btn100: <http://geo.linkeddata.es/def/btn100#>
       PREFIX dc: <http://purl.org/dc/terms/>
 
       SELECT DISTINCT ?nombre ?cota WHERE {
@@ -97,7 +97,7 @@
 ### ¿Cual es el pico de mayor altitud de la Provincia de Madrid?
 
       PREFIX esadm: <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#>
-      PREFIX btn100: <https://datos.ign.es/def/btn100#>
+      PREFIX btn100: <http://geo.linkeddata.es/def/btn100#>
       PREFIX dc: <http://purl.org/dc/terms/>
       PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
 
@@ -124,7 +124,7 @@
       PREFIX esadm: <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#>
       PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
       PREFIX dc: <http://purl.org/dc/terms/>
-      PREFIX btn100: <https://datos.ign.es/def/btn100#>
+      PREFIX btn100: <http://geo.linkeddata.es/def/btn100#>
 
       SELECT DISTINCT ?codigoMunicipio ?nombreMunicipio ?nombreAeropuerto WHERE {
         ?ccaa a esadm:ComunidadAutonoma .
@@ -152,7 +152,7 @@
 
 ### ¿Por cuáles CCAA discurre el río Tajo?
 
-      PREFIX btn100: <https://datos.ign.es/def/btn100#>
+      PREFIX btn100: <http://geo.linkeddata.es/def/btn100#>
       PREFIX dc: <http://purl.org/dc/terms/>
       PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
       PREFIX esadm: <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#>
@@ -178,7 +178,7 @@
       PREFIX esadm: <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#>
       PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
       PREFIX dc: <http://purl.org/dc/terms/>
-      PREFIX btn100: <https://datos.ign.es/def/btn100#>
+      PREFIX btn100: <http://geo.linkeddata.es/def/btn100#>
 
       SELECT DISTINCT ?nombreMunicipio WHERE {
         ?camino a btn100:ItinerarioDeCaminoDeSantiago .
@@ -202,7 +202,7 @@
       PREFIX esadm: <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#>
       PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
       PREFIX dc: <http://purl.org/dc/terms/>
-      PREFIX btn100: <https://datos.ign.es/def/btn100#>
+      PREFIX btn100: <http://geo.linkeddata.es/def/btn100#>
 
       SELECT DISTINCT ?nombrePlaya ?geoPlayaLocali WHERE {
         ?provincia a esadm:Provincia .
@@ -224,7 +224,7 @@
       PREFIX esadm: <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#>
       PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
       PREFIX dc: <http://purl.org/dc/terms/>
-      PREFIX btn100: <https://datos.ign.es/def/btn100#>
+      PREFIX btn100: <http://geo.linkeddata.es/def/btn100#>
 
       SELECT DISTINCT ?codigoLinea ?geoLineaLocali WHERE {
         ?municipio a esadm:Municipio .
@@ -247,7 +247,7 @@
       PREFIX esadm: <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#>
       PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
       PREFIX dc: <http://purl.org/dc/terms/>
-      PREFIX btn100: <https://datos.ign.es/def/btn100#>
+      PREFIX btn100: <http://geo.linkeddata.es/def/btn100#>
 
       SELECT DISTINCT ?codigoVertice ?nombreVertice WHERE {
         ?municipio a esadm:Municipio .

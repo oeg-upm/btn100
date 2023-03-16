@@ -258,11 +258,11 @@ else{
     <fields>
       <field>
         <source_value>01</source_value>
-        <target_value>&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;competencia-portuaria&#47;estatal&gt;</target_value>
+        <target_value>&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;transportes&#47;competencia-portuaria&#47;estatal&gt;</target_value>
       </field>
       <field>
         <source_value>02</source_value>
-        <target_value>&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;competencia-portuaria&#47;no-estatal&gt;</target_value>
+        <target_value>&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;transportes&#47;competencia-portuaria&#47;no-estatal&gt;</target_value>
       </field>
     </fields>
      <cluster_schema/>
@@ -289,15 +289,15 @@ else{
     <fields>
       <field>
         <source_value>01</source_value>
-        <target_value>&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;poblaciones-construcciones&#47;estado-de-uso&#47;en-uso&gt;</target_value>
+        <target_value>&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;poblaciones-construcciones&#47;estado-de-uso&#47;en-uso&gt;</target_value>
       </field>
       <field>
         <source_value>02</source_value>
-        <target_value>&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;poblaciones-construcciones&#47;estado-de-uso&#47;en-construccion&gt;</target_value>
+        <target_value>&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;poblaciones-construcciones&#47;estado-de-uso&#47;en-construccion&gt;</target_value>
       </field>
       <field>
         <source_value>03</source_value>
-        <target_value>&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;poblaciones-construcciones&#47;estado-de-uso&#47;abandonado&gt;</target_value>
+        <target_value>&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;poblaciones-construcciones&#47;estado-de-uso&#47;abandonado&gt;</target_value>
       </field>
     </fields>
      <cluster_schema/>
@@ -324,11 +324,11 @@ else{
     <fields>
       <field>
         <source_value>01</source_value>
-        <target_value>&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;ruta-ten-t&#47;ruta-no-transeuropea&gt;</target_value>
+        <target_value>&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;transportes&#47;ruta-ten-t&#47;ruta-no-transeuropea&gt;</target_value>
       </field>
       <field>
         <source_value>02</source_value>
-        <target_value>&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;ruta-ten-t&#47;ruta-transeuropea&gt;</target_value>
+        <target_value>&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;transportes&#47;ruta-ten-t&#47;ruta-transeuropea&gt;</target_value>
       </field>
     </fields>
      <cluster_schema/>
@@ -351,9 +351,9 @@ else{
            </partitioning>
 		<attributename>ID</attributename>
 		<feature>Puerto</feature>
-		<ontologyns>https://datos.ign.es/def/btn100#</ontologyns>
+		<ontologyns>http://geo.linkeddata.es/def/btn100#</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/btn100/puerto/</resourcens>
+		<resourcens>http://geo.linkeddata.es/recurso/btn100/puerto/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -406,21 +406,21 @@ else{
 		<columns>
 		<column>estadoDeUso</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>ESTADO</column_shp>
 		</columns>
 		<columns>
 		<column>competenciaPortuaria</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>COMPE_0613</column_shp>
 		</columns>
 		<columns>
 		<column>unloCode</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>UN_LOCODE</column_shp>
 		</columns>
@@ -434,7 +434,7 @@ else{
 		<columns>
 		<column>rutaTEN-T</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>TEN_T</column_shp>
 		</columns>

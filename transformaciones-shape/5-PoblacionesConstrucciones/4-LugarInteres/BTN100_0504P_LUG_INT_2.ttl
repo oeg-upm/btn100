@@ -1,16 +1,16 @@
 @prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix sf:    <http://www.opengis.net/ont/sf#> .
-@prefix btn100: <https://datos.ign.es/def/btn100#> .
+@prefix btn100: <http://geo.linkeddata.es/def/btn100#> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl:   <http://www.w3.org/2002/07/owl#> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
-@prefix georec: <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/> .
+@prefix georec: <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
 @prefix dc:    <http://purl.org/dc/terms/> .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/36149/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/36149/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-8.54512054 42.880561730045464)"^^geosparql:wktLiteral .
 
@@ -19,7 +19,7 @@ georec:34648  a                btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2013-02-26"^^xsd:date ;
         dc:identifier          "34648" ;
         dc:title               "Catedral de San Cristóbal de La Laguna" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/34648/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/34648/geometry> ;
         btn100:codigoBIC       "RI-51-0008733-00000" .
 
 georec:73335  a                btn100:PatrimonioDeLaHumanidad ;
@@ -27,10 +27,10 @@ georec:73335  a                btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2015-07-01"^^xsd:date ;
         dc:identifier          "73335" ;
         dc:title               "Ermita del Rosario" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/73335/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/73335/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/16614/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/16614/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-1.10642528 40.342506018752516)"^^geosparql:wktLiteral .
 
@@ -40,14 +40,14 @@ georec:12927  a                btn100:PatrimonioDeLaHumanidad ;
         dc:identifier          "12927" ;
         dc:replaces            "28660" ;
         dc:title               "Monestir de Santa Maria de Poblet" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/12927/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/12927/geometry> ;
         btn100:codigoBIC       "RI-51-0000197" .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/33256/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/33256/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.3383 38.91551003763299)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/15631/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/15631/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.89755853 41.65675666953743)"^^geosparql:wktLiteral .
 
@@ -57,7 +57,7 @@ georec:15633  a                btn100:PatrimonioDeLaHumanidad ;
         dc:identifier          "15633" ;
         dc:replaces            "1788" ;
         dc:title               "Abside, parroquieta y cimborrio de La Seo" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/15633/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/15633/geometry> ;
         btn100:codigoBIC       "RI-51-0001028" .
 
 georec:37518  a                btn100:PatrimonioDeLaHumanidad ;
@@ -65,10 +65,10 @@ georec:37518  a                btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2013-04-24"^^xsd:date ;
         dc:identifier          "37518" ;
         dc:title               "Torre de Hércules" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/37518/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/37518/geometry> ;
         btn100:codigoBIC       "51-0000540-00000" .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/19982/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/19982/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.11789173 40.94794835914427)"^^geosparql:wktLiteral .
 
@@ -77,7 +77,7 @@ georec:39665  a                btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2013-05-15"^^xsd:date ;
         dc:identifier          "39665" ;
         dc:title               "Muralla Romana de Lugo" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/39665/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/39665/geometry> ;
         btn100:codigoBIC       "RI-51-0000191" .
 
 georec:11502  a                btn100:PatrimonioDeLaHumanidad ;
@@ -85,10 +85,10 @@ georec:11502  a                btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2012-09-04"^^xsd:date ;
         dc:identifier          "11502" ;
         dc:title               "Palacio de la Música" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/11502/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/11502/geometry> ;
         btn100:codigoBIC       "RI-51-0003864" .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/17614/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/17614/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.13261631 40.07530349856358)"^^geosparql:wktLiteral .
 
@@ -97,14 +97,14 @@ georec:35035  a                btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2013-03-08"^^xsd:date ;
         dc:identifier          "35035" ;
         dc:title               "Parque Nacional del Teide" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/35035/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/35035/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/37518/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/37518/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-8.40652175 43.385916540190856)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/25522/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/25522/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.762072249999999 42.461416189896156)"^^geosparql:wktLiteral .
 
@@ -113,7 +113,7 @@ georec:3568  a                 btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2012-07-17"^^xsd:date ;
         dc:identifier          "3568" ;
         dc:title               "Paisaje Cultural de Aranjuez" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/3568/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/3568/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
 georec:29224  a                btn100:PatrimonioDeLaHumanidad ;
@@ -121,7 +121,7 @@ georec:29224  a                btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2013-05-17"^^xsd:date ;
         dc:identifier          "29224" ;
         dc:title               "La Alhambra" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/29224/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/29224/geometry> ;
         btn100:codigoBIC       "RI-51-0000009" .
 
 georec:6490  a                 btn100:PatrimonioDeLaHumanidad ;
@@ -129,7 +129,7 @@ georec:6490  a                 btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2013-03-08"^^xsd:date ;
         dc:identifier          "6490" ;
         dc:title               "Catedral de Burgos" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/6490/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/6490/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
 georec:11484  a                btn100:PatrimonioDeLaHumanidad ;
@@ -137,7 +137,7 @@ georec:11484  a                btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2012-09-04"^^xsd:date ;
         dc:identifier          "11484" ;
         dc:title               "Casa Vicens" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/11484/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/11484/geometry> ;
         btn100:codigoBIC       "RI-51-0003823" .
 
 georec:29152  a                btn100:PatrimonioDeLaHumanidad ;
@@ -145,10 +145,10 @@ georec:29152  a                btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2012-10-22"^^xsd:date ;
         dc:identifier          "29152" ;
         dc:title               "Jardínes del Generalife" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/29152/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/29152/geometry> ;
         btn100:codigoBIC       "RI-52-0000021" .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/29224/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/29224/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.5897027899999996 37.177449685921545)"^^geosparql:wktLiteral .
 
@@ -157,10 +157,10 @@ georec:33256  a                btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2012-08-06"^^xsd:date ;
         dc:identifier          "33256" ;
         dc:title               "Conjunto arqueológico de Mérida" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/33256/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/33256/geometry> ;
         btn100:codigoBIC       "RI-53-0000148" .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/4075/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/4075/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.8658816600000003 42.325848429842324)"^^geosparql:wktLiteral .
 
@@ -169,14 +169,14 @@ georec:6513  a                 btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2013-03-08"^^xsd:date ;
         dc:identifier          "6513" ;
         dc:title               "Arqueología de Atapuerca" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/6513/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/6513/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/11485/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/11485/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.17372301 41.40348102940514)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/73309/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/73309/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.780508799862066 37.87989608178751)"^^geosparql:wktLiteral .
 
@@ -185,14 +185,14 @@ georec:14618  a                btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2013-06-11"^^xsd:date ;
         dc:identifier          "14618" ;
         dc:title               "Conjunto Histórico Artístico El Camino de Santiago" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/14618/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/14618/geometry> ;
         btn100:codigoBIC       "53-0000035-00006" .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/35034/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/35034/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-17.247469560000003 28.129084482785746)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/11501/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/11501/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.0278839999999994 41.36396687938368)"^^geosparql:wktLiteral .
 
@@ -201,7 +201,7 @@ georec:15632  a                btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2012-07-31"^^xsd:date ;
         dc:identifier          "15632" ;
         dc:title               "Iglesia de San Pablo" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/15632/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/15632/geometry> ;
         btn100:codigoBIC       "RI-51-0001030" .
 
 georec:11501  a                btn100:PatrimonioDeLaHumanidad ;
@@ -209,7 +209,7 @@ georec:11501  a                btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2012-09-04"^^xsd:date ;
         dc:identifier          "11501" ;
         dc:title               "Cripta de la Colonia Güell" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/11501/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/11501/geometry> ;
         btn100:codigoBIC       "RI-51-0003825" .
 
 georec:4075  a                 btn100:PatrimonioDeLaHumanidad ;
@@ -217,14 +217,14 @@ georec:4075  a                 btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2013-03-08"^^xsd:date ;
         dc:identifier          "4075" ;
         dc:title               "Monasterio de San Millán de Yuso" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/4075/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/4075/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/37528/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/37528/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-8.543854100000003 42.879900520045226)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/1289/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/1289/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.3784798959180163 39.47528353849303)"^^geosparql:wktLiteral .
 
@@ -233,14 +233,14 @@ georec:35034  a                btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2013-03-08"^^xsd:date ;
         dc:identifier          "35034" ;
         dc:title               "Parque Nacional de Garajonay" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/35034/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/35034/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/3568/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/3568/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.604161379999999 40.036054008535004)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/2201/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/2201/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.6981707499999998 38.269740347039836)"^^geosparql:wktLiteral .
 
@@ -249,14 +249,14 @@ georec:2201  a                 btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2013-03-08"^^xsd:date ;
         dc:identifier          "2201" ;
         dc:title               "Palmeral de Elche" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/2201/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/2201/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/33258/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/33258/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.346853629999999 38.91493719763247)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/15633/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/15633/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.8756122099999997 41.65500586953653)"^^geosparql:wktLiteral .
 
@@ -265,14 +265,14 @@ georec:3567  a                 btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2012-07-17"^^xsd:date ;
         dc:identifier          "3567" ;
         dc:title               "Universidad y Recinto Histórico de Alcalá de Henares" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/3567/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/3567/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/15630/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/15630/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-1.40051968 41.33852497936974)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/28550/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/28550/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.09587675 37.67618627644957)"^^geosparql:wktLiteral .
 
@@ -281,7 +281,7 @@ georec:11483  a                btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2012-09-04"^^xsd:date ;
         dc:identifier          "11483" ;
         dc:title               "Parque Güell" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/11483/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/11483/geometry> ;
         btn100:codigoBIC       "RI-51-0003818" .
 
 georec:29192  a                btn100:PatrimonioDeLaHumanidad ;
@@ -289,10 +289,10 @@ georec:29192  a                btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2013-05-16"^^xsd:date ;
         dc:identifier          "29192" ;
         dc:title               "Alhambra y Generalife" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/29192/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/29192/geometry> ;
         btn100:codigoBIC       "RI-51-0010966-00000" .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/40959/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/40959/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.843095120000001 43.36260405018497)"^^geosparql:wktLiteral .
 
@@ -301,10 +301,10 @@ georec:14617  a                btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2013-06-11"^^xsd:date ;
         dc:identifier          "14617" ;
         dc:title               "Pirineos Monte Perdido" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/14617/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/14617/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/12927/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/12927/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (1.08353363 41.38133364939314)"^^geosparql:wktLiteral .
 
@@ -313,7 +313,7 @@ georec:30562  a                btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2013-04-15"^^xsd:date ;
         dc:identifier          "30562" ;
         dc:title               "Parque Nacional de Doñana" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/30562/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/30562/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
 georec:1289  a                 btn100:PatrimonioDeLaHumanidad ;
@@ -321,7 +321,7 @@ georec:1289  a                 btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2013-03-08"^^xsd:date ;
         dc:identifier          "1289" ;
         dc:title               "La Lonja de la Seda" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/1289/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/1289/geometry> ;
         btn100:codigoBIC       "RI-51-0000968-00002" .
 
 georec:16585  a                btn100:PatrimonioDeLaHumanidad ;
@@ -330,7 +330,7 @@ georec:16585  a                btn100:PatrimonioDeLaHumanidad ;
         dc:identifier          "16585" ;
         dc:replaces            "29918" ;
         dc:title               "Torre de la Iglesia de San Martín" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/16585/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/16585/geometry> ;
         btn100:codigoBIC       "RI-51-0004630-00000" .
 
 georec:30590  a                btn100:PatrimonioDeLaHumanidad ;
@@ -338,7 +338,7 @@ georec:30590  a                btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2013-06-11"^^xsd:date ;
         dc:identifier          "30590" ;
         dc:title               "Paisaje Cultural de la Sierra de Tramuntana" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/30590/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/30590/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
 georec:31761  a                btn100:PatrimonioDeLaHumanidad ;
@@ -346,14 +346,14 @@ georec:31761  a                btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2013-06-19"^^xsd:date ;
         dc:identifier          "31761" ;
         dc:title               "Mezquita-catedral de Córdoba" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/31761/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/31761/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/19221/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/19221/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.370978039999999 39.47634206810506)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/14618/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/14618/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-8.543068498898423 42.88347846266893)"^^geosparql:wktLiteral .
 
@@ -362,7 +362,7 @@ georec:41961  a                btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2013-03-08"^^xsd:date ;
         dc:identifier          "41961" ;
         dc:title               "Ciudad Histórica de Toledo" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/41961/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/41961/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
 georec:15631  a                btn100:PatrimonioDeLaHumanidad ;
@@ -370,10 +370,10 @@ georec:15631  a                btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2012-03-14"^^xsd:date ;
         dc:identifier          "15631" ;
         dc:title               "Restos Mudejares del Palacio de la Aljafería" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/15631/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/15631/geometry> ;
         btn100:codigoBIC       "RI-51-0001033" .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/4074/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/4074/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.8727795000000005 42.329399539843756)"^^geosparql:wktLiteral .
 
@@ -382,7 +382,7 @@ georec:11500  a                btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2012-09-04"^^xsd:date ;
         dc:identifier          "11500" ;
         dc:title               "Casa Batlló" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/11500/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/11500/geometry> ;
         btn100:codigoBIC       "RI-51-0003815-00001" .
 
 georec:4074  a                 btn100:PatrimonioDeLaHumanidad ;
@@ -390,22 +390,22 @@ georec:4074  a                 btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2013-03-08"^^xsd:date ;
         dc:identifier          "4074" ;
         dc:title               "Monasterio de San Millán de Suso" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/4074/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/4074/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/11487/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/11487/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.1742141100000003 41.37875206939173)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/11484/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/11484/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.1505710300000005 41.403499689405145)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/34648/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/34648/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-13.765056649999998 28.952408744144392)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/11503/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/11503/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.17434971 41.41265705941011)"^^geosparql:wktLiteral .
 
@@ -414,7 +414,7 @@ georec:3566  a                 btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2012-07-17"^^xsd:date ;
         dc:identifier          "3566" ;
         dc:title               "Monasterio y Real Sitio de El Escorial" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/3566/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/3566/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
 georec:28550  a                btn100:PatrimonioDeLaHumanidad ;
@@ -422,26 +422,26 @@ georec:28550  a                btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2013-06-11"^^xsd:date ;
         dc:identifier          "28550" ;
         dc:title               "Arte rupestre del arco mediterráneo en Almería" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/28550/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/28550/geometry> ;
         btn100:codigoBIC       "51-0011013-00000" .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/11500/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/11500/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.164889080000168 41.39163766939876)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/3567/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/3567/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.3629999999999995 40.48285003884784)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/15632/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/15632/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.88547357 41.65606447953707)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/22161/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/22161/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.664500000000001 40.96525003915471)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/16021/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/16021/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-1.10756495 40.34376266875338)"^^geosparql:wktLiteral .
 
@@ -450,10 +450,10 @@ georec:40959  a                btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2012-12-07"^^xsd:date ;
         dc:identifier          "40959" ;
         dc:title               "Cámara Santa de Oviedo" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/40959/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/40959/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/35029/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/35029/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-16.319925729999998 28.488293623379537)"^^geosparql:wktLiteral .
 
@@ -462,7 +462,7 @@ georec:31817  a                btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2013-06-17"^^xsd:date ;
         dc:identifier          "31817" ;
         dc:title               "Catedral, Alcázar y Archivo de indias de Sevilla" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/31817/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/31817/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
 georec:17614  a                btn100:PatrimonioDeLaHumanidad ;
@@ -470,7 +470,7 @@ georec:17614  a                btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2013-03-08"^^xsd:date ;
         dc:identifier          "17614" ;
         dc:title               "La Ciudad Histórica Amurallada de Cuenca" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/17614/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/17614/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
 georec:15630  a                btn100:PatrimonioDeLaHumanidad ;
@@ -478,7 +478,7 @@ georec:15630  a                btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2012-07-06"^^xsd:date ;
         dc:identifier          "15630" ;
         dc:title               "Catedral de Santa María de Teruel" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/15630/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/15630/geometry> ;
         btn100:codigoBIC       "RI-51-0001048" .
 
 georec:11487  a                btn100:PatrimonioDeLaHumanidad ;
@@ -486,7 +486,7 @@ georec:11487  a                btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2012-09-04"^^xsd:date ;
         dc:identifier          "11487" ;
         dc:title               "Palacio Güell" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/11487/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/11487/geometry> ;
         btn100:codigoBIC       "RI-51-0003821" .
 
 georec:37528  a                btn100:PatrimonioDeLaHumanidad ;
@@ -494,10 +494,10 @@ georec:37528  a                btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2012-11-12"^^xsd:date ;
         dc:identifier          "37528" ;
         dc:title               "Ciudad Vieja de Santiago de Compostela" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/37528/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/37528/geometry> ;
         btn100:codigoBIC       "53-0000003-00000" .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/22711/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/22711/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.7003 40.65646003896202)"^^geosparql:wktLiteral .
 
@@ -506,7 +506,7 @@ georec:27934  a                btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2012-09-27"^^xsd:date ;
         dc:identifier          "27934" ;
         dc:title               "Ciudad de Baeza" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/27934/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/27934/geometry> ;
         btn100:codigoBIC       "RI-53-0000071" .
 
 georec:22161  a                btn100:PatrimonioDeLaHumanidad ;
@@ -514,7 +514,7 @@ georec:22161  a                btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2013-03-08"^^xsd:date ;
         dc:identifier          "22161" ;
         dc:title               "Ciudad Vieja de Salamanca" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/22161/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/22161/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
 georec:19222  a                btn100:PatrimonioDeLaHumanidad ;
@@ -522,18 +522,18 @@ georec:19222  a                btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2012-07-31"^^xsd:date ;
         dc:identifier          "19222" ;
         dc:title               "Santuario de Nuestra Señora de Guadalupe" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/19222/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/19222/geometry> ;
         btn100:codigoBIC       "RI-51-0000024-00000" .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/31817/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/31817/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.993000000000001 37.38473003614446)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/27934/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/27934/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.470092 37.99518203677203)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/6513/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/6513/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.51942203 42.35000610985211)"^^geosparql:wktLiteral .
 
@@ -542,10 +542,10 @@ georec:73309  a                btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2014-06-17"^^xsd:date ;
         dc:identifier          "73309" ;
         dc:title               "Centro Histórico de Córdoba" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/73309/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/73309/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/31761/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/31761/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.779 37.87900003665601)"^^geosparql:wktLiteral .
 
@@ -554,7 +554,7 @@ georec:19982  a                btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2013-03-08"^^xsd:date ;
         dc:identifier          "19982" ;
         dc:title               "Ciudad vieja y acueducto de Segovia" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/19982/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/19982/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
 georec:16614  a                btn100:PatrimonioDeLaHumanidad ;
@@ -563,14 +563,14 @@ georec:16614  a                btn100:PatrimonioDeLaHumanidad ;
         dc:identifier          "16614" ;
         dc:replaces            "29918" ;
         dc:title               "Iglesia de San Pedro (Teruel)" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/16614/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/16614/geometry> ;
         btn100:codigoBIC       "RI-51-0000926-00001" .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/73335/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/73335/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.31756791601224 36.409601214166145)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/73308/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/73308/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (1.2587739309001753 41.1145988433406)"^^geosparql:wktLiteral .
 
@@ -579,34 +579,34 @@ georec:22711  a                btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2013-03-08"^^xsd:date ;
         dc:identifier          "22711" ;
         dc:title               "Ciudad Vieja de Ávila e Iglesias Extramuros" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/22711/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/22711/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/11483/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/11483/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.1523945700000002 41.4139525894108)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/4848/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/4848/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.01739578 43.323495330174936)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/11502/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/11502/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.1754484199999995 41.387419949396445)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/30562/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/30562/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.46190873 36.98982180571554)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/30590/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/30590/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.724920659999999 39.73431988830841)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/3566/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/3566/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.147837420000001 40.58906336891819)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/28075/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/28075/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.373836519999999 38.00957200678633)"^^geosparql:wktLiteral .
 
@@ -615,7 +615,7 @@ georec:11486  a                btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2012-09-04"^^xsd:date ;
         dc:identifier          "11486" ;
         dc:title               "Casa Milà (La Pedrera)" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/11486/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/11486/geometry> ;
         btn100:codigoBIC       "RI-51-0003814-00001" .
 
 georec:36149  a                btn100:PatrimonioDeLaHumanidad ;
@@ -623,7 +623,7 @@ georec:36149  a                btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2012-02-22"^^xsd:date ;
         dc:identifier          "36149" ;
         dc:title               "Catedral de Santiago de Compostela" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/36149/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/36149/geometry> ;
         btn100:codigoBIC       "RI-51-0000072" .
 
 georec:4848  a                 btn100:PatrimonioDeLaHumanidad ;
@@ -631,7 +631,7 @@ georec:4848  a                 btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2013-03-08"^^xsd:date ;
         dc:identifier          "4848" ;
         dc:title               "Puente de Vizcaya" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/4848/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/4848/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
 georec:33258  a                btn100:PatrimonioDeLaHumanidad ;
@@ -639,7 +639,7 @@ georec:33258  a                btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2013-03-08"^^xsd:date ;
         dc:identifier          "33258" ;
         dc:title               "Conjunto Arqueológico de Mérida" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/33258/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/33258/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
 georec:25522  a                btn100:PatrimonioDeLaHumanidad ;
@@ -648,7 +648,7 @@ georec:25522  a                btn100:PatrimonioDeLaHumanidad ;
         dc:identifier          "25522" ;
         dc:replaces            "60358" ;
         dc:title               "Las Médulas" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/25522/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/25522/geometry> ;
         btn100:codigoBIC       "RI-51-000067" .
 
 georec:19221  a                btn100:PatrimonioDeLaHumanidad ;
@@ -656,7 +656,7 @@ georec:19221  a                btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2012-07-31"^^xsd:date ;
         dc:identifier          "19221" ;
         dc:title               "Ciudad Vieja de Cáceres" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/19221/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/19221/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
 georec:73308  a                btn100:PatrimonioDeLaHumanidad ;
@@ -664,10 +664,10 @@ georec:73308  a                btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2014-06-17"^^xsd:date ;
         dc:identifier          "73308" ;
         dc:title               "Conjunto arqueológico de Tarraco" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/73308/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/73308/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/29152/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/29152/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.5857383 37.17749788592159)"^^geosparql:wktLiteral .
 
@@ -676,18 +676,18 @@ georec:35029  a                btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2013-06-06"^^xsd:date ;
         dc:identifier          "35029" ;
         dc:title               "Conjunto Historico Artistico de la Ciudad de San Cristobal de La Laguna" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/35029/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/35029/geometry> ;
         btn100:codigoBIC       "RI-53-0000466" .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/41961/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/41961/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.024613 39.85690003840194)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/16585/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/16585/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-1.1093530299999999 40.34408861875361)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/19222/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/19222/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.3275 39.45277003808606)"^^geosparql:wktLiteral .
 
@@ -696,14 +696,14 @@ georec:28075  a                btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2012-09-27"^^xsd:date ;
         dc:identifier          "28075" ;
         dc:title               "Conjunto Histórico de la Ciudad de Úbeda" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/28075/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/28075/geometry> ;
         btn100:codigoBIC       "RI-53-0000024" .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/39665/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/39665/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-7.560760620000001 43.01372331008746)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/14617/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/14617/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (0.03464053 42.67543330997564)"^^geosparql:wktLiteral .
 
@@ -712,14 +712,14 @@ georec:11503  a                btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2012-09-04"^^xsd:date ;
         dc:identifier          "11503" ;
         dc:title               "Hospital de la Santa Cruz y San Pablo" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/11503/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/11503/geometry> ;
         btn100:codigoBIC       "RI-51-0004278-00002" .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/6490/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/6490/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.7039999999999997 42.34047003984826)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/11486/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/11486/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.161670000000167 41.395200039400684)"^^geosparql:wktLiteral .
 
@@ -728,10 +728,10 @@ georec:11485  a                btn100:PatrimonioDeLaHumanidad ;
         dc:created             "2012-09-04"^^xsd:date ;
         dc:identifier          "11485" ;
         dc:title               "Fachada de la Natividad y Cripta de la Sagrada Familia" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/11485/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/11485/geometry> ;
         btn100:codigoBIC       "RI-51-0003813" .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/35035/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/35035/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-16.618460570000003 28.266588353013184)"^^geosparql:wktLiteral .
 
@@ -741,10 +741,10 @@ georec:16021  a                btn100:PatrimonioDeLaHumanidad ;
         dc:identifier          "16021" ;
         dc:replaces            "29918" ;
         dc:title               "Catedral de Santa María de Teruel" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/patrimonio-humanidad/16021/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/16021/geometry> ;
         btn100:codigoBIC       "RI-51-0000925-00001" .
 
-<https://datos.ign.es/recurso/btn100/patrimonio-humanidad/29192/geometry>
+<http://geo.linkeddata.es/recurso/btn100/patrimonio-humanidad/29192/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.5866251200000003 37.17614325592013)"^^geosparql:wktLiteral .
 

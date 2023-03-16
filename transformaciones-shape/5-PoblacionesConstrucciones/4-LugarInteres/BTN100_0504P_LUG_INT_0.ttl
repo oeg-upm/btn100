@@ -1,16 +1,16 @@
 @prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix sf:    <http://www.opengis.net/ont/sf#> .
-@prefix btn100: <https://datos.ign.es/def/btn100#> .
+@prefix btn100: <http://geo.linkeddata.es/def/btn100#> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl:   <http://www.w3.org/2002/07/owl#> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
-@prefix georec: <https://datos.ign.es/recurso/btn100/vista-panoramica/> .
+@prefix georec: <http://geo.linkeddata.es/recurso/btn100/vista-panoramica/> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
 @prefix dc:    <http://purl.org/dc/terms/> .
 
-<https://datos.ign.es/recurso/btn100/vista-panoramica/3795/geometry>
+<http://geo.linkeddata.es/recurso/btn100/vista-panoramica/3795/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.6386049000000003 42.28391303982512)"^^geosparql:wktLiteral .
 
@@ -19,10 +19,10 @@ georec:11077  a                btn100:VistaPanoramica ;
         dc:created             "2012-03-21"^^xsd:date ;
         dc:identifier          "11077" ;
         dc:title               "Mirador" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/vista-panoramica/11077/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/vista-panoramica/11077/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
-<https://datos.ign.es/recurso/btn100/vista-panoramica/29791/geometry>
+<http://geo.linkeddata.es/recurso/btn100/vista-panoramica/29791/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.76968693 36.908122065624646)"^^geosparql:wktLiteral .
 
@@ -31,7 +31,7 @@ georec:11071  a                btn100:VistaPanoramica ;
         dc:created             "2012-03-21"^^xsd:date ;
         dc:identifier          "11071" ;
         dc:title               "Mirador" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/vista-panoramica/11071/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/vista-panoramica/11071/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
 georec:16226  a                btn100:VistaPanoramica ;
@@ -39,14 +39,14 @@ georec:16226  a                btn100:VistaPanoramica ;
         dc:created             "2010-09-16"^^xsd:date ;
         dc:identifier          "16226" ;
         dc:title               "Mirador de Cobra" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/vista-panoramica/16226/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/vista-panoramica/16226/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
-<https://datos.ign.es/recurso/btn100/vista-panoramica/18829/geometry>
+<http://geo.linkeddata.es/recurso/btn100/vista-panoramica/18829/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-7.226003770000001 39.58585169819248)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/vista-panoramica/11080/geometry>
+<http://geo.linkeddata.es/recurso/btn100/vista-panoramica/11080/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.1978052700000004 42.04958827972432)"^^geosparql:wktLiteral .
 
@@ -56,10 +56,10 @@ georec:18829  a                btn100:VistaPanoramica ;
         dc:identifier          "18829" ;
         dc:replaces            "58975" ;
         dc:title               "Mirador del Buraco" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/vista-panoramica/18829/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/vista-panoramica/18829/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
-<https://datos.ign.es/recurso/btn100/vista-panoramica/34535/geometry>
+<http://geo.linkeddata.es/recurso/btn100/vista-panoramica/34535/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-15.53924385 28.010737642589852)"^^geosparql:wktLiteral .
 
@@ -68,7 +68,7 @@ georec:31064  a                btn100:VistaPanoramica ;
         dc:created             "2010-09-30"^^xsd:date ;
         dc:identifier          "31064" ;
         dc:title               "Vista Panoràmica des Grau" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/vista-panoramica/31064/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/vista-panoramica/31064/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
 georec:21583  a                btn100:VistaPanoramica ;
@@ -76,14 +76,14 @@ georec:21583  a                btn100:VistaPanoramica ;
         dc:created             "2010-07-13"^^xsd:date ;
         dc:identifier          "21583" ;
         dc:title               "Mirador del Duero" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/vista-panoramica/21583/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/vista-panoramica/21583/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
-<https://datos.ign.es/recurso/btn100/vista-panoramica/11079/geometry>
+<http://geo.linkeddata.es/recurso/btn100/vista-panoramica/11079/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.18087834 42.091649739743)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/vista-panoramica/11076/geometry>
+<http://geo.linkeddata.es/recurso/btn100/vista-panoramica/11076/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.5401053600000005 42.0042677197039)"^^geosparql:wktLiteral .
 
@@ -92,7 +92,7 @@ georec:11076  a                btn100:VistaPanoramica ;
         dc:created             "2012-03-21"^^xsd:date ;
         dc:identifier          "11076" ;
         dc:title               "Mirador" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/vista-panoramica/11076/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/vista-panoramica/11076/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
 georec:3795  a                 btn100:VistaPanoramica ;
@@ -100,7 +100,7 @@ georec:3795  a                 btn100:VistaPanoramica ;
         dc:created             "2012-05-09"^^xsd:date ;
         dc:identifier          "3795" ;
         dc:title               "Mirador del Cerro Plandero" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/vista-panoramica/3795/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/vista-panoramica/3795/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
 georec:30415  a                btn100:VistaPanoramica ;
@@ -108,14 +108,14 @@ georec:30415  a                btn100:VistaPanoramica ;
         dc:created             "2008-07-02"^^xsd:date ;
         dc:identifier          "30415" ;
         dc:title               "Mirador" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/vista-panoramica/30415/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/vista-panoramica/30415/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
-<https://datos.ign.es/recurso/btn100/vista-panoramica/1276/geometry>
+<http://geo.linkeddata.es/recurso/btn100/vista-panoramica/1276/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.35147635 39.48111793810892)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/vista-panoramica/23911/geometry>
+<http://geo.linkeddata.es/recurso/btn100/vista-panoramica/23911/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.38262616 41.36862355938622)"^^geosparql:wktLiteral .
 
@@ -124,10 +124,10 @@ georec:16225  a                btn100:VistaPanoramica ;
         dc:created             "2010-08-20"^^xsd:date ;
         dc:identifier          "16225" ;
         dc:title               "Mirador del Río Radón" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/vista-panoramica/16225/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/vista-panoramica/16225/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
-<https://datos.ign.es/recurso/btn100/vista-panoramica/17930/geometry>
+<http://geo.linkeddata.es/recurso/btn100/vista-panoramica/17930/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.0715490100000005 40.23698920867907)"^^geosparql:wktLiteral .
 
@@ -136,7 +136,7 @@ georec:23911  a                btn100:VistaPanoramica ;
         dc:created             "2012-10-04"^^xsd:date ;
         dc:identifier          "23911" ;
         dc:title               "Mirador del Cura" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/vista-panoramica/23911/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/vista-panoramica/23911/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
 georec:17930  a                btn100:VistaPanoramica ;
@@ -145,10 +145,10 @@ georec:17930  a                btn100:VistaPanoramica ;
         dc:identifier          "17930" ;
         dc:replaces            "44070" ;
         dc:title               "El Ventano del Diablo" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/vista-panoramica/17930/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/vista-panoramica/17930/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
-<https://datos.ign.es/recurso/btn100/vista-panoramica/16224/geometry>
+<http://geo.linkeddata.es/recurso/btn100/vista-panoramica/16224/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-1.40267963 40.39346912878745)"^^geosparql:wktLiteral .
 
@@ -157,7 +157,7 @@ georec:1276  a                 btn100:VistaPanoramica ;
         dc:created             "2012-01-15"^^xsd:date ;
         dc:identifier          "1276" ;
         dc:title               "Mirador elevat" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/vista-panoramica/1276/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/vista-panoramica/1276/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
 georec:21582  a                btn100:VistaPanoramica ;
@@ -165,10 +165,10 @@ georec:21582  a                btn100:VistaPanoramica ;
         dc:created             "2010-07-13"^^xsd:date ;
         dc:identifier          "21582" ;
         dc:title               "Mirador de la Code" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/vista-panoramica/21582/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/vista-panoramica/21582/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
-<https://datos.ign.es/recurso/btn100/vista-panoramica/31064/geometry>
+<http://geo.linkeddata.es/recurso/btn100/vista-panoramica/31064/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.45047054 39.64508743823908)"^^geosparql:wktLiteral .
 
@@ -177,7 +177,7 @@ georec:23340  a                btn100:VistaPanoramica ;
         dc:created             "2010-08-05"^^xsd:date ;
         dc:identifier          "23340" ;
         dc:title               "Vista Panorámica" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/vista-panoramica/23340/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/vista-panoramica/23340/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
 georec:29791  a                btn100:VistaPanoramica ;
@@ -185,7 +185,7 @@ georec:29791  a                btn100:VistaPanoramica ;
         dc:created             "2013-02-26"^^xsd:date ;
         dc:identifier          "29791" ;
         dc:title               "Mirador" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/vista-panoramica/29791/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/vista-panoramica/29791/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
 georec:11075  a                btn100:VistaPanoramica ;
@@ -193,14 +193,14 @@ georec:11075  a                btn100:VistaPanoramica ;
         dc:created             "2012-03-21"^^xsd:date ;
         dc:identifier          "11075" ;
         dc:title               "Mirador" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/vista-panoramica/11075/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/vista-panoramica/11075/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
-<https://datos.ign.es/recurso/btn100/vista-panoramica/23878/geometry>
+<http://geo.linkeddata.es/recurso/btn100/vista-panoramica/23878/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.43144813 41.31475008935664)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/vista-panoramica/35031/geometry>
+<http://geo.linkeddata.es/recurso/btn100/vista-panoramica/35031/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-17.95147713 27.738077582138313)"^^geosparql:wktLiteral .
 
@@ -209,7 +209,7 @@ georec:30414  a                btn100:VistaPanoramica ;
         dc:created             "2008-07-02"^^xsd:date ;
         dc:identifier          "30414" ;
         dc:title               "Mirador" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/vista-panoramica/30414/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/vista-panoramica/30414/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
 georec:17093  a                btn100:VistaPanoramica ;
@@ -218,7 +218,7 @@ georec:17093  a                btn100:VistaPanoramica ;
         dc:identifier          "17093" ;
         dc:replaces            "60469" ;
         dc:title               "Mirador de Pelegrina" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/vista-panoramica/17093/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/vista-panoramica/17093/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
 georec:23878  a                btn100:VistaPanoramica ;
@@ -226,18 +226,18 @@ georec:23878  a                btn100:VistaPanoramica ;
         dc:created             "2012-09-20"^^xsd:date ;
         dc:identifier          "23878" ;
         dc:title               "Mirador de las Escaleras" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/vista-panoramica/23878/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/vista-panoramica/23878/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
-<https://datos.ign.es/recurso/btn100/vista-panoramica/11078/geometry>
+<http://geo.linkeddata.es/recurso/btn100/vista-panoramica/11078/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.2024209900000002 41.89614875965398)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/vista-panoramica/11075/geometry>
+<http://geo.linkeddata.es/recurso/btn100/vista-panoramica/11075/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.2946092400000007 42.283611009825)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/vista-panoramica/18846/geometry>
+<http://geo.linkeddata.es/recurso/btn100/vista-panoramica/18846/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.26939483 40.44953775882546)"^^geosparql:wktLiteral .
 
@@ -247,10 +247,10 @@ georec:16224  a                btn100:VistaPanoramica ;
         dc:identifier          "16224" ;
         dc:replaces            "30069" ;
         dc:title               "Vista Panorámica Abrigo de los Toricos del Navazo" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/vista-panoramica/16224/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/vista-panoramica/16224/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
-<https://datos.ign.es/recurso/btn100/vista-panoramica/11072/geometry>
+<http://geo.linkeddata.es/recurso/btn100/vista-panoramica/11072/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.1626909299999992 42.38519466986623)"^^geosparql:wktLiteral .
 
@@ -260,22 +260,22 @@ georec:18842  a                btn100:VistaPanoramica ;
         dc:identifier          "18842" ;
         dc:replaces            "59109" ;
         dc:title               "Mirador" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/vista-panoramica/18842/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/vista-panoramica/18842/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
-<https://datos.ign.es/recurso/btn100/vista-panoramica/21582/geometry>
+<http://geo.linkeddata.es/recurso/btn100/vista-panoramica/21582/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.699687909999999 41.17460564927774)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/vista-panoramica/30415/geometry>
+<http://geo.linkeddata.es/recurso/btn100/vista-panoramica/30415/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.678232080000003 37.46436240622882)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/vista-panoramica/8719/geometry>
+<http://geo.linkeddata.es/recurso/btn100/vista-panoramica/8719/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.5402998500000002 42.050288519724624)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/vista-panoramica/26719/geometry>
+<http://geo.linkeddata.es/recurso/btn100/vista-panoramica/26719/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.82321418 42.77600060001064)"^^geosparql:wktLiteral .
 
@@ -284,7 +284,7 @@ georec:11074  a                btn100:VistaPanoramica ;
         dc:created             "2012-03-21"^^xsd:date ;
         dc:identifier          "11074" ;
         dc:title               "Mirador" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/vista-panoramica/11074/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/vista-panoramica/11074/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
 georec:8719  a                 btn100:VistaPanoramica ;
@@ -292,18 +292,18 @@ georec:8719  a                 btn100:VistaPanoramica ;
         dc:created             "2012-08-08"^^xsd:date ;
         dc:identifier          "8719" ;
         dc:title               "Mirador" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/vista-panoramica/8719/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/vista-panoramica/8719/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
-<https://datos.ign.es/recurso/btn100/vista-panoramica/16226/geometry>
+<http://geo.linkeddata.es/recurso/btn100/vista-panoramica/16226/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.80412249 40.32137307873791)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/vista-panoramica/23340/geometry>
+<http://geo.linkeddata.es/recurso/btn100/vista-panoramica/23340/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.728146590000001 42.17574173977958)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/vista-panoramica/31066/geometry>
+<http://geo.linkeddata.es/recurso/btn100/vista-panoramica/31066/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.8380120900000003 39.82892046838076)"^^geosparql:wktLiteral .
 
@@ -312,7 +312,7 @@ georec:35031  a                btn100:VistaPanoramica ;
         dc:created             "2013-03-27"^^xsd:date ;
         dc:identifier          "35031" ;
         dc:title               "Mirador de Isora" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/vista-panoramica/35031/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/vista-panoramica/35031/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
 georec:29619  a                btn100:VistaPanoramica ;
@@ -320,10 +320,10 @@ georec:29619  a                btn100:VistaPanoramica ;
         dc:created             "2008-06-05"^^xsd:date ;
         dc:identifier          "29619" ;
         dc:title               "Mirador del Guarda Forestal" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/vista-panoramica/29619/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/vista-panoramica/29619/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
-<https://datos.ign.es/recurso/btn100/vista-panoramica/17093/geometry>
+<http://geo.linkeddata.es/recurso/btn100/vista-panoramica/17093/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.6217175699999995 41.01220824918284)"^^geosparql:wktLiteral .
 
@@ -332,10 +332,10 @@ georec:26719  a                btn100:VistaPanoramica ;
         dc:created             "2012-09-12"^^xsd:date ;
         dc:identifier          "26719" ;
         dc:title               "Campo del Agua, El Regueiral y Las Valiñas" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/vista-panoramica/26719/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/vista-panoramica/26719/geometry> ;
         btn100:codigoBIC       "RI-53-0000556-00000" .
 
-<https://datos.ign.es/recurso/btn100/vista-panoramica/29619/geometry>
+<http://geo.linkeddata.es/recurso/btn100/vista-panoramica/29619/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.9868302999999985 36.78147825548224)"^^geosparql:wktLiteral .
 
@@ -344,26 +344,26 @@ georec:11079  a                btn100:VistaPanoramica ;
         dc:created             "2012-03-21"^^xsd:date ;
         dc:identifier          "11079" ;
         dc:title               "Mirador" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/vista-panoramica/11079/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/vista-panoramica/11079/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
-<https://datos.ign.es/recurso/btn100/vista-panoramica/11077/geometry>
+<http://geo.linkeddata.es/recurso/btn100/vista-panoramica/11077/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.550168459999999 42.18014933978147)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/vista-panoramica/11074/geometry>
+<http://geo.linkeddata.es/recurso/btn100/vista-panoramica/11074/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.2945568200000004 42.32800553984321)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/vista-panoramica/18845/geometry>
+<http://geo.linkeddata.es/recurso/btn100/vista-panoramica/18845/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.971744010000003 39.84460951839265)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/vista-panoramica/11071/geometry>
+<http://geo.linkeddata.es/recurso/btn100/vista-panoramica/11071/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (1.9619124000000001 42.363516689857555)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/vista-panoramica/18842/geometry>
+<http://geo.linkeddata.es/recurso/btn100/vista-panoramica/18842/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.77315725 40.114105478591604)"^^geosparql:wktLiteral .
 
@@ -372,14 +372,14 @@ georec:11073  a                btn100:VistaPanoramica ;
         dc:created             "2012-03-21"^^xsd:date ;
         dc:identifier          "11073" ;
         dc:title               "Mirador" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/vista-panoramica/11073/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/vista-panoramica/11073/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
-<https://datos.ign.es/recurso/btn100/vista-panoramica/21584/geometry>
+<http://geo.linkeddata.es/recurso/btn100/vista-panoramica/21584/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.682150400000003 41.21116004929859)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/vista-panoramica/30414/geometry>
+<http://geo.linkeddata.es/recurso/btn100/vista-panoramica/30414/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.47006629 37.894415646671504)"^^geosparql:wktLiteral .
 
@@ -389,7 +389,7 @@ georec:18846  a                btn100:VistaPanoramica ;
         dc:identifier          "18846" ;
         dc:replaces            "58931" ;
         dc:title               "Mirador" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/vista-panoramica/18846/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/vista-panoramica/18846/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
 georec:11080  a                btn100:VistaPanoramica ;
@@ -397,7 +397,7 @@ georec:11080  a                btn100:VistaPanoramica ;
         dc:created             "2012-03-21"^^xsd:date ;
         dc:identifier          "11080" ;
         dc:title               "Mirador" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/vista-panoramica/11080/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/vista-panoramica/11080/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
 georec:31066  a                btn100:VistaPanoramica ;
@@ -405,10 +405,10 @@ georec:31066  a                btn100:VistaPanoramica ;
         dc:created             "2010-10-22"^^xsd:date ;
         dc:identifier          "31066" ;
         dc:title               "Vista Panoràmica de sa Casa Nova" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/vista-panoramica/31066/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/vista-panoramica/31066/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
-<https://datos.ign.es/recurso/btn100/vista-panoramica/16225/geometry>
+<http://geo.linkeddata.es/recurso/btn100/vista-panoramica/16225/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.7240853500000001 40.95850612915065)"^^geosparql:wktLiteral .
 
@@ -417,10 +417,10 @@ georec:34535  a                btn100:VistaPanoramica ;
         dc:created             "2010-02-26"^^xsd:date ;
         dc:identifier          "34535" ;
         dc:title               "Mirador" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/vista-panoramica/34535/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/vista-panoramica/34535/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
-<https://datos.ign.es/recurso/btn100/vista-panoramica/31173/geometry>
+<http://geo.linkeddata.es/recurso/btn100/vista-panoramica/31173/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (1.4351062700000001 38.73967433747668)"^^geosparql:wktLiteral .
 
@@ -429,7 +429,7 @@ georec:11078  a                btn100:VistaPanoramica ;
         dc:created             "2012-03-21"^^xsd:date ;
         dc:identifier          "11078" ;
         dc:title               "Mirador" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/vista-panoramica/11078/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/vista-panoramica/11078/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
 georec:31173  a                btn100:VistaPanoramica ;
@@ -437,14 +437,14 @@ georec:31173  a                btn100:VistaPanoramica ;
         dc:created             "2012-12-03"^^xsd:date ;
         dc:identifier          "31173" ;
         dc:title               "Salinas de Formentera" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/vista-panoramica/31173/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/vista-panoramica/31173/geometry> ;
         btn100:codigoBIC       "RI-53-0000561-00000" .
 
-<https://datos.ign.es/recurso/btn100/vista-panoramica/31065/geometry>
+<http://geo.linkeddata.es/recurso/btn100/vista-panoramica/31065/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.3805020700000004 39.612676208213635)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/vista-panoramica/23926/geometry>
+<http://geo.linkeddata.es/recurso/btn100/vista-panoramica/23926/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.29002556 41.44004846942482)"^^geosparql:wktLiteral .
 
@@ -453,7 +453,7 @@ georec:11072  a                btn100:VistaPanoramica ;
         dc:created             "2012-03-21"^^xsd:date ;
         dc:identifier          "11072" ;
         dc:title               "Mirador" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/vista-panoramica/11072/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/vista-panoramica/11072/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
 georec:18845  a                btn100:VistaPanoramica ;
@@ -462,14 +462,14 @@ georec:18845  a                btn100:VistaPanoramica ;
         dc:identifier          "18845" ;
         dc:replaces            "58950" ;
         dc:title               "Mirador La Higuerilla" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/vista-panoramica/18845/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/vista-panoramica/18845/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
-<https://datos.ign.es/recurso/btn100/vista-panoramica/11073/geometry>
+<http://geo.linkeddata.es/recurso/btn100/vista-panoramica/11073/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (3.2371362299999995 42.348380279851455)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/vista-panoramica/21583/geometry>
+<http://geo.linkeddata.es/recurso/btn100/vista-panoramica/21583/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.7298836999999985 41.103511599236654)"^^geosparql:wktLiteral .
 
@@ -478,7 +478,7 @@ georec:31065  a                btn100:VistaPanoramica ;
         dc:created             "2010-09-30"^^xsd:date ;
         dc:identifier          "31065" ;
         dc:title               "Vista Panoràmica d'en Josep Sastre" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/vista-panoramica/31065/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/vista-panoramica/31065/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
 georec:23926  a                btn100:VistaPanoramica ;
@@ -486,7 +486,7 @@ georec:23926  a                btn100:VistaPanoramica ;
         dc:created             "2012-10-04"^^xsd:date ;
         dc:identifier          "23926" ;
         dc:title               "Mirador de las Barrancas" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/vista-panoramica/23926/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/vista-panoramica/23926/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 
 georec:21584  a                btn100:VistaPanoramica ;
@@ -495,6 +495,6 @@ georec:21584  a                btn100:VistaPanoramica ;
         dc:identifier          "21584" ;
         dc:replaces            "47816" ;
         dc:title               "Mirador del Fraile" ;
-        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/vista-panoramica/21584/geometry> ;
+        geosparql:hasGeometry  <http://geo.linkeddata.es/recurso/btn100/vista-panoramica/21584/geometry> ;
         btn100:codigoBIC       "NO PROCEDE" .
 

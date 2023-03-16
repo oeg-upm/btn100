@@ -66,9 +66,9 @@
            </partitioning>
 		<attributename>ID</attributename>
 		<feature>Mina</feature>
-		<ontologyns>https://datos.ign.es/def/btn100#</ontologyns>
+		<ontologyns>http://geo.linkeddata.es/def/btn100#</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/btn100/mina/</resourcens>
+		<resourcens>http://geo.linkeddata.es/recurso/btn100/mina/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -128,7 +128,7 @@
 		<columns>
 		<column>estadoDeLaExplotacionMinera</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>ESTADO</column_shp>
 		</columns>
@@ -160,9 +160,9 @@
            </partitioning>
 		<attributename>ID</attributename>
 		<feature>Cantera</feature>
-		<ontologyns>https://datos.ign.es/def/btn100#</ontologyns>
+		<ontologyns>http://geo.linkeddata.es/def/btn100#</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/btn100/cantera/</resourcens>
+		<resourcens>http://geo.linkeddata.es/recurso/btn100/cantera/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -222,7 +222,7 @@
 		<columns>
 		<column>estadoDeLaExplotacionMinera</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>ESTADO</column_shp>
 		</columns>
@@ -254,9 +254,9 @@
            </partitioning>
 		<attributename>ID</attributename>
 		<feature>ExplotacionMinera</feature>
-		<ontologyns>https://datos.ign.es/def/btn100#</ontologyns>
+		<ontologyns>http://geo.linkeddata.es/def/btn100#</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/btn100/explotacion-minera/</resourcens>
+		<resourcens>http://geo.linkeddata.es/recurso/btn100/explotacion-minera/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -316,7 +316,7 @@
 		<columns>
 		<column>estadoDeLaExplotacionMinera</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>ESTADO</column_shp>
 		</columns>
@@ -352,15 +352,15 @@
     <fields>
       <field>
         <source_value>01</source_value>
-        <target_value>&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;poblaciones-construcciones&#47;estado-de-uso&#47;en-uso&gt;</target_value>
+        <target_value>&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;poblaciones-construcciones&#47;estado-de-uso&#47;en-uso&gt;</target_value>
       </field>
       <field>
         <source_value>02</source_value>
-        <target_value>&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;poblaciones-construcciones&#47;estado-de-uso&#47;en-construccion&gt;</target_value>
+        <target_value>&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;poblaciones-construcciones&#47;estado-de-uso&#47;en-construccion&gt;</target_value>
       </field>
       <field>
         <source_value>03</source_value>
-        <target_value>&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;poblaciones-construcciones&#47;estado-de-uso&#47;abandonado&gt;</target_value>
+        <target_value>&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;poblaciones-construcciones&#47;estado-de-uso&#47;abandonado&gt;</target_value>
       </field>
     </fields>
      <cluster_schema/>

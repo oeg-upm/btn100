@@ -66,9 +66,9 @@
            </partitioning>
 		<attributename>identificador</attributename>
 		<feature>EstacionTelecomunicaciones</feature>
-		<ontologyns>https://datos.ign.es/def/btn100#</ontologyns>
+		<ontologyns>http://geo.linkeddata.es/def/btn100#</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/btn100/estacion-telecomunicaciones/</resourcens>
+		<resourcens>http://geo.linkeddata.es/recurso/btn100/estacion-telecomunicaciones/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -121,7 +121,7 @@
 		<columns>
 		<column>componenteDeTelecomunicaciones</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>COMPO_0705</column_shp>
 		</columns>
@@ -160,9 +160,9 @@
            </partitioning>
 		<attributename>identificador</attributename>
 		<feature>EstacionTelefonica</feature>
-		<ontologyns>https://datos.ign.es/def/btn100#</ontologyns>
+		<ontologyns>http://geo.linkeddata.es/def/btn100#</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/btn100/estacion-telefonica/</resourcens>
+		<resourcens>http://geo.linkeddata.es/recurso/btn100/estacion-telefonica/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -215,7 +215,7 @@
 		<columns>
 		<column>componenteDeTelecomunicaciones</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>COMPO_0705</column_shp>
 		</columns>
@@ -254,9 +254,9 @@
            </partitioning>
 		<attributename>identificador</attributename>
 		<feature>EstacionDeTelevision</feature>
-		<ontologyns>https://datos.ign.es/def/btn100#</ontologyns>
+		<ontologyns>http://geo.linkeddata.es/def/btn100#</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/btn100/estacion-television/</resourcens>
+		<resourcens>http://geo.linkeddata.es/recurso/btn100/estacion-television/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -309,7 +309,7 @@
 		<columns>
 		<column>componenteDeTelecomunicaciones</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>COMPO_0705</column_shp>
 		</columns>
@@ -348,9 +348,9 @@
            </partitioning>
 		<attributename>identificador</attributename>
 		<feature>EstacionDeRadio</feature>
-		<ontologyns>https://datos.ign.es/def/btn100#</ontologyns>
+		<ontologyns>http://geo.linkeddata.es/def/btn100#</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/btn100/estacion-radio/</resourcens>
+		<resourcens>http://geo.linkeddata.es/recurso/btn100/estacion-radio/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -403,7 +403,7 @@
 		<columns>
 		<column>componenteDeTelecomunicaciones</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>COMPO_0705</column_shp>
 		</columns>
@@ -673,11 +673,11 @@ var identificador = ID;</jsScript_script>
     <fields>
       <field>
         <source_value>01</source_value>
-        <target_value>&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;red-de-suministro&#47;tipo-de-componente&#47;emisor&gt;</target_value>
+        <target_value>&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;red-de-suministro&#47;tipo-de-componente&#47;emisor&gt;</target_value>
       </field>
       <field>
         <source_value>02</source_value>
-        <target_value>&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;red-de-suministro&#47;tipo-de-componente&#47;repetidor&gt;</target_value>
+        <target_value>&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;red-de-suministro&#47;tipo-de-componente&#47;repetidor&gt;</target_value>
       </field>
       <field>
         <source_value>00</source_value>
