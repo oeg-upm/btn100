@@ -66,9 +66,9 @@
            </partitioning>
 		<attributename>ID</attributename>
 		<feature>RioSuperficial</feature>
-		<ontologyns>https://datos.ign.es/def/btn100#</ontologyns>
+		<ontologyns>http://geo.linkeddata.es/def/btn100#</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/btn100/rio-superficial/</resourcens>
+		<resourcens>http://geo.linkeddata.es/recurso/btn100/rio-superficial/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -121,14 +121,14 @@
 		<columns>
 		<column>categoriaDeRio</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>CATEG_0301</column_shp>
 		</columns>
 		<columns>
 		<column>codigoDeRio</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>COD_RIO</column_shp>
 		</columns>
@@ -325,16 +325,16 @@ else{
 }
 
 if( CATEG_0301 == &quot;01&quot;) {
-    CATEG_0301 = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;hidrografia&#47;categoria-de-rio&#47;rio-principal&gt;&quot;;
+    CATEG_0301 = &quot;&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;hidrografia&#47;categoria-de-rio&#47;rio-principal&gt;&quot;;
 }
 else if( CATEG_0301 == &quot;02&quot;) {
-    CATEG_0301 = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;hidrografia&#47;categoria-de-rio&#47;rio-secundario&gt;&quot;;
+    CATEG_0301 = &quot;&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;hidrografia&#47;categoria-de-rio&#47;rio-secundario&gt;&quot;;
 }
 else if( CATEG_0301 == &quot;03&quot;) {
-    CATEG_0301 = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;hidrografia&#47;categoria-de-rio&#47;rio-terciario&gt;&quot;;
+    CATEG_0301 = &quot;&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;hidrografia&#47;categoria-de-rio&#47;rio-terciario&gt;&quot;;
 }
 else if( CATEG_0301 == &quot;04&quot;) {
-    CATEG_0301 = &quot;&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;hidrografia&#47;categoria-de-rio&#47;rio-menor-interes&gt;&quot;;
+    CATEG_0301 = &quot;&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;hidrografia&#47;categoria-de-rio&#47;rio-menor-interes&gt;&quot;;
 }
 else {
     CATEG_0301 = &quot;&quot;;

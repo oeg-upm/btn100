@@ -2,24 +2,24 @@
 @prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix sf:    <http://www.opengis.net/ont/sf#> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix btn100: <https://datos.ign.es/def/btn100#> .
+@prefix btn100: <http://geo.linkeddata.es/def/btn100#> .
 @prefix owl:   <http://www.w3.org/2002/07/owl#> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
-@prefix georec: <https://datos.ign.es/recurso/btn100/estacion-permanente-gps/> .
+@prefix georec: <http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix geo_core: <https://datos.ign.es/def/geo_core#> .
+@prefix geo_core: <http://geo.linkeddata.es/def/geo_core#> .
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
 @prefix dc:    <http://purl.org/dc/terms/> .
 
-<https://datos.ign.es/recurso/btn100/estacion-permanente-gps/169/geometry>
+<http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/169/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.709523119999992 40.44583587582293)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/estacion-permanente-gps/166/geometry>
+<http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/166/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.650975505001455 42.58840542094411)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/estacion-permanente-gps/163/geometry>
+<http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/163/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.721111094001301 37.915604533692736)"^^geosparql:wktLiteral .
 
@@ -28,7 +28,7 @@ georec:181  a                      btn100:EstacionPermanenteGPS ;
         dc:created                 "2014-06-17"^^xsd:date ;
         dc:identifier              "181" ;
         dc:title                   "Estación Permanente de Rioja 1" ;
-        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/estacion-permanente-gps/181/geometry> ;
+        geosparql:hasGeometry      <http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/181/geometry> ;
         geo:alt                    "450.391" ;
         geo:lat                    "42.464240911" ;
         geo:long                   "-2.426097019" ;
@@ -43,7 +43,7 @@ georec:153  a                      btn100:EstacionPermanenteGPS ;
         dc:created                 "2014-06-17"^^xsd:date ;
         dc:identifier              "153" ;
         dc:title                   "Estación Permanente de Palma de Mallorca" ;
-        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/estacion-permanente-gps/153/geometry> ;
+        geosparql:hasGeometry      <http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/153/geometry> ;
         geo:alt                    "62.063" ;
         geo:lat                    "39.552623681" ;
         geo:long                   "2.624550872" ;
@@ -58,7 +58,7 @@ georec:166  a                      btn100:EstacionPermanenteGPS ;
         dc:created                 "2014-06-17"^^xsd:date ;
         dc:identifier              "166" ;
         dc:title                   "Estación Permanente de León" ;
-        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/estacion-permanente-gps/166/geometry> ;
+        geosparql:hasGeometry      <http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/166/geometry> ;
         geo:alt                    "970.254" ;
         geo:lat                    "42.588405381" ;
         geo:long                   "-5.650975505" ;
@@ -73,7 +73,7 @@ georec:179  a                      btn100:EstacionPermanenteGPS ;
         dc:created                 "2014-06-17"^^xsd:date ;
         dc:identifier              "179" ;
         dc:title                   "Estación Permanente de Teruel" ;
-        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/estacion-permanente-gps/179/geometry> ;
+        geosparql:hasGeometry      <http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/179/geometry> ;
         geo:alt                    "956.187" ;
         geo:lat                    "40.350497264" ;
         geo:long                   "-1.124301033" ;
@@ -83,23 +83,23 @@ georec:179  a                      btn100:EstacionPermanenteGPS ;
         geo_core:xETRS89           "659292.144" ;
         geo_core:yETRS89           "4468348.677" .
 
-<https://datos.ign.es/recurso/btn100/estacion-permanente-gps/186/geometry>
+<http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/186/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.0041624110000105 41.40541595640619)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/estacion-permanente-gps/183/geometry>
+<http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/183/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.7265277829999852 42.567337675936336)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/estacion-permanente-gps/155/geometry>
+<http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/155/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-8.398935414000276 43.36438082018541)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/estacion-permanente-gps/180/geometry>
+<http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/180/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.3376509439999913 39.48082516310869)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/estacion-permanente-gps/152/geometry>
+<http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/152/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-16.241156746999234 28.4771826423612)"^^geosparql:wktLiteral .
 
@@ -108,7 +108,7 @@ georec:160  a                      btn100:EstacionPermanenteGPS ;
         dc:created                 "2014-06-17"^^xsd:date ;
         dc:identifier              "160" ;
         dc:title                   "Estación Permanente de Tarifa" ;
-        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/estacion-permanente-gps/160/geometry> ;
+        geosparql:hasGeometry      <http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/160/geometry> ;
         geo:alt                    "49.938" ;
         geo:lat                    "36.008508006" ;
         geo:long                   "-5.602620431" ;
@@ -123,7 +123,7 @@ georec:173  a                      btn100:EstacionPermanenteGPS ;
         dc:created                 "2014-06-17"^^xsd:date ;
         dc:identifier              "173" ;
         dc:title                   "Estación Permanente de Cantabria" ;
-        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/estacion-permanente-gps/173/geometry> ;
+        geosparql:hasGeometry      <http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/173/geometry> ;
         geo:alt                    "99.287" ;
         geo:lat                    "43.471977219" ;
         geo:long                   "-3.798066264" ;
@@ -138,7 +138,7 @@ georec:145  a                      btn100:EstacionPermanenteGPS ;
         dc:created                 "2014-06-17"^^xsd:date ;
         dc:identifier              "145" ;
         dc:title                   "Estación Permanente de Los Cristianos" ;
-        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/estacion-permanente-gps/145/geometry> ;
+        geosparql:hasGeometry      <http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/145/geometry> ;
         geo:alt                    "58.543" ;
         geo:lat                    "28.047162308" ;
         geo:long                   "-16.718524669" ;
@@ -153,7 +153,7 @@ georec:186  a                      btn100:EstacionPermanenteGPS ;
         dc:created                 "2014-06-17"^^xsd:date ;
         dc:identifier              "186" ;
         dc:title                   "Estación Permanente de Barcelona" ;
-        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/estacion-permanente-gps/186/geometry> ;
+        geosparql:hasGeometry      <http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/186/geometry> ;
         geo:alt                    "84.825" ;
         geo:lat                    "41.405415917" ;
         geo:long                   "2.004162411" ;
@@ -168,7 +168,7 @@ georec:158  a                      btn100:EstacionPermanenteGPS ;
         dc:created                 "2014-06-17"^^xsd:date ;
         dc:identifier              "158" ;
         dc:title                   "Estación Permanente de Zafra" ;
-        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/estacion-permanente-gps/158/geometry> ;
+        geosparql:hasGeometry      <http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/158/geometry> ;
         geo:alt                    "587.445" ;
         geo:lat                    "38.426011092" ;
         geo:long                   "-6.410042347" ;
@@ -178,15 +178,15 @@ georec:158  a                      btn100:EstacionPermanenteGPS ;
         geo_core:xETRS89           "726087.325" ;
         geo_core:yETRS89           "4256260.618" .
 
-<https://datos.ign.es/recurso/btn100/estacion-permanente-gps/179/geometry>
+<http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/179/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-1.1243010329999867 40.350497302757994)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/estacion-permanente-gps/148/geometry>
+<http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/148/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-16.804166599999196 28.32777772311434)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/estacion-permanente-gps/145/geometry>
+<http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/145/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-16.718524668999247 28.04716233065017)"^^geosparql:wktLiteral .
 
@@ -195,7 +195,7 @@ georec:180  a                      btn100:EstacionPermanenteGPS ;
         dc:created                 "2014-06-17"^^xsd:date ;
         dc:identifier              "180" ;
         dc:title                   "Estación Permanente de Valencia" ;
-        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/estacion-permanente-gps/180/geometry> ;
+        geosparql:hasGeometry      <http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/180/geometry> ;
         geo:alt                    "77.592" ;
         geo:lat                    "39.480825125" ;
         geo:long                   "-0.337650944" ;
@@ -210,7 +210,7 @@ georec:152  a                      btn100:EstacionPermanenteGPS ;
         dc:created                 "2014-06-17"^^xsd:date ;
         dc:identifier              "152" ;
         dc:title                   "Estación Permanente de Santa Cruz" ;
-        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/estacion-permanente-gps/152/geometry> ;
+        geosparql:hasGeometry      <http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/152/geometry> ;
         geo:alt                    "51.787" ;
         geo:lat                    "28.477182619" ;
         geo:long                   "-16.241156747" ;
@@ -225,7 +225,7 @@ georec:165  a                      btn100:EstacionPermanenteGPS ;
         dc:created                 "2014-06-17"^^xsd:date ;
         dc:identifier              "165" ;
         dc:title                   "Estación Permanente de Lugo" ;
-        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/estacion-permanente-gps/165/geometry> ;
+        geosparql:hasGeometry      <http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/165/geometry> ;
         geo:alt                    "476.611" ;
         geo:lat                    "42.993079544" ;
         geo:long                   "-7.544685519" ;
@@ -240,7 +240,7 @@ georec:178  a                      btn100:EstacionPermanenteGPS ;
         dc:created                 "2014-06-17"^^xsd:date ;
         dc:identifier              "178" ;
         dc:title                   "Estación Permanente de Ibiza" ;
-        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/estacion-permanente-gps/178/geometry> ;
+        geosparql:hasGeometry      <http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/178/geometry> ;
         geo:alt                    "59.885" ;
         geo:lat                    "38.911245308" ;
         geo:long                   "1.448962219" ;
@@ -250,15 +250,15 @@ georec:178  a                      btn100:EstacionPermanenteGPS ;
         geo_core:xETRS89           "365521.785" ;
         geo_core:yETRS89           "4308070.913" .
 
-<https://datos.ign.es/recurso/btn100/estacion-permanente-gps/168/geometry>
+<http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/168/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.9639695499999865 39.67535109626273)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/estacion-permanente-gps/165/geometry>
+<http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/165/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-7.544685519000654 42.99307958408111)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/estacion-permanente-gps/162/geometry>
+<http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/162/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.393532847001268 36.726112187419425)"^^geosparql:wktLiteral .
 
@@ -267,7 +267,7 @@ georec:172  a                      btn100:EstacionPermanenteGPS ;
         dc:created                 "2014-06-17"^^xsd:date ;
         dc:identifier              "172" ;
         dc:title                   "Estación Permanente de Aranda de Duero" ;
-        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/estacion-permanente-gps/172/geometry> ;
+        geosparql:hasGeometry      <http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/172/geometry> ;
         geo:alt                    "844.477" ;
         geo:lat                    "41.665814511" ;
         geo:long                   "-3.742599547" ;
@@ -282,7 +282,7 @@ georec:144  a                      btn100:EstacionPermanenteGPS ;
         dc:created                 "2014-06-17"^^xsd:date ;
         dc:identifier              "144" ;
         dc:title                   "Estación Permanente de La Palma" ;
-        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/estacion-permanente-gps/144/geometry> ;
+        geosparql:hasGeometry      <http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/144/geometry> ;
         geo:alt                    "2199.221" ;
         geo:lat                    "28.763870122" ;
         geo:long                   "-17.893829844" ;
@@ -297,7 +297,7 @@ georec:185  a                      btn100:EstacionPermanenteGPS ;
         dc:created                 "2014-06-17"^^xsd:date ;
         dc:identifier              "185" ;
         dc:title                   "Estación Permanente de Fraga" ;
-        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/estacion-permanente-gps/185/geometry> ;
+        geosparql:hasGeometry      <http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/185/geometry> ;
         geo:alt                    "181.803" ;
         geo:lat                    "41.509458528" ;
         geo:long                   "0.324157672" ;
@@ -312,7 +312,7 @@ georec:157  a                      btn100:EstacionPermanenteGPS ;
         dc:created                 "2014-06-17"^^xsd:date ;
         dc:identifier              "157" ;
         dc:title                   "Estación Permanente de Huelva" ;
-        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/estacion-permanente-gps/157/geometry> ;
+        geosparql:hasGeometry      <http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/157/geometry> ;
         geo:alt                    "81.86" ;
         geo:lat                    "37.199978741" ;
         geo:long                   "-6.920299206" ;
@@ -322,15 +322,15 @@ georec:157  a                      btn100:EstacionPermanenteGPS ;
         geo_core:xETRS89           "684568.867" ;
         geo_core:yETRS89           "4119082.774" .
 
-<https://datos.ign.es/recurso/btn100/estacion-permanente-gps/185/geometry>
+<http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/185/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (0.3241576720000126 41.509458567461614)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/estacion-permanente-gps/158/geometry>
+<http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/158/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.410042347000818 38.42601112918812)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/estacion-permanente-gps/182/geometry>
+<http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/182/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.882164602999986 41.63339503652561)"^^geosparql:wktLiteral .
 
@@ -339,7 +339,7 @@ georec:151  a                      btn100:EstacionPermanenteGPS ;
         dc:created                 "2014-06-17"^^xsd:date ;
         dc:identifier              "151" ;
         dc:title                   "Estación Permanente de El Puerto" ;
-        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/estacion-permanente-gps/151/geometry> ;
+        geosparql:hasGeometry      <http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/151/geometry> ;
         geo:alt                    "54.475" ;
         geo:lat                    "28.418253075" ;
         geo:long                   "-16.550789264" ;
@@ -354,7 +354,7 @@ georec:164  a                      btn100:EstacionPermanenteGPS ;
         dc:created                 "2014-06-17"^^xsd:date ;
         dc:identifier              "164" ;
         dc:title                   "Estación Permanente de Almodóvar Campo" ;
-        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/estacion-permanente-gps/164/geometry> ;
+        geosparql:hasGeometry      <http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/164/geometry> ;
         geo:alt                    "743.384" ;
         geo:lat                    "38.705509883" ;
         geo:long                   "-4.180254367" ;
@@ -364,7 +364,7 @@ georec:164  a                      btn100:EstacionPermanenteGPS ;
         geo_core:xETRS89           "397375.814" ;
         geo_core:yETRS89           "4284758.534" .
 
-<https://datos.ign.es/recurso/btn100/estacion-permanente-gps/178/geometry>
+<http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/178/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (1.4489622190000138 38.91124534562925)"^^geosparql:wktLiteral .
 
@@ -373,7 +373,7 @@ georec:177  a                      btn100:EstacionPermanenteGPS ;
         dc:created                 "2014-06-17"^^xsd:date ;
         dc:identifier              "177" ;
         dc:title                   "Estación Permanente de Alicante" ;
-        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/estacion-permanente-gps/177/geometry> ;
+        geosparql:hasGeometry      <http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/177/geometry> ;
         geo:alt                    "60.356" ;
         geo:lat                    "38.338917657" ;
         geo:long                   "-0.481232511" ;
@@ -383,15 +383,15 @@ georec:177  a                      btn100:EstacionPermanenteGPS ;
         geo_core:xETRS89           "720135.941" ;
         geo_core:yETRS89           "4246422.301" .
 
-<https://datos.ign.es/recurso/btn100/estacion-permanente-gps/175/geometry>
+<http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/175/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.8700078859999922 39.50320895512668)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/estacion-permanente-gps/147/geometry>
+<http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/147/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-16.60685960999923 28.223447612941857)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/estacion-permanente-gps/172/geometry>
+<http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/172/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.7425995469999886 41.66581455054196)"^^geosparql:wktLiteral .
 
@@ -400,7 +400,7 @@ georec:149  a                      btn100:EstacionPermanenteGPS ;
         dc:created                 "2014-06-17"^^xsd:date ;
         dc:identifier              "149" ;
         dc:title                   "Estación Permanente de CRAJ MRajada" ;
-        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/estacion-permanente-gps/149/geometry> ;
+        geosparql:hasGeometry      <http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/149/geometry> ;
         geo:alt                    "2509.824" ;
         geo:lat                    "28.264722" ;
         geo:long                   "-16.596964" ;
@@ -410,7 +410,7 @@ georec:149  a                      btn100:EstacionPermanenteGPS ;
         geo_core:xETRS89           "343358.514" ;
         geo_core:yETRS89           "3127561.474" .
 
-<https://datos.ign.es/recurso/btn100/estacion-permanente-gps/144/geometry>
+<http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/144/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-17.893829843999004 28.763870145834098)"^^geosparql:wktLiteral .
 
@@ -419,7 +419,7 @@ georec:171  a                      btn100:EstacionPermanenteGPS ;
         dc:created                 "2014-06-17"^^xsd:date ;
         dc:identifier              "171" ;
         dc:title                   "Estación Permanente de Yebes" ;
-        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/estacion-permanente-gps/171/geometry> ;
+        geosparql:hasGeometry      <http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/171/geometry> ;
         geo:alt                    "972.778" ;
         geo:lat                    "40.524897689" ;
         geo:long                   "-3.088629161" ;
@@ -434,7 +434,7 @@ georec:143  a                      btn100:EstacionPermanenteGPS ;
         dc:created                 "2014-06-17"^^xsd:date ;
         dc:identifier              "143" ;
         dc:title                   "Estación Permanente de El Pinar" ;
-        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/estacion-permanente-gps/143/geometry> ;
+        geosparql:hasGeometry      <http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/143/geometry> ;
         geo:alt                    "897.412" ;
         geo:lat                    "27.709415221" ;
         geo:long                   "-17.978874391" ;
@@ -449,7 +449,7 @@ georec:184  a                      btn100:EstacionPermanenteGPS ;
         dc:created                 "2014-06-17"^^xsd:date ;
         dc:identifier              "184" ;
         dc:title                   "Estación Permanente de Peñíscola" ;
-        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/estacion-permanente-gps/184/geometry> ;
+        geosparql:hasGeometry      <http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/184/geometry> ;
         geo:alt                    "108.591" ;
         geo:lat                    "40.395672636" ;
         geo:long                   "0.358922944" ;
@@ -464,7 +464,7 @@ georec:156  a                      btn100:EstacionPermanenteGPS ;
         dc:created                 "2014-06-17"^^xsd:date ;
         dc:identifier              "156" ;
         dc:title                   "Estación Permanente de Melilla" ;
-        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/estacion-permanente-gps/156/geometry> ;
+        geosparql:hasGeometry      <http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/156/geometry> ;
         geo:alt                    "88.851" ;
         geo:lat                    "35.281185401" ;
         geo:long                   "-2.951655783" ;
@@ -474,11 +474,11 @@ georec:156  a                      btn100:EstacionPermanenteGPS ;
         geo_core:xETRS89           "504396.346" ;
         geo_core:yETRS89           "3904227.252" .
 
-<https://datos.ign.es/recurso/btn100/estacion-permanente-gps/164/geometry>
+<http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/164/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-4.180254366999991 38.705509920445834)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/estacion-permanente-gps/161/geometry>
+<http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/161/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.30639355000095 35.89196954543389)"^^geosparql:wktLiteral .
 
@@ -487,7 +487,7 @@ georec:169  a                      btn100:EstacionPermanenteGPS ;
         dc:created                 "2014-06-17"^^xsd:date ;
         dc:identifier              "169" ;
         dc:title                   "Estación Permanente de IGNE" ;
-        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/estacion-permanente-gps/169/geometry> ;
+        geosparql:hasGeometry      <http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/169/geometry> ;
         geo:alt                    "766.92" ;
         geo:lat                    "40.445835837" ;
         geo:long                   "-3.70952312" ;
@@ -502,7 +502,7 @@ georec:150  a                      btn100:EstacionPermanenteGPS ;
         dc:created                 "2014-06-17"^^xsd:date ;
         dc:identifier              "150" ;
         dc:title                   "Estación Permanente de Izaña" ;
-        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/estacion-permanente-gps/150/geometry> ;
+        geosparql:hasGeometry      <http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/150/geometry> ;
         geo:alt                    "2417.483" ;
         geo:lat                    "28.308065006" ;
         geo:long                   "-16.499681967" ;
@@ -517,7 +517,7 @@ georec:163  a                      btn100:EstacionPermanenteGPS ;
         dc:created                 "2014-06-17"^^xsd:date ;
         dc:identifier              "163" ;
         dc:title                   "Estación Permanente de Córdoba" ;
-        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/estacion-permanente-gps/163/geometry> ;
+        geosparql:hasGeometry      <http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/163/geometry> ;
         geo:alt                    "202.082" ;
         geo:lat                    "37.915604497" ;
         geo:long                   "-4.721111094" ;
@@ -527,11 +527,11 @@ georec:163  a                      btn100:EstacionPermanenteGPS ;
         geo_core:xETRS89           "348712.409" ;
         geo_core:yETRS89           "4197847.778" .
 
-<https://datos.ign.es/recurso/btn100/estacion-permanente-gps/157/geometry>
+<http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/157/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.920299206000594 37.19997877694602)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/estacion-permanente-gps/181/geometry>
+<http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/181/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.426097018999991 42.464240950897256)"^^geosparql:wktLiteral .
 
@@ -540,7 +540,7 @@ georec:176  a                      btn100:EstacionPermanenteGPS ;
         dc:created                 "2014-06-17"^^xsd:date ;
         dc:identifier              "176" ;
         dc:title                   "Estación Permanente de Albacete" ;
-        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/estacion-permanente-gps/176/geometry> ;
+        geosparql:hasGeometry      <http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/176/geometry> ;
         geo:alt                    "751.736" ;
         geo:lat                    "38.977915125" ;
         geo:long                   "-1.85640394" ;
@@ -550,7 +550,7 @@ georec:176  a                      btn100:EstacionPermanenteGPS ;
         geo_core:xETRS89           "599058.153" ;
         geo_core:yETRS89           "4314947.687" .
 
-<https://datos.ign.es/recurso/btn100/estacion-permanente-gps/154/geometry>
+<http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/154/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-8.813071536000079 42.183977370783126)"^^geosparql:wktLiteral .
 
@@ -559,7 +559,7 @@ georec:148  a                      btn100:EstacionPermanenteGPS ;
         dc:created                 "2014-06-17"^^xsd:date ;
         dc:identifier              "148" ;
         dc:title                   "Estación Permanente de Erjos" ;
-        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/estacion-permanente-gps/148/geometry> ;
+        geosparql:hasGeometry      <http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/148/geometry> ;
         geo:alt                    "1053.553" ;
         geo:lat                    "28.3277777" ;
         geo:long                   "-16.8041666" ;
@@ -569,7 +569,7 @@ georec:148  a                      btn100:EstacionPermanenteGPS ;
         geo_core:xETRS89           "323133.262" ;
         geo_core:yETRS89           "3134834.501" .
 
-<https://datos.ign.es/recurso/btn100/estacion-permanente-gps/151/geometry>
+<http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/151/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-16.550789263999206 28.41825309826386)"^^geosparql:wktLiteral .
 
@@ -578,7 +578,7 @@ georec:170  a                      btn100:EstacionPermanenteGPS ;
         dc:created                 "2014-06-17"^^xsd:date ;
         dc:identifier              "170" ;
         dc:title                   "Estación Permanente de YEBES 1" ;
-        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/estacion-permanente-gps/170/geometry> ;
+        geosparql:hasGeometry      <http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/170/geometry> ;
         geo:alt                    "975.367" ;
         geo:lat                    "40.523777975" ;
         geo:long                   "-3.090197464" ;
@@ -588,7 +588,7 @@ georec:170  a                      btn100:EstacionPermanenteGPS ;
         geo_core:xETRS89           "4485897.996" ;
         geo_core:yETRS89           "492359.92" .
 
-<https://datos.ign.es/recurso/btn100/estacion-permanente-gps/177/geometry>
+<http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/177/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-0.4812325109999909 38.338917694105845)"^^geosparql:wktLiteral .
 
@@ -597,7 +597,7 @@ georec:183  a                      btn100:EstacionPermanenteGPS ;
         dc:created                 "2014-06-17"^^xsd:date ;
         dc:identifier              "183" ;
         dc:title                   "Estación Permanente de JACA" ;
-        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/estacion-permanente-gps/183/geometry> ;
+        geosparql:hasGeometry      <http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/183/geometry> ;
         geo:alt                    "738.94" ;
         geo:lat                    "42.567337636" ;
         geo:long                   "-0.726527783" ;
@@ -607,11 +607,11 @@ georec:183  a                      btn100:EstacionPermanenteGPS ;
         geo_core:xETRS89           "686606.089" ;
         geo_core:yETRS89           "4715275.282" .
 
-<https://datos.ign.es/recurso/btn100/estacion-permanente-gps/174/geometry>
+<http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/174/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.4594496669999875 36.85253132456234)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/estacion-permanente-gps/171/geometry>
+<http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/171/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.088629160999992 40.52489772787589)"^^geosparql:wktLiteral .
 
@@ -620,7 +620,7 @@ georec:155  a                      btn100:EstacionPermanenteGPS ;
         dc:created                 "2014-06-17"^^xsd:date ;
         dc:identifier              "155" ;
         dc:title                   "Estación Permanente de A Coruña" ;
-        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/estacion-permanente-gps/155/geometry> ;
+        geosparql:hasGeometry      <http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/155/geometry> ;
         geo:alt                    "66.918" ;
         geo:lat                    "43.36438078" ;
         geo:long                   "-8.398935414" ;
@@ -630,7 +630,7 @@ georec:155  a                      btn100:EstacionPermanenteGPS ;
         geo_core:xETRS89           "548701.341" ;
         geo_core:yETRS89           "4801455.361" .
 
-<https://datos.ign.es/recurso/btn100/estacion-permanente-gps/143/geometry>
+<http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/143/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-17.97887439099917 27.709415243090824)"^^geosparql:wktLiteral .
 
@@ -639,7 +639,7 @@ georec:168  a                      btn100:EstacionPermanenteGPS ;
         dc:created                 "2014-06-17"^^xsd:date ;
         dc:identifier              "168" ;
         dc:title                   "Estación Permanente de Sonseca" ;
-        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/estacion-permanente-gps/168/geometry> ;
+        geosparql:hasGeometry      <http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/168/geometry> ;
         geo:alt                    "808.967" ;
         geo:lat                    "39.675351058" ;
         geo:long                   "-3.96396955" ;
@@ -649,7 +649,7 @@ georec:168  a                      btn100:EstacionPermanenteGPS ;
         geo_core:xETRS89           "417326.769" ;
         geo_core:yETRS89           "4392169.407" .
 
-<https://datos.ign.es/recurso/btn100/estacion-permanente-gps/167/geometry>
+<http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/167/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.495863564001345 40.94508121414253)"^^geosparql:wktLiteral .
 
@@ -658,7 +658,7 @@ georec:162  a                      btn100:EstacionPermanenteGPS ;
         dc:created                 "2014-06-17"^^xsd:date ;
         dc:identifier              "162" ;
         dc:title                   "Estación Permanente de Málaga" ;
-        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/estacion-permanente-gps/162/geometry> ;
+        geosparql:hasGeometry      <http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/162/geometry> ;
         geo:alt                    "119.848" ;
         geo:lat                    "36.726112152" ;
         geo:long                   "-4.393532847" ;
@@ -668,7 +668,7 @@ georec:162  a                      btn100:EstacionPermanenteGPS ;
         geo_core:xETRS89           "375562.097" ;
         geo_core:yETRS89           "4065394.829" .
 
-<https://datos.ign.es/recurso/btn100/estacion-permanente-gps/160/geometry>
+<http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/160/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-5.602620431000881 36.00850804057589)"^^geosparql:wktLiteral .
 
@@ -677,7 +677,7 @@ georec:175  a                      btn100:EstacionPermanenteGPS ;
         dc:created                 "2014-06-17"^^xsd:date ;
         dc:identifier              "175" ;
         dc:title                   "Estación Permanente de Mota del Cuervo" ;
-        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/estacion-permanente-gps/175/geometry> ;
+        geosparql:hasGeometry      <http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/175/geometry> ;
         geo:alt                    "779.787" ;
         geo:lat                    "39.503208917" ;
         geo:long                   "-2.870007886" ;
@@ -692,7 +692,7 @@ georec:147  a                      btn100:EstacionPermanenteGPS ;
         dc:created                 "2014-06-17"^^xsd:date ;
         dc:identifier              "147" ;
         dc:title                   "Estación Permanente de CCAN Las Cañadas" ;
-        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/estacion-permanente-gps/147/geometry> ;
+        geosparql:hasGeometry      <http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/147/geometry> ;
         geo:alt                    "2291.137" ;
         geo:lat                    "28.22344759" ;
         geo:long                   "-16.60685961" ;
@@ -702,19 +702,19 @@ georec:147  a                      btn100:EstacionPermanenteGPS ;
         geo_core:xETRS89           "342325.099" ;
         geo_core:yETRS89           "3123000.99" .
 
-<https://datos.ign.es/recurso/btn100/estacion-permanente-gps/187/geometry>
+<http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/187/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.855129108000023 42.04158561772075)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/estacion-permanente-gps/159/geometry>
+<http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/159/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-6.341785017000912 39.47886071610711)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/estacion-permanente-gps/184/geometry>
+<http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/184/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (0.3589229440000118 40.39567267478894)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/estacion-permanente-gps/156/geometry>
+<http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/156/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-2.951655782999996 35.28118543466755)"^^geosparql:wktLiteral .
 
@@ -723,7 +723,7 @@ georec:182  a                      btn100:EstacionPermanenteGPS ;
         dc:created                 "2014-06-17"^^xsd:date ;
         dc:identifier              "182" ;
         dc:title                   "Estación Permanente de Zaragoza" ;
-        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/estacion-permanente-gps/182/geometry> ;
+        geosparql:hasGeometry      <http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/182/geometry> ;
         geo:alt                    "296.112" ;
         geo:lat                    "41.633394997" ;
         geo:long                   "-0.882164603" ;
@@ -733,7 +733,7 @@ georec:182  a                      btn100:EstacionPermanenteGPS ;
         geo_core:xETRS89           "676401.994" ;
         geo_core:yETRS89           "4611240.268" .
 
-<https://datos.ign.es/recurso/btn100/estacion-permanente-gps/153/geometry>
+<http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/153/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (2.6245508720000146 39.5526237191661)"^^geosparql:wktLiteral .
 
@@ -742,7 +742,7 @@ georec:154  a                      btn100:EstacionPermanenteGPS ;
         dc:created                 "2014-06-17"^^xsd:date ;
         dc:identifier              "154" ;
         dc:title                   "Estación Permanente de Vigo" ;
-        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/estacion-permanente-gps/154/geometry> ;
+        geosparql:hasGeometry      <http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/154/geometry> ;
         geo:alt                    "87.79" ;
         geo:lat                    "42.183977331" ;
         geo:long                   "-8.813071536" ;
@@ -752,7 +752,7 @@ georec:154  a                      btn100:EstacionPermanenteGPS ;
         geo_core:xETRS89           "515436.301" ;
         geo_core:yETRS89           "4670220.255" .
 
-<https://datos.ign.es/recurso/btn100/estacion-permanente-gps/150/geometry>
+<http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/150/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-16.499681966999226 28.30806502908176)"^^geosparql:wktLiteral .
 
@@ -761,7 +761,7 @@ georec:167  a                      btn100:EstacionPermanenteGPS ;
         dc:created                 "2014-06-17"^^xsd:date ;
         dc:identifier              "167" ;
         dc:title                   "Estación Permanente de Salamanca" ;
-        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/estacion-permanente-gps/167/geometry> ;
+        geosparql:hasGeometry      <http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/167/geometry> ;
         geo:alt                    "854.969" ;
         geo:lat                    "40.945081175" ;
         geo:long                   "-5.495863564" ;
@@ -771,15 +771,15 @@ georec:167  a                      btn100:EstacionPermanenteGPS ;
         geo_core:xETRS89           "289910.418" ;
         geo_core:yETRS89           "4535660.326" .
 
-<https://datos.ign.es/recurso/btn100/estacion-permanente-gps/176/geometry>
+<http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/176/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-1.8564039399999976 38.97791516268752)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/estacion-permanente-gps/149/geometry>
+<http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/149/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-16.596963999999222 28.264722023010105)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/estacion-permanente-gps/173/geometry>
+<http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/173/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.798066263999992 43.47197725921182)"^^geosparql:wktLiteral .
 
@@ -788,7 +788,7 @@ georec:161  a                      btn100:EstacionPermanenteGPS ;
         dc:created                 "2014-06-17"^^xsd:date ;
         dc:identifier              "161" ;
         dc:title                   "Estación Permanente de Ceuta" ;
-        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/estacion-permanente-gps/161/geometry> ;
+        geosparql:hasGeometry      <http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/161/geometry> ;
         geo:alt                    "52.475" ;
         geo:lat                    "35.891969511" ;
         geo:long                   "-5.30639355" ;
@@ -798,11 +798,11 @@ georec:161  a                      btn100:EstacionPermanenteGPS ;
         geo_core:xETRS89           "291829.369" ;
         geo_core:yETRS89           "3974423.522" .
 
-<https://datos.ign.es/recurso/btn100/estacion-permanente-gps/146/geometry>
+<http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/146/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-16.636929723256188 28.158893031756193)"^^geosparql:wktLiteral .
 
-<https://datos.ign.es/recurso/btn100/estacion-permanente-gps/170/geometry>
+<http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/170/geometry>
         a                sf:Point ;
         geosparql:asWKT  "POINT (-3.0901974639999916 40.52377801387512)"^^geosparql:wktLiteral .
 
@@ -811,7 +811,7 @@ georec:174  a                      btn100:EstacionPermanenteGPS ;
         dc:created                 "2014-06-17"^^xsd:date ;
         dc:identifier              "174" ;
         dc:title                   "Estación Permanente de Almería" ;
-        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/estacion-permanente-gps/174/geometry> ;
+        geosparql:hasGeometry      <http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/174/geometry> ;
         geo:alt                    "127.517" ;
         geo:lat                    "36.852531289" ;
         geo:long                   "-2.459449667" ;
@@ -826,7 +826,7 @@ georec:146  a                      btn100:EstacionPermanenteGPS ;
         dc:created                 "2014-06-17"^^xsd:date ;
         dc:identifier              "146" ;
         dc:title                   "Estación Permanente de Vilaflor" ;
-        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/estacion-permanente-gps/146/geometry> ;
+        geosparql:hasGeometry      <http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/146/geometry> ;
         geo:alt                    "1468.143" ;
         geo:lat                    "28.158893009" ;
         geo:long                   "-16.63692972" ;
@@ -841,7 +841,7 @@ georec:187  a                      btn100:EstacionPermanenteGPS ;
         dc:created                 "2014-06-17"^^xsd:date ;
         dc:identifier              "187" ;
         dc:title                   "Estación Permanente de Girona" ;
-        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/estacion-permanente-gps/187/geometry> ;
+        geosparql:hasGeometry      <http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/187/geometry> ;
         geo:alt                    "112.718" ;
         geo:lat                    "42.041585578" ;
         geo:long                   "2.855129108" ;
@@ -856,7 +856,7 @@ georec:159  a                      btn100:EstacionPermanenteGPS ;
         dc:created                 "2014-06-17"^^xsd:date ;
         dc:identifier              "159" ;
         dc:title                   "Estación Permanente de Cáceres" ;
-        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/estacion-permanente-gps/159/geometry> ;
+        geosparql:hasGeometry      <http://geo.linkeddata.es/recurso/btn100/estacion-permanente-gps/159/geometry> ;
         geo:alt                    "436.527" ;
         geo:lat                    "39.478860678" ;
         geo:long                   "-6.341785017" ;

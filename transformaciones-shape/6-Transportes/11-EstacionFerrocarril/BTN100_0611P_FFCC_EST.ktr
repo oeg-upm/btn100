@@ -66,9 +66,9 @@
            </partitioning>
 		<attributename>ID</attributename>
 		<feature>EstacionDeFerrocarril</feature>
-		<ontologyns>https://datos.ign.es/def/btn100#</ontologyns>
+		<ontologyns>http://geo.linkeddata.es/def/btn100#</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/btn100/estacion-ferrocarril/</resourcens>
+		<resourcens>http://geo.linkeddata.es/recurso/btn100/estacion-ferrocarril/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -121,7 +121,7 @@
 		<columns>
 		<column>codigoDeEstacion</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>COD_EST</column_shp>
 		</columns>
@@ -135,7 +135,7 @@
 		<columns>
 		<column>tipoDeTrafico</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>TRAFICO</column_shp>
 		</columns>
@@ -149,7 +149,7 @@
 		<columns>
 		<column>rutaTEN-T</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>TEN_T</column_shp>
 		</columns>
@@ -181,9 +181,9 @@
            </partitioning>
 		<attributename>ID</attributename>
 		<feature>Apeadero</feature>
-		<ontologyns>https://datos.ign.es/def/btn100#</ontologyns>
+		<ontologyns>http://geo.linkeddata.es/def/btn100#</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/btn100/apeadero/</resourcens>
+		<resourcens>http://geo.linkeddata.es/recurso/btn100/apeadero/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -236,7 +236,7 @@
 		<columns>
 		<column>codigoDeEstacion</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>COD_EST</column_shp>
 		</columns>
@@ -250,7 +250,7 @@
 		<columns>
 		<column>tipoDeTrafico</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>TRAFICO</column_shp>
 		</columns>
@@ -264,7 +264,7 @@
 		<columns>
 		<column>rutaTEN-T</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>TEN_T</column_shp>
 		</columns>
@@ -296,9 +296,9 @@
            </partitioning>
 		<attributename>ID</attributename>
 		<feature>EstacionDeSuministro</feature>
-		<ontologyns>https://datos.ign.es/def/btn100#</ontologyns>
+		<ontologyns>http://geo.linkeddata.es/def/btn100#</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/btn100/estacion-suministro/</resourcens>
+		<resourcens>http://geo.linkeddata.es/recurso/btn100/estacion-suministro/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -351,7 +351,7 @@
 		<columns>
 		<column>codigoDeEstacion</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>COD_EST</column_shp>
 		</columns>
@@ -365,7 +365,7 @@
 		<columns>
 		<column>tipoDeTrafico</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>TRAFICO</column_shp>
 		</columns>
@@ -379,7 +379,7 @@
 		<columns>
 		<column>rutaTEN-T</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>TEN_T</column_shp>
 		</columns>
@@ -411,9 +411,9 @@
            </partitioning>
 		<attributename>ID</attributename>
 		<feature>Apartadero</feature>
-		<ontologyns>https://datos.ign.es/def/btn100#</ontologyns>
+		<ontologyns>http://geo.linkeddata.es/def/btn100#</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/btn100/apartadero/</resourcens>
+		<resourcens>http://geo.linkeddata.es/recurso/btn100/apartadero/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -466,7 +466,7 @@
 		<columns>
 		<column>codigoDeEstacion</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>COD_EST</column_shp>
 		</columns>
@@ -480,7 +480,7 @@
 		<columns>
 		<column>tipoDeTrafico</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>TRAFICO</column_shp>
 		</columns>
@@ -494,7 +494,7 @@
 		<columns>
 		<column>rutaTEN-T</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>TEN_T</column_shp>
 		</columns>
@@ -526,9 +526,9 @@
            </partitioning>
 		<attributename>ID</attributename>
 		<feature>Cargadero</feature>
-		<ontologyns>https://datos.ign.es/def/btn100#</ontologyns>
+		<ontologyns>http://geo.linkeddata.es/def/btn100#</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/btn100/cargadero/</resourcens>
+		<resourcens>http://geo.linkeddata.es/recurso/btn100/cargadero/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -581,7 +581,7 @@
 		<columns>
 		<column>codigoDeEstacion</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>COD_EST</column_shp>
 		</columns>
@@ -595,7 +595,7 @@
 		<columns>
 		<column>tipoDeTrafico</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>TRAFICO</column_shp>
 		</columns>
@@ -609,7 +609,7 @@
 		<columns>
 		<column>rutaTEN-T</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>TEN_T</column_shp>
 		</columns>
@@ -641,9 +641,9 @@
            </partitioning>
 		<attributename>ID</attributename>
 		<feature>InstalacionFerroviaria</feature>
-		<ontologyns>https://datos.ign.es/def/btn100#</ontologyns>
+		<ontologyns>http://geo.linkeddata.es/def/btn100#</ontologyns>
 		<ontologynsprefix>btn100</ontologynsprefix>
-		<resourcens>https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/</resourcens>
+		<resourcens>http://geo.linkeddata.es/recurso/btn100/instalacion-ferroviaria/</resourcens>
 		<resourcensprefix>georec</resourcensprefix>
 		<language>null</language>
 		<pathcsv>null</pathcsv>
@@ -696,7 +696,7 @@
 		<columns>
 		<column>codigoDeEstacion</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>COD_EST</column_shp>
 		</columns>
@@ -710,7 +710,7 @@
 		<columns>
 		<column>tipoDeTrafico</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>TRAFICO</column_shp>
 		</columns>
@@ -724,7 +724,7 @@
 		<columns>
 		<column>rutaTEN-T</column>
 		<prefix>btn100</prefix>
-		<uri>https:&#47;&#47;datos.ign.es&#47;def&#47;btn100#</uri>
+		<uri>http:&#47;&#47;geo.linkeddata.es&#47;def&#47;btn100#</uri>
 		<show>YES</show>
 		<column_shp>TEN_T</column_shp>
 		</columns>
@@ -1013,11 +1013,11 @@ var type=&quot;&lt;http:&#47;&#47;geo.linkeddata.es&#47;ontology&#47;Instalacion
     <fields>
       <field>
         <source_value>01</source_value>
-        <target_value>&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;ruta-ten-t&#47;ruta-no-transeuropea&gt;</target_value>
+        <target_value>&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;transportes&#47;ruta-ten-t&#47;ruta-no-transeuropea&gt;</target_value>
       </field>
       <field>
         <source_value>02</source_value>
-        <target_value>&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;ruta-ten-t&#47;ruta-no-transeuropea&gt;</target_value>
+        <target_value>&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;transportes&#47;ruta-ten-t&#47;ruta-no-transeuropea&gt;</target_value>
       </field>
     </fields>
      <cluster_schema/>
@@ -1044,15 +1044,15 @@ var type=&quot;&lt;http:&#47;&#47;geo.linkeddata.es&#47;ontology&#47;Instalacion
     <fields>
       <field>
         <source_value>01</source_value>
-        <target_value>&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;tipo-de-trafico&#47;mixto&gt;</target_value>
+        <target_value>&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;transportes&#47;tipo-de-trafico&#47;mixto&gt;</target_value>
       </field>
       <field>
         <source_value>02</source_value>
-        <target_value>&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;tipo-de-trafico&#47;viajeros&gt;</target_value>
+        <target_value>&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;transportes&#47;tipo-de-trafico&#47;viajeros&gt;</target_value>
       </field>
       <field>
         <source_value>03</source_value>
-        <target_value>&lt;https:&#47;&#47;datos.ign.es&#47;kos&#47;transportes&#47;tipo-de-trafico&#47;mercancias&gt;</target_value>
+        <target_value>&lt;http:&#47;&#47;geo.linkeddata.es&#47;kos&#47;transportes&#47;tipo-de-trafico&#47;mercancias&gt;</target_value>
       </field>
     </fields>
      <cluster_schema/>
